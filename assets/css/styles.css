@@ -922,6 +922,10 @@ grid-template-columns: repeat(2,1fr);
 .swiper-button-next::after{
     content: '';
 }
+.swiper-portfolio-icon
+{
+    size: 19px;
+}
 
 
 /*==================== PROJECT IN MIND ====================*/
