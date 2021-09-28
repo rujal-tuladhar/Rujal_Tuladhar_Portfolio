@@ -454,6 +454,7 @@ color:var(--first-color);
     background-color: #FFF;
 }
 
+
 /*==================== ABOUT ====================*/
 .about__img{
     width: 1000px;
@@ -1256,7 +1257,7 @@ color:#FFF;
 
 /* For medium devices */
 
-@media screen and(min-width: 568px)
+@media screen and (min-width: 568px)
 {
     .home__content{
         grid-template-columns : max-content 1fr 1fr;
