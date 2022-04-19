@@ -212,11 +212,21 @@ body{
     color:var(--title-color);
     font-weight: var(--font-medium);
 
+
+
 }
 
 .nav__logo:hover{
     color:var(--first-color);
 }
+
+
+.the_logo{
+    height: auto;
+    width: auto;
+    
+}
+
 
 .nav__toggle{
     font-size:1.1rem;
