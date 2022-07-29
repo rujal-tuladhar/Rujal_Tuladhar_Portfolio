@@ -1292,6 +1292,7 @@ color:#FFF;
     .services__container{
         grid-template-columns: repeat(3,218px);
         justify-content: center;
+       
     }
 
     .services__icon{
@@ -1377,7 +1378,7 @@ color:#FFF;
     }
 
     .services__container{
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(3, 338px);
     }
 
     .portfolio__content{
