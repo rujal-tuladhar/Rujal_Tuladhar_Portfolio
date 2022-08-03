@@ -804,6 +804,13 @@ grid-template-columns: repeat(2,1fr);
     justify-content: center;    
     }
 
+    .services__container3{
+        gap:1.5rem;
+     
+        grid-template-columns: repeat(1,375px);
+        justify-content: center;    
+        }
+
 .services__content{
     position: relative;
     background-color:var(--container-color);
@@ -1140,6 +1147,10 @@ color:#FFF;
         grid-template-columns: repeat(1,329px);
         justify-content: center;
     }
+    .services__container3{
+        grid-template-columns: repeat(1,329px);
+        justify-content: center;
+    }
 
     .services__content{
         padding-right:1.5rem;
@@ -1328,7 +1339,16 @@ color:#FFF;
     .services__container2{
         grid-template-columns: repeat(1,629px);
         justify-content: center;
-       
+    
+        
+    }
+
+    
+    .services__container3{
+        grid-template-columns: repeat(1,629px);
+        justify-content: center;
+    
+        
     }
 
 
@@ -1423,6 +1443,10 @@ color:#FFF;
 
     .services__container2{
         grid-template-columns: repeat(3, 368px);
+    }
+
+    .services__container3{
+        grid-template-columns: repeat(1, 1149px);
     }
 
     .portfolio__content{
