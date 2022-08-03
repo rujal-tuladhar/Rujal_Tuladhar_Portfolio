@@ -169,8 +169,9 @@ body{
 }
 
 .section__title{
+    padding-top:15px;
     font-size:var(--h1-font-size);
-    color:white;
+    color:black;
 }
 
 .section__subtitle
@@ -355,7 +356,7 @@ color:var(--first-color);
 
 .home__social-icon
 {
-    font-size:1.25rem;
+    font-size:1.95rem;
     color:var(--first-color);
 }
 
