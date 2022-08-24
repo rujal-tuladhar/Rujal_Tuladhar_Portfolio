@@ -372,7 +372,9 @@ color:var(--first-color);
 .home__blob
 {
     width:200px;
-    fill: var(--first-color);
+    
+    fill:var(--first-color);
+
 }
 
 .home__blob-img{
@@ -387,6 +389,12 @@ color:var(--first-color);
 .home__title
 {
     font-size:var(--big-font-size);
+    text-align: center;
+    letter-spacing: -1.5px;
+    
+    
+   
+
 }
 
 .home__subtitle
