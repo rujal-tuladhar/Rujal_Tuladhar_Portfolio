@@ -1530,7 +1530,7 @@ color:#FFF;
     color: white;
     box-shadow: 5px 5px 15px rgba(119, 232, 255, 0.9);
     font-family: 'Roboto', sans-serif;
-    text-align: justify;
+    text-align: center;
 
     transition: 0.5s ease;
     cursor: pointer;
