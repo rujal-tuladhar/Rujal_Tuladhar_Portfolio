@@ -1520,7 +1520,7 @@ color:#FFF;
 
 .card {
     display: grid;
-    
+    grid-template-columns: 360px;
     grid-template-rows: 300px 100px 180px;
     grid-template-areas: "image" "text" "stats";
 
@@ -1691,14 +1691,15 @@ color:#FFF;
 
 .card
 {
-grid-template-columns: 300px;
+grid-template-columns: 360px;
 
-
+grid-template-rows: 350px 100px 80px;
+grid-template-areas: "image" "text" "stats";
 }
 
 .erap
 {
-height:100vh
+height:80vh
 }
 }
 
@@ -1719,7 +1720,7 @@ height:70vh
 }
 
 
-@media screen and (min-width: 1100px)
+@media screen and (min-width: 1200px)
 {
 
 .card
