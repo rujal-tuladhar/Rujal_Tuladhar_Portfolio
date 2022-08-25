@@ -1542,7 +1542,7 @@ color:#FFF;
 
 .card-image {
     grid-area: image;
-    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("https://images.pexels.com/photos/5668842/pexels-photo-5668842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%), url("https://z2p8p3k3.rocketcdn.me/wp-content/uploads/2019/05/step1-discovery.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
