@@ -1697,7 +1697,7 @@ color:#FFF;
 
 .card
 {
-grid-template-columns: 360px;
+grid-template-columns: 375px;
 grid-template-rows: 500px 250px 560px;
 grid-template-areas: "image" "text" "stats";
 
