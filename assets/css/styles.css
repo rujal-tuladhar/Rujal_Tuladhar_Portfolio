@@ -374,7 +374,7 @@ color:var(--first-color);
 {
     width:200px;
     
-    fill:var(--first-color);
+    fill:rgb(80, 218, 236);
 
 }
 
@@ -1723,7 +1723,7 @@ grid-template-areas: "image" "text" "stats";
 
 .erap
 {
-height:140vh
+height:10vh
 }
 }
 
@@ -1740,7 +1740,7 @@ grid-template-areas: "image" "text" "stats";
 
 .erap
 {
-height:140vh
+height:170vh
 }
 }
 .button2 {
@@ -1768,7 +1768,7 @@ grid-template-areas: "image" "text" "stats";
 
 .erap
 {
-height:140vh
+height:170vh
 }
 }
 
@@ -1786,6 +1786,6 @@ grid-template-areas: "image" "text" "stats";
 
 .erap
 {
-height:150vh
+height:160vh
 }
 }
