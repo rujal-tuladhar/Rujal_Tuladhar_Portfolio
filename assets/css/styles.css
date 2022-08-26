@@ -1715,7 +1715,7 @@ height:165vh
 
 .card
 {
-grid-template-columns: 500px;
+grid-template-columns: 540px;
 grid-template-rows: 500px 250px 370px;
 grid-template-areas: "image" "text" "stats";
 
@@ -1723,7 +1723,7 @@ grid-template-areas: "image" "text" "stats";
 
 .erap
 {
-height:10vh
+height:175vh
 }
 }
 
