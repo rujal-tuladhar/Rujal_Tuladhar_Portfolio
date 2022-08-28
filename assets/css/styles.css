@@ -64,6 +64,14 @@
     object-position: top;
 }
 
+hr
+{
+    border-radius: 50%;
+    padding-top: 2px;
+   width:88px ;
+background: linear-gradient(90deg,rgba(0, 253, 240, 0.797),rgba(176, 235, 247, 0.918)),rgba(26, 202, 233, 0.879);
+
+}
 
 @media screen and (min-width: 767px) 
 {
@@ -75,7 +83,6 @@
         object-position: top;
     }
 }
-
 
 
 /* Font size for large devices */
@@ -393,14 +400,18 @@ color:var(--first-color);
     font-size:var(--big-font-size);
     text-align: center;
     letter-spacing: -1.5px;
+    padding-bottom: 36px;
     
     
    
 
 }
 
+
+
 .home__subtitle
 {
+    text-align: center;
     font-size:var(--h3-font-size);
     color:var(--text-color);
     font-weight:var(--font-medium) ;
@@ -1213,6 +1224,7 @@ color:#FFF;
     .home__img{
         order:1;
         justify-self:center;
+       
     }
 
     .skills__container,
@@ -1965,3 +1977,34 @@ height:149vh
     -webkit-animation-delay: -6s;
     animation-delay: -6s;
 }
+
+
+/* Scroller styling */
+.scroller {
+    height: 1.2em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: 18em;
+  }
+  .scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+    font-weight: bold;
+    
+  }
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.2em;
+    }
+    50% {
+      top: -2.4em;
+    }
+    75% {
+      top: -3.6em;
+    }
+  }
