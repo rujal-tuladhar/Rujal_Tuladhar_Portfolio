@@ -66,10 +66,11 @@
 
 hr
 {
-    border-radius: 50%;
+   
+    border-radius: 20%;
     padding-top: 2px;
-   width:88px ;
-background: linear-gradient(90deg,rgba(0, 253, 240, 0.797),rgba(176, 235, 247, 0.918)),rgba(26, 202, 233, 0.879);
+   width:118px ;
+background: linear-gradient(90deg,rgb(26 202 233 / 88%),rgb(0 253 240 / 80%)),rgba(26, 202, 233, 0.879);
 
 }
 
