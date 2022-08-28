@@ -1,4 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 /*==================== VARIABLES CSS ====================*/
@@ -1790,7 +1791,6 @@ height:149vh
 }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 /* Main styles */
  .text {
 	 fill: none;
