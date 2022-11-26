@@ -176,7 +176,9 @@ body{
     }
     
 
-
+    img.rounded-corners {
+        border-radius: 30px;
+      }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
