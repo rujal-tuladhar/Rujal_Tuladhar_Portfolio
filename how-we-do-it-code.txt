@@ -1,0 +1,141 @@
+<!--==================== WHAT WE DO ====================-->
+          <div >
+ <section id="process" >
+
+            <h1 class="section__title"style="padding-top:85px; ">HOW WE DO IT ? 😎</h1>
+         
+            <div class="erap">
+            <div class="card rgb" >
+              <div class="card-image"></div>
+              <div class="card-text">
+               
+                <div class="the_body">
+                    <svg viewBox="0 0 600 600">
+                        <!-- Symbol-->
+                        <symbol id="s-text">
+                          <text text-anchor="middle" x="45%" y="10%" dy=".35em">discovery  01</text>
+                          <text text-anchor="middle" x="12%" y="25%" dy=".35em">get</text>
+                          <text text-anchor="middle" x="32%" y="40%" dy=".35em">to know</text>
+                          <text text-anchor="middle" x="15%" y="55%" dy=".35em">you</text>
+
+
+
+                        </symbol>
+                        <!-- Duplicate symbols-->
+                        <use class="text" xlink:href="#s-text"></use>
+                        <use class="text" xlink:href="#s-text"></use>
+                        <use class="text" xlink:href="#s-text"></use>
+                        <use class="text" xlink:href="#s-text"></use>
+                        <use class="text" xlink:href="#s-text"></use>
+                      </svg>
+                    </div>
+
+                   
+               
+              </div>
+              
+            </div>
+            
+          </div>
+
+
+          <div class="erap">
+            <div class="card rgb" >
+              <div class="card-image card2"></div>
+              <div class="card-text">
+                <div class="the_body">
+                    <svg viewBox="0 0 600 600">
+                        <!-- Symbol-->
+                        <symbol id="s-text2">
+                          <text text-anchor="middle" x="42%" y="10%" dy=".35em">strategy  02</text>
+                          <text text-anchor="middle" x="31%" y="25%" dy=".35em">mapping</text>
+                          <text text-anchor="middle" x="19%" y="40%" dy=".35em">your</text>
+                          <text text-anchor="middle" x="28%" y="55%" dy=".35em">website</text>
+
+
+
+                        </symbol>
+                        <!-- Duplicate symbols-->
+                        <use class="text2" xlink:href="#s-text2"></use>
+                        <use class="text2" xlink:href="#s-text2"></use>
+                        <use class="text2" xlink:href="#s-text2"></use>
+                        <use class="text2" xlink:href="#s-text2"></use>
+                        <use class="text2" xlink:href="#s-text2"></use>
+                      </svg>
+                    </div>
+                
+               
+              </div>
+              
+            </div>
+            
+          </div>
+
+
+          <div class="erap">
+            <div class="card rgb " >
+              <div class="card-image card3"></div>
+              <div class="card-text">
+
+                <div class="the_body">
+                    <svg viewBox="0 0 600 600">
+                        <!-- Symbol-->
+                        <symbol id="s-text3">
+                          <text text-anchor="middle" x="33%" y="10%" dy=".35em">design  03</text>
+                          <text text-anchor="middle" x="29%" y="25%" dy=".35em">outline</text>
+                          <text text-anchor="middle" x="14%" y="40%" dy=".35em">for</text>
+                          <text text-anchor="middle" x="29%" y="55%" dy=".35em">website</text>
+
+
+
+                        </symbol>
+                        <!-- Duplicate symbols-->
+                        <use class="text3" xlink:href="#s-text3"></use>
+                        <use class="text3" xlink:href="#s-text3"></use>
+                        <use class="text3" xlink:href="#s-text3"></use>
+                        <use class="text3" xlink:href="#s-text3"></use>
+                        <use class="text3" xlink:href="#s-text3"></use>
+                      </svg>
+                    </div>
+                
+                
+              </div>
+              
+            </div>
+            
+          </div>
+
+
+          <div class="erap">
+            <div class="card rgb" >
+              <div class="card-image card4"></div>
+              <div class="card-text">
+                <div class="the_body">
+                    <svg viewBox="0 0 600 600">
+                        <!-- Symbol-->
+                        <symbol id="s-text4">
+                          <text text-anchor="middle" x="29%" y="10%" dy=".35em">build  04</text>
+                          <text text-anchor="middle" x="18%" y="25%" dy=".35em">code</text>
+                          <text text-anchor="middle" x="16%" y="40%" dy=".35em">test</text>
+                          <text text-anchor="middle" x="29%" y="55%" dy=".35em">launch</text>
+
+
+
+                        </symbol>
+                        <!-- Duplicate symbols-->
+                        <use class="text4" xlink:href="#s-text4"></use>
+                        <use class="text4" xlink:href="#s-text4"></use>
+                        <use class="text4" xlink:href="#s-text4"></use>
+                        <use class="text4" xlink:href="#s-text4"></use>
+                        <use class="text4" xlink:href="#s-text4"></use>
+                      </svg>
+                    </div>
+                
+              </div>
+              
+            </div>
+            
+          </div>
+
+        </section>
+    </div>
