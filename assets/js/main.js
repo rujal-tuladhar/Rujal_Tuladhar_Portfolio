@@ -231,8 +231,30 @@ if (dropdownItem) {
 const vapi = new Vapi('4138cfbd-4ba7-420d-9fad-5e5867135873');
 
 const vapiBtn = document.getElementById('vapi-call-btn');
-if(vapiBtn) {
+
+if (vapiBtn) {
     vapiBtn.addEventListener('click', () => {
+        // Start the call with the Assistant ID
         vapi.start('bad48562-a42b-4bcb-be6e-1baba98ec4a8');
+    });
+
+    // --- Event Handling (from Vapi Docs) ---
+    vapi.on('call-start', () => {
+        console.log('Vapi Call started');
+        vapiBtn.innerHTML = 'Call Active <i class="uil uil-microphone button__icon"></i>';
+    });
+
+    vapi.on('call-end', () => {
+        console.log('Vapi Call ended');
+        vapiBtn.innerHTML = 'Call Now <i class="uil uil-message button__icon"></i>';
+    });
+
+    vapi.on('speech-start', () => {
+        console.log('Speech detected');
+    });
+
+    vapi.on('error', (error) => {
+        console.error('Vapi Error:', error);
+        vapiBtn.innerHTML = 'Error (See Console) <i class="uil uil-exclamation-triangle button__icon"></i>';
     });
 }
