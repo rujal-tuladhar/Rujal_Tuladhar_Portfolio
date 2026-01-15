@@ -226,3 +226,13 @@ if (dropdownItem) {
         }
     })
 }
+
+/*==================== VAPI AI INTEGRATION ====================*/
+const vapi = new Vapi('4138cfbd-4ba7-420d-9fad-5e5867135873');
+
+const vapiBtn = document.getElementById('vapi-call-btn');
+if(vapiBtn) {
+    vapiBtn.addEventListener('click', () => {
+        vapi.start('bad48562-a42b-4bcb-be6e-1baba98ec4a8');
+    });
+}
