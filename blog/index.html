@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Nova Toronto Blog - Insights on Website Design, SEO, Digital Marketing, and AI Automation.">
+    <meta name="keywords" content="Blog, Website Tips, SEO Guide, AI Automation News, Nova Toronto">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/blog/">
+    <meta property="og:title" content="Nova Toronto | Blog">
+    <meta property="og:description" content="Insights on Website Design, SEO, Digital Marketing, and AI Automation.">
+    <meta property="og:image" content="../assets/img/card_preview.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://novatoronto.com/blog/">
+    <meta property="twitter:title" content="Nova Toronto | Blog">
+    <meta property="twitter:description"
+        content="Insights on Website Design, SEO, Digital Marketing, and AI Automation.">
+    <meta property="twitter:image" content="../assets/img/card_preview.png">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+    <title>Nova Toronto | Blog</title>
+    <link rel="icon" href="../assets/img/small_logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../" class="nav__logo">
+                <img src="../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo image">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="../#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>ABOUT
+                        </a>
+                    </li>
+
+
+                    <li class="nav__item dropdown">
+                        <div class="nav__link dropdown__toggle" style="cursor: pointer;">
+                            <i class="uil uil-apps nav__icon"></i>SERVICES
+                        </div>
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="../website-design/" class="nav__link dropdown__item">
+                                    Website Design
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../digital-marketing/" class="nav__link dropdown__item">
+                                    Digital Marketing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../ai-automation/" class="nav__link dropdown__item">
+                                    AI Automation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link">
+                            <i class="uil uil-newspaper nav__icon"></i>BLOG
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="../index.html#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>CONTACT
+                        </a>
+                    </li>
+
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+
+            </div>
+            <div class="nav__btns">
+                <!--Theme Change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+        <!--==================== INTRO ====================-->
+        <section class="section" id="intro" style="padding-top: 8rem;">
+            <div class="container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Our Blog</h1>
+                    <p class="home__description u-text-center">
+                        Latest news, tips, and insights on growing your business online.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== BLOG CATEGORIES ====================-->
+        <section class="section" id="blog-categories">
+            <div class="container u-text-center" style="margin-bottom: 2rem;">
+                <a href="#all" class="button button--small button--white"
+                    style="margin: 0.5rem; border: 1px solid var(--first-color);">All Posts</a>
+                <a href="#website-design" class="button button--small button--white"
+                    style="margin: 0.5rem; border: 1px solid var(--first-color);">Website Design</a>
+                <a href="#digital-marketing" class="button button--small button--white"
+                    style="margin: 0.5rem; border: 1px solid var(--first-color);">Digital Marketing</a>
+                <a href="#ai-automation" class="button button--small button--white"
+                    style="margin: 0.5rem; border: 1px solid var(--first-color);">AI Automation</a>
+            </div>
+        </section>
+
+        <!--==================== BLOG LIST ====================-->
+        <section class="section" id="blog-list">
+            <div class="container grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+
+                <!-- Placeholder Post 1 -->
+                <article
+                    style="background: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <span
+                        style="font-size: 0.8rem; color: var(--first-color); font-weight: bold; text-transform: uppercase;">Website
+                        Design</span>
+                    <h3 style="margin: 1rem 0;">5 Trends Shaping Web Design in 2026</h3>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-color);">Explore the latest design trends that
+                        are taking the internet by storm this year, from glassmorphism to bento grids.</p>
+                    <a href="#" class="button button--small button--link">Read More <i
+                            class="uil uil-arrow-right"></i></a>
+                </article>
+
+                <!-- Placeholder Post 2 -->
+                <article
+                    style="background: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <span
+                        style="font-size: 0.8rem; color: var(--first-color); font-weight: bold; text-transform: uppercase;">AI
+                        Automation</span>
+                    <h3 style="margin: 1rem 0;">Why Your Business Needs an AI Receptionist</h3>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-color);">Never miss a lead again. Learn how AI
+                        receptionists handle calls 24/7 and improve customer satisfaction.</p>
+                    <a href="#" class="button button--small button--link">Read More <i
+                            class="uil uil-arrow-right"></i></a>
+                </article>
+
+                <!-- Placeholder Post 3 -->
+                <article
+                    style="background: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                    <span
+                        style="font-size: 0.8rem; color: var(--first-color); font-weight: bold; text-transform: uppercase;">Digital
+                        Marketing</span>
+                    <h3 style="margin: 1rem 0;">SEO Basics for Small Business Owners</h3>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-color);">A simple guide to understanding SEO and
+                        how to start ranking your local business on Google.</p>
+                    <a href="#" class="button button--small button--link">Read More <i
+                            class="uil uil-arrow-right"></i></a>
+                </article>
+
+            </div>
+            <p class="u-text-center" style="margin-top: 3rem; color: var(--text-color-light);">More posts coming soon...
+            </p>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title"> Nova Toronto </h1>
+                    <span class="footer__subtitle">
+                        Website Designer Toronto </span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="../website-design/" class="footer__link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="../#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="../#contact" class="footer__link">Contact me</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+
+                </div>
+
+
+            </div>
+            <p class="footer__copy">&#169; Rujal. All right reserved</p>
+        </div>
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
