@@ -2152,3 +2152,24 @@ svg {
     object-fit: cover;
     object-position: top;
 }
+
+/* Glassmorphism Utility */
+.glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: var(--glass-border);
+    border-radius: 1rem;
+    box-shadow: var(--glass-shadow);
+}
+
+.bg-card {
+    padding: 2rem;
+}
+
+/* Pricing Table Responsive */
+@media screen and (max-width: 600px) {
+    .pricing-table-container {
+        overflow-x: auto;
+    }
+}
