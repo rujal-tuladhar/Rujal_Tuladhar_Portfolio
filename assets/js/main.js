@@ -208,6 +208,7 @@ themeButton.addEventListener('click', () => {
 })
 
 /*==================== DROPDOWN MENU ====================*/
+const dropdownToggle = document.querySelector('.dropdown__toggle')
 const dropdownMenu = document.querySelector('.dropdown__menu')
 const dropdownItem = document.querySelector('.dropdown') // Select the parent li
 
@@ -228,16 +229,7 @@ if (dropdownItem) {
 }
 
 /*==================== VAPI AI INTEGRATION ====================*/
-// Public Key from User/Context
-const vapi = vapiSDK.run({
-    apiKey: '4138cfbd-4ba7-420d-9fad-5e5867135873',
-});
-// Note: We use window.vapiSDK.run or just new Vapi('key') depending on the script loaded.
-// The user provided script: npm @vapi-ai/web. 
-// However, in previous steps we loaded the CDN: https://cdn.jsdelivr.net/npm/@vapi-ai/web/dist/vapi-web.min.js
-// This CDN exposes "Vapi" class globally.
-// Let's use that one as it's cleaner for custom integration.
-
+// Initialize Vapi with your public key
 const vapiInstance = new Vapi('4138cfbd-4ba7-420d-9fad-5e5867135873');
 
 const vapiBtn = document.getElementById('vapi-call-btn');
