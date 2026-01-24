@@ -38,8 +38,8 @@
 
     <title>Nova Toronto | Website Design & Digital Marketing</title>
     <link rel="icon" href="./assets/img/small_logo.png" type="image/x-icon">
-    <!-- Vapi AI SDK -->
-    <script src="https://cdn.jsdelivr.net/npm/@vapi-ai/web/dist/vapi-web.min.js"></script>
+    <!-- Vapi AI Widget -->
+    <script src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"></script>
 </head>
 
 <body>
@@ -623,7 +623,7 @@
 
                 </div>
 
-                <form action="https://formsubmit.co/rujal.tuladhar@gmail.com" method="POST" class="contact__form grid">
+                <form action="https://formsubmit.co/novatoronto.ca@gmail.com" method="POST" class="contact__form grid">
                     <p>Book a free 30 minutes consultation for your website. </p>
                     <div class="contact__input grid">
 
@@ -729,6 +729,40 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+
+    <!-- Vapi Widget -->
+    <vapi-dashboard-button public-key="4138cfbd-4ba7-420d-9fad-5e5867135873"
+        assistant-id="bad48562-a42b-4bcb-be6e-1baba98ec4a8" button-label="Call Now" show-button="false">
+    </vapi-dashboard-button>
+
+    <!-- Inline Vapi Trigger Script -->
+    <script>
+        // Wait for DOM and Vapi widget to be ready
+        document.addEventListener('DOMContentLoaded', function () {
+            const vapiBtn = document.getElementById('vapi-call-btn');
+
+            if (vapiBtn) {
+                vapiBtn.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // Wait for the widget to be fully loaded
+                    setTimeout(function () {
+                        const vapiWidget = document.querySelector('vapi-dashboard-button');
+                        if (vapiWidget && vapiWidget.shadowRoot) {
+                            const widgetButton = vapiWidget.shadowRoot.querySelector('button');
+                            if (widgetButton) {
+                                widgetButton.click();
+                            } else {
+                                console.error('Vapi widget button not found in shadow DOM');
+                            }
+                        } else {
+                            console.error('Vapi widget or shadow root not found');
+                        }
+                    }, 100);
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

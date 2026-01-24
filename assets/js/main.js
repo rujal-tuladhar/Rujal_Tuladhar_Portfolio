@@ -228,97 +228,19 @@ if (dropdownItem) {
     })
 }
 
-/*==================== VAPI AI INTEGRATION ====================*/
-// Initialize Vapi with your public key
-const vapiInstance = new Vapi('4138cfbd-4ba7-420d-9fad-5e5867135873');
-
+/*==================== VAPI WIDGET INTEGRATION ====================*/
 const vapiBtn = document.getElementById('vapi-call-btn');
-const vapiStatus = document.getElementById('vapiStatus');
-const volumeIndicator = document.getElementById('volumeIndicator');
-const volumeBar = document.getElementById('volumeBar');
-
-let isCallActive = false;
-
-function showStatus(message, type) {
-    if (vapiStatus) {
-        vapiStatus.textContent = message;
-        vapiStatus.className = `vapi-status active ${type}`;
-    }
-}
 
 if (vapiBtn) {
-    vapiBtn.addEventListener('click', async () => {
-        if (!isCallActive) {
-            // Start Call
-            try {
-                vapiBtn.classList.add('pulse'); // Add pulse effect
-                showStatus('Requesting microphone access...', 'connecting');
-
-                await vapiInstance.start('bad48562-a42b-4bcb-be6e-1baba98ec4a8');
-
-            } catch (error) {
-                console.error('Error starting call:', error);
-                showStatus('Failed to start. Check permissions.', 'error');
-                vapiBtn.classList.remove('pulse');
+    vapiBtn.addEventListener('click', () => {
+        // Trigger the Vapi widget
+        const vapiWidget = document.querySelector('vapi-dashboard-button');
+        if (vapiWidget) {
+            // Programmatically click the widget button
+            const widgetButton = vapiWidget.shadowRoot?.querySelector('button');
+            if (widgetButton) {
+                widgetButton.click();
             }
-        } else {
-            // End Call
-            vapiInstance.stop();
         }
-    });
-
-    // --- Vapi Events ---
-
-    vapiInstance.on('call-start', () => {
-        console.log('Call started');
-        isCallActive = true;
-        vapiBtn.innerHTML = 'End Call <i class="uil uil-phone-slash button__icon"></i>';
-        vapiBtn.classList.add('button--white'); // Change style to indicate active/end
-        showStatus('Connected! Go ahead and speak.', 'connected');
-        if (volumeIndicator) volumeIndicator.style.display = 'block';
-    });
-
-    vapiInstance.on('call-end', () => {
-        console.log('Call ended');
-        isCallActive = false;
-        vapiBtn.innerHTML = 'Call Now <i class="uil uil-message button__icon"></i>';
-        vapiBtn.classList.remove('pulse', 'button--white');
-        showStatus('Call ended.', '');
-        if (volumeIndicator) volumeIndicator.style.display = 'none';
-
-        // Hide status after 3 seconds
-        setTimeout(() => {
-            if (!isCallActive && vapiStatus) vapiStatus.className = 'vapi-status';
-        }, 3000);
-    });
-
-    vapiInstance.on('speech-start', () => {
-        showStatus('Listening...', 'connected');
-    });
-
-    vapiInstance.on('speech-end', () => {
-        showStatus('Processing...', 'connecting');
-    });
-
-    vapiInstance.on('message', (message) => {
-        if (message.type === 'assistant-response') {
-            showStatus('Assistant speaking...', 'connected');
-        }
-    });
-
-    vapiInstance.on('volume-level', (volume) => {
-        if (volumeBar) {
-            // Volume is usually 0-1
-            volumeBar.style.width = (volume * 100) + '%';
-        }
-    });
-
-    vapiInstance.on('error', (error) => {
-        console.error('Vapi Error:', error);
-        showStatus('Error: ' + error.message, 'error');
-        isCallActive = false;
-        vapiBtn.innerHTML = 'Call Now <i class="uil uil-message button__icon"></i>';
-        vapiBtn.classList.remove('pulse', 'button--white');
-        if (volumeIndicator) volumeIndicator.style.display = 'none';
     });
 }
