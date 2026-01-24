@@ -730,39 +730,93 @@
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
 
-    <!-- Vapi Widget -->
-    <vapi-dashboard-button public-key="4138cfbd-4ba7-420d-9fad-5e5867135873"
-        assistant-id="bad48562-a42b-4bcb-be6e-1baba98ec4a8" button-label="Call Now" show-button="false">
-    </vapi-dashboard-button>
+    <!-- Vapi SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@vapi-ai/web/dist/vapi-web.min.js"></script>
 
-    <!-- Inline Vapi Trigger Script -->
+    <!-- Vapi Integration Script -->
     <script>
-        // Wait for DOM and Vapi widget to be ready
         document.addEventListener('DOMContentLoaded', function () {
-            const vapiBtn = document.getElementById('vapi-call-btn');
+            // Configuration
+            const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
+            const assistantId = 'bad48562-a42b-4bcb-be6e-1baba98ec4a8';
 
-            if (vapiBtn) {
-                vapiBtn.addEventListener('click', function (e) {
-                    e.preventDefault();
+            // UI Elements
+            const callBtn = document.getElementById('vapi-call-btn');
+            const statusDiv = document.getElementById('vapiStatus');
 
-                    // Wait for the widget to be fully loaded
-                    setTimeout(function () {
-                        const vapiWidget = document.querySelector('vapi-dashboard-button');
-                        if (vapiWidget && vapiWidget.shadowRoot) {
-                            const widgetButton = vapiWidget.shadowRoot.querySelector('button');
-                            if (widgetButton) {
-                                widgetButton.click();
-                            } else {
-                                console.error('Vapi widget button not found in shadow DOM');
-                            }
-                        } else {
-                            console.error('Vapi widget or shadow root not found');
+            // Check if Vapi SDK is loaded
+            if (typeof Vapi === 'undefined') {
+                console.error('Vapi SDK not loaded');
+                if (statusDiv) statusDiv.textContent = 'Error: Voice SDK failed to load';
+                return;
+            }
+
+            // Initialize Vapi
+            const vapi = new Vapi(publicKey);
+            let isCallActive = false;
+
+            // Helper to update UI
+            function updateUI(status) {
+                if (!statusDiv) return;
+
+                statusDiv.textContent = status;
+                statusDiv.style.opacity = status ? '1' : '0';
+
+                if (status === 'Connected') {
+                    callBtn.innerHTML = 'End Call <i class="uil uil-phone-slash button__icon"></i>';
+                    callBtn.classList.add('active-call');
+                } else if (status === 'Connecting...') {
+                    callBtn.innerHTML = 'Connecting... <i class="uil uil-spinner button__icon"></i>';
+                } else {
+                    callBtn.innerHTML = 'Call Now <i class="uil uil-message button__icon"></i>';
+                    callBtn.classList.remove('active-call');
+                }
+            }
+
+            // Button Click Handler
+            if (callBtn) {
+                callBtn.addEventListener('click', async () => {
+                    if (isCallActive) {
+                        vapi.stop();
+                    } else {
+                        updateUI('Connecting...');
+                        try {
+                            await vapi.start(assistantId);
+                        } catch (error) {
+                            console.error('Failed to start call:', error);
+                            updateUI('Connection Failed');
+                            setTimeout(() => updateUI(''), 3000);
                         }
-                    }, 100);
+                    }
                 });
             }
+
+            // Vapi Event Listeners
+            vapi.on('call-start', () => {
+                console.log('Call started');
+                isCallActive = true;
+                updateUI('Connected');
+            });
+
+            vapi.on('call-end', () => {
+                console.log('Call ended');
+                isCallActive = false;
+                updateUI('');
+            });
+
+            vapi.on('error', (error) => {
+                console.error('Vapi error:', error);
+                isCallActive = false;
+                updateUI('Error Occurred');
+                setTimeout(() => updateUI(''), 3000);
+            });
+
+            vapi.on('speech-start', () => {
+                if (callBtn) callBtn.classList.add('ai-speaking');
+            });
+
+            vapi.on('speech-end', () => {
+                if (callBtn) callBtn.classList.remove('ai-speaking');
+            });
         });
     </script>
-</body>
-
-</html>
