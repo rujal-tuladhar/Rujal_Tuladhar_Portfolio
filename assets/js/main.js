@@ -227,20 +227,3 @@ if (dropdownItem) {
         }
     })
 }
-
-/*==================== VAPI WIDGET INTEGRATION ====================*/
-const vapiBtn = document.getElementById('vapi-call-btn');
-
-if (vapiBtn) {
-    vapiBtn.addEventListener('click', () => {
-        // Trigger the Vapi widget
-        const vapiWidget = document.querySelector('vapi-dashboard-button');
-        if (vapiWidget) {
-            // Programmatically click the widget button
-            const widgetButton = vapiWidget.shadowRoot?.querySelector('button');
-            if (widgetButton) {
-                widgetButton.click();
-            }
-        }
-    });
-}
