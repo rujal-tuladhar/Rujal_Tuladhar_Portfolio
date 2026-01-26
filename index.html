@@ -36,6 +36,9 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!-- Flatpickr Dark Theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
+
     <title>Nova Toronto | Website Design & Digital Marketing</title>
     <link rel="icon" href="./assets/img/small_logo.png" type="image/x-icon">
     <!-- Vapi AI Widget -->
@@ -187,7 +190,11 @@
                                     Milton<br />
                                     Mississauga<br />
                                     Etobicoke<br />
-                                    Oakville
+                                    Oakville<br />
+                                    Toronto<br />
+                                    Scarborough<br />
+                                    North York<br />
+                                    Markham
                                 </span>
                             </div>
 
@@ -596,7 +603,7 @@
 
                         <div>
                             <h3 class="contact__title">Call Me</h3>
-                            <span class="contact__subtitle">416-807-8853</span>
+                            <span class="contact__subtitle">365-355-3133</span>
                         </div>
                     </div>
 
@@ -605,7 +612,7 @@
 
                         <div>
                             <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">rujal.tuladhar@gmail.com</span>
+                            <span class="contact__subtitle">novatoronto.ca@gmail.com</span>
                         </div>
                     </div>
 
@@ -622,12 +629,9 @@
 
                 <form action="https://formsubmit.co/novatoronto.ca@gmail.com" method="POST" class="contact__form grid">
                     <p>Book a free 30 minutes consultation for your website. </p>
-                    <div class="contact__input grid">
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" name="name" class="contact__input">
-                        </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" name="name" class="contact__input">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Email</label>
@@ -635,8 +639,9 @@
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="contact__label">Date</label>
-                        <input type="datetime-local" name="datetime-local" class="contact__input">
+                        <label for="" class="contact__label">Date & Time</label>
+                        <input type="text" name="datetime-local" class="contact__input flatpickr-input"
+                            placeholder="Select Date & Time">
                     </div>
 
 
@@ -727,9 +732,6 @@
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
 
-    <!-- Vapi SDK -->
-    <script src="https://cdn.jsdelivr.net/npm/@vapi-ai/web/dist/vapi-web.min.js"></script>
-
     <!-- Custom Vapi Floating Widget -->
     <button id="vapi-floating-btn" class="vapi-btn-floating">
         <div class="vapi-btn-content">
@@ -762,6 +764,7 @@
             justify-content: center;
             min-width: 120px;
             min-height: 50px;
+            font-family: 'Poppins', sans-serif;
         }
 
         .vapi-btn-floating:hover {
@@ -783,7 +786,7 @@
         }
 
         .vapi-status-text {
-            font-size: 10px;
+            font-size: 11px;
             opacity: 0.9;
             margin-top: 2px;
             font-weight: 400;
@@ -794,57 +797,51 @@
             background-color: rgb(255, 59, 48);
             /* Red for end call */
             box-shadow: 0 4px 20px rgba(255, 59, 48, 0.4);
-            animation: pulse-red 2s infinite;
-        }
-
-        .vapi-btn-floating.active:hover {
-            background-color: rgb(220, 40, 30);
         }
 
         .vapi-btn-floating.loading {
-            background-color: rgb(120, 120, 120);
-            cursor: wait;
+            background-color: rgb(150, 150, 150);
+            cursor: not-allowed;
+            pointer-events: none;
         }
 
-        @keyframes pulse-red {
+        /* Pulse Animation for Active Call */
+        @keyframes vapi-pulse {
             0% {
                 box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7);
             }
 
             70% {
-                box-shadow: 0 0 0 10px rgba(255, 59, 48, 0);
+                box-shadow: 0 0 0 15px rgba(255, 59, 48, 0);
             }
 
             100% {
                 box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);
             }
         }
+
+        .vapi-btn-floating.active {
+            animation: vapi-pulse 2s infinite;
+        }
     </style>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
-            const assistantId = 'bad48562-a42b-4bcb-be6e-1baba98ec4a8';
+    <script type="module">
+        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
 
-            const vapiBtn = document.getElementById('vapi-floating-btn');
-            const btnText = document.getElementById('vapi-btn-text');
-            const btnStatus = document.getElementById('vapi-btn-status');
-            const btnIcon = document.getElementById('vapi-btn-icon');
+        const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
+        const assistantId = 'bad48562-a42b-4bcb-be6e-1baba98ec4a8';
 
-            let vapi = null;
+        const vapiBtn = document.getElementById('vapi-floating-btn');
+        const btnText = document.getElementById('vapi-btn-text');
+        const btnStatus = document.getElementById('vapi-btn-status');
+        const btnIcon = document.getElementById('vapi-btn-icon');
+
+        try {
+            const vapi = new Vapi(publicKey);
             let isCallActive = false;
 
-            // Initialize Vapi SDK
-            if (window.Vapi) {
-                vapi = new window.Vapi(publicKey);
-            } else {
-                console.error('Vapi SDK failed to load');
-                btnStatus.textContent = 'Error Loading';
-                return;
-            }
-
-            // Update Button UI Helper
-            const updateButtonState = (state) => {
+            // UI Helper
+            const setButtonState = (state) => {
                 if (state === 'idle') {
                     vapiBtn.classList.remove('active', 'loading');
                     btnText.textContent = 'Call Us';
@@ -853,7 +850,7 @@
                 } else if (state === 'loading') {
                     vapiBtn.classList.add('loading');
                     btnText.textContent = 'Connecting...';
-                    btnStatus.textContent = 'Accessing Mic';
+                    btnStatus.textContent = 'Please allow mic';
                     btnIcon.innerHTML = '<i class="uil uil-spinner-alt uil-spin"></i>';
                 } else if (state === 'active') {
                     vapiBtn.classList.remove('loading');
@@ -864,42 +861,62 @@
                 }
             };
 
-            // Event Listeners
+            // Button Click
             vapiBtn.addEventListener('click', async () => {
                 if (isCallActive) {
                     vapi.stop();
                 } else {
-                    updateButtonState('loading');
+                    setButtonState('loading');
                     try {
                         await vapi.start(assistantId);
                     } catch (err) {
-                        console.error('Failed to start call:', err);
-                        updateButtonState('idle');
-                        alert('Could not start call. Please check microphone permissions.');
+                        console.error('Vapi Connection Error:', err);
+                        setButtonState('idle');
+                        // Detailed error alert for user feedback
+                        alert('Connection Failed: ' + (err.message || JSON.stringify(err)));
                     }
                 }
             });
 
-            // Vapi Hooks
+            // Event Listeners
             vapi.on('call-start', () => {
+                console.log('Call started');
                 isCallActive = true;
-                updateButtonState('active');
+                setButtonState('active');
             });
 
             vapi.on('call-end', () => {
+                console.log('Call ended');
                 isCallActive = false;
-                updateButtonState('idle');
+                setButtonState('idle');
             });
 
             vapi.on('error', (e) => {
-                console.error('Vapi Error:', e);
+                console.error('Vapi Service Error:', e);
                 isCallActive = false;
-                updateButtonState('idle');
+                setButtonState('idle');
             });
 
-            // Volume / Speech indicators could be added here
-            vapi.on('speech-start', () => {
-                // Optional: Make button pulse faster or change color
+        } catch (initError) {
+            console.error('Vapi Initialization Failed:', initError);
+            if (btnStatus) btnStatus.textContent = 'System Error';
+        }
+    </script>
+
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            flatpickr(".flatpickr-input", {
+                enableTime: true,
+                dateFormat: "Y-m-d H:i",
+                minDate: "today",
+                time_24hr: false,
+                theme: "dark",
+                disableMobile: "true"
             });
         });
     </script>
+</body>
+
+</html>
