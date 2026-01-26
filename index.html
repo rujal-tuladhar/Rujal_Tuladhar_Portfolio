@@ -825,8 +825,11 @@
         }
     </style>
 
-    <!-- Vapi SDK (Classic) -->
-    <script src="https://unpkg.com/@vapi-ai/web/dist/vapi-web.min.js"></script>
+    <!-- Vapi Shim (Module to Global) -->
+    <script type="module">
+        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
+        window.Vapi = Vapi;
+    </script>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -838,30 +841,64 @@
             const btnStatus = document.getElementById('vapi-btn-status');
             const btnIcon = document.getElementById('vapi-btn-icon');
 
-            // Debug Logger function
+            // Set initial loading state
+            btnText.textContent = 'Loading AI...';
+            vapiBtn.classList.add('loading');
+
             const logDebug = (msg) => {
                 console.log('[Vapi Debug]', msg);
-                // Optional: Uncomment to show debug text on button status
-                // btnStatus.textContent = msg.slice(0, 20); 
             };
 
             let vapi = null;
             let isCallActive = false;
+            let retryCount = 0;
 
             // Wait for SDK to load
             const initVapi = () => {
                 if (window.Vapi) {
                     try {
-                        vapi = new window.Vapi(publicKey);
+                        let VapiConstructor = window.Vapi;
+
+                        // Debug log to identify structure
+                        console.log('Vapi Object:', VapiConstructor);
+
+                        // Handle ESM/CommonJS export variants
+                        if (typeof VapiConstructor !== 'function') {
+                            if (VapiConstructor.default) {
+                                VapiConstructor = VapiConstructor.default;
+                            } else if (VapiConstructor.Vapi) {
+                                VapiConstructor = VapiConstructor.Vapi;
+                            } else if (VapiConstructor.Web) {
+                                VapiConstructor = VapiConstructor.Web;
+                            }
+                        }
+
+                        if (typeof VapiConstructor !== 'function') {
+                            throw new Error('Could not find Vapi constructor. Loaded object keys: ' + Object.keys(window.Vapi).join(', '));
+                        }
+
+                        vapi = new VapiConstructor(publicKey);
                         logDebug('SDK Initialized');
                         setupEventListeners();
+                        // Enable button
+                        vapiBtn.classList.remove('loading');
+                        btnText.textContent = 'Call Us';
                     } catch (e) {
                         logDebug('Init Failed: ' + e.message);
+                        btnStatus.textContent = 'Init Error';
                         alert('Vapi Init Error: ' + e.message);
                     }
                 } else {
+                    retryCount++;
+                    if (retryCount > 20) { // 10 seconds timeout (20 * 500ms)
+                        btnStatus.textContent = 'Network Error';
+                        btnText.textContent = 'Unavailable';
+                        vapiBtn.classList.remove('loading'); // Remove loading state if timed out
+                        vapiBtn.style.cursor = 'not-allowed'; // Indicate it's not clickable
+                        return;
+                    }
                     logDebug('Waiting for SDK...');
-                    setTimeout(initVapi, 500); // Retry every 500ms
+                    setTimeout(initVapi, 500);
                 }
             };
 
@@ -886,13 +923,9 @@
             };
 
             const setupEventListeners = () => {
-                // Button Click
                 vapiBtn.addEventListener('click', async () => {
                     logDebug('Button Clicked');
-                    if (!vapi) {
-                        alert('Voice SDK not ready yet. Please wait.');
-                        return;
-                    }
+                    if (!vapi) return; // Should not happen if button is enabled correctly
 
                     if (isCallActive) {
                         vapi.stop();
@@ -910,11 +943,20 @@
                     }
                 });
 
-                // Vapi Hooks
-                vapi.on('call-start', () => {
-                    logDebug('Call Started');
+                // Vapi Hooks - Redundant Event Listeners
+                const onCallStart = () => {
+                    logDebug('Call Started (Event Triggered)');
                     isCallActive = true;
                     setButtonState('active');
+                };
+
+                vapi.on('call-start', onCallStart);
+                vapi.on('callStart', onCallStart); // Just in case
+
+                vapi.on('speech-start', () => {
+                    logDebug('Speech Started');
+                    // Ensure UI is active if we missed the start event
+                    if (!isCallActive) onCallStart();
                 });
 
                 vapi.on('call-end', () => {
@@ -925,12 +967,15 @@
 
                 vapi.on('error', (e) => {
                     logDebug('Vapi Error: ' + JSON.stringify(e));
-                    isCallActive = false;
-                    setButtonState('idle');
+                    // Don't kill the call immediately on minor errors, but log them
+                    // alert('Call Error: ' + (e.message || JSON.stringify(e))); 
                 });
 
-                vapi.on('speech-start', () => {
-                    // Visual feedback for speech could go here
+                vapi.on('volume-level', (volume) => {
+                    // Optional: Visualize volume to prove mic is working
+                    if (volume > 0.05 && isCallActive) {
+                        vapiBtn.style.boxShadow = `0 4px 20px rgba(255, 59, 48, ${0.4 + volume * 5})`;
+                    }
                 });
             };
 
