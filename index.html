@@ -825,22 +825,46 @@
         }
     </style>
 
-    <script type="module">
-        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
+    <!-- Vapi SDK (Classic) -->
+    <script src="https://unpkg.com/@vapi-ai/web/dist/vapi-web.min.js"></script>
 
-        const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
-        const assistantId = 'bad48562-a42b-4bcb-be6e-1baba98ec4a8';
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
+            const assistantId = 'bad48562-a42b-4bcb-be6e-1baba98ec4a8';
 
-        const vapiBtn = document.getElementById('vapi-floating-btn');
-        const btnText = document.getElementById('vapi-btn-text');
-        const btnStatus = document.getElementById('vapi-btn-status');
-        const btnIcon = document.getElementById('vapi-btn-icon');
+            const vapiBtn = document.getElementById('vapi-floating-btn');
+            const btnText = document.getElementById('vapi-btn-text');
+            const btnStatus = document.getElementById('vapi-btn-status');
+            const btnIcon = document.getElementById('vapi-btn-icon');
 
-        try {
-            const vapi = new Vapi(publicKey);
+            // Debug Logger function
+            const logDebug = (msg) => {
+                console.log('[Vapi Debug]', msg);
+                // Optional: Uncomment to show debug text on button status
+                // btnStatus.textContent = msg.slice(0, 20); 
+            };
+
+            let vapi = null;
             let isCallActive = false;
 
-            // UI Helper
+            // Wait for SDK to load
+            const initVapi = () => {
+                if (window.Vapi) {
+                    try {
+                        vapi = new window.Vapi(publicKey);
+                        logDebug('SDK Initialized');
+                        setupEventListeners();
+                    } catch (e) {
+                        logDebug('Init Failed: ' + e.message);
+                        alert('Vapi Init Error: ' + e.message);
+                    }
+                } else {
+                    logDebug('Waiting for SDK...');
+                    setTimeout(initVapi, 500); // Retry every 500ms
+                }
+            };
+
             const setButtonState = (state) => {
                 if (state === 'idle') {
                     vapiBtn.classList.remove('active', 'loading');
@@ -861,46 +885,58 @@
                 }
             };
 
-            // Button Click
-            vapiBtn.addEventListener('click', async () => {
-                if (isCallActive) {
-                    vapi.stop();
-                } else {
-                    setButtonState('loading');
-                    try {
-                        await vapi.start(assistantId);
-                    } catch (err) {
-                        console.error('Vapi Connection Error:', err);
-                        setButtonState('idle');
-                        // Detailed error alert for user feedback
-                        alert('Connection Failed: ' + (err.message || JSON.stringify(err)));
+            const setupEventListeners = () => {
+                // Button Click
+                vapiBtn.addEventListener('click', async () => {
+                    logDebug('Button Clicked');
+                    if (!vapi) {
+                        alert('Voice SDK not ready yet. Please wait.');
+                        return;
                     }
-                }
-            });
 
-            // Event Listeners
-            vapi.on('call-start', () => {
-                console.log('Call started');
-                isCallActive = true;
-                setButtonState('active');
-            });
+                    if (isCallActive) {
+                        vapi.stop();
+                    } else {
+                        setButtonState('loading');
+                        try {
+                            logDebug('Starting call...');
+                            await vapi.start(assistantId);
+                        } catch (err) {
+                            console.error('Vapi Start Error:', err);
+                            logDebug('Start Error: ' + err.message);
+                            setButtonState('idle');
+                            alert('Connection Failed: ' + (err.message || JSON.stringify(err)));
+                        }
+                    }
+                });
 
-            vapi.on('call-end', () => {
-                console.log('Call ended');
-                isCallActive = false;
-                setButtonState('idle');
-            });
+                // Vapi Hooks
+                vapi.on('call-start', () => {
+                    logDebug('Call Started');
+                    isCallActive = true;
+                    setButtonState('active');
+                });
 
-            vapi.on('error', (e) => {
-                console.error('Vapi Service Error:', e);
-                isCallActive = false;
-                setButtonState('idle');
-            });
+                vapi.on('call-end', () => {
+                    logDebug('Call Ended');
+                    isCallActive = false;
+                    setButtonState('idle');
+                });
 
-        } catch (initError) {
-            console.error('Vapi Initialization Failed:', initError);
-            if (btnStatus) btnStatus.textContent = 'System Error';
-        }
+                vapi.on('error', (e) => {
+                    logDebug('Vapi Error: ' + JSON.stringify(e));
+                    isCallActive = false;
+                    setButtonState('idle');
+                });
+
+                vapi.on('speech-start', () => {
+                    // Visual feedback for speech could go here
+                });
+            };
+
+            // Start Init
+            initVapi();
+        });
     </script>
 
     <!-- Flatpickr JS -->
