@@ -923,13 +923,25 @@
                     } else {
                         setButtonState('loading');
                         try {
+                            logDebug('Requesting Mic...');
+                            // Explicitly request mic to force prompt/verification
+                            await navigator.mediaDevices.getUserMedia({ audio: true });
+                            logDebug('Mic Permission Granted');
+
                             logDebug('Starting call...');
                             await vapi.start(assistantId);
                         } catch (err) {
                             console.error('Vapi Start Error:', err);
                             logDebug('Start Error: ' + err.message);
                             setButtonState('idle');
-                            alert('Connection Failed: ' + (err.message || JSON.stringify(err)));
+
+                            let userMsg = 'Connection Failed';
+                            if (err.name === 'NotAllowedError' || err.message.includes('permission')) {
+                                userMsg = 'Microphone blocked. Please allow access in browser settings.';
+                            } else {
+                                userMsg = 'Error: ' + (err.message || JSON.stringify(err));
+                            }
+                            alert(userMsg);
                         }
                     }
                 });
