@@ -223,7 +223,8 @@ if (dropdownItem) {
 }
 
 /*==================== GOOGLE SEARCH TYPING ANIMATION ====================*/
-document.addEventListener('DOMContentLoaded', () => {
+/*==================== GOOGLE SEARCH TYPING ANIMATION ====================*/
+const initTypingAnimation = () => {
     const textElem = document.getElementById('typing-text');
     if (textElem) {
         const terms = ["Restaurant near me", "Lawyer near me", "Doctor Office near me", "Salon near me"];
@@ -258,4 +259,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         type();
     }
-});
+};
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTypingAnimation);
+} else {
+    initTypingAnimation();
+}
