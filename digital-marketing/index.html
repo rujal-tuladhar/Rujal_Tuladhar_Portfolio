@@ -144,13 +144,105 @@
         <section class="section" id="seo">
             <div class="container grid">
                 <h1 class="section__title">Search Engine Optimization</h1>
-                <h4 class="u-text-center">Rank at the top with our step-by-step guide and optimization services</h4>
+                <h4 class="u-text-center">How do I rank top of page for Google search keywords?</h4>
                 <br>
-                <div class="img-container">
-                    <img src="../assets/img/digital_marketing_graphic.png" alt="Digital Marketing Growth"
-                        style="width: 100%; max-width: 600px; display: block; margin: 0 auto; box-shadow: 0 0 20px rgba(138, 43, 226, 0.2);"
-                        class="u-rounded-sm">
+                <!-- Simulated Google Search Animation -->
+                <div class="search-demo-container" style="max-width: 600px; margin: 0 auto; padding: 2rem 0;">
+                    <h3 style="text-align: center; margin-bottom: 2rem; color: var(--title-color);">You can show up here
+                    </h3>
+
+                    <div class="google-search-bar"
+                        style="background: white; border-radius: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); padding: 12px 20px; display: flex; align-items: center; border: 1px solid #dfe1e5; margin-bottom: 2rem;">
+                        <i class="uil uil-search" style="color: #9aa0a6; font-size: 1.2rem; margin-right: 15px;"></i>
+                        <span id="typing-text"
+                            style="color: #333; font-family: Arial, sans-serif; font-size: 1.1rem;"></span>
+                        <span class="cursor"
+                            style="border-left: 2px solid #333; height: 1.2em; display: inline-block; animation: blink 1s step-end infinite; margin-left: 2px;"></span>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <a href="#contact" class="button button--flex">
+                            Get Ranked Now <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
                 </div>
+
+                <style>
+                    @keyframes blink {
+                        50% {
+                            opacity: 0;
+                        }
+                    }
+
+                    /* Responsive Adjustments */
+                    .search-demo-container {
+                        width: 90%;
+                        max-width: 600px;
+                        margin: 0 auto;
+                        padding: 2rem 0;
+                    }
+
+                    #typing-text {
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        max-width: 100%;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+
+                    @media screen and (max-width: 480px) {
+                        .google-search-bar {
+                            padding: 10px 15px !important;
+                        }
+
+                        #typing-text {
+                            font-size: 0.95rem !important;
+                        }
+
+                        .uil-search {
+                            font-size: 1rem !important;
+                            margin-right: 10px !important;
+                        }
+                    }
+                </style>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+                        const terms = ["Restaurant near me", "Lawyer near me", "Doctor Office near me", "Salon near me"];
+                        let termIndex = 0;
+                        let charIndex = 0;
+                        let isDeleting = false;
+                        const typingSpeed = 100;
+                        const deletingSpeed = 50;
+                        const pause = 2000;
+
+                        function type() {
+                            const currentTerm = terms[termIndex];
+                            const textElem = document.getElementById('typing-text');
+
+                            if (isDeleting) {
+                                textElem.textContent = currentTerm.substring(0, charIndex - 1);
+                                charIndex--;
+                            } else {
+                                textElem.textContent = currentTerm.substring(0, charIndex + 1);
+                                charIndex++;
+                            }
+
+                            if (!isDeleting && charIndex === currentTerm.length) {
+                                isDeleting = true;
+                                setTimeout(type, pause);
+                            } else if (isDeleting && charIndex === 0) {
+                                isDeleting = false;
+                                termIndex = (termIndex + 1) % terms.length;
+                                setTimeout(type, 500);
+                            } else {
+                                setTimeout(type, isDeleting ? deletingSpeed : typingSpeed);
+                            }
+                        }
+                        type();
+                    });
+                </script>
 
                 <div class="about__data" style="margin-top: 3rem;">
                     <h3 class="u-text-center">Why SEO Matters?</h3>
