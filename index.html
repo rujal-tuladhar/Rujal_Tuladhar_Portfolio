@@ -201,9 +201,10 @@
                             </h2>
                             <hr>
                             <br>
-                            <a href="https://calendar.google.com/calendar/" target="_blank" id="book-consultation-btn"
-                                class="button button--flex">
-                                Book Now <i class="uil uil-calendar-alt button__icon"></i>
+                            <a href="#" id="hero-call-btn" class="button button--flex">
+                                Call Now <span style="font-size: 0.8em; margin-left: 5px; font-weight: 300;">(Book with
+                                    AI)</span>
+                                <i class="uil uil-phone button__icon"></i>
                             </a>
 
                             <h3 class="home__subtitle"></h3>
@@ -834,6 +835,15 @@
             const btnText = document.getElementById('vapi-btn-text');
             const btnStatus = document.getElementById('vapi-btn-status');
             const btnIcon = document.getElementById('vapi-btn-icon');
+
+            // Link Hero Button if it exists
+            const heroBtn = document.getElementById('hero-call-btn');
+            if (heroBtn) {
+                heroBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    vapiBtn.click();
+                });
+            }
 
             // Set initial loading state
             btnText.textContent = 'Loading AI...';
