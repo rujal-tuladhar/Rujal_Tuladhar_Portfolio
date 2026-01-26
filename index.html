@@ -727,54 +727,179 @@
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
 
-    <!-- Vapi Widget SDK -->
+    <!-- Vapi SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@vapi-ai/web/dist/vapi-web.min.js"></script>
+
+    <!-- Custom Vapi Floating Widget -->
+    <button id="vapi-floating-btn" class="vapi-btn-floating">
+        <div class="vapi-btn-content">
+            <span id="vapi-btn-icon" class="vapi-icon">
+                <i class="uil uil-phone"></i>
+            </span>
+            <span id="vapi-btn-text" class="vapi-text">Call Us</span>
+        </div>
+        <div id="vapi-btn-status" class="vapi-status-text">Talk to AI</div>
+    </button>
+
+    <style>
+        .vapi-btn-floating {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: rgb(110, 87, 224);
+            /* Brand Purple */
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 24px;
+            box-shadow: 0 4px 20px rgba(110, 87, 224, 0.4);
+            cursor: pointer;
+            z-index: 9999;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 120px;
+            min-height: 50px;
+        }
+
+        .vapi-btn-floating:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(110, 87, 224, 0.5);
+            background-color: rgb(87, 68, 185);
+        }
+
+        .vapi-btn-content {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .vapi-icon {
+            font-size: 20px;
+        }
+
+        .vapi-status-text {
+            font-size: 10px;
+            opacity: 0.9;
+            margin-top: 2px;
+            font-weight: 400;
+        }
+
+        /* Active Call State */
+        .vapi-btn-floating.active {
+            background-color: rgb(255, 59, 48);
+            /* Red for end call */
+            box-shadow: 0 4px 20px rgba(255, 59, 48, 0.4);
+            animation: pulse-red 2s infinite;
+        }
+
+        .vapi-btn-floating.active:hover {
+            background-color: rgb(220, 40, 30);
+        }
+
+        .vapi-btn-floating.loading {
+            background-color: rgb(120, 120, 120);
+            cursor: wait;
+        }
+
+        @keyframes pulse-red {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(255, 59, 48, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);
+            }
+        }
+    </style>
+
     <script>
-        var vapiInstance = null;
-        const assistant = "bad48562-a42b-4bcb-be6e-1baba98ec4a8";
-        const apiKey = "4138cfbd-4ba7-420d-9fad-5e5867135873";
-        const buttonConfig = {
-            position: "bottom-right",
-            offset: "40px",
-            width: "50px",
-            height: "50px",
-            idle: {
-                color: "rgb(110, 87, 224)", /* Brand Purple */
-                type: "pill",
-                title: "Call Us",
-                subtitle: "Talk to our AI Assistant",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone.svg",
-            },
-            loading: {
-                color: "rgb(110, 87, 224)", /* Brand Purple */
-                type: "pill",
-                title: "Connecting...",
-                subtitle: "Accessing microphone",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/loader-2.svg",
-            },
-            active: {
-                color: "rgb(255, 59, 48)",
-                type: "pill",
-                title: "In Call",
-                subtitle: "Tap to end conversation",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone-off.svg",
-            },
-        };
+        document.addEventListener('DOMContentLoaded', () => {
+            const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
+            const assistantId = 'bad48562-a42b-4bcb-be6e-1baba98ec4a8';
 
-        (function (d, t) {
-            var g = document.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src =
-                "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
-            g.defer = true;
-            g.async = true;
-            s.parentNode.insertBefore(g, s);
+            const vapiBtn = document.getElementById('vapi-floating-btn');
+            const btnText = document.getElementById('vapi-btn-text');
+            const btnStatus = document.getElementById('vapi-btn-status');
+            const btnIcon = document.getElementById('vapi-btn-icon');
 
-            g.onload = function () {
-                vapiInstance = window.vapiSDK.run({
-                    apiKey: apiKey,
-                    assistant: assistant,
-                    config: buttonConfig,
-                });
+            let vapi = null;
+            let isCallActive = false;
+
+            // Initialize Vapi SDK
+            if (window.Vapi) {
+                vapi = new window.Vapi(publicKey);
+            } else {
+                console.error('Vapi SDK failed to load');
+                btnStatus.textContent = 'Error Loading';
+                return;
+            }
+
+            // Update Button UI Helper
+            const updateButtonState = (state) => {
+                if (state === 'idle') {
+                    vapiBtn.classList.remove('active', 'loading');
+                    btnText.textContent = 'Call Us';
+                    btnStatus.textContent = 'Talk to AI';
+                    btnIcon.innerHTML = '<i class="uil uil-phone"></i>';
+                } else if (state === 'loading') {
+                    vapiBtn.classList.add('loading');
+                    btnText.textContent = 'Connecting...';
+                    btnStatus.textContent = 'Accessing Mic';
+                    btnIcon.innerHTML = '<i class="uil uil-spinner-alt uil-spin"></i>';
+                } else if (state === 'active') {
+                    vapiBtn.classList.remove('loading');
+                    vapiBtn.classList.add('active');
+                    btnText.textContent = 'End Call';
+                    btnStatus.textContent = 'Tap to Disconnect';
+                    btnIcon.innerHTML = '<i class="uil uil-phone-slash"></i>';
+                }
             };
-        })(document, "script");
+
+            // Event Listeners
+            vapiBtn.addEventListener('click', async () => {
+                if (isCallActive) {
+                    vapi.stop();
+                } else {
+                    updateButtonState('loading');
+                    try {
+                        await vapi.start(assistantId);
+                    } catch (err) {
+                        console.error('Failed to start call:', err);
+                        updateButtonState('idle');
+                        alert('Could not start call. Please check microphone permissions.');
+                    }
+                }
+            });
+
+            // Vapi Hooks
+            vapi.on('call-start', () => {
+                isCallActive = true;
+                updateButtonState('active');
+            });
+
+            vapi.on('call-end', () => {
+                isCallActive = false;
+                updateButtonState('idle');
+            });
+
+            vapi.on('error', (e) => {
+                console.error('Vapi Error:', e);
+                isCallActive = false;
+                updateButtonState('idle');
+            });
+
+            // Volume / Speech indicators could be added here
+            vapi.on('speech-start', () => {
+                // Optional: Make button pulse faster or change color
+            });
+        });
     </script>
