@@ -1954,32 +1954,75 @@ svg {
     line-height: 1.2em;
     position: relative;
     overflow: hidden;
-    width: 18em;
+    width: 12em;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: left;
+    margin-bottom: -0.2em;
 }
 
 .scroller>span {
     position: absolute;
     top: 0;
-    animation: slide 5s infinite;
+    animation: slide 16s infinite;
     font-weight: bold;
-
 }
 
 @keyframes slide {
-    0% {
+
+    0%,
+    10% {
         top: 0;
     }
 
-    25% {
+    12.5%,
+    22.5% {
         top: -1.2em;
     }
 
-    50% {
+    25%,
+    35% {
         top: -2.4em;
     }
 
-    75% {
+    37.5%,
+    47.5% {
         top: -3.6em;
+    }
+
+    50%,
+    60% {
+        top: -4.8em;
+    }
+
+    62.5%,
+    72.5% {
+        top: -6.0em;
+    }
+
+    75%,
+    85% {
+        top: -7.2em;
+    }
+
+    87.5%,
+    97.5% {
+        top: -8.4em;
+    }
+
+    98% {
+        top: -8.4em;
+        opacity: 1;
+    }
+
+    99% {
+        top: 0;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
     }
 }
 

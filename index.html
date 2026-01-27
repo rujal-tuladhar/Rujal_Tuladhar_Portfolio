@@ -183,34 +183,41 @@
 
 
                     </div>
-                    <div class="home__data">
-                        <h3 class="u-text-center">
-                            Schedule your Free Consultation in Toronto, Scarborough, North York, Markham
-
-                        </h3>
-                        <hr>
-                        <br>
-                        <a href="#" id="hero-call-btn" class="button button--flex">
-                            Call Now <span style="font-size: 0.8em; margin-left: 5px; font-weight: 300;">(Book with
-                                AI)</span>
-                            <i class="uil uil-phone button__icon"></i>
-                        </a>
-
-                        <h3 class="home__subtitle"></h3>
-                        <p class="home__description">Captures the full journey you enable - building the digital
-                            presence
-                            (websites), driving traffic (ads), automating processes (AI), and converting sales
-                            (Amazon/Walmart).</p>
-
-                    </div>
-                </div>
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Scroll down</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    <a href="#" id="hero-call-btn" class="button button--flex">
+                        Call Now <span style="font-size: 0.8em; margin-left: 5px; font-weight: 300;">(Book with
+                            AI)</span>
+                        <i class="uil uil-phone button__icon"></i>
                     </a>
+
+                    <h3 class="home__subtitle"></h3>
+                    <p class="home__description">Captures the full journey you enable - building the digital
+                        presence
+                        (websites), driving traffic (ads), automating processes (AI), and converting sales
+                        (Amazon/Walmart).</p>
+
+                    <h3 class="u-text-center" style="margin-top: 1rem;">
+                        Schedule your Free Consultation in <div class="scroller">
+                            <span>
+                                Toronto<br />
+                                Scarborough<br />
+                                North York<br />
+                                Markham<br />
+                                Milton<br />
+                                Mississauga<br />
+                                Etobicoke<br />
+                                Oakville
+                            </span>
+                        </div>
+                    </h3>
                 </div>
+            </div>
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <span class="home__scroll-name">Scroll down</span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                </a>
+            </div>
             </div>
         </section>
         <div
@@ -347,6 +354,7 @@
             <h1 class="section__title">Search Engine Optimization</h1>
             <h4 class="u-text-center">How do I rank top of page for Google search keywords?</h4>
             <br>
+
             <style>
                 @keyframes blink {
                     50% {
@@ -497,6 +505,40 @@
                         <span class="cursor"
                             style="border-left: 1px solid #333; height: 1.2em; animation: blink 1s step-end infinite; margin-left: 2px;"></span>
                     </div>
+                    <script>
+                        (function () {
+                            var textElem = document.getElementById('typing-text');
+                            if (textElem && !textElem.hasAttribute('data-typing-init')) {
+                                textElem.setAttribute('data-typing-init', 'true');
+                                var terms = ["Restaurant near me", "Lawyer near me", "Doctor Office near me", "Salon near me"];
+                                var termIndex = 0;
+                                var charIndex = 0;
+                                var isDeleting = false;
+                                function type() {
+                                    var currentTerm = terms[termIndex];
+                                    if (isDeleting) {
+                                        textElem.textContent = currentTerm.substring(0, charIndex - 1);
+                                        charIndex--;
+                                    } else {
+                                        textElem.textContent = currentTerm.substring(0, charIndex + 1);
+                                        charIndex++;
+                                    }
+                                    var speed = 100;
+                                    if (isDeleting) speed = 50;
+                                    if (!isDeleting && charIndex === currentTerm.length) {
+                                        isDeleting = true;
+                                        speed = 2000;
+                                    } else if (isDeleting && charIndex === 0) {
+                                        isDeleting = false;
+                                        termIndex = (termIndex + 1) % terms.length;
+                                        speed = 500;
+                                    }
+                                    setTimeout(type, speed);
+                                }
+                                type();
+                            }
+                        })();
+                    </script>
 
                     <h3 style="text-align: center; color: #333; margin-bottom: 0;">Rank at the top of your customer
                         search
