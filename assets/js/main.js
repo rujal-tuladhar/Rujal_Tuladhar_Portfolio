@@ -207,7 +207,12 @@ const dropdownMenu = document.querySelector('.dropdown__menu')
 const dropdownItem = document.querySelector('.dropdown') // Select the parent li
 
 if (dropdownToggle) {
-    dropdownToggle.addEventListener('click', () => {
+    dropdownToggle.addEventListener('click', (e) => {
+        // On mobile, let the link work (navigate to services page)
+        if (window.innerWidth < 768) {
+            return; // Don't toggle dropdown, just follow the link
+        }
+        // On desktop, toggle dropdown
         dropdownMenu.classList.toggle('show-dropdown')
     })
 }

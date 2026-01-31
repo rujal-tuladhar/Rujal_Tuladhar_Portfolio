@@ -286,12 +286,12 @@ img.rounded-corners {
         min-width: 200px;
         max-width: 300px;
         height: 100%;
-        background-color: var(--glass-bg);
-        backdrop-filter: var(--backdrop-blur);
-        -webkit-backdrop-filter: var(--backdrop-blur);
-        border-left: var(--glass-border);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
         padding: 6rem 3rem 0;
-        box-shadow: -2px 0 4px rgba(0, 0, 0, .15);
+        box-shadow: -2px 0 30px rgba(0, 0, 0, 0.3);
         transition: .3s;
         z-index: var(--z-fixed);
     }
