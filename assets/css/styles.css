@@ -218,7 +218,7 @@ img.rounded-corners {
 .header {
     width: 100%;
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     z-index: var(--z-fixed);
     background: var(--glass-bg);
@@ -279,18 +279,33 @@ img.rounded-corners {
 
 @media screen and (max-width:767px) {
     .nav__menu {
-        display: none !important;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: auto;
+        min-width: 200px;
+        max-width: 300px;
+        height: 100%;
+        background-color: var(--glass-bg);
+        backdrop-filter: var(--backdrop-blur);
+        -webkit-backdrop-filter: var(--backdrop-blur);
+        border-left: var(--glass-border);
+        padding: 6rem 3rem 0;
+        box-shadow: -2px 0 4px rgba(0, 0, 0, .15);
+        transition: .3s;
+        z-index: var(--z-fixed);
     }
 
-    .nav__toggle {
-        display: none !important;
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
     }
 }
 
 .nav__list {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-
 }
 
 .nav__link {
@@ -313,6 +328,13 @@ img.rounded-corners {
     font-size: 1.2rem;
 }
 
+@media screen and (max-width: 767px) {
+    .nav__icon {
+        margin-left: 5px;
+        /* Shift icon slightly right as requested */
+    }
+}
+
 .nav__close {
     position: absolute;
     right: 1.3rem;
@@ -331,7 +353,7 @@ img.rounded-corners {
 
 /* show menu */
 .show-menu {
-    bottom: 0;
+    right: 0;
 }
 
 /* Active link */
