@@ -227,47 +227,4 @@ if (dropdownItem) {
     })
 }
 
-/*==================== GOOGLE SEARCH TYPING ANIMATION ====================*/
-/*==================== GOOGLE SEARCH TYPING ANIMATION ====================*/
-const initTypingAnimation = () => {
-    const textElem = document.getElementById('typing-text');
-    if (textElem) {
-        const terms = ["Restaurant near me", "Lawyer near me", "Doctor Office near me", "Salon near me"];
-        let termIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        const typingSpeed = 100;
-        const deletingSpeed = 50;
-        const pause = 2000;
 
-        function type() {
-            const currentTerm = terms[termIndex];
-
-            if (isDeleting) {
-                textElem.textContent = currentTerm.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                textElem.textContent = currentTerm.substring(0, charIndex + 1);
-                charIndex++;
-            }
-
-            if (!isDeleting && charIndex === currentTerm.length) {
-                isDeleting = true;
-                setTimeout(type, pause);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                termIndex = (termIndex + 1) % terms.length;
-                setTimeout(type, 500);
-            } else {
-                setTimeout(type, isDeleting ? deletingSpeed : typingSpeed);
-            }
-        }
-        type();
-    }
-};
-
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initTypingAnimation);
-} else {
-    initTypingAnimation();
-}
