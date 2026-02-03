@@ -261,6 +261,10 @@ img.rounded-corners {
 }
 
 
+.nav__logo img {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.9));
+}
+
 .the_logo {
     height: auto;
     width: auto;

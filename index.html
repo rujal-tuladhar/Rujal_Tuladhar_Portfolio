@@ -35,9 +35,90 @@
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- Flatpickr Dark Theme -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
+
+    <style>
+        /* Blog Slider Custom Styles */
+        .blog__container {
+            overflow: hidden;
+            padding: 1rem 40px 3rem 40px;
+            /* Padded for arrows */
+            position: relative;
+        }
+
+        .swiper-button-next-blog,
+        .swiper-button-prev-blog {
+            color: var(--first-color, #6e57e0) !important;
+            transform: scale(0.8);
+        }
+
+        .swiper-button-next-blog {
+            right: 5px !important;
+        }
+
+        .swiper-button-prev-blog {
+            left: 5px !important;
+        }
+
+        .testimonial__content {
+            padding: 1.5rem;
+            background: var(--container-color, #fff);
+            /* Fallback to white */
+            border-radius: 1rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            height: auto;
+            min-height: 200px;
+            margin: 1rem;
+            /* Spacing for shadow */
+        }
+
+        .testimonial__data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+
+        .testimonial__header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial__name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--title-color, #333);
+        }
+
+        .testimonial__client {
+            font-size: 0.875rem;
+            color: var(--text-color-light, #777);
+        }
+
+        .testimonial__description {
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-color, #555);
+        }
+
+        /* Pagination Color */
+        .swiper-pagination-bullet-active {
+            background-color: var(--first-color, #6e57e0) !important;
+        }
+
+        /* Dark Mode Support (Basic) */
+        body.dark-theme .testimonial__content {
+            background: var(--container-color, #1f1f1f);
+            box-shadow: none;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
 
     <title>Nova Toronto | Website Design & Digital Marketing</title>
     <link rel="icon" href="./assets/img/small_logo.png" type="image/x-icon">
@@ -563,8 +644,117 @@
 
         </div>
 
+        <!--==================== LATEST BLOGS ====================-->
+        <section class="section" id="blog">
+            <h2 class="section__title">Latest Insights</h2>
+            <span class="section__subtitle">Expert tips and industry trends</span>
 
+            <div class="blog__container testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Blog 1: Dental AI -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <div>
+                                    <h3 class="testimonial__name">AI for Dentists</h3>
+                                    <span class="testimonial__client">Healthcare Automation</span>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                Why every dental & medical office needs an AI receptionist to reduce missed calls.
+                            </p>
+                            <div style="margin-top: 1rem;">
+                                <a href="blog/ai-receptionist-dental/" class="button button--small button--link">Read
+                                    More <i class="uil uil-arrow-right button__icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Blog 2: Law Firm AI -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <div>
+                                    <h3 class="testimonial__name">AI for Law Firms</h3>
+                                    <span class="testimonial__client">Legal Tech</span>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                Automating legal intake: Qualify leads and book consultations 24/7 with AI.
+                            </p>
+                            <div style="margin-top: 1rem;">
+                                <a href="blog/ai-receptionist-law-firm/" class="button button--small button--link">Read
+                                    More <i class="uil uil-arrow-right button__icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog 3: Small Business AI -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <div>
+                                    <h3 class="testimonial__name">AI Receptionists</h3>
+                                    <span class="testimonial__client">Small Business</span>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                How AI receptionists are revolutionizing small business customer service in 2026.
+                            </p>
+                            <div style="margin-top: 1rem;">
+                                <a href="blog/ai-receptionist-small-business/"
+                                    class="button button--small button--link">Read
+                                    More <i class="uil uil-arrow-right button__icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog 4: Website Features -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <div>
+                                    <h3 class="testimonial__name">Website Features</h3>
+                                    <span class="testimonial__client">Web Design</span>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                Key website features every Toronto business needs to stay competitive.
+                            </p>
+                            <div style="margin-top: 1rem;">
+                                <a href="blog/website-design/must-have-website-features-toronto/"
+                                    class="button button--small button--link">Read
+                                    More <i class="uil uil-arrow-right button__icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog 5: Essential Guide -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <div>
+                                    <h3 class="testimonial__name">Essential Guide</h3>
+                                    <span class="testimonial__client">Web Strategy</span>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                Everything you need to know about building a successful online presence.
+                            </p>
+                            <div style="margin-top: 1rem;">
+                                <a href="blog/website-design/essential-website-guide-toronto/"
+                                    class="button button--small button--link">Read
+                                    More <i class="uil uil-arrow-right button__icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next swiper-button-next-blog"></div>
+                <div class="swiper-button-prev swiper-button-prev-blog"></div>
+                <div class="swiper-pagination swiper-pagination-blog"></div>
+            </div>
+        </section>
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="website-pricing">
@@ -1019,6 +1209,17 @@
             }
         }
 
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .uil-spin {
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+
         @media screen and (max-width: 768px) {
             .vapi-btn-floating {
                 right: 20px;
@@ -1073,6 +1274,31 @@
             let vapi = null;
             let isCallActive = false;
             let retryCount = 0;
+            let callTimerInterval = null;
+            let callStartTime = 0;
+
+            const updateCallTimer = () => {
+                if (!callStartTime) return;
+                const now = Date.now();
+                const diff = Math.floor((now - callStartTime) / 1000);
+                const mins = Math.floor(diff / 60);
+                const secs = diff % 60;
+                btnStatus.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+            };
+
+            const startCallTimer = () => {
+                callStartTime = Date.now();
+                updateCallTimer();
+                callTimerInterval = setInterval(updateCallTimer, 1000);
+            };
+
+            const stopCallTimer = () => {
+                if (callTimerInterval) {
+                    clearInterval(callTimerInterval);
+                    callTimerInterval = null;
+                }
+                callStartTime = 0;
+            };
 
             // Wait for SDK to load
             const initVapi = () => {
@@ -1120,6 +1346,7 @@
 
             const setButtonState = (state) => {
                 if (state === 'idle') {
+                    stopCallTimer();
                     vapiBtn.classList.remove('active', 'loading');
                     btnText.textContent = 'Call Us';
                     btnStatus.textContent = 'Talk to AI';
@@ -1133,7 +1360,7 @@
                     vapiBtn.classList.remove('loading');
                     vapiBtn.classList.add('active');
                     btnText.textContent = 'End Call';
-                    btnStatus.textContent = 'Tap to Disconnect';
+                    // We don't set btnStatus here because timer handles it
                     btnIcon.innerHTML = '<i class="uil uil-phone-slash"></i>';
                 }
             };
@@ -1176,6 +1403,7 @@
                     logDebug('Call Started (Event Triggered)');
                     isCallActive = true;
                     setButtonState('active');
+                    startCallTimer();
                 };
 
                 vapi.on('call-start', onCallStart);
