@@ -150,7 +150,7 @@
     <main class="main">
 
         <!--==================== INTRO ====================-->
-        <section class="section" id="intro" style="padding-top: 8rem;">
+        <section class="section" id="intro" style="padding-top: 8rem; padding-bottom: 2rem;">
             <div class="container grid">
                 <div class="home__data">
                     <h1 class="home__title">Affordable SEO Services & Digital Marketing in Toronto</h1>
@@ -158,14 +158,360 @@
                         Don't just launch a website—make sure it's seen. We help you rank higher on Google, reach your
                         audience, and drive conversions.
                     </p>
+
+                    <!-- Strategic Headline -->
+                    <div class="strategic-headline__container">
+                        <div class="strategic-headline__content">
+                            <p class="strategic-headline__text">
+                                We don't just spend your budget and generate clicks; we provide you with a <span
+                                    class="text-gradient">strategic roadmap</span> for your ads to generate conversions.
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="u-text-center">
-                        <a href="#seo" class="button button--flex">
-                            View More <i class="uil uil-arrow-down button__icon"></i>
+                        <a href="#process" class="button button--flex">
+                            Our Process <i class="uil uil-arrow-down button__icon"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!--==================== PROCESS SECTION ====================-->
+        <section class="section" id="process">
+            <div class="container">
+                <h2 class="section__title">Our Conversion Roadmap</h2>
+                <span class="section__subtitle">A strategic timeline from discovery to full-scale profitability</span>
+
+                <div class="roadmap__container">
+                    <div class="roadmap__line"></div>
+
+                    <!-- Phase 1 -->
+                    <div class="roadmap__step roadmap__step--left">
+                        <div class="roadmap__visual">
+                            <div class="roadmap__phase-indicator">
+                                <span class="roadmap__phase-label">Phase</span>
+                                <span class="roadmap__phase-number">01</span>
+                            </div>
+                            <div class="roadmap__icon-box">
+                                <i class="uil uil-search-alt roadmap__icon"></i>
+                                <div class="roadmap__icon-glow"></div>
+                            </div>
+                        </div>
+                        <div class="roadmap__info">
+                            <div class="process__card roadmap__card">
+                                <h3 class="process__phase-title">Strategic Reconnaissance</h3>
+                                <p class="process__description">
+                                    We don't guess; we investigate. We deep-dive into your business model and market
+                                    data to architect a <strong>1-year growth roadmap</strong> tailored specifically to
+                                    your conversion goals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phase 2 -->
+                    <div class="roadmap__step roadmap__step--right">
+                        <div class="roadmap__visual">
+                            <div class="roadmap__phase-indicator">
+                                <span class="roadmap__phase-label">Phase</span>
+                                <span class="roadmap__phase-number">02</span>
+                            </div>
+                            <div class="roadmap__icon-box">
+                                <i class="uil uil-rocket roadmap__icon"></i>
+                                <div class="roadmap__icon-glow"></div>
+                            </div>
+                        </div>
+                        <div class="roadmap__info">
+                            <div class="process__card roadmap__card">
+                                <h3 class="process__phase-title">The Conversion Engine</h3>
+                                <p class="process__description">
+                                    Deployment of high-performance prospecting campaigns. This phase is dedicated to
+                                    engineering the <strong>maximum possible conversion rate</strong> by leveraging
+                                    every dollar of your budget.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phase 3 -->
+                    <div class="roadmap__step roadmap__step--left">
+                        <div class="roadmap__visual">
+                            <div class="roadmap__phase-indicator">
+                                <span class="roadmap__phase-label">Phase</span>
+                                <span class="roadmap__phase-number">03</span>
+                            </div>
+                            <div class="roadmap__icon-box">
+                                <i class="uil uil-chart-growth roadmap__icon"></i>
+                                <div class="roadmap__icon-glow"></div>
+                            </div>
+                        </div>
+                        <div class="roadmap__info">
+                            <div class="process__card roadmap__card">
+                                <h3 class="process__phase-title">Retention & Scale</h3>
+                                <p class="process__description">
+                                    Precision remarketing and database maintenance. We slash costs on existing leads
+                                    while aggressively scaling into <strong>untapped audiences</strong> to ensure
+                                    perpetual growth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="u-text-center" style="margin-top: 4rem;">
+                    <div class="process__trust-banner">
+                        <p class="process__footer-text">This process makes sure your business is growing at full
+                            potential.</p>
+                    </div>
+                    <a href="#contact" class="button button--flex" style="margin-top: 2rem;">
+                        Book Your Strategy Session <i class="uil uil-phone-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            /* Strategic Headline Styling */
+            .strategic-headline__container {
+                margin: 3rem auto;
+                max-width: 850px;
+                text-align: center;
+                padding: 2.5rem;
+                background: rgba(255, 255, 255, 0.02);
+                border-radius: 2rem;
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                backdrop-filter: blur(20px);
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+                animation: fadeInUp 1s ease-out;
+            }
+
+            .strategic-headline__text {
+                font-size: 1.35rem;
+                line-height: 1.7;
+                color: var(--text-color);
+                margin: 0;
+                font-weight: 500;
+            }
+
+            .text-gradient {
+                background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: 700;
+            }
+
+            /* Roadmap Layout Styling */
+            .roadmap__container {
+                position: relative;
+                max-width: 1000px;
+                margin: 5rem auto 0;
+                padding: 2rem 0;
+            }
+
+            .roadmap__line {
+                position: absolute;
+                left: 50%;
+                top: 0;
+                bottom: 0;
+                width: 2px;
+                background: linear-gradient(to bottom, transparent, var(--first-color), transparent);
+                transform: translateX(-50%);
+                opacity: 0.2;
+            }
+
+            .roadmap__step {
+                display: flex;
+                align-items: center;
+                margin-bottom: 6rem;
+                width: 100%;
+                position: relative;
+            }
+
+            .roadmap__step--left {
+                flex-direction: row-reverse;
+            }
+
+            .roadmap__visual {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                padding: 0 2rem;
+            }
+
+            .roadmap__info {
+                flex: 1;
+                padding: 0 4rem;
+            }
+
+            .roadmap__step--left .roadmap__info {
+                text-align: right;
+            }
+
+            .roadmap__phase-indicator {
+                position: absolute;
+                top: -2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                z-index: 2;
+            }
+
+            .roadmap__phase-label {
+                font-size: 0.7rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                color: var(--first-color);
+                margin-bottom: 0.25rem;
+            }
+
+            .roadmap__phase-number {
+                font-size: 1.5rem;
+                font-weight: 800;
+                color: white;
+                opacity: 0.5;
+            }
+
+            .roadmap__icon-box {
+                width: 140px;
+                height: 140px;
+                background: rgba(255, 255, 255, 0.03);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 2.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                backdrop-filter: blur(15px);
+                transform: rotate(45deg);
+                transition: transform 0.4s ease;
+            }
+
+            .roadmap__step:hover .roadmap__icon-box {
+                transform: rotate(45deg) scale(1.05);
+                border-color: var(--first-color);
+            }
+
+            .roadmap__icon {
+                font-size: 3.5rem;
+                color: var(--first-color);
+                transform: rotate(-45deg);
+                z-index: 1;
+            }
+
+            .roadmap__icon-glow {
+                position: absolute;
+                width: 80%;
+                height: 80%;
+                background: var(--first-color);
+                filter: blur(40px);
+                opacity: 0.1;
+                border-radius: 50%;
+                animation: pulseGlow 4s infinite ease-in-out;
+            }
+
+            .roadmap__card {
+                background: rgba(255, 255, 255, 0.03);
+                padding: 2.5rem;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                border-radius: 1.5rem;
+                transition: all 0.4s ease;
+            }
+
+            .roadmap__step:hover .roadmap__card {
+                background: rgba(255, 255, 255, 0.06);
+                border-color: rgba(255, 255, 255, 0.15);
+                transform: translateY(-8px);
+                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            }
+
+            .process__phase-title {
+                font-size: 1.3rem;
+                margin-bottom: 1rem;
+                color: var(--title-color);
+                letter-spacing: 0.5px;
+            }
+
+            .process__trust-banner {
+                background: rgba(255, 255, 255, 0.02);
+                padding: 1.25rem 2.5rem;
+                display: inline-block;
+                border-radius: 50px;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+            }
+
+            .process__footer-text {
+                font-size: 1.1rem;
+                color: var(--title-color);
+                font-weight: 500;
+                margin: 0;
+            }
+
+            @keyframes pulseGlow {
+
+                0%,
+                100% {
+                    opacity: 0.1;
+                    transform: scale(0.9);
+                }
+
+                50% {
+                    opacity: 0.2;
+                    transform: scale(1.1);
+                }
+            }
+
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* Responsive Adjustments */
+            @media screen and (max-width: 900px) {
+                .roadmap__line {
+                    display: none;
+                }
+
+                .roadmap__step {
+                    flex-direction: column !important;
+                    align-items: center;
+                    margin-bottom: 5rem;
+                }
+
+                .roadmap__info {
+                    text-align: center !important;
+                    padding: 0;
+                    width: 100%;
+                }
+
+                .roadmap__visual {
+                    margin-bottom: 3rem;
+                    padding: 0;
+                }
+
+                .roadmap__icon-box {
+                    width: 110px;
+                    height: 110px;
+                }
+
+                .roadmap__icon {
+                    font-size: 2.5rem;
+                }
+            }
+        </style>
 
         <!--==================== SEO SECTION ====================-->
         <section class="section" id="seo">
