@@ -41,82 +41,141 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
 
     <style>
-        /* Blog Slider Custom Styles */
+        /* Blog Slider Modern Styles */
         .blog__container {
             overflow: hidden;
-            padding: 1rem 40px 3rem 40px;
-            /* Padded for arrows */
+            padding: 2rem 1rem 4rem 1rem;
             position: relative;
         }
 
-        .swiper-button-next-blog,
-        .swiper-button-prev-blog {
-            color: var(--first-color, #6e57e0) !important;
-            transform: scale(0.8);
-        }
-
-        .swiper-button-next-blog {
-            right: 5px !important;
-        }
-
-        .swiper-button-prev-blog {
-            left: 5px !important;
-        }
-
-        .testimonial__content {
-            padding: 1.5rem;
-            background: var(--container-color, #fff);
-            /* Fallback to white */
-            border-radius: 1rem;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            height: auto;
-            min-height: 200px;
-            margin: 1rem;
-            /* Spacing for shadow */
-        }
-
-        .testimonial__data {
+        .blog__card {
+            background: var(--container-color);
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            height: 100%;
-        }
-
-        .testimonial__header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-
-        .testimonial__name {
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 0.25rem;
-            color: var(--title-color, #333);
-        }
-
-        .testimonial__client {
-            font-size: 0.875rem;
-            color: var(--text-color-light, #777);
-        }
-
-        .testimonial__description {
-            margin-bottom: 1.5rem;
-            font-size: 0.9rem;
-            color: var(--text-color, #555);
-        }
-
-        /* Pagination Color */
-        .swiper-pagination-bullet-active {
-            background-color: var(--first-color, #6e57e0) !important;
-        }
-
-        /* Dark Mode Support (Basic) */
-        body.dark-theme .testimonial__content {
-            background: var(--container-color, #1f1f1f);
-            box-shadow: none;
             border: 1px solid rgba(255, 255, 255, 0.05);
+            margin: 0.5rem;
+        }
+
+        .blog__card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(110, 87, 224, 0.2);
+            border-color: var(--first-color);
+        }
+
+        .blog__img-wrapper {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .blog__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .blog__card:hover .blog__img {
+            transform: scale(1.1);
+        }
+
+        .blog__category {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: var(--first-color);
+            color: #FFF;
+            padding: 0.25rem 0.75rem;
+            border-radius: 2rem;
+            font-size: var(--smaller-font-size);
+            font-weight: var(--font-medium);
+            z-index: 1;
+        }
+
+        .blog__content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            background: var(--glass-bg);
+            backdrop-filter: var(--backdrop-blur);
+        }
+
+        .blog__title {
+            font-size: var(--h3-font-size);
+            margin-bottom: 0.75rem;
+            color: var(--title-color);
+        }
+
+        .blog__desc {
+            font-size: var(--small-font-size);
+            color: var(--text-color-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .blog__footer {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .blog__btn {
+            display: inline-flex;
+            align-items: center;
+            column-gap: 0.25rem;
+            color: var(--first-color);
+            font-size: var(--small-font-size);
+            font-weight: var(--font-medium);
+            transition: column-gap 0.3s;
+        }
+
+        .blog__btn:hover {
+            column-gap: 0.5rem;
+        }
+
+        /* Swiper Navigation Refinement */
+        .swiper-button-next-blog,
+        .swiper-button-prev-blog {
+            width: 45px !important;
+            height: 45px !important;
+            background: var(--glass-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--first-color) !important;
+            backdrop-filter: var(--backdrop-blur);
+            box-shadow: var(--glass-shadow);
+            transition: all 0.3s ease;
+        }
+
+        .swiper-button-next-blog:after,
+        .swiper-button-prev-blog:after {
+            font-size: 1.2rem !important;
+            font-weight: bold;
+        }
+
+        .swiper-button-next-blog:hover,
+        .swiper-button-prev-blog:hover {
+            background: var(--first-color);
+            color: #FFF !important;
+            transform: scale(1.1);
+        }
+
+        @media screen and (max-width: 568px) {
+            .blog__container {
+                padding: 1rem 0.5rem 3rem 0.5rem;
+            }
+
+            .swiper-button-next-blog,
+            .swiper-button-prev-blog {
+                display: none;
+                /* Hide on mobile to save space */
+            }
         }
     </style>
 
@@ -649,109 +708,124 @@
             <h2 class="section__title">Latest Insights</h2>
             <span class="section__subtitle">Expert tips and industry trends</span>
 
-            <div class="blog__container testimonial__container container swiper-container">
+            <div class="blog__container container swiper-container">
                 <div class="swiper-wrapper">
                     <!-- Blog 1: Dental AI -->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <div>
-                                    <h3 class="testimonial__name">AI for Dentists</h3>
-                                    <span class="testimonial__client">Healthcare Automation</span>
+                    <div class="swiper-slide">
+                        <article class="blog__card">
+                            <div class="blog__img-wrapper">
+                                <span class="blog__category">Automation</span>
+                                <img src="assets/img/service_ai_automation.png" alt="AI for Dentists" class="blog__img">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">AI for Dentists</h3>
+                                <p class="blog__desc">
+                                    Why every dental & medical office needs an AI receptionist to reduce missed calls
+                                    and improve patient satisfaction.
+                                </p>
+                                <div class="blog__footer">
+                                    <a href="blog/ai-receptionist-dental/" class="blog__btn">
+                                        Read Story <i class="uil uil-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
-                            <p class="testimonial__description">
-                                Why every dental & medical office needs an AI receptionist to reduce missed calls.
-                            </p>
-                            <div style="margin-top: 1rem;">
-                                <a href="blog/ai-receptionist-dental/" class="button button--small button--link">Read
-                                    More <i class="uil uil-arrow-right button__icon"></i></a>
-                            </div>
-                        </div>
+                        </article>
                     </div>
 
                     <!-- Blog 2: Law Firm AI -->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <div>
-                                    <h3 class="testimonial__name">AI for Law Firms</h3>
-                                    <span class="testimonial__client">Legal Tech</span>
+                    <div class="swiper-slide">
+                        <article class="blog__card">
+                            <div class="blog__img-wrapper">
+                                <span class="blog__category">Legal Tech</span>
+                                <img src="assets/img/ai_automation_graphic.png" alt="AI for Law Firms"
+                                    class="blog__img">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">AI for Law Firms</h3>
+                                <p class="blog__desc">
+                                    Automating legal intake: Qualify leads and book consultations 24/7 without adding
+                                    headcount.
+                                </p>
+                                <div class="blog__footer">
+                                    <a href="blog/ai-receptionist-law-firm/" class="blog__btn">
+                                        Read Story <i class="uil uil-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
-                            <p class="testimonial__description">
-                                Automating legal intake: Qualify leads and book consultations 24/7 with AI.
-                            </p>
-                            <div style="margin-top: 1rem;">
-                                <a href="blog/ai-receptionist-law-firm/" class="button button--small button--link">Read
-                                    More <i class="uil uil-arrow-right button__icon"></i></a>
-                            </div>
-                        </div>
+                        </article>
                     </div>
 
                     <!-- Blog 3: Small Business AI -->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <div>
-                                    <h3 class="testimonial__name">AI Receptionists</h3>
-                                    <span class="testimonial__client">Small Business</span>
+                    <div class="swiper-slide">
+                        <article class="blog__card">
+                            <div class="blog__img-wrapper">
+                                <span class="blog__category">Efficiency</span>
+                                <img src="assets/img/home_bg.png" alt="Small Business AI" class="blog__img">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">AI Receptionists</h3>
+                                <p class="blog__desc">
+                                    How AI voice agents are revolutionizing small business customer service and boosting
+                                    conversion rates in 2026.
+                                </p>
+                                <div class="blog__footer">
+                                    <a href="blog/ai-receptionist-small-business/" class="blog__btn">
+                                        Read Story <i class="uil uil-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
-                            <p class="testimonial__description">
-                                How AI receptionists are revolutionizing small business customer service in 2026.
-                            </p>
-                            <div style="margin-top: 1rem;">
-                                <a href="blog/ai-receptionist-small-business/"
-                                    class="button button--small button--link">Read
-                                    More <i class="uil uil-arrow-right button__icon"></i></a>
-                            </div>
-                        </div>
+                        </article>
                     </div>
 
                     <!-- Blog 4: Website Features -->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <div>
-                                    <h3 class="testimonial__name">Website Features</h3>
-                                    <span class="testimonial__client">Web Design</span>
+                    <div class="swiper-slide">
+                        <article class="blog__card">
+                            <div class="blog__img-wrapper">
+                                <span class="blog__category">Web Design</span>
+                                <img src="assets/img/service_website_design.png" alt="Website Features"
+                                    class="blog__img">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">Website Features</h3>
+                                <p class="blog__desc">
+                                    Key website features every Toronto business needs to stay competitive and drive
+                                    organic traffic.
+                                </p>
+                                <div class="blog__footer">
+                                    <a href="blog/website-design/must-have-website-features-toronto/" class="blog__btn">
+                                        Read Story <i class="uil uil-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
-                            <p class="testimonial__description">
-                                Key website features every Toronto business needs to stay competitive.
-                            </p>
-                            <div style="margin-top: 1rem;">
-                                <a href="blog/website-design/must-have-website-features-toronto/"
-                                    class="button button--small button--link">Read
-                                    More <i class="uil uil-arrow-right button__icon"></i></a>
-                            </div>
-                        </div>
+                        </article>
                     </div>
 
                     <!-- Blog 5: Essential Guide -->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <div>
-                                    <h3 class="testimonial__name">Essential Guide</h3>
-                                    <span class="testimonial__client">Web Strategy</span>
+                    <div class="swiper-slide">
+                        <article class="blog__card">
+                            <div class="blog__img-wrapper">
+                                <span class="blog__category">Strategy</span>
+                                <img src="assets/img/web_design_graphic.png" alt="Essential Guide" class="blog__img">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">Strategy Guide</h3>
+                                <p class="blog__desc">
+                                    Everything you need to know about building a long-term successful online presence in
+                                    the GTA.
+                                </p>
+                                <div class="blog__footer">
+                                    <a href="blog/website-design/essential-website-guide-toronto/" class="blog__btn">
+                                        Read Story <i class="uil uil-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
-                            <p class="testimonial__description">
-                                Everything you need to know about building a successful online presence.
-                            </p>
-                            <div style="margin-top: 1rem;">
-                                <a href="blog/website-design/essential-website-guide-toronto/"
-                                    class="button button--small button--link">Read
-                                    More <i class="uil uil-arrow-right button__icon"></i></a>
-                            </div>
-                        </div>
+                        </article>
                     </div>
                 </div>
-                <!-- Add Navigation -->
+                <!-- Swiper Navigation -->
                 <div class="swiper-button-next swiper-button-next-blog"></div>
                 <div class="swiper-button-prev swiper-button-prev-blog"></div>
+                <!-- Swiper Pagination -->
                 <div class="swiper-pagination swiper-pagination-blog"></div>
             </div>
         </section>

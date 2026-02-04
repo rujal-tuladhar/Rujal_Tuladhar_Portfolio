@@ -128,93 +128,216 @@
                     <h1 class="home__title">AI Automation Services</h1>
                     <p class="home__description u-text-center">
                         Leverage the power of Artificial Intelligence to streamline your operations, engage customers,
-                        and grow your business effortlessly.
+                        and grow your business effortlessly with our cutting-edge automation solutions.
                     </p>
-                    <div class="u-text-center" style="margin-top: 2rem;">
-                        <img src="../assets/img/ai_automation_graphic.png" alt="AI Automation Illustration"
-                            class="u-rounded-sm"
-                            style="max-width: 100%; height: auto; box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);">
-                    </div>
-                    <div class="u-text-center">
-                        <a href="../index.html#contact" class="button button--flex">
-                            Get Started <i class="uil uil-arrow-right button__icon"></i>
+                    <div class="u-text-center" style="margin-top: 2rem; position: relative;">
+                        <a href="#ai-services">
+                            <div class="hero__graphic-container" style="position: relative; display: inline-block;">
+                                <img src="../assets/img/ai_automation_graphic.png" alt="AI Automation Illustration"
+                                    class="u-rounded-sm"
+                                    style="max-width: 100%; height: auto; border: 1px solid rgba(255,255,255,0.1);">
+                                <div
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at 50% 50%, rgba(64, 123, 255, 0.1) 0%, transparent 70%); pointer-events: none;">
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- CSS for Modernization -->
+        <style>
+            .ai-services__container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 2.5rem;
+                padding: 3rem 0;
+            }
+
+            .ai-card {
+                background: var(--glass-bg, rgba(255, 255, 255, 0.03));
+                backdrop-filter: blur(var(--backdrop-blur, 10px));
+                -webkit-backdrop-filter: blur(var(--backdrop-blur, 10px));
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 1.5rem;
+                padding: 2.5rem;
+                transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                box-shadow: var(--glass-shadow, 0 8px 32px 0 rgba(0, 0, 0, 0.3));
+                position: relative;
+                overflow: hidden;
+            }
+
+            .ai-card:hover {
+                transform: translateY(-15px);
+                border-color: var(--first-color);
+                background: rgba(255, 255, 255, 0.05);
+                box-shadow: 0 15px 45px rgba(64, 123, 255, 0.2);
+            }
+
+            .ai-card::before {
+                content: '';
+                position: absolute;
+                top: -50%;
+                left: -50%;
+                width: 200%;
+                height: 200%;
+                background: radial-gradient(circle at center, var(--first-color-lighter) 0%, transparent 70%);
+                opacity: 0;
+                transition: opacity 0.4s ease;
+                pointer-events: none;
+                z-index: 0;
+            }
+
+            .ai-card:hover::before {
+                opacity: 0.05;
+            }
+
+            .ai-card__header {
+                z-index: 1;
+                margin-bottom: 2rem;
+            }
+
+            .ai-card__icon-wrapper {
+                width: 70px;
+                height: 70px;
+                background: linear-gradient(135deg, var(--first-color), var(--first-color-alt));
+                border-radius: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 10px 20px rgba(64, 123, 255, 0.3);
+            }
+
+            .ai-card__icon {
+                font-size: 2.5rem;
+                color: #fff;
+            }
+
+            .ai-card__title {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--title-color);
+                margin-bottom: 1rem;
+            }
+
+            .ai-card__description {
+                font-size: var(--small-font-size);
+                color: var(--text-color);
+                line-height: 1.6;
+                margin-bottom: 2rem;
+            }
+
+            .ai-card__features {
+                list-style: none;
+                padding: 0;
+                margin-bottom: 2.5rem;
+                flex-grow: 1;
+            }
+
+            .ai-card__feature {
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                margin-bottom: 0.75rem;
+                font-size: var(--smaller-font-size);
+                color: var(--text-color-light);
+            }
+
+            .ai-card__feature i {
+                color: var(--first-color);
+                font-size: 1.1rem;
+            }
+
+            .ai-card__btn {
+                width: 100%;
+                justify-content: center;
+                z-index: 1;
+            }
+        </style>
+
         <!--==================== SERVICES LIST ====================-->
         <section class="section" id="ai-services">
             <h2 class="section__title">Our AI Solutions</h2>
             <span class="section__subtitle">Automate your success</span>
 
-            <div class="container grid" style="gap: 4rem;">
+            <div class="container ai-services__container">
 
-                <!-- SERVICE 1 -->
-                <div class="about__data">
-                    <h3 class="u-text-center" style="font-size: 1.5rem; margin-bottom: 1rem;">1. AI Receptionist</h3>
-                    <p class="about__description">
-                        Never miss a call again. Our AI Receptionist service provides a smart, 24/7 voice assistant that
-                        handles incoming calls with a human-like touch.
-                    </p>
-                    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
-                        <ul class="skills__list" style="padding-left: 0; list-style: none;">
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Answers basic
-                                business questions (Hours, Location, Services)</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Handles
-                                appointment bookings seamlessly</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Professional and
-                                consistent customer experience</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Reduces staffing
-                                costs and overhead</li>
+                <!-- SERVICE 1: AI Receptionist -->
+                <article class="ai-card">
+                    <div class="ai-card__header">
+                        <div class="ai-card__icon-wrapper">
+                            <i class="uil uil-headset ai-card__icon"></i>
+                        </div>
+                        <h3 class="ai-card__title">AI Receptionist</h3>
+                        <p class="ai-card__description">
+                            Never miss a call again. Our AI Receptionist provides a smart, 24/7 voice assistant that
+                            handles inquiries with human-like natural language.
+                        </p>
+                        <ul class="ai-card__features">
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> 24/7 Availability</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Smart Appointment Booking</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Multi-lingual Support</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Instant Setup & Training</li>
                         </ul>
                     </div>
-                </div>
+                    <a href="ai-receptionist/index.html" class="button ai-card__btn">
+                        View Service <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </article>
 
-                <!-- SERVICE 2 -->
-                <div class="about__data">
-                    <h3 class="u-text-center" style="font-size: 1.5rem; margin-bottom: 1rem;">2. Automatic Blog
-                        Generation</h3>
-                    <p class="about__description">
-                        Keep your website fresh and improve SEO without lifting a finger. We set up automated pipelines
-                        to generate and publish high-quality blog content relevant to your niche.
-                    </p>
-                    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
-                        <ul class="skills__list" style="padding-left: 0; list-style: none;">
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Weekly or daily
-                                publishing schedules</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> SEO-optimized
-                                content to drive traffic</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Varied content
-                                types tailored to your audience</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Full integration
-                                with your website CMS</li>
+                <!-- SERVICE 2: Blog Generation -->
+                <article class="ai-card">
+                    <div class="ai-card__header">
+                        <div class="ai-card__icon-wrapper"
+                            style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">
+                            <i class="uil uil-pen ai-card__icon"></i>
+                        </div>
+                        <h3 class="ai-card__title">Auto Blog Generation</h3>
+                        <p class="ai-card__description">
+                            Keep your website fresh and dominate SEO. We automate high-quality blog publishing relevant
+                            to your niche
+                            without you lifting a finger.
+                        </p>
+                        <ul class="ai-card__features">
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Weekly Publishing Schedule</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> SEO-Optimized Content</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Niche-Specific Authority</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Full CRM/CMS Integration</li>
                         </ul>
                     </div>
-                </div>
+                    <a href="#cta" class="button ai-card__btn">
+                        View Service <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </article>
 
-                <!-- SERVICE 3 -->
-                <div class="about__data">
-                    <h3 class="u-text-center" style="font-size: 1.5rem; margin-bottom: 1rem;">3. Social Media Content
-                        Automation</h3>
-                    <p class="about__description">
-                        Maintain an active social media presence effortlessly. Our systems generate and post engaging
-                        content across platforms to keep your brand top-of-mind.
-                    </p>
-                    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
-                        <ul class="skills__list" style="padding-left: 0; list-style: none;">
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Automated content
-                                creation (Text & Graphics)</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Scheduled uploads
-                                for optimal engagement times</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Consistent brand
-                                voice and aesthetics</li>
-                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Cross-platform
-                                syndication</li>
+                <!-- SERVICE 3: Social Media Automation -->
+                <article class="ai-card">
+                    <div class="ai-card__header">
+                        <div class="ai-card__icon-wrapper"
+                            style="background: linear-gradient(135deg, #3b82f6, #06b6d4);">
+                            <i class="uil uil-share-alt ai-card__icon"></i>
+                        </div>
+                        <h3 class="ai-card__title">Social Content Automation</h3>
+                        <p class="ai-card__description">
+                            Maintain an active social presence effortlessly. Our systems generate and post engaging
+                            content across all platforms to keep your brand top-of-mind.
+                        </p>
+                        <ul class="ai-card__features">
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Multi-Platform Syndication</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Engagement Analytics</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Consistent Brand Voice</li>
+                            <li class="ai-card__feature"><i class="uil uil-check"></i> Graphics & Text Creation</li>
                         </ul>
                     </div>
-                </div>
+                    <a href="#cta" class="button ai-card__btn">
+                        View Service <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </article>
 
             </div>
         </section>

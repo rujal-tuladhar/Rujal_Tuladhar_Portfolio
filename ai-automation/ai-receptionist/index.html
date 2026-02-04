@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Goodbye missed calls. Hello AI Receptionist. Nova Toronto's AI Receptionist provides a 24/7 smart voice assistant that handles inquiries, bookings, and customer support with natural language.">
+    <meta name="keywords"
+        content="AI Receptionist, Auto Attendant, AI Voice Assistant, Automated Customer Support, Nova Toronto">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="index, follow">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+
+    <title>AI Receptionist | Nova Toronto</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/x-icon">
+
+    <style>
+        .hero__bg-glow {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 1200px;
+            height: 600px;
+            background: radial-gradient(circle at 50% 30%, rgba(64, 123, 255, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .receptionist__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .feature__card {
+            background: var(--glass-bg, rgba(255, 255, 255, 0.03));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1.25rem;
+            padding: 2.5rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature__card:hover {
+            transform: translateY(-5px);
+            border-color: var(--first-color);
+        }
+
+        .feature__icon {
+            font-size: 3rem;
+            color: var(--first-color);
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+
+        .feature__title {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: var(--title-color);
+        }
+
+        .roi__section {
+            background: rgba(64, 123, 255, 0.05);
+            padding: 5rem 0;
+            margin: 4rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .roi__container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3rem;
+            text-align: center;
+        }
+
+        .roi__number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--first-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .roi__label {
+            font-size: var(--small-font-size);
+            color: var(--text-color-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .demo__container {
+            background: var(--glass-bg);
+            border-radius: 2rem;
+            padding: 4rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            flex-wrap: wrap;
+        }
+
+        .demo__content {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .demo__visual {
+            flex: 1;
+            min-width: 300px;
+            display: flex;
+            justify-content: center;
+            perspective: 1000px;
+        }
+
+        /* Phone Frame Mockup */
+        .phone-frame {
+            width: 280px;
+            height: 560px;
+            background: #000;
+            border-radius: 3rem;
+            border: 8px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            box-shadow: 0 50px 100px -20px rgba(0, 0, 0, 0.5), 0 30px 60px -30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(64, 123, 255, 0.2);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            animation: phoneEntrance 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        @keyframes phoneEntrance {
+            from {
+                transform: translateY(50px) rotateX(10deg);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0) rotateX(0);
+                opacity: 1;
+            }
+        }
+
+        .phone-frame::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 25px;
+            background: #000;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            z-index: 10;
+        }
+
+        .phone-screen {
+            flex: 1;
+            background: #000;
+            padding: 5rem 1.5rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            overflow-y: auto;
+            scrollbar-width: none;
+            color: #fff;
+        }
+
+        .phone-screen::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Call Header */
+        .call__header {
+            text-align: center;
+            margin-bottom: 2rem;
+            animation: fadeIn 0.8s ease forwards;
+        }
+
+        .call__status {
+            color: var(--first-color);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .call__caller-id {
+            font-size: 1.5rem;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        /* Audio Wave Animation */
+        .audio-wave {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            height: 40px;
+            margin-bottom: 2rem;
+        }
+
+        .wave-bar {
+            width: 3px;
+            height: 10px;
+            background: var(--first-color);
+            border-radius: 3px;
+            animation: waveAnim 1s ease-in-out infinite;
+        }
+
+        .wave-bar:nth-child(2) {
+            height: 25px;
+            animation-delay: 0.1s;
+        }
+
+        .wave-bar:nth-child(3) {
+            height: 35px;
+            animation-delay: 0.2s;
+        }
+
+        .wave-bar:nth-child(4) {
+            height: 20px;
+            animation-delay: 0.3s;
+        }
+
+        .wave-bar:nth-child(5) {
+            height: 30px;
+            animation-delay: 0.4s;
+        }
+
+        @keyframes waveAnim {
+
+            0%,
+            100% {
+                transform: scaleY(1);
+            }
+
+            50% {
+                transform: scaleY(1.8);
+            }
+        }
+
+        /* Transcript bubbles */
+        .chat-bubble {
+            padding: 1rem;
+            border-radius: 1rem;
+            font-size: 0.85rem;
+            max-width: 90%;
+            line-height: 1.5;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: bubbleShow 0.5s ease forwards;
+            position: relative;
+        }
+
+        @keyframes bubbleShow {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .chat-bubble::before {
+            content: attr(data-label);
+            position: absolute;
+            top: -1.2rem;
+            left: 0;
+            font-size: 0.65rem;
+            color: var(--text-color-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .chat-bubble--ai {
+            background: rgba(64, 123, 255, 0.1);
+            border: 1px solid rgba(64, 123, 255, 0.2);
+            align-self: flex-start;
+        }
+
+        .chat-bubble--user {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            align-self: flex-start;
+        }
+
+        .chat-bubble:nth-child(3) {
+            animation-delay: 1.5s;
+        }
+
+        /* After header & wave */
+        .chat-bubble:nth-child(4) {
+            animation-delay: 4.5s;
+        }
+
+        .chat-bubble:nth-child(5) {
+            animation-delay: 8s;
+        }
+
+        .chat-bubble:nth-child(6) {
+            animation-delay: 11s;
+        }
+
+        /* Typing/Transcribing */
+        .transcribing {
+            font-size: 0.75rem;
+            color: var(--first-color);
+            margin-top: 1rem;
+            opacity: 0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 0.4;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo image">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../#home" class="nav__link">ABOUT</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle">SERVICES</a>
+                    </li>
+                    <li class="nav__item"><a href="../../index.html#portfolio" class="nav__link">PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../index.html#website-pricing" class="nav__link">PRICING</a></li>
+                    <li class="nav__item"><a href="../../index.html#contact" class="nav__link">CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="hero__bg-glow"></div>
+
+        <!--==================== HERO ====================-->
+        <section class="section" style="padding-top: 9rem;">
+            <div class="container u-text-center">
+                <span class="section__subtitle" style="color: var(--first-color); font-weight: 600;">AI CALL
+                    MANAGEMENT</span>
+                <h1 class="home__title" style="font-size: 3.5rem; margin-bottom: 1.5rem;">Goodbye missed calls.<br>Hello
+                    AI Receptionist.</h1>
+                <p class="home__description" style="max-width: 700px; margin: 0 auto 3rem;">
+                    Turn every missed call into a loyal customer. Our AI Receptionist handles your front desk 24/7,
+                    scheduling appointments and answering questions with natural, human-like speed.
+                </p>
+                <div class="u-flex u-justify-center" style="gap: 1.5rem;">
+                    <a href="#contact" class="button button--flex">
+                        Experience Demo <i class="uil uil-phone button__icon"></i>
+                    </a>
+                    <a href="#features" class="button button--ghost">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== INTERACTIVE DEMO ====================-->
+        <section class="section">
+            <div class="container">
+                <div class="demo__container">
+                    <div class="demo__content">
+                        <h2 class="section__title" style="text-align: left; padding-top: 0;">See it in action</h2>
+                        <p class="section__subtitle" style="text-align: left; margin-bottom: 2rem;">
+                            Your AI Receptionist isn't just a bot—it's a high-performing team member that knows your
+                            business inside out.
+                        </p>
+                        <ul class="skills__list" style="list-style: none; padding: 0;">
+                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Syncs with
+                                Google/Outlook Calendars</li>
+                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Captures Lead
+                                Data Instantly</li>
+                            <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Filters Spam &
+                                Robo-calls</li>
+                        </ul>
+                    </div>
+                    <div class="demo__visual">
+                        <div class="phone-frame">
+                            <div class="phone-screen" id="phone-screen">
+                                <div class="call__header">
+                                    <span class="call__status">Live AI Call</span>
+                                    <span class="call__caller-id">+1 (647) 555-0123</span>
+                                    <div class="audio-wave">
+                                        <div class="wave-bar"></div>
+                                        <div class="wave-bar"></div>
+                                        <div class="wave-bar"></div>
+                                        <div class="wave-bar"></div>
+                                        <div class="wave-bar"></div>
+                                    </div>
+                                </div>
+
+                                <div class="chat-bubble chat-bubble--ai" data-label="AI Receptionist">
+                                    "Hello! Thank you for calling Nova Dental. This is Sarah, your AI assistant. How can
+                                    I help you today?"
+                                </div>
+                                <div class="chat-bubble chat-bubble--user" data-label="Caller">
+                                    "Hi, I'd like to book a cleaning for next Tuesday."
+                                </div>
+                                <div class="chat-bubble chat-bubble--ai" data-label="AI Receptionist">
+                                    "I can certainly help with that! We have an opening at 2:00 PM on Tuesday. Shall I
+                                    book that for you?"
+                                </div>
+                                <div class="chat-bubble chat-bubble--user" data-label="Caller">
+                                    "Yes, that works perfectly. Thank you!"
+                                </div>
+
+                                <div class="transcribing">
+                                    <i class="uil uil-microphone"></i> Transcribing live audio...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FEATURES ====================-->
+        <section class="section" id="features">
+            <div class="container">
+                <h2 class="section__title">Smart Front-Desk Automation</h2>
+                <div class="receptionist__grid">
+                    <div class="feature__card">
+                        <i class="uil uil-bolt feature__icon"></i>
+                        <h3 class="feature__title">Instant Setup</h3>
+                        <p class="section__subtitle">Train your AI in minutes using your website, FAQs, and office
+                            documents. No coding required.</p>
+                    </div>
+                    <div class="feature__card">
+                        <i class="uil uil-comment-alt-heart feature__icon"></i>
+                        <h3 class="feature__title">Natural Interaction</h3>
+                        <p class="section__subtitle">Human-like, multi-lingual conversations that keep customers engaged
+                            without frustration.</p>
+                    </div>
+                    <div class="feature__card">
+                        <i class="uil uil-direction feature__icon"></i>
+                        <h3 class="feature__title">Contextual Routing</h3>
+                        <p class="section__subtitle">Smart call redirection by name or department without repeating
+                            information.</p>
+                    </div>
+                    <div class="feature__card">
+                        <i class="uil uil-check-square feature__icon"></i>
+                        <h3 class="feature__title">Task Automation</h3>
+                        <p class="section__subtitle">Handles FAQs, lead capture, and appointment scheduling directly
+                            into your CRM.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ROI SECTION ====================-->
+        <section class="roi__section">
+            <div class="container roi__container">
+                <div>
+                    <div class="roi__number">93%</div>
+                    <div class="roi__label">Calls Handled by AI</div>
+                </div>
+                <div>
+                    <div class="roi__number">50%</div>
+                    <div class="roi__label">Reduction in Wait Time</div>
+                </div>
+                <div>
+                    <div class="roi__number">24/7</div>
+                    <div class="roi__label">Business Availability</div>
+                </div>
+                <div>
+                    <div class="roi__number">0</div>
+                    <div class="roi__label">Missed Opportunities</div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== CTA ====================-->
+        <section class="section" id="contact">
+            <div class="container u-text-center">
+                <h2 class="section__title">Ready to never miss a lead?</h2>
+                <p class="section__subtitle" style="margin-bottom: 3rem;">Join forward-thinking businesses using AI to
+                    scale their customer service.</p>
+                <a href="../../index.html#contact" class="button button--flex">
+                    Book Your AI Setup <i class="uil uil-message button__icon"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Nova Toronto</h1>
+                    <span class="footer__subtitle">From click to customers</span>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../index.html#website-pricing" class="footer__link">Services</a></li>
+                    <li><a href="../../#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="../../#contact" class="footer__link">Contact me</a></li>
+                </ul>
+            </div>
+            <p class="footer__copy">&#169; Rujal. All right reserved</p>
+        </div>
+    </footer>
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const phoneScreen = document.getElementById('phone-screen');
+            const demoContainer = document.querySelector('.demo__container');
+
+            if (phoneScreen && demoContainer) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            // Delays match the CSS bubble animation delays + a small buffer
+                            const scrollDelays = [2000, 5000, 8500, 11500];
+                            
+                            scrollDelays.forEach(delay => {
+                                setTimeout(() => {
+                                    phoneScreen.scrollTo({
+                                        top: phoneScreen.scrollHeight,
+                                        behavior: 'smooth'
+                                    });
+                                }, delay);
+                            });
+                            
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.3 });
+
+                observer.observe(demoContainer);
+            }
+        });
+    </script>
+</body>
+
+</html>
