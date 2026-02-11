@@ -1100,20 +1100,24 @@
 
                 </div>
 
-                <!-- Calendly Integration -->
-                <div class="contact__form" style="min-height: 700px;">
+                <!-- Calendly Popup Widget -->
+                <div class="contact__form" style="min-height: auto;">
                     <p style="margin-bottom: 1.5rem; line-height: 1.6;">
                         <strong>Book your free 30-minute consultation</strong> to discover proven strategies
                         for increasing traffic and growing your online presence. Select a time that works best for you.
                     </p>
 
-                    <!-- Calendly inline widget begin -->
-                    <div class="calendly-inline-widget"
-                        data-url="https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=6e57e0"
-                        style="min-width:320px;height:700px;"></div>
-                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                    <!-- Calendly link widget begin -->
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"
                         async></script>
-                    <!-- Calendly inline widget end -->
+
+                    <button class="button button--flex" onclick="openCalendlyPopup()"
+                        style="width: 100%; justify-content: center; margin-bottom: 1rem;">
+                        Select Your Time Slot
+                        <i class="uil uil-calendar-alt button__icon"></i>
+                    </button>
+                    <!-- Calendly link widget end -->
 
                     <p
                         style="margin-top: 1rem; font-size: 0.875rem; color: var(--text-color-light); text-align: center;">
@@ -1121,6 +1125,31 @@
                         After booking, you'll receive a confirmation email and calendar invite.
                     </p>
                 </div>
+
+                <script>
+                    function openCalendlyPopup() {
+                        Calendly.initPopupWidget({
+                            url: 'https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=6e57e0'
+                        });
+
+                        // Listen for Calendly events
+                        window.addEventListener('message', function (e) {
+                            if (e.data.event && e.data.event.indexOf('calendly') === 0) {
+                                console.log('Calendly event:', e.data.event);
+
+                                // When booking is scheduled, redirect to thank you page
+                                if (e.data.event === 'calendly.event_scheduled') {
+                                    console.log('Booking completed! Redirecting to thank you page...');
+                                    setTimeout(function () {
+                                        window.location.href = '/thank-you.html';
+                                    }, 1000);
+                                }
+                            }
+                        });
+
+                        return false;
+                    }
+                </script>
             </div>
 
         </section>
