@@ -262,7 +262,13 @@ img.rounded-corners {
 
 
 .nav__logo img {
-    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.9));
+    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
+    transition: all 0.3s ease;
+}
+
+.nav__logo:hover img {
+    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 8px rgba(110, 87, 224, 0.8));
+    transform: scale(1.05);
 }
 
 .the_logo {
