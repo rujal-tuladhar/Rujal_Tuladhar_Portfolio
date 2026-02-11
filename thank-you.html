@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MNFPW6W7');</script>
+    <!-- End Google Tag Manager -->
+
+    <title>Thank You - Consultation Booked | Nova Toronto</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Thank you for booking your free consultation with Nova Toronto. We'll help you grow your business online.">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        .thank-you-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .thank-you-card {
+            background: var(--glass-bg);
+            backdrop-filter: var(--backdrop-blur);
+            -webkit-backdrop-filter: var(--backdrop-blur);
+            border: var(--glass-border);
+            border-radius: 2rem;
+            padding: 3rem 2rem;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: var(--glass-shadow);
+        }
+
+        .thank-you-icon {
+            font-size: 5rem;
+            color: var(--first-color);
+            margin-bottom: 1.5rem;
+            animation: scaleIn 0.5s ease-out;
+        }
+
+        @keyframes scaleIn {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .thank-you-title {
+            font-size: var(--h1-font-size);
+            color: var(--title-color);
+            margin-bottom: 1rem;
+        }
+
+        .thank-you-message {
+            font-size: var(--normal-font-size);
+            color: var(--text-color);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .next-steps {
+            background: rgba(110, 87, 224, 0.1);
+            border-left: 4px solid var(--first-color);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            text-align: left;
+            margin-bottom: 2rem;
+        }
+
+        .next-steps h3 {
+            color: var(--first-color);
+            margin-bottom: 1rem;
+            font-size: var(--h3-font-size);
+        }
+
+        .next-steps ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .next-steps li {
+            margin-bottom: 0.75rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .next-steps li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--first-color);
+            font-weight: bold;
+        }
+
+        .social-proof {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .social-proof p {
+            font-style: italic;
+            color: var(--text-color-light);
+            margin-bottom: 0.5rem;
+        }
+
+        @media screen and (max-width: 350px) {
+            .thank-you-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNFPW6W7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="thank-you-container">
+        <div class="thank-you-card">
+            <i class="uil uil-check-circle thank-you-icon"></i>
+
+            <h1 class="thank-you-title">Consultation Booked Successfully!</h1>
+
+            <p class="thank-you-message">
+                Thank you for scheduling your free 30-minute consultation with Nova Toronto.
+                We're excited to discuss how we can drive more traffic to your business and help you grow online.
+            </p>
+
+            <div class="next-steps">
+                <h3>What Happens Next?</h3>
+                <ul>
+                    <li>You'll receive a confirmation email at the address you provided</li>
+                    <li>We'll send you a calendar invite for your scheduled time</li>
+                    <li>Before the call, we'll review your business to provide tailored insights</li>
+                    <li>During the consultation, we'll discuss strategies to increase your online traffic</li>
+                </ul>
+            </div>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="/" class="button button--flex">
+                    <i class="uil uil-estate"></i>
+                    Back to Home
+                </a>
+                <a href="/blog/" class="button button--flex"
+                    style="background: transparent; border: 2px solid var(--first-color);">
+                    <i class="uil uil-book-open"></i>
+                    Read Our Blog
+                </a>
+            </div>
+
+            <div class="social-proof">
+                <p>"Nova Toronto helped us increase our website traffic by 300% in just 3 months!"</p>
+                <small style="color: var(--first-color);">- Happy Client</small>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Push conversion event to dataLayer for Google Tag Manager
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'event': 'consultation_booked',
+            'conversion_type': 'form_submission'
+        });
+    </script>
+</body>
+
+</html>
