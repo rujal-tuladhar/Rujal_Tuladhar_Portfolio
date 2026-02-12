@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-17927080637');
+    </script>
+
     <!-- SEO Meta Tags -->
     <meta name="description"
         content="Goodbye missed calls. Hello AI Receptionist. Nova Toronto's AI Receptionist provides a 24/7 smart voice assistant that handles inquiries, bookings, and customer support with natural language.">
@@ -20,7 +30,9 @@
     <link rel="stylesheet" href="../../assets/css/styles.css">
 
     <title>AI Receptionist | Nova Toronto</title>
+    <!-- Fixed Favicon Path -->
     <link rel="icon" href="../../assets/img/small_logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../assets/img/small_logo.png" type="image/x-icon">
 
     <style>
         .hero__bg-glow {
@@ -335,6 +347,91 @@
                 opacity: 1;
             }
         }
+
+        /* Vapi Button Styles */
+        .vapi-btn-floating {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: rgb(110, 87, 224);
+            /* Brand Purple */
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 24px;
+            box-shadow: 0 4px 20px rgba(110, 87, 224, 0.4);
+            cursor: pointer;
+            z-index: 9999;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 120px;
+            min-height: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .vapi-btn-floating:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(110, 87, 224, 0.5);
+            background-color: rgb(87, 68, 185);
+        }
+
+        .vapi-btn-content {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .vapi-icon {
+            font-size: 20px;
+        }
+
+        .vapi-status-text {
+            font-size: 11px;
+            opacity: 0.9;
+            margin-top: 2px;
+            font-weight: 400;
+        }
+
+        /* Active Call State */
+        .vapi-btn-floating.active {
+            background-color: rgb(255, 59, 48);
+            /* Red for end call */
+            box-shadow: 0 4px 20px rgba(255, 59, 48, 0.4);
+            animation: vapi-pulse 2s infinite;
+        }
+
+        .vapi-btn-floating.loading {
+            background-color: rgb(150, 150, 150);
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        @keyframes vapi-pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(255, 59, 48, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .vapi-btn-floating {
+                bottom: 80px;
+                right: 20px;
+                padding: 10px 20px;
+            }
+        }
     </style>
 </head>
 
@@ -372,18 +469,19 @@
             <div class="container u-text-center">
                 <span class="section__subtitle" style="color: var(--first-color); font-weight: 600;">AI CALL
                     MANAGEMENT</span>
-                <h1 class="home__title" style="font-size: 3.5rem; margin-bottom: 1.5rem;">Goodbye missed calls.<br>Hello
-                    AI Receptionist.</h1>
+                <h1 class="home__title" style="font-size: 3.5rem; margin-bottom: 1.5rem;">
+                    You can call our scheduling AI receptionist to book a free consultation
+                </h1>
                 <p class="home__description" style="max-width: 700px; margin: 0 auto 3rem;">
                     Turn every missed call into a loyal customer. Our AI Receptionist handles your front desk 24/7,
                     scheduling appointments and answering questions with natural, human-like speed.
                 </p>
                 <div class="u-flex u-justify-center" style="gap: 1.5rem;">
-                    <a href="#contact" class="button button--flex">
+                    <button id="hero-demo-btn" class="button button--flex">
                         Experience Demo <i class="uil uil-phone button__icon"></i>
-                    </a>
-                    <a href="#features" class="button button--ghost">
-                        Learn More
+                    </button>
+                    <a href="#booking" class="button button--ghost">
+                        Book Consultation
                     </a>
                 </div>
             </div>
@@ -396,9 +494,11 @@
                     <div class="demo__content">
                         <h2 class="section__title" style="text-align: left; padding-top: 0;">See it in action</h2>
                         <p class="section__subtitle" style="text-align: left; margin-bottom: 2rem;">
-                            Your AI Receptionist isn't just a bot—it's a high-performing team member that knows your
-                            business inside out.
+                            Call Our ai receptionist to book a free 30 minutes consultation for ai receptionist
                         </p>
+                        <button id="demo-section-btn" class="button button--flex" style="margin-bottom: 2rem;">
+                            Experience Demo <i class="uil uil-phone button__icon"></i>
+                        </button>
                         <ul class="skills__list" style="list-style: none; padding: 0;">
                             <li class="skills__name"><i class="uil uil-check-circle skills__icon"></i> Syncs with
                                 Google/Outlook Calendars</li>
@@ -504,18 +604,35 @@
         </section>
 
 
-        <!--==================== CTA ====================-->
-        <section class="section" id="contact">
+        <!--==================== BOOKING SECTION ====================-->
+        <section class="section" id="booking">
             <div class="container u-text-center">
-                <h2 class="section__title">Ready to never miss a lead?</h2>
-                <p class="section__subtitle" style="margin-bottom: 3rem;">Join forward-thinking businesses using AI to
-                    scale their customer service.</p>
-                <a href="../../index.html#contact" class="button button--flex">
-                    Book Your AI Setup <i class="uil uil-message button__icon"></i>
-                </a>
+                <h2 class="section__title">Ready to Automate?</h2>
+                <p class="section__subtitle" style="margin-bottom: 2rem;">
+                    Book a free 30-minute consultation to see how our AI Receptionist can transform your business.
+                </p>
+
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget"
+                    data-url="https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=6e57e0"
+                    style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                    async></script>
+                <!-- Calendly inline widget end -->
             </div>
         </section>
     </main>
+
+    <!-- Custom Vapi Floating Widget -->
+    <button id="vapi-floating-btn" class="vapi-btn-floating">
+        <div class="vapi-btn-content">
+            <span id="vapi-btn-icon" class="vapi-icon">
+                <i class="uil uil-phone"></i>
+            </span>
+            <span id="vapi-btn-text" class="vapi-text">Call Us</span>
+        </div>
+        <div id="vapi-btn-status" class="vapi-status-text">Talk to AI</div>
+    </button>
 
     <footer class="footer">
         <div class="footer__bg">
@@ -546,7 +663,7 @@
                         if (entry.isIntersecting) {
                             // Delays match the CSS bubble animation delays + a small buffer
                             const scrollDelays = [2000, 5000, 8500, 11500];
-                            
+
                             scrollDelays.forEach(delay => {
                                 setTimeout(() => {
                                     phoneScreen.scrollTo({
@@ -555,7 +672,7 @@
                                     });
                                 }, delay);
                             });
-                            
+
                             observer.unobserve(entry.target);
                         }
                     });
@@ -563,6 +680,260 @@
 
                 observer.observe(demoContainer);
             }
+        });
+    </script>
+    <script type="module">
+        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
+        window.Vapi = Vapi;
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
+            const assistantId = '6bade5c8-ec37-438a-b852-44c9332044ca';
+
+            const vapiBtn = document.getElementById('vapi-floating-btn');
+            const heroDemoBtn = document.getElementById('hero-demo-btn');
+            const demoSectionBtn = document.getElementById('demo-section-btn');
+
+            const btnText = document.getElementById('vapi-btn-text');
+            const btnStatus = document.getElementById('vapi-btn-status');
+            const btnIcon = document.getElementById('vapi-btn-icon');
+
+            // Set initial loading state
+            if (vapiBtn) {
+                btnText.textContent = 'Loading AI...';
+                vapiBtn.classList.add('loading');
+            }
+            if (heroDemoBtn) {
+                heroDemoBtn.classList.add('loading');
+            }
+            if (demoSectionBtn) {
+                demoSectionBtn.classList.add('loading');
+            }
+
+            const logDebug = (msg) => {
+                console.log('[Vapi Debug]', msg);
+            };
+
+            let vapi = null;
+            let isCallActive = false;
+            let retryCount = 0;
+            let callTimerInterval = null;
+            let callStartTime = 0;
+
+            const updateCallTimer = () => {
+                if (!callStartTime) return;
+                const now = Date.now();
+                const diff = Math.floor((now - callStartTime) / 1000);
+                const mins = Math.floor(diff / 60);
+                const secs = diff % 60;
+                const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
+
+                if (btnStatus) btnStatus.textContent = timeStr;
+                if (heroDemoBtn) heroDemoBtn.innerHTML = `End Call (${timeStr}) <i class="uil uil-phone-slash button__icon"></i>`;
+                if (demoSectionBtn) demoSectionBtn.innerHTML = `End Call (${timeStr}) <i class="uil uil-phone-slash button__icon"></i>`;
+            };
+
+            const startCallTimer = () => {
+                callStartTime = Date.now();
+                updateCallTimer();
+                callTimerInterval = setInterval(updateCallTimer, 1000);
+            };
+
+            const stopCallTimer = () => {
+                if (callTimerInterval) {
+                    clearInterval(callTimerInterval);
+                    callTimerInterval = null;
+                }
+                callStartTime = 0;
+            };
+
+            // Wait for SDK to load
+            const initVapi = () => {
+                if (window.Vapi) {
+                    try {
+                        let VapiConstructor = window.Vapi;
+
+                        // Handle ESM/CommonJS export variants
+                        if (typeof VapiConstructor !== 'function') {
+                            if (VapiConstructor.default) {
+                                VapiConstructor = VapiConstructor.default;
+                            } else if (VapiConstructor.Vapi) {
+                                VapiConstructor = VapiConstructor.Vapi;
+                            } else if (VapiConstructor.Web) {
+                                VapiConstructor = VapiConstructor.Web;
+                            }
+                        }
+
+                        if (typeof VapiConstructor !== 'function') {
+                            throw new Error('Could not find Vapi constructor.');
+                        }
+
+                        vapi = new VapiConstructor(publicKey);
+                        logDebug('SDK Initialized');
+
+                        setupEventListeners();
+
+                        // Enable buttons
+                        if (vapiBtn) {
+                            vapiBtn.classList.remove('loading');
+                            btnText.textContent = 'Call Us';
+                        }
+                        if (heroDemoBtn) {
+                            heroDemoBtn.classList.remove('loading');
+                        }
+                        if (demoSectionBtn) {
+                            demoSectionBtn.classList.remove('loading');
+                        }
+                    } catch (e) {
+                        logDebug('Init Failed: ' + e.message);
+                        if (btnStatus) btnStatus.textContent = 'Init Error';
+                    }
+                } else {
+                    retryCount++;
+                    if (retryCount > 20) {
+                        if (btnStatus) btnStatus.textContent = 'Network Error';
+                        if (btnText) btnText.textContent = 'Unavailable';
+                        if (vapiBtn) {
+                            vapiBtn.classList.remove('loading');
+                            vapiBtn.style.cursor = 'not-allowed';
+                        }
+                        return;
+                    }
+                    setTimeout(initVapi, 500);
+                }
+            };
+
+            const setButtonState = (state) => {
+                if (state === 'idle') {
+                    stopCallTimer();
+
+                    if (vapiBtn) {
+                        vapiBtn.classList.remove('active', 'loading');
+                        btnText.textContent = 'Call Us';
+                        btnStatus.textContent = 'Talk to AI';
+                        btnIcon.innerHTML = '<i class="uil uil-phone"></i>';
+                    }
+
+                    if (heroDemoBtn) {
+                        heroDemoBtn.classList.remove('loading');
+                        heroDemoBtn.innerHTML = 'Experience Demo <i class="uil uil-phone button__icon"></i>';
+                    }
+
+                    if (demoSectionBtn) {
+                        demoSectionBtn.classList.remove('loading');
+                        demoSectionBtn.innerHTML = 'Experience Demo <i class="uil uil-phone button__icon"></i>';
+                    }
+
+                } else if (state === 'loading') {
+                    if (vapiBtn) {
+                        vapiBtn.classList.add('loading');
+                        btnText.textContent = 'Connecting...';
+                        btnStatus.textContent = 'Please allow mic';
+                        btnIcon.innerHTML = '<i class="uil uil-spinner-alt uil-spin"></i>';
+                    }
+
+                    if (heroDemoBtn) {
+                        heroDemoBtn.classList.add('loading');
+                        heroDemoBtn.innerHTML = 'Connecting... <i class="uil uil-spinner-alt uil-spin button__icon"></i>';
+                    }
+
+                    if (demoSectionBtn) {
+                        demoSectionBtn.classList.add('loading');
+                        demoSectionBtn.innerHTML = 'Connecting... <i class="uil uil-spinner-alt uil-spin button__icon"></i>';
+                    }
+
+                } else if (state === 'active') {
+                    if (vapiBtn) {
+                        vapiBtn.classList.remove('loading');
+                        vapiBtn.classList.add('active');
+                        btnText.textContent = 'End Call';
+                        btnIcon.innerHTML = '<i class="uil uil-phone-slash"></i>';
+                    }
+
+                    if (heroDemoBtn) {
+                        heroDemoBtn.classList.remove('loading');
+                        heroDemoBtn.innerHTML = 'End Call <i class="uil uil-phone-slash button__icon"></i>';
+                    }
+
+                    if (demoSectionBtn) {
+                        demoSectionBtn.classList.remove('loading');
+                        demoSectionBtn.innerHTML = 'End Call <i class="uil uil-phone-slash button__icon"></i>';
+                    }
+                }
+            };
+
+            const toggleCall = async () => {
+                if (!vapi) return;
+
+                if (isCallActive) {
+                    vapi.stop();
+                } else {
+                    setButtonState('loading');
+                    try {
+                        logDebug('Requesting Mic...');
+                        await navigator.mediaDevices.getUserMedia({ audio: true });
+                        logDebug('Mic Permission Granted');
+
+                        logDebug('Starting call...');
+                        await vapi.start(assistantId);
+                    } catch (err) {
+                        console.error('Vapi Start Error:', err);
+                        logDebug('Start Error: ' + err.message);
+                        setButtonState('idle');
+
+                        let userMsg = 'Connection Failed';
+                        if (err.name === 'NotAllowedError' || err.message.includes('permission')) {
+                            userMsg = 'Microphone blocked. Please allow access in browser settings.';
+                        } else {
+                            userMsg = 'Error: ' + (err.message || JSON.stringify(err));
+                        }
+                        alert(userMsg);
+                    }
+                }
+            };
+
+            const setupEventListeners = () => {
+                if (vapiBtn) vapiBtn.addEventListener('click', toggleCall);
+                if (heroDemoBtn) heroDemoBtn.addEventListener('click', toggleCall);
+                if (demoSectionBtn) demoSectionBtn.addEventListener('click', toggleCall);
+
+                // Vapi Hooks
+                const onCallStart = () => {
+                    logDebug('Call Started (Event Triggered)');
+                    isCallActive = true;
+                    setButtonState('active');
+                    startCallTimer();
+                };
+
+                vapi.on('call-start', onCallStart);
+                vapi.on('callStart', onCallStart);
+
+                vapi.on('speech-start', () => {
+                    logDebug('Speech Started');
+                    if (!isCallActive) onCallStart();
+                });
+
+                vapi.on('call-end', () => {
+                    logDebug('Call Ended');
+                    isCallActive = false;
+                    setButtonState('idle');
+                });
+
+                vapi.on('error', (e) => {
+                    logDebug('Vapi Error: ' + JSON.stringify(e));
+                });
+
+                vapi.on('volume-level', (volume) => {
+                    if (volume > 0.05 && isCallActive && vapiBtn) {
+                        vapiBtn.style.boxShadow = `0 4px 20px rgba(255, 59, 48, ${0.4 + volume * 5})`;
+                    }
+                });
+            };
+
+            // Start Init
+            initVapi();
         });
     </script>
 </body>

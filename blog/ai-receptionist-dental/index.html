@@ -92,6 +92,8 @@
                 <p class="section__subtitle" style="text-align: left; margin-bottom: 2rem; color: var(--text-color);">
                     Published on January 24, 2026 • By Rujal Tuladhar
                 </p>
+                <img src="../../assets/img/dental-ai-cover.png" alt="AI in Dental Office" class="blog__cover-image"
+                    style="width: 100%; border-radius: 1rem; margin-bottom: 3rem; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
             </div>
         </section>
 
@@ -106,31 +108,39 @@
                         appointment—it's a patient who might not get the care they need.
                     </p>
 
-                    <h2 style="font-size: 1.5rem; color: var(--title-color); margin-top: 2rem; margin-bottom: 1rem;">1.
-                        Reduce Patient Hold Times to Zero</h2>
+                    <h2 style="font-size: 1.5rem; color: var(--title-color); margin-top: 2rem; margin-bottom: 1rem;">
+                        Eliminating Patient Hold Times</h2>
                     <p class="about__description" style="margin-bottom: 1.5rem;">
                         Nobody likes being put on hold, especially when they're in pain or anxious about a procedure. An
-                        AI receptionist answers instantly on the first ring. It can handle multiple simultaneous calls,
-                        ensuring that Mrs. Jones doesn't get a busy signal just because Mr. Smith is asking about his
-                        billing.
+                        AI receptionist answers instantly on the first ring. It acts as an infinite extension of your
+                        front desk, handling multiple simultaneous calls. This ensures that every patient feels heard
+                        immediately,
+                        preventing them from hanging up and calling a competitor.
                     </p>
 
-                    <h2 style="font-size: 1.5rem; color: var(--title-color); margin-top: 2rem; margin-bottom: 1rem;">2.
+                    <h2 style="font-size: 1.5rem; color: var(--title-color); margin-top: 2rem; margin-bottom: 1rem;">
                         Intelligent Appointment Scheduling</h2>
                     <p class="about__description" style="margin-bottom: 1.5rem;">
-                        Our AI solution integrates with practice management software (like Dentrix or Jane). It can see
-                        open slots for hygiene or consultations and book patients directly. It can even ask triage
-                        questions: <em>"Are you in pain right now?"</em> or <em>"Is this for a cleaning or a
-                            check-up?"</em> to ensure they get the right appointment type.
+                        Modern AI isn't just a voice recording; it's a smart agent capable of complex actions. Our
+                        solution
+                        integrates seamlessly with practice management software like Dentrix, Jane, or Clio. It can
+                        visualize
+                        open slots for hygiene or consultations and book patients directly into your calendar.
+                    </p>
+                    <p class="about__description" style="margin-bottom: 1.5rem;">
+                        Furthermore, it can ask crucial triage questions such as <em>"Are you in pain right now?"</em>
+                        or
+                        <em>"Is this for a cleaning or a check-up?"</em> to ensure appointments are booked correctly and
+                        efficiently.
                     </p>
 
-                    <h2 style="font-size: 1.5rem; color: var(--title-color); margin-top: 2rem; margin-bottom: 1rem;">3.
-                        After-Hours Emergency Routing</h2>
+                    <h2 style="font-size: 1.5rem; color: var(--title-color); margin-top: 2rem; margin-bottom: 1rem;">
+                        After-Hours Emergency Triage</h2>
                     <p class="about__description" style="margin-bottom: 1.5rem;">
                         Medical emergencies don't watch the clock. An AI receptionist serves as a perfect after-hours
-                        triage. It can distinguish between a patient wanting to reschedule a cleaning (handled
-                        automatically) and a patient with a dental emergency, routing the latter directly to the on-call
-                        doctor's mobile phone if necessary.
+                        triage agent. It can distinguish between a routine request, like rescheduling a cleaning, and a
+                        genuine dental emergency. In critical cases, it can route the call directly to the on-call
+                        doctor's mobile phone, ensuring urgent care is never delayed.
                     </p>
 
                     <div
@@ -146,6 +156,104 @@
             </div>
         </section>
     </main>
+
+    <!-- Custom Vapi Floating Widget -->
+    <button id="vapi-floating-btn" class="vapi-btn-floating">
+        <div class="vapi-btn-content">
+            <span id="vapi-btn-icon" class="vapi-icon">
+                <i class="uil uil-phone"></i>
+            </span>
+            <span id="vapi-btn-text" class="vapi-text">Call Us</span>
+        </div>
+        <div id="vapi-btn-status" class="vapi-status-text">Talk to AI</div>
+    </button>
+
+    <style>
+        /* Vapi Button Styles */
+        .vapi-btn-floating {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: rgb(110, 87, 224);
+            /* Brand Purple */
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 24px;
+            box-shadow: 0 4px 20px rgba(110, 87, 224, 0.4);
+            cursor: pointer;
+            z-index: 9999;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 120px;
+            min-height: 50px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .vapi-btn-floating:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(110, 87, 224, 0.5);
+            background-color: rgb(87, 68, 185);
+        }
+
+        .vapi-btn-content {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .vapi-icon {
+            font-size: 20px;
+        }
+
+        .vapi-status-text {
+            font-size: 11px;
+            opacity: 0.9;
+            margin-top: 2px;
+            font-weight: 400;
+        }
+
+        /* Active Call State */
+        .vapi-btn-floating.active {
+            background-color: rgb(255, 59, 48);
+            /* Red for end call */
+            box-shadow: 0 4px 20px rgba(255, 59, 48, 0.4);
+            animation: vapi-pulse 2s infinite;
+        }
+
+        .vapi-btn-floating.loading {
+            background-color: rgb(150, 150, 150);
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        @keyframes vapi-pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(255, 59, 48, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .vapi-btn-floating {
+                bottom: 80px;
+                right: 20px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
@@ -176,57 +284,214 @@
     <!--==================== MAIN JS ====================-->
     <script src="../../assets/js/main.js"></script>
 
-    <!-- Vapi Standard Widget -->
+    <!-- Vapi Shim (Module to Global) -->
+    <script type="module">
+        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
+        window.Vapi = Vapi;
+    </script>
+
     <script>
-        var vapiInstance = null;
-        const assistant = "6bade5c8-ec37-438a-b852-44c9332044ca";
-        const apiKey = "4138cfbd-4ba7-420d-9fad-5e5867135873";
-        const buttonConfig = {
-            position: "bottom-right",
-            offset: "40px",
-            width: "50px",
-            height: "50px",
-            idle: {
-                color: "rgb(110, 87, 224)", /* Brand Purple */
-                type: "pill",
-                title: "Call Us",
-                subtitle: "Talk to our AI Assistant",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone.svg",
-            },
-            loading: {
-                color: "rgb(110, 87, 224)", /* Brand Purple */
-                type: "pill",
-                title: "Connecting...",
-                subtitle: "Accessing microphone",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/loader-2.svg",
-            },
-            active: {
-                color: "rgb(255, 59, 48)", /* Red for End Call */
-                type: "pill",
-                title: "In Call",
-                subtitle: "Tap to end conversation",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone-off.svg",
-            },
-        };
+        document.addEventListener('DOMContentLoaded', () => {
+            const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
+            const assistantId = '6bade5c8-ec37-438a-b852-44c9332044ca';
 
-        (function (d, t) {
-            var g = document.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src =
-                "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
-            g.defer = true;
-            g.async = true;
-            s.parentNode.insertBefore(g, s);
+            const vapiBtn = document.getElementById('vapi-floating-btn');
+            const btnText = document.getElementById('vapi-btn-text');
+            const btnStatus = document.getElementById('vapi-btn-status');
+            const btnIcon = document.getElementById('vapi-btn-icon');
 
-            g.onload = function () {
-                vapiInstance = window.vapiSDK.run({
-                    apiKey: apiKey,
-                    assistant: assistant,
-                    config: buttonConfig,
+            // Set initial loading state
+            if (vapiBtn) {
+                btnText.textContent = 'Loading AI...';
+                vapiBtn.classList.add('loading');
+            }
+
+            const logDebug = (msg) => {
+                console.log('[Vapi Debug]', msg);
+            };
+
+            let vapi = null;
+            let isCallActive = false;
+            let retryCount = 0;
+            let callTimerInterval = null;
+            let callStartTime = 0;
+
+            const updateCallTimer = () => {
+                if (!callStartTime) return;
+                const now = Date.now();
+                const diff = Math.floor((now - callStartTime) / 1000);
+                const mins = Math.floor(diff / 60);
+                const secs = diff % 60;
+                const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
+
+                if (btnStatus) btnStatus.textContent = timeStr;
+            };
+
+            const startCallTimer = () => {
+                callStartTime = Date.now();
+                updateCallTimer();
+                callTimerInterval = setInterval(updateCallTimer, 1000);
+            };
+
+            const stopCallTimer = () => {
+                if (callTimerInterval) {
+                    clearInterval(callTimerInterval);
+                    callTimerInterval = null;
+                }
+                callStartTime = 0;
+            };
+
+            // Wait for SDK to load
+            const initVapi = () => {
+                if (window.Vapi) {
+                    try {
+                        let VapiConstructor = window.Vapi;
+
+                        // Handle ESM/CommonJS export variants
+                        if (typeof VapiConstructor !== 'function') {
+                            if (VapiConstructor.default) {
+                                VapiConstructor = VapiConstructor.default;
+                            } else if (VapiConstructor.Vapi) {
+                                VapiConstructor = VapiConstructor.Vapi;
+                            } else if (VapiConstructor.Web) {
+                                VapiConstructor = VapiConstructor.Web;
+                            }
+                        }
+
+                        if (typeof VapiConstructor !== 'function') {
+                            throw new Error('Could not find Vapi constructor.');
+                        }
+
+                        vapi = new VapiConstructor(publicKey);
+                        logDebug('SDK Initialized');
+
+                        setupEventListeners();
+
+                        // Enable buttons
+                        if (vapiBtn) {
+                            vapiBtn.classList.remove('loading');
+                            btnText.textContent = 'Call Us';
+                        }
+                    } catch (e) {
+                        logDebug('Init Failed: ' + e.message);
+                        if (btnStatus) btnStatus.textContent = 'Init Error';
+                    }
+                } else {
+                    retryCount++;
+                    if (retryCount > 20) {
+                        if (btnStatus) btnStatus.textContent = 'Network Error';
+                        if (btnText) btnText.textContent = 'Unavailable';
+                        if (vapiBtn) {
+                            vapiBtn.classList.remove('loading');
+                            vapiBtn.style.cursor = 'not-allowed';
+                        }
+                        return;
+                    }
+                    setTimeout(initVapi, 500);
+                }
+            };
+
+            const setButtonState = (state) => {
+                if (state === 'idle') {
+                    stopCallTimer();
+
+                    if (vapiBtn) {
+                        vapiBtn.classList.remove('active', 'loading');
+                        btnText.textContent = 'Call Us';
+                        btnStatus.textContent = 'Talk to AI';
+                        btnIcon.innerHTML = '<i class="uil uil-phone"></i>';
+                    }
+
+                } else if (state === 'loading') {
+                    if (vapiBtn) {
+                        vapiBtn.classList.add('loading');
+                        btnText.textContent = 'Connecting...';
+                        btnStatus.textContent = 'Please allow mic';
+                        btnIcon.innerHTML = '<i class="uil uil-spinner-alt uil-spin"></i>';
+                    }
+
+                } else if (state === 'active') {
+                    if (vapiBtn) {
+                        vapiBtn.classList.remove('loading');
+                        vapiBtn.classList.add('active');
+                        btnText.textContent = 'End Call';
+                        btnIcon.innerHTML = '<i class="uil uil-phone-slash"></i>';
+                    }
+                }
+            };
+
+            const toggleCall = async () => {
+                if (!vapi) return;
+
+                if (isCallActive) {
+                    vapi.stop();
+                } else {
+                    setButtonState('loading');
+                    try {
+                        logDebug('Requesting Mic...');
+                        await navigator.mediaDevices.getUserMedia({ audio: true });
+                        logDebug('Mic Permission Granted');
+
+                        logDebug('Starting call...');
+                        await vapi.start(assistantId);
+                    } catch (err) {
+                        console.error('Vapi Start Error:', err);
+                        logDebug('Start Error: ' + err.message);
+                        setButtonState('idle');
+
+                        let userMsg = 'Connection Failed';
+                        if (err.name === 'NotAllowedError' || err.message.includes('permission')) {
+                            userMsg = 'Microphone blocked. Please allow access in browser settings.';
+                        } else {
+                            userMsg = 'Error: ' + (err.message || JSON.stringify(err));
+                        }
+                        alert(userMsg);
+                    }
+                }
+            };
+
+            const setupEventListeners = () => {
+                if (vapiBtn) vapiBtn.addEventListener('click', toggleCall);
+
+                // Vapi Hooks
+                const onCallStart = () => {
+                    logDebug('Call Started (Event Triggered)');
+                    isCallActive = true;
+                    setButtonState('active');
+                    startCallTimer();
+                };
+
+                vapi.on('call-start', onCallStart);
+                vapi.on('callStart', onCallStart);
+
+                vapi.on('speech-start', () => {
+                    logDebug('Speech Started');
+                    if (!isCallActive) onCallStart();
+                });
+
+                vapi.on('call-end', () => {
+                    logDebug('Call Ended');
+                    isCallActive = false;
+                    setButtonState('idle');
+                });
+
+                vapi.on('error', (e) => {
+                    logDebug('Vapi Error: ' + JSON.stringify(e));
+                });
+
+                vapi.on('volume-level', (volume) => {
+                    if (volume > 0.05 && isCallActive && vapiBtn) {
+                        vapiBtn.style.boxShadow = `0 4px 20px rgba(255, 59, 48, ${0.4 + volume * 5})`;
+                    }
                 });
             };
-        })(document, "script");
+            // Start Init
+            initVapi();
+        });
     </script>
 </body>
 
 </html>
+
+</html>
+```
