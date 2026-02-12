@@ -34,6 +34,9 @@
     <link rel="icon" href="../../assets/img/small_logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="../../assets/img/small_logo.png" type="image/x-icon">
 
+    <!-- Vapi AI Widget -->
+    <script src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"></script>
+
     <style>
         .hero__bg-glow {
             position: absolute;
@@ -53,6 +56,18 @@
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             margin-top: 4rem;
+        }
+
+        /* Typography Refinements */
+        .home__title {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .section__title {
+            font-size: 2.25rem;
+            margin-bottom: 1.5rem;
         }
 
         .feature__card {
@@ -431,6 +446,14 @@
                 right: 20px;
                 padding: 10px 20px;
             }
+
+            .home__title {
+                font-size: 2.25rem;
+            }
+
+            .section__title {
+                font-size: 1.8rem;
+            }
         }
     </style>
 </head>
@@ -469,7 +492,7 @@
             <div class="container u-text-center">
                 <span class="section__subtitle" style="color: var(--first-color); font-weight: 600;">AI CALL
                     MANAGEMENT</span>
-                <h1 class="home__title" style="font-size: 3.5rem; margin-bottom: 1.5rem;">
+                <h1 class="home__title">
                     You can call our scheduling AI receptionist to book a free consultation
                 </h1>
                 <p class="home__description" style="max-width: 700px; margin: 0 auto 3rem;">
@@ -753,7 +776,6 @@
             const assistantId = '6bade5c8-ec37-438a-b852-44c9332044ca';
 
             const vapiBtn = document.getElementById('vapi-floating-btn');
-
             const demoSectionBtn = document.getElementById('demo-section-btn');
 
             const btnText = document.getElementById('vapi-btn-text');
@@ -789,7 +811,6 @@
                 const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
 
                 if (btnStatus) btnStatus.textContent = timeStr;
-
                 if (demoSectionBtn) demoSectionBtn.innerHTML = `End Call (${timeStr}) <i class="uil uil-phone-slash button__icon"></i>`;
             };
 
@@ -830,7 +851,6 @@
 
                         vapi = new VapiConstructor(publicKey);
                         logDebug('SDK Initialized');
-
                         setupEventListeners();
 
                         // Enable buttons
@@ -838,7 +858,6 @@
                             vapiBtn.classList.remove('loading');
                             btnText.textContent = 'Call Us';
                         }
-
                         if (demoSectionBtn) {
                             demoSectionBtn.classList.remove('loading');
                         }
@@ -872,11 +891,6 @@
                         btnIcon.innerHTML = '<i class="uil uil-phone"></i>';
                     }
 
-                    if (heroDemoBtn) {
-                        heroDemoBtn.classList.remove('loading');
-                        heroDemoBtn.innerHTML = 'Experience Demo <i class="uil uil-phone button__icon"></i>';
-                    }
-
                     if (demoSectionBtn) {
                         demoSectionBtn.classList.remove('loading');
                         demoSectionBtn.innerHTML = 'Experience Demo <i class="uil uil-phone button__icon"></i>';
@@ -890,11 +904,6 @@
                         btnIcon.innerHTML = '<i class="uil uil-spinner-alt uil-spin"></i>';
                     }
 
-                    if (heroDemoBtn) {
-                        heroDemoBtn.classList.add('loading');
-                        heroDemoBtn.innerHTML = 'Connecting... <i class="uil uil-spinner-alt uil-spin button__icon"></i>';
-                    }
-
                     if (demoSectionBtn) {
                         demoSectionBtn.classList.add('loading');
                         demoSectionBtn.innerHTML = 'Connecting... <i class="uil uil-spinner-alt uil-spin button__icon"></i>';
@@ -906,11 +915,6 @@
                         vapiBtn.classList.add('active');
                         btnText.textContent = 'End Call';
                         btnIcon.innerHTML = '<i class="uil uil-phone-slash"></i>';
-                    }
-
-                    if (heroDemoBtn) {
-                        heroDemoBtn.classList.remove('loading');
-                        heroDemoBtn.innerHTML = 'End Call <i class="uil uil-phone-slash button__icon"></i>';
                     }
 
                     if (demoSectionBtn) {
@@ -952,7 +956,6 @@
 
             const setupEventListeners = () => {
                 if (vapiBtn) vapiBtn.addEventListener('click', toggleCall);
-                if (heroDemoBtn) heroDemoBtn.addEventListener('click', toggleCall);
                 if (demoSectionBtn) demoSectionBtn.addEventListener('click', toggleCall);
 
                 // Vapi Hooks
@@ -992,6 +995,7 @@
             initVapi();
         });
     </script>
+
 </body>
 
 </html>
