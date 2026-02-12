@@ -477,11 +477,8 @@
                     scheduling appointments and answering questions with natural, human-like speed.
                 </p>
                 <div class="u-flex u-justify-center" style="gap: 1.5rem;">
-                    <button id="hero-demo-btn" class="button button--flex">
-                        Experience Demo <i class="uil uil-phone button__icon"></i>
-                    </button>
-                    <a href="#booking" class="button button--ghost">
-                        Book Consultation
+                    <a href="#booking" class="button button--flex">
+                        Book Consultation <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
             </div>
@@ -621,6 +618,69 @@
                 <!-- Calendly inline widget end -->
             </div>
         </section>
+        <!--==================== RELATED INSIGHTS ====================-->
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Related Insights</h2>
+                <div class="receptionist__grid">
+                    <!-- Dental Card -->
+                    <article class="feature__card"
+                        style="text-align: left; padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                        <img src="../../assets/img/dental-ai-cover.png" alt="AI for Dental"
+                            style="width: 100%; height: 200px; object-fit: cover;">
+                        <div style="padding: 2rem;">
+                            <span
+                                style="font-size: 0.8rem; color: var(--first-color); font-weight: 600; text-transform: uppercase;">Healthcare</span>
+                            <h3 class="feature__title" style="margin: 0.5rem 0 1rem; font-size: 1.1rem;">AI Receptionist
+                                for Dental Practices</h3>
+                            <p class="section__subtitle" style="font-size: 0.9rem; margin-bottom: 1.5rem;">How dentists
+                                are using AI to manage emergency calls and routine scheduling 24/7.</p>
+                            <a href="../../blog/ai-receptionist-dental/" class="button button--small button--link">
+                                Read More <i class="uil uil-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Legal Card -->
+                    <article class="feature__card"
+                        style="text-align: left; padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                        <img src="../../assets/img/legal-ai-cover.png" alt="AI for Law Firms"
+                            style="width: 100%; height: 200px; object-fit: cover;">
+                        <div style="padding: 2rem;">
+                            <span
+                                style="font-size: 0.8rem; color: var(--first-color); font-weight: 600; text-transform: uppercase;">Legal</span>
+                            <h3 class="feature__title" style="margin: 0.5rem 0 1rem; font-size: 1.1rem;">AI Intake for
+                                Law Firms</h3>
+                            <p class="section__subtitle" style="font-size: 0.9rem; margin-bottom: 1.5rem;">Automating
+                                client intake and lead qualification with professional AI voice assistants.</p>
+                            <a href="../../blog/ai-receptionist-law-firm/" class="button button--small button--link">
+                                Read More <i class="uil uil-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Small Business Card -->
+                    <article class="feature__card"
+                        style="text-align: left; padding: 0; overflow: hidden; display: flex; flex-direction: column;">
+                        <img src="../../assets/img/small-business-ai-cover.png" alt="AI for Small Business"
+                            style="width: 100%; height: 200px; object-fit: cover;">
+                        <div style="padding: 2rem;">
+                            <span
+                                style="font-size: 0.8rem; color: var(--first-color); font-weight: 600; text-transform: uppercase;">General
+                                Business</span>
+                            <h3 class="feature__title" style="margin: 0.5rem 0 1rem; font-size: 1.1rem;">Small Business
+                                AI Receptionist</h3>
+                            <p class="section__subtitle" style="font-size: 0.9rem; margin-bottom: 1.5rem;">Never miss a
+                                lead again. See how AI helps small businesses scale without the overhead.</p>
+                            <a href="../../blog/ai-receptionist-small-business/"
+                                class="button button--small button--link">
+                                Read More <i class="uil uil-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Custom Vapi Floating Widget -->
@@ -693,7 +753,7 @@
             const assistantId = '6bade5c8-ec37-438a-b852-44c9332044ca';
 
             const vapiBtn = document.getElementById('vapi-floating-btn');
-            const heroDemoBtn = document.getElementById('hero-demo-btn');
+
             const demoSectionBtn = document.getElementById('demo-section-btn');
 
             const btnText = document.getElementById('vapi-btn-text');
@@ -705,9 +765,7 @@
                 btnText.textContent = 'Loading AI...';
                 vapiBtn.classList.add('loading');
             }
-            if (heroDemoBtn) {
-                heroDemoBtn.classList.add('loading');
-            }
+
             if (demoSectionBtn) {
                 demoSectionBtn.classList.add('loading');
             }
@@ -731,7 +789,7 @@
                 const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
 
                 if (btnStatus) btnStatus.textContent = timeStr;
-                if (heroDemoBtn) heroDemoBtn.innerHTML = `End Call (${timeStr}) <i class="uil uil-phone-slash button__icon"></i>`;
+
                 if (demoSectionBtn) demoSectionBtn.innerHTML = `End Call (${timeStr}) <i class="uil uil-phone-slash button__icon"></i>`;
             };
 
@@ -780,9 +838,7 @@
                             vapiBtn.classList.remove('loading');
                             btnText.textContent = 'Call Us';
                         }
-                        if (heroDemoBtn) {
-                            heroDemoBtn.classList.remove('loading');
-                        }
+
                         if (demoSectionBtn) {
                             demoSectionBtn.classList.remove('loading');
                         }
