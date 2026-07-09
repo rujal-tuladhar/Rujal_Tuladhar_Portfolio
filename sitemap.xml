@@ -2,59 +2,287 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://novatoronto.com/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/services/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/website-design/</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/digital-marketing/</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/ai-automation/</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/ai-automation/ai-receptionist/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://novatoronto.com/blog/</loc>
+    <loc>https://novatoronto.com/website-design/website-audit/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/google-search/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/google-shopping/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/meta-ads/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/microsoft-ads/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/amazon-seller/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/walmart-seller/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.6</priority>
   </url>
-  <!-- Blog Posts -->
+  <url>
+    <loc>https://novatoronto.com/blog/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://novatoronto.com/blog/ai-receptionist-dental/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/blog/ai-receptionist-law-firm/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/blog/ai-receptionist-small-business/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/blog/website-design/must-have-website-features-toronto/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novatoronto.com/blog/website-design/essential-website-guide-toronto/</loc>
+    <lastmod>2026-07-09</lastmod>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/toronto/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/mississauga/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/brampton/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/scarborough/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/north-york/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/etobicoke/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/markham/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/vaughan/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/richmond-hill/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/website-design/oakville/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/toronto/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/mississauga/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/brampton/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/scarborough/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/north-york/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/etobicoke/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/markham/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/vaughan/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/richmond-hill/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/digital-marketing/oakville/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/toronto/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/mississauga/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/brampton/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/scarborough/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/north-york/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/etobicoke/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/markham/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/vaughan/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/richmond-hill/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/oakville/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/dentists/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/law-firms/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/medical-clinics/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/restaurants/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/salons-spas/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/contractors/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/real-estate/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://novatoronto.com/ai-automation/ai-receptionist/accountants/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>

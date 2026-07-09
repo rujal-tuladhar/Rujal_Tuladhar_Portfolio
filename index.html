@@ -17,11 +17,55 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Nova Toronto is a premier website development agency in Toronto helping businesses reach their online potential with custom website design and digital marketing strategies.">
+        content="Nova Toronto builds websites, AI receptionists, and Google & Meta ad campaigns that turn clicks into customers. Serving Toronto, Mississauga & the GTA. Websites from $900. Free consultation.">
     <meta name="keywords"
-        content="Website Design Toronto, Web Development, Digital Marketing, SEO, Nova Toronto, Rujal Tuladhar">
+        content="Website Design Toronto, AI Automation Toronto, Digital Marketing Toronto, AI Receptionist, Google Ads, SEO, Nova Toronto">
     <meta name="author" content="Rujal Tuladhar">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://novatoronto.com/">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://novatoronto.com/#business",
+          "name": "Nova Toronto",
+          "description": "Website design, AI automation, and digital marketing agency serving Toronto and the GTA.",
+          "url": "https://novatoronto.com/",
+          "logo": "https://novatoronto.com/assets/img/NovaToronto.png",
+          "telephone": "+13653553133",
+          "email": "novatoronto.ca@gmail.com",
+          "priceRange": "$900 - $5000",
+          "address": { "@type": "PostalAddress", "addressLocality": "Toronto", "addressRegion": "ON", "addressCountry": "CA" },
+          "areaServed": ["Toronto", "Mississauga", "Brampton", "Scarborough", "North York", "Etobicoke", "Markham", "Vaughan", "Richmond Hill", "Oakville"],
+          "sameAs": [
+            "https://www.facebook.com/Nova-Toronto-108507575043046/",
+            "https://www.instagram.com/nova_toronto/",
+            "https://www.linkedin.com/in/rujal-tuladhar-37877b167/"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services",
+            "itemListElement": [
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Design", "url": "https://novatoronto.com/website-design/" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital Marketing", "url": "https://novatoronto.com/digital-marketing/" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Automation", "url": "https://novatoronto.com/ai-automation/" } }
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://novatoronto.com/#website",
+          "url": "https://novatoronto.com/",
+          "name": "Nova Toronto",
+          "publisher": { "@id": "https://novatoronto.com/#business" }
+        }
+      ]
+    }
+    </script>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -189,7 +233,7 @@
         }
     </style>
 
-    <title>Nova Toronto | Website Design & Digital Marketing</title>
+    <title>Website Design, AI Automation & Digital Marketing Toronto | Nova Toronto</title>
     <link rel="icon" href="./assets/img/small_logo.png" type="image/x-icon">
     <!-- Vapi AI Widget -->
     <script src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"></script>
@@ -206,7 +250,7 @@
                 <ul class="nav__list grid">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i>ABOUT
+                            <i class="uil uil-estate nav__icon"></i>HOME
                         </a>
                     </li>
 
@@ -302,8 +346,11 @@
             </picture>
 
             <h1 class="home__title">
-                From Click to Customer
+                Website Design, AI Automation &amp; Digital Marketing in Toronto
             </h1>
+            <p class="u-text-center" style="font-size: 1.25rem; color: var(--first-color); font-weight: 600; margin-top: 0.5rem;">
+                From Click to Customer
+            </p>
 
 
 
@@ -999,7 +1046,7 @@
 
         </section>
         <!--==================== SERVICES ====================-->
-        <section class="services section" id="website-pricing">
+        <section class="services section" id="ecommerce-pricing">
 
 
             <div class="services__container3 container grid">
@@ -1065,6 +1112,119 @@
 
 
 
+
+        <!--==================== AREAS WE SERVE ====================-->
+        <section class="section" id="areas">
+            <h2 class="section__title">Areas We Serve</h2>
+            <span class="section__subtitle">Local expertise across the Greater Toronto Area</span>
+
+            <style>
+                .areas__grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+                    gap: 2rem;
+                    max-width: 1000px;
+                    margin: 0 auto;
+                    padding: 0 1.5rem;
+                }
+
+                .areas__col h3 {
+                    color: var(--title-color);
+                    font-size: var(--h3-font-size);
+                    margin-bottom: 0.75rem;
+                }
+
+                .areas__col h3 a {
+                    color: inherit;
+                }
+
+                .areas__col h3 a:hover {
+                    color: var(--first-color);
+                }
+
+                .areas__links {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 0.5rem;
+                }
+
+                .areas__links a {
+                    background: var(--container-color);
+                    border: 1px solid rgba(110, 87, 224, 0.25);
+                    color: var(--first-color);
+                    padding: 0.35rem 0.85rem;
+                    border-radius: 2rem;
+                    font-size: var(--small-font-size);
+                    transition: all 0.2s ease;
+                }
+
+                .areas__links a:hover {
+                    background: var(--first-color);
+                    color: #fff;
+                }
+            </style>
+
+            <div class="areas__grid">
+                <div class="areas__col">
+                    <h3><a href="website-design/">Website Design</a></h3>
+                    <div class="areas__links">
+                        <a href="website-design/toronto/">Toronto</a>
+                        <a href="website-design/mississauga/">Mississauga</a>
+                        <a href="website-design/brampton/">Brampton</a>
+                        <a href="website-design/scarborough/">Scarborough</a>
+                        <a href="website-design/north-york/">North York</a>
+                        <a href="website-design/etobicoke/">Etobicoke</a>
+                        <a href="website-design/markham/">Markham</a>
+                        <a href="website-design/vaughan/">Vaughan</a>
+                        <a href="website-design/richmond-hill/">Richmond Hill</a>
+                        <a href="website-design/oakville/">Oakville</a>
+                    </div>
+                </div>
+                <div class="areas__col">
+                    <h3><a href="digital-marketing/">Digital Marketing</a></h3>
+                    <div class="areas__links">
+                        <a href="digital-marketing/toronto/">Toronto</a>
+                        <a href="digital-marketing/mississauga/">Mississauga</a>
+                        <a href="digital-marketing/brampton/">Brampton</a>
+                        <a href="digital-marketing/scarborough/">Scarborough</a>
+                        <a href="digital-marketing/north-york/">North York</a>
+                        <a href="digital-marketing/etobicoke/">Etobicoke</a>
+                        <a href="digital-marketing/markham/">Markham</a>
+                        <a href="digital-marketing/vaughan/">Vaughan</a>
+                        <a href="digital-marketing/richmond-hill/">Richmond Hill</a>
+                        <a href="digital-marketing/oakville/">Oakville</a>
+                    </div>
+                </div>
+                <div class="areas__col">
+                    <h3><a href="ai-automation/">AI Automation</a></h3>
+                    <div class="areas__links">
+                        <a href="ai-automation/toronto/">Toronto</a>
+                        <a href="ai-automation/mississauga/">Mississauga</a>
+                        <a href="ai-automation/brampton/">Brampton</a>
+                        <a href="ai-automation/scarborough/">Scarborough</a>
+                        <a href="ai-automation/north-york/">North York</a>
+                        <a href="ai-automation/etobicoke/">Etobicoke</a>
+                        <a href="ai-automation/markham/">Markham</a>
+                        <a href="ai-automation/vaughan/">Vaughan</a>
+                        <a href="ai-automation/richmond-hill/">Richmond Hill</a>
+                        <a href="ai-automation/oakville/">Oakville</a>
+                    </div>
+                </div>
+                <div class="areas__col">
+                    <h3><a href="ai-automation/ai-receptionist/">AI Receptionist by Industry</a></h3>
+                    <div class="areas__links">
+                        <a href="ai-automation/ai-receptionist/dentists/">Dentists</a>
+                        <a href="ai-automation/ai-receptionist/law-firms/">Law Firms</a>
+                        <a href="ai-automation/ai-receptionist/medical-clinics/">Medical Clinics</a>
+                        <a href="ai-automation/ai-receptionist/restaurants/">Restaurants</a>
+                        <a href="ai-automation/ai-receptionist/salons-spas/">Salons & Spas</a>
+                        <a href="ai-automation/ai-receptionist/contractors/">Contractors</a>
+                        <a href="ai-automation/ai-receptionist/real-estate/">Real Estate</a>
+                        <a href="ai-automation/ai-receptionist/accountants/">Accountants</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
@@ -1177,7 +1337,15 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="website-pricing" class="footer__link">Services</a>
+                        <a href="website-design/" class="footer__link">Website Design</a>
+                    </li>
+
+                    <li>
+                        <a href="digital-marketing/" class="footer__link">Digital Marketing</a>
+                    </li>
+
+                    <li>
+                        <a href="ai-automation/" class="footer__link">AI Automation</a>
                     </li>
 
                     <li>
@@ -1185,21 +1353,21 @@
                     </li>
 
                     <li>
-                        <a href="#contact" class="footer__link">Contact me</a>
+                        <a href="#contact" class="footer__link">Contact</a>
                     </li>
                 </ul>
                 <div class="footer__socials">
 
-                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social">
                         <i class="uil uil-facebook-f"></i>
                     </a>
 
-                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social">
                         <i class="uil uil-instagram"></i>
                     </a>
 
-                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
                     </a>
 
 
