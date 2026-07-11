@@ -3,3 +3,4 @@ first-angular-app/
 package-lock.json
 package.json
 .DS_Store
+*.stackdump
