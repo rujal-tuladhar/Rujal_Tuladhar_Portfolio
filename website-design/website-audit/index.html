@@ -46,8 +46,8 @@
 
     <title>Website Audit & 2-Year Roadmap | Nova Toronto</title>
     <link rel="icon" href="../../assets/img/small_logo.png" type="image/x-icon">
-    <!-- Vapi AI Widget -->
-    <script src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"></script>
+    
+    
 </head>
 
 <body>
@@ -383,56 +383,7 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="../../assets/js/main.js"></script>
-    <script>
-        var vapiInstance = null;
-        const assistant = "6bade5c8-ec37-438a-b852-44c9332044ca";
-        const apiKey = "4138cfbd-4ba7-420d-9fad-5e5867135873";
-        const buttonConfig = {
-            position: "bottom-right",
-            offset: "40px",
-            width: "50px",
-            height: "50px",
-            idle: {
-                color: "rgb(110, 87, 224)",
-                type: "pill",
-                title: "Call Us",
-                subtitle: "Talk to our AI Assistant",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone.svg",
-            },
-            loading: {
-                color: "rgb(110, 87, 224)",
-                type: "pill",
-                title: "Connecting...",
-                subtitle: "Accessing microphone",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/loader-2.svg",
-            },
-            active: {
-                color: "rgb(255, 59, 48)",
-                type: "pill",
-                title: "In Call",
-                subtitle: "Tap to end conversation",
-                icon: "https://unpkg.com/lucide-static@0.321.0/icons/phone-off.svg",
-            },
-        };
-
-        (function (d, t) {
-            var g = document.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src =
-                "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
-            g.defer = true;
-            g.async = true;
-            s.parentNode.insertBefore(g, s);
-
-            g.onload = function () {
-                vapiInstance = window.vapiSDK.run({
-                    apiKey: apiKey,
-                    assistant: assistant,
-                    config: buttonConfig,
-                });
-            };
-        })(document, "script");
-    </script>
+    
 </body>
 
 </html>

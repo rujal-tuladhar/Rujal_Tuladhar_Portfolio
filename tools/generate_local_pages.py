@@ -158,14 +158,14 @@ SERVICES = {
             ("What does an AI receptionist cost for a {city} business?",
              "Far less than a full-time hire. A human receptionist costs $40,000+ per year; our AI receptionist plans are a small fraction of that, work 24/7, and never call in sick. Pricing depends on call volume and integrations; we will quote it in your free demo."),
             ("Will it sound robotic to my customers?",
-             "No. Modern AI voice agents hold natural conversations, handle interruptions, and answer real questions about your business. Try it right now: press the 'Call Us' button on this page and talk to ours."),
+             "No. Modern AI voice agents hold natural conversations, handle interruptions, and answer real questions about your business. Book a free demo through our contact form and hear it for yourself."),
             ("Can it book appointments into my existing system?",
              "Yes. We integrate with Google Calendar, Calendly, and industry software like Dentrix, Jane, and Clio. The AI checks real availability and books directly, with confirmations sent automatically."),
             ("What happens with emergencies or complex calls?",
              "You set the rules. The AI can transfer urgent calls to your mobile, take detailed messages, or send you an instant text summary, so real emergencies always reach a human fast."),
         ],
-        "cta_title": "Hear it yourself: talk to our AI right now",
-        "cta_text": "Press the Call Us button on this page to talk to our AI receptionist, then book a free consultation to get one answering for your {city} business.",
+        "cta_title": "Never miss another customer call",
+        "cta_text": "Book a free demo and hear an AI receptionist in action, then get one answering for your {city} business within two weeks.",
     },
 }
 
@@ -419,7 +419,7 @@ def nav_block():
 
 
 def footer_block():
-    return f"""
+    return """
     <footer class="footer">
         <div class="footer__bg">
             <div class="footer__container container grid">
@@ -439,25 +439,11 @@ def footer_block():
                     <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social"><i class="uil uil-linkedin-alt"></i></a>
                 </div>
             </div>
-            <p class="footer__copy">&#169; Nova Toronto. All rights reserved. &nbsp;|&nbsp; <a href="tel:{PHONE_INTL}" style="color:inherit">{PHONE}</a></p>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="/assets/js/main.js"></script>
-
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script>
-        function openCalendlyPopup() {{
-            Calendly.initPopupWidget({{ url: '{CALENDLY}' }});
-            window.addEventListener('message', function (e) {{
-                if (e.data.event && e.data.event === 'calendly.event_scheduled') {{
-                    setTimeout(function () {{ window.location.href = '/thank-you.html'; }}, 1000);
-                }}
-            }});
-            return false;
-        }}
-    </script>
 </body>
 
 </html>
@@ -529,11 +515,11 @@ def cta_html(title, text):
             <div class="cta-panel">
                 <h2>{title}</h2>
                 <p>{text}</p>
-                <a href="#" onclick="return openCalendlyPopup();" class="button button--flex" style="display:inline-flex">
+                <a href="/#contact" class="button button--flex" style="display:inline-flex">
                     Book a Free Consultation <i class="uil uil-calendar-alt button__icon"></i>
                 </a>
                 <p style="margin-top:1rem; margin-bottom:0; font-size: var(--small-font-size);">
-                    Or call us directly: <a href="tel:{PHONE_INTL}" style="color: var(--first-color); font-weight: bold;">{PHONE}</a>
+                    Fill out our quick booking form and we respond within one business day.
                 </p>
             </div>"""
 
@@ -611,7 +597,7 @@ def build_industry_page(ind_slug, ind):
     meta = ind["meta"]
     faqs = ind["faqs"] + [
         ("Can I try it before committing?",
-         "Yes. Press the Call Us button on this page and you are talking to the exact technology we deploy. Then book a free consultation and we will scope a version scripted for your business."),
+         "Yes. Book a free demo through our contact form and we will let you talk to the exact technology we deploy, then scope a version scripted for your business."),
     ]
     crumbs = [("Home", DOMAIN + "/"), ("AI Automation", DOMAIN + "/ai-automation/"),
               ("AI Receptionist", DOMAIN + "/ai-automation/ai-receptionist/"), (ind["name"], url)]

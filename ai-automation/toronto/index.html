@@ -119,7 +119,7 @@
      "name": "Will it sound robotic to my customers?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "No. Modern AI voice agents hold natural conversations, handle interruptions, and answer real questions about your business. Try it right now: press the 'Call Us' button on this page and talk to ours."
+      "text": "No. Modern AI voice agents hold natural conversations, handle interruptions, and answer real questions about your business. Book a free demo through our contact form and hear it for yourself."
      }
     },
     {
@@ -217,13 +217,13 @@
             </div>
                     
             <div class="cta-panel">
-                <h2>Hear it yourself: talk to our AI right now</h2>
-                <p>Press the Call Us button on this page to talk to our AI receptionist, then book a free consultation to get one answering for your Toronto business.</p>
-                <a href="#" onclick="return openCalendlyPopup();" class="button button--flex" style="display:inline-flex">
+                <h2>Never miss another customer call</h2>
+                <p>Book a free demo and hear an AI receptionist in action, then get one answering for your Toronto business within two weeks.</p>
+                <a href="/#contact" class="button button--flex" style="display:inline-flex">
                     Book a Free Consultation <i class="uil uil-calendar-alt button__icon"></i>
                 </a>
                 <p style="margin-top:1rem; margin-bottom:0; font-size: var(--small-font-size);">
-                    Or call us directly: <a href="tel:+13653553133" style="color: var(--first-color); font-weight: bold;">365-355-3133</a>
+                    Fill out our quick booking form and we respond within one business day.
                 </p>
             </div>
 
@@ -235,7 +235,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Will it sound robotic to my customers?</summary>
-                    <p>No. Modern AI voice agents hold natural conversations, handle interruptions, and answer real questions about your business. Try it right now: press the 'Call Us' button on this page and talk to ours.</p>
+                    <p>No. Modern AI voice agents hold natural conversations, handle interruptions, and answer real questions about your business. Book a free demo through our contact form and hear it for yourself.</p>
                 </details>
                 <details class="faq-item">
                     <summary>Can it book appointments into my existing system?</summary>
@@ -290,25 +290,11 @@
                     <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social"><i class="uil uil-linkedin-alt"></i></a>
                 </div>
             </div>
-            <p class="footer__copy">&#169; Nova Toronto. All rights reserved. &nbsp;|&nbsp; <a href="tel:+13653553133" style="color:inherit">365-355-3133</a></p>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="/assets/js/main.js"></script>
-
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script>
-        function openCalendlyPopup() {
-            Calendly.initPopupWidget({ url: 'https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=6e57e0' });
-            window.addEventListener('message', function (e) {
-                if (e.data.event && e.data.event === 'calendly.event_scheduled') {
-                    setTimeout(function () { window.location.href = '/thank-you.html'; }, 1000);
-                }
-            });
-            return false;
-        }
-    </script>
 </body>
 
 </html>

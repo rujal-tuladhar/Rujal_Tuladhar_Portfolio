@@ -47,8 +47,8 @@
     <title>Affordable Custom Website Design Toronto | Web Development</title>
     <link rel="canonical" href="https://novatoronto.com/website-design/">
     <link rel="icon" href="../assets/img/small_logo.png" type="image/x-icon">
-    <!-- Vapi AI Widget -->
-    <script src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"></script>
+    
+    
 
     <!-- Schema Markup for Local SEO -->
     <script type="application/ld+json">
@@ -394,14 +394,6 @@
                         </div>
                     </div>
 
-                    <div class="contact__content" style="margin-top: 2rem;">
-                        <button id="contact-ai-btn" class="button button--flex"
-                            style="width: 100%; justify-content: center; background-color: var(--first-color-alt);">
-                            Call AI Receptionist <i class="uil uil-phone button__icon"></i>
-                        </button>
-                        <p style="font-size: 0.8rem; margin-top: 0.5rem; text-align: center;">Book directly with our AI
-                            assistant</p>
-                    </div>
                 </div>
 
                 <form action="https://formsubmit.co/novatoronto.ca@gmail.com" method="POST" class="contact__form grid">
@@ -508,188 +500,14 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="../assets/js/main.js"></script>
-    <!-- Custom Vapi Floating Widget -->
-    <button id="vapi-floating-btn" class="vapi-btn-floating">
-        <div class="vapi-btn-content">
-            <span id="vapi-btn-icon" class="vapi-icon">
-                <i class="uil uil-phone"></i>
-            </span>
-            <span id="vapi-btn-text" class="vapi-text">Call Us</span>
-        </div>
-        <div id="vapi-btn-status" class="vapi-status-text">Talk to AI</div>
-    </button>
+    
+    
 
-    <style>
-        .vapi-btn-floating {
-            position: fixed;
-            bottom: 40px;
-            right: 40px;
-            background-color: rgb(110, 87, 224);
-            color: white;
-            border: none;
-            border-radius: 50px;
-            padding: 12px 24px;
-            box-shadow: 0 4px 20px rgba(110, 87, 224, 0.4);
-            cursor: pointer;
-            z-index: 9999;
-            transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-width: 120px;
-            min-height: 50px;
-            font-family: 'Poppins', sans-serif;
-        }
+    
 
-        .vapi-btn-floating:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 25px rgba(110, 87, 224, 0.5);
-            background-color: rgb(87, 68, 185);
-        }
+    
 
-        .vapi-btn-content {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 16px;
-            font-weight: 600;
-        }
-
-        .vapi-icon {
-            font-size: 20px;
-        }
-
-        .vapi-status-text {
-            font-size: 11px;
-            opacity: 0.9;
-            margin-top: 2px;
-            font-weight: 400;
-        }
-
-        .vapi-btn-floating.active {
-            background-color: rgb(255, 59, 48);
-            box-shadow: 0 4px 20px rgba(255, 59, 48, 0.4);
-            animation: vapi-pulse 2s infinite;
-        }
-
-        .vapi-btn-floating.loading {
-            background-color: rgb(150, 150, 150);
-            cursor: not-allowed;
-            pointer-events: none;
-        }
-
-        @keyframes vapi-pulse {
-            0% {
-                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.7);
-            }
-
-            70% {
-                box-shadow: 0 0 0 15px rgba(255, 59, 48, 0);
-            }
-
-            100% {
-                box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);
-            }
-        }
-
-        @media screen and (max-width: 768px) {
-            .vapi-btn-floating {
-                right: 20px;
-                bottom: 30px;
-                min-width: 100px;
-                padding: 10px 18px;
-            }
-        }
-    </style>
-
-    <script type="module">
-        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
-        window.Vapi = Vapi;
-    </script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const publicKey = '4138cfbd-4ba7-420d-9fad-5e5867135873';
-            const assistantId = '6bade5c8-ec37-438a-b852-44c9332044ca';
-
-            const vapiBtn = document.getElementById('vapi-floating-btn');
-            const btnText = document.getElementById('vapi-btn-text');
-            const btnStatus = document.getElementById('vapi-btn-status');
-            const btnIcon = document.getElementById('vapi-btn-icon');
-
-            // Link Contact Page AI Button
-            const contactAiBtn = document.getElementById('contact-ai-btn');
-            if (contactAiBtn) {
-                contactAiBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    vapiBtn.click();
-                });
-            }
-
-            // Set initial loading state
-            btnText.textContent = 'Loading AI...';
-            vapiBtn.classList.add('loading');
-
-            let vapi = null;
-            let isCallActive = false;
-            let retryCount = 0;
-
-            const initVapi = () => {
-                if (window.Vapi) {
-                    try {
-                        let VapiConstructor = window.Vapi;
-                        if (typeof VapiConstructor !== 'function') {
-                            if (VapiConstructor.default) VapiConstructor = VapiConstructor.default;
-                            else if (VapiConstructor.Vapi) VapiConstructor = VapiConstructor.Vapi;
-                            else if (VapiConstructor.Web) VapiConstructor = VapiConstructor.Web;
-                        }
-
-                        if (typeof VapiConstructor !== 'function') throw new Error('Could not find Vapi constructor.');
-
-                        vapi = new VapiConstructor(publicKey);
-
-                        vapi.on('call-start', () => {
-                            isCallActive = true;
-                            vapiBtn.classList.remove('loading');
-                            vapiBtn.classList.add('active');
-                            btnText.textContent = 'End Call';
-                            btnStatus.textContent = 'Tap to Disconnect';
-                            btnIcon.innerHTML = '<i class="uil uil-phone-slash"></i>';
-                        });
-
-                        vapi.on('call-end', () => {
-                            isCallActive = false;
-                            vapiBtn.classList.remove('active', 'loading');
-                            btnText.textContent = 'Call Us';
-                            btnStatus.textContent = 'Talk to AI';
-                            btnIcon.innerHTML = '<i class="uil uil-phone"></i>';
-                        });
-
-                        vapiBtn.addEventListener('click', () => {
-                            if (isCallActive) {
-                                vapi.stop();
-                            } else {
-                                vapiBtn.classList.add('loading');
-                                btnText.textContent = 'Connecting...';
-                                vapi.start(assistantId);
-                            }
-                        });
-
-                        vapiBtn.classList.remove('loading');
-                        btnText.textContent = 'Call Us';
-                    } catch (e) {
-                        console.error(e);
-                    }
-                } else {
-                    retryCount++;
-                    if (retryCount < 20) setTimeout(initVapi, 500);
-                }
-            };
-
-            initVapi();
-        });
-    </script>
+    
 </body>
 
 </html>

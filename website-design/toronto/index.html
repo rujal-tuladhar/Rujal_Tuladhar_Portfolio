@@ -219,11 +219,11 @@
             <div class="cta-panel">
                 <h2>Get a website that wins Toronto customers</h2>
                 <p>Book a free 30-minute consultation and get a plan, timeline, and fixed quote for your new website.</p>
-                <a href="#" onclick="return openCalendlyPopup();" class="button button--flex" style="display:inline-flex">
+                <a href="/#contact" class="button button--flex" style="display:inline-flex">
                     Book a Free Consultation <i class="uil uil-calendar-alt button__icon"></i>
                 </a>
                 <p style="margin-top:1rem; margin-bottom:0; font-size: var(--small-font-size);">
-                    Or call us directly: <a href="tel:+13653553133" style="color: var(--first-color); font-weight: bold;">365-355-3133</a>
+                    Fill out our quick booking form and we respond within one business day.
                 </p>
             </div>
 
@@ -290,25 +290,11 @@
                     <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social"><i class="uil uil-linkedin-alt"></i></a>
                 </div>
             </div>
-            <p class="footer__copy">&#169; Nova Toronto. All rights reserved. &nbsp;|&nbsp; <a href="tel:+13653553133" style="color:inherit">365-355-3133</a></p>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="/assets/js/main.js"></script>
-
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script>
-        function openCalendlyPopup() {
-            Calendly.initPopupWidget({ url: 'https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=6e57e0' });
-            window.addEventListener('message', function (e) {
-                if (e.data.event && e.data.event === 'calendly.event_scheduled') {
-                    setTimeout(function () { window.location.href = '/thank-you.html'; }, 1000);
-                }
-            });
-            return false;
-        }
-    </script>
 </body>
 
 </html>

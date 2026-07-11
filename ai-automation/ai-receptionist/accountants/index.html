@@ -141,7 +141,7 @@
      "name": "Can I try it before committing?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. Press the Call Us button on this page and you are talking to the exact technology we deploy. Then book a free consultation and we will scope a version scripted for your business."
+      "text": "Yes. Book a free demo through our contact form and we will let you talk to the exact technology we deploy, then scope a version scripted for your business."
      }
     }
    ]
@@ -224,11 +224,11 @@
             <div class="cta-panel">
                 <h2>See it answer calls for your business</h2>
                 <p>Book a free demo and hear an AI receptionist scripted for accounting firms. Setup usually takes under two weeks.</p>
-                <a href="#" onclick="return openCalendlyPopup();" class="button button--flex" style="display:inline-flex">
+                <a href="/#contact" class="button button--flex" style="display:inline-flex">
                     Book a Free Consultation <i class="uil uil-calendar-alt button__icon"></i>
                 </a>
                 <p style="margin-top:1rem; margin-bottom:0; font-size: var(--small-font-size);">
-                    Or call us directly: <a href="tel:+13653553133" style="color: var(--first-color); font-weight: bold;">365-355-3133</a>
+                    Fill out our quick booking form and we respond within one business day.
                 </p>
             </div>
 
@@ -248,7 +248,7 @@
                 </details>
                 <details class="faq-item">
                     <summary>Can I try it before committing?</summary>
-                    <p>Yes. Press the Call Us button on this page and you are talking to the exact technology we deploy. Then book a free consultation and we will scope a version scripted for your business.</p>
+                    <p>Yes. Book a free demo through our contact form and we will let you talk to the exact technology we deploy, then scope a version scripted for your business.</p>
                 </details>
 
                     <h2>AI receptionists for other industries</h2>
@@ -293,25 +293,11 @@
                     <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social"><i class="uil uil-linkedin-alt"></i></a>
                 </div>
             </div>
-            <p class="footer__copy">&#169; Nova Toronto. All rights reserved. &nbsp;|&nbsp; <a href="tel:+13653553133" style="color:inherit">365-355-3133</a></p>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="/assets/js/main.js"></script>
-
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script>
-        function openCalendlyPopup() {
-            Calendly.initPopupWidget({ url: 'https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=6e57e0' });
-            window.addEventListener('message', function (e) {
-                if (e.data.event && e.data.event === 'calendly.event_scheduled') {
-                    setTimeout(function () { window.location.href = '/thank-you.html'; }, 1000);
-                }
-            });
-            return false;
-        }
-    </script>
 </body>
 
 </html>
