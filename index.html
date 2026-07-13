@@ -400,6 +400,438 @@
                 </div>
             </div>
         </section>
+
+        <!--==================== OUR SERVICES ====================-->
+        <section class="section" id="services">
+            <h2 class="section__title">What We Do</h2>
+            <span class="section__subtitle">Three services, one goal: more customers for your business</span>
+
+            <style>
+                .svc__grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                    gap: 2rem;
+                    max-width: 1100px;
+                    margin: 0 auto;
+                    padding: 0 1.5rem;
+                }
+
+                .svc__card {
+                    background: var(--container-color);
+                    border: 1px solid rgba(110, 87, 224, 0.2);
+                    border-radius: 1.5rem;
+                    padding: 2.25rem 1.75rem;
+                    display: flex;
+                    flex-direction: column;
+                    transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+                }
+
+                .svc__card:hover {
+                    transform: translateY(-8px);
+                    box-shadow: 0 15px 40px rgba(110, 87, 224, 0.25);
+                    border-color: var(--first-color);
+                }
+
+                .svc__icon {
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 1rem;
+                    background: linear-gradient(135deg, rgba(110, 87, 224, .18), rgba(0, 253, 240, .12));
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1.75rem;
+                    color: var(--first-color);
+                    margin-bottom: 1.25rem;
+                }
+
+                .svc__card h3 {
+                    color: var(--title-color);
+                    font-size: var(--h3-font-size);
+                    margin-bottom: .5rem;
+                }
+
+                .svc__price {
+                    color: var(--first-color);
+                    font-weight: 600;
+                    font-size: var(--small-font-size);
+                    margin-bottom: .75rem;
+                }
+
+                .svc__card p {
+                    color: var(--text-color);
+                    font-size: var(--small-font-size);
+                    line-height: 1.65;
+                    margin-bottom: 1rem;
+                }
+
+                .svc__list {
+                    list-style: none;
+                    margin-bottom: 1.5rem;
+                    padding: 0;
+                }
+
+                .svc__list li {
+                    font-size: var(--small-font-size);
+                    color: var(--text-color);
+                    padding-left: 1.4rem;
+                    position: relative;
+                    margin-bottom: .45rem;
+                }
+
+                .svc__list li::before {
+                    content: '\2713';
+                    color: var(--first-color);
+                    font-weight: 700;
+                    position: absolute;
+                    left: 0;
+                }
+
+                .svc__link {
+                    margin-top: auto;
+                    color: var(--first-color);
+                    font-weight: var(--font-medium);
+                    font-size: var(--small-font-size);
+                    display: inline-flex;
+                    align-items: center;
+                    gap: .35rem;
+                }
+
+                .svc__link:hover {
+                    gap: .7rem;
+                }
+
+                .svc__more {
+                    text-align: center;
+                    margin-top: 1.75rem;
+                    font-size: var(--small-font-size);
+                    color: var(--text-color-light);
+                }
+
+                .svc__more a {
+                    color: var(--first-color);
+                    font-weight: var(--font-medium);
+                }
+            </style>
+
+            <div class="svc__grid">
+                <div class="svc__card">
+                    <div class="svc__icon"><i class="uil uil-window"></i></div>
+                    <h3>Website Design</h3>
+                    <div class="svc__price">From $900 &middot; live in 2&ndash;3 weeks</div>
+                    <p>Fast, mobile-first websites built to rank on Google and turn visitors into paying customers.</p>
+                    <ul class="svc__list">
+                        <li>Custom design, not a cookie-cutter template</li>
+                        <li>SEO fundamentals baked in from day one</li>
+                        <li>Shopify &amp; WooCommerce stores available</li>
+                    </ul>
+                    <a href="website-design/" class="svc__link">Explore Website Design <i class="uil uil-arrow-right"></i></a>
+                </div>
+
+                <div class="svc__card">
+                    <div class="svc__icon"><i class="uil uil-chart-growth"></i></div>
+                    <h3>Digital Marketing</h3>
+                    <div class="svc__price">Google &middot; Meta &middot; Microsoft &middot; SEO</div>
+                    <p>Ad campaigns and local SEO focused on one thing: profitable leads you can track to the dollar.</p>
+                    <ul class="svc__list">
+                        <li>Google Search &amp; Shopping campaigns</li>
+                        <li>Facebook &amp; Instagram ads by neighbourhood</li>
+                        <li>Rank in the Google Map Pack</li>
+                    </ul>
+                    <a href="digital-marketing/" class="svc__link">Explore Digital Marketing <i class="uil uil-arrow-right"></i></a>
+                </div>
+
+                <div class="svc__card">
+                    <div class="svc__icon"><i class="uil uil-robot"></i></div>
+                    <h3>AI Automation</h3>
+                    <div class="svc__price">A fraction of the cost of a hire</div>
+                    <p>AI receptionists and workflow automation that answer every call and follow up on every lead, 24/7.</p>
+                    <ul class="svc__list">
+                        <li>Answers on the first ring, day and night</li>
+                        <li>Books appointments into your calendar</li>
+                        <li>Instant text summary of every call</li>
+                    </ul>
+                    <a href="ai-automation/" class="svc__link">Explore AI Automation <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <p class="svc__more">
+                Selling online? We also help with <a href="amazon-seller/">Amazon Seller</a> and
+                <a href="walmart-seller/">Walmart Seller</a> setup.
+            </p>
+        </section>
+
+        <!--==================== AI AUTOMATION INFOGRAPHIC ====================-->
+        <section class="section" id="ai-use-case">
+            <h2 class="section__title">How AI Automation Works for a Small Business</h2>
+            <span class="section__subtitle">A real use case: the call you'd normally miss</span>
+
+            <style>
+                .infog {
+                    max-width: 1100px;
+                    margin: 0 auto;
+                    padding: 0 1.5rem;
+                }
+
+                .infog__flow {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+                    gap: 1rem;
+                    counter-reset: step;
+                    margin-bottom: 2.5rem;
+                }
+
+                .infog__step {
+                    background: var(--container-color);
+                    border: 1px solid rgba(110, 87, 224, 0.2);
+                    border-radius: 1.25rem;
+                    padding: 1.5rem 1rem 1.25rem;
+                    text-align: center;
+                    position: relative;
+                }
+
+                .infog__step::before {
+                    counter-increment: step;
+                    content: counter(step);
+                    position: absolute;
+                    top: -14px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                    background: var(--first-color);
+                    color: #fff;
+                    font-size: .8rem;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .infog__step i {
+                    font-size: 1.6rem;
+                    color: var(--first-color);
+                    display: block;
+                    margin-bottom: .5rem;
+                }
+
+                .infog__step h4 {
+                    color: var(--title-color);
+                    font-size: var(--small-font-size);
+                    margin-bottom: .35rem;
+                }
+
+                .infog__step p {
+                    font-size: var(--smaller-font-size);
+                    color: var(--text-color-light);
+                    line-height: 1.5;
+                }
+
+                .infog__compare {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                    gap: 1.5rem;
+                    margin-bottom: 2.5rem;
+                }
+
+                .infog__col {
+                    border-radius: 1.25rem;
+                    padding: 1.75rem 1.5rem;
+                }
+
+                .infog__col--without {
+                    background: rgba(234, 67, 53, 0.06);
+                    border: 1px solid rgba(234, 67, 53, 0.3);
+                }
+
+                .infog__col--with {
+                    background: rgba(110, 87, 224, 0.08);
+                    border: 1px solid rgba(110, 87, 224, 0.4);
+                }
+
+                .infog__col h3 {
+                    font-size: var(--h3-font-size);
+                    margin-bottom: 1rem;
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+                }
+
+                .infog__col--without h3 { color: #ea4335; }
+                .infog__col--with h3 { color: var(--first-color); }
+
+                .infog__col ul { list-style: none; padding: 0; }
+
+                .infog__col li {
+                    font-size: var(--small-font-size);
+                    color: var(--text-color);
+                    margin-bottom: .6rem;
+                    padding-left: 1.5rem;
+                    position: relative;
+                    line-height: 1.5;
+                }
+
+                .infog__col--without li::before {
+                    content: '\2717';
+                    color: #ea4335;
+                    position: absolute;
+                    left: 0;
+                    font-weight: 700;
+                }
+
+                .infog__col--with li::before {
+                    content: '\2713';
+                    color: var(--first-color);
+                    position: absolute;
+                    left: 0;
+                    font-weight: 700;
+                }
+
+                .infog__stats {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                    gap: 1rem;
+                    margin-bottom: 2.5rem;
+                }
+
+                .infog__stat {
+                    text-align: center;
+                    background: var(--container-color);
+                    border-radius: 1rem;
+                    padding: 1.25rem .75rem;
+                    border: 1px solid rgba(110, 87, 224, 0.15);
+                }
+
+                .infog__stat strong {
+                    display: block;
+                    font-size: 1.6rem;
+                    color: var(--first-color);
+                    margin-bottom: .2rem;
+                }
+
+                .infog__stat span {
+                    font-size: var(--smaller-font-size);
+                    color: var(--text-color-light);
+                    line-height: 1.4;
+                }
+
+                .infog__uses h3 {
+                    text-align: center;
+                    color: var(--title-color);
+                    font-size: var(--h3-font-size);
+                    margin-bottom: 1rem;
+                }
+
+                .infog__chips {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: .6rem;
+                    margin-bottom: 2rem;
+                }
+
+                .infog__chips a {
+                    background: var(--container-color);
+                    border: 1px solid rgba(110, 87, 224, 0.25);
+                    color: var(--first-color);
+                    padding: .5rem 1rem;
+                    border-radius: 2rem;
+                    font-size: var(--small-font-size);
+                    transition: all .2s ease;
+                }
+
+                .infog__chips a:hover {
+                    background: var(--first-color);
+                    color: #fff;
+                }
+
+                .infog__cta { text-align: center; }
+            </style>
+
+            <div class="infog">
+                <!-- Step-by-step flow -->
+                <div class="infog__flow">
+                    <div class="infog__step">
+                        <i class="uil uil-phone-volume"></i>
+                        <h4>Customer calls at 6:03 PM</h4>
+                        <p>Your team is with customers &mdash; or the shop is closed.</p>
+                    </div>
+                    <div class="infog__step">
+                        <i class="uil uil-robot"></i>
+                        <h4>AI answers on the first ring</h4>
+                        <p>No hold music, no voicemail. A natural voice greets them.</p>
+                    </div>
+                    <div class="infog__step">
+                        <i class="uil uil-comment-dots"></i>
+                        <h4>Answers their questions</h4>
+                        <p>Hours, pricing, services &mdash; scripted from your business.</p>
+                    </div>
+                    <div class="infog__step">
+                        <i class="uil uil-calendar-alt"></i>
+                        <h4>Books the appointment</h4>
+                        <p>Checks real availability and books straight into your calendar.</p>
+                    </div>
+                    <div class="infog__step">
+                        <i class="uil uil-message"></i>
+                        <h4>You get the summary</h4>
+                        <p>Instant text with the caller's name, number, and request.</p>
+                    </div>
+                </div>
+
+                <!-- With vs Without comparison -->
+                <div class="infog__compare">
+                    <div class="infog__col infog__col--without">
+                        <h3><i class="uil uil-phone-slash"></i> Without it</h3>
+                        <ul>
+                            <li>Industry studies find roughly 6 in 10 calls to small businesses go unanswered</li>
+                            <li>Most callers won't leave a voicemail &mdash; they call the next business on Google</li>
+                            <li>Evening and weekend leads are lost before you even know they existed</li>
+                            <li>Your best employee spends hours on the phone instead of with customers</li>
+                        </ul>
+                    </div>
+                    <div class="infog__col infog__col--with">
+                        <h3><i class="uil uil-check-circle"></i> With AI automation</h3>
+                        <ul>
+                            <li>Every call answered instantly, 24 hours a day, 7 days a week</li>
+                            <li>Appointments booked automatically while you work</li>
+                            <li>Every lead captured with an instant follow-up text</li>
+                            <li>Urgent calls routed to your cell &mdash; the rest handled for you</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Stats band -->
+                <div class="infog__stats">
+                    <div class="infog__stat"><strong>24/7</strong><span>answers every call, even holidays</span></div>
+                    <div class="infog__stat"><strong>1st ring</strong><span>no hold time, unlimited simultaneous calls</span></div>
+                    <div class="infog__stat"><strong>2 weeks</strong><span>typical setup, scripted for your business</span></div>
+                    <div class="infog__stat"><strong>&lt;10%</strong><span>of the cost of a full-time receptionist</span></div>
+                </div>
+
+                <!-- Industry use cases -->
+                <div class="infog__uses">
+                    <h3>Built for your industry</h3>
+                    <div class="infog__chips">
+                        <a href="ai-automation/ai-receptionist/dentists/">🦷 Dental clinics</a>
+                        <a href="ai-automation/ai-receptionist/restaurants/">🍽️ Restaurants</a>
+                        <a href="ai-automation/ai-receptionist/contractors/">🔧 Contractors</a>
+                        <a href="ai-automation/ai-receptionist/salons-spas/">💇 Salons &amp; spas</a>
+                        <a href="ai-automation/ai-receptionist/law-firms/">⚖️ Law firms</a>
+                        <a href="ai-automation/ai-receptionist/medical-clinics/">🩺 Medical clinics</a>
+                        <a href="ai-automation/ai-receptionist/real-estate/">🏠 Real estate</a>
+                        <a href="ai-automation/ai-receptionist/accountants/">📊 Accountants</a>
+                    </div>
+                </div>
+
+                <div class="infog__cta">
+                    <a href="#contact" class="button button--flex" style="display:inline-flex">
+                        Book a Free Demo <i class="uil uil-calendar-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <div
             style="background: linear-gradient(90deg,rgba(0, 253, 240, 0.797),rgba(154, 53, 254, 0.918)),rgba(26, 202, 233, 0.879)">
             <!--==================== PORTFOLIO ====================-->
