@@ -15,20 +15,21 @@
     /*========== Colors ==========*/
     --hue-color: 199;
     /* Brand blue from the Nova Toronto logo (#0096DD) */
-    --first-color: hsl(var(--hue-color), 92%, 50%);
-    --first-color-second: hsl(var(--hue-color), 92%, 50%);
-    --first-color-alt: hsl(var(--hue-color), 100%, 43%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 82%);
-    --title-color: hsl(var(--hue-color), 12%, 96%);
-    /* Light text for dark mode default */
-    --text-color: hsl(var(--hue-color), 10%, 76%);
-    --text-color-light: hsl(var(--hue-color), 8%, 64%);
-    --input-color: hsl(var(--hue-color), 32%, 14%);
-    --body-color: hsl(var(--hue-color), 36%, 9%);
-    /* Deep navy background to match the logo */
-    --container-color: hsl(var(--hue-color), 32%, 14%);
-    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+    --first-color: hsl(var(--hue-color), 100%, 42%);
+    --first-color-second: hsl(var(--hue-color), 92%, 48%);
+    --first-color-alt: hsl(var(--hue-color), 100%, 33%);
+    --first-color-lighter: hsl(var(--hue-color), 70%, 60%);
+    --first-color-rgb: 0, 150, 221;
+    --title-color: hsl(212, 30%, 15%);
+    /* Dark charcoal headings, matching the logo script */
+    --text-color: hsl(212, 14%, 38%);
+    --text-color-light: hsl(212, 10%, 52%);
+    --input-color: hsl(var(--hue-color), 30%, 96%);
+    --body-color: hsl(200, 45%, 99%);
+    /* Clean near-white background for a modern light theme */
+    --container-color: #FFFFFF;
+    --scroll-bar-color: hsl(var(--hue-color), 25%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 25%, 72%);
     --white-color: #FFF;
 
     /*========== Font and typography ==========*/
@@ -63,10 +64,10 @@
     --z-fixed: 100;
     --z-modal: 1000;
 
-    /*========== Glassmorphism ==========*/
-    --glass-bg: rgba(255, 255, 255, 0.05);
-    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
-    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    /*========== Frosted light cards ==========*/
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: 1px solid rgba(0, 150, 221, 0.15);
+    --glass-shadow: 0 8px 30px rgba(0, 70, 120, 0.08);
     --backdrop-blur: blur(10px);
 }
 
@@ -193,9 +194,9 @@ img.rounded-corners {
 
 .section__subtitle {
     display: block;
-    font-size: var(-small-font-size);
+    font-size: var(--small-font-size);
     margin-bottom: var(--mb-3);
-    color: white;
+    color: var(--text-color-light);
 }
 
 .section__title,
@@ -266,12 +267,11 @@ img.rounded-corners {
 
 
 .nav__logo img {
-    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
     transition: all 0.3s ease;
 }
 
 .nav__logo:hover img {
-    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 8px rgba(0, 150, 221, 0.8));
+    filter: drop-shadow(0 2px 6px rgba(0, 150, 221, 0.35));
     transform: scale(1.05);
 }
 
@@ -300,12 +300,12 @@ img.rounded-corners {
         min-width: 200px;
         max-width: 300px;
         height: 100%;
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+        background: rgba(255, 255, 255, 0.96);
         backdrop-filter: blur(20px) saturate(180%);
         -webkit-backdrop-filter: blur(20px) saturate(180%);
-        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        border-left: 1px solid rgba(0, 150, 221, 0.15);
         padding: 6rem 3rem 0;
-        box-shadow: -2px 0 30px rgba(0, 0, 0, 0.3);
+        box-shadow: -2px 0 30px rgba(0, 60, 100, 0.12);
         transition: .3s;
         z-index: var(--z-fixed);
     }
@@ -481,12 +481,14 @@ img.rounded-corners {
     border-radius: 3rem;
     /* Pill shape */
     font-weight: var(--font-medium);
-    box-shadow: 0 4px 10px rgba(var(--hue-color), 69%, 61%, 0.3);
+    box-shadow: 0 6px 18px rgba(0, 150, 221, 0.28);
     transition: .3s;
 }
 
 .button:hover {
     background-color: var(--first-color-alt);
+    box-shadow: 0 8px 22px rgba(0, 150, 221, 0.38);
+    transform: translateY(-2px);
 }
 
 .button_icon {
@@ -518,11 +520,13 @@ img.rounded-corners {
 .button--white {
     background-color: #FFF;
     color: var(--first-color);
-
+    border: 2px solid var(--first-color);
+    box-shadow: none;
 }
 
 .button--white:hover {
-    background-color: #FFF;
+    background-color: var(--first-color);
+    color: #FFF;
 }
 
 /* Vapi Call Button States */
@@ -1021,8 +1025,7 @@ img.rounded-corners {
 }
 
 .footer__bg {
-    background: var(--glass-bg);
-    backdrop-filter: var(--backdrop-blur);
+    background: hsl(199, 45%, 97%);
     border-top: var(--glass-border);
     padding: 2rem 0 3rem;
 }
@@ -1067,11 +1070,14 @@ img.rounded-corners {
 }
 
 
-.footer__title,
+.footer__title {
+    color: var(--title-color);
+}
+
 .footer__subtitle,
 .footer__link,
 .footer__social {
-    color: #FFF;
+    color: var(--text-color);
 }
 
 /*========== SCROLL UP ==========*/
