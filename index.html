@@ -1267,204 +1267,220 @@
             </div>
         </section>
 
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="website-pricing">
+        <!--==================== PRICING & GROWTH ====================-->
+        <section class="section" id="website-pricing">
+            <h2 class="section__title">Pricing &amp; Growth</h2>
+            <span class="section__subtitle">What we do, what it costs, and how we grow it</span>
 
-            <h2 class="section__title"> WEBSITE PRICING</h2>
-            <span class="section__subtitle"></span>
+            <style>
+                .pg__grid {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 1.75rem;
+                    max-width: 1100px;
+                    margin: 0 auto;
+                    padding: 0 1.5rem;
+                    align-items: start;
+                }
 
-            <div class="services__container2 container grid">
-                <!--================SERVICES 1 ==================-->
+                @media screen and (min-width: 968px) {
+                    .pg__grid { grid-template-columns: 68fr 32fr; }
+                }
 
-                <div class="services__content">
-                    <div>
+                .pg__card {
+                    border-radius: 1.5rem;
+                    padding: 2.25rem 2rem;
+                    background: var(--container-color);
+                    border: 1px solid rgba(0, 150, 221, 0.15);
+                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
+                }
 
-                        <h2>BRONZE</h2>
-                        <br>
-                        <p>We build website on the templates that you select and samples provided,direction and brand
-                            guidelines.</p>
-                        <br>
-                        <b>Website Package Details</b>
-                        <br><br>
-                        <div class="service__list-container">
-                            <ul class="service__list">
-                                <li class="service__list-item">Template selections</li>
-                                <li class="service__list-item">1 Hour Brainstorm</li>
-                                <li class="service__list-item">Customization of Theme</li>
-                                <li class="service__list-item">Mobile Responsive</li>
-                                <li class="service__list-item">Google Maps</li>
-                                <li class="service__list-item">Social Media Integration</li>
-                                <li class="service__list-item">Mailing List Plugin</li>
-                                <li class="service__list-item">Contact Form</li>
-                                <li class="service__list-item">Photo Sourcing</li>
-                                <li class="service__list-item">2 Rounds of Revisions</li>
+                .pg__card--primary {
+                    background: linear-gradient(160deg, #ffffff 0%, hsl(199, 70%, 97%) 100%);
+                    border: 2px solid var(--first-color);
+                    box-shadow: 0 14px 44px rgba(0, 150, 221, 0.18);
+                }
 
-                            </ul>
-                        </div>
-                        <br>
-                        <br>
-                        <h2 class="service__price">$900 (Bronze Package)</h2>
+                .pg__badge {
+                    display: inline-block;
+                    background: var(--first-color);
+                    color: #fff;
+                    font-size: var(--smaller-font-size);
+                    font-weight: 600;
+                    padding: .3rem .9rem;
+                    border-radius: 2rem;
+                    margin-bottom: 1rem;
+                    letter-spacing: .3px;
+                }
 
-                        <p>
-                            <b>3 Page Website</b><br>
-                        </p>
-                        <p>($200 per additional page)</p>
+                .pg__card h3 {
+                    color: var(--title-color);
+                    font-size: 1.6rem;
+                    margin-bottom: .4rem;
+                }
 
+                .pg__lead {
+                    color: var(--text-color);
+                    font-size: var(--normal-font-size);
+                    line-height: 1.7;
+                    margin-bottom: 1.5rem;
+                }
+
+                .pg__lead strong { color: var(--title-color); }
+
+                .pg__list { list-style: none; padding: 0; margin-bottom: 1.75rem; }
+
+                .pg__list li {
+                    position: relative;
+                    padding-left: 1.9rem;
+                    margin-bottom: .85rem;
+                    color: var(--text-color);
+                    font-size: var(--small-font-size);
+                    line-height: 1.6;
+                }
+
+                .pg__list li i {
+                    position: absolute;
+                    left: 0;
+                    top: .1rem;
+                    color: var(--first-color);
+                    font-size: 1.25rem;
+                }
+
+                .pg__list li strong { color: var(--title-color); }
+
+                .pg__stats {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: .75rem;
+                    margin-bottom: 1.75rem;
+                }
+
+                .pg__stat {
+                    text-align: center;
+                    background: rgba(0, 150, 221, 0.06);
+                    border: 1px solid rgba(0, 150, 221, 0.15);
+                    border-radius: 1rem;
+                    padding: 1rem .5rem;
+                }
+
+                .pg__stat strong {
+                    display: block;
+                    color: var(--first-color);
+                    font-size: 1.35rem;
+                    line-height: 1.1;
+                }
+
+                .pg__stat span {
+                    font-size: var(--smaller-font-size);
+                    color: var(--text-color-light);
+                }
+
+                .pg__price {
+                    font-size: var(--small-font-size);
+                    color: var(--text-color-light);
+                    margin-bottom: 1.5rem;
+                    line-height: 1.6;
+                }
+
+                .pg__price b { color: var(--title-color); font-size: 1.15rem; }
+
+                .pg__tiers { list-style: none; padding: 0; margin: 1.25rem 0 1.5rem; }
+
+                .pg__tier {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    gap: 1rem;
+                    padding: .7rem 0;
+                    border-bottom: 1px solid rgba(0, 150, 221, 0.12);
+                }
+
+                .pg__tier:last-child { border-bottom: none; }
+
+                .pg__tier-name { color: var(--title-color); font-weight: 600; font-size: var(--small-font-size); }
+                .pg__tier-desc { color: var(--text-color-light); font-size: var(--smaller-font-size); display: block; font-weight: 400; }
+                .pg__tier-price { color: var(--first-color); font-weight: 700; white-space: nowrap; }
+
+                .pg__link {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: .35rem;
+                    color: var(--first-color);
+                    font-weight: var(--font-medium);
+                    font-size: var(--small-font-size);
+                    margin-top: .25rem;
+                }
+
+                .pg__link:hover { gap: .7rem; }
+            </style>
+
+            <div class="pg__grid">
+                <!-- Digital Marketing (primary, 70%) -->
+                <div class="pg__card pg__card--primary">
+                    <span class="pg__badge">Our specialty &mdash; where the growth happens</span>
+                    <h3>Digital Marketing &amp; Ads</h3>
+                    <p class="pg__lead">
+                        We have a track record of building ad campaigns with a <strong>higher ROAS
+                        (return on ad spend)</strong>. And we don&rsquo;t just launch your ads and leave
+                        you on your own &mdash; we actively manage every dollar so your <strong>budget
+                        and target ROAS (tROAS) stay in sync</strong>, quarter after quarter.
+                    </p>
+
+                    <ul class="pg__list">
+                        <li><i class="uil uil-chart-line"></i><strong>Proven higher ROAS.</strong> A history of campaigns that return more for every dollar spent.</li>
+                        <li><i class="uil uil-balance-scale"></i><strong>Budget &amp; tROAS in sync.</strong> We watch the numbers so you never overspend or underdeliver.</li>
+                        <li><i class="uil uil-arrow-growth"></i><strong>Real MoM &amp; YoY growth.</strong> Month-over-month and year-over-year progress you can actually see.</li>
+                        <li><i class="uil uil-file-check-alt"></i><strong>Transparent reporting.</strong> Clear numbers every month &mdash; you always know what your spend is earning.</li>
+                    </ul>
+
+                    <div class="pg__stats">
+                        <div class="pg__stat"><strong>&uarr; ROAS</strong><span>higher return on spend</span></div>
+                        <div class="pg__stat"><strong>MoM</strong><span>month-over-month growth</span></div>
+                        <div class="pg__stat"><strong>YoY</strong><span>year-over-year growth</span></div>
                     </div>
 
+                    <p class="pg__price">
+                        <b>Custom monthly plans</b> &mdash; management tailored to your goals.
+                        Most local businesses start around $500&ndash;$1,500/mo in ad spend; we build the plan around your budget on a free call.
+                    </p>
+
+                    <a href="#contact" class="button button--flex" style="display:inline-flex">
+                        Get a Free Strategy Call <i class="uil uil-chart-growth button__icon"></i>
+                    </a>
+                    <br><br>
+                    <a href="digital-marketing/" class="pg__link">See how our marketing works <i class="uil uil-arrow-right"></i></a>
                 </div>
 
-                <!--================SERVICES 2 ==================-->
+                <!-- Website Design (secondary, 30%) -->
+                <div class="pg__card">
+                    <h3>Website Design</h3>
+                    <p class="pg__lead" style="font-size: var(--small-font-size); margin-bottom: 1rem;">
+                        A fast, modern site is the foundation your ads and SEO send traffic to. Simple, fixed pricing:
+                    </p>
 
-                <div class="services__content">
-                    <div>
+                    <ul class="pg__tiers">
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">Bronze<span class="pg__tier-desc">3-page starter site</span></span>
+                            <span class="pg__tier-price">$900</span>
+                        </li>
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">Silver<span class="pg__tier-desc">5-page site + analytics &amp; SEO</span></span>
+                            <span class="pg__tier-price">$1,800</span>
+                        </li>
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">E-commerce<span class="pg__tier-desc">Shopify / WooCommerce store</span></span>
+                            <span class="pg__tier-price">$2,000</span>
+                        </li>
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">Gold<span class="pg__tier-desc">Custom-built from scratch</span></span>
+                            <span class="pg__tier-price">$5,000</span>
+                        </li>
+                    </ul>
 
-                        <h2>SILVER</h2>
-                        <br>
-                        <p>We build website on the templates that you select and samples provided,direction and brand
-                            guidelines.</p>
-                        <br>
-                        <b>Website Package Details</b>
-                        <br><br>
-                        <div class="service__list-container">
-                            <ul class="service__list">
-
-                                <li class="service__list-item">Custom Ideographic & Icons</li>
-                                <li class="service__list-item">XML Sitemap</li>
-                                <li class="service__list-item">404 Redirect</li>
-                                <li class="service__list-item">Google Analytics</li>
-                                <li class="service__list-item">Template selections</li>
-                                <li class="service__list-item">1 Hour Brainstorm</li>
-                                <li class="service__list-item">Customization of Theme</li>
-                                <li class="service__list-item">Mobile Responsive</li>
-                                <li class="service__list-item">Google Maps</li>
-                                <li class="service__list-item">Social Media Integration</li>
-                                <li class="service__list-item">Mailing List Plugin</li>
-                                <li class="service__list-item">Contact Form</li>
-                                <li class="service__list-item">Photo Sourcing</li>
-                                <li class="service__list-item">3 Rounds of Revisions</li>
-
-                            </ul>
-                        </div>
-
-                        <br>
-                        <br>
-                        <h2 class="service__price">$1800 (Silver Package)</h2>
-
-                        <p>
-                            <b>5 Page Website</b><br>
-                        </p>
-                        <p>($200 per additional page)</p>
-
-                    </div>
-
+                    <a href="website-design/" class="pg__link">See full package details <i class="uil uil-arrow-right"></i></a>
                 </div>
-
-                <!--================SERVICES 3 ==================-->
-
-                <div class="services__content">
-                    <div>
-
-                        <h2> GOLD</h2>
-
-                        <br>
-                        <p>We will build a website from scratch with mock-ups on vector graphics software based on your
-                            requirement for ultimate success.</p>
-                        <br>
-                        <b>Website Package Details</b>
-                        <br><br>
-                        <div class="service__list-container">
-                            <ul class="service__list">
-
-                                <li class="service__list-item">Website from Scratch</li>
-                                <li class="service__list-item"> 2 page mock ups</li>
-                                <li class="service__list-item">Custom Ideographic & Icons</li>
-                                <li class="service__list-item">XML Sitemap</li>
-                                <li class="service__list-item">404 Redirect</li>
-                                <li class="service__list-item">Google Analytics</li>
-
-                                <li class="service__list-item">Mobile Responsive</li>
-                                <li class="service__list-item">Google Maps</li>
-                                <li class="service__list-item">Social Media Integration</li>
-                                <li class="service__list-item">Mailing List Plugin</li>
-                                <li class="service__list-item">Contact Form</li>
-                                <li class="service__list-item">Photo Sourcing</li>
-                                <li class="service__list-item">3 Rounds of Revisions</li>
-                                <li class="service__list-item">2 Hours "How To" Tutorial</li>
-
-                            </ul>
-                        </div>
-
-                        <br>
-                        <br>
-                        <h2 class="service__price">$5000 (Gold Package)</h2>
-
-                        <p>
-                            <b>5 Page Website</b><br>
-                        </p>
-                        <p>($400 per additional page)</p>
-
-                    </div>
-
-                    <!--================SERVICES 4 ==================-->
-
-                </div>
-
-        </section>
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="ecommerce-pricing">
-
-            <div class="services__container3 container grid">
-
-                <!--================SERVICES 3 ==================-->
-
-                <div class="services__content">
-                    <div>
-
-                        <h2> Ecommerce</h2>
-
-                        <br>
-                        <p>We will setup a ecommerce store with a CMS </p>
-                        <br>
-                        <b>Website Package Details</b>
-                        <br><br>
-                        <div class="service__list-container">
-                            <ul class="service__list">
-
-                                <li class="service__list-item">Wordpress or Shopify Template</li>
-                                <li class="service__list-item"> 20 Products added</li>
-                                <li class="service__list-item">Woocommerce | Shopify</li>
-                                <li class="service__list-item">Custom Shipping Setup</li>
-                                <li class="service__list-item">1 Hour In-Person Brainstorm</li>
-                                <li class="service__list-item">Customization of Theme</li>
-
-                                <li class="service__list-item">Mobile Responsive</li>
-                                <li class="service__list-item">Google Maps</li>
-                                <li class="service__list-item">Social Media Integration</li>
-                                <li class="service__list-item">Mailing List Plugin</li>
-                                <li class="service__list-item">Contact Form</li>
-                                <li class="service__list-item">Photo Sourcing</li>
-                                <li class="service__list-item">2 Rounds of Revisions</li>
-                                <li class="service__list-item">3 Hours "How To" Tutorial</li>
-
-                            </ul>
-                        </div>
-
-                        <br>
-                        <br>
-                        <h2 class="service__price">$2000 (Ecommerce Package)</h2>
-
-                        <p>
-                            <b>5 Page Website</b><br>
-                        </p>
-                        <p>($200 per additional page)</p>
-
-                    </div>
-
-                    <!--================SERVICES 4 ==================-->
-
-                </div>
-
+            </div>
         </section>
 
         <!--==================== AREAS WE SERVE ====================-->
