@@ -13,20 +13,20 @@
     --header-height: 3.5rem;
 
     /*========== Colors ==========*/
-    --hue-color: 250;
-    /* Primary Purple/Blue Hue */
-    --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 8%, 95%);
+    --hue-color: 199;
+    /* Brand blue from the Nova Toronto logo (#0096DD) */
+    --first-color: hsl(var(--hue-color), 92%, 50%);
+    --first-color-second: hsl(var(--hue-color), 92%, 50%);
+    --first-color-alt: hsl(var(--hue-color), 100%, 43%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 82%);
+    --title-color: hsl(var(--hue-color), 12%, 96%);
     /* Light text for dark mode default */
-    --text-color: hsl(var(--hue-color), 8%, 75%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 29%, 16%);
-    --body-color: hsl(var(--hue-color), 28%, 12%);
-    /* Dark background default */
-    --container-color: hsl(var(--hue-color), 29%, 16%);
+    --text-color: hsl(var(--hue-color), 10%, 76%);
+    --text-color-light: hsl(var(--hue-color), 8%, 64%);
+    --input-color: hsl(var(--hue-color), 32%, 14%);
+    --body-color: hsl(var(--hue-color), 36%, 9%);
+    /* Deep navy background to match the logo */
+    --container-color: hsl(var(--hue-color), 32%, 14%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
     --white-color: #FFF;
@@ -271,7 +271,7 @@ img.rounded-corners {
 }
 
 .nav__logo:hover img {
-    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 8px rgba(110, 87, 224, 0.8));
+    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 8px rgba(0, 150, 221, 0.8));
     transform: scale(1.05);
 }
 

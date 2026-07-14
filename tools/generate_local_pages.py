@@ -20,7 +20,7 @@ DOMAIN = "https://novatoronto.com"
 PHONE = "365-355-3133"
 PHONE_INTL = "+13653553133"
 EMAIL = "novatoronto.ca@gmail.com"
-CALENDLY = "https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=6e57e0"
+CALENDLY = "https://calendly.com/novatoronto-ca/30min?hide_gdpr_banner=1&primary_color=0096dd"
 TODAY = datetime.date.today().isoformat()
 
 # ---------------------------------------------------------------- cities
@@ -360,20 +360,20 @@ def head_block(title, meta, url):
         .breadcrumbs {{ font-size: var(--small-font-size); color: var(--text-color-light); margin-bottom: 1rem; }}
         .breadcrumbs a {{ color: var(--first-color); }}
         .benefit-grid {{ display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 2rem 0; }}
-        .benefit-card {{ background: var(--container-color); border-radius: 1rem; padding: 1.75rem; border: 1px solid rgba(110,87,224,.15); }}
+        .benefit-card {{ background: var(--container-color); border-radius: 1rem; padding: 1.75rem; border: 1px solid rgba(0,150,221,.15); }}
         .benefit-card i {{ font-size: 1.75rem; color: var(--first-color); }}
         .benefit-card h3 {{ margin: .75rem 0 .5rem; font-size: var(--h3-font-size); color: var(--title-color); }}
         .benefit-card p {{ font-size: var(--small-font-size); color: var(--text-color); line-height: 1.6; }}
-        .faq-item {{ background: var(--container-color); border-radius: .75rem; margin-bottom: 1rem; border: 1px solid rgba(110,87,224,.15); }}
+        .faq-item {{ background: var(--container-color); border-radius: .75rem; margin-bottom: 1rem; border: 1px solid rgba(0,150,221,.15); }}
         .faq-item summary {{ cursor: pointer; padding: 1.25rem 1.5rem; font-weight: var(--font-medium); color: var(--title-color); list-style: none; display: flex; justify-content: space-between; align-items: center; }}
         .faq-item summary::after {{ content: '+'; color: var(--first-color); font-size: 1.5rem; }}
         .faq-item[open] summary::after {{ content: '\\2212'; }}
         .faq-item p {{ padding: 0 1.5rem 1.25rem; color: var(--text-color); line-height: 1.7; }}
-        .cta-panel {{ background: linear-gradient(135deg, rgba(110,87,224,.12), rgba(0,253,240,.08)); border: 1px solid rgba(110,87,224,.3); padding: 2.5rem 2rem; border-radius: 1.5rem; text-align: center; margin: 3rem 0; }}
+        .cta-panel {{ background: linear-gradient(135deg, rgba(0,150,221,.12), rgba(0,253,240,.08)); border: 1px solid rgba(0,150,221,.3); padding: 2.5rem 2rem; border-radius: 1.5rem; text-align: center; margin: 3rem 0; }}
         .cta-panel h2 {{ color: var(--title-color); margin-bottom: .75rem; }}
         .cta-panel p {{ margin-bottom: 1.5rem; }}
         .link-chips {{ display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 2rem; }}
-        .link-chips a {{ background: var(--container-color); border: 1px solid rgba(110,87,224,.25); color: var(--first-color); padding: .4rem .9rem; border-radius: 2rem; font-size: var(--small-font-size); }}
+        .link-chips a {{ background: var(--container-color); border: 1px solid rgba(0,150,221,.25); color: var(--first-color); padding: .4rem .9rem; border-radius: 2rem; font-size: var(--small-font-size); }}
         .link-chips a:hover {{ background: var(--first-color); color: #fff; }}
         .local-section h2 {{ color: var(--title-color); font-size: var(--h2-font-size); margin: 2.5rem 0 1rem; }}
         .local-section p {{ line-height: 1.75; margin-bottom: 1rem; }}
@@ -387,7 +387,7 @@ def nav_block():
     <header class="header" id="header">
         <nav class="nav container">
             <a href="/" class="nav__logo">
-                <img src="/assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+                <img src="/assets/img/NovaToronto-light.png" width="110" height="60" alt="Nova Toronto logo">
             </a>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
