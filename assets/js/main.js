@@ -294,3 +294,25 @@ let swiperBlog = new Swiper('.blog__container', {
         initLeadTracking();
     }
 })();
+
+/*==================== AUDIENCE SEGMENTATION ====================*/
+/* Tags each visitor with an audience segment so GA4 can build remarketing
+   audiences. Priority segment = business owners wanting to grow / automate.
+   A page may set window.NT_SEGMENT in its <head> to declare its audience
+   (e.g. a seniors post sets 'seniors'); otherwise it's inferred from the URL. */
+(function () {
+    var seg = window.NT_SEGMENT;
+    if (!seg) {
+        var p = location.pathname;
+        if (p.indexOf('/digital-marketing') === 0 || p.indexOf('google-ads') !== -1) seg = 'growth-marketing';
+        else if (p.indexOf('/ai-automation') === 0) seg = 'automation';
+        else if (p.indexOf('/website-design') === 0) seg = 'web-design';
+        else if (p.indexOf('/amazon-seller') === 0 || p.indexOf('/walmart-seller') === 0) seg = 'ecommerce-seller';
+        else seg = 'general';
+    }
+    window.NT_SEGMENT = seg;
+    if (typeof gtag === 'function') {
+        gtag('set', 'user_properties', { audience_segment: seg });
+        gtag('event', 'segment_view', { audience_segment: seg, page_path: location.pathname });
+    }
+})();
