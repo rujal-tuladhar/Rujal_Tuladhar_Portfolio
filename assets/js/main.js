@@ -253,3 +253,44 @@ let swiperBlog = new Swiper('.blog__container', {
         }
     }
 });
+
+/*==================== LEAD TRACKING ====================*/
+/* Fires gtag events so leads (form submits + clicks to the contact form)
+   are countable in Google Ads / Google Analytics. A LEAD = a successful
+   form submission or a click that takes a visitor to a booking form. */
+(function () {
+    function initLeadTracking() {
+        if (typeof gtag !== 'function') return;
+
+        // Strong lead: a form was actually submitted (FormSubmit forms)
+        document.querySelectorAll('form[action*="formsubmit.co"]').forEach(function (form) {
+            form.addEventListener('submit', function () {
+                var label = form.querySelector('[name="_subject"]');
+                gtag('event', 'generate_lead', {
+                    event_category: 'lead',
+                    event_label: label ? label.value : 'form_submit',
+                    value: 1
+                });
+            });
+        });
+
+        // Soft lead / intent: a visitor clicked a CTA that goes to the contact form
+        document.querySelectorAll('a[href*="#contact"]').forEach(function (link) {
+            link.addEventListener('click', function () {
+                gtag('event', 'form_cta_click', {
+                    event_category: 'lead',
+                    event_label: 'contact_cta',
+                    value: 1
+                });
+            });
+        });
+    }
+
+    // Run now if the DOM is already parsed (main.js loads at end of body / deferred),
+    // otherwise wait for it.
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initLeadTracking);
+    } else {
+        initLeadTracking();
+    }
+})();
