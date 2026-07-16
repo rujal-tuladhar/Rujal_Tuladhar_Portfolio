@@ -651,6 +651,7 @@ STATIC_URLS = [
     ("digital-marketing/google-search/", 0.7), ("digital-marketing/google-shopping/", 0.7),
     ("digital-marketing/meta-ads/", 0.7), ("digital-marketing/microsoft-ads/", 0.7),
     ("amazon-seller/", 0.6), ("walmart-seller/", 0.6), ("blog/", 0.7),
+    ("blog/business-tasks-to-automate-with-ai/", 0.6),
     ("blog/google-ads-budget-toronto/", 0.6),
     ("blog/ai-receptionist-dental/", 0.5), ("blog/ai-receptionist-law-firm/", 0.5),
     ("blog/ai-receptionist-small-business/", 0.5),
