@@ -431,6 +431,8 @@ def footer_block():
                     <li><a href="/website-design/" class="footer__link">Website Design</a></li>
                     <li><a href="/digital-marketing/" class="footer__link">Digital Marketing</a></li>
                     <li><a href="/ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
                     <li><a href="/#contact" class="footer__link">Contact</a></li>
                 </ul>
                 <div class="footer__socials">
@@ -576,7 +578,7 @@ def build_city_page(svc_slug, svc, city_slug, city):
                     {faqs_html(faqs)}
 
                     <h2>Our other services in {cname}</h2>
-                    {chips(other_services + [("Website Pricing", "/#website-pricing"), ("Our Portfolio", "/#portfolio")])}
+                    {chips(other_services + [("Amazon & Walmart Selling", "/amazon-seller/"), ("Website Pricing", "/#website-pricing"), ("Our Portfolio", "/#portfolio")])}
 
                     <h2>{svc['name']} across the GTA</h2>
                     {chips(other_cities)}
@@ -632,7 +634,7 @@ def build_industry_page(ind_slug, ind):
                     {chips(other_inds + [("AI Automation Services", "/ai-automation/")])}
 
                     <h2>More ways we grow your business</h2>
-                    {chips([("Website Design", "/website-design/"), ("Digital Marketing", "/digital-marketing/"), ("Website Pricing", "/#website-pricing")])}
+                    {chips([("Website Design", "/website-design/"), ("Digital Marketing", "/digital-marketing/"), ("Amazon & Walmart Selling", "/amazon-seller/"), ("Website Pricing", "/#website-pricing")])}
                 </div>
             </div>
         </section>
@@ -650,7 +652,7 @@ STATIC_URLS = [
     ("website-design/website-audit/", 0.6),
     ("digital-marketing/google-search/", 0.7), ("digital-marketing/google-shopping/", 0.7),
     ("digital-marketing/meta-ads/", 0.7), ("digital-marketing/microsoft-ads/", 0.7),
-    ("amazon-seller/", 0.6), ("walmart-seller/", 0.6), ("blog/", 0.7),
+    ("amazon-seller/", 0.8), ("walmart-seller/", 0.8), ("blog/", 0.7),
     ("blog/ai-news-for-business-july-2026/", 0.6),
     ("blog/business-tasks-to-automate-with-ai/", 0.6),
     ("blog/google-ads-budget-toronto/", 0.6),
