@@ -1906,6 +1906,104 @@
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
 
+    <!--==================== VAPI VOICE AGENT (Nova) ====================-->
+    <button id="nova-voice-btn" aria-label="Talk to Nova, our AI assistant">
+        <span class="nova-voice-main"><i class="uil uil-microphone"></i> <span id="nova-voice-text">Talk to Nova</span></span>
+        <span id="nova-voice-status" class="nova-voice-sub">Our AI assistant &mdash; live demo</span>
+    </button>
+
+    <style>
+        #nova-voice-btn {
+            position: fixed;
+            bottom: 32px;
+            right: 32px;
+            z-index: 9999;
+            background: var(--first-color);
+            color: #fff;
+            border: none;
+            border-radius: 3rem;
+            padding: .9rem 1.5rem;
+            cursor: pointer;
+            font-family: var(--body-font);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .15rem;
+            box-shadow: 0 8px 24px rgba(0, 150, 221, 0.4);
+            transition: all .3s ease;
+        }
+
+        #nova-voice-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(0, 150, 221, 0.5);
+        }
+
+        #nova-voice-btn.nova-active {
+            background: #e63946;
+            box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.6);
+            animation: nova-pulse 2s infinite;
+        }
+
+        #nova-voice-btn.nova-loading { opacity: .7; cursor: wait; }
+
+        .nova-voice-main { display: flex; align-items: center; gap: .45rem; font-weight: 600; font-size: 1rem; }
+        .nova-voice-sub { font-size: .68rem; opacity: .9; font-weight: 400; }
+
+        @keyframes nova-pulse {
+            0% { box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.5); }
+            70% { box-shadow: 0 0 0 16px rgba(230, 57, 70, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(230, 57, 70, 0); }
+        }
+
+        @media screen and (max-width: 767px) {
+            #nova-voice-btn { bottom: 20px; right: 16px; padding: .75rem 1.15rem; }
+        }
+    </style>
+
+    <script type="module">
+        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
+
+        const PUBLIC_KEY = '4138cfbd-4ba7-420d-9fad-5e5867135873';
+        const ASSISTANT_ID = '6bade5c8-ec37-438a-b852-44c9332044ca';
+
+        const btn = document.getElementById('nova-voice-btn');
+        const txt = document.getElementById('nova-voice-text');
+        const status = document.getElementById('nova-voice-status');
+        let vapi = null;
+        let active = false;
+
+        function setState(state) {
+            btn.classList.remove('nova-active', 'nova-loading');
+            if (state === 'idle') { txt.textContent = 'Talk to Nova'; status.innerHTML = 'Our AI assistant &mdash; live demo'; }
+            if (state === 'loading') { btn.classList.add('nova-loading'); txt.textContent = 'Connecting…'; status.textContent = 'Allow microphone access'; }
+            if (state === 'active') { btn.classList.add('nova-active'); txt.textContent = 'End Call'; status.textContent = 'Nova is listening…'; }
+        }
+
+        try {
+            vapi = new Vapi(PUBLIC_KEY);
+            vapi.on('call-start', () => { active = true; setState('active'); if (typeof gtag === 'function') gtag('event', 'ai_call_start', { event_category: 'lead', event_label: 'nova_voice_widget' }); });
+            vapi.on('call-end', () => { active = false; setState('idle'); });
+            vapi.on('error', () => { active = false; setState('idle'); });
+        } catch (e) {
+            btn.style.display = 'none';
+        }
+
+        btn.addEventListener('click', async () => {
+            if (!vapi) return;
+            if (active) { vapi.stop(); return; }
+            setState('loading');
+            try {
+                await navigator.mediaDevices.getUserMedia({ audio: true });
+                await vapi.start(ASSISTANT_ID);
+            } catch (err) {
+                setState('idle');
+                if (err && err.name === 'NotAllowedError') {
+                    alert('Microphone access is needed to talk to Nova. Please allow it in your browser and try again.');
+                }
+            }
+        });
+    </script>
+
     
 
     
