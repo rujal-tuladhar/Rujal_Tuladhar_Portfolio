@@ -13,7 +13,7 @@ voice = a warm professional female or male voice, first message as given below.
   Sid (deep 30s), Godfrey (energetic 20s).
 
 - Background (2026-07-23): `backgroundSound:
-  "https://novatoronto.com/assets/audio/office-ambience.wav?v=2" (v2 2026-07-23: 90s loop, episodic typing with 12-26s breathers, ~5dB quieter)` — custom
+  "https://novatoronto.com/assets/audio/office-ambience.wav?v=3" (v3 2026-07-23: episodic typing + breathers, ~8dB below v1)` — custom
   synthesized busy-IT-office loop (generator: tools/generate_office_ambience.py,
   tune MASTER_GAIN + re-run + push; Vapi may cache per URL, so append ?v=2 on
   updates). `backgroundDenoisingEnabled: false`. Fallbacks: "office" (stock,
@@ -22,6 +22,11 @@ voice = a warm professional female or male voice, first message as given below.
   talks); `startSpeakingPlan: {waitSeconds: 0.4, smartEndpointingEnabled:
   "livekit"}`; `stopSpeakingPlan: {numWords: 2, voiceSeconds: 0.2,
   backoffSeconds: 0.8}` (needs 2+ words to yield — ignores caller's "mm-hmm").
+
+- Silence handling (2026-07-23): `messagePlan.idleMessages` = 3 energetic
+  "hello? still there?" lines after 7.5s of caller silence, max 3 times;
+  `silenceTimeoutSeconds: 30` hangs up with a friendly goodbye
+  (`silenceTimeoutMessage`) if the caller never responds.
 
 ## First message
 
