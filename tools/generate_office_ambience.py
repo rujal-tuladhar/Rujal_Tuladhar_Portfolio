@@ -16,11 +16,11 @@ N = int(SR * DUR)
 rng = np.random.default_rng(42)
 
 MASTER_GAIN = 1.0          # overall loudness knob
-TYPING_GAIN = 0.055        # keyboard presence — episodic, not constant
-ROOM_GAIN = 0.022          # room tone bed (the "breather" between activity)
+TYPING_GAIN = 0.042        # keyboard presence — episodic, not constant
+ROOM_GAIN = 0.017          # room tone bed (the "breather" between activity)
 HVAC_GAIN = 0.018          # air system hum
 PHONE_GAIN = 0.018         # distant phone ring
-TRANSIENT_GAIN = 0.030     # chairs, paper, mouse clicks
+TRANSIENT_GAIN = 0.022     # chairs, paper, mouse clicks
 
 
 def bp(x, lo, hi, order=3):
@@ -128,7 +128,7 @@ out = out[: N - xf]
 out *= MASTER_GAIN
 out = np.tanh(out * 3.0) / 3.0                      # soft knee
 peak = np.max(np.abs(out))
-out = out / peak * 0.24                             # peaks at ~-11 dBFS (calmer)
+out = out / peak * 0.17                             # peaks at ~-11 dBFS (calmer)
 rms_db = 20 * np.log10(np.sqrt(np.mean(out ** 2)))
 
 dest = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
