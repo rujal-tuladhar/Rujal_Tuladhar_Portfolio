@@ -11,16 +11,16 @@ import numpy as np
 from scipy.signal import butter, lfilter
 
 SR = 22050
-DUR = 60.0
+DUR = 90.0                 # longer loop = more variation before it repeats
 N = int(SR * DUR)
 rng = np.random.default_rng(42)
 
 MASTER_GAIN = 1.0          # overall loudness knob
-TYPING_GAIN = 0.16         # keyboard prominence (the "IT office" star)
-ROOM_GAIN = 0.030          # room tone bed
-HVAC_GAIN = 0.020          # air system hum
-PHONE_GAIN = 0.030         # distant phone ring
-TRANSIENT_GAIN = 0.05      # chairs, paper, mouse clicks
+TYPING_GAIN = 0.055        # keyboard presence — episodic, not constant
+ROOM_GAIN = 0.022          # room tone bed (the "breather" between activity)
+HVAC_GAIN = 0.018          # air system hum
+PHONE_GAIN = 0.018         # distant phone ring
+TRANSIENT_GAIN = 0.030     # chairs, paper, mouse clicks
 
 
 def bp(x, lo, hi, order=3):
@@ -70,28 +70,30 @@ desks = [
 ]
 typing = np.zeros(N)
 for desk in desks:
-    pos = rng.uniform(0.5, 3.0)
-    while pos < DUR - 1:
-        burst_len = rng.uniform(1.2, 4.5)          # a thought being typed
-        end = min(pos + burst_len, DUR - 0.5)
-        while pos < end:
+    pos = rng.uniform(2.0, 12.0)
+    while pos < DUR - 4:
+        # a short typing episode, then a LONG breather (reading, thinking)
+        episode_end = min(pos + rng.uniform(3.0, 7.0), DUR - 1)
+        while pos < episode_end:
             add_click(typing, int(pos * SR), rng.uniform(4, 9),
                       desk["center"] * rng.uniform(0.85, 1.15),
-                      desk["width"], desk["amp"] * rng.uniform(0.5, 1.0))
-            pos += rng.uniform(desk["speed"] * 0.6, desk["speed"] * 1.8)
-        pos += rng.uniform(0.4, 2.5)               # pause, read, think
-out += TYPING_GAIN * typing
+                      desk["width"], desk["amp"] * rng.uniform(0.4, 0.9))
+            pos += rng.uniform(desk["speed"] * 0.7, desk["speed"] * 2.2)
+        pos += rng.uniform(12.0, 26.0)             # breather: just room tone
+# slow office-activity swell so the whole texture ebbs and flows
+activity = 0.65 + 0.35 * np.sin(2 * np.pi * np.arange(N) / SR / 31.0 + 1.2)
+out += TYPING_GAIN * typing * activity
 
 # ---- 4. Mouse clicks & double-clicks ------------------------------------
 trans = np.zeros(N)
-for _ in range(22):
+for _ in range(7):
     p = rng.uniform(0.5, DUR - 0.5)
-    add_click(trans, int(p * SR), rng.uniform(3, 5), 3200, 900, 0.5)
-    if rng.random() < 0.35:                        # double-click
-        add_click(trans, int((p + 0.12) * SR), 4, 3200, 900, 0.45)
+    add_click(trans, int(p * SR), rng.uniform(3, 5), 3200, 900, 0.4)
+    if rng.random() < 0.3:                         # double-click
+        add_click(trans, int((p + 0.12) * SR), 4, 3200, 900, 0.35)
 
 # ---- 5. Chair creaks / paper shuffles (filtered swooshes) ---------------
-for _ in range(7):
+for _ in range(5):
     p = int(rng.uniform(1, DUR - 2) * SR)
     n = int(SR * rng.uniform(0.25, 0.7))
     sw = rng.standard_normal(n) * np.hanning(n)
@@ -103,7 +105,7 @@ out += TRANSIENT_GAIN * trans
 
 # ---- 6. Distant phone ring (once per loop, two brrings) -----------------
 ring = np.zeros(N)
-for start in (34.0, 36.4):
+for start in (58.0, 60.4):
     n = int(SR * 1.4)
     p = int(start * SR)
     tt = np.arange(n) / SR
@@ -126,7 +128,7 @@ out = out[: N - xf]
 out *= MASTER_GAIN
 out = np.tanh(out * 3.0) / 3.0                      # soft knee
 peak = np.max(np.abs(out))
-out = out / peak * 0.5                              # peaks at -6 dBFS
+out = out / peak * 0.24                             # peaks at ~-11 dBFS (calmer)
 rms_db = 20 * np.log10(np.sqrt(np.mean(out ** 2)))
 
 dest = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
