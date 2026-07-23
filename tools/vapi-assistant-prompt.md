@@ -12,10 +12,16 @@ voice = a warm professional female or male voice, first message as given below.
   API; current male NA alternatives: Nico (casual 20s), Kai (relaxed 30s),
   Sid (deep 30s), Godfrey (energetic 20s).
 
-- Background: `backgroundSound: "office"` + `backgroundDenoisingEnabled: false`
-  (office ambience — keyboards, distant phones — for the IT-office feel; added
-  2026-07-22. Set back to "off" to silence it. Custom ambience: a URL to an
-  audio file also works as the value.)
+- Background (2026-07-23): `backgroundSound:
+  "https://novatoronto.com/assets/audio/office-ambience.wav"` — custom
+  synthesized busy-IT-office loop (generator: tools/generate_office_ambience.py,
+  tune MASTER_GAIN + re-run + push; Vapi may cache per URL, so append ?v=2 on
+  updates). `backgroundDenoisingEnabled: false`. Fallbacks: "office" (stock,
+  quieter) or "off".
+- Flow (2026-07-23): `backchannelingEnabled: true` (mm-hmm/right while caller
+  talks); `startSpeakingPlan: {waitSeconds: 0.4, smartEndpointingEnabled:
+  "livekit"}`; `stopSpeakingPlan: {numWords: 2, voiceSeconds: 0.2,
+  backoffSeconds: 0.8}` (needs 2+ words to yield — ignores caller's "mm-hmm").
 
 ## First message
 
