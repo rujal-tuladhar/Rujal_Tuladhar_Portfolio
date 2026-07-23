@@ -12,6 +12,11 @@ voice = a warm professional female or male voice, first message as given below.
   API; current male NA alternatives: Nico (casual 20s), Kai (relaxed 30s),
   Sid (deep 30s), Godfrey (energetic 20s).
 
+- Background: `backgroundSound: "office"` + `backgroundDenoisingEnabled: false`
+  (office ambience — keyboards, distant phones — for the IT-office feel; added
+  2026-07-22. Set back to "off" to silence it. Custom ambience: a URL to an
+  audio file also works as the value.)
+
 ## First message
 
 "Hey, thanks for calling Nova Toronto! Nova here - the team's homegrown AI,
