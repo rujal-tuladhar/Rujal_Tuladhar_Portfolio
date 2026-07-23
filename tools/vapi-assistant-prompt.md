@@ -6,14 +6,14 @@ voice = a warm professional female or male voice, first message as given below.
 
 ## Voice settings (applied 2026-07-22 via API)
 
-- Voice: `{provider: "vapi", voiceId: "Elliot", speed: 1.05}` — Elliot is Vapi's
+- Voice: `{provider: "vapi", voiceId: "Elliot", speed: 1.0}` — Elliot is Vapi's
   only CANADIAN voice (male, 20s, friendly/professional). Speed 1.05 = energetic
   IT-guy pacing. NOTE: Cole/Harry/Spencer are legacy voices and REJECTED by the
   API; current male NA alternatives: Nico (casual 20s), Kai (relaxed 30s),
   Sid (deep 30s), Godfrey (energetic 20s).
 
 - Background (2026-07-23): `backgroundSound:
-  "https://novatoronto.com/assets/audio/office-ambience.wav"` — custom
+  "https://novatoronto.com/assets/audio/office-ambience.wav?v=2" (v2 2026-07-23: 90s loop, episodic typing with 12-26s breathers, ~5dB quieter)` — custom
   synthesized busy-IT-office loop (generator: tools/generate_office_ambience.py,
   tune MASTER_GAIN + re-run + push; Vapi may cache per URL, so append ?v=2 on
   updates). `backgroundDenoisingEnabled: false`. Fallbacks: "office" (stock,
