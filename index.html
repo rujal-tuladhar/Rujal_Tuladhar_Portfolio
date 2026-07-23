@@ -1979,8 +1979,14 @@
             if (state === 'active') { btn.classList.add('nova-active'); txt.textContent = 'End Call'; status.textContent = 'Nova is listening…'; }
         }
 
+        // The +esm build sometimes wraps the constructor (module object / .default)
+        let VapiCtor = Vapi;
+        if (typeof VapiCtor !== 'function') {
+            VapiCtor = VapiCtor.default || VapiCtor.Vapi || VapiCtor.Web;
+        }
+
         try {
-            vapi = new Vapi(PUBLIC_KEY);
+            vapi = new VapiCtor(PUBLIC_KEY);
             vapi.on('call-start', () => { active = true; setState('active'); if (typeof gtag === 'function') gtag('event', 'ai_call_start', { event_category: 'lead', event_label: 'nova_voice_widget' }); });
             vapi.on('call-end', () => { active = false; setState('idle'); });
             vapi.on('error', () => { active = false; setState('idle'); });
