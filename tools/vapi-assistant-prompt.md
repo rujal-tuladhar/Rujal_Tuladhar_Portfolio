@@ -26,7 +26,7 @@ voice = a warm professional female or male voice, first message as given below.
 - Silence handling (2026-07-23, sales-guy fast): after 5s of caller silence
   ONE grab, formal-friendly ("Hello? Are you still with me? Happy to help whenever you are ready.") —
   `idleTimeoutSeconds: 5`, `idleMessageMaxSpokenCount: 1`; still silent →
-  quick friendly hang-up at `silenceTimeoutSeconds: 20`
+  quick friendly hang-up at `silenceTimeoutSeconds: 10` (Vapi minimum; silence clock resets each time Nova speaks, so real-world hang-up lands ~10s after the grab, ~25s total)
   ("Alright, I will let you go. Feel free to call back anytime...").
 
 - Voice (2026-07-23): ElevenLabs "Chris" via Vapi — {provider:"11labs",
@@ -49,8 +49,8 @@ PATCHing `model` replaces the WHOLE object: include provider/model/messages.
 
 ## First message
 
-"Hey, thanks for calling Nova Toronto! Nova here - the team's homegrown AI,
-built right here in Toronto. What can I help you with today?"
+"Hey, thanks for calling Nova Toronto! Nova here, the team's homegrown AI.
+How can I help you today?" (shortened 2026-07-26 so silent calls end sooner)
 
 ## System Prompt
 
