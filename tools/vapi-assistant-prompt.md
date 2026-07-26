@@ -49,8 +49,10 @@ PATCHing `model` replaces the WHOLE object: include provider/model/messages.
 
 ## First message
 
-"Hey, thanks for calling Nova Toronto! Nova here, the team's homegrown AI.
-How can I help you today?" (shortened 2026-07-26 so silent calls end sooner)
+"Hi there! Hey, thanks for calling Nova Toronto. Nova here, the team's
+homegrown AI. How can I help you today?" (2026-07-26: "Hi there!" is a
+sacrificial opener — web-call audio warm-up clips the first ~300ms, so the
+first word may be lost; the padding keeps the greeting sounding complete.)
 
 ## System Prompt
 
