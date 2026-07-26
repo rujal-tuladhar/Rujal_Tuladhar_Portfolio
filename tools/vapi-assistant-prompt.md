@@ -28,6 +28,12 @@ voice = a warm professional female or male voice, first message as given below.
   `silenceTimeoutSeconds: 30` hangs up with a friendly goodbye
   (`silenceTimeoutMessage`) if the caller never responds.
 
+- Voice (2026-07-23): ElevenLabs "Chris" via Vapi — {provider:"11labs",
+  voiceId:"iP95p4xoKVk53GoZ742B", model:"eleven_turbo_v2_5", stability:0.45,
+  similarityBoost:0.75, useSpeakerBoost:true}. Alternates: Will
+  bIHbv24MWmeRgasZH58o, Eric cjVigY5qzO86Huf0OWal, Josh TxGEqnHWrfWFTfGW9XjX.
+  (Previously Vapi "Elliot".)
+
 ## First message
 
 "Hey, thanks for calling Nova Toronto! Nova here - the team's homegrown AI,
