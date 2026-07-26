@@ -26,7 +26,7 @@ voice = a warm professional female or male voice, first message as given below.
 - Silence handling (2026-07-23, sales-guy fast): after 5s of caller silence
   ONE grab, formal-friendly ("Hello? Are you still with me? Happy to help whenever you are ready.") —
   `idleTimeoutSeconds: 5`, `idleMessageMaxSpokenCount: 1`; still silent →
-  quick friendly hang-up at `silenceTimeoutSeconds: 10` (Vapi minimum; silence clock resets each time Nova speaks, so real-world hang-up lands ~10s after the grab, ~25s total)
+  quick hang-up at `silenceTimeoutSeconds: 7` (API accepts below the documented 10s min; hang-up lands ~7s after the grab + 2s short goodbye, ~22s total for a fully silent call). CAUTION: silence timer applies mid-call too — a real caller who goes quiet ~7s after the one idle grab is spent will get the goodbye; if real calls start dropping, raise to 10 or set idleMessageMaxSpokenCount: 2
   ("Alright, I will let you go. Feel free to call back anytime...").
 
 - Voice (2026-07-23): ElevenLabs "Chris" via Vapi — {provider:"11labs",
