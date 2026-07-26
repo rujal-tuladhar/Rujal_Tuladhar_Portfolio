@@ -1979,6 +1979,39 @@
             if (state === 'active') { btn.classList.add('nova-active'); txt.textContent = 'End Call'; status.textContent = 'Nova is listening…'; }
         }
 
+        // ---- Ringback tone: fills the connection lag so it feels like a real call ----
+        // North American ringback: 440 Hz + 480 Hz, 2 s on / 4 s off.
+        let ringCtx = null, ringTimer = null;
+        function ringBurst() {
+            if (!ringCtx) return;
+            const t0 = ringCtx.currentTime;
+            const gain = ringCtx.createGain();
+            gain.gain.setValueAtTime(0, t0);
+            gain.gain.linearRampToValueAtTime(0.055, t0 + 0.03);
+            gain.gain.setValueAtTime(0.055, t0 + 1.97);
+            gain.gain.linearRampToValueAtTime(0, t0 + 2.0);
+            gain.connect(ringCtx.destination);
+            [440, 480].forEach(f => {
+                const osc = ringCtx.createOscillator();
+                osc.frequency.value = f;
+                osc.connect(gain);
+                osc.start(t0);
+                osc.stop(t0 + 2.05);
+            });
+        }
+        function startRing() {
+            stopRing();
+            try {
+                ringCtx = new (window.AudioContext || window.webkitAudioContext)();
+                ringBurst();
+                ringTimer = setInterval(ringBurst, 6000);   // ring… pause… ring…
+            } catch (e) { /* no audio context — silently skip the ring */ }
+        }
+        function stopRing() {
+            if (ringTimer) { clearInterval(ringTimer); ringTimer = null; }
+            if (ringCtx) { try { ringCtx.close(); } catch (e) {} ringCtx = null; }
+        }
+
         // The +esm build sometimes wraps the constructor (module object / .default)
         let VapiCtor = Vapi;
         if (typeof VapiCtor !== 'function') {
@@ -1987,9 +2020,10 @@
 
         try {
             vapi = new VapiCtor(PUBLIC_KEY);
-            vapi.on('call-start', () => { active = true; setState('active'); if (typeof gtag === 'function') gtag('event', 'ai_call_start', { event_category: 'lead', event_label: 'nova_voice_widget' }); });
-            vapi.on('call-end', () => { active = false; setState('idle'); });
-            vapi.on('error', () => { active = false; setState('idle'); });
+            vapi.on('call-start', () => { stopRing(); active = true; setState('active'); if (typeof gtag === 'function') gtag('event', 'ai_call_start', { event_category: 'lead', event_label: 'nova_voice_widget' }); });
+            vapi.on('speech-start', () => { stopRing(); });
+            vapi.on('call-end', () => { stopRing(); active = false; setState('idle'); });
+            vapi.on('error', () => { stopRing(); active = false; setState('idle'); });
         } catch (e) {
             btn.style.display = 'none';
         }
@@ -1998,10 +2032,12 @@
             if (!vapi) return;
             if (active) { vapi.stop(); return; }
             setState('loading');
+            startRing();                                    // instant "it's ringing" feedback
             try {
                 await navigator.mediaDevices.getUserMedia({ audio: true });
                 await vapi.start(ASSISTANT_ID);
             } catch (err) {
+                stopRing();
                 setState('idle');
                 if (err && err.name === 'NotAllowedError') {
                     alert('Microphone access is needed to talk to Nova. Please allow it in your browser and try again.');
