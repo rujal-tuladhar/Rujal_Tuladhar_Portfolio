@@ -24,16 +24,28 @@ voice = a warm professional female or male voice, first message as given below.
   backoffSeconds: 0.8}` (needs 2+ words to yield — ignores caller's "mm-hmm").
 
 - Silence handling (2026-07-23, sales-guy fast): after 5s of caller silence
-  ONE energetic grab ("Hello? You with me? Don't be shy...") —
+  ONE grab, formal-friendly ("Hello? Are you still with me? Happy to help whenever you are ready.") —
   `idleTimeoutSeconds: 5`, `idleMessageMaxSpokenCount: 1`; still silent →
   quick friendly hang-up at `silenceTimeoutSeconds: 20`
-  ("Alright, I'll let you go — call back anytime...").
+  ("Alright, I will let you go. Feel free to call back anytime...").
 
 - Voice (2026-07-23): ElevenLabs "Chris" via Vapi — {provider:"11labs",
   voiceId:"iP95p4xoKVk53GoZ742B", model:"eleven_turbo_v2_5", stability:0.45,
   similarityBoost:0.75, useSpeakerBoost:true}. Alternates: Will
   bIHbv24MWmeRgasZH58o, Eric cjVigY5qzO86Huf0OWal, Josh TxGEqnHWrfWFTfGW9XjX.
   (Previously Vapi "Elliot".)
+
+## How to update this assistant (2026-07-23 — API key method)
+
+Private key lives in `.vapi-key` at repo root (GITIGNORED — never commit).
+No dashboard login needed. From repo root:
+
+    curl -s -X PATCH -H "Authorization: Bearer $(cat .vapi-key)"       -H "Content-Type: application/json" --data-binary @patch.json       https://api.vapi.ai/assistant/6bade5c8-ec37-438a-b852-44c9332044ca
+
+Gotchas: write JSON to a file first (inline -d from PowerShell/bash mangles
+em-dashes and quotes via cp1252 — stick to ASCII punctuation in spoken text);
+Python urllib gets 403 (Cloudflare blocks its user agent) — use curl.
+PATCHing `model` replaces the WHOLE object: include provider/model/messages.
 
 ## First message
 

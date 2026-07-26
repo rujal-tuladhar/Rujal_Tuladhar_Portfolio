@@ -4,3 +4,6 @@ package-lock.json
 package.json
 .DS_Store
 *.stackdump
+
+# Vapi private API key (never commit)
+.vapi-key
