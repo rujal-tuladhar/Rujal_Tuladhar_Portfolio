@@ -23,10 +23,11 @@ voice = a warm professional female or male voice, first message as given below.
   "livekit"}`; `stopSpeakingPlan: {numWords: 2, voiceSeconds: 0.2,
   backoffSeconds: 0.8}` (needs 2+ words to yield — ignores caller's "mm-hmm").
 
-- Silence handling (2026-07-23): `messagePlan.idleMessages` = 3 energetic
-  "hello? still there?" lines after 7.5s of caller silence, max 3 times;
-  `silenceTimeoutSeconds: 30` hangs up with a friendly goodbye
-  (`silenceTimeoutMessage`) if the caller never responds.
+- Silence handling (2026-07-23, sales-guy fast): after 5s of caller silence
+  ONE energetic grab ("Hello? You with me? Don't be shy...") —
+  `idleTimeoutSeconds: 5`, `idleMessageMaxSpokenCount: 1`; still silent →
+  quick friendly hang-up at `silenceTimeoutSeconds: 20`
+  ("Alright, I'll let you go — call back anytime...").
 
 - Voice (2026-07-23): ElevenLabs "Chris" via Vapi — {provider:"11labs",
   voiceId:"iP95p4xoKVk53GoZ742B", model:"eleven_turbo_v2_5", stability:0.45,
