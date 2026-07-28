@@ -47,6 +47,19 @@ em-dashes and quotes via cp1252 — stick to ASCII punctuation in spoken text);
 Python urllib gets 403 (Cloudflare blocks its user agent) — use curl.
 PATCHing `model` replaces the WHOLE object: include provider/model/messages.
 
+- Call ending (2026-07-28): `endCallFunctionEnabled: true` + ENDING THE CALL
+  prompt section — Nova says one goodbye line and hangs up himself (no more
+  lingering after bookings/goodbyes).
+- Analysis (2026-07-28): `analysisPlan.structuredDataPlan` extracts per call:
+  callerName, phoneNumber, email, businessType, serviceInterested,
+  appointmentBooked (bool), preferredDateTime (ISO when possible), notes —
+  visible per-call in dashboard Logs AND used by the booking bridge.
+- Booking delivery: bookings live ONLY in Vapi Logs until the Apps Script
+  bridge (tools/vapi-booking-bridge.gs) is deployed by the user (5 min,
+  novatoronto.ca@gmail.com) → then PATCH `server: {url: <web app /exec URL>}`
+  + `serverMessages: ["end-of-call-report"]` → every call = email + calendar
+  event automatically.
+
 ## First message
 
 "Hi there! Hey, thanks for calling Nova Toronto. Nova here, the team's
