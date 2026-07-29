@@ -1,18 +1,31 @@
 /*
- * DEPLOYMENT STATUS (2026-07-29)
+ * DEPLOYMENT STATUS (2026-07-29) - NOVATORONTO ACCOUNT
  * -----------------------------------------------------------------
- * Apps Script project ALREADY CREATED + code saved + deployment
- * configured (Web app / Execute as Me / Anyone) under
- * rujal.tuladhar@gmail.com. Project URL:
- *   https://script.google.com/home/projects/1YCdOTbafK_x_VihJSO1uI1DACzfqA8Q9fvrizCRGkf4V2j0uvwWfxs-4/edit
+ * LIVE PROJECT (code written + SAVED + verified after reload):
+ *   Account : novatoronto.ca@gmail.com  (Chrome account index /u/2/)
+ *   Project : https://script.google.com/u/2/home/projects/1twHXBVdrtdgWdZeO-J6e7zNojvRYpChYPHjyF66Y3nIdaJjRLpbZRtTk/edit
+ *   Emails go to novatoronto.ca@gmail.com; Calendar events land on
+ *   novatoronto.ca@gmail.com's default calendar.
  *
- * REMAINING (user must click - OAuth popup is outside automation reach):
- *   Deploy > Authorize access > pick account > "Advanced" >
- *   "Go to Untitled project (unsafe)" > Allow.  Then copy the
- *   /exec URL and give it to Claude.
+ * REMAINING (user must click - OAuth popup opens as a separate browser
+ * WINDOW, outside automation reach):
+ *   Deploy > New deployment > gear "Select type" > Web app
+ *     Execute as   : Me (novatoronto.ca@gmail.com)
+ *     Who has access: Anyone            <-- REQUIRED so Vapi can POST
+ *   Deploy > Authorize access > choose novatoronto.ca@gmail.com >
+ *   Advanced > "Go to Untitled project (unsafe)" > Allow
+ *   Then copy the /exec URL and hand it to Claude.
  *
- * The DEPLOYED code is the compact version below the line; it also
- * requires ?token=<SHARED_TOKEN> on the webhook URL.
+ * Claude then runs (API key already stored in .vapi-key):
+ *   PATCH assistant  server = { url: "<EXEC_URL>?token=<SHARED_TOKEN>" }
+ *                    serverMessages = ["end-of-call-report"]
+ *
+ * An earlier abandoned copy exists under rujal.tuladhar@gmail.com
+ * (never authorized, harmless - delete it if you like).
+ *
+ * EDITOR AUTOMATION NOTE: monaco setValue() does NOT persist in Apps
+ * Script; use editor.executeEdits(...) (fires a genuine edit) then click
+ * "Save project to Drive".
  * -----------------------------------------------------------------
  */
 
