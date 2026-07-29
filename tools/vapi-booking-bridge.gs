@@ -1,3 +1,21 @@
+/*
+ * DEPLOYMENT STATUS (2026-07-29)
+ * -----------------------------------------------------------------
+ * Apps Script project ALREADY CREATED + code saved + deployment
+ * configured (Web app / Execute as Me / Anyone) under
+ * rujal.tuladhar@gmail.com. Project URL:
+ *   https://script.google.com/home/projects/1YCdOTbafK_x_VihJSO1uI1DACzfqA8Q9fvrizCRGkf4V2j0uvwWfxs-4/edit
+ *
+ * REMAINING (user must click - OAuth popup is outside automation reach):
+ *   Deploy > Authorize access > pick account > "Advanced" >
+ *   "Go to Untitled project (unsafe)" > Allow.  Then copy the
+ *   /exec URL and give it to Claude.
+ *
+ * The DEPLOYED code is the compact version below the line; it also
+ * requires ?token=<SHARED_TOKEN> on the webhook URL.
+ * -----------------------------------------------------------------
+ */
+
 /**
  * Nova Toronto — Vapi → Gmail + Google Calendar bridge
  * =====================================================
