@@ -21,8 +21,8 @@ What's missing is people arriving. Specifically:
 | Gap | Consequence |
 |---|---|
 | Site relaunched only weeks ago | Google hasn't ranked the new pages yet (3–6 months is normal) |
-| Google Search Console not verified | We're blind: no idea what we rank for or what's indexed |
-| GA4 not connected (only the Google **Ads** tag is live) | We can't see visitors, sources, or which pages convert |
+| ~~Google Search Console not verified~~ **DONE 2026-08-04** | Verified under novatoronto.ca@gmail.com — rankings/indexing data now flowing |
+| ~~GA4 not connected~~ **DONE 2026-08-04** | `G-B064YQYKLC` live on all 62 pages; lead events reporting in |
 | No Google Business Profile | Missing the single biggest free local-lead source |
 | No classifieds/directory listings | Zero presence where "hire someone now" buyers look |
 | No paid ads running | No way to buy traffic while SEO matures |
@@ -145,8 +145,9 @@ Already firing site-wide via `assets/js/main.js`:
 | `form_cta_click` | Any click on a link to `#contact` |
 | `ai_call_start` | Visitor starts a call with Nova |
 
-These currently report to the **Google Ads** tag only. **Connecting GA4 unlocks
-the reporting** — source attribution, which pages convert, which segment converts.
+**As of 2026-08-04 these report into GA4 (`G-B064YQYKLC`) as well as Google Ads** —
+so source attribution, page-level conversion, and segment performance are all
+now measurable. Verified live: both containers registered, events transporting.
 
 **Every link posted anywhere must be UTM-tagged** so we know which platform pays:
 
@@ -181,8 +182,8 @@ a pull quote → CTA to the free consultation → internal links to the money pa
 | # | Action | Why it matters | Time |
 |---|---|---|---|
 | 1 | Create **Google Business Profile** | Biggest free local-lead source; currently zero presence | ~15 min |
-| 2 | Verify **Google Search Console** + submit sitemap | Ends SEO blindness | ~10 min |
-| 3 | Get **GA4 Measurement ID** (`G-XXXXXXX`) and send it to Claude | Turns the tracking already in place into actual reports | ~5 min |
+| 2 | ~~Verify **Google Search Console**~~ ✅ **DONE** — only the sitemap submission is left (type `sitemap.xml` in GSC → Sitemaps → Submit) | Ends SEO blindness | ~1 min |
+| 3 | ~~Get **GA4 Measurement ID**~~ ✅ **DONE** — `G-B064YQYKLC` wired site-wide | Reports now live | — |
 | 4 | Finish the **Apps Script OAuth** (see `tools/vapi-booking-bridge.gs`) | Bookings land in inbox + calendar automatically | ~2 min |
 | 5 | Post the **Kijiji + Facebook ads** | Immediate high-intent traffic | ~30 min |
 | 6 | Collect **5 client reviews** | Top local ranking factor | ongoing |
