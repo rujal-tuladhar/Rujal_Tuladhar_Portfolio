@@ -1,5 +1,35 @@
 # Kijiji Ads — ready to paste
 
+> ## ⚠️ CORRECTION (2026-08-05): Kijiji Services ads are NOT free
+> Verified live in the posting flow. Business/Services ads in **Services >
+> Other** (categoryId 87) require a paid package — there is no free option:
+>
+> | Package | Price | Notes |
+> |---|---|---|
+> | **Basic** | **from $5.95/mo** | standard ad, expires in 31 days |
+> | Plus | from $32.95/mo | auto bump every 7 days, website link, no insertion fee |
+> | Premium | from $113.95/mo | auto bump every 5 days, website link, Top Ad |
+> | Supreme | higher | — |
+>
+> Plus an optional **"Link to your website" add-on: $4.95** (skip it — the URL
+> goes in the ad description text for free).
+>
+> **So: ~$5.95/ad/month → roughly $24/month for all four ads.**
+> That's still cheap for high-intent local traffic, but it IS a paid channel,
+> not a free one. Decide before posting. (Personal/consumer categories on
+> Kijiji are free; business Services categories are not.)
+>
+> **Correct category:** Services > **Other** — there is no "Web Design"
+> subcategory. The Services subcategories are: Childcare & Nanny, Cleaners &
+> Cleaning, Entertainment, Financial & Legal, Fitness & Personal Trainer,
+> Food & Catering, Health & Beauty, Moving & Storage, Music Lessons,
+> Photography & Video, Skilled Trades, Tutors & Languages, Wedding,
+> Travel & Vacations, Other.
+>
+> **Free alternatives to prioritise first:** Facebook Marketplace + Toronto
+> business groups, Google Business Profile, Yelp/YellowPages/411, Craigslist.
+
+
 Post at kijiji.ca → Post Ad → Toronto (GTA). One ad per category.
 Attach 3-5 images from `assets/img/` (portfolio screenshots + logo).
 Refresh/edit ads every 3-4 days to stay near the top of listings.
@@ -7,7 +37,7 @@ Refresh/edit ads every 3-4 days to stay near the top of listings.
 ---
 
 ## AD 1 — Website Design
-**Category:** Services → Web Design & Development
+**Category:** Services → Other (no web-design subcategory exists)
 **Title (max 64):** Professional Website Design from $900 — Toronto Web Designer
 **Price:** $900
 
