@@ -334,6 +334,7 @@ def head_block(title, meta, url):
         function gtag() {{ dataLayer.push(arguments); }}
         gtag('js', new Date());
         gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
     </script>
 
     <title>{title}</title>
