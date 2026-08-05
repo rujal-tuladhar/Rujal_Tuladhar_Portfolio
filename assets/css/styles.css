@@ -2151,17 +2151,19 @@ svg {
         top: 100%;
         left: 0;
         width: 200px;
-        background: var(--container-color);
-        /* Need solid/semi-solid for desktop to cover content */
-        background: rgba(var(--hue-color), 29%, 16%, 0.95);
-        /* Darker glass */
+        /* Solid panel so it reads clearly against the light page.
+           (Was an invalid rgba() left over from the dark theme, which the
+           browser dropped — leaving an all-but-invisible white-on-white menu.) */
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 150, 221, 0.25);
+        border-radius: 0.75rem;
         backdrop-filter: var(--backdrop-blur);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 12px 32px rgba(0, 70, 120, 0.18);
         padding: 1rem;
         margin-top: 0;
         display: none;
         /* Hide by default */
-        z-index: 100;
+        z-index: var(--z-modal);
     }
 
     .dropdown:hover .dropdown__menu {
