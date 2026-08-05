@@ -1,52 +1,52 @@
-# Nova Toronto — Marketing Kit
+# Nova Toronto — Marketing Folder
 
-Ready-to-paste ads and profiles for Canadian classifieds, directories, and
-freelance platforms. This folder is NOT published to novatoronto.com
-(underscore folders are excluded from the site build).
+Everything marketing for novatoronto.com lives here. This folder is **not**
+published to the live site (underscore folders are excluded from the build),
+so the playbook stays private.
 
-## Files
+## Start here
 
-| File | What's inside |
+| File | What it is |
 |---|---|
-| `kijiji-ads.md` | 4 ready-to-paste Kijiji ads (one per service) with titles, categories, prices |
-| `classifieds-facebook-craigslist.md` | Facebook Marketplace / groups + Craigslist Toronto versions |
-| `directories-and-outreach.md` | Google Business Profile, Yelp, Clutch, Bark blurbs + LinkedIn/DM/email templates |
+| **[MARKETING-PLAN.md](MARKETING-PLAN.md)** | ⭐ **The strategy.** Situation, positioning, channel priority, audience segments, lead measurement, content policy, blockers, and the 30/60/90-day plan. Read this first. |
+| [kijiji-ads.md](kijiji-ads.md) | 4 ready-to-paste Kijiji ads (one per service) with categories, titles, prices |
+| [classifieds-facebook-craigslist.md](classifieds-facebook-craigslist.md) | Facebook Marketplace + business-group posts, and a Craigslist Toronto ad |
+| [directories-and-outreach.md](directories-and-outreach.md) | Google Business Profile copy, Yelp/YellowPages/411 blurbs, Clutch/Bark profiles, LinkedIn post, cold-DM and reply templates |
 
-## Link rule — ALWAYS use tagged links
+## The one rule: tag every link
 
-Every link you paste anywhere must carry a `utm_source` tag so we can tell
-which platform sends leads (visible in Google Analytics once GA4 is connected,
-and in Google Ads conversion data now):
+Every link you paste anywhere must carry UTM tags so we can tell which
+platform actually produces leads:
 
 ```
 https://novatoronto.com/?utm_source=kijiji&utm_medium=classified&utm_campaign=web-design
-https://novatoronto.com/?utm_source=facebook&utm_medium=marketplace&utm_campaign=ai
-https://novatoronto.com/?utm_source=craigslist&utm_medium=classified&utm_campaign=marketing
 ```
 
-Pattern: `utm_source` = platform, `utm_campaign` = service
-(web-design | marketing | ai | marketplace-selling).
+`utm_source` = platform · `utm_campaign` = service
+(`web-design` | `marketing` | `ai` | `marketplace-selling`)
 
-## Posting priority (highest ROI first)
+Every prepared ad in this folder already has this baked in.
 
-1. **Google Business Profile** — still not set up; single biggest free-lead source. google.com/business
-2. **Kijiji Toronto** — post all 4 ads (Services → see categories in kijiji-ads.md). Free. Repost/refresh every few days for ranking.
-3. **Facebook Marketplace + 3-5 Toronto business groups** — short versions provided.
-4. **Bark.com/ca** — leads for web design & marketing (pay-per-lead; profile is free).
-5. **Yelp Canada + YellowPages.ca + 411.ca** — free listings; paste the directory blurb.
-6. **Clutch.co / GoodFirms** — B2B agency directories; strong for web/marketing credibility.
-7. **Craigslist Toronto** — computer/creative services; low effort, some spam competition.
-8. **Upwork / Fiverr** — optional; templates fit both.
+## Next actions (highest return first)
+
+1. **Google Business Profile** — copy is in `directories-and-outreach.md`
+2. **Google Search Console** — verify + submit `sitemap.xml`
+3. **GA4 Measurement ID** — send the `G-XXXXXXX` to Claude to wire up reporting
+4. **Post the Kijiji ads** — all 4, refresh every 3–4 days
+5. **Facebook Marketplace + Toronto business groups**
+
+Full reasoning and the 30/60/90-day plan: [MARKETING-PLAN.md](MARKETING-PLAN.md)
 
 ## Posting log (fill in as you go)
 
-| Date | Platform | Ad/profile | Link to live post | Renewed |
+| Date | Platform | Ad / profile | Live link | Renewed |
 |---|---|---|---|---|
 |  |  |  |  |  |
 
 ## Rules of thumb
 
-- Reply to platform messages within minutes when possible — classifieds buyers go with whoever answers first (or forward them to Nova / the site form).
-- Kijiji: 1 ad per category. Don't duplicate the same ad text across categories — vary it (the files provide variants).
-- Photos: use `assets/img/` — portfolio screenshots (dohomehealthcare, colorsoft, asianhakka), the logo, and service graphics. Ads with 3+ images get far more clicks.
-- Never pay to "promote" until the free version has run 2 weeks and you know the platform sends real enquiries.
+- **Answer fast.** Classifieds buyers hire whoever replies first — reply template is in `directories-and-outreach.md`.
+- **Photos matter.** Use portfolio screenshots from `assets/img/`; ads with 3+ images get far more clicks.
+- **Lead with the AI demo.** "Talk to our AI right now on our website" is the strongest hook we have — no GTA competitor offers it.
+- **One ad per Kijiji category**, varied text — don't duplicate.
+- **Don't pay to promote** until a free listing has run 2 weeks and produced enquiries.
