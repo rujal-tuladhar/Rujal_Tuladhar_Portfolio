@@ -58,7 +58,8 @@
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Digital Marketing", "url": "https://novatoronto.com/digital-marketing/" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Automation", "url": "https://novatoronto.com/ai-automation/" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Amazon Seller Central Setup", "url": "https://novatoronto.com/amazon-seller/" } },
-              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Walmart Marketplace Setup", "url": "https://novatoronto.com/walmart-seller/" } }
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Walmart Marketplace Setup", "url": "https://novatoronto.com/walmart-seller/" } },
+              { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Video Production", "url": "https://novatoronto.com/#ai-video" } }
             ]
           }
         },
@@ -67,6 +68,17 @@
           "@id": "https://novatoronto.com/#website",
           "url": "https://novatoronto.com/",
           "name": "Nova Toronto",
+          "publisher": { "@id": "https://novatoronto.com/#business" }
+        },
+        {
+          "@type": "VideoObject",
+          "@id": "https://novatoronto.com/#ai-video-dohomehealthcare",
+          "name": "Do Home Healthcare - AI-Generated Brand Video by Nova Toronto",
+          "description": "An AI-generated promotional video produced by Nova Toronto for Do Home Healthcare, a GTA home-care provider. Nova Toronto built the client website and produced this tailored brand video, which runs on the client's homepage.",
+          "thumbnailUrl": "https://novatoronto.com/assets/video/dohomehealthcare-ai-promo-poster.jpg",
+          "contentUrl": "https://novatoronto.com/assets/video/dohomehealthcare-ai-promo.mp4",
+          "uploadDate": "2026-08-23",
+          "duration": "PT24S",
           "publisher": { "@id": "https://novatoronto.com/#business" }
         }
       ]
@@ -284,6 +296,11 @@
                             <li>
                                 <a href="walmart-seller/" class="nav__link dropdown__item">
                                     Walmart Seller
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#ai-video" class="nav__link dropdown__item">
+                                    AI Video Production
                                 </a>
                             </li>
                         </ul>
@@ -573,6 +590,100 @@
                     <a href="amazon-seller/" class="svc__link">Explore Amazon Selling <i class="uil uil-arrow-right"></i></a>
                     <a href="walmart-seller/" class="svc__link" style="margin-top:.5rem;">Explore Walmart Selling <i class="uil uil-arrow-right"></i></a>
                 </div>
+
+                <div class="svc__card">
+                    <div class="svc__icon"><i class="uil uil-video"></i></div>
+                    <h3>AI Video Production</h3>
+                    <div class="svc__price">NEW &middot; Scroll-stopping brand videos</div>
+                    <p>Studio-quality promo videos generated with AI &mdash; no film crew, no studio day, no five-figure invoice.</p>
+                    <ul class="svc__list">
+                        <li>Tailored to your brand, product &amp; customers</li>
+                        <li>Ready for your website, Meta, TikTok &amp; YouTube</li>
+                        <li>Delivered in days, not weeks</li>
+                    </ul>
+                    <a href="#ai-video" class="svc__link">See a real client video <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== AI VIDEO CASE STUDY ====================-->
+        <section class="section" id="ai-video">
+            <h2 class="section__title">AI Video That Sells</h2>
+            <span class="section__subtitle">Our newest service &mdash; and here it is running on a real client's website</span>
+
+            <style>
+                .aiv__wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem;
+                    display: grid; gap: 2.5rem; align-items: center; }
+                @media screen and (min-width: 968px) { .aiv__wrap { grid-template-columns: 1.15fr .85fr; } }
+
+                .aiv__player {
+                    position: relative; border-radius: 1.25rem; overflow: hidden;
+                    box-shadow: 0 18px 50px rgba(0, 70, 120, 0.22);
+                    border: 1px solid rgba(0, 150, 221, 0.2); background: #000;
+                    aspect-ratio: 16 / 9;
+                }
+                .aiv__player video { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+                .aiv__badge {
+                    display: inline-block; background: var(--first-color); color: #fff;
+                    font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
+                    padding: .3rem .9rem; border-radius: 2rem; margin-bottom: 1rem;
+                }
+                .aiv__copy h3 { color: var(--title-color); font-size: 1.5rem; margin-bottom: .6rem; }
+                .aiv__copy p { color: var(--text-color); line-height: 1.75; margin-bottom: 1.15rem; }
+                .aiv__list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+                .aiv__list li {
+                    position: relative; padding-left: 1.8rem; margin-bottom: .7rem;
+                    color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6;
+                }
+                .aiv__list li i { position: absolute; left: 0; top: .15rem; color: var(--first-color); font-size: 1.15rem; }
+                .aiv__list li strong { color: var(--title-color); }
+                .aiv__proof {
+                    background: rgba(0, 150, 221, 0.06); border-left: 3px solid var(--first-color);
+                    border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem;
+                    font-size: var(--small-font-size); color: var(--text-color); line-height: 1.6;
+                }
+                .aiv__proof a { color: var(--first-color); font-weight: 600; }
+            </style>
+
+            <div class="aiv__wrap">
+                <div class="aiv__player">
+                    <video controls preload="none" playsinline
+                        poster="assets/video/dohomehealthcare-ai-promo-poster.jpg"
+                        aria-label="AI-generated promotional video produced by Nova Toronto for Do Home Healthcare">
+                        <source src="assets/video/dohomehealthcare-ai-promo.mp4" type="video/mp4">
+                        Your browser does not support video playback.
+                    </video>
+                </div>
+
+                <div class="aiv__copy">
+                    <span class="aiv__badge">New service &middot; AI Video Production</span>
+                    <h3>We built the site &mdash; then we made the video too</h3>
+                    <p>
+                        Do Home Healthcare came to us for a website. We delivered that, then produced
+                        this AI-generated brand video tailored to their business &mdash; no film crew,
+                        no studio rental, no actors. It now runs on their homepage.
+                    </p>
+
+                    <ul class="aiv__list">
+                        <li><i class="uil uil-bolt"></i><strong>Days, not weeks.</strong> Traditional video production takes a month and costs thousands. This took days.</li>
+                        <li><i class="uil uil-palette"></i><strong>Made for your brand.</strong> Written around your services, your customers, and your message &mdash; not stock footage.</li>
+                        <li><i class="uil uil-share-alt"></i><strong>Works everywhere.</strong> Website hero, Meta and TikTok ads, YouTube, Google Business Profile.</li>
+                        <li><i class="uil uil-chart-line"></i><strong>Video converts.</strong> A moving hero holds attention far longer than a static image &mdash; more time on page, more enquiries.</li>
+                    </ul>
+
+                    <div class="aiv__proof">
+                        <i class="uil uil-check-circle" style="color: var(--first-color);"></i>
+                        <strong>Don't take our word for it</strong> &mdash; this exact video is live on the
+                        client's own homepage at
+                        <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">dohomehealthcare.com</a>.
+                    </div>
+
+                    <a href="#contact" class="button button--flex" style="display:inline-flex">
+                        Get a Video for Your Business <i class="uil uil-video button__icon"></i>
+                    </a>
+                </div>
             </div>
         </section>
 
@@ -851,6 +962,16 @@
             style="background: linear-gradient(180deg, #ffffff, hsl(199, 60%, 97%));">
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
+                <style>
+                    .pf__tag {
+                        display: inline-flex; align-items: center; gap: .4rem;
+                        margin-top: .75rem; padding: .35rem .85rem;
+                        background: var(--first-color); color: #fff;
+                        font-size: var(--smaller-font-size); font-weight: 600;
+                        border-radius: 2rem; transition: .3s;
+                    }
+                    .pf__tag:hover { background: var(--first-color-alt, #007bb5); color: #fff; }
+                </style>
 
                 <h1 class="section__title">WEBSITE DESIGNS</h1>
                 <span class="section__subtitle">We may not have met yet, but here some of our work.</span>
@@ -860,10 +981,14 @@
 
                     <div>
                         <div>
-                            <a href="https://dohomehealthcare.com/">
-                                <img src="./assets/img/do_home_healthcare.png" alt="dohome helathcare website homepage"
+                            <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">
+                                <img src="./assets/img/do_home_healthcare.png"
+                                    alt="Do Home Healthcare website homepage designed by Nova Toronto"
                                     class="u-rounded-sm portfolio__card-img"
                                     style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
+                            </a>
+                            <a href="#ai-video" class="pf__tag">
+                                <i class="uil uil-video"></i> Website + AI video &mdash; watch it
                             </a>
 
                         </div>
