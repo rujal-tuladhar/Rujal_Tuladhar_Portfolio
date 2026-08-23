@@ -1,5 +1,5 @@
 # Nova Toronto — Master Marketing Plan
-_Last updated: 2026-07-29 · Owner: Rujal Tuladhar_
+_Last updated: 2026-08-23 · Owner: Rujal Tuladhar_
 
 This is the strategy document. The other files in `_marketing/` are the
 ready-to-paste tactical assets. Nothing in this folder is published to
@@ -47,10 +47,18 @@ Service priority (deliberate — this is where the money and the margin are):
 | **20%** | AI automation / AI receptionist | Never miss a call; books appointments 24/7; a fraction of a receptionist's salary — **and we demo it live on our own site** | Custom; setup under ~2 weeks |
 | **10%** | Website design | The foundation traffic lands on | $900 / $1,800 / $2,000 / $5,000 |
 | — | Amazon & Walmart Seller | Differentiator, few local agencies offer it | From $450 |
+| — | **AI Video Production** *(new 2026-08-23)* | Brand videos generated with AI — no crew, no studio, delivered in days. **Live proof on the homepage:** the Do Home Healthcare video we produced runs on the client's own site | TBD — Rujal to set |
 
 **Our unfair advantage:** we run our own AI receptionist on our own website.
 Prospects can *talk to the product* before they buy. No competitor in the GTA
 is doing that. Lead with it.
+
+**Second proof asset (new):** the Do Home Healthcare case study at
+`novatoronto.com/#ai-video`. We built the client's website *and* produced their
+AI brand video — and the same video is verifiably live on their homepage.
+That is a checkable claim, not a portfolio screenshot. Use it in every
+outreach message: "here's a client site we built, and the video we made for
+them — go look at their homepage."
 
 ---
 
@@ -65,6 +73,7 @@ is doing that. Lead with it.
 | **Total indexed URLs in sitemap** | **60** | |
 | Homepage booking form + newsletter form | 2 | Conversion |
 | AI voice receptionist ("Nova") | 1 | Conversion + live product demo |
+| AI video case study (Do Home Healthcare) | 1 | Proof of the new AI Video service; verifiable on the client's live site |
 | Structured data (LocalBusiness, Service, FAQ, Breadcrumb, BlogPosting) | site-wide | Rich results in Google |
 | Lead event tracking in `main.js` | site-wide | Fires on form submit, CTA click, AI call start |
 
@@ -187,6 +196,7 @@ a pull quote → CTA to the free consultation → internal links to the money pa
 | 4 | Finish the **Apps Script OAuth** (see `tools/vapi-booking-bridge.gs`) | Bookings land in inbox + calendar automatically | ~2 min |
 | 5 | Post the **Kijiji + Facebook ads** | Immediate high-intent traffic | ~30 min |
 | 6 | Collect **5 client reviews** | Top local ranking factor | ongoing |
+| 7 | **Set an AI Video price** | The homepage card and Kijiji Ad 5 currently say "contact" — a visible price anchor converts better and it's the only service without one | ~5 min |
 
 ---
 
@@ -223,5 +233,5 @@ a pull quote → CTA to the free consultation → internal links to the money pa
 - Don't buy backlinks or use "SEO packages" from cold emailers — penalty risk
 - Don't mass-publish AI content (see §7)
 - Don't pay to promote a classified until the free version has run 2 weeks
-- Don't add more services; sharpen the four we have
+- Don't add more services beyond AI Video (added 2026-08-23) — sharpen the five we have
 - Don't rebuild the website again — it converts fine; the gap is traffic

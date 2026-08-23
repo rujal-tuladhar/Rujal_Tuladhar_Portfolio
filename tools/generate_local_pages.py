@@ -401,6 +401,7 @@ def nav_block():
                             <li><a href="/ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
                             <li><a href="/amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
                             <li><a href="/walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
                         </ul>
                     </li>
                     <li class="nav__item"><a href="/blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>

@@ -147,3 +147,37 @@ sell, not just consult.
 Details: https://novatoronto.com/amazon-seller/?utm_source=kijiji&utm_medium=classified&utm_campaign=marketplace-selling
 
 Free consultation: 365-355-3133 · novatoronto.ca@gmail.com
+
+---
+
+## AD 5 — AI Video Production _(new service, added 2026-08-23)_
+**Category:** Services → Photography & Video
+**Title (max 64):** AI Brand Videos for Your Business — Days, Not Weeks
+**Price:** Please contact
+
+Want a professional promo video for your business without a film crew, a
+studio day, or a five-figure invoice?
+
+Nova Toronto produces AI-generated brand videos tailored to YOUR business —
+your services, your customers, your message. Not stock footage with your logo
+slapped on the end.
+
+SEE A REAL ONE: we built the website for Do Home Healthcare, then produced
+their brand video. It's running on their homepage right now. Watch it here:
+https://novatoronto.com/#ai-video?utm_source=kijiji&utm_medium=classified&utm_campaign=ai-video
+
+WHAT YOU GET:
+✔ Script and visuals written around your actual business
+✔ Full HD, ready for your website hero, Meta/TikTok/YouTube ads
+✔ Sized for Google Business Profile and your social channels
+✔ Turnaround in days, not weeks
+✔ Revisions included — we don't hand it over and disappear
+
+WHY VIDEO: a moving hero holds attention far longer than a static image.
+More time on page, more enquiries, and video ads consistently out-convert
+image ads on Meta.
+
+Bundle it with a new website build and save.
+
+Free consultation: 365-355-3133 · novatoronto.ca@gmail.com
+Serving Toronto, Mississauga, Brampton, Markham, Vaughan and the whole GTA.
