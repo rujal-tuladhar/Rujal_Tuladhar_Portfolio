@@ -47,7 +47,7 @@ Service priority (deliberate — this is where the money and the margin are):
 | **20%** | AI automation / AI receptionist | Never miss a call; books appointments 24/7; a fraction of a receptionist's salary — **and we demo it live on our own site** | Custom; setup under ~2 weeks |
 | **10%** | Website design | The foundation traffic lands on | $900 / $1,800 / $2,000 / $5,000 |
 | — | Amazon & Walmart Seller | Differentiator, few local agencies offer it | From $450 |
-| — | **AI Video Production** *(new 2026-08-23)* | Brand videos generated with AI — no crew, no studio, delivered in days. **Live proof on the homepage:** the Do Home Healthcare video we produced runs on the client's own site | TBD — Rujal to set |
+| — | **AI Video Production** *(new 2026-08-23)* | Brand videos generated with AI — no crew, no studio, delivered in days. **Live proof on the homepage:** the Do Home Healthcare video we produced runs on the client's own site | **$497 / $897 / $1,497** — bundle onto any site build for $500 |
 
 **Our unfair advantage:** we run our own AI receptionist on our own website.
 Prospects can *talk to the product* before they buy. No competitor in the GTA
@@ -196,7 +196,7 @@ a pull quote → CTA to the free consultation → internal links to the money pa
 | 4 | Finish the **Apps Script OAuth** (see `tools/vapi-booking-bridge.gs`) | Bookings land in inbox + calendar automatically | ~2 min |
 | 5 | Post the **Kijiji + Facebook ads** | Immediate high-intent traffic | ~30 min |
 | 6 | Collect **5 client reviews** | Top local ranking factor | ongoing |
-| 7 | **Set an AI Video price** | The homepage card and Kijiji Ad 5 currently say "contact" — a visible price anchor converts better and it's the only service without one | ~5 min |
+| ~~7~~ | ~~Set an AI Video price~~ ✅ **DONE 2026-08-23** — $497 / $897 / $1,497 published, see §11 | — | — |
 
 ---
 
@@ -225,6 +225,79 @@ a pull quote → CTA to the free consultation → internal links to the money pa
 - Case study from the first client win — the strongest sales asset there is
 - Consider putting Nova on the real phone line (365-355-3133)
 - **Success = predictable monthly leads and a case study to sell with**
+
+---
+
+## 11. AI Video pricing — what the market research found (2026-08-23)
+
+Six independent research sweeps, each fact-checked by an adversarial verifier
+that refetched every source URL. 161 datapoints collected, **138 kept** (8
+Fiverr rows discarded as unverifiable behind a bot wall, 14 vendors publish no
+number, 1 stale). 40 of 48 re-checked prices confirmed live.
+
+| Segment | Low | Median | Average | High | n |
+|---|---|---|---|---|---|
+| **AI brand video, done-for-you agency** (CAD @ 1.38) | $690 | $2,759 | **$3,220** | $6,900 | 6 |
+| **Toronto/GTA traditional filmed promo, entry tier** | $1,500 | $3,000 | $3,043* | $10,000 | 14 |
+| Freelance marketplaces (PeoplePerHour, single video) | — | $62 | $99 | $407 | 10 |
+| Self-serve AI platforms (DIY) | $40/mo | — | — | $345/mo | 8 |
+
+\* excluding one $10,000 outlier; mean and median converge on ~$3,000.
+
+**Rujal asked to "use the average price." The average is $3,220 — and we did
+not use it.** At $3,220 a 30-second video would cost more than the entire
+E-commerce website package ($2,000) and 64% of Gold ($5,000). It would make
+every other price on the site look arbitrary. It is also a thin, top-heavy
+sample: drop Lemonlight's $5,000 and the average falls 23% to $2,483. Our
+buyer (GTA clinics, trades, salons) spends $500–1,500/mo on *ad spend* total.
+**This is reversible in one pass if Rujal wants the literal average.**
+
+### What we published instead
+
+$497 / **$897** / $1,497 (+HST). Silver is the intended sale and is exactly the
+Do Home Healthcare video. 3.0x bottom-to-top; Toronto video ladders run
+2.7x–4.3x, so we sit dead centre. $897 is 70% below the Toronto filmed median,
+72% below the AI-agency average, and 14x the freelance median — cheap enough
+to be an easy yes, expensive enough to signal real work. It sits just under
+Bronze website ($900) so the whole page reads as one ladder.
+
+**Deliberately no "Custom — contact us" tier.** Per Awesomic's own roundup, 10
+of 11 AI-video agencies publish no rate card at all, and no Canadian agency
+publishes one in CAD. Publishing real numbers *is* the positioning.
+
+### Two confirmed gaps in this market
+
+1. **No Canadian agency publishes a CAD rate card for AI video.** Not one.
+2. **No Canadian agency publishes a website + video bundle price.** Not one.
+   (Azuro Digital, a Toronto web shop, says outright that video "isn't
+   something we do.") Hence the **$1,400 Launch Bundle** — website + brand
+   video, live in ~2 weeks. Lead with this; nobody in the GTA has published it.
+
+Third gap: **speed**. Signature Video Group publishes 4 weeks on its $3,500
+package, 6 weeks at $15,000. Nobody in Toronto advertises days.
+
+### Risks to watch
+
+- **DIY collapse.** Creatify is CA$54/mo for ~20 videos, and that price is
+  confirmed live. *Never sell "AI video" — sell the script, the brand
+  direction, the revisions, and a finished asset that matches their site.
+  Price the judgment, not the render.*
+- **Freelance undercut.** PeoplePerHour median CA$62. *Compete on local,
+  named, accountable, invoiced in CAD — never on price.*
+- **One case study.** Take 3 more videos at Bronze pricing inside 60 days,
+  even at cost. Portfolio is what unlocks the next price band. Revisit Silver
+  once 5 videos are live.
+- **Cap revisions in writing.** 2 rounds is the published industry standard.
+  Unlimited revisions on an $897 product eats the margin fastest.
+- **AI disclosure in regulated verticals.** Healthcare/legal/financial clients
+  may have trust or compliance concerns with synthetic people. A
+  footage-plus-motion-graphics variant is offered on the page as the safe
+  option.
+- **Always publish "+HST"** or $897 invoices at $1,013.61 and reads as
+  bait-and-switch.
+- **Re-check these six URLs every 6 months** — this category re-prices fast:
+  gisteo.com · mawaistudios.com · marmalaide.ai · creatify.ai · lemonlight.com
+  · lapseproductions.com
 
 ---
 

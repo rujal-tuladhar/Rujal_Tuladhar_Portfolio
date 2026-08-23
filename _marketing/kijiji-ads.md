@@ -152,8 +152,8 @@ Free consultation: 365-355-3133 · novatoronto.ca@gmail.com
 
 ## AD 5 — AI Video Production _(new service, added 2026-08-23)_
 **Category:** Services → Photography & Video
-**Title (max 64):** AI Brand Videos for Your Business — Days, Not Weeks
-**Price:** Please contact
+**Title (max 64):** AI Brand Video from $497 — Toronto | Ready in Days
+**Price:** $497
 
 Want a professional promo video for your business without a film crew, a
 studio day, or a five-figure invoice?
@@ -177,7 +177,16 @@ WHY VIDEO: a moving hero holds attention far longer than a static image.
 More time on page, more enquiries, and video ads consistently out-convert
 image ads on Meta.
 
-Bundle it with a new website build and save.
+PRICING (published openly — no quote form, +HST):
+• Bronze — $497 (15–20 sec)
+• Silver — $897 (20–40 sec + 2 social cutdowns) ← most popular
+• Gold — $1,497 (45–60 sec hero + 3 platform cutdowns)
+
+A filmed promo video in Toronto averages $3,000 and takes 4–6 weeks. This is
+the same job, days instead of weeks, at a fraction of the price.
+
+BUNDLE: add a Silver video to any website build for $500 instead of $897.
+New website + brand video from $1,400 total, live in about two weeks.
 
 Free consultation: 365-355-3133 · novatoronto.ca@gmail.com
 Serving Toronto, Mississauga, Brampton, Markham, Vaughan and the whole GTA.

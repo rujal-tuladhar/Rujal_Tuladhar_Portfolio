@@ -594,7 +594,7 @@
                 <div class="svc__card">
                     <div class="svc__icon"><i class="uil uil-video"></i></div>
                     <h3>AI Video Production</h3>
-                    <div class="svc__price">NEW &middot; Scroll-stopping brand videos</div>
+                    <div class="svc__price">From $497 &middot; live in 3&ndash;5 days</div>
                     <p>Studio-quality promo videos generated with AI &mdash; no film crew, no studio day, no five-figure invoice.</p>
                     <ul class="svc__list">
                         <li>Tailored to your brand, product &amp; customers</li>
@@ -645,6 +645,86 @@
                     font-size: var(--small-font-size); color: var(--text-color); line-height: 1.6;
                 }
                 .aiv__proof a { color: var(--first-color); font-weight: 600; }
+
+                .aiv__pricing { max-width: 1100px; margin: 3.5rem auto 0; padding: 0 1.5rem; }
+                .aiv__pricing h3 {
+                    color: var(--title-color); font-size: 1.35rem; text-align: center; margin-bottom: .4rem;
+                }
+                .aiv__pricing-sub {
+                    text-align: center; color: var(--text-color-light);
+                    font-size: var(--small-font-size); margin-bottom: 2rem;
+                }
+                .aiv__tiers {
+                    display: grid; gap: 1.25rem; align-items: stretch;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                }
+                .aiv__tier {
+                    background: var(--container-color);
+                    border: 1px solid rgba(0, 150, 221, 0.16);
+                    border-radius: 1.25rem; padding: 1.75rem 1.5rem;
+                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
+                    display: flex; flex-direction: column;
+                }
+                .aiv__tier--featured {
+                    border: 2px solid var(--first-color);
+                    box-shadow: 0 14px 40px rgba(0, 150, 221, 0.18);
+                    position: relative;
+                }
+                .aiv__flag {
+                    position: absolute; top: -.75rem; left: 50%; transform: translateX(-50%);
+                    background: var(--first-color); color: #fff; white-space: nowrap;
+                    font-size: var(--smaller-font-size); font-weight: 600;
+                    padding: .25rem .9rem; border-radius: 2rem;
+                }
+                .aiv__tier-name {
+                    color: var(--title-color); font-weight: 600;
+                    font-size: var(--small-font-size); letter-spacing: .3px;
+                    text-transform: uppercase; margin-bottom: .35rem;
+                }
+                .aiv__tier-price {
+                    color: var(--first-color); font-weight: 700; font-size: 2rem; line-height: 1;
+                }
+                .aiv__tier-price span {
+                    font-size: var(--smaller-font-size); font-weight: 400;
+                    color: var(--text-color-light); margin-left: .3rem;
+                }
+                .aiv__tier-len {
+                    color: var(--text-color); font-size: var(--small-font-size);
+                    margin: .6rem 0 1rem; font-weight: 500;
+                }
+                .aiv__tier ul { list-style: none; padding: 0; margin: 0 0 1.25rem; flex: 1; }
+                .aiv__tier li {
+                    position: relative; padding-left: 1.4rem; margin-bottom: .55rem;
+                    color: var(--text-color); font-size: var(--smaller-font-size); line-height: 1.55;
+                }
+                .aiv__tier li::before {
+                    content: "¹3"; position: absolute; left: 0; top: 0;
+                    color: var(--first-color); font-weight: 700;
+                }
+                .aiv__tier .button { width: 100%; justify-content: center; }
+
+                .aiv__bundle {
+                    margin-top: 1.75rem; background: rgba(0, 150, 221, 0.07);
+                    border: 1px dashed var(--first-color); border-radius: 1.25rem;
+                    padding: 1.5rem 1.75rem;
+                    display: flex; flex-wrap: wrap; align-items: center;
+                    justify-content: space-between; gap: 1rem;
+                }
+                .aiv__bundle h4 { color: var(--title-color); font-size: 1.1rem; margin-bottom: .35rem; }
+                .aiv__bundle p {
+                    color: var(--text-color); font-size: var(--small-font-size);
+                    line-height: 1.6; margin: 0; max-width: 620px;
+                }
+                .aiv__addons {
+                    margin-top: 1.5rem; color: var(--text-color-light);
+                    font-size: var(--smaller-font-size); line-height: 1.8; text-align: center;
+                }
+                .aiv__addons b { color: var(--title-color); }
+                .aiv__note {
+                    margin-top: 1rem; text-align: center;
+                    color: var(--text-color-light); font-size: var(--smaller-font-size);
+                    line-height: 1.7;
+                }
             </style>
 
             <div class="aiv__wrap">
@@ -684,6 +764,96 @@
                         Get a Video for Your Business <i class="uil uil-video button__icon"></i>
                     </a>
                 </div>
+            </div>
+            <div class="aiv__pricing">
+                <h3>AI Video Production &mdash; published pricing</h3>
+                <p class="aiv__pricing-sub">
+                    Real prices, on the page. No quote form, no discovery call before you know the number.
+                </p>
+
+                <div class="aiv__tiers">
+
+                    <div class="aiv__tier">
+                        <div class="aiv__tier-name">Bronze</div>
+                        <div class="aiv__tier-price">$497<span>+ HST</span></div>
+                        <div class="aiv__tier-len">15&ndash;20 second brand video</div>
+                        <ul>
+                            <li>Script written for your business</li>
+                            <li>Full HD 1080p</li>
+                            <li>Your logo, brand colours &amp; CTA end card</li>
+                            <li>Licensed music + AI voiceover</li>
+                            <li>Widescreen &amp; vertical (16:9 + 9:16)</li>
+                            <li>1 revision round</li>
+                            <li>Delivered in 3 business days</li>
+                            <li>Full commercial usage rights</li>
+                        </ul>
+                        <a href="#contact" class="button button--small button--white">Get Started</a>
+                    </div>
+
+                    <div class="aiv__tier aiv__tier--featured">
+                        <span class="aiv__flag">Most popular</span>
+                        <div class="aiv__tier-name">Silver</div>
+                        <div class="aiv__tier-price">$897<span>+ HST</span></div>
+                        <div class="aiv__tier-len">20&ndash;40 second brand video</div>
+                        <ul>
+                            <li><strong>This is the Do Home Healthcare video above</strong></li>
+                            <li>Custom script from a 20-minute discovery call</li>
+                            <li>Full HD 1080p</li>
+                            <li>Licensed music + AI voiceover (or send us your own)</li>
+                            <li>Three formats: 16:9, 9:16 and 1:1</li>
+                            <li>Plus two short cutdowns (15s and 6s) for ads</li>
+                            <li>2 revision rounds</li>
+                            <li>Delivered in 5 business days</li>
+                            <li>Full commercial usage rights</li>
+                        </ul>
+                        <a href="#contact" class="button button--small">Get Started</a>
+                    </div>
+
+                    <div class="aiv__tier">
+                        <div class="aiv__tier-name">Gold</div>
+                        <div class="aiv__tier-price">$1,497<span>+ HST</span></div>
+                        <div class="aiv__tier-len">45&ndash;60 second hero video</div>
+                        <ul>
+                            <li>Two script concepts &mdash; you pick</li>
+                            <li>Full HD 1080p, every aspect ratio</li>
+                            <li>Three cutdowns sized for Meta, Instagram, TikTok &amp; YouTube</li>
+                            <li>Matching ad-copy variants written for you</li>
+                            <li>3 revision rounds</li>
+                            <li>Delivered in 5 business days</li>
+                            <li>Full commercial usage rights</li>
+                        </ul>
+                        <a href="#contact" class="button button--small button--white">Get Started</a>
+                    </div>
+
+                </div>
+
+                <div class="aiv__bundle">
+                    <div>
+                        <h4><i class="uil uil-layer-group" style="color: var(--first-color);"></i> Launch Bundle &mdash; website + video, $1,400</h4>
+                        <p>
+                            Add the Silver video to any website package for <strong>$500</strong> instead of $897.
+                            Bronze website + Silver video comes to <strong>$1,400</strong>, live in about two weeks.
+                            On our Gold website build the video is <strong>included free</strong>.
+                        </p>
+                    </div>
+                    <a href="#contact" class="button button--small" style="white-space: nowrap;">Book a Free Call</a>
+                </div>
+
+                <p class="aiv__addons">
+                    <b>Add-ons:</b>
+                    every extra 15 seconds <b>+$200</b> &middot;
+                    48-hour rush <b>+$250</b> &middot;
+                    real human voiceover instead of AI <b>+$300</b> &middot;
+                    extra revision round <b>+$150</b> &middot;
+                    each additional cutdown or aspect ratio <b>+$100</b>
+                </p>
+
+                <p class="aiv__note">
+                    Videos are produced using AI-generated visuals, licensed footage and motion graphics.
+                    For healthcare, legal and financial clients we also offer a footage-and-motion-graphics
+                    version with no synthetic people &mdash; just ask.
+                    All prices in Canadian dollars, plus HST.
+                </p>
             </div>
         </section>
 
@@ -1704,6 +1874,26 @@
                     <div style="display: flex; gap: .6rem; flex-wrap: wrap;">
                         <a href="amazon-seller/" class="button button--small" style="white-space: nowrap;">Amazon Packages</a>
                         <a href="walmart-seller/" class="button button--small button--white" style="white-space: nowrap;">Walmart Packages</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI video strip -->
+            <div style="max-width: 1100px; margin: 1rem auto 0; padding: 0 1.5rem;">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.15); border-radius: 1.25rem; padding: 1.5rem 1.75rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);">
+                    <div style="flex: 1; min-width: 260px;">
+                        <h3 style="color: var(--title-color); font-size: 1.15rem; margin-bottom: .3rem;">
+                            <i class="uil uil-video" style="color: var(--first-color);"></i>
+                            AI Video Production
+                        </h3>
+                        <p style="color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6; margin: 0;">
+                            Brand videos from <strong style="color: var(--title-color);">$497</strong>, delivered in days &mdash;
+                            or add one to any website package for <strong style="color: var(--title-color);">$500</strong>.
+                            Website + video together from <strong style="color: var(--title-color);">$1,400</strong>.
+                        </p>
+                    </div>
+                    <div style="display: flex; gap: .6rem; flex-wrap: wrap;">
+                        <a href="#ai-video" class="button button--small" style="white-space: nowrap;">See Video Pricing</a>
                     </div>
                 </div>
             </div>
