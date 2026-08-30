@@ -498,6 +498,9 @@
                     margin-top: .15rem; flex-shrink: 0;
                 }
 
+                .aic__proof-link { color: var(--first-color); font-weight: 600; }
+                .aic__proof-link i { margin-top: 0; font-size: .8rem; }
+
                 .aic__card.is-playing .aic__poster,
                 .aic__card.is-playing .aic__trigger { display: none; }
 
@@ -548,7 +551,7 @@
                 }
 
                 .aic__trigger:focus-visible,
-                .aic__card--link:focus-visible,
+                .aic__proof-link:focus-visible,
                 .aic__textlink:focus-visible {
                     outline: 3px solid var(--first-color); outline-offset: 3px; border-radius: 1rem;
                 }
@@ -609,6 +612,7 @@
                                 alt="Still from the LivDry Ultimate vertical video ad produced by Nova Toronto: a presenter holding the product in a healthcare store aisle">
                             <button type="button" class="aic__trigger"
                                 data-full="assets/video/livdry-ai-ad.mp4"
+                                data-name="livdry-vertical-ad"
                                 aria-label="Play the full 30 second LivDry Ultimate video ad">
                                 <span class="aic__play"><i class="uil uil-play" aria-hidden="true"></i></span>
                             </button>
@@ -619,10 +623,7 @@
                         </p>
                     </article>
 
-                    <a class="aic__card aic__card--link"
-                        href="https://www.facebook.com/reel/928074493072481"
-                        target="_blank" rel="noopener"
-                        aria-label="Watch the Do Home Healthcare knee walker ad on Facebook (opens in a new tab)">
+                    <article class="aic__card">
                         <header class="aic__meta">
                             <span class="aic__client">Do Home Healthcare</span>
                             <span class="aic__spec">Facebook Reel &middot; 9:16 &middot; 30s &middot; knee walker ad</span>
@@ -631,15 +632,20 @@
                             <img class="aic__poster" src="assets/video/kneewalker-ai-ad-poster.jpg"
                                 width="540" height="960" decoding="async" fetchpriority="low"
                                 alt="Still from the Do Home Healthcare knee walker Facebook reel produced by Nova Toronto">
-                            <span class="aic__trigger" aria-hidden="true">
-                                <span class="aic__play"><i class="uil uil-facebook-f"></i></span>
-                            </span>
+                            <button type="button" class="aic__trigger"
+                                data-full="assets/video/kneewalker-ai-ad.mp4"
+                                data-name="kneewalker-reel"
+                                aria-label="Play the full 30 second Do Home Healthcare knee walker ad">
+                                <span class="aic__play"><i class="uil uil-play" aria-hidden="true"></i></span>
+                            </button>
                         </div>
                         <p class="aic__proof">
-                            <i class="uil uil-external-link-alt" aria-hidden="true"></i>
-                            Live on the client&rsquo;s Facebook page
+                            <i class="uil uil-play-circle" aria-hidden="true"></i>
+                            Plays here &mdash; also running on the client&rsquo;s
+                            <a class="aic__proof-link" href="https://www.facebook.com/reel/928074493072481"
+                                target="_blank" rel="noopener">Facebook page <i class="uil uil-external-link-alt" aria-hidden="true"></i></a>
                         </p>
-                    </a>
+                    </article>
 
                 </div>
 
@@ -687,14 +693,18 @@
                     try {
                         var band = document.getElementById('ai-creatives');
                         if (!band) return;
-                        var trigger = band.querySelector('.aic__trigger[data-full]');
-                        if (!trigger) return;
-                        var card = trigger.closest('.aic__card');
-                        var well = trigger.closest('.aic__well');
-                        if (!card || !well) return;
-                        var mounted = null;
+                        var triggers = band.querySelectorAll('.aic__trigger[data-full]');
+                        if (!triggers.length) return;
+                        var players = [];
 
-                        trigger.addEventListener('click', function () {
+                        Array.prototype.forEach.call(triggers, function (trigger) {
+                            var card = trigger.closest('.aic__card');
+                            var well = trigger.closest('.aic__well');
+                            if (!card || !well) return;
+                            var mounted = null;
+                            players.push(function () { return mounted; });
+
+                            trigger.addEventListener('click', function () {
                             // only reuse the existing player if it is still in the document --
                             // a stale detached node would swallow the click and play nothing
                             if (mounted && mounted.isConnected) {
@@ -711,7 +721,7 @@
                             v.playsInline = true;
                             v.setAttribute('playsinline', '');
                             if (img) v.poster = img.currentSrc || img.src;
-                            v.setAttribute('aria-label', 'LivDry Ultimate vertical video ad produced by Nova Toronto, 30 seconds');
+                            v.setAttribute('aria-label', (trigger.getAttribute('aria-label') || 'Video ad') + ', produced by Nova Toronto');
 
                             v.addEventListener('error', function () {
                                 card.classList.remove('is-playing');
@@ -726,8 +736,11 @@
                             if (v.focus) v.focus({ preventScroll: true });
 
                             if (window.gtag) {
-                                gtag('event', 'ai_creative_play', { creative: 'livdry-vertical-ad' });
+                                gtag('event', 'ai_creative_play', {
+                                    creative: trigger.getAttribute('data-name') || 'unknown'
+                                });
                             }
+                            });
                         });
 
                         if ('IntersectionObserver' in window) {
@@ -735,7 +748,10 @@
                                 entries.forEach(function (e) {
                                     if (e.isIntersecting) return;
                                     if (document.pictureInPictureElement || document.fullscreenElement) return;
-                                    if (mounted && !mounted.paused) mounted.pause();
+                                    players.forEach(function (get) {
+                                        var v = get();
+                                        if (v && !v.paused) v.pause();
+                                    });
                                 });
                             }, { threshold: 0 }).observe(band);
                         }
