@@ -151,10 +151,17 @@ function scrollActive() {
         const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute('id')
 
+        // Not every section has a matching nav link (ai-use-case, areas, subscribe,
+        // ai-creatives). Without this guard querySelector returns null, the TypeError
+        // aborts the forEach, and every section after it silently stops getting
+        // active-link -- which is why Portfolio/Pricing/Contact never lit up.
+        const navLink = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+        if (!navLink) return
+
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
+            navLink.classList.add('active-link')
         } else {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
+            navLink.classList.remove('active-link')
         }
     })
 }
