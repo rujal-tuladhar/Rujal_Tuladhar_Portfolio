@@ -162,9 +162,13 @@ Nova Toronto produces AI-generated brand videos tailored to YOUR business —
 your services, your customers, your message. Not stock footage with your logo
 slapped on the end.
 
-SEE A REAL ONE: we built the website for Do Home Healthcare, then produced
-their brand video. It's running on their homepage right now. Watch it here:
-https://novatoronto.com/#ai-video?utm_source=kijiji&utm_medium=classified&utm_campaign=ai-video
+SEE REAL ONES: we built the website for Do Home Healthcare, then became their
+creative team. Their brand video runs on their homepage, and their product and
+knee-walker ads run on Facebook and TikTok. All three are on our site:
+https://novatoronto.com/#ai-creatives?utm_source=kijiji&utm_medium=classified&utm_campaign=ai-video
+
+Vertical reels for Meta/TikTok, widescreen hero videos for your website, or
+both from one production.
 
 WHAT YOU GET:
 ✔ Script and visuals written around your actual business

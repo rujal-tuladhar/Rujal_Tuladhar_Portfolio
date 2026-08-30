@@ -265,6 +265,32 @@ Bronze website ($900) so the whole page reads as one ladder.
 of 11 AI-video agencies publish no rate card at all, and no Canadian agency
 publishes one in CAD. Publishing real numbers *is* the positioning.
 
+### Creative portfolio (updated 2026-08-23)
+
+Three AI creatives now exist, **all for one client, Do Home Healthcare** — which
+is a stronger story than three separate logos: *we built their website, then
+became their creative team.*
+
+| Creative | Format | Where it runs | On our site |
+|---|---|---|---|
+| Do Home Healthcare brand video | 16:9 · 24s | Client's website homepage | Plays in `#ai-video` |
+| LivDry Ultimate product ad | 9:16 · 30s | Meta / TikTok | Plays in `#ai-creatives` |
+| Knee walker reel | 9:16 · 30s | Client's Facebook page | Poster + link-out |
+
+**Use this in outreach.** The pitch is no longer "we make videos" — it is
+"here is a client whose site we built, whose brand video is on their homepage,
+and whose ads are running on their Facebook page. Go look." Every claim is
+checkable in about thirty seconds, which is the whole point.
+
+**The upsell path this proves:** website → brand video → ongoing ad creatives.
+That is the highest-margin sequence available and it is now demonstrated end to
+end with one real client. Lead with it on every web-design call.
+
+**Homepage placement:** the `#ai-creatives` band sits directly under the hero,
+above the services list, headlined "We Make AI Creatives for Your Business".
+It teases down to `#ai-video` (case study + price ladder) rather than closing
+— a visitor eight seconds into the page is not ready to book.
+
 ### Two confirmed gaps in this market
 
 1. **No Canadian agency publishes a CAD rate card for AI video.** Not one.
