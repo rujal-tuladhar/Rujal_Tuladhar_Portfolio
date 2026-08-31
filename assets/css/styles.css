@@ -18,12 +18,17 @@
     --first-color: hsl(var(--hue-color), 100%, 42%);
     --first-color-second: hsl(var(--hue-color), 92%, 48%);
     --first-color-alt: hsl(var(--hue-color), 100%, 33%);
+    /* Accessible variant: use for TEXT on light surfaces and for button fills
+       behind white text. The brand blue above is 3.45:1 on white (fails AA);
+       this is 4.5:1. Decorative use - borders, tints, icons - keeps --first-color. */
+    --first-color-text: hsl(var(--hue-color), 100%, 33%);
     --first-color-lighter: hsl(var(--hue-color), 70%, 60%);
     --first-color-rgb: 0, 150, 221;
     --title-color: hsl(212, 30%, 15%);
     /* Dark charcoal headings, matching the logo script */
     --text-color: hsl(212, 14%, 38%);
-    --text-color-light: hsl(212, 10%, 52%);
+    /* 52% was only 3.5-3.8:1 on white and drove most remaining AA failures */
+    --text-color-light: hsl(212, 10%, 43%);
     --input-color: hsl(var(--hue-color), 30%, 96%);
     --body-color: hsl(200, 45%, 99%);
     /* Clean near-white background for a modern light theme */
@@ -195,7 +200,10 @@ img.rounded-corners {
 .section__subtitle {
     display: block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-3);
+    /* was running to 182 characters on wide screens; past ~85 the eye loses its
+       place returning to the next line. 62ch keeps it comfortable. */
+    max-width: 62ch;
+    margin: 0 auto var(--mb-3);
     color: var(--text-color-light);
 }
 
@@ -372,7 +380,7 @@ img.rounded-corners {
 
 /* Active link */
 .active-link {
-    color: var(--first-color);
+    color: var(--first-color-text);
 }
 
 /* Change background header */
@@ -400,6 +408,12 @@ img.rounded-corners {
 .home__social-icon {
     font-size: 1.95rem;
     color: var(--first-color);
+    /* was 31x38 - below the 44px minimum, so easy to mis-tap on a phone */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
 }
 
 .home__social-icon:hover {
@@ -448,7 +462,7 @@ img.rounded-corners {
 }
 
 .home__scroll-button {
-    color: var(--first-color);
+    color: var(--first-color-text);
     transition: .3s;
 }
 
@@ -475,7 +489,7 @@ img.rounded-corners {
 /*==================== BUTTONS ====================*/
 .button {
     display: inline-block;
-    background-color: var(--first-color);
+    background-color: var(--first-color-text);
     color: #FFF;
     padding: 1rem 2rem;
     border-radius: 3rem;
@@ -509,7 +523,7 @@ img.rounded-corners {
 .button--link {
     padding: 0;
     background-color: transparent;
-    color: var(--first-color);
+    color: var(--first-color-text);
 }
 
 .button--link:hover {
@@ -519,7 +533,7 @@ img.rounded-corners {
 
 .button--white {
     background-color: #FFF;
-    color: var(--first-color);
+    color: var(--first-color-text);
     border: 2px solid var(--first-color);
     box-shadow: none;
 }
@@ -987,6 +1001,21 @@ img.rounded-corners {
     color: var(--text-color-light);
 }
 
+/* Phone and email are real tel:/mailto: links now - make that visible and give
+   them a comfortable tap area on mobile. */
+.contact__link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--first-color-text);
+    font-weight: var(--font-medium);
+    transition: .3s;
+}
+
+.contact__link:hover {
+    text-decoration: underline;
+}
+
 .contact__content {
     background: var(--glass-bg);
     backdrop-filter: var(--backdrop-blur);
@@ -1007,10 +1036,51 @@ img.rounded-corners {
     background: transparent;
     color: var(--text-color);
     font-family: var(--body-font);
-    font-size: var(--normal-font-size);
+    /* 16px minimum: iOS Safari zooms the whole page when a smaller input is
+       focused, which reads as the form being broken. */
+    font-size: 16px;
     border: none;
     outline: none;
     padding: .5rem 1rem;
+    min-height: 44px;
+}
+
+select.contact__input {
+    /* selects ignore min-height in some engines unless height is set */
+    height: 44px;
+}
+
+
+/* Tap-to-call in the footer - present on every page so a mobile visitor can
+   always reach the phone without hunting for the contact section. */
+.footer__tel {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    min-height: 44px;
+    margin-top: .35rem;
+    color: #FFF;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    transition: .3s;
+}
+
+.footer__tel:hover { text-decoration: underline; }
+
+
+/*==================== FOCUS STATES (a11y) ====================*/
+
+/* Keyboard and switch users need to see where they are. :focus-visible is used
+   so this never shows on mouse click, only on keyboard navigation. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+    outline: 3px solid var(--first-color-text);
+    outline-offset: 3px;
+    border-radius: .35rem;
 }
 
 
@@ -2088,7 +2158,7 @@ svg {
 }
 
 .service__price {
-    color: var(--first-color);
+    color: var(--first-color-text);
     font-size: var(--h2-font-size);
 }
 

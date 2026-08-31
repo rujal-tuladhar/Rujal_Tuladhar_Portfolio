@@ -157,7 +157,7 @@
             position: absolute;
             top: 1rem;
             left: 1rem;
-            background: var(--first-color);
+            background: var(--first-color-text);
             color: #FFF;
             padding: 0.25rem 0.75rem;
             border-radius: 2rem;
@@ -199,7 +199,7 @@
             display: inline-flex;
             align-items: center;
             column-gap: 0.25rem;
-            color: var(--first-color);
+            color: var(--first-color-text);
             font-size: var(--small-font-size);
             font-weight: var(--font-medium);
             transition: column-gap 0.3s;
@@ -217,7 +217,7 @@
             background: #fff;
             border: 1px solid rgba(0, 150, 221, 0.2);
             border-radius: 50%;
-            color: var(--first-color) !important;
+            color: var(--first-color-text) !important;
             box-shadow: var(--glass-shadow);
             transition: all 0.3s ease;
         }
@@ -358,7 +358,7 @@
             <h1 class="home__title">
                 Website Design, AI Automation &amp; Digital Marketing in Toronto
             </h1>
-            <p class="u-text-center" style="font-size: 1.25rem; color: var(--first-color); font-weight: 600; margin-top: 0.5rem;">
+            <p class="u-text-center" style="font-size: 1.25rem; color: var(--first-color-text); font-weight: 600; margin-top: 0.5rem;">
                 From Click to Customer
             </p>
 
@@ -366,24 +366,24 @@
                 <div class="home__content grid">
                     <div class="home__social">
                         <a href="https://www.facebook.com/Nova-Toronto-108507575043046/?ref=pages_you_manage"
-                            target="_blank" class="home__social-icon">
-                            <i class="uil uil-facebook-f"></i>
+                            target="_blank" class="home__social-icon" aria-label="Nova Toronto on Facebook">
+                            <i class="uil uil-facebook-f" aria-hidden="true"></i>
                         </a>
 
                         <a href="https://www.instagram.com/nova_toronto/" target="_blank" class="home__social-icon"
-                            height="280" width="560" class="u-rounded-sm">
-                            <i class="uil uil-instagram"></i>
+                            aria-label="Nova Toronto on Instagram">
+                            <i class="uil uil-instagram" aria-hidden="true"></i>
                         </a>
 
                         <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank"
-                            class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
+                            class="home__social-icon" aria-label="Rujal Tuladhar on LinkedIn">
+                            <i class="uil uil-linkedin-alt" aria-hidden="true"></i>
                         </a>
 
                     </div>
                     <div class="home__img">
 
-                        <img style="border-radius: 10%;" src="./assets/img/toronto-travel_2x3.png" alt="">
+                        <img style="border-radius: 10%;" src="./assets/img/toronto-travel_2x3.jpg" alt="">
 
                     </div>
                     <div class="home__data">
@@ -432,7 +432,7 @@
 
                 .aic__badge {
                     display: block; width: fit-content; margin: 0 auto .9rem;
-                    background: var(--first-color); color: #fff;
+                    background: var(--first-color-text); color: #fff;
                     font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
                     padding: .3rem .95rem; border-radius: 2rem;
                 }
@@ -480,7 +480,7 @@
                 .aic__play {
                     display: grid; place-items: center;
                     width: 54px; height: 54px; border-radius: 50%;
-                    background: rgba(255, 255, 255, .92); color: var(--first-color);
+                    background: rgba(255, 255, 255, .92); color: var(--first-color-text);
                     font-size: 1.5rem; box-shadow: 0 6px 20px rgba(0, 0, 0, .3);
                     transition: transform .3s, background .3s, color .3s;
                 }
@@ -494,11 +494,11 @@
                 }
 
                 .aic__proof i {
-                    color: var(--first-color); font-size: .95rem;
+                    color: var(--first-color-text); font-size: .95rem;
                     margin-top: .15rem; flex-shrink: 0;
                 }
 
-                .aic__proof-link { color: var(--first-color); font-weight: 600; }
+                .aic__proof-link { color: var(--first-color-text); font-weight: 600; }
                 .aic__proof-link i { margin-top: 0; font-size: .8rem; }
 
                 .aic__card.is-playing .aic__poster,
@@ -529,7 +529,8 @@
 
                 .aic__textlink {
                     display: inline-flex; align-items: center; gap: .3rem;
-                    color: var(--first-color); font-weight: 600; font-size: var(--smaller-font-size);
+                    min-height: 44px;
+                    color: var(--first-color-text); font-weight: 600; font-size: var(--smaller-font-size);
                 }
 
                 .aic__chips {
@@ -565,7 +566,7 @@
 
                     .aic__trigger:hover .aic__play {
                         transform: scale(1.1);
-                        background: var(--first-color); color: #fff;
+                        background: var(--first-color-text); color: #fff;
                     }
                 }
 
@@ -801,7 +802,7 @@
                     align-items: center;
                     justify-content: center;
                     font-size: 1.75rem;
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     margin-bottom: 1.25rem;
                 }
 
@@ -812,7 +813,7 @@
                 }
 
                 .svc__price {
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     font-weight: 600;
                     font-size: var(--small-font-size);
                     margin-bottom: .75rem;
@@ -841,7 +842,7 @@
 
                 .svc__list li::before {
                     content: '\2713';
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     font-weight: 700;
                     position: absolute;
                     left: 0;
@@ -849,7 +850,10 @@
 
                 .svc__link {
                     margin-top: auto;
-                    color: var(--first-color);
+                    /* was 17px tall - padding lifts the tap area to 44px without
+                       moving the text, since margin-top:auto already pins it. */
+                    padding: 1rem 0 .75rem;
+                    color: var(--first-color-text);
                     font-weight: var(--font-medium);
                     font-size: var(--small-font-size);
                     display: inline-flex;
@@ -869,7 +873,7 @@
                 }
 
                 .svc__more a {
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     font-weight: var(--font-medium);
                 }
             </style>
@@ -963,7 +967,7 @@
                 .aiv__player video { width: 100%; height: 100%; display: block; object-fit: cover; }
 
                 .aiv__badge {
-                    display: inline-block; background: var(--first-color); color: #fff;
+                    display: inline-block; background: var(--first-color-text); color: #fff;
                     font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
                     padding: .3rem .9rem; border-radius: 2rem; margin-bottom: 1rem;
                 }
@@ -974,14 +978,14 @@
                     position: relative; padding-left: 1.8rem; margin-bottom: .7rem;
                     color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6;
                 }
-                .aiv__list li i { position: absolute; left: 0; top: .15rem; color: var(--first-color); font-size: 1.15rem; }
+                .aiv__list li i { position: absolute; left: 0; top: .15rem; color: var(--first-color-text); font-size: 1.15rem; }
                 .aiv__list li strong { color: var(--title-color); }
                 .aiv__proof {
                     background: rgba(0, 150, 221, 0.06); border-left: 3px solid var(--first-color);
                     border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem;
                     font-size: var(--small-font-size); color: var(--text-color); line-height: 1.6;
                 }
-                .aiv__proof a { color: var(--first-color); font-weight: 600; }
+                .aiv__proof a { color: var(--first-color-text); font-weight: 600; }
 
                 .aiv__pricing { max-width: 1100px; margin: 3.5rem auto 0; padding: 0 1.5rem; }
                 .aiv__pricing h3 {
@@ -1009,7 +1013,7 @@
                 }
                 .aiv__flag {
                     position: absolute; top: -.75rem; left: 50%; transform: translateX(-50%);
-                    background: var(--first-color); color: #fff; white-space: nowrap;
+                    background: var(--first-color-text); color: #fff; white-space: nowrap;
                     font-size: var(--smaller-font-size); font-weight: 600;
                     padding: .25rem .9rem; border-radius: 2rem;
                 }
@@ -1019,7 +1023,7 @@
                     text-transform: uppercase; margin-bottom: .35rem;
                 }
                 .aiv__tier-price {
-                    color: var(--first-color); font-weight: 700; font-size: 2rem; line-height: 1;
+                    color: var(--first-color-text); font-weight: 700; font-size: 2rem; line-height: 1;
                 }
                 .aiv__tier-price span {
                     font-size: var(--smaller-font-size); font-weight: 400;
@@ -1036,7 +1040,7 @@
                 }
                 .aiv__tier li::before {
                     content: '\2713'; position: absolute; left: 0; top: 0;
-                    color: var(--first-color); font-weight: 700;
+                    color: var(--first-color-text); font-weight: 700;
                 }
                 .aiv__tier .button { width: 100%; justify-content: center; }
 
@@ -1091,7 +1095,7 @@
                     </ul>
 
                     <div class="aiv__proof">
-                        <i class="uil uil-check-circle" style="color: var(--first-color);"></i>
+                        <i class="uil uil-check-circle" style="color: var(--first-color-text);"></i>
                         <strong>Don't take our word for it</strong> &mdash; this exact video is live on the
                         client's own homepage at
                         <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">dohomehealthcare.com</a>.
@@ -1166,7 +1170,7 @@
 
                 <div class="aiv__bundle">
                     <div>
-                        <h4><i class="uil uil-layer-group" style="color: var(--first-color);"></i> Launch Bundle &mdash; website + video, $1,400</h4>
+                        <h4><i class="uil uil-layer-group" style="color: var(--first-color-text);"></i> Launch Bundle &mdash; website + video, $1,400</h4>
                         <p>
                             Add the Silver video to any website package for <strong>$500</strong> instead of $897.
                             Bronze website + Silver video comes to <strong>$1,400</strong>, live in about two weeks.
@@ -1233,7 +1237,7 @@
                     width: 28px;
                     height: 28px;
                     border-radius: 50%;
-                    background: var(--first-color);
+                    background: var(--first-color-text);
                     color: #fff;
                     font-size: .8rem;
                     font-weight: 700;
@@ -1244,7 +1248,7 @@
 
                 .infog__step i {
                     font-size: 1.6rem;
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     display: block;
                     margin-bottom: .5rem;
                 }
@@ -1291,8 +1295,8 @@
                     gap: .5rem;
                 }
 
-                .infog__col--without h3 { color: #ea4335; }
-                .infog__col--with h3 { color: var(--first-color); }
+                .infog__col--without h3 { color: #c5221f; }
+                .infog__col--with h3 { color: var(--first-color-text); }
 
                 .infog__col ul { list-style: none; padding: 0; }
 
@@ -1307,7 +1311,7 @@
 
                 .infog__col--without li::before {
                     content: '\2717';
-                    color: #ea4335;
+                    color: #c5221f;
                     position: absolute;
                     left: 0;
                     font-weight: 700;
@@ -1315,7 +1319,7 @@
 
                 .infog__col--with li::before {
                     content: '\2713';
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     position: absolute;
                     left: 0;
                     font-weight: 700;
@@ -1339,7 +1343,7 @@
                 .infog__stat strong {
                     display: block;
                     font-size: 1.6rem;
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     margin-bottom: .2rem;
                 }
 
@@ -1367,7 +1371,7 @@
                 .infog__chips a {
                     background: var(--container-color);
                     border: 1px solid rgba(0, 150, 221, 0.25);
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     padding: .5rem 1rem;
                     border-radius: 2rem;
                     font-size: var(--small-font-size);
@@ -1375,7 +1379,7 @@
                 }
 
                 .infog__chips a:hover {
-                    background: var(--first-color);
+                    background: var(--first-color-text);
                     color: #fff;
                 }
 
@@ -1473,14 +1477,14 @@
                     .pf__tag {
                         display: inline-flex; align-items: center; gap: .4rem;
                         margin-top: .75rem; padding: .35rem .85rem;
-                        background: var(--first-color); color: #fff;
+                        background: var(--first-color-text); color: #fff;
                         font-size: var(--smaller-font-size); font-weight: 600;
                         border-radius: 2rem; transition: .3s;
                     }
                     .pf__tag:hover { background: var(--first-color-alt, #007bb5); color: #fff; }
                 </style>
 
-                <h1 class="section__title">WEBSITE DESIGNS</h1>
+                <h2 class="section__title">WEBSITE DESIGNS</h2>
                 <span class="section__subtitle">We may not have met yet, but here some of our work.</span>
 
                 <div class="services__container container grid">
@@ -1489,7 +1493,7 @@
                     <div>
                         <div>
                             <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">
-                                <img src="./assets/img/do_home_healthcare.png"
+                                <img src="./assets/img/do_home_healthcare.jpg"
                                     alt="Do Home Healthcare website homepage designed by Nova Toronto"
                                     class="u-rounded-sm portfolio__card-img"
                                     style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
@@ -1551,7 +1555,7 @@
                     <div>
                         <div>
                             <a href="https://promaxagency.ca/">
-                                <img src="./assets/img/promax_agency.png" alt="promax agency website homepage"
+                                <img src="./assets/img/promax_agency.jpg" alt="promax agency website homepage"
                                     class="u-rounded-sm portfolio__card-img"
                                     style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
                             </a>
@@ -1584,7 +1588,7 @@
 
         <div>
 
-            <h1 class="section__title">Search Engine Optimization</h1>
+            <h2 class="section__title">Search Engine Optimization</h2>
             <h4 class="u-text-center">How do I rank top of page for Google search keywords?</h4>
             <br>
 
@@ -1799,7 +1803,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">AI News</span>
-                                <img src="assets/img/service_ai_automation.png" alt="AI news for small businesses July 2026" class="blog__img">
+                                <img src="assets/img/service_ai_automation.jpg" alt="AI news for small businesses July 2026" class="blog__img">
                             </div>
                             <div class="blog__content">
                                 <h3 class="blog__title">AI This Month: July 2026</h3>
@@ -1821,7 +1825,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">Automation</span>
-                                <img src="assets/img/ai_automation_graphic.png" alt="Business tasks to automate with AI" class="blog__img">
+                                <img src="assets/img/ai_automation_graphic.jpg" alt="Business tasks to automate with AI" class="blog__img">
                             </div>
                             <div class="blog__content">
                                 <h3 class="blog__title">5 Tasks to Automate with AI</h3>
@@ -1843,7 +1847,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">Marketing</span>
-                                <img src="assets/img/digital_marketing_graphic.png" alt="Google Ads budget for Toronto business" class="blog__img">
+                                <img src="assets/img/digital_marketing_graphic.jpg" alt="Google Ads budget for Toronto business" class="blog__img">
                             </div>
                             <div class="blog__content">
                                 <h3 class="blog__title">Google Ads Budget in 2026</h3>
@@ -1865,7 +1869,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">Automation</span>
-                                <img src="assets/img/service_ai_automation.png" alt="AI for Dentists" class="blog__img">
+                                <img src="assets/img/service_ai_automation.jpg" alt="AI for Dentists" class="blog__img">
                             </div>
                             <div class="blog__content">
                                 <h3 class="blog__title">AI for Dentists</h3>
@@ -1887,7 +1891,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">Legal Tech</span>
-                                <img src="assets/img/ai_automation_graphic.png" alt="AI for Law Firms"
+                                <img src="assets/img/ai_automation_graphic.jpg" alt="AI for Law Firms"
                                     class="blog__img">
                             </div>
                             <div class="blog__content">
@@ -1910,7 +1914,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">Efficiency</span>
-                                <img src="assets/img/home_bg.png" alt="Small Business AI" class="blog__img">
+                                <img src="assets/img/home_bg.jpg" alt="Small Business AI" class="blog__img">
                             </div>
                             <div class="blog__content">
                                 <h3 class="blog__title">AI Receptionists</h3>
@@ -1932,7 +1936,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">Web Design</span>
-                                <img src="assets/img/service_website_design.png" alt="Website Features"
+                                <img src="assets/img/service_website_design.jpg" alt="Website Features"
                                     class="blog__img">
                             </div>
                             <div class="blog__content">
@@ -1955,7 +1959,7 @@
                         <article class="blog__card">
                             <div class="blog__img-wrapper">
                                 <span class="blog__category">Strategy</span>
-                                <img src="assets/img/web_design_graphic.png" alt="Essential Guide" class="blog__img">
+                                <img src="assets/img/web_design_graphic.jpg" alt="Essential Guide" class="blog__img">
                             </div>
                             <div class="blog__content">
                                 <h3 class="blog__title">Strategy Guide</h3>
@@ -2016,7 +2020,7 @@
 
                 .pg__badge {
                     display: inline-block;
-                    background: var(--first-color);
+                    background: var(--first-color-text);
                     color: #fff;
                     font-size: var(--smaller-font-size);
                     font-weight: 600;
@@ -2056,7 +2060,7 @@
                     position: absolute;
                     left: 0;
                     top: .1rem;
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     font-size: 1.25rem;
                 }
 
@@ -2079,7 +2083,7 @@
 
                 .pg__stat strong {
                     display: block;
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     font-size: 1.35rem;
                     line-height: 1.1;
                 }
@@ -2113,13 +2117,13 @@
 
                 .pg__tier-name { color: var(--title-color); font-weight: 600; font-size: var(--small-font-size); }
                 .pg__tier-desc { color: var(--text-color-light); font-size: var(--smaller-font-size); display: block; font-weight: 400; }
-                .pg__tier-price { color: var(--first-color); font-weight: 700; white-space: nowrap; }
+                .pg__tier-price { color: var(--first-color-text); font-weight: 700; white-space: nowrap; }
 
                 .pg__link {
                     display: inline-flex;
                     align-items: center;
                     gap: .35rem;
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     font-weight: var(--font-medium);
                     font-size: var(--small-font-size);
                     margin-top: .25rem;
@@ -2200,7 +2204,7 @@
                 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.15); border-radius: 1.25rem; padding: 1.5rem 1.75rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);">
                     <div style="flex: 1; min-width: 260px;">
                         <h3 style="color: var(--title-color); font-size: 1.15rem; margin-bottom: .3rem;">
-                            <i class="uil uil-store" style="color: var(--first-color);"></i>
+                            <i class="uil uil-store" style="color: var(--first-color-text);"></i>
                             Sell on Amazon &amp; Walmart
                         </h3>
                         <p style="color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6; margin: 0;">
@@ -2220,7 +2224,7 @@
                 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.15); border-radius: 1.25rem; padding: 1.5rem 1.75rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);">
                     <div style="flex: 1; min-width: 260px;">
                         <h3 style="color: var(--title-color); font-size: 1.15rem; margin-bottom: .3rem;">
-                            <i class="uil uil-video" style="color: var(--first-color);"></i>
+                            <i class="uil uil-video" style="color: var(--first-color-text);"></i>
                             AI Video Production
                         </h3>
                         <p style="color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6; margin: 0;">
@@ -2262,7 +2266,7 @@
                 }
 
                 .areas__col h3 a:hover {
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                 }
 
                 .areas__links {
@@ -2274,7 +2278,7 @@
                 .areas__links a {
                     background: var(--container-color);
                     border: 1px solid rgba(0, 150, 221, 0.25);
-                    color: var(--first-color);
+                    color: var(--first-color-text);
                     padding: 0.35rem 0.85rem;
                     border-radius: 2rem;
                     font-size: var(--small-font-size);
@@ -2282,7 +2286,7 @@
                 }
 
                 .areas__links a:hover {
-                    background: var(--first-color);
+                    background: var(--first-color-text);
                     color: #fff;
                 }
             </style>
@@ -2360,7 +2364,7 @@
 
                         <div>
                             <h3 class="contact__title">Call Me</h3>
-                            <span class="contact__subtitle">365-355-3133</span>
+                            <a href="tel:+13653553133" class="contact__subtitle contact__link">365-355-3133</a>
                         </div>
                     </div>
 
@@ -2369,7 +2373,7 @@
 
                         <div>
                             <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">novatoronto.ca@gmail.com</span>
+                            <a href="mailto:novatoronto.ca@gmail.com" class="contact__subtitle contact__link">novatoronto.ca@gmail.com</a>
                         </div>
                     </div>
 
@@ -2476,7 +2480,7 @@
                     <input type="hidden" name="_next" value="https://novatoronto.com/thank-you.html">
                     <input type="text" name="_honey" style="display: none">
                     <input type="email" name="email" required placeholder="you@business.com"
-                        style="flex: 1; min-width: 220px; padding: 0.85rem 1rem; border-radius: 2rem; border: 1px solid rgba(0, 150, 221, 0.3); background: #fff; color: var(--title-color); font-family: var(--body-font);">
+                        style="flex: 1; min-width: 220px; padding: 0.85rem 1rem; border-radius: 2rem; border: 1px solid rgba(0, 150, 221, 0.3); background: #fff; color: var(--title-color); font-family: var(--body-font); font-size: 16px; min-height: 44px;">
                     <button type="submit" class="button" style="border: none; cursor: pointer;">Subscribe</button>
                 </form>
             </div>
@@ -2488,7 +2492,7 @@
         <div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
-                    <h1 class="footer__title"> Nova Toronto </h1>
+                    <p class="footer__title"> Nova Toronto </p>
                     <span class="footer__subtitle">
                         From click to customers </span>
                 </div>
@@ -2544,6 +2548,64 @@
 
     </footer>
 
+
+    <!--==================== STICKY MOBILE CONVERSION BAR ====================-->
+    <style>
+        .mcta { display: none; }
+
+        @media screen and (max-width: 767px) {
+            .mcta {
+                position: fixed;
+                left: 0; right: 0; bottom: 0;
+                z-index: 10000;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: .5rem;
+                padding: .6rem .75rem calc(.6rem + env(safe-area-inset-bottom, 0px));
+                background: rgba(255, 255, 255, .96);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border-top: 1px solid rgba(0, 150, 221, .22);
+                box-shadow: 0 -6px 24px rgba(0, 70, 120, .12);
+            }
+
+            .mcta__btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: .4rem;
+                min-height: 48px;
+                border-radius: 2rem;
+                font-size: var(--small-font-size);
+                font-weight: 600;
+                white-space: nowrap;
+            }
+
+            .mcta__btn--call { background: var(--first-color-text); color: #fff; }
+
+            .mcta__btn--book {
+                background: #fff;
+                color: var(--first-color-text);
+                border: 2px solid var(--first-color-text);
+            }
+
+            /* keep the voice widget clear of the bar */
+            #nova-voice-btn { bottom: 84px !important; }
+
+            /* stop the bar covering the end of the page */
+            body { padding-bottom: 72px; }
+        }
+    </style>
+
+    <div class="mcta" role="region" aria-label="Contact Nova Toronto">
+        <a href="tel:+13653553133" class="mcta__btn mcta__btn--call" data-mcta="call">
+            <i class="uil uil-phone" aria-hidden="true"></i> Call Now
+        </a>
+        <a href="#contact" class="mcta__btn mcta__btn--book" data-mcta="book">
+            <i class="uil uil-calendar-alt" aria-hidden="true"></i> Book Free Call
+        </a>
+    </div>
+
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
@@ -2574,7 +2636,7 @@
             bottom: 32px;
             right: 32px;
             z-index: 9999;
-            background: var(--first-color);
+            background: var(--first-color-text);
             color: #fff;
             border: none;
             border-radius: 3rem;
