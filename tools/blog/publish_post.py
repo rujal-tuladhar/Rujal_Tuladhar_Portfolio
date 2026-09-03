@@ -83,6 +83,20 @@ def check_url(url):
         n = int(code)
     except ValueError:
         return code, False
+    if n == 0:
+        # 000 = curl never got an HTTP status: connection refused/reset, TLS
+        # rejection, HTTP/2 stream error, or timeout. Adobe, GlobeNewswire and
+        # similar bot walls do this to non-browser clients while the page is
+        # perfectly live (the agent fetched it in a browser). A truly dead page
+        # answers 404/410, which is still caught above. The one 000 that IS dead
+        # is a domain that does not exist - so resolve the host and decide.
+        import socket
+        host = domain_of(url) or url
+        try:
+            socket.getaddrinfo(re.sub(r':\d+$', '', host) or host, 443)
+            return '000?', True      # resolves: bot wall, allow with warning
+        except Exception:
+            return '000', False      # no such host: genuinely dead
     return code, (200 <= n < 400) or n == 403
 
 
@@ -151,8 +165,8 @@ def validate(post, all_html):
     for u in to_check:
         code, ok = check_url(u)
         flag = 'ok ' if ok else 'DEAD'
-        if ok and code == '403':
-            flag = '403?'
+        if ok and code in ('403', '000?'):
+            flag = 'wall'   # bot wall - live page curl cannot fetch; agent verified in browser
         print('  %s %s  %s' % (flag, code, u[:90]))
         if not ok:
             dead.append((u, code))

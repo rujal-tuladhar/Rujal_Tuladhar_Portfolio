@@ -146,3 +146,12 @@ count, and the number of sources.
 ## Run notes
 
 _(append dated notes here when something about the process changes)_
+
+- **2026-09-02** — First real post (30 sources) hit three curl `000` results:
+  adobe.com x2 and globenewswire.com. All were live pages behind bot walls
+  (curl exit 92 in 0.16s = HTTP/2 refused to a non-browser client; Python got
+  TLS/timeouts). The validator now DNS-resolves any `000` host: resolvable =
+  bot wall, allowed and shown as `wall`; unresolvable = dead, still refused.
+  Real 404/410s are unaffected. So: a `wall` line is fine **only if you fetched
+  that page in the browser during research** - that is what the recipe already
+  requires. Never add a source you did not open.
