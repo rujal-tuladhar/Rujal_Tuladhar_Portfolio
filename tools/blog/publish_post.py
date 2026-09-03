@@ -484,7 +484,7 @@ def main():
             log.insert(0, entry_log)
         else:
             entry_log['date'] = log[idx].get('date', date_iso)   # keep the original publish date
-            entry_log['updated'] = date_iso
+            entry_log['updated'] = datetime.date.today().isoformat()   # real revision date, not --date
             log[idx] = entry_log
     else:
         log.insert(0, entry_log)
