@@ -424,6 +424,47 @@
             </div>
         </section>
 
+        <!--==================== LATEST POST STRIP ====================-->
+        <div class="lp" aria-label="Latest from the blog">
+            <style>
+                .lp { max-width: 1100px; margin: -1.5rem auto 0; padding: 0 1.5rem; }
+                .lp__link {
+                    display: flex; align-items: center; gap: .75rem; flex-wrap: wrap;
+                    background: var(--container-color);
+                    border: 1px solid rgba(0, 150, 221, 0.18);
+                    border-radius: 1rem; padding: .8rem 1.1rem;
+                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
+                    color: var(--title-color); transition: .3s;
+                }
+                .lp__link:hover { border-color: var(--first-color); transform: translateY(-2px); }
+                .lp__badge {
+                    background: var(--first-color-text); color: #fff;
+                    font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
+                    padding: .2rem .7rem; border-radius: 2rem; flex-shrink: 0;
+                }
+                .lp__cat {
+                    color: var(--first-color-text); font-weight: 600; font-size: var(--smaller-font-size);
+                    text-transform: uppercase; letter-spacing: .4px; flex-shrink: 0;
+                }
+                .lp__title { flex: 1 1 260px; font-weight: 500; font-size: var(--small-font-size); line-height: 1.4; }
+                .lp__date { color: var(--text-color-light); font-size: var(--smaller-font-size); flex-shrink: 0; }
+                .lp__link i { color: var(--first-color-text); font-size: 1.1rem; flex-shrink: 0; }
+                @media screen and (max-width: 767px) {
+                    .lp { margin-top: -.5rem; padding: 0 1rem; }
+                    .lp__date { display: none; }
+                }
+            </style>
+            <!-- LATEST-POST:START  (publish_post.py replaces everything between these markers) -->
+                <a class="lp__link" href="blog/ai-news-for-business-july-2026/">
+                    <span class="lp__badge">Latest</span>
+                    <span class="lp__cat">AI News</span>
+                    <span class="lp__title">AI This Month: 5 Updates That Actually Matter for Small Businesses</span>
+                    <span class="lp__date">July 21, 2026</span>
+                    <i class="uil uil-arrow-right" aria-hidden="true"></i>
+                </a>
+            <!-- LATEST-POST:END -->
+        </div>
+
         <!--==================== AI CREATIVES (showcase band) ====================-->
         <section class="section aic" id="ai-creatives">
 
@@ -1798,6 +1839,7 @@
 
             <div class="blog__container container swiper-container">
                 <div class="swiper-wrapper">
+                    <!-- SLIDES:START  (publish_post.py inserts the newest slide right after this line) -->
                     <!-- Blog: AI News July 2026 (featured, newest) -->
                     <div class="swiper-slide">
                         <article class="blog__card">
