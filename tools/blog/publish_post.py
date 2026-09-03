@@ -351,7 +351,7 @@ def main():
                     <a href="./%s/" class="button button--small button--link">Read More <i class="uil uil-arrow-right"></i></a>
                 </article>
 ''' % (slug, html.escape(post['category']), html.escape(post['title']), html.escape(post['excerpt']), slug)
-    write(bi, insert_after_marker(read(bi), '<!-- BLOG-CARDS:START -->', card.strip('\n'), 'blog/index.html'))
+    write(bi, insert_after_marker(read(bi), '<!-- BLOG-CARDS:START', card.strip('\n'), 'blog/index.html'))
 
     # 4b. homepage slider + latest-post strip
     hp = os.path.join(REPO, 'index.html')
@@ -374,7 +374,7 @@ def main():
                     </div>
                     <!-- /slide:%s -->''' % (slug, html.escape(post['category']), slug, attr(post['title']),
                                             html.escape(post['title']), html.escape(post['excerpt']), slug, slug)
-    h = insert_after_marker(h, '<!-- SLIDES:START -->', slide, 'index.html slider')
+    h = insert_after_marker(h, '<!-- SLIDES:START', slide, 'index.html slider')
     h = trim_slides(h)
 
     strip = '''                <a class="lp__link" href="blog/%s/">
@@ -384,7 +384,7 @@ def main():
                     <span class="lp__date">%s</span>
                     <i class="uil uil-arrow-right" aria-hidden="true"></i>
                 </a>''' % (slug, html.escape(post['category']), html.escape(post['title']), human_date(date_iso))
-    h = replace_between(h, '<!-- LATEST-POST:START -->', '<!-- LATEST-POST:END -->', strip, 'index.html latest strip')
+    h = replace_between(h, '<!-- LATEST-POST:START', '<!-- LATEST-POST:END -->', strip, 'index.html latest strip')
     write(hp, h)
     print('updated index.html slider + latest-post strip')
 
