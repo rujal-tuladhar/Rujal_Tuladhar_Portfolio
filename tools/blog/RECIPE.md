@@ -155,3 +155,11 @@ _(append dated notes here when something about the process changes)_
   Real 404/410s are unaffected. So: a `wall` line is fine **only if you fetched
   that page in the browser during research** - that is what the recipe already
   requires. Never add a source you did not open.
+
+- **2026-09-03** — Corrections: to change a post that is already live, edit its JSON in
+  `tools/blog/posts/` and re-run the publisher with `--update` and the ORIGINAL
+  `--date`. It re-renders the page and cover in place, swaps the slider slide and
+  blog-index card, updates the homepage strip only if that post is still the newest,
+  bumps the sitemap `lastmod`, and keeps the original publish date in the log. The
+  daily run never uses `--update`, so the unique-slug guard still protects it.
+  First used to re-rank the AI-video roundup to Rujal’s order: Seedance 2.5 > Kling 3.0 > Veo 3.1.

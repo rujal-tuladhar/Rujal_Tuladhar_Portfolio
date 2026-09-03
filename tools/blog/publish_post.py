@@ -2,7 +2,10 @@
 """
 publish_post.py - turn a post JSON into a live blog post on novatoronto.com.
 
-    python tools/blog/publish_post.py <post.json> [--date YYYY-MM-DD] [--no-push] [--dry-run]
+    python tools/blog/publish_post.py <post.json> [--date YYYY-MM-DD] [--no-push] [--dry-run] [--update]
+
+    --update re-renders an EXISTING slug in place (corrections). Keeps the original
+    publish date in the log, swaps the slide/card/strip, bumps sitemap lastmod.
 
 What it does, in order:
   1. Validates the post: unique slug, length, >=4 external sources on >=3 domains,
@@ -100,15 +103,18 @@ def check_url(url):
     return code, (200 <= n < 400) or n == 403
 
 
-def validate(post, all_html):
+def validate(post, all_html, update=False):
     slug = post['slug']
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug):
         fail('slug must be lowercase-hyphenated: %r' % slug)
-    if os.path.exists(os.path.join(REPO, 'blog', slug)):
-        fail('blog/%s/ already exists' % slug)
+    exists = os.path.exists(os.path.join(REPO, 'blog', slug))
+    if exists and not update:
+        fail('blog/%s/ already exists (pass --update to re-render a correction in place)' % slug)
+    if update and not exists:
+        fail('--update given but blog/%s/ does not exist' % slug)
 
     log = json.load(io.open(LOG, encoding='utf-8')) if os.path.exists(LOG) else []
-    titles = {p['title'].strip().lower() for p in log}
+    titles = {p['title'].strip().lower() for p in log if p.get('slug') != slug}
     if post['title'].strip().lower() in titles:
         fail('a post with this exact title was already published')
     if len(post['title']) > 75:
@@ -324,6 +330,36 @@ def trim_slides(text):
     return text
 
 
+def replace_card(text, slug, card):
+    """Swap the blog-index card that follows '<!-- Post: slug -->' up to its </article>."""
+    tag = '<!-- Post: %s -->' % slug
+    i = text.find(tag)
+    if i == -1:
+        fail('blog/index.html: no card comment %r to update' % tag)
+    nl = nl_of(text)
+    line_start = text.rfind(nl, 0, i) + len(nl)
+    end = text.find('</article>', i)
+    if end == -1:
+        fail('blog/index.html: unterminated card for %s' % slug)
+    end += len('</article>')
+    return text[:line_start] + card.replace('\n', nl) + text[end:]
+
+
+def replace_slide(text, slug, slide):
+    start_tag, end_tag = '<!-- slide:%s -->' % slug, '<!-- /slide:%s -->' % slug
+    i, j = text.find(start_tag), text.find(end_tag)
+    if i == -1 or j == -1:
+        fail('index.html: slide markers for %s not found' % slug)
+    nl = nl_of(text)
+    line_start = text.rfind(nl, 0, i) + len(nl)
+    return text[:line_start] + slide.replace('\n', nl) + text[j + len(end_tag):]
+
+
+def strip_points_at(text, slug):
+    i, j = text.find('<!-- LATEST-POST:START'), text.find('<!-- LATEST-POST:END -->')
+    return i != -1 and j != -1 and ('href="blog/%s/"' % slug) in text[i:j]
+
+
 # --------------------------------------------------------------------- main ----
 def main():
     argv = sys.argv[1:]
@@ -335,11 +371,12 @@ def main():
         date_iso = argv[argv.index('--date') + 1]
     no_push = '--no-push' in argv
     dry = '--dry-run' in argv
+    update = '--update' in argv
 
     post = json.load(io.open(post_path, encoding='utf-8'))
     slug = post['slug']
     all_html = post['intro_html'] + ''.join(s['body_html'] for s in post['sections']) + post['bottom_line_html']
-    n_words = validate(post, all_html)
+    n_words = validate(post, all_html, update=update)
     if dry:
         print('dry run - nothing written'); return
 
@@ -365,7 +402,10 @@ def main():
                     <a href="./%s/" class="button button--small button--link">Read More <i class="uil uil-arrow-right"></i></a>
                 </article>
 ''' % (slug, html.escape(post['category']), html.escape(post['title']), html.escape(post['excerpt']), slug)
-    write(bi, insert_after_marker(read(bi), '<!-- BLOG-CARDS:START', card.strip('\n'), 'blog/index.html'))
+    if update:
+        write(bi, replace_card(read(bi), slug, card.strip('\n')))
+    else:
+        write(bi, insert_after_marker(read(bi), '<!-- BLOG-CARDS:START', card.strip('\n'), 'blog/index.html'))
 
     # 4b. homepage slider + latest-post strip
     hp = os.path.join(REPO, 'index.html')
@@ -388,8 +428,11 @@ def main():
                     </div>
                     <!-- /slide:%s -->''' % (slug, html.escape(post['category']), slug, attr(post['title']),
                                             html.escape(post['title']), html.escape(post['excerpt']), slug, slug)
-    h = insert_after_marker(h, '<!-- SLIDES:START', slide, 'index.html slider')
-    h = trim_slides(h)
+    if update and ('<!-- slide:%s -->' % slug) in h:
+        h = replace_slide(h, slug, slide)
+    else:
+        h = insert_after_marker(h, '<!-- SLIDES:START', slide, 'index.html slider')
+        h = trim_slides(h)
 
     strip = '''                <a class="lp__link" href="blog/%s/">
                     <span class="lp__badge">New</span>
@@ -398,7 +441,8 @@ def main():
                     <span class="lp__date">%s</span>
                     <i class="uil uil-arrow-right" aria-hidden="true"></i>
                 </a>''' % (slug, html.escape(post['category']), html.escape(post['title']), human_date(date_iso))
-    h = replace_between(h, '<!-- LATEST-POST:START', '<!-- LATEST-POST:END -->', strip, 'index.html latest strip')
+    if not update or strip_points_at(h, slug):
+        h = replace_between(h, '<!-- LATEST-POST:START', '<!-- LATEST-POST:END -->', strip, 'index.html latest strip')
     write(hp, h)
     print('updated index.html slider + latest-post strip')
 
@@ -410,9 +454,17 @@ def main():
     <lastmod>%s</lastmod>
     <priority>0.6</priority>
   </url>''' % (DOMAIN, slug, date_iso)
-    i = s.find('<urlset')
-    i = s.find(nl_of(s), i) + len(nl_of(s))
-    write(sm, s[:i] + entry.replace('\n', nl_of(s)) + nl_of(s) + s[i:])
+    loc = '<loc>%s/blog/%s/</loc>' % (DOMAIN, slug)
+    if update and loc in s:
+        j = s.find(loc)
+        k = s.find('<lastmod>', j)
+        e = s.find('</lastmod>', k)
+        s = s[:k] + '<lastmod>' + date_iso + s[e:]
+        write(sm, s)
+    else:
+        i = s.find('<urlset')
+        i = s.find(nl_of(s), i) + len(nl_of(s))
+        write(sm, s[:i] + entry.replace('\n', nl_of(s)) + nl_of(s) + s[i:])
 
     gen = os.path.join(REPO, 'tools', 'generate_local_pages.py')
     g = read(gen)
@@ -424,14 +476,26 @@ def main():
 
     # 5. log
     log = json.load(io.open(LOG, encoding='utf-8')) if os.path.exists(LOG) else []
-    log.insert(0, {'date': date_iso, 'slug': slug, 'title': post['title'], 'category': post['category'],
-                   'words': n_words, 'sources': [x['url'] for x in post['sources']]})
+    entry_log = {'date': date_iso, 'slug': slug, 'title': post['title'], 'category': post['category'],
+                 'words': n_words, 'sources': [x['url'] for x in post['sources']]}
+    if update:
+        idx = next((i for i, e in enumerate(log) if e.get('slug') == slug), None)
+        if idx is None:
+            log.insert(0, entry_log)
+        else:
+            entry_log['date'] = log[idx].get('date', date_iso)   # keep the original publish date
+            entry_log['updated'] = date_iso
+            log[idx] = entry_log
+    else:
+        log.insert(0, entry_log)
     io.open(LOG, 'w', encoding='utf-8').write(json.dumps(log, indent=2, ensure_ascii=False))
 
     # 6. git
     if no_push:
         print('--no-push: changes are in the working tree, not committed'); return
-    msg = 'Blog: %s\n\n%s\n\nPublished %s by the daily blog task.' % (post['title'], post['excerpt'], date_iso)
+    verb = 'Blog (revised): %s' if update else 'Blog: %s'
+    msg = (verb % post['title']) + '\n\n%s\n\n%s %s.' % (
+        post['excerpt'], 'Revised' if update else 'Published', date_iso)
     subprocess.run(['git', 'add', '-A'], cwd=REPO, check=True)
     subprocess.run(['git', 'commit', '-q', '-m', msg], cwd=REPO, check=True)
     r = subprocess.run(['git', 'push', 'origin', 'main'], cwd=REPO, capture_output=True, text=True, timeout=180)
