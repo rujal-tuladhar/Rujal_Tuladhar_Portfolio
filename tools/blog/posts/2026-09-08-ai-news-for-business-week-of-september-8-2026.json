@@ -1,0 +1,66 @@
+{
+  "slug": "ai-news-for-business-week-of-september-8-2026",
+  "title": "AI This Week: What Shipped and What It Costs, September 8, 2026",
+  "category": "AI News",
+  "excerpt": "GPT-6 Astra, Claude Fable 5.1 and Gemini 3.8 Flash landed in one week, prices dropped, and Canada put $500M on the table. What each means for a GTA business.",
+  "keywords": "AI news September 2026, GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, AI pricing 2026, ChatGPT scheduled tasks, HubSpot Breeze invoices, Claudeforce, LIFT program BDC, AI for small business Canada",
+  "cover_title": "AI This Week: September 8, 2026",
+  "intro_html": "<p>If you run a clinic, a contracting crew or a restaurant in the GTA, you did not have time to follow AI news last week, and last week was a big one. Three of the four major labs shipped a flagship model inside seven days, two of them cut prices, and the tools you already pay for quietly picked up features that do real work.</p><p>Here is the filter we use for these roundups: only the changes that alter what a small business can do, or what it costs to do it. Everything below comes from the companies' own pages or from dated reporting we opened this week; the verdicts are ours.</p>",
+  "glance": [
+    { "icon": "uil-brain", "heading": "GPT-6 Astra, Fable 5.1, Gemini 3.8 Flash", "sub": "Three flagship models in one week; public access rolling out now" },
+    { "icon": "uil-arrow-down", "heading": "Prices fell again", "sub": "Claude cache reads cut 75%; Sonnet 5 stays $2/$10; Gemini 3.8 Flash $0.75/$3.75 through Dec 31" },
+    { "icon": "uil-clock", "heading": "Free ChatGPT gets scheduled tasks", "sub": "Up to three recurring tasks on the free plan since Aug 25" },
+    { "icon": "uil-invoice", "heading": "HubSpot chases invoices for you", "sub": "Breeze ranks overdue invoices by risk and drafts the collection email" },
+    { "icon": "uil-briefcase", "heading": "Claude inside Salesforce", "sub": "37 prebuilt sales skills, open beta this month" },
+    { "icon": "uil-flag", "heading": "Canada: $500M for SME AI loans", "sub": "The LIFT program via BDC, plus $700M in compute" }
+  ],
+  "sections": [
+    {
+      "heading": "Three new flagship models in seven days",
+      "body_html": "<p>On September 1 Anthropic <a href=\"https://www.anthropic.com/news\" target=\"_blank\" rel=\"noopener\">introduced Claude Fable 5.1 and Claude Mythos 5.1</a>, calling them its most advanced models for coding and knowledge work. On September 2 Google made <a href=\"https://ai.google.dev/gemini-api/docs/changelog\" target=\"_blank\" rel=\"noopener\">Gemini 3.8 Flash</a> generally available as its most capable Flash model. On September 4, OpenAI announced GPT-6 Astra, which <a href=\"https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety\" target=\"_blank\" rel=\"noopener\">Al Jazeera reports</a> earned near-perfect scores on reasoning benchmarks and will reach the general public in the coming days after a limited launch. OpenAI's own <a href=\"https://releasebot.io/updates/openai/chatgpt\" target=\"_blank\" rel=\"noopener\">ChatGPT release notes</a> describe it as built for coding, research, computer use and multi-step work.</p><p>For a business owner none of the benchmark numbers matter. What matters is that the same subscriptions you already have, ChatGPT, Claude or Gemini, get noticeably better at finishing a whole task rather than answering a question, and you do not have to do anything to receive it.</p>",
+      "takeaway": "Do not switch tools because a new model launched. Re-run the one job your current tool failed at last month; it may just work now."
+    },
+    {
+      "heading": "The bill is going down, not up",
+      "body_html": "<p>The quieter story is pricing, and it moved in your favour. Per <a href=\"https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html\" target=\"_blank\" rel=\"noopener\">Local AI Zone's September price tracker</a>, Anthropic cut the cache-read price on Fable 5.1 from $1.00 to $0.25 per million tokens on September 1, a 75% drop that matters for any automation that re-reads the same documents, such as an AI receptionist working from your FAQ. On August 11 Anthropic also made Claude Sonnet 5's $2 in / $10 out pricing permanent and cancelled a planned September 1 increase to $3 / $15.</p><p>Google's Gemini 3.8 Flash launched at $0.75 in / $3.75 out per million tokens, but note the fine print on the same page: that is introductory pricing through December 31, 2026, and it doubles to $1.50 / $7.50 on January 1. Google's <a href=\"https://ai.google.dev/gemini-api/docs/changelog\" target=\"_blank\" rel=\"noopener\">changelog</a> says the older Gemini 3.7 Flash is likewise on an introductory price through December 31. These are US-dollar API prices, the wholesale cost behind the tools; for a typical small-business automation they add up to a few dollars a month either way.</p>",
+      "takeaway": "If a vendor quotes you AI costs, ask which model and whether the price is introductory. The raw compute is cheap; the value is in the setup."
+    },
+    {
+      "heading": "The tools you already pay for did useful things",
+      "body_html": "<p>Three changes here are worth five minutes of your time. First, since August 25 <a href=\"https://releasebot.io/updates/openai/chatgpt\" target=\"_blank\" rel=\"noopener\">free ChatGPT users can create up to three active scheduled tasks</a>, running once or daily, so a Monday-morning summary of your reviews or a weekly competitor check no longer needs a paid plan. Plus and Pro users also gained work-browser authentication, meaning ChatGPT can complete tasks on websites you are signed into.</p><p>Second, HubSpot's Breeze now <a href=\"https://www.lilachbullock.com/ai-news-this-week-small-business-6-september-2026/\" target=\"_blank\" rel=\"noopener\">ranks open invoices using revenue risk, customer risk and invoice risk, then prepares personalised collection emails</a>, and its connectors for ChatGPT and Claude now cover contacts, companies, deals, tickets, notes, tasks and meetings. If you invoice on 30-day terms, that is the chasing you keep putting off.</p><p>Third, Google announced voice features for Gmail, Docs and Keep: speak to find an email, draft a document, or turn a thought into an organised note. Rollout depends on your plan, so check your account rather than assuming.</p>",
+      "takeaway": "Set up one scheduled task in ChatGPT this week, even on the free plan. It is the lowest-effort automation available to you right now."
+    },
+    {
+      "heading": "Claude is moving into Salesforce",
+      "body_html": "<p>On August 26 Salesforce and Anthropic <a href=\"https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/\" target=\"_blank\" rel=\"noopener\">announced Claudeforce</a>. The piece that matters for a small sales team is \"Salesforce in Claude\", a plugin with 37 prebuilt sales skills that lets a rep read live pipeline data, update it and take governed actions without leaving Claude. It is with select pilot customers now and expected in open beta in September 2026. Pricing and packaging are described as subject to change, so none has been published.</p><p>Most GTA businesses we work with are on HubSpot or a spreadsheet, not Salesforce, and that is fine. The direction is the same everywhere: the AI assistant sits inside the CRM rather than beside it, and the HubSpot connectors above are the same idea one tier down.</p>",
+      "takeaway": "Whatever CRM you use, the question this month is whether your AI assistant can read and update it. If not, that is the integration to ask for."
+    },
+    {
+      "heading": "Canada put money on the table",
+      "body_html": "<p>The federal <a href=\"https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all\" target=\"_blank\" rel=\"noopener\">AI for All strategy</a> sets a target of raising business adoption of AI from 12 percent today to 60 percent by 2034, and it names the money: the LIFT program, a $500 million initiative from the Business Development Bank of Canada to help SMEs access financing to incorporate AI tools, plus a further $700 million in affordable compute through the Compute Access Fund. If you have been putting off an automation project because of the upfront cost, BDC financing is now a specific thing to ask about.</p><p>The adoption gap is real. CFIB's <a href=\"https://www.cfib-fcei.ca/en/research-economic-analysis/ai-adoption\" target=\"_blank\" rel=\"noopener\">April 2026 research</a> found nearly 45% of Canadian businesses use generative AI, but while 47% of businesses overall say they are investing in AI, only 42% of the smallest do, and just 27% plan to increase AI spending in 2026 while 52% have no plans at all. The same report cites SMEs using these tools gaining an average of 2.05 hours a day against 0.97 hours invested.</p>",
+      "takeaway": "More than half of Canadian small businesses have no AI plans for 2026. Being in the other half is a competitive position, and there is now financing for it."
+    },
+    {
+      "heading": "What to skip, and two deadlines",
+      "body_html": "<p>Skip the benchmark arguments entirely; they change monthly and never change what your receptionist or your booking flow can do. Two dated items are worth a calendar note. If your web developer builds with Cursor, <a href=\"https://www.lilachbullock.com/ai-news-this-week-small-business-6-september-2026/\" target=\"_blank\" rel=\"noopener\">OpenAI has said it intends to wind down its contract providing models to Cursor</a> after Cursor's acquisition by SpaceX, with a proposed shutoff of November 12, 2026; ask them what they are switching to. And Google's <a href=\"https://ai.google.dev/gemini-api/docs/changelog\" target=\"_blank\" rel=\"noopener\">gemini-omni-flash-preview endpoint is deprecated on September 30</a>, which only matters if someone built you a video or audio tool on it this summer.</p><p>One more useful release for multilingual GTA businesses: Gemini 3.5 Transcribe went generally available on August 26 with speech-to-text across 85+ languages, which is the building block for transcribing calls or voicemails in Punjabi, Cantonese or Tamil.</p>",
+      "takeaway": "Ask your developer two questions this month: does anything we run depend on Cursor, and does anything depend on a Gemini preview endpoint."
+    }
+  ],
+  "bottom_line_html": "<p>Every item this week points the same way: the models are getting better on their own, the raw cost keeps falling, and the features that matter are arriving inside tools you already own. The advantage has shifted from having AI to having it wired into your phone line, your invoicing and your CRM properly, with someone accountable for it. That wiring is what we do; if you want a plain-English look at where your business is leaking time or customers, the consultation is free.</p>",
+  "sources": [
+    { "label": "Al Jazeera: OpenAI unveils GPT-6 Astra (Sept 4, 2026)", "url": "https://www.aljazeera.com/economy/2026/9/4/openai-unveils-gpt-6-astra-amid-rising-scrutiny-and-safety" },
+    { "label": "Anthropic: Introducing Claude Fable 5.1 and Claude Mythos 5.1", "url": "https://www.anthropic.com/news" },
+    { "label": "Google AI for Developers: Gemini API changelog", "url": "https://ai.google.dev/gemini-api/docs/changelog" },
+    { "label": "Local AI Zone: September 2026 AI model updates and price moves", "url": "https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html" },
+    { "label": "OpenAI ChatGPT release notes (via Releasebot)", "url": "https://releasebot.io/updates/openai/chatgpt" },
+    { "label": "Salesforce: Salesforce and Anthropic announce Claudeforce", "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/" },
+    { "label": "Lilach Bullock: AI News This Week for Small Business, 6 September 2026", "url": "https://www.lilachbullock.com/ai-news-this-week-small-business-6-september-2026/" },
+    { "label": "Government of Canada: National AI Strategy, AI for All", "url": "https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all" },
+    { "label": "CFIB: AI Adoption and Workforce Training Investment in Canada", "url": "https://www.cfib-fcei.ca/en/research-economic-analysis/ai-adoption" }
+  ],
+  "related": [
+    { "label": "Our AI automation services", "href": "../../ai-automation/" },
+    { "label": "Best AI Video Generators in 2026", "href": "../best-ai-video-generators-2026/" },
+    { "label": "AI This Month: July 2026", "href": "../ai-news-for-business-july-2026/" }
+  ]
+}

@@ -109,9 +109,12 @@ House style (this format has performed well):
 ### 4. Publish
 
 ```
-cd C:\Users\Rujal\Documents\GitHub\Rujal_Tuladhar_Portfolio
-python tools/blog/publish_post.py tools/blog/posts/<file>.json --date <YYYY-MM-DD>
+python C:/Users/Rujal/Documents/GitHub/Rujal_Tuladhar_Portfolio/tools/blog/publish_post.py C:/Users/Rujal/Documents/GitHub/Rujal_Tuladhar_Portfolio/tools/blog/posts/<file>.json --date <YYYY-MM-DD>
 ```
+
+Use the absolute paths exactly as shown and do not `cd` first - the scheduled run is
+only pre-approved for this exact command shape, and the publisher locates the repo from
+its own path.
 
 It validates first and aborts before writing anything if a check fails —
 read the message, fix the JSON, re-run. On success it generates the cover,
