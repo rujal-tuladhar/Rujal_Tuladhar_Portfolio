@@ -47,7 +47,30 @@ def write(path, text):
     io.open(path, 'w', encoding='utf-8', newline='').write(text)
 
 def nl_of(text):
-    return '\r\n' if '\r\n' in text else '\n'
+    # Majority vote. A file with a handful of stray CRLF lines is an LF file.
+    crlf = text.count('\r\n')
+    return '\r\n' if crlf > (text.count('\n') - crlf) else '\n'
+
+
+def eol_after(text, i):
+    """Index just past the end of the line containing position i. Works for LF, CRLF and
+    mixed files: always look for the bare LF. (2026-09-18: searching for CRLF in a mostly-LF
+    homepage jumped ~2,300 lines and duplicated the whole page body.)"""
+    j = text.find('\n', i)
+    return len(text) if j == -1 else j + 1
+
+
+LANDMARKS = ('<!-- SLIDES:START', '<!-- LATEST-POST:START', '<!-- LATEST-POST:END -->', 'id="blog"',
+             '</main>', '<footer class="footer"', '</html>')
+
+def guard_homepage(before, after):
+    """Refuse to write a homepage that grew suspiciously or duplicated a landmark."""
+    for mark in LANDMARKS:
+        if after.count(mark) != 1:
+            fail('homepage guard: %r appears %d times after edit (must be 1) - nothing written' % (mark, after.count(mark)))
+    grew = len(after) - len(before)
+    if abs(grew) > 8000:
+        fail('homepage guard: index.html changed by %d chars in one publish - nothing written' % grew)
 
 def strip_tags(s):
     return re.sub(r'<[^>]+>', ' ', s)
@@ -296,7 +319,7 @@ def insert_after_marker(text, marker, block, label):
     if i == -1:
         fail('%s: marker %r not found' % (label, marker))
     nl = nl_of(text)
-    j = text.find(nl, i) + len(nl)
+    j = eol_after(text, i)
     return text[:j] + block.replace('\n', nl) + nl + text[j:]
 
 
@@ -305,7 +328,10 @@ def replace_between(text, start, end, block, label):
     if i == -1 or j == -1 or j < i:
         fail('%s: markers %r / %r not found' % (label, start, end))
     nl = nl_of(text)
-    i = text.find(nl, i) + len(nl)
+    i = eol_after(text, i)
+    if i > j:
+        fail('%s: start marker line runs past the end marker' % label)
+    j = text.rfind('\n', 0, j) + 1          # keep the END marker's own indentation
     return text[:i] + block.replace('\n', nl) + nl + text[j:]
 
 
@@ -410,6 +436,7 @@ def main():
     # 4b. homepage slider + latest-post strip
     hp = os.path.join(REPO, 'index.html')
     h = read(hp)
+    h_before = h
     slide = '''                    <!-- slide:%s -->
                     <div class="swiper-slide">
                         <article class="blog__card">
@@ -443,6 +470,7 @@ def main():
                 </a>''' % (slug, html.escape(post['category']), html.escape(post['title']), human_date(date_iso))
     if not update or strip_points_at(h, slug):
         h = replace_between(h, '<!-- LATEST-POST:START', '<!-- LATEST-POST:END -->', strip, 'index.html latest strip')
+    guard_homepage(h_before, h)
     write(hp, h)
     print('updated index.html slider + latest-post strip')
 
