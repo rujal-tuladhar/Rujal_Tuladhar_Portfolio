@@ -166,3 +166,8 @@ _(append dated notes here when something about the process changes)_
   bumps the sitemap `lastmod`, and keeps the original publish date in the log. The
   daily run never uses `--update`, so the unique-slug guard still protects it.
   First used to re-rank the AI-video roundup to Rujal’s order: Seedance 2.5 > Kling 3.0 > Veo 3.1.
+
+### 2026-09-19 - homepage got duplicated by the Sept 18 run (fixed)
+- Cause: index.html had mixed line endings after a hand edit with `sed -i`. The publisher looked for CRLF to find the end of the marker line, found the first one ~2,300 lines lower, and re-pasted the page body. Every section and every post showed twice.
+- Fix: homepage rebuilt from the last good commit plus the Sept 18 slide and strip. `publish_post.py` now uses `eol_after()` (bare LF), `nl_of()` is a majority vote, and `guard_homepage()` aborts if any landmark is not exactly once or the file changes by more than 8,000 chars.
+- Rule: never hand-edit index.html with `sed -i` on Windows. Use a Python read/write with `newline=""`, and check `git diff --stat` shows only the lines you meant to touch.
