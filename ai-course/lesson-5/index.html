@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Describe an image clearly enough for an AI tool to make it, understand what AI video can and cannot do today, and know the honesty, privacy and owners">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-course/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-course/">
+    <meta property="og:title" content="Lesson 5: Images and Video: Making Visuals Without a Designer | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="og:description" content="Describe an image clearly enough for an AI tool to make it, understand what AI video can and cannot do today, and know the honesty, privacy and owners">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 5: Images and Video: Making Visuals Without a Designer | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="twitter:description" content="Describe an image clearly enough for an AI tool to make it, understand what AI video can and cannot do today, and know the honesty, privacy and owners">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 5: Images and Video: Making Visuals Without a Designer | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 5 of 7 &bull; about 14 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">Images and Video: Making Visuals Without a Designer</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Describe an image clearly enough for an AI tool to make it, understand what AI video can and cannot do today, and know the honesty, privacy and ownership cautions before using AI visuals in public.</div>
+
+                <p>So far you have used AI for words. Today you will use it for pictures. If you have ever needed a graphic for a holiday promotion and had no designer and no budget, this lesson is for you.</p><p>You will learn a simple recipe for describing an image, see what AI video can and cannot do today, and learn the honesty, privacy and ownership rules to follow before anything goes public.</p>
+
+                <h2>You describe, it draws: the six-part recipe</h2>
+                <p>An AI image tool turns a written description into a picture. You describe, it draws. It has never seen your shop, your street or your taste, so the description is everything. The first result is rarely the keeper, so plan on two or three rounds.</p><p>A good description has six parts:</p><ul><li><strong>Subject:</strong> the main thing in the picture.</li><li><strong>Setting:</strong> where it is.</li><li><strong>Style:</strong> realistic photo, watercolour or flat illustration.</li><li><strong>Lighting and mood:</strong> warm morning light, cozy, bright and clean.</li><li><strong>Shape:</strong> square for social posts, wide for a website banner.</li><li><strong>What to leave out:</strong> text, logos, people.</li></ul><p><strong>Worked example, a bakery's fall post:</strong> <em>Butter tarts and a sourdough loaf on a wooden counter, in a small neighbourhood bakery with a window behind. Realistic photo style, warm morning light, cozy autumn feel. Square image. No text, no logos, no people. Leave empty space at the top for wording I will add later.</em></p><p><strong>Where to try it for free:</strong> <a href="https://chatgpt.com/pricing/" target="_blank" rel="noopener">ChatGPT's free plan</a> lists "limited image creation". <a href="https://support.google.com/gemini/answer/16275805?hl=en" target="_blank" rel="noopener">Gemini</a> includes image generation without a paid plan. Microsoft's <a href="https://www.bing.com/images/create/help?FORM=GENHLP" target="_blank" rel="noopener">Bing Image Creator</a> is free with a personal Microsoft account. It gives 15 fast creations a day, then slower ones. <a href="https://www.canva.com/help/ai-access/" target="_blank" rel="noopener">Canva's free plan</a> allows up to 20 AI uses a month. Most companies do not publish an exact daily number and limits change often, so expect to hit a cap.</p>
+                <h2>Common failures, quick fixes and sensible uses</h2>
+                <p>AI images go wrong in a few predictable ways:</p><ul><li><strong>Garbled text.</strong> Words can come out misspelled, especially small ones. Ask for no text and add the wording yourself afterwards.</li><li><strong>Strange hands and faces.</strong> Zoom in and count fingers. The easy fix is to leave people out.</li><li><strong>The wrong logo.</strong> AI cannot reliably copy your logo and may invent one. Ask for no logos, then place your real logo file on top.</li><li><strong>A generic "stock" look.</strong> Add details only you would know: your colours, a real product, the season.</li></ul><p>When a result is off, simplify the prompt, change one thing at a time and generate again.</p><p>Good jobs for AI images in a small business:</p><ul><li>Backgrounds for social posts</li><li>A seasonal promotion graphic</li><li>A blog header</li><li>A mock-up to show a customer an idea</li><li>A concept picture to brief a real designer or photographer</li></ul>
+                <h2>The honesty line: illustration, not evidence</h2>
+                <p>Never present an AI image as a photo of your actual work, your actual team or real customers. A renovation company that shows AI kitchens as finished jobs is not doing clever marketing. It is making a misleading claim.</p><p>This is a legal matter in Canada, not just good manners. The <a href="https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/false-or-misleading-representations-and-deceptive-marketing-practices" target="_blank" rel="noopener">Competition Bureau</a> explains that the Competition Act prohibits materially false or misleading claims made to promote a product or business. The law looks at the "general impression" an ad gives, as well as its literal meaning. Nobody has to be actually fooled for a court to find an ad misleading, and the Bureau warns that fine print often fails to change the overall impression. A tiny AI note under a made-up finished job may not save you. This is general information, not legal advice.</p><p>Social platforms have rules too. <a href="https://help.instagram.com/761121959519495/?cms_platform=iphone-app&helpref=platform_switcher" target="_blank" rel="noopener">Meta</a> requires a label on photorealistic video or realistic-sounding audio that was made or altered digitally, including with AI. It does not require you to label AI images, but may add a label itself if its systems detect one. <a href="https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content" target="_blank" rel="noopener">TikTok</a> requires labels on AI content with realistic images, audio or video. <a href="https://support.google.com/youtube/answer/14328491?hl=en" target="_blank" rel="noopener">YouTube</a> requires creators to disclose realistic altered or AI-made content.</p><p>Many tools also mark their output. <a href="https://help.openai.com/en/articles/8912793-provenance-signals-content-credentials-synthid-in-openai-generated-content" target="_blank" rel="noopener">OpenAI</a> says supported ChatGPT images include Content Credentials (hidden data recording where a file came from) and an invisible watermark. <a href="https://gemini.google/overview/image-generation/" target="_blank" rel="noopener">Google</a> says Gemini images carry an invisible watermark and a visible one. Platforms such as Instagram and TikTok can read these signals and add a label on their own. Do not try to remove them. Canva's AI terms, for example, forbid it.</p>
+                <h2>AI video in plain terms</h2>
+                <p>AI video comes in three kinds:</p><ul><li><strong>Short clips</strong> made from a text description or from one photo.</li><li><strong>AI voiceover:</strong> a computer voice reads your script.</li><li><strong>AI presenters:</strong> a digital person, often called an avatar, speaks your script on screen.</li></ul><p>Free options are limited. <a href="https://support.google.com/gemini/answer/16275805?hl=en" target="_blank" rel="noopener">Google's limits page</a> shows video generation in Gemini needs a paid plan. ChatGPT's free plan lists image creation but no video. Canva's AI video clip tool sits in a tier its free plan cannot use. <a href="https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html" target="_blank" rel="noopener">Adobe</a> says people on plans without premium features get a few free trial generations, currently 2 video generations as its example. Microsoft's Bing help page says video creation is offered only in the Bing mobile app.</p><p>So treat free AI video as a taste test. A polished 30-second ad still takes paid tools, many attempts and editing skill. A realistic plan for this month: film ten seconds of real footage on your phone and let AI help with the script and caption.</p>
+                <h2>Privacy, ownership, real people and what it means for your business</h2>
+                <p><strong>Keep customer information out of AI tools.</strong> Do not upload photos of customers, staff or children, and do not type names, addresses, phone numbers or other personal details into a prompt, unless you have clear permission. Canva's AI terms, for example, say what you type in may be shared with its technology partners. Describe the scene in general words instead.</p><p><strong>Do not generate real people, celebrities, or other companies' logos and characters.</strong> You do not have the right to use someone's face or another company's brand. <a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse" target="_blank" rel="noopener">Microsoft's Copilot terms</a>, for example, forbid making or editing images, voice or video of other people without their permission.</p><p><strong>Check each tool's terms before business use.</strong> <a href="https://openai.com/policies/terms-of-use/" target="_blank" rel="noopener">OpenAI's terms</a> say that, between you and OpenAI, you own the output. <a href="https://www.canva.com/policies/ai-product-terms/" target="_blank" rel="noopener">Canva's AI terms</a> say much the same and allow any lawful use at your own risk. Both warn that another user may get a similar image. Adobe says Firefly output from features without a beta label can be used in commercial projects. Microsoft's Copilot terms for individuals say you can only use Copilot for your own personal use, so read them before using its images for a business.</p><p><strong>Copyright is unsettled.</strong> A tool handing you its rights is not the same as the law granting you copyright. A 2025 <a href="https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/consultation-copyright-age-generative-artificial-intelligence-what-we-heard-report" target="_blank" rel="noopener">Government of Canada report</a> on copyright and generative AI noted that Canadian courts had not yet commented on who is the author or owner of AI-made content. It also noted that existing case law suggests an author must be a human using skill and judgment. In practice, assume you may not be able to stop someone copying a purely AI-made image, and do not build your logo on one.</p><p><strong>For a GTA small business:</strong> you can now make a decent promotional graphic for free, often in about ten minutes. Use AI for ideas and illustration. Keep real photos for anything that claims to show your real work.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Make one graphic you could really post this month (about 10 minutes)</h2>
+                    <ol>
+                        <li>Open a free AI chat tool that can create images, such as ChatGPT or Gemini, and sign in. If your course tool is Claude, which does not make pictures, borrow one of these for today. Pick one real thing to promote this month, for example a seasonal offer or a &#x27;now booking&#x27; announcement.</li>
+                        <li>Copy the image recipe prompt below and fill in every blank: Subject, Setting, Style, Lighting and mood, Shape, and What to leave out. Do not upload customer photos or type any personal details. Ask for no text in the image, then send it.</li>
+                        <li>Look closely at the result. Zoom in and check for odd hands, strange objects, stray lettering and made-up logos.</li>
+                        <li>Improve it with one or two follow-up messages, changing one thing at a time. For example: &#x27;make the background simpler&#x27;, then &#x27;warmer colours, more natural light&#x27;. If you hit the free limit, stop and keep the best one so far.</li>
+                        <li>Save the best version to your phone or laptop. In the same chat, ask for a two-sentence caption using the caption prompt below, and correct any detail it gets wrong.</li>
+                        <li>Ask yourself: could anyone think this picture shows my real work, team or customers? If yes, use a real photo instead. Later, outside the ten minutes, add your wording and your real logo yourself in a free design tool or your phone&#x27;s photo editor.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Image recipe prompt</h3>
+                <button type="button" class="c-copy" data-copy="p5-0">Copy prompt</button>
+                <div class="c-prompt" id="p5-0">Create an image for my [type of business] in [city or neighbourhood]. Subject: [main thing in the picture]. Setting: [where it is]. Style: [realistic photo / watercolour / flat illustration]. Lighting and mood: [for example, warm morning light, cozy]. Shape: [square for social media / wide for a website banner]. Leave out: no text, no logos, no real people. Leave empty space at the [top / bottom] so I can add my own wording later.</div>
+                <h3>Follow-up fix (one change at a time)</h3>
+                <button type="button" class="c-copy" data-copy="p5-1">Copy prompt</button>
+                <div class="c-prompt" id="p5-1">Keep the same picture, but change only this: [make the background simpler / use warmer colours and more natural light / remove the extra objects on the left]. Do not add any text or logos.</div>
+                <h3>Two-sentence caption</h3>
+                <button type="button" class="c-copy" data-copy="p5-2">Copy prompt</button>
+                <div class="c-prompt" id="p5-2">Write a two-sentence caption for this image for my [type of business] in [neighbourhood]. The post is about [promotion or announcement] and the details are [dates, price or how to book]. Use friendly, plain language with no exaggerated claims. End with [call us / message us / visit us at ...].</div>
+                <h3>Honesty check before posting</h3>
+                <button type="button" class="c-copy" data-copy="p5-3">Copy prompt</button>
+                <div class="c-prompt" id="p5-3">I plan to use this AI image for [where and how you will use it]. Could a customer reasonably think it shows my real work, my real staff or real customers? Answer yes or no first, then explain why in two sentences and suggest a more honest way to use it.</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l5c0"><span>My prompt covered Subject, Setting, Style, Lighting and mood, Shape, and What to leave out.</span></label>
+                    <label><input type="checkbox" data-id="l5c1"><span>I did not upload customer or staff photos or type anyone&#x27;s personal details into the tool.</span></label>
+                    <label><input type="checkbox" data-id="l5c2"><span>I asked for no text in the image and will add the wording and my real logo myself.</span></label>
+                    <label><input type="checkbox" data-id="l5c3"><span>I zoomed in and checked hands, faces, objects and stray lettering before saving.</span></label>
+                    <label><input type="checkbox" data-id="l5c4"><span>The image contains no real person, no celebrity and no other company&#x27;s logo or character.</span></label>
+                    <label><input type="checkbox" data-id="l5c5"><span>Nothing in my post suggests the image shows my real work, my real team or real customers.</span></label>
+                    <label><input type="checkbox" data-id="l5c6"><span>I read the tool&#x27;s terms on business use, and I will label realistic AI video or audio where the platform requires it.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> AI can give you a decent illustration for free in a few minutes, but only a real photo can show your real work.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://chatgpt.com/pricing/" target="_blank" rel="noopener">ChatGPT pricing and plan comparison (Free plan: limited image creation)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/16275805?hl=en" target="_blank" rel="noopener">Google: Gemini Apps limits and upgrades (image and video generation by plan)</a> &bull;
+                    <a href="https://gemini.google/overview/image-generation/" target="_blank" rel="noopener">Google: Gemini image generation overview (SynthID and visible watermark)</a> &bull;
+                    <a href="https://www.bing.com/images/create/help?FORM=GENHLP" target="_blank" rel="noopener">Microsoft: Bing Image Creator help (free with a Microsoft account, 15 fast creations a day, optional visible watermark, video on mobile only)</a> &bull;
+                    <a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse" target="_blank" rel="noopener">Microsoft Copilot Terms of Use for individuals (effective August 18, 2026)</a> &bull;
+                    <a href="https://www.canva.com/help/ai-access/" target="_blank" rel="noopener">Canva Help Centre: Understanding your AI usage (Free plan allowance and tiers)</a> &bull;
+                    <a href="https://www.canva.com/policies/ai-product-terms/" target="_blank" rel="noopener">Canva AI Product Terms (effective 26 June 2026)</a> &bull;
+                    <a href="https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html" target="_blank" rel="noopener">Adobe: Generative credits FAQ (trial generations, commercial use; updated Sep 30, 2026)</a> &bull;
+                    <a href="https://openai.com/policies/terms-of-use/" target="_blank" rel="noopener">OpenAI Terms of Use (ownership of content, similarity of content)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/8912793-provenance-signals-content-credentials-synthid-in-openai-generated-content" target="_blank" rel="noopener">OpenAI Help Center: Provenance signals (Content Credentials, SynthID) in OpenAI-generated content</a> &bull;
+                    <a href="https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/false-or-misleading-representations-and-deceptive-marketing-practices" target="_blank" rel="noopener">Competition Bureau Canada: False or Misleading Representations and Deceptive Marketing Practices</a> &bull;
+                    <a href="https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/consultation-copyright-age-generative-artificial-intelligence-what-we-heard-report" target="_blank" rel="noopener">Government of Canada (ISED): Consultation on Copyright in the Age of Generative AI, What We Heard Report (2025-02-11)</a> &bull;
+                    <a href="https://help.instagram.com/761121959519495/?cms_platform=iphone-app&amp;helpref=platform_switcher" target="_blank" rel="noopener">Instagram Help Centre: Label AI content on Instagram (Meta labelling rules; shown in the mobile app view)</a> &bull;
+                    <a href="https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content" target="_blank" rel="noopener">TikTok Support: About AI-generated content</a> &bull;
+                    <a href="https://support.google.com/youtube/answer/14328491?hl=en" target="_blank" rel="noopener">YouTube Help: Disclosing use of altered or synthetic content</a>
+                </p>
+
+                <div class="c-nav">
+                    <a href="../lesson-4/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 4</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="5">Mark this lesson complete</button>
+                    <a href="../lesson-6/" class="button button--flex">Next: lesson 6 <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-course';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>

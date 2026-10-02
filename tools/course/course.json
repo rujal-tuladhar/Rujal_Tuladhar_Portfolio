@@ -1,0 +1,1039 @@
+{
+ "course_title": "AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work",
+ "promise": "In seven 10-15 minute lessons you will go from \"I have barely touched AI\" to using a free AI chat tool for real work: writing emails, checking facts, making a simple image, protecting customer information under Canadian rules, and setting up one small task that runs on its own steps every week. No technical background, no paid software, one hands-on exercise per lesson.",
+ "audience": "Adults with no technical background who have barely used AI, especially owners and staff of small businesses in the Greater Toronto Area (trades, clinics, shops, restaurants, home services, professional offices). They have a phone or laptop, an email address, and about 15 minutes a day. They are curious but cautious: worried about getting wrong answers, looking foolish, or leaking customer information.",
+ "cover_title": "Free AI Course for Beginners",
+ "date": "2026-10-02",
+ "landing": {
+  "meta_title": "Free AI Course for Beginners | Nova Toronto",
+  "meta_description": "Free AI course for beginners: 7 short lessons on using AI confidently and safely at work. Plain English, free tools only, built for GTA small businesses.",
+  "h1": "Free AI Course for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work",
+  "subhead": "Seven plain-English lessons, each with a hands-on exercise you can finish on a free AI tool, written for small business owners and staff in the Greater Toronto Area.",
+  "learn_bullets": [
+   "What an AI chat tool actually is, what it does well, and where it gets things wrong while sounding sure of itself",
+   "The five-part prompt: how to ask so the answer fits your business instead of any business",
+   "How to draft, shorten and re-tone real emails and messages while keeping your own voice",
+   "A three-step check for any AI answer, so you verify a fact before you rely on it",
+   "How to make a usable promotional image, and the honesty and ownership rules to follow before you post it",
+   "A traffic-light rule for privacy under Canadian rules, a one-page AI rule for your team, and your first reusable routine for one repetitive task"
+  ],
+  "who_for": [
+   "Small business owners in the GTA who have barely touched AI and want a sensible place to start",
+   "Office managers and staff who write the emails, quotes, posts and replies",
+   "Anyone who tried an AI tool once, got a generic answer and gave up",
+   "People who want to use AI at work without putting customer information at risk"
+  ],
+  "faq": [
+   {
+    "q": "Is it really free?",
+    "a": "Yes. All seven lessons are free. You give us your email address so we can send you the course, and that is the whole exchange. There is no trial period, no card and no paid upgrade."
+   },
+   {
+    "q": "Do I need to pay for any AI tool?",
+    "a": "No. Every exercise is designed for the free plan of a common AI chat tool such as ChatGPT, Claude, Gemini or Copilot. Free plans have usage limits and they change, so the lessons tell you what was true on the day we checked and link to each company's own pages."
+   },
+   {
+    "q": "How long does it take?",
+    "a": "Each lesson is about 12 to 15 minutes of reading plus a hands-on exercise of roughly 10 minutes. The whole course is about three hours. You can do one lesson a day for a week or go at your own pace."
+   },
+   {
+    "q": "Will you spam me?",
+    "a": "No. You will get the course by email and occasional practical tips from Nova Toronto. You can stop the emails at any time by replying STOP. We do not sell your email address."
+   },
+   {
+    "q": "Do I need technical skills?",
+    "a": "No. If you can send an email and use a web browser, you can do this course. There is no coding, no software to install and no jargon left unexplained."
+   }
+  ],
+  "form_note": "By signing up, you agree to receive this course by email and occasional practical tips from Nova Toronto (novatoronto.com, 365-355-3133). Unsubscribe at any time by replying STOP.",
+  "welcome_email": "Hi,\n\nThanks for signing up. Your free course, AI for Beginners, is ready here:\n\n{START_URL}\n\nThere are seven short lessons. Each one is about 15 minutes of reading plus a 10-minute exercise on a free AI tool. Start with Lesson 1 and go at your own pace. No credit card or technical background is needed.\n\nI will also send an occasional practical tip. To stop these emails at any time, reply STOP or email novatoronto.ca@gmail.com.\n\nIf you get stuck, email me at novatoronto.ca@gmail.com or call 365-355-3133 and I will help.\n\nRujal Tuladhar\nNova Toronto\nnovatoronto.com",
+  "start_page_intro": "Welcome to AI for Beginners. Work through the seven lessons in order, pick one free AI tool in Lesson 1, and do each short exercise before you move on, because the exercises are where the habits form.",
+  "finish_note": "That is the whole course, and the seven habits are yours to keep. If you would like a second opinion on where AI or automation could fit in your own business, you can book a free 30-minute consultation with Rujal at Nova Toronto. There is no obligation, and if the honest answer is that a saved prompt is all you need, that is what you will hear."
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "slug": "lesson-1",
+   "title": "What AI Actually Is (and What It Is Not)",
+   "minutes": 12,
+   "objective": "Explain in one sentence what an AI chat tool does, name three things it is good at and three things it gets wrong, and hold a first real conversation with one.",
+   "intro_html": "<p>Welcome. If you have barely touched AI, you are in the right place. Nothing in this lesson needs a credit card or a technical background. The reading takes about 12 minutes and the exercise about 10.</p><p>By the end you will know what an AI chat tool really is, where it helps and where it slips. You will also have had your first proper conversation with one, and you will test it with a question it may well get wrong, so that a confident mistake never catches you off guard later.</p>",
+   "sections": [
+    {
+     "heading": "The plain-English picture",
+     "body_html": "<p>An AI chat tool is a very well-read text predictor. It has been trained on a huge amount of writing. When you type a message, it builds a reply a few words at a time, choosing the words that are most likely to fit.</p><p>Here is your one-sentence version: <strong>an AI chat tool reads what you type and writes the most likely helpful reply, based on patterns in the text it learned from.</strong></p><p>Two things follow from that.</p><ul><li><strong>It does not know your business.</strong> It has never seen your price list, your booking calendar or your customers.</li><li><strong>It does not always look things up.</strong> Most tools now have a web search feature. When search is not used, the reply comes only from training, and training stops at a certain date.</li></ul><p>A helpful comparison is a new hire on their first day. They are fast, well read and happy to draft anything you ask for. They have also never met your customers, do not know how you do things, and will sometimes say something wrong in a completely confident voice. You would not let that person send a quote without reading it first. Treat the AI tool the same way.</p>"
+    },
+    {
+     "heading": "Where it helps and where it slips",
+     "body_html": "<p>AI chat tools are good with words. Six jobs they do well:</p><ul><li><strong>First drafts</strong> of emails, notices and posts</li><li><strong>Rewording</strong> a message in a friendlier or firmer tone</li><li><strong>Summarizing</strong> long text into a few lines</li><li><strong>Explaining</strong> something in simpler words</li><li><strong>Listing ideas</strong>, such as names for a seasonal special</li><li><strong>Tidying messy notes</strong> into a clean list or table</li></ul><p>They are weak in places that matter to a business:</p><ul><li><strong>Arithmetic on long lists.</strong> Adding up thirty invoice lines in a plain chat can go wrong. Use a calculator or a spreadsheet.</li><li><strong>Recent events.</strong> Without web search, it only has its training, which stops at a certain date.</li><li><strong>Your local details.</strong> Your hours, your prices, the parking on your street.</li><li><strong>Legal, medical and tax decisions.</strong> It can explain a term. It cannot take responsibility for a decision, and it does not replace a professional.</li><li><strong>Admitting doubt.</strong> It can sound just as sure when it is wrong as when it is right.</li></ul><p>That last weakness has a name. A <strong>hallucination</strong> is an answer the tool has made up but states with confidence: a wrong date, an invented quote, a source that does not exist.</p><p>This is not a rumour. The companies say it themselves. OpenAI's help page <a href=\"https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth\" target=\"_blank\" rel=\"noopener\">Does ChatGPT tell the truth?</a> explains that it can sound sure when it is wrong. Anthropic has a <a href=\"https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on\" target=\"_blank\" rel=\"noopener\">similar page for Claude</a>. Microsoft's <a href=\"https://www.microsoft.com/en-ca/microsoft-copilot/for-individuals/termsofuse\" target=\"_blank\" rel=\"noopener\">Copilot terms</a> tell you to check its answers before you act. And Google prints a warning on the Gemini chat page: \"Gemini is AI and can make mistakes.\"</p>"
+    },
+    {
+     "heading": "Which free tool to open",
+     "body_html": "<p>Four well-known chat tools offer a free plan. We checked each company's own pages on October 2, 2026. Free plans change often, so treat this as a snapshot.</p><ul><li><strong>ChatGPT</strong> (from OpenAI) at <a href=\"https://chatgpt.com\" target=\"_blank\" rel=\"noopener\">chatgpt.com</a>. You can try a basic chat without logging in. Logging in with a free account adds saved chats, file uploads and picture-making. OpenAI says everyday text chats are unlimited on the free plan. Uploads, pictures and voice have their own smaller limits. Minimum age is 13, with a parent's permission if you are under 18.</li><li><strong>Claude</strong> (from Anthropic) at <a href=\"https://claude.ai\" target=\"_blank\" rel=\"noopener\">claude.ai</a>. You need a free account and a mobile number that can receive a text code. The free plan includes chat, web search and file creation. Its usage limit resets every five hours, and the number of messages you get varies with demand. Picture-making is not on its list of features. You must be 18 or older.</li><li><strong>Google Gemini</strong> at <a href=\"https://gemini.google.com\" target=\"_blank\" rel=\"noopener\">gemini.google.com</a>. Some features work without signing in. For the rest you use a personal Google account, such as a Gmail address. Minimum age is 13, or the age set for your country. The free plan includes picture-making. Its limit refreshes every five hours until you reach a weekly limit.</li><li><strong>Microsoft Copilot</strong> at <a href=\"https://copilot.microsoft.com\" target=\"_blank\" rel=\"noopener\">copilot.microsoft.com</a>. You can sign in with a Microsoft, Apple or Google account. The free version includes chat and answers based on web search. Signing in adds chat history and picture-making. Minimum age is 13, higher in some countries.</li></ul><p>All four also have apps that are free to download from the Canadian App Store and Google Play.</p><p><strong>What is a limit?</strong> Free plans ration heavier use. When you reach a limit, the tool tells you and you wait for it to reset. You are not charged. Each tool also sells paid plans. You do not need one for this course.</p><p><strong>How to choose:</strong> if you already use Gmail, Gemini is the least effort. If you have a Microsoft account, try Copilot, but read its terms first: Microsoft's terms for the individual version say it is for your own personal use, which Lesson 5 comes back to. Otherwise pick ChatGPT or Claude. Then stay with that one tool for the whole course, so you learn its habits. The one exception is Lesson 5, which is about pictures: Claude does not make them, so Claude users will borrow a second tool for that lesson.</p>"
+    },
+    {
+     "heading": "The one rule: AI drafts, you decide",
+     "body_html": "<p>One rule carries through this whole course: <strong>AI drafts, you decide.</strong></p><p>The tool can write the email. You are the one who signs it. It can suggest wording for a quote. You are the one who sends it and answers to the customer if a number is wrong. \"The AI told me\" will not settle a complaint.</p><p>A second habit starts today: <strong>keep private details out of the chat.</strong> Do not type or paste customer names, phone numbers, addresses, health details, card numbers or passwords. ChatGPT's own home page tells you not to share sensitive information and says chats may be reviewed. Lesson 6 covers what is safe to share.</p><p>For a small business in the Greater Toronto Area, the first step is small. You do not need to buy software or hire a consultant to begin. You need two things:</p><ul><li>one free tool, and</li><li>the habit of treating everything it gives you as a draft.</li></ul><p>A plumber in Scarborough, a dental office in Mississauga and a café in Leslieville can all start the same way: ask for a draft, read it with a critical eye, fix what is wrong, and only then use it.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Your first three-message conversation (about 10 minutes)",
+    "steps": [
+     "Open the free AI chat tool you picked, in a web browser or its phone app. If creating an account takes more than a couple of minutes, ChatGPT lets you do this exercise without logging in. Do not type customer names, phone numbers or any private details. Lesson 6 covers what is safe to share.",
+     "Send Message 1 (the first prompt below), filling in your type of business and your city. Read the reply and pick one task you would actually hand over.",
+     "Send Message 2 (the second prompt below). It asks about something you already know: your own business hours and nearest main intersection. Use only details that are already public, such as what is on your sign or website. If you work from home, ask about a local shop you know well instead of giving your home address.",
+     "Compare its answer with what you know to be true. Notice whether it was right, wrong, vague, or honest about not knowing.",
+     "Send Message 3 (the third prompt below) to ask how confident it is and how you would check the answer.",
+     "Write down three short notes: one thing it got right, one thing it got wrong or vague, and how it reacted when you challenged it. If it got everything right, note how you confirmed that. Sounding sure and being right are not the same thing, and that is the most important thing you will learn today."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Message 1: What can you help me with?",
+     "text": "I run a [your type of business] in [your city]. Explain to me, in plain language with no jargon, three everyday tasks you could help me with and three you should not be trusted with."
+    },
+    {
+     "label": "Message 2: A question you already know the answer to",
+     "text": "What are the opening hours of [your business name] at [your street and city], and what is the nearest main intersection?"
+    },
+    {
+     "label": "Message 3: The confidence check",
+     "text": "How confident are you in that last answer, where did the information come from, and how would I check it?"
+    },
+    {
+     "label": "Bonus: Explain yourself simply",
+     "text": "In two sentences a new employee at a [your type of business] would understand, explain what you are and one reason I should double-check what you tell me."
+    }
+   ],
+   "checklist": [
+    "I can say in one sentence what an AI chat tool does.",
+    "I can name three things it is good at (for example drafting, summarizing, rewording).",
+    "I can name three things it gets wrong (for example long sums, recent events, details about my own business).",
+    "I know what a hallucination is: a confident, made-up answer.",
+    "I picked one free tool and will use the same one for the whole course.",
+    "I did not type any customer names or private details into the chat.",
+    "I had a three-message conversation and wrote down one thing it got right and one it got wrong or vague."
+   ],
+   "takeaway": "An AI chat tool is a fast, well-read assistant that predicts helpful words rather than knowing facts, so it drafts and you decide.",
+   "sources": [
+    {
+     "label": "OpenAI Help Center: ChatGPT Free Tier FAQ (free plan features and limits)",
+     "url": "https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq"
+    },
+    {
+     "label": "OpenAI Help Center: Does ChatGPT tell the truth? (hallucinations)",
+     "url": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth"
+    },
+    {
+     "label": "OpenAI Terms of Use (minimum age, accuracy of output)",
+     "url": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+     "label": "ChatGPT home page (chat without logging in; log in for saved chats, images and uploads; notice about sensitive information)",
+     "url": "https://chatgpt.com/"
+    },
+    {
+     "label": "Claude plans and pricing (Free plan features)",
+     "url": "https://claude.com/pricing"
+    },
+    {
+     "label": "Claude Help Center: Get started with Claude (18+, five-hour usage limit on free)",
+     "url": "https://support.claude.com/en/articles/8114491-get-started-with-claude"
+    },
+    {
+     "label": "Claude Help Center: Verify your phone number",
+     "url": "https://support.claude.com/en/articles/8287232-verify-your-phone-number"
+    },
+    {
+     "label": "Claude Help Center: Claude is providing incorrect or misleading responses",
+     "url": "https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on"
+    },
+    {
+     "label": "Gemini Apps Help: What you need to sign in to Gemini Apps (account and age)",
+     "url": "https://support.google.com/gemini/answer/13278668?hl=en"
+    },
+    {
+     "label": "Gemini Apps Help: Gemini Apps limits and upgrades (free limits, five-hour refresh, image generation)",
+     "url": "https://support.google.com/gemini/answer/16275805?hl=en"
+    },
+    {
+     "label": "Google Gemini web app (\"Gemini is AI and can make mistakes\" notice)",
+     "url": "https://gemini.google.com/"
+    },
+    {
+     "label": "Microsoft Support: Difference between Microsoft Copilot (free) and Copilot in Microsoft 365",
+     "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365"
+    },
+    {
+     "label": "Microsoft Copilot Terms of Use, Canada (age, Copilot can make mistakes)",
+     "url": "https://www.microsoft.com/en-ca/microsoft-copilot/for-individuals/termsofuse"
+    },
+    {
+     "label": "Microsoft Support: Copilot age limits and parental controls",
+     "url": "https://support.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-age-limits-and-parental-controls"
+    },
+    {
+     "label": "Microsoft Copilot sign-in page (Microsoft, Apple or Google account)",
+     "url": "https://copilot.microsoft.com/"
+    },
+    {
+     "label": "App Store Canada: ChatGPT",
+     "url": "https://apps.apple.com/ca/app/chatgpt/id6448311069"
+    },
+    {
+     "label": "App Store Canada: Claude by Anthropic",
+     "url": "https://apps.apple.com/ca/app/claude-by-anthropic/id6473753684"
+    },
+    {
+     "label": "App Store Canada: Google Gemini",
+     "url": "https://apps.apple.com/ca/app/google-gemini/id6477489729"
+    },
+    {
+     "label": "App Store Canada: Microsoft Copilot",
+     "url": "https://apps.apple.com/ca/app/microsoft-copilot/id541164041"
+    },
+    {
+     "label": "Google Play Canada: ChatGPT",
+     "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en_CA&gl=CA"
+    },
+    {
+     "label": "Google Play Canada: Claude by Anthropic",
+     "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=en_CA&gl=CA"
+    },
+    {
+     "label": "Google Play Canada: Google Gemini",
+     "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=en_CA&gl=CA"
+    },
+    {
+     "label": "Google Play Canada: Microsoft Copilot",
+     "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow&hl=en_CA&gl=CA"
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "slug": "lesson-2",
+   "title": "How to Ask: The Five-Part Prompt",
+   "minutes": 12,
+   "objective": "Write a prompt that includes who you are, what you want, the context, the format and the limits, and improve a weak answer with follow-up messages instead of starting over.",
+   "intro_html": "<p>In Lesson 1 you had your first real conversation with an AI chat tool. Today you learn the skill that most changes the quality of what you get back: how to ask.</p><p>A <strong>prompt</strong> is simply the message you type into the tool. You do not need special words or tricks. You need five small pieces of information, and the habit of replying to a weak answer instead of giving up on it.</p>",
+   "sections": [
+    {
+     "heading": "Why vague questions get vague answers",
+     "body_html": "<p>An AI chat tool does not know your business. It does not know your street, your customers, your prices or how you talk. When you leave those out, it usually does not stop to ask. It fills the gaps with an average guess.</p><p>Try this one-line prompt: <em>Write a service description for my cleaning company.</em></p><p>What comes back is usually something like this: <em>\"Our professional team delivers top-quality cleaning tailored to your needs. We pay attention to every detail so you can relax. Contact us today for a free quote!\"</em></p><p>Nothing in it is wrong. Nothing in it is yours, either. It could describe any cleaner in any city, and it has just promised a free quote you never offered. The tool did not fail. It answered the question it was given.</p>"
+    },
+    {
+     "heading": "The five parts: a checklist for a sticky note",
+     "body_html": "<p>A good prompt answers five questions. Write these on a sticky note and keep it beside your screen.</p><ul><li><strong>Role:</strong> who you are, and who will read the result. <em>\"I run a dental office in Mississauga. The readers are new patients.\"</em></li><li><strong>Task:</strong> the one thing you want. One clear task is easier to check than three mixed together.</li><li><strong>Context:</strong> the details only you know: what you offer, where, for whom, and what is different about this case. Leave out customer names, phone numbers, addresses and anything else private.</li><li><strong>Format:</strong> how long, list or paragraph, and the tone (friendly, formal, plain).</li><li><strong>Limits:</strong> what to leave out and what not to make up. <em>\"Do not mention prices. Do not invent reviews.\"</em></li></ul><p>You do not have to label the parts or keep them in order. Plain sentences, typed the way you would explain the job to a new employee, work fine.</p><p>The companies that make these tools give similar advice. <a href=\"https://support.google.com/gemini/answer/15235603?hl=en\" target=\"_blank\" rel=\"noopener\">Google's help page on writing instructions</a> lists persona, task, context and format. <a href=\"https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5\" target=\"_blank\" rel=\"noopener\">Microsoft's guide</a> lists goal, context, expectations and source. <a href=\"https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt\" target=\"_blank\" rel=\"noopener\">OpenAI's guide</a> says to be clear and specific and to give enough context. Limits is the part this course adds. It is easy to skip, and it is the part that tells the tool not to guess.</p>"
+    },
+    {
+     "heading": "Before and after: a Scarborough cleaning company",
+     "body_html": "<p>Here is the same request from a made-up three-person cleaning company in Scarborough, this time with all five parts.</p><p><em>I own a three-person cleaning company in Scarborough. The readers are homeowners and renters in east Toronto who are comparing cleaners online.</em> (Role)<br><em>Write the website description for our move-out cleaning service.</em> (Task)<br><em>We clean condos and houses up to four bedrooms. We bring our own supplies. The job includes inside the oven, fridge and cupboards. Most jobs take three to five hours. We serve Scarborough, Pickering and Ajax, and we are insured.</em> (Context)<br><em>About 90 words: one short paragraph, then three bullet points. Friendly and plain, no sales language.</em> (Format)<br><em>Do not mention prices or guarantees. Do not invent awards, reviews or years in business. If you need a detail I have not given you, leave a [blank] instead of guessing.</em> (Limits)</p><p>That takes a minute or two to type. The answer should now name the right areas, list what is actually included, and come close to the length you asked for. Where a detail is missing, it should leave a blank you can see.</p><p>The tool can still get things wrong, even with a good prompt. Read every line before you use it, and check each fact against what is true for your business. You are now correcting a draft, not rewriting one.</p>"
+    },
+    {
+     "heading": "The follow-up is half the skill",
+     "body_html": "<p>The first answer is a draft. The tool can see the earlier messages in the same chat, so your next message builds on what you have already said. You are editing, not starting from zero.</p><p>Good follow-ups are short:</p><ul><li><em>Make it half as long.</em></li><li><em>Friendlier, less formal.</em></li><li><em>Give me three versions.</em></li><li><em>You got the area wrong. We do not serve Markham. Fix that and change nothing else.</em></li></ul><p>One sentence is worth remembering: <strong>Before you answer, ask me any questions you need.</strong></p><p>These tools tend to answer right away and guess at whatever is missing. This sentence tells the tool to ask instead. Its questions also show you which details matter, which helps when you are not sure what context to give. Use it for anything specific to your business: a policy, a description of a service, a reply to an unhappy customer. Skip it for quick, simple requests.</p><p>One caution. When you ask for help with a customer reply, describe the situation in general words. For now, do not paste the customer's message, name, phone number, address, or any health or payment details into the chat. Add the name yourself after you copy the draft out. Lesson 3 shows how to swap private details for placeholders so you can safely paste more, and Lesson 6 explains why.</p><p>You can also come back later. As checked on October 2, 2026, ChatGPT, Claude, Gemini and Copilot all save your chats to your account by default when you are signed in, so you can reopen yesterday's conversation and keep editing. In Gemini this depends on a setting called Keep Activity, which Google says is on by default if you are 18 or over.</p><p>Free plans have usage limits, but today's exercise needs only about five short messages. Lesson 1 described how each tool's free limit works. Microsoft adds that free Copilot is subject to available capacity. Anthropic, Google and Microsoft do not publish a fixed message count for their free plans, and all of these limits can change. If you reach a limit, wait and come back later.</p>"
+    },
+    {
+     "heading": "Save what works: your prompt library",
+     "body_html": "<p>When a prompt gives you a good result, do not let it sink into your chat history. Copy it into a plain note or document titled <strong>My prompt library</strong>. Next month, when you need another service description, you change a few details and reuse it. You will add to this note in later lessons, starting with Lesson 3.</p><p>There is also a shortcut for the Role part. Each tool lets you save a few standing facts so you do not retype them. As checked on October 2, 2026:</p><ul><li><strong>ChatGPT:</strong> Custom Instructions. On the web, open Settings, then Personalization. OpenAI says this is available on all plans.</li><li><strong>Claude:</strong> Instructions for Claude, in Settings. Anthropic says this is available to all users, including free accounts.</li><li><strong>Gemini:</strong> Instructions for Gemini. Open Settings &amp; help, then Personal Intelligence. Google says this works only with a personal Google Account, not a work, school or supervised one.</li><li><strong>Copilot:</strong> a setting called Personalization and memory lets Copilot remember details from your chats. Microsoft says it is on by default where it is available, and you can turn it off.</li></ul><p>Menu names change, so if you cannot find a setting, check the tool's help page in the sources below.</p><p>Keep what you save there general, such as your type of business, your city and the tone you like. Never save passwords, banking details or anything about your customers. Lesson 6 covers privacy in full.</p><p>For a small business in the GTA, this is the whole lesson. A minute or two of extra context in the request, plus one or two follow-ups, is often the difference between an answer you delete and a draft you can use.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Lazy prompt versus five-part prompt",
+    "steps": [
+     "Pick one real thing you need written this week: a service description, a sign for the door, or a reply to a question customers often ask. Do not include customer names, contact details or anything private.",
+     "Open your free AI chat tool, start a new chat, and type the request as one lazy line, for example: Write a sign about our holiday hours. Copy the answer into a note and label it Before.",
+     "Start another new chat. Write the same request again using all five parts: Role, Task, Context, Format, Limits. Copy this answer into the same note and label it After.",
+     "Read the two answers side by side. Ask yourself which one you could use with fewer changes, and which one contains details that are actually true of your business.",
+     "In the chat with the better answer, send this follow-up: Make it half as long.",
+     "Send a second follow-up: Ask me three questions that would make this more accurate, then rewrite it using my answers. Answer the three questions in one message and read the rewrite. Check every fact in it before you use it anywhere.",
+     "Open a new note titled My prompt library and paste in your final five-part prompt. Keep this note; you will add to it in the lessons ahead."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "The five-part prompt (fill in the blanks)",
+     "text": "I am [your role, for example: the owner of a two-chair barbershop in Etobicoke]. The readers are [who will read this, for example: walk-in customers].\n\nWrite [the one thing you want, for example: a sign for the front door about our new hours].\n\nHere is what you need to know: [the details only you know: what, where, when, for whom, anything unusual. No customer names or private details].\n\nFormat: [length], written as [a paragraph / a list / a short sign], in a [friendly / formal / plain] tone.\n\nLimits: Do not mention [what to leave out]. Do not invent prices, dates, reviews or facts. If a detail is missing, leave a [blank] instead of guessing."
+    },
+    {
+     "label": "Ask me first",
+     "text": "I need help writing [what you need]. Before you answer, ask me any questions you need. Ask no more than [number] questions, all in one message. Wait for my answers before you write anything."
+    },
+    {
+     "label": "Fix one thing and keep the rest",
+     "text": "That is close. You got [the detail] wrong. The correct information is [the correct detail]. Fix that, and also make it [shorter / friendlier / more formal]. Keep everything else the same."
+    },
+    {
+     "label": "Three versions to choose from",
+     "text": "Give me three versions of that: one [tone 1, for example: warm and casual], one [tone 2, for example: short and direct], and one [tone 3, for example: more formal]. Keep the facts exactly the same in all three and number them so I can pick one."
+    }
+   ],
+   "checklist": [
+    "I can name the five parts from memory: Role, Task, Context, Format, Limits.",
+    "I wrote one prompt with all five parts and compared the answer with a one-line version.",
+    "I improved an answer with follow-up messages instead of starting a new chat.",
+    "I used the sentence \"Before you answer, ask me any questions you need\" at least once.",
+    "I kept customer names and private details out of everything I typed.",
+    "I read the final answer and checked its facts before using it.",
+    "I know where my past chats are saved in my tool, so I can go back to one.",
+    "I started a note titled My prompt library with my first saved prompt."
+   ],
+   "takeaway": "Tell the tool who you are, what you want, what it needs to know, how the answer should look and what to leave out. Then edit the answer with follow-ups, and check the facts before you use it.",
+   "sources": [
+    {
+     "label": "OpenAI Help Center: Prompt engineering best practices for ChatGPT",
+     "url": "https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt"
+    },
+    {
+     "label": "OpenAI Help Center: ChatGPT Free Tier FAQ (free-tier limits)",
+     "url": "https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq"
+    },
+    {
+     "label": "OpenAI Help Center: ChatGPT Custom Instructions (available on all plans)",
+     "url": "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions"
+    },
+    {
+     "label": "OpenAI Help Center: Chat and file retention in ChatGPT (chats stay saved to your account)",
+     "url": "https://help.openai.com/en/articles/8983778-chat-and-file-retention-in-chatgpt"
+    },
+    {
+     "label": "OpenAI Academy: Prompting",
+     "url": "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting"
+    },
+    {
+     "label": "Claude Help Center: Get started with Claude (free plan limit resets every five hours; prompting tips)",
+     "url": "https://support.claude.com/en/articles/8114491-get-started-with-claude"
+    },
+    {
+     "label": "Claude Help Center: Understanding Claude's personalization features (Instructions for Claude)",
+     "url": "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features"
+    },
+    {
+     "label": "Claude Help Center: Delete or rename a conversation (where past chats are found)",
+     "url": "https://support.claude.com/en/articles/8230524-delete-or-rename-a-conversation"
+    },
+    {
+     "label": "Anthropic: Prompting best practices",
+     "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+    },
+    {
+     "label": "Gemini Apps Help: Tips for creating custom Gems (persona, task, context, format)",
+     "url": "https://support.google.com/gemini/answer/15235603?hl=en"
+    },
+    {
+     "label": "Gemini Apps Help: Gemini Apps limits and upgrades (limit refreshes every 5 hours, up to a weekly limit)",
+     "url": "https://support.google.com/gemini/answer/16275805?hl=en"
+    },
+    {
+     "label": "Gemini Apps Help: Customize Gemini's responses with your instructions (Instructions for Gemini)",
+     "url": "https://support.google.com/gemini/answer/16598625?hl=en&co=GENIE.Platform%3DDesktop"
+    },
+    {
+     "label": "Gemini Apps Help: Find and manage your recent chats",
+     "url": "https://support.google.com/gemini/answer/13666746?hl=en&co=GENIE.Platform%3DDesktop"
+    },
+    {
+     "label": "Gemini Apps Help: Manage and delete your activity in Gemini Apps (Keep Activity default)",
+     "url": "https://support.google.com/gemini/answer/13278892?hl=en&co=GENIE.Platform%3DDesktop"
+    },
+    {
+     "label": "Microsoft Support: Get started writing prompts in Microsoft Copilot",
+     "url": "https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5"
+    },
+    {
+     "label": "Microsoft Support: Privacy FAQ for Microsoft Copilot (conversations saved by default)",
+     "url": "https://support.microsoft.com/en-us/microsoft-copilot/privacy-faq-for-microsoft-copilot"
+    },
+    {
+     "label": "Microsoft Support: Microsoft Copilot privacy controls (Personalization and memory setting)",
+     "url": "https://support.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-privacy-controls"
+    },
+    {
+     "label": "Microsoft: Copilot pricing plans for individuals (free version subject to capacity and limits)",
+     "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals"
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "slug": "lesson-3",
+   "title": "Writing and Email: From Blank Page to Sent",
+   "minutes": 15,
+   "objective": "Use AI to draft, shorten and re-tone a real business email or message, keep your own voice, and know what to check before pressing send.",
+   "intro_html": "<p>Most small business owners know what they want to say. The hard part is starting. The quote follow-up, the late-payment reminder and the reply to an upset customer sit for days because the first sentence will not come.</p><p>In this lesson you will use your free AI chat tool to get a first draft on the page quickly, shape it until it sounds like you, and check it properly before it goes out. You stay the author. The AI is a helper that never minds a tenth rewrite.</p>",
+   "sections": [
+    {
+     "heading": "Three writing jobs AI does well",
+     "body_html": "<p>AI chat tools are good at three writing jobs.</p><ul><li><strong>Starting from nothing.</strong> You type the facts as rough notes and it gives you a full first draft.</li><li><strong>Fixing what you already wrote.</strong> Paste your own draft and ask it to tidy the grammar, cut it in half, or move the main point to the top.</li><li><strong>Changing the tone.</strong> Same facts, different feel: firmer, warmer, shorter or more formal.</li></ul><p>You may wonder whether your email program already does this. As of October 2026, <a href=\"https://support.google.com/mail/answer/13955415?hl=en&co=GENIE.Platform%3DDesktop\" target=\"_blank\" rel=\"noopener\">Google's help page</a> says the \"Help me write\" button in Gmail is restricted to the United States for personal Google accounts, so a free Gmail account in Canada will likely not show it. <a href=\"https://support.microsoft.com/en-us/microsoft-365-copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365\" target=\"_blank\" rel=\"noopener\">Microsoft's support pages</a> describe Copilot inside Outlook as something that comes with a paid Microsoft 365 subscription or a work licence. These rules change, so check the pages yourself if you are curious.</p><p>In this course you will write in your free chat tool and copy the result into your email. It adds a few seconds and costs nothing.</p><p>Type or paste your text straight into the chat. You do not need to upload a file for anything in this lesson.</p>"
+    },
+    {
+     "heading": "Keep private details out",
+     "body_html": "<p>Before you paste anything into a chat tool, take out details that identify a real person. That means names, phone numbers, email addresses, home addresses and account or order numbers. Swap each one for a <strong>placeholder</strong>, which is a stand-in word in square brackets such as [NAME] or [PHONE].</p><p>Some details should never go in at all, even with the name removed: health information, bank or card numbers, government ID numbers and passwords. The AI does not need them to write a good email. Describe the situation in general words instead, such as \"an overdue invoice\" or \"a missed appointment\".</p><p>You put the real details back in yourself, in your own email program, just before you send.</p>"
+    },
+    {
+     "heading": "Teach it your voice",
+     "body_html": "<p>If you ask for a \"professional\" email, you get one that sounds like a bank. Your customers know how you talk, and a sudden change in voice feels odd to them.</p><p>A better way is to show the AI how you write. Find two or three messages you were happy with. Replace every private detail with a placeholder, as described above. Paste them in and ask the tool to describe your style in five bullet points.</p><p>Read what it says. Correct anything that is off, for example \"I never write 'kindly'.\" Then ask it to write in that style. Save the style description in your prompt library and paste it at the top of future requests. Anyone in the shop can use the same description, so customers hear one consistent voice.</p>"
+    },
+    {
+     "heading": "Templates and difficult messages",
+     "body_html": "<p>Some messages come up every week. Build them once, with blanks, and reuse them:</p><ul><li>a reply to a quote request</li><li>an appointment reminder</li><li>a polite payment follow-up</li><li>a response to an unhappy customer</li><li>a short request for a review</li><li>a job posting</li></ul><p>Ask for each one with square bracket blanks for the details that change, then save it.</p><p>For hard messages, use the AI as a calm second opinion. Write the angry version first if it helps, but do not send it. Paste it in and ask for a version that keeps every fact and drops the heat. You can also ask, \"How will the customer feel reading this?\" You still decide what goes out.</p>"
+    },
+    {
+     "heading": "Customers who read another language",
+     "body_html": "<p>Many GTA customers are more comfortable reading in a language other than English. A chat tool can draft or translate a message for them. As one example, <a href=\"https://support.google.com/gemini/answer/13575153?hl=en\" target=\"_blank\" rel=\"noopener\">Google's list of languages for Gemini</a> includes Chinese, Punjabi, Hindi, Urdu, Tamil, Filipino, Portuguese, Italian, Spanish, Arabic and Farsi. Other chat tools handle many languages too. Check your own tool's help page for its list.</p><p>Being on a list does not mean every sentence comes out right. Levels of politeness, dates and money can go wrong in ways you cannot see. Three habits help:</p><ul><li>Write short, plain English sentences before you translate.</li><li>Ask the tool to translate its version back into English, and compare. This catches some mistakes, not all of them.</li><li>For anything about money, health, safety or a legal matter, have a fluent person read it before it goes out.</li></ul>"
+    },
+    {
+     "heading": "Before you press send",
+     "body_html": "<p>AI fills gaps with details that sound right. It may add a 10 per cent discount, a \"reply within 24 hours\" promise or a due date you never set. Before sending, check five things against your own records: <strong>names, dates, prices, addresses and promises</strong>. Read every number out loud. Put real names back in yourself, in your email program.</p><p>One more check applies when a message promotes something, such as a sale or a new service. Canada's anti-spam legislation, known as CASL, covers these \"commercial electronic messages\", which include emails and texts. The <a href=\"https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email\" target=\"_blank\" rel=\"noopener\">federal government's guidance</a> sets out three basics:</p><ul><li><strong>Consent.</strong> Express consent means the person agreed, verbally or in writing, to get these messages from you. Implied consent can come from an existing business relationship, and it runs out: up to two years after a purchase, or six months after an inquiry. Be ready to show proof.</li><li><strong>Identification.</strong> Include your business name, a current mailing address, and a phone number, email or website address.</li><li><strong>Unsubscribe.</strong> Offer a free way to opt out, and act on every request within 10 business days.</li></ul><p><a href=\"https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-3.html\" target=\"_blank\" rel=\"noopener\">The Act</a> sets the maximum penalty for a violation at $1,000,000 for an individual and $10,000,000 for any other person, such as a company. The AI does not know who agreed to hear from you. You do. This is a plain summary, not legal advice. The law has exceptions and extra rules, so read the government guidance or ask a lawyer if you are unsure.</p><p>Put together, the email you avoided for three days becomes a short job, and your tone stays the same whoever writes it.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Send the email you have been putting off",
+    "steps": [
+     "Pick one real message you have been avoiding, such as a quote follow-up, a late-payment reminder or a reply to a complaint. Jot down the facts in rough notes: what happened, the amounts and the dates.",
+     "Take out every customer name, phone number, email address, home address and account number. Replace each with a placeholder like [NAME], [PHONE] or [ADDRESS]. Leave out health details and card or bank numbers completely.",
+     "Open your free AI chat tool and ask for a draft using your five-part prompt from Lesson 2. The first prompt below gives you a ready-made version to fill in.",
+     "Send three follow-up messages, one at a time: \"Cut this to under 90 words.\" Then: \"Make it warmer but still firm.\" Then: \"List every fact, number or promise in this draft so I can check each one.\"",
+     "Go through that list line by line against your own records. Then read the draft itself once more, because the list can miss things. Fix anything that is wrong and remove anything you never offered. Read every number out loud.",
+     "Copy the final text into your own email program and put the real names and details back in yourself. If you are happy with it, send it from your own inbox. If you are not sure, save it as a draft and look again later.",
+     "Save the prompt that worked, with its square bracket blanks, in your prompt library so you can reuse it next time."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Draft from rough notes",
+     "text": "I run a [TYPE OF BUSINESS] in [CITY]. Write an email to a customer about [SITUATION]. Use the placeholder [NAME] for the customer's name. Use only these facts and add nothing else: [FACTS, AMOUNTS, DATES]. Tone: [friendly / firm / apologetic]. Keep it under [NUMBER] words, in plain English with Canadian spelling. Do not invent discounts, deadlines or promises. If something is missing, ask me instead of guessing."
+    },
+    {
+     "label": "Learn my writing voice",
+     "text": "Below are three messages I wrote. I have removed private details. Describe my writing style in five short bullet points: sentence length, greeting, sign-off, level of formality, and words I tend to use. Then write everything I ask for in this chat in that style.\n\nMessage 1: [PASTE MESSAGE WITH PRIVATE DETAILS REMOVED]\nMessage 2: [PASTE MESSAGE WITH PRIVATE DETAILS REMOVED]\nMessage 3: [PASTE MESSAGE WITH PRIVATE DETAILS REMOVED]"
+    },
+    {
+     "label": "Cool down an angry draft",
+     "text": "Here is a draft I wrote while annoyed. Rewrite it so it keeps every fact and my main request, but removes blame, sarcasm and anything I might regret. Keep it under [NUMBER] words. Then tell me in one sentence how the customer is likely to feel when reading it.\n\n[PASTE DRAFT WITH PRIVATE DETAILS REMOVED]"
+    },
+    {
+     "label": "Fact list before sending",
+     "text": "List every name, date, price, address, deadline and promise in the draft above as a numbered list. Put the word ADDED beside any item that was not in the notes I gave you."
+    }
+   ],
+   "checklist": [
+    "I replaced names, phone numbers, email addresses and home addresses with placeholders before pasting anything in.",
+    "I did not paste health details, card or bank numbers, ID numbers or passwords.",
+    "I read the draft out loud and it sounds like me, not like a bank.",
+    "I checked every name, date, price and address against my own records.",
+    "The message contains no discount, deadline or promise that I did not offer.",
+    "If the message promotes something, I have consent, my business name and contact details are in it, and there is a working unsubscribe.",
+    "Anything important in another language was read by a fluent person before it went out."
+   ],
+   "takeaway": "Let the AI handle the first draft and the rewrites, but the facts, the voice and the decision to press send stay with you.",
+   "sources": [
+    {
+     "label": "Government of Canada (ISED): Getting consent to send email under CASL",
+     "url": "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email"
+    },
+    {
+     "label": "Justice Laws Website: Canada's anti-spam legislation (S.C. 2010, c. 23), section 20 maximum penalty",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-3.html"
+    },
+    {
+     "label": "Justice Laws Website: Canada's anti-spam legislation, section 6 requirements for commercial electronic messages",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-1.html"
+    },
+    {
+     "label": "Justice Laws Website: Canada's anti-spam legislation, sections 10 and 11 (implied consent periods, unsubscribe within 10 business days)",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-2.html"
+    },
+    {
+     "label": "Gmail Help: Draft emails with Gemini in Gmail (Help me write availability)",
+     "url": "https://support.google.com/mail/answer/13955415?hl=en&co=GENIE.Platform%3DDesktop"
+    },
+    {
+     "label": "Microsoft Support: Difference between Microsoft Copilot (free) and Copilot in Microsoft 365",
+     "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365"
+    },
+    {
+     "label": "Microsoft Support: Frequently asked questions about Copilot in Outlook",
+     "url": "https://support.microsoft.com/en-us/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b"
+    },
+    {
+     "label": "Gemini Apps Help: Where you can use the Gemini web app (supported languages and countries)",
+     "url": "https://support.google.com/gemini/answer/13575153?hl=en"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "slug": "lesson-4",
+   "title": "Research and Fact-Checking: Trust, but Verify",
+   "minutes": 15,
+   "objective": "Use AI with web search to research a business question, ask for and open the sources, and apply a simple three-step check before relying on any answer.",
+   "intro_html": "<p>In the last lesson you used AI to write. Today you use it to find things out. This can save you a lot of reading time. It is also where a wrong answer can cost you real money.</p><p>You do not need to become a researcher. You need two habits: ask the tool to show where its answer came from, and spend a few minutes checking before you act on it. By the end of this lesson you will have tested one real answer yourself.</p>",
+   "sections": [
+    {
+     "heading": "Two modes: answering from memory or searching the web",
+     "body_html": "<p>An AI chat tool can answer in two ways. It can answer <strong>from memory</strong>, using what it learned when it was built, which may be many months old. Or it can <strong>search the web</strong>, read a few pages, and answer from those.</p><p>The quickest way to tell which one you got is to look for links. An answer built from a search usually shows <strong>citations</strong>, which are small links to the pages it used. No links usually means it answered from memory.</p><p>As of October 2, 2026, the free plans of three common tools all include web search:</p><ul><li><strong>ChatGPT:</strong> it may search on its own. To start a search yourself, select <em>View all tools</em> and then <em>Search</em>, or type / and choose Search. When a <em>Sources</em> button appears, it lists the pages used.</li><li><strong>Claude:</strong> press the + button and click <em>Web search</em> so a checkmark shows. In the newer version there is no switch, and Claude searches when it judges that it will help. Answers that use search include source links.</li><li><strong>Gemini:</strong> when it has used web pages, a <em>Sources</em> button appears with the answer. Google notes that not every answer has one.</li></ul><p>None of the three help pages gives a fixed number of free searches per day. Each free plan has usage limits, and the tool tells you when you reach them. Copilot, the fourth tool from Lesson 1, also answers from web search on its free version, so look for the links shown with its answer. If you are not sure whether your tool searched, type: \"Search the web for this and show your sources.\"</p>"
+    },
+    {
+     "heading": "Why a confident answer can still be wrong",
+     "body_html": "<p>In Lesson 1 you saw that AI builds answers by predicting likely words. For research, that has one consequence to remember: <strong>plausible and true are not the same thing</strong>. The tool writes what sounds right, in the same confident tone, whether it is right or not.</p><p>The usual failures are:</p><ul><li>Made-up statistics</li><li>Wrong dates</li><li>Out-of-date prices and rates</li><li>Invented quotes, sometimes with a real person's name attached</li></ul><p>The companies that make these tools say so themselves. OpenAI's help page on search warns that results and citations \"can be incomplete, outdated, or incorrect.\" Anthropic and Google publish similar warnings for Claude and Gemini.</p><p>Here is a local example. Ontario's general minimum wage rose to $17.95 an hour on October 1, 2026. The day before, it was $17.60. A tool answering from memory could easily give you the old number, and it would sound just as sure of itself.</p>"
+    },
+    {
+     "heading": "Ask for proof, then do the three-step check",
+     "body_html": "<p>You can make checking much easier by asking for proof at the start. Add these lines to any research question:</p><ul><li>\"Give me the source link for every claim.\"</li><li>\"Quote the exact sentence you relied on.\"</li><li>\"What is the date of this information?\"</li><li>\"Tell me what you are not sure about.\"</li></ul><p>A link is not proof by itself. The tool can misread a page, or link to a page that does not say what it claims. Even the \"exact quote\" can be wrong. So before you rely on an answer, do the <strong>three-step check</strong>:</p><ol><li><strong>Open the link.</strong> Find the sentence on the page. Does it really say that? Your browser's \"Find on page\" option makes this quick.</li><li><strong>Look at who published it and when.</strong> A government page updated last week is worth more than a blog post with no date.</li><li><strong>Find a second source.</strong> For anything you will act on or publish, find one independent source that agrees, ideally the original authority.</li></ol><p>If a link is broken, or the page does not contain the claim, treat the claim as unconfirmed. Tell the tool and ask it to search again. Check the new answer the same way, because a tool will sometimes simply agree with you.</p>"
+    },
+    {
+     "heading": "Where AI is only the starting point",
+     "body_html": "<p>Some facts are too costly to get wrong. For these, use AI to understand the topic and prepare your questions. The answer itself comes from the official page or a professional:</p><ul><li>Tax rates and filing rules</li><li>Licences and permits</li><li>Employment standards, such as pay, hours, vacation and termination</li><li>Health claims about a product or service</li><li>Anything legal, such as contracts, leases and disputes</li></ul><p>For example, the Canada Revenue Agency lists the HST rate for Ontario as 13%. An AI tool will probably tell you the same. But the rate on a particular sale can depend on what you sell and on the place of supply, which is often where your customer is. That part belongs to the <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html\" target=\"_blank\" rel=\"noopener\">CRA's own pages</a> or your accountant.</p><p>Good research jobs for AI in a small business:</p><ul><li>Comparing two software options side by side, then confirming prices on each company's own pricing page</li><li>Explaining a new rule in plain language</li><li>Preparing a list of questions before you call your accountant, lawyer or city hall</li><li>Summarizing a long document you own</li></ul>"
+    },
+    {
+     "heading": "Summarizing long documents, and what this means for your business",
+     "body_html": "<p>Free plans also let you attach a file, such as a PDF of a supplier contract or an insurance policy. As of October 2, 2026, OpenAI's help page says ChatGPT's free plan allows 3 file uploads a day. Claude's help page lists up to 20 files per chat, and Gemini's lists up to 10 files in one prompt. Free plans also have general usage limits, and all of these numbers change, so check your tool's help page.</p><p>Ask for two things: a plain-language summary, and \"What would a careful reader worry about here?\" The second question is the useful one. It brings up renewal dates, penalties and notice periods that are easy to miss. Then ask which section each point comes from and read those parts yourself. A summary can leave out or misstate a clause. For a contract you are about to sign, the summary helps you prepare questions. It does not replace legal advice.</p><p><strong>Privacy note:</strong> do not paste or upload anything that contains personal information about customers, staff or anyone else. That includes names, contact details, health details and payment information. If a document has these, leave it out or remove those parts first. A contract also names the other company and holds confidential business terms, which Lesson 6 treats as material to handle with care, so check your privacy settings there before you upload one. Lesson 6 covers privacy in more detail.</p><p>You may also see a feature called <em>Deep Research</em> in ChatGPT and Gemini. It reads many pages and writes a longer report with sources. Google says a report usually takes about 5 to 10 minutes. How much you can use it depends on your plan, and Google says it may be unavailable at busy times without a paid plan. Claude lists its similar Research feature under paid plans only. The same three-step check applies to those reports.</p><p>For a GTA small business, the lesson is simple. AI can cut down your reading time, but only the checking step makes the result safe to rely on. One wrong number in a quote, a payroll run or a web page can cost more than the time you saved.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Fact-check one real answer",
+    "steps": [
+     "Choose one question that involves a rule or a number. To finish in about 10 minutes, use one of these two: \"What is the current general minimum wage in Ontario?\" or \"What rate of HST applies in Ontario?\" (A question about your own city's rules, such as sidewalk signs, also works but may take longer.)",
+     "Open your free AI chat tool and make sure web search is on (see the first section). Paste the first prompt below with your question filled in. Do not include any customer or staff details.",
+     "Open up to three of the links in the answer. On each page, find the sentence that supports the claim. Write down yes or no: does the page really say what the AI said?",
+     "For each link you opened, note who published the page and the date it was written or last updated.",
+     "Now go to the official source yourself, without using the AI's link: ontario.ca for provincial rules, canada.ca for federal tax, or your city's own website. Find the same fact there. Answer key for the two examples, checked on October 2, 2026: Ontario's general minimum wage is $17.95 an hour (in effect October 1, 2026 to September 30, 2027), and the HST rate in Ontario is 13%.",
+     "Record three results in a note: Did the AI get it right? Was every source real and did it say what the AI claimed? Was the information current? Keep this note as your personal reminder of how much to trust your tool."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Research question with sources",
+     "text": "I run a [type of business] in [city], Ontario. Search the web and answer this question: [your question]. Give me a source link for every claim. Quote the exact sentence you relied on from each source. Tell me the date of the information and who published it. Use official government sources where they exist. At the end, list anything you are not sure about."
+    },
+    {
+     "label": "Ask the tool to check its own answer",
+     "text": "Go back over your last answer. For each claim, show me the link and the exact sentence on that page that supports it. If you cannot find a supporting sentence, say so plainly and mark that claim as unconfirmed. Also tell me whether any of this information could have changed since [month and year]."
+    },
+    {
+     "label": "Summarize a document you own",
+     "text": "I have attached [type of document, for example a supplier contract]. It contains no personal information about customers or staff. Summarize it in plain language in no more than [number] bullet points. Then answer: what would a careful reader worry about here? Look for renewal dates, fees, penalties, notice periods and anything unusual. For each point, tell me the section or page number so I can read it myself."
+    },
+    {
+     "label": "Prepare for a call with a professional",
+     "text": "I am going to speak with my [accountant / lawyer / city licensing office] about [topic]. I am a [type of business] in [city], Ontario. Explain the basics of this topic in plain language, with source links. Then give me [number] specific questions I should ask, and list the documents or numbers I should have ready before the call."
+    }
+   ],
+   "checklist": [
+    "I can tell whether my tool searched the web or answered from memory, and I know how to ask it to search.",
+    "I asked for a source link, an exact quote and a date for every claim.",
+    "I opened the links and found the claim on the page myself.",
+    "I noted who published each source and when it was last updated.",
+    "I confirmed anything I will act on or publish with the official page or a professional.",
+    "I kept personal information about customers and staff (names, contact details, health details, payment information) out of anything I pasted or uploaded."
+   ],
+   "takeaway": "AI can find and explain an answer in minutes, but it is only safe to rely on after you have opened the source, checked who published it and when, and confirmed it with the original authority.",
+   "sources": [
+    {
+     "label": "OpenAI Help Center: Searching the web with ChatGPT (available on Free, how to start a search, citations and Sources, accuracy warning)",
+     "url": "https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt"
+    },
+    {
+     "label": "OpenAI Help Center: ChatGPT Free Tier FAQ (what the free tier includes, separate tool limits)",
+     "url": "https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq"
+    },
+    {
+     "label": "OpenAI Help Center: File Uploads FAQ (Free users limited to 3 file uploads per day)",
+     "url": "https://help.openai.com/en/articles/8555545-file-uploads-faq"
+    },
+    {
+     "label": "OpenAI Help Center: Deep research in ChatGPT (what it does, usage varies by plan)",
+     "url": "https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt"
+    },
+    {
+     "label": "Claude pricing (Free plan includes web search; Research listed under paid plans)",
+     "url": "https://claude.com/pricing"
+    },
+    {
+     "label": "Claude Help Center: Enabling and using web search (Free accounts included, + button, newer version with no toggle, citations)",
+     "url": "https://support.claude.com/en/articles/10684626-enabling-and-using-web-search"
+    },
+    {
+     "label": "Claude Help Center: Uploading files to Claude (up to 20 files per chat)",
+     "url": "https://support.claude.com/en/articles/8241126-uploading-files-to-claude"
+    },
+    {
+     "label": "Claude Help Center: Claude is providing incorrect or misleading responses (provider statement on inaccurate output and quotes)",
+     "url": "https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on"
+    },
+    {
+     "label": "Gemini Apps Help: View related sources from Gemini Apps (Sources button; not all responses include sources)",
+     "url": "https://support.google.com/gemini/answer/14143489?hl=en"
+    },
+    {
+     "label": "Gemini Apps Help: Gemini Apps limits and upgrades (limits without a paid plan; Deep Research may be unavailable at busy times)",
+     "url": "https://support.google.com/gemini/answer/16275805?hl=en"
+    },
+    {
+     "label": "Gemini Apps Help: Upload and analyse files (up to 10 files per prompt, subject to availability)",
+     "url": "https://support.google.com/gemini/answer/14903178?hl=en"
+    },
+    {
+     "label": "Gemini Apps Help: Deep Research in Gemini Apps (how it works, about 5 to 10 minutes per report, limits)",
+     "url": "https://support.google.com/gemini/answer/15719111?hl=en"
+    },
+    {
+     "label": "Gemini Apps Help: Use Gemini Apps (Google's statement that Gemini can make mistakes)",
+     "url": "https://support.google.com/gemini/answer/13275745?hl=en"
+    },
+    {
+     "label": "Government of Ontario: Minimum wage, Your guide to the Employment Standards Act (general minimum wage $17.95 from October 1, 2026; page updated September 28, 2026)",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage"
+    },
+    {
+     "label": "Canada Revenue Agency: GST/HST calculator and rates (Ontario 13%)",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html"
+    },
+    {
+     "label": "Canada Revenue Agency: Charge and collect the tax, which rate to charge (place of supply rules)",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "slug": "lesson-5",
+   "title": "Images and Video: Making Visuals Without a Designer",
+   "minutes": 14,
+   "objective": "Describe an image clearly enough for an AI tool to make it, understand what AI video can and cannot do today, and know the honesty, privacy and ownership cautions before using AI visuals in public.",
+   "intro_html": "<p>So far you have used AI for words. Today you will use it for pictures. If you have ever needed a graphic for a holiday promotion and had no designer and no budget, this lesson is for you.</p><p>You will learn a simple recipe for describing an image, see what AI video can and cannot do today, and learn the honesty, privacy and ownership rules to follow before anything goes public.</p>",
+   "sections": [
+    {
+     "heading": "You describe, it draws: the six-part recipe",
+     "body_html": "<p>An AI image tool turns a written description into a picture. You describe, it draws. It has never seen your shop, your street or your taste, so the description is everything. The first result is rarely the keeper, so plan on two or three rounds.</p><p>A good description has six parts:</p><ul><li><strong>Subject:</strong> the main thing in the picture.</li><li><strong>Setting:</strong> where it is.</li><li><strong>Style:</strong> realistic photo, watercolour or flat illustration.</li><li><strong>Lighting and mood:</strong> warm morning light, cozy, bright and clean.</li><li><strong>Shape:</strong> square for social posts, wide for a website banner.</li><li><strong>What to leave out:</strong> text, logos, people.</li></ul><p><strong>Worked example, a bakery's fall post:</strong> <em>Butter tarts and a sourdough loaf on a wooden counter, in a small neighbourhood bakery with a window behind. Realistic photo style, warm morning light, cozy autumn feel. Square image. No text, no logos, no people. Leave empty space at the top for wording I will add later.</em></p><p><strong>Where to try it for free:</strong> <a href=\"https://chatgpt.com/pricing/\" target=\"_blank\" rel=\"noopener\">ChatGPT's free plan</a> lists \"limited image creation\". <a href=\"https://support.google.com/gemini/answer/16275805?hl=en\" target=\"_blank\" rel=\"noopener\">Gemini</a> includes image generation without a paid plan. Microsoft's <a href=\"https://www.bing.com/images/create/help?FORM=GENHLP\" target=\"_blank\" rel=\"noopener\">Bing Image Creator</a> is free with a personal Microsoft account. It gives 15 fast creations a day, then slower ones. <a href=\"https://www.canva.com/help/ai-access/\" target=\"_blank\" rel=\"noopener\">Canva's free plan</a> allows up to 20 AI uses a month. Most companies do not publish an exact daily number and limits change often, so expect to hit a cap.</p>"
+    },
+    {
+     "heading": "Common failures, quick fixes and sensible uses",
+     "body_html": "<p>AI images go wrong in a few predictable ways:</p><ul><li><strong>Garbled text.</strong> Words can come out misspelled, especially small ones. Ask for no text and add the wording yourself afterwards.</li><li><strong>Strange hands and faces.</strong> Zoom in and count fingers. The easy fix is to leave people out.</li><li><strong>The wrong logo.</strong> AI cannot reliably copy your logo and may invent one. Ask for no logos, then place your real logo file on top.</li><li><strong>A generic \"stock\" look.</strong> Add details only you would know: your colours, a real product, the season.</li></ul><p>When a result is off, simplify the prompt, change one thing at a time and generate again.</p><p>Good jobs for AI images in a small business:</p><ul><li>Backgrounds for social posts</li><li>A seasonal promotion graphic</li><li>A blog header</li><li>A mock-up to show a customer an idea</li><li>A concept picture to brief a real designer or photographer</li></ul>"
+    },
+    {
+     "heading": "The honesty line: illustration, not evidence",
+     "body_html": "<p>Never present an AI image as a photo of your actual work, your actual team or real customers. A renovation company that shows AI kitchens as finished jobs is not doing clever marketing. It is making a misleading claim.</p><p>This is a legal matter in Canada, not just good manners. The <a href=\"https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/false-or-misleading-representations-and-deceptive-marketing-practices\" target=\"_blank\" rel=\"noopener\">Competition Bureau</a> explains that the Competition Act prohibits materially false or misleading claims made to promote a product or business. The law looks at the \"general impression\" an ad gives, as well as its literal meaning. Nobody has to be actually fooled for a court to find an ad misleading, and the Bureau warns that fine print often fails to change the overall impression. A tiny AI note under a made-up finished job may not save you. This is general information, not legal advice.</p><p>Social platforms have rules too. <a href=\"https://help.instagram.com/761121959519495/?cms_platform=iphone-app&helpref=platform_switcher\" target=\"_blank\" rel=\"noopener\">Meta</a> requires a label on photorealistic video or realistic-sounding audio that was made or altered digitally, including with AI. It does not require you to label AI images, but may add a label itself if its systems detect one. <a href=\"https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content\" target=\"_blank\" rel=\"noopener\">TikTok</a> requires labels on AI content with realistic images, audio or video. <a href=\"https://support.google.com/youtube/answer/14328491?hl=en\" target=\"_blank\" rel=\"noopener\">YouTube</a> requires creators to disclose realistic altered or AI-made content.</p><p>Many tools also mark their output. <a href=\"https://help.openai.com/en/articles/8912793-provenance-signals-content-credentials-synthid-in-openai-generated-content\" target=\"_blank\" rel=\"noopener\">OpenAI</a> says supported ChatGPT images include Content Credentials (hidden data recording where a file came from) and an invisible watermark. <a href=\"https://gemini.google/overview/image-generation/\" target=\"_blank\" rel=\"noopener\">Google</a> says Gemini images carry an invisible watermark and a visible one. Platforms such as Instagram and TikTok can read these signals and add a label on their own. Do not try to remove them. Canva's AI terms, for example, forbid it.</p>"
+    },
+    {
+     "heading": "AI video in plain terms",
+     "body_html": "<p>AI video comes in three kinds:</p><ul><li><strong>Short clips</strong> made from a text description or from one photo.</li><li><strong>AI voiceover:</strong> a computer voice reads your script.</li><li><strong>AI presenters:</strong> a digital person, often called an avatar, speaks your script on screen.</li></ul><p>Free options are limited. <a href=\"https://support.google.com/gemini/answer/16275805?hl=en\" target=\"_blank\" rel=\"noopener\">Google's limits page</a> shows video generation in Gemini needs a paid plan. ChatGPT's free plan lists image creation but no video. Canva's AI video clip tool sits in a tier its free plan cannot use. <a href=\"https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html\" target=\"_blank\" rel=\"noopener\">Adobe</a> says people on plans without premium features get a few free trial generations, currently 2 video generations as its example. Microsoft's Bing help page says video creation is offered only in the Bing mobile app.</p><p>So treat free AI video as a taste test. A polished 30-second ad still takes paid tools, many attempts and editing skill. A realistic plan for this month: film ten seconds of real footage on your phone and let AI help with the script and caption.</p>"
+    },
+    {
+     "heading": "Privacy, ownership, real people and what it means for your business",
+     "body_html": "<p><strong>Keep customer information out of AI tools.</strong> Do not upload photos of customers, staff or children, and do not type names, addresses, phone numbers or other personal details into a prompt, unless you have clear permission. Canva's AI terms, for example, say what you type in may be shared with its technology partners. Describe the scene in general words instead.</p><p><strong>Do not generate real people, celebrities, or other companies' logos and characters.</strong> You do not have the right to use someone's face or another company's brand. <a href=\"https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse\" target=\"_blank\" rel=\"noopener\">Microsoft's Copilot terms</a>, for example, forbid making or editing images, voice or video of other people without their permission.</p><p><strong>Check each tool's terms before business use.</strong> <a href=\"https://openai.com/policies/terms-of-use/\" target=\"_blank\" rel=\"noopener\">OpenAI's terms</a> say that, between you and OpenAI, you own the output. <a href=\"https://www.canva.com/policies/ai-product-terms/\" target=\"_blank\" rel=\"noopener\">Canva's AI terms</a> say much the same and allow any lawful use at your own risk. Both warn that another user may get a similar image. Adobe says Firefly output from features without a beta label can be used in commercial projects. Microsoft's Copilot terms for individuals say you can only use Copilot for your own personal use, so read them before using its images for a business.</p><p><strong>Copyright is unsettled.</strong> A tool handing you its rights is not the same as the law granting you copyright. A 2025 <a href=\"https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/consultation-copyright-age-generative-artificial-intelligence-what-we-heard-report\" target=\"_blank\" rel=\"noopener\">Government of Canada report</a> on copyright and generative AI noted that Canadian courts had not yet commented on who is the author or owner of AI-made content. It also noted that existing case law suggests an author must be a human using skill and judgment. In practice, assume you may not be able to stop someone copying a purely AI-made image, and do not build your logo on one.</p><p><strong>For a GTA small business:</strong> you can now make a decent promotional graphic for free, often in about ten minutes. Use AI for ideas and illustration. Keep real photos for anything that claims to show your real work.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Make one graphic you could really post this month (about 10 minutes)",
+    "steps": [
+     "Open a free AI chat tool that can create images, such as ChatGPT or Gemini, and sign in. If your course tool is Claude, which does not make pictures, borrow one of these for today. Pick one real thing to promote this month, for example a seasonal offer or a 'now booking' announcement.",
+     "Copy the image recipe prompt below and fill in every blank: Subject, Setting, Style, Lighting and mood, Shape, and What to leave out. Do not upload customer photos or type any personal details. Ask for no text in the image, then send it.",
+     "Look closely at the result. Zoom in and check for odd hands, strange objects, stray lettering and made-up logos.",
+     "Improve it with one or two follow-up messages, changing one thing at a time. For example: 'make the background simpler', then 'warmer colours, more natural light'. If you hit the free limit, stop and keep the best one so far.",
+     "Save the best version to your phone or laptop. In the same chat, ask for a two-sentence caption using the caption prompt below, and correct any detail it gets wrong.",
+     "Ask yourself: could anyone think this picture shows my real work, team or customers? If yes, use a real photo instead. Later, outside the ten minutes, add your wording and your real logo yourself in a free design tool or your phone's photo editor."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Image recipe prompt",
+     "text": "Create an image for my [type of business] in [city or neighbourhood]. Subject: [main thing in the picture]. Setting: [where it is]. Style: [realistic photo / watercolour / flat illustration]. Lighting and mood: [for example, warm morning light, cozy]. Shape: [square for social media / wide for a website banner]. Leave out: no text, no logos, no real people. Leave empty space at the [top / bottom] so I can add my own wording later."
+    },
+    {
+     "label": "Follow-up fix (one change at a time)",
+     "text": "Keep the same picture, but change only this: [make the background simpler / use warmer colours and more natural light / remove the extra objects on the left]. Do not add any text or logos."
+    },
+    {
+     "label": "Two-sentence caption",
+     "text": "Write a two-sentence caption for this image for my [type of business] in [neighbourhood]. The post is about [promotion or announcement] and the details are [dates, price or how to book]. Use friendly, plain language with no exaggerated claims. End with [call us / message us / visit us at ...]."
+    },
+    {
+     "label": "Honesty check before posting",
+     "text": "I plan to use this AI image for [where and how you will use it]. Could a customer reasonably think it shows my real work, my real staff or real customers? Answer yes or no first, then explain why in two sentences and suggest a more honest way to use it."
+    }
+   ],
+   "checklist": [
+    "My prompt covered Subject, Setting, Style, Lighting and mood, Shape, and What to leave out.",
+    "I did not upload customer or staff photos or type anyone's personal details into the tool.",
+    "I asked for no text in the image and will add the wording and my real logo myself.",
+    "I zoomed in and checked hands, faces, objects and stray lettering before saving.",
+    "The image contains no real person, no celebrity and no other company's logo or character.",
+    "Nothing in my post suggests the image shows my real work, my real team or real customers.",
+    "I read the tool's terms on business use, and I will label realistic AI video or audio where the platform requires it."
+   ],
+   "takeaway": "AI can give you a decent illustration for free in a few minutes, but only a real photo can show your real work.",
+   "sources": [
+    {
+     "label": "ChatGPT pricing and plan comparison (Free plan: limited image creation)",
+     "url": "https://chatgpt.com/pricing/"
+    },
+    {
+     "label": "Google: Gemini Apps limits and upgrades (image and video generation by plan)",
+     "url": "https://support.google.com/gemini/answer/16275805?hl=en"
+    },
+    {
+     "label": "Google: Gemini image generation overview (SynthID and visible watermark)",
+     "url": "https://gemini.google/overview/image-generation/"
+    },
+    {
+     "label": "Microsoft: Bing Image Creator help (free with a Microsoft account, 15 fast creations a day, optional visible watermark, video on mobile only)",
+     "url": "https://www.bing.com/images/create/help?FORM=GENHLP"
+    },
+    {
+     "label": "Microsoft Copilot Terms of Use for individuals (effective August 18, 2026)",
+     "url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse"
+    },
+    {
+     "label": "Canva Help Centre: Understanding your AI usage (Free plan allowance and tiers)",
+     "url": "https://www.canva.com/help/ai-access/"
+    },
+    {
+     "label": "Canva AI Product Terms (effective 26 June 2026)",
+     "url": "https://www.canva.com/policies/ai-product-terms/"
+    },
+    {
+     "label": "Adobe: Generative credits FAQ (trial generations, commercial use; updated Sep 30, 2026)",
+     "url": "https://helpx.adobe.com/creative-cloud/apps/generative-ai/generative-credits-faq.html"
+    },
+    {
+     "label": "OpenAI Terms of Use (ownership of content, similarity of content)",
+     "url": "https://openai.com/policies/terms-of-use/"
+    },
+    {
+     "label": "OpenAI Help Center: Provenance signals (Content Credentials, SynthID) in OpenAI-generated content",
+     "url": "https://help.openai.com/en/articles/8912793-provenance-signals-content-credentials-synthid-in-openai-generated-content"
+    },
+    {
+     "label": "Competition Bureau Canada: False or Misleading Representations and Deceptive Marketing Practices",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/false-or-misleading-representations-and-deceptive-marketing-practices"
+    },
+    {
+     "label": "Government of Canada (ISED): Consultation on Copyright in the Age of Generative AI, What We Heard Report (2025-02-11)",
+     "url": "https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/consultation-copyright-age-generative-artificial-intelligence-what-we-heard-report"
+    },
+    {
+     "label": "Instagram Help Centre: Label AI content on Instagram (Meta labelling rules; shown in the mobile app view)",
+     "url": "https://help.instagram.com/761121959519495/?cms_platform=iphone-app&helpref=platform_switcher"
+    },
+    {
+     "label": "TikTok Support: About AI-generated content",
+     "url": "https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content"
+    },
+    {
+     "label": "YouTube Help: Disclosing use of altered or synthetic content",
+     "url": "https://support.google.com/youtube/answer/14328491?hl=en"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "slug": "lesson-6",
+   "title": "Privacy and Safe Use at Work in Canada",
+   "minutes": 15,
+   "objective": "Decide what is safe to paste into an AI tool using a simple traffic-light rule, change the key privacy settings in your tool, and write a one-page AI use rule for your business.",
+   "intro_html": "<p>So far you have used AI to write, research and make images. This lesson is about the one habit that keeps all of that safe: knowing what should never go into the chat box in the first place.</p><p>You do not need to be a lawyer or a tech expert. You need one simple rule, two minutes in your settings, and one page your staff can follow. By the end of this lesson you will have all three.</p>",
+   "sections": [
+    {
+     "heading": "Where your words go",
+     "body_html": "<p>An AI chat tool does not run inside your phone or laptop. Everything you type or upload travels over the internet to the company that runs the tool. Its computers write the answer and send it back.</p><p>What happens next depends on your plan and your settings. Your chat is normally saved so you can return to it. It may also be used for <strong>training</strong>, which means the company uses real conversations to improve future versions of its AI. Plans differ. OpenAI, for example, says content from its services for individuals may be used for training unless you opt out, while its Business, Enterprise and Edu workspaces are not used for training by default.</p><p>A fair way to think about it: the chat box is like an email to a company you barely know. Only send what you would be comfortable having stored on someone else's computers.</p>"
+    },
+    {
+     "heading": "The traffic-light rule",
+     "body_html": "<p>Before you paste anything, give it a colour.</p><ul><li><strong>Green, go ahead:</strong> public information, your own marketing text, general questions. \"Write a spring promotion for a Mississauga landscaping company\" is green.</li><li><strong>Yellow, remove details first:</strong> internal business matters such as a supplier dispute, a pricing idea or a difficult customer conversation. Use it only after you take out names and anything else that points to a real person or company.</li><li><strong>Red, never paste:</strong> customer personal information, health details, payment card or banking numbers, government ID numbers (SIN, driver's licence, health card), passwords, and employee records.</li></ul><p>What turns yellow into green is the <strong>placeholder habit</strong> you practised in Lesson 3. A placeholder is a stand-in word in square brackets. Swap real details for [CUSTOMER], [ADDRESS] and [AMOUNT] before you paste, then put the real ones back yourself in your own email or document. Check for the small things too: phone numbers, email addresses, order numbers and licence plates all point to a real person. The AI can still write a useful reply without knowing who it is for.</p><p>If you are not sure which colour something is, treat it as red.</p><p>Photos, screenshots and files count too. A screenshot of your booking calendar or an invoice is full of red information, even if you only wanted help with the layout.</p>"
+    },
+    {
+     "heading": "Canadian rules in plain language",
+     "body_html": "<p>Canada's federal privacy law for businesses is <strong>PIPEDA</strong> (the Personal Information Protection and Electronic Documents Act). The <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/\" target=\"_blank\" rel=\"noopener\">Office of the Privacy Commissioner of Canada</a> says it applies to private-sector organizations across Canada that collect, use or disclose personal information in the course of a commercial activity. Alberta, British Columbia and Quebec have their own similar laws. Ontario does not have a general one, so PIPEDA covers customer information held by Ontario businesses. It rests on ten fair information principles. Three matter most here: get <strong>consent</strong>, use information only for the <strong>purpose</strong> it was collected for, and <strong>safeguard</strong> it.</p><p>Typing a customer's details into an AI tool is a use of that information. Someone who gave you a phone number to book a furnace repair most likely did not agree to have it sent to an AI company. Canada's federal, provincial and territorial privacy commissioners cover this in their joint <a href=\"https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/\" target=\"_blank\" rel=\"noopener\">Principles for responsible, trustworthy and privacy-protective generative AI technologies</a>. Their advice is to use anonymized or de-identified information in prompts instead of personal information wherever you can.</p><p>Health information in Ontario has its own law, <strong>PHIPA</strong> (the Personal Health Information Protection Act). It applies to \"health information custodians\" such as doctors, nurses, dental professionals, physiotherapists, massage therapists, pharmacies and hospitals, and to people acting for them. In a clinic, patient details are always red.</p><p>PIPEDA's rules on employee information apply to federally regulated businesses such as banks and telecom companies, not to most Ontario small businesses. Treat staff records as red anyway. Your employees trust you with them.</p><p>Change may be coming. <a href=\"https://www.parl.ca/legisinfo/en/bill/45-1/c-36\" target=\"_blank\" rel=\"noopener\">Bill C-36</a>, the Protecting Privacy and Consumer Data Act, was introduced in Parliament on June 15, 2026. When this lesson was checked on October 2, 2026, it had not passed and was still at an early stage in the House of Commons, so PIPEDA is still the law.</p><p>Two Ontario rules apply to employers with 25 or more employees. Since January 1, 2026, a <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/requirements-related-publicly-advertised-job\" target=\"_blank\" rel=\"noopener\">publicly advertised job posting</a> must include a statement if you use AI to screen, assess or select applicants. You also need a <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/written-policy-electronic-monitoring-employees\" target=\"_blank\" rel=\"noopener\">written policy on electronic monitoring of employees</a>.</p><p>If you belong to a regulated profession (health, legal, accounting, real estate, insurance), check with your regulator before using AI on client matters. The Law Society of Ontario publishes a practice note called \"Generative AI: Your professional obligations\". The College of Physicians and Surgeons of Ontario says physicians are ultimately accountable for their use of AI tools.</p>"
+    },
+    {
+     "heading": "Settings to change today",
+     "body_html": "<p>Menus move, so if a name below has changed, look for words like \"data\", \"privacy\" or \"activity\". These were checked on each company's help pages on October 2, 2026. Copilot is not listed below. If you chose it in Lesson 1, open its settings, find the privacy section, and use Microsoft's Copilot privacy controls page listed in the Lesson 2 sources.</p><ul><li><strong>ChatGPT:</strong> Settings, then Data controls, then <em>Improve the model for everyone</em>. Turn it off and new chats are not used for training. A deleted chat leaves your view at once and is scheduled for permanent deletion within 30 days, with some exceptions for security and legal reasons. A <em>Temporary</em> chat stays out of your history and out of training, though a copy may be kept for up to 30 days for safety.</li><li><strong>Google Gemini:</strong> Settings &amp; help, then Activity, then <em>Keep Activity</em>. It is on by default, and activity is auto-deleted after 18 months unless you pick 3 or 36 months. Google says human reviewers read some chats. With Keep Activity off, chats are still held for up to 72 hours. Gemini also offers <em>Temporary Chat</em>, which is also held for up to 72 hours.</li><li><strong>Claude:</strong> Settings, then Privacy, then <em>Help Improve our AI models</em>. If it is on, your data may be kept in de-identified form for up to five years. Deleted chats are removed from Anthropic's systems within 30 days, though chats flagged for breaking the rules can be kept longer. <em>Incognito chats</em> (the ghost icon) are available on the Free plan, are not used for training, and are kept for 30 days by default.</li></ul><p>One more thing to know: if you click thumbs up or thumbs down on an answer, OpenAI and Anthropic say that conversation may be used for training even if you have opted out.</p><p>Notice the pattern: even a temporary chat is sent to the company and kept for a while. These settings lower the risk for green and yellow material. They do not make red material safe.</p>"
+    },
+    {
+     "heading": "Three more habits and your one-page rule",
+     "body_html": "<ul><li><strong>Keep a human in decisions about people.</strong> Hiring, giving credit and refusing service affect someone's life. AI can summarise or organize, but a person decides and can explain why.</li><li><strong>Be honest about AI.</strong> If a customer is chatting with an AI on your website or phone line, say so, and offer a way to reach a person.</li><li><strong>Expect better scams.</strong> <a href=\"https://www.getcybersafe.gc.ca/en/blogs/cyber-criminals-are-using-artificial-intelligence-ai-online-threats\" target=\"_blank\" rel=\"noopener\">Get Cyber Safe</a> warns that criminals use AI to write phishing emails (fake messages that try to trick you out of money or passwords) that look more real and more personal, and to copy real voices. The <a href=\"https://www.cyber.gc.ca/en/what-voice-phishing-vishing-itsap00102\" target=\"_blank\" rel=\"noopener\">Canadian Centre for Cyber Security</a> advises hanging up and calling back on a number you already know and trust, and agreeing on a shared code word or call-back step at work. Report fraud to your local police and to the Canadian Anti-Fraud Centre at 1-888-495-8501.</li></ul><p>Now put it on one page for your team: which tools are approved, what must never be pasted, and who checks AI-written content before it reaches a customer.</p><p>For a GTA small business, the everyday risk is less about the AI and more about the paste button. One clear rule for you and your staff makes mistakes much less likely.</p><p><em>This lesson is general information, not legal advice. For a specific situation, ask a lawyer or your regulator.</em></p>"
+    }
+   ],
+   "exercise": {
+    "title": "Set your privacy controls and write your one-page AI rule",
+    "steps": [
+     "Open your free AI chat tool and go to its settings. Find the data or privacy controls: in ChatGPT, Settings then Data controls; in Gemini, Settings & help then Activity; in Claude, Settings then Privacy; in Copilot, the privacy section of its settings.",
+     "Note whether your conversations are currently used to improve the model (the switch is called \"Improve the model for everyone\", \"Keep Activity\" or \"Help Improve our AI models\"). Change it if you prefer, and write down what you chose. In Gemini, turning Keep Activity off also stops your chats being saved to your history.",
+     "Start a new chat and paste the first prompt below, filling in your type of business and number of staff. Do not include any customer or staff names.",
+     "Answer the questions the AI asks you. Keep your answers general, for example \"we book appointments by phone and text\" rather than naming real people.",
+     "Read the draft against the traffic-light rule. Check that the never-enter list includes customer personal information, health details, payment card and banking numbers, government ID numbers, passwords and employee records. Ask the AI to add anything missing.",
+     "Add the approved tools, the name of the one person who reviews AI-written content before it goes to a customer, and today's date. Type these into your own document, not into the chat.",
+     "Save the policy as a document. After the lesson, share it with one colleague, ask them to tell you one thing that is unclear, and fix it."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Draft your one-page AI use policy",
+     "text": "I run a [type of business] in Ontario with [number] staff. Draft a one-page, plain-language AI use policy for my team with three sections: tools we may use, information that must never be entered into an AI tool, and who must review AI-written content before it goes to a customer. Ask me up to three questions first. Do not ask me for any names or personal details."
+    },
+    {
+     "label": "Check your draft for gaps",
+     "text": "Here is my draft AI use policy: [paste your draft]. Check it against this list of information that must never go into an AI tool: customer personal information, health details, payment card or banking numbers, government ID numbers, passwords, employee records. Tell me what is missing or unclear. Then give me a corrected version that fits on one page and is written at a grade 8 reading level."
+    },
+    {
+     "label": "Reply to a customer using placeholders",
+     "text": "I need to reply to a customer. I have already replaced every real name, address, phone number, email, order number and amount with placeholders such as [CUSTOMER], [ADDRESS] and [AMOUNT]. Keep every placeholder exactly as written and do not guess what it stands for. Here is the customer's message: [paste the message with placeholders only]. Write a polite reply of under 120 words in a [friendly or formal] tone."
+    },
+    {
+     "label": "Make a quick staff quiz",
+     "text": "Create a five-question quiz for the staff of a [type of business] in Ontario. Each question describes something a staff member might want to paste into an AI chat tool. The staff member must answer green (safe to paste), yellow (remove names and identifying details first) or red (never paste). Include the answer and a one-sentence reason for each. Use made-up examples only."
+    }
+   ],
+   "checklist": [
+    "I found the setting that controls whether my chats are used for training and set it the way I want.",
+    "I can sort any piece of information into green, yellow or red before I paste it, and I treat it as red when I am not sure.",
+    "I swap real names, addresses, phone numbers and amounts for placeholders in yellow material, and put them back myself afterwards.",
+    "I know that a temporary or incognito chat is still sent to the company and does not make red information safe.",
+    "My business has a one-page AI rule that names approved tools, banned information and a human reviewer.",
+    "My team has a call-back rule for any urgent request for money or passwords, even when the voice sounds familiar."
+   ],
+   "takeaway": "Give every piece of information a colour before you paste it, set your privacy controls, and give your team one clear page to follow.",
+   "sources": [
+    {
+     "label": "Office of the Privacy Commissioner of Canada: PIPEDA in brief",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: PIPEDA fair information principles",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Principles for responsible, trustworthy and privacy-protective generative AI technologies",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Privacy in the workplace (PIPEDA and employee information)",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_17/"
+    },
+    {
+     "label": "Parliament of Canada LEGISinfo: Bill C-36 (Protecting Privacy and Consumer Data Act) status",
+     "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36"
+    },
+    {
+     "label": "Government of Canada news release: new privacy legislation tabled, June 2026",
+     "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-tables-new-legislation-to-protect-childrens-data-strengthen-privacy-and-build-trust-in-the-digital-economy.html"
+    },
+    {
+     "label": "Information and Privacy Commissioner of Ontario: Health privacy (PHIPA)",
+     "url": "https://www.ipc.on.ca/en/health-organizations"
+    },
+    {
+     "label": "Information and Privacy Commissioner of Ontario: Frequently Asked Questions, Personal Health Information Protection Act (PDF)",
+     "url": "https://www.ipc.on.ca/sites/default/files/legacy/2015/11/phipa-faq.pdf"
+    },
+    {
+     "label": "Ontario: Guide to the Employment Standards Act, requirements related to publicly advertised job postings",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/requirements-related-publicly-advertised-job"
+    },
+    {
+     "label": "Ontario: Guide to the Employment Standards Act, written policy on electronic monitoring of employees",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/written-policy-electronic-monitoring-employees"
+    },
+    {
+     "label": "OpenAI Help Center: Data controls in ChatGPT",
+     "url": "https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt"
+    },
+    {
+     "label": "OpenAI Help Center: How your data is used to improve model performance",
+     "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance"
+    },
+    {
+     "label": "OpenAI Help Center: Deleting and archiving chats in ChatGPT",
+     "url": "https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt"
+    },
+    {
+     "label": "OpenAI Help Center: Temporary chat in ChatGPT",
+     "url": "https://help.openai.com/en/articles/8914046-temporary-chat-in-chatgpt"
+    },
+    {
+     "label": "Google: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+    },
+    {
+     "label": "Google: Manage and delete your Gemini Apps activity",
+     "url": "https://support.google.com/gemini/answer/13278892?hl=en"
+    },
+    {
+     "label": "Anthropic Privacy Center: How do I change my model improvement privacy settings?",
+     "url": "https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings"
+    },
+    {
+     "label": "Anthropic Privacy Center: How long do you store my data?",
+     "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data"
+    },
+    {
+     "label": "Anthropic Privacy Center: Is my data used for model training?",
+     "url": "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training"
+    },
+    {
+     "label": "Claude Help Center: Using incognito chats",
+     "url": "https://support.claude.com/en/articles/12260368-using-incognito-chats"
+    },
+    {
+     "label": "Law Society of Ontario: Using technology (artificial intelligence resources)",
+     "url": "https://lso.ca/lawyers/technology-resource-centre/practice-resources-and-supports/using-technology"
+    },
+    {
+     "label": "College of Physicians and Surgeons of Ontario: Advice to the Profession, Using Artificial Intelligence in Clinical Practice",
+     "url": "https://www.cpso.on.ca/physicians/policies-guidance/advice-to-the-profession/using-artificial-intelligence-in-clinical-practice"
+    },
+    {
+     "label": "Get Cyber Safe: How cyber criminals are using artificial intelligence (AI) for online threats",
+     "url": "https://www.getcybersafe.gc.ca/en/blogs/cyber-criminals-are-using-artificial-intelligence-ai-online-threats"
+    },
+    {
+     "label": "Canadian Centre for Cyber Security: What is voice phishing (vishing)? ITSAP.00.102",
+     "url": "https://www.cyber.gc.ca/en/what-voice-phishing-vishing-itsap00102"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Bulletin, Fraud using Deepfakes",
+     "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2024/07/bulletin-deepfakes-hypertrucage-eng.htm"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "slug": "lesson-7",
+   "title": "Your First Automation: Hand Off One Small Task",
+   "minutes": 15,
+   "objective": "Pick one repetitive task, turn it into a reusable AI routine you can run in about a minute, and understand what the next level of automation looks like and when it is worth it.",
+   "intro_html": "<p>Welcome to the last lesson. So far you have mostly typed each prompt fresh, even when you saved a good one in your prompt library. Today you stop doing that for one task. You will write the instructions once, save them, and from then on only add the part that changes.</p><p>That is all \"automation\" means at this stage. No robots, no coding, no paid software. One small, boring job that you hand off, and still check.</p>",
+   "sections": [
+    {
+     "heading": "Three rungs, and the right first task",
+     "body_html": "<p>At this level, automation means one thing: <strong>I no longer start from a blank page for this task.</strong> Picture a ladder with three rungs.</p><ul><li><strong>Rung one: a saved prompt.</strong> A block of text you keep and paste in each time.</li><li><strong>Rung two: a saved assistant.</strong> Your tool remembers the instructions, so you only paste the new input.</li><li><strong>Rung three: a connected automation.</strong> Your form, inbox, calendar and spreadsheet pass work to each other without you copying it across.</li></ul><p>Pick a first task that is frequent, boring, low-risk and follows the same pattern each time. Good candidates: replying to the same five customer questions, turning rough job notes into a tidy quote description, a weekly social post, or draft replies to public reviews.</p><p>Bad first tasks: anything where money moves, anything sent to customers with no human look, and anything that needs red-light information from Lesson 6. Customer names, phone numbers, addresses, health details and payment details stay out of the chat tool. Use placeholders such as [customer name] instead.</p>"
+    },
+    {
+     "heading": "Rung one: write your standing instructions",
+     "body_html": "<p><em>Standing instructions</em> are a reusable prompt that holds everything that stays the same: your business details, your tone, your rules and the format you want. It is the five-part prompt from Lesson 2, written once and kept. At the bottom sits a clearly marked blank for the part that changes.</p><p>For a plumber's quote routine, the fixed part might say who the business is, \"write in plain, friendly English\", \"never state a price or date I did not give you\", and \"give me a three-line job description and a materials list\". The blank is today's rough notes.</p><p>You do not have to write this alone. In the exercise, the AI asks you a few questions and then writes the block for you. Keep it in the prompt library you started in Lesson 2. Running it takes about a minute: paste, fill the blank, read the result.</p>"
+    },
+    {
+     "heading": "Rung two: let the tool remember",
+     "body_html": "<p>Most chat tools can store standing instructions so you skip the pasting. The names keep changing, so here is what the official help pages said on October 2, 2026. Check them again before you rely on any detail.</p><ul><li><strong>ChatGPT:</strong> use a <em>Project</em>. Select New project in the sidebar, then open the more options menu (the three dots) and choose Project settings to add your instructions. OpenAI says projects are open to signed-in users, depending on your plan, and lists up to five files for free users. Custom GPTs, an older ChatGPT feature for building a saved assistant that you may still see mentioned online, are no longer the route: personal accounts, free or paid, cannot create new ones, and OpenAI says it plans to retire them.</li><li><strong>Claude:</strong> also called <em>Projects</em>. Free accounts can create up to five, each with its own instructions.</li><li><strong>Gemini:</strong> called <em>Gems</em>. You give a Gem a name and instructions, and the help page does not list a paid plan as a requirement. Google says that starting in November 2026, Gems on personal accounts will go away and turn into \"skills\" automatically.</li><li><strong>Microsoft Copilot:</strong> called <em>agents</em>. Microsoft says what you can do varies by account type, subscription and organization settings, so check inside your own account.</li></ul><p>Some tools can also run a prompt on a schedule. ChatGPT's help page says free accounts can have three active scheduled tasks, each running no more than once a day in a loose window such as \"morning\". Gemini is gradually rolling out scheduled actions to personal accounts, up to ten at a time, but only with the Keep Activity setting on, so weigh that against your Lesson 6 privacy choices. Claude keeps scheduled tasks for paid plans.</p>"
+    },
+    {
+     "heading": "Rung three: tools that pass work to each other",
+     "body_html": "<p>On rung three, a <em>no-code automation tool</em> does the passing along. That is software that links your apps with click-together steps instead of programming. Each automation starts with a <em>trigger</em>, the event that sets it off. For example: an enquiry arrives through your website form, it is logged in a spreadsheet, an AI step drafts a reply for you to approve, and the person is added to a follow-up list.</p><p>Three common tools, with limits from their pricing pages on October 2, 2026:</p><ul><li><strong>Zapier:</strong> the free plan gives 100 tasks a month and two-step automations only (one trigger, one action). Longer chains and its built-in AI steps are on the Professional plan, from US$19.99 a month billed yearly.</li><li><strong>Make:</strong> the free plan gives 1,000 credits a month, two active scenarios (its word for automations) and a 15-minute minimum gap between runs. Its paid Core plan is listed from US$9 a month.</li><li><strong>n8n:</strong> the hosted version has a free trial, not a free plan, then starts at 20 euros a month billed yearly. A free version exists, but you run it on your own server, which is not a beginner job.</li></ul><p>Rung three means real customer details flow through another company's software. Before you connect anything, read that tool's privacy terms and make sure your own privacy policy covers it.</p><p>An <strong>AI receptionist</strong>, a voice assistant that answers your phone, takes details and books appointments, is rung three with a voice. It speaks to customers directly, so it needs careful set-up and testing. It is not a first project.</p><p>Rung three is worth it only after a rung-two routine has proved itself for weeks and the copying between apps has become the slow part. One caution: if an automation sends promotional emails or texts, Canada's anti-spam law (CASL) still applies. The three basics from Lesson 3 have not changed: consent, identification of your business, and a working unsubscribe honoured within 10 business days. This is a summary, not legal advice.</p>"
+    },
+    {
+     "heading": "Stay in the loop, measure, and keep the seven habits",
+     "body_html": "<p>Review every output at first. After a couple of clean weeks, you can spot-check work that stays inside your business, such as notes or summaries. Anything that goes to a customer still gets read by you before it is sent, every time. When the routine gets something wrong, do not only fix that one answer. Add a line to the standing instructions so it stays fixed.</p><p>Then measure. Time the task the old way, then with the routine, for two weeks. If it does not save time, drop it and pick another task.</p><p>That completes the course. The seven habits to keep:</p><ol><li>AI drafts, you decide.</li><li>Use five-part prompts.</li><li>Follow up instead of starting over.</li><li>Verify before you rely on an answer.</li><li>Describe visuals clearly.</li><li>Use the traffic-light rule for privacy.</li><li>Automate the boring pattern.</li></ol><p>For a small business, the gain is modest but real. As an example, a routine that saves fifteen minutes each working day gives back over an hour a week. Your own numbers will differ, which is why you time it. The first two rungs can be tried on a free plan.</p><p>This course was made by Nova Toronto, which offers website design, digital marketing and AI automation for businesses across the Greater Toronto Area. If you reach rung three and would rather have it built for you, that is the kind of work Nova does. There is a live demo of Nova's AI assistant on <a href=\"https://novatoronto.com\" target=\"_blank\" rel=\"noopener\">novatoronto.com</a> if you are curious. No obligation; the course is yours either way.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Build and test your first reusable routine (about 10 minutes)",
+    "steps": [
+     "Choose one task you repeat at least weekly that is boring, low-risk and follows the same pattern, such as replying to a common customer question. Write down roughly how long it takes you by hand.",
+     "Open your free AI chat tool and paste the Routine builder prompt below, with your task described in the blank.",
+     "Answer its questions (five at most) about your business, your tone, the rules it must follow and the format you want. Short answers are fine. Leave out any red-light information from Lesson 6.",
+     "Copy the finished standing instructions into your prompt library. If your tool has a free way to save instructions (a Project in ChatGPT or Claude, a Gem in Gemini), you can save the block there as well after the exercise.",
+     "Run the routine twice with two real examples from this week. First replace every private detail (names, phone numbers, addresses, account or payment details) with a placeholder such as [customer name]. Time each run.",
+     "Note one thing it got wrong, then add one line to the standing instructions to fix it. Use the Fix-it prompt below if you want help wording the line.",
+     "Compare your new time with the old one and write both down. That is your first automation. Keep timing it for two weeks before you decide to keep it."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Routine builder",
+     "text": "Help me create standing instructions I can reuse for this task: [describe the task]. Ask me up to five short questions, one at a time, about my business, my tone, the rules you must follow and the format I want. Do not ask for customer names, contact details or any other personal information. Then write the final standing instructions as a single block I can copy, with a clearly marked place for the new input each time."
+    },
+    {
+     "label": "Standing instructions template",
+     "text": "You are helping [business name], a [type of business] in [city or area]. Task: [what you want done each time]. Tone: [for example: friendly, plain English, short sentences]. Rules: never state a price, date or promise I did not give you; if something is missing, ask me instead of guessing; keep placeholders such as [customer name] exactly as written; [add your own rule]. Format: [for example: a reply under 120 words with a greeting and a sign-off from [your first name]]. NEW INPUT STARTS HERE: [paste today's notes or message, with private details replaced by placeholders]"
+    },
+    {
+     "label": "Fix-it line",
+     "text": "When I ran my standing instructions, the output had this problem: [describe what went wrong]. Suggest one short line I can add to the instructions so this does not happen again. Show me only the new line and tell me where to put it."
+    },
+    {
+     "label": "Is this ready for rung three?",
+     "text": "Here is a task I currently do by hand: [list the steps in order, and which apps you use for each]. Tell me which step is the trigger, which steps a no-code automation tool could do, which steps should keep a human check, and how many steps the automation would need in total. Then tell me honestly whether it is worth connecting yet or whether a saved prompt is enough."
+    }
+   ],
+   "checklist": [
+    "My first task is frequent, boring, low-risk and follows the same pattern each time.",
+    "It involves no money moving, nothing sent to customers unread, and no red-light information.",
+    "I replace customer names, contact details and other private details with placeholders before I paste anything.",
+    "My standing instructions hold my business details, tone, rules and format, with a clearly marked blank for the new input.",
+    "The instructions are saved in my prompt library and, if my tool allows it for free, inside a Project or Gem.",
+    "I review every output for now, and I add a line to the instructions whenever it gets something wrong.",
+    "I am timing the task for two weeks and will drop the routine if it does not save time."
+   ],
+   "takeaway": "Write the instructions once, save them, check every result, and keep the routine only if the clock shows it saves you time.",
+   "sources": [
+    {
+     "label": "OpenAI Help Center: Projects in ChatGPT",
+     "url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt"
+    },
+    {
+     "label": "OpenAI Help Center: Creating and editing GPTs (creation limits and planned retirement)",
+     "url": "https://help.openai.com/en/articles/8554397-creating-and-editing-gpts"
+    },
+    {
+     "label": "OpenAI Help Center: Scheduled tasks in ChatGPT",
+     "url": "https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt"
+    },
+    {
+     "label": "Claude Help Center: What are projects?",
+     "url": "https://support.claude.com/en/articles/9517075-what-are-projects"
+    },
+    {
+     "label": "Claude Help Center: Schedule recurring tasks in Cowork",
+     "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork"
+    },
+    {
+     "label": "Claude pricing",
+     "url": "https://claude.com/pricing"
+    },
+    {
+     "label": "Gemini Apps Help: Use Gems in Gemini Apps",
+     "url": "https://support.google.com/gemini/answer/15146780"
+    },
+    {
+     "label": "Gemini Apps Help: Schedule actions in Gemini Apps",
+     "url": "https://support.google.com/gemini/answer/16316416"
+    },
+    {
+     "label": "Microsoft Support: Get started with agents in Microsoft 365 Copilot",
+     "url": "https://support.microsoft.com/en-us/topic/get-started-with-agents-in-microsoft-365-copilot-943e563d-602d-40fa-bdd1-dbc83f582466"
+    },
+    {
+     "label": "Zapier pricing",
+     "url": "https://zapier.com/pricing"
+    },
+    {
+     "label": "Make pricing",
+     "url": "https://www.make.com/en/pricing"
+    },
+    {
+     "label": "n8n pricing",
+     "url": "https://n8n.io/pricing/"
+    },
+    {
+     "label": "Justice Laws: Canada's anti-spam legislation (CASL), section 6 on consent and message content",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-1.html"
+    },
+    {
+     "label": "Justice Laws: CASL, sections 10 and 11 on express consent and unsubscribe",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-2.html"
+    },
+    {
+     "label": "Justice Laws: Electronic Commerce Protection Regulations (CRTC), sender identification and mailing address",
+     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-36/page-1.html"
+    },
+    {
+     "label": "Nova Toronto homepage (services and live AI assistant demo)",
+     "url": "https://novatoronto.com/"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explain in one sentence what an AI chat tool does, name three things it is good at and three things it gets wrong, and hold a first real conversation ">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-course/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-course/">
+    <meta property="og:title" content="Lesson 1: What AI Actually Is (and What It Is Not) | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="og:description" content="Explain in one sentence what an AI chat tool does, name three things it is good at and three things it gets wrong, and hold a first real conversation ">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 1: What AI Actually Is (and What It Is Not) | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="twitter:description" content="Explain in one sentence what an AI chat tool does, name three things it is good at and three things it gets wrong, and hold a first real conversation ">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 1: What AI Actually Is (and What It Is Not) | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 1 of 7 &bull; about 12 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">What AI Actually Is (and What It Is Not)</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Explain in one sentence what an AI chat tool does, name three things it is good at and three things it gets wrong, and hold a first real conversation with one.</div>
+
+                <p>Welcome. If you have barely touched AI, you are in the right place. Nothing in this lesson needs a credit card or a technical background. The reading takes about 12 minutes and the exercise about 10.</p><p>By the end you will know what an AI chat tool really is, where it helps and where it slips. You will also have had your first proper conversation with one, and you will test it with a question it may well get wrong, so that a confident mistake never catches you off guard later.</p>
+
+                <h2>The plain-English picture</h2>
+                <p>An AI chat tool is a very well-read text predictor. It has been trained on a huge amount of writing. When you type a message, it builds a reply a few words at a time, choosing the words that are most likely to fit.</p><p>Here is your one-sentence version: <strong>an AI chat tool reads what you type and writes the most likely helpful reply, based on patterns in the text it learned from.</strong></p><p>Two things follow from that.</p><ul><li><strong>It does not know your business.</strong> It has never seen your price list, your booking calendar or your customers.</li><li><strong>It does not always look things up.</strong> Most tools now have a web search feature. When search is not used, the reply comes only from training, and training stops at a certain date.</li></ul><p>A helpful comparison is a new hire on their first day. They are fast, well read and happy to draft anything you ask for. They have also never met your customers, do not know how you do things, and will sometimes say something wrong in a completely confident voice. You would not let that person send a quote without reading it first. Treat the AI tool the same way.</p>
+                <h2>Where it helps and where it slips</h2>
+                <p>AI chat tools are good with words. Six jobs they do well:</p><ul><li><strong>First drafts</strong> of emails, notices and posts</li><li><strong>Rewording</strong> a message in a friendlier or firmer tone</li><li><strong>Summarizing</strong> long text into a few lines</li><li><strong>Explaining</strong> something in simpler words</li><li><strong>Listing ideas</strong>, such as names for a seasonal special</li><li><strong>Tidying messy notes</strong> into a clean list or table</li></ul><p>They are weak in places that matter to a business:</p><ul><li><strong>Arithmetic on long lists.</strong> Adding up thirty invoice lines in a plain chat can go wrong. Use a calculator or a spreadsheet.</li><li><strong>Recent events.</strong> Without web search, it only has its training, which stops at a certain date.</li><li><strong>Your local details.</strong> Your hours, your prices, the parking on your street.</li><li><strong>Legal, medical and tax decisions.</strong> It can explain a term. It cannot take responsibility for a decision, and it does not replace a professional.</li><li><strong>Admitting doubt.</strong> It can sound just as sure when it is wrong as when it is right.</li></ul><p>That last weakness has a name. A <strong>hallucination</strong> is an answer the tool has made up but states with confidence: a wrong date, an invented quote, a source that does not exist.</p><p>This is not a rumour. The companies say it themselves. OpenAI's help page <a href="https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth" target="_blank" rel="noopener">Does ChatGPT tell the truth?</a> explains that it can sound sure when it is wrong. Anthropic has a <a href="https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on" target="_blank" rel="noopener">similar page for Claude</a>. Microsoft's <a href="https://www.microsoft.com/en-ca/microsoft-copilot/for-individuals/termsofuse" target="_blank" rel="noopener">Copilot terms</a> tell you to check its answers before you act. And Google prints a warning on the Gemini chat page: "Gemini is AI and can make mistakes."</p>
+                <h2>Which free tool to open</h2>
+                <p>Four well-known chat tools offer a free plan. We checked each company's own pages on October 2, 2026. Free plans change often, so treat this as a snapshot.</p><ul><li><strong>ChatGPT</strong> (from OpenAI) at <a href="https://chatgpt.com" target="_blank" rel="noopener">chatgpt.com</a>. You can try a basic chat without logging in. Logging in with a free account adds saved chats, file uploads and picture-making. OpenAI says everyday text chats are unlimited on the free plan. Uploads, pictures and voice have their own smaller limits. Minimum age is 13, with a parent's permission if you are under 18.</li><li><strong>Claude</strong> (from Anthropic) at <a href="https://claude.ai" target="_blank" rel="noopener">claude.ai</a>. You need a free account and a mobile number that can receive a text code. The free plan includes chat, web search and file creation. Its usage limit resets every five hours, and the number of messages you get varies with demand. Picture-making is not on its list of features. You must be 18 or older.</li><li><strong>Google Gemini</strong> at <a href="https://gemini.google.com" target="_blank" rel="noopener">gemini.google.com</a>. Some features work without signing in. For the rest you use a personal Google account, such as a Gmail address. Minimum age is 13, or the age set for your country. The free plan includes picture-making. Its limit refreshes every five hours until you reach a weekly limit.</li><li><strong>Microsoft Copilot</strong> at <a href="https://copilot.microsoft.com" target="_blank" rel="noopener">copilot.microsoft.com</a>. You can sign in with a Microsoft, Apple or Google account. The free version includes chat and answers based on web search. Signing in adds chat history and picture-making. Minimum age is 13, higher in some countries.</li></ul><p>All four also have apps that are free to download from the Canadian App Store and Google Play.</p><p><strong>What is a limit?</strong> Free plans ration heavier use. When you reach a limit, the tool tells you and you wait for it to reset. You are not charged. Each tool also sells paid plans. You do not need one for this course.</p><p><strong>How to choose:</strong> if you already use Gmail, Gemini is the least effort. If you have a Microsoft account, try Copilot, but read its terms first: Microsoft's terms for the individual version say it is for your own personal use, which Lesson 5 comes back to. Otherwise pick ChatGPT or Claude. Then stay with that one tool for the whole course, so you learn its habits. The one exception is Lesson 5, which is about pictures: Claude does not make them, so Claude users will borrow a second tool for that lesson.</p>
+                <h2>The one rule: AI drafts, you decide</h2>
+                <p>One rule carries through this whole course: <strong>AI drafts, you decide.</strong></p><p>The tool can write the email. You are the one who signs it. It can suggest wording for a quote. You are the one who sends it and answers to the customer if a number is wrong. "The AI told me" will not settle a complaint.</p><p>A second habit starts today: <strong>keep private details out of the chat.</strong> Do not type or paste customer names, phone numbers, addresses, health details, card numbers or passwords. ChatGPT's own home page tells you not to share sensitive information and says chats may be reviewed. Lesson 6 covers what is safe to share.</p><p>For a small business in the Greater Toronto Area, the first step is small. You do not need to buy software or hire a consultant to begin. You need two things:</p><ul><li>one free tool, and</li><li>the habit of treating everything it gives you as a draft.</li></ul><p>A plumber in Scarborough, a dental office in Mississauga and a café in Leslieville can all start the same way: ask for a draft, read it with a critical eye, fix what is wrong, and only then use it.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Your first three-message conversation (about 10 minutes)</h2>
+                    <ol>
+                        <li>Open the free AI chat tool you picked, in a web browser or its phone app. If creating an account takes more than a couple of minutes, ChatGPT lets you do this exercise without logging in. Do not type customer names, phone numbers or any private details. Lesson 6 covers what is safe to share.</li>
+                        <li>Send Message 1 (the first prompt below), filling in your type of business and your city. Read the reply and pick one task you would actually hand over.</li>
+                        <li>Send Message 2 (the second prompt below). It asks about something you already know: your own business hours and nearest main intersection. Use only details that are already public, such as what is on your sign or website. If you work from home, ask about a local shop you know well instead of giving your home address.</li>
+                        <li>Compare its answer with what you know to be true. Notice whether it was right, wrong, vague, or honest about not knowing.</li>
+                        <li>Send Message 3 (the third prompt below) to ask how confident it is and how you would check the answer.</li>
+                        <li>Write down three short notes: one thing it got right, one thing it got wrong or vague, and how it reacted when you challenged it. If it got everything right, note how you confirmed that. Sounding sure and being right are not the same thing, and that is the most important thing you will learn today.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Message 1: What can you help me with?</h3>
+                <button type="button" class="c-copy" data-copy="p1-0">Copy prompt</button>
+                <div class="c-prompt" id="p1-0">I run a [your type of business] in [your city]. Explain to me, in plain language with no jargon, three everyday tasks you could help me with and three you should not be trusted with.</div>
+                <h3>Message 2: A question you already know the answer to</h3>
+                <button type="button" class="c-copy" data-copy="p1-1">Copy prompt</button>
+                <div class="c-prompt" id="p1-1">What are the opening hours of [your business name] at [your street and city], and what is the nearest main intersection?</div>
+                <h3>Message 3: The confidence check</h3>
+                <button type="button" class="c-copy" data-copy="p1-2">Copy prompt</button>
+                <div class="c-prompt" id="p1-2">How confident are you in that last answer, where did the information come from, and how would I check it?</div>
+                <h3>Bonus: Explain yourself simply</h3>
+                <button type="button" class="c-copy" data-copy="p1-3">Copy prompt</button>
+                <div class="c-prompt" id="p1-3">In two sentences a new employee at a [your type of business] would understand, explain what you are and one reason I should double-check what you tell me.</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l1c0"><span>I can say in one sentence what an AI chat tool does.</span></label>
+                    <label><input type="checkbox" data-id="l1c1"><span>I can name three things it is good at (for example drafting, summarizing, rewording).</span></label>
+                    <label><input type="checkbox" data-id="l1c2"><span>I can name three things it gets wrong (for example long sums, recent events, details about my own business).</span></label>
+                    <label><input type="checkbox" data-id="l1c3"><span>I know what a hallucination is: a confident, made-up answer.</span></label>
+                    <label><input type="checkbox" data-id="l1c4"><span>I picked one free tool and will use the same one for the whole course.</span></label>
+                    <label><input type="checkbox" data-id="l1c5"><span>I did not type any customer names or private details into the chat.</span></label>
+                    <label><input type="checkbox" data-id="l1c6"><span>I had a three-message conversation and wrote down one thing it got right and one it got wrong or vague.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> An AI chat tool is a fast, well-read assistant that predicts helpful words rather than knowing facts, so it drafts and you decide.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq" target="_blank" rel="noopener">OpenAI Help Center: ChatGPT Free Tier FAQ (free plan features and limits)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth" target="_blank" rel="noopener">OpenAI Help Center: Does ChatGPT tell the truth? (hallucinations)</a> &bull;
+                    <a href="https://openai.com/policies/terms-of-use/" target="_blank" rel="noopener">OpenAI Terms of Use (minimum age, accuracy of output)</a> &bull;
+                    <a href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT home page (chat without logging in; log in for saved chats, images and uploads; notice about sensitive information)</a> &bull;
+                    <a href="https://claude.com/pricing" target="_blank" rel="noopener">Claude plans and pricing (Free plan features)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/8114491-get-started-with-claude" target="_blank" rel="noopener">Claude Help Center: Get started with Claude (18+, five-hour usage limit on free)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/8287232-verify-your-phone-number" target="_blank" rel="noopener">Claude Help Center: Verify your phone number</a> &bull;
+                    <a href="https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on" target="_blank" rel="noopener">Claude Help Center: Claude is providing incorrect or misleading responses</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/13278668?hl=en" target="_blank" rel="noopener">Gemini Apps Help: What you need to sign in to Gemini Apps (account and age)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/16275805?hl=en" target="_blank" rel="noopener">Gemini Apps Help: Gemini Apps limits and upgrades (free limits, five-hour refresh, image generation)</a> &bull;
+                    <a href="https://gemini.google.com/" target="_blank" rel="noopener">Google Gemini web app (&quot;Gemini is AI and can make mistakes&quot; notice)</a> &bull;
+                    <a href="https://support.microsoft.com/en-us/microsoft-365-copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365" target="_blank" rel="noopener">Microsoft Support: Difference between Microsoft Copilot (free) and Copilot in Microsoft 365</a> &bull;
+                    <a href="https://www.microsoft.com/en-ca/microsoft-copilot/for-individuals/termsofuse" target="_blank" rel="noopener">Microsoft Copilot Terms of Use, Canada (age, Copilot can make mistakes)</a> &bull;
+                    <a href="https://support.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-age-limits-and-parental-controls" target="_blank" rel="noopener">Microsoft Support: Copilot age limits and parental controls</a> &bull;
+                    <a href="https://copilot.microsoft.com/" target="_blank" rel="noopener">Microsoft Copilot sign-in page (Microsoft, Apple or Google account)</a> &bull;
+                    <a href="https://apps.apple.com/ca/app/chatgpt/id6448311069" target="_blank" rel="noopener">App Store Canada: ChatGPT</a> &bull;
+                    <a href="https://apps.apple.com/ca/app/claude-by-anthropic/id6473753684" target="_blank" rel="noopener">App Store Canada: Claude by Anthropic</a> &bull;
+                    <a href="https://apps.apple.com/ca/app/google-gemini/id6477489729" target="_blank" rel="noopener">App Store Canada: Google Gemini</a> &bull;
+                    <a href="https://apps.apple.com/ca/app/microsoft-copilot/id541164041" target="_blank" rel="noopener">App Store Canada: Microsoft Copilot</a> &bull;
+                    <a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt&amp;hl=en_CA&amp;gl=CA" target="_blank" rel="noopener">Google Play Canada: ChatGPT</a> &bull;
+                    <a href="https://play.google.com/store/apps/details?id=com.anthropic.claude&amp;hl=en_CA&amp;gl=CA" target="_blank" rel="noopener">Google Play Canada: Claude by Anthropic</a> &bull;
+                    <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard&amp;hl=en_CA&amp;gl=CA" target="_blank" rel="noopener">Google Play Canada: Google Gemini</a> &bull;
+                    <a href="https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow&amp;hl=en_CA&amp;gl=CA" target="_blank" rel="noopener">Google Play Canada: Microsoft Copilot</a>
+                </p>
+
+                <div class="c-nav">
+                    <a href="../start/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> All lessons</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="1">Mark this lesson complete</button>
+                    <a href="../lesson-2/" class="button button--flex">Next: lesson 2 <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-course';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>

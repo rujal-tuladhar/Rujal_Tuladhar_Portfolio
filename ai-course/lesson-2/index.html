@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Write a prompt that includes who you are, what you want, the context, the format and the limits, and improve a weak answer with follow-up messages ins">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-course/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-course/">
+    <meta property="og:title" content="Lesson 2: How to Ask: The Five-Part Prompt | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="og:description" content="Write a prompt that includes who you are, what you want, the context, the format and the limits, and improve a weak answer with follow-up messages ins">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 2: How to Ask: The Five-Part Prompt | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="twitter:description" content="Write a prompt that includes who you are, what you want, the context, the format and the limits, and improve a weak answer with follow-up messages ins">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 2: How to Ask: The Five-Part Prompt | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 2 of 7 &bull; about 12 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">How to Ask: The Five-Part Prompt</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Write a prompt that includes who you are, what you want, the context, the format and the limits, and improve a weak answer with follow-up messages instead of starting over.</div>
+
+                <p>In Lesson 1 you had your first real conversation with an AI chat tool. Today you learn the skill that most changes the quality of what you get back: how to ask.</p><p>A <strong>prompt</strong> is simply the message you type into the tool. You do not need special words or tricks. You need five small pieces of information, and the habit of replying to a weak answer instead of giving up on it.</p>
+
+                <h2>Why vague questions get vague answers</h2>
+                <p>An AI chat tool does not know your business. It does not know your street, your customers, your prices or how you talk. When you leave those out, it usually does not stop to ask. It fills the gaps with an average guess.</p><p>Try this one-line prompt: <em>Write a service description for my cleaning company.</em></p><p>What comes back is usually something like this: <em>"Our professional team delivers top-quality cleaning tailored to your needs. We pay attention to every detail so you can relax. Contact us today for a free quote!"</em></p><p>Nothing in it is wrong. Nothing in it is yours, either. It could describe any cleaner in any city, and it has just promised a free quote you never offered. The tool did not fail. It answered the question it was given.</p>
+                <h2>The five parts: a checklist for a sticky note</h2>
+                <p>A good prompt answers five questions. Write these on a sticky note and keep it beside your screen.</p><ul><li><strong>Role:</strong> who you are, and who will read the result. <em>"I run a dental office in Mississauga. The readers are new patients."</em></li><li><strong>Task:</strong> the one thing you want. One clear task is easier to check than three mixed together.</li><li><strong>Context:</strong> the details only you know: what you offer, where, for whom, and what is different about this case. Leave out customer names, phone numbers, addresses and anything else private.</li><li><strong>Format:</strong> how long, list or paragraph, and the tone (friendly, formal, plain).</li><li><strong>Limits:</strong> what to leave out and what not to make up. <em>"Do not mention prices. Do not invent reviews."</em></li></ul><p>You do not have to label the parts or keep them in order. Plain sentences, typed the way you would explain the job to a new employee, work fine.</p><p>The companies that make these tools give similar advice. <a href="https://support.google.com/gemini/answer/15235603?hl=en" target="_blank" rel="noopener">Google's help page on writing instructions</a> lists persona, task, context and format. <a href="https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5" target="_blank" rel="noopener">Microsoft's guide</a> lists goal, context, expectations and source. <a href="https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt" target="_blank" rel="noopener">OpenAI's guide</a> says to be clear and specific and to give enough context. Limits is the part this course adds. It is easy to skip, and it is the part that tells the tool not to guess.</p>
+                <h2>Before and after: a Scarborough cleaning company</h2>
+                <p>Here is the same request from a made-up three-person cleaning company in Scarborough, this time with all five parts.</p><p><em>I own a three-person cleaning company in Scarborough. The readers are homeowners and renters in east Toronto who are comparing cleaners online.</em> (Role)<br><em>Write the website description for our move-out cleaning service.</em> (Task)<br><em>We clean condos and houses up to four bedrooms. We bring our own supplies. The job includes inside the oven, fridge and cupboards. Most jobs take three to five hours. We serve Scarborough, Pickering and Ajax, and we are insured.</em> (Context)<br><em>About 90 words: one short paragraph, then three bullet points. Friendly and plain, no sales language.</em> (Format)<br><em>Do not mention prices or guarantees. Do not invent awards, reviews or years in business. If you need a detail I have not given you, leave a [blank] instead of guessing.</em> (Limits)</p><p>That takes a minute or two to type. The answer should now name the right areas, list what is actually included, and come close to the length you asked for. Where a detail is missing, it should leave a blank you can see.</p><p>The tool can still get things wrong, even with a good prompt. Read every line before you use it, and check each fact against what is true for your business. You are now correcting a draft, not rewriting one.</p>
+                <h2>The follow-up is half the skill</h2>
+                <p>The first answer is a draft. The tool can see the earlier messages in the same chat, so your next message builds on what you have already said. You are editing, not starting from zero.</p><p>Good follow-ups are short:</p><ul><li><em>Make it half as long.</em></li><li><em>Friendlier, less formal.</em></li><li><em>Give me three versions.</em></li><li><em>You got the area wrong. We do not serve Markham. Fix that and change nothing else.</em></li></ul><p>One sentence is worth remembering: <strong>Before you answer, ask me any questions you need.</strong></p><p>These tools tend to answer right away and guess at whatever is missing. This sentence tells the tool to ask instead. Its questions also show you which details matter, which helps when you are not sure what context to give. Use it for anything specific to your business: a policy, a description of a service, a reply to an unhappy customer. Skip it for quick, simple requests.</p><p>One caution. When you ask for help with a customer reply, describe the situation in general words. For now, do not paste the customer's message, name, phone number, address, or any health or payment details into the chat. Add the name yourself after you copy the draft out. Lesson 3 shows how to swap private details for placeholders so you can safely paste more, and Lesson 6 explains why.</p><p>You can also come back later. As checked on October 2, 2026, ChatGPT, Claude, Gemini and Copilot all save your chats to your account by default when you are signed in, so you can reopen yesterday's conversation and keep editing. In Gemini this depends on a setting called Keep Activity, which Google says is on by default if you are 18 or over.</p><p>Free plans have usage limits, but today's exercise needs only about five short messages. Lesson 1 described how each tool's free limit works. Microsoft adds that free Copilot is subject to available capacity. Anthropic, Google and Microsoft do not publish a fixed message count for their free plans, and all of these limits can change. If you reach a limit, wait and come back later.</p>
+                <h2>Save what works: your prompt library</h2>
+                <p>When a prompt gives you a good result, do not let it sink into your chat history. Copy it into a plain note or document titled <strong>My prompt library</strong>. Next month, when you need another service description, you change a few details and reuse it. You will add to this note in later lessons, starting with Lesson 3.</p><p>There is also a shortcut for the Role part. Each tool lets you save a few standing facts so you do not retype them. As checked on October 2, 2026:</p><ul><li><strong>ChatGPT:</strong> Custom Instructions. On the web, open Settings, then Personalization. OpenAI says this is available on all plans.</li><li><strong>Claude:</strong> Instructions for Claude, in Settings. Anthropic says this is available to all users, including free accounts.</li><li><strong>Gemini:</strong> Instructions for Gemini. Open Settings &amp; help, then Personal Intelligence. Google says this works only with a personal Google Account, not a work, school or supervised one.</li><li><strong>Copilot:</strong> a setting called Personalization and memory lets Copilot remember details from your chats. Microsoft says it is on by default where it is available, and you can turn it off.</li></ul><p>Menu names change, so if you cannot find a setting, check the tool's help page in the sources below.</p><p>Keep what you save there general, such as your type of business, your city and the tone you like. Never save passwords, banking details or anything about your customers. Lesson 6 covers privacy in full.</p><p>For a small business in the GTA, this is the whole lesson. A minute or two of extra context in the request, plus one or two follow-ups, is often the difference between an answer you delete and a draft you can use.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Lazy prompt versus five-part prompt</h2>
+                    <ol>
+                        <li>Pick one real thing you need written this week: a service description, a sign for the door, or a reply to a question customers often ask. Do not include customer names, contact details or anything private.</li>
+                        <li>Open your free AI chat tool, start a new chat, and type the request as one lazy line, for example: Write a sign about our holiday hours. Copy the answer into a note and label it Before.</li>
+                        <li>Start another new chat. Write the same request again using all five parts: Role, Task, Context, Format, Limits. Copy this answer into the same note and label it After.</li>
+                        <li>Read the two answers side by side. Ask yourself which one you could use with fewer changes, and which one contains details that are actually true of your business.</li>
+                        <li>In the chat with the better answer, send this follow-up: Make it half as long.</li>
+                        <li>Send a second follow-up: Ask me three questions that would make this more accurate, then rewrite it using my answers. Answer the three questions in one message and read the rewrite. Check every fact in it before you use it anywhere.</li>
+                        <li>Open a new note titled My prompt library and paste in your final five-part prompt. Keep this note; you will add to it in the lessons ahead.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>The five-part prompt (fill in the blanks)</h3>
+                <button type="button" class="c-copy" data-copy="p2-0">Copy prompt</button>
+                <div class="c-prompt" id="p2-0">I am [your role, for example: the owner of a two-chair barbershop in Etobicoke]. The readers are [who will read this, for example: walk-in customers].
+
+Write [the one thing you want, for example: a sign for the front door about our new hours].
+
+Here is what you need to know: [the details only you know: what, where, when, for whom, anything unusual. No customer names or private details].
+
+Format: [length], written as [a paragraph / a list / a short sign], in a [friendly / formal / plain] tone.
+
+Limits: Do not mention [what to leave out]. Do not invent prices, dates, reviews or facts. If a detail is missing, leave a [blank] instead of guessing.</div>
+                <h3>Ask me first</h3>
+                <button type="button" class="c-copy" data-copy="p2-1">Copy prompt</button>
+                <div class="c-prompt" id="p2-1">I need help writing [what you need]. Before you answer, ask me any questions you need. Ask no more than [number] questions, all in one message. Wait for my answers before you write anything.</div>
+                <h3>Fix one thing and keep the rest</h3>
+                <button type="button" class="c-copy" data-copy="p2-2">Copy prompt</button>
+                <div class="c-prompt" id="p2-2">That is close. You got [the detail] wrong. The correct information is [the correct detail]. Fix that, and also make it [shorter / friendlier / more formal]. Keep everything else the same.</div>
+                <h3>Three versions to choose from</h3>
+                <button type="button" class="c-copy" data-copy="p2-3">Copy prompt</button>
+                <div class="c-prompt" id="p2-3">Give me three versions of that: one [tone 1, for example: warm and casual], one [tone 2, for example: short and direct], and one [tone 3, for example: more formal]. Keep the facts exactly the same in all three and number them so I can pick one.</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l2c0"><span>I can name the five parts from memory: Role, Task, Context, Format, Limits.</span></label>
+                    <label><input type="checkbox" data-id="l2c1"><span>I wrote one prompt with all five parts and compared the answer with a one-line version.</span></label>
+                    <label><input type="checkbox" data-id="l2c2"><span>I improved an answer with follow-up messages instead of starting a new chat.</span></label>
+                    <label><input type="checkbox" data-id="l2c3"><span>I used the sentence &quot;Before you answer, ask me any questions you need&quot; at least once.</span></label>
+                    <label><input type="checkbox" data-id="l2c4"><span>I kept customer names and private details out of everything I typed.</span></label>
+                    <label><input type="checkbox" data-id="l2c5"><span>I read the final answer and checked its facts before using it.</span></label>
+                    <label><input type="checkbox" data-id="l2c6"><span>I know where my past chats are saved in my tool, so I can go back to one.</span></label>
+                    <label><input type="checkbox" data-id="l2c7"><span>I started a note titled My prompt library with my first saved prompt.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> Tell the tool who you are, what you want, what it needs to know, how the answer should look and what to leave out. Then edit the answer with follow-ups, and check the facts before you use it.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt" target="_blank" rel="noopener">OpenAI Help Center: Prompt engineering best practices for ChatGPT</a> &bull;
+                    <a href="https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq" target="_blank" rel="noopener">OpenAI Help Center: ChatGPT Free Tier FAQ (free-tier limits)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions" target="_blank" rel="noopener">OpenAI Help Center: ChatGPT Custom Instructions (available on all plans)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/8983778-chat-and-file-retention-in-chatgpt" target="_blank" rel="noopener">OpenAI Help Center: Chat and file retention in ChatGPT (chats stay saved to your account)</a> &bull;
+                    <a href="https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting" target="_blank" rel="noopener">OpenAI Academy: Prompting</a> &bull;
+                    <a href="https://support.claude.com/en/articles/8114491-get-started-with-claude" target="_blank" rel="noopener">Claude Help Center: Get started with Claude (free plan limit resets every five hours; prompting tips)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features" target="_blank" rel="noopener">Claude Help Center: Understanding Claude&#x27;s personalization features (Instructions for Claude)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/8230524-delete-or-rename-a-conversation" target="_blank" rel="noopener">Claude Help Center: Delete or rename a conversation (where past chats are found)</a> &bull;
+                    <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices" target="_blank" rel="noopener">Anthropic: Prompting best practices</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/15235603?hl=en" target="_blank" rel="noopener">Gemini Apps Help: Tips for creating custom Gems (persona, task, context, format)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/16275805?hl=en" target="_blank" rel="noopener">Gemini Apps Help: Gemini Apps limits and upgrades (limit refreshes every 5 hours, up to a weekly limit)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/16598625?hl=en&amp;co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Gemini Apps Help: Customize Gemini&#x27;s responses with your instructions (Instructions for Gemini)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/13666746?hl=en&amp;co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Gemini Apps Help: Find and manage your recent chats</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/13278892?hl=en&amp;co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Gemini Apps Help: Manage and delete your activity in Gemini Apps (Keep Activity default)</a> &bull;
+                    <a href="https://support.microsoft.com/en-us/topic/learn-about-copilot-prompts-f6c3b467-f07c-4db1-ae54-ffac96184dd5" target="_blank" rel="noopener">Microsoft Support: Get started writing prompts in Microsoft Copilot</a> &bull;
+                    <a href="https://support.microsoft.com/en-us/microsoft-copilot/privacy-faq-for-microsoft-copilot" target="_blank" rel="noopener">Microsoft Support: Privacy FAQ for Microsoft Copilot (conversations saved by default)</a> &bull;
+                    <a href="https://support.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-privacy-controls" target="_blank" rel="noopener">Microsoft Support: Microsoft Copilot privacy controls (Personalization and memory setting)</a> &bull;
+                    <a href="https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals" target="_blank" rel="noopener">Microsoft: Copilot pricing plans for individuals (free version subject to capacity and limits)</a>
+                </p>
+
+                <div class="c-nav">
+                    <a href="../lesson-1/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 1</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="2">Mark this lesson complete</button>
+                    <a href="../lesson-3/" class="button button--flex">Next: lesson 3 <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-course';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>

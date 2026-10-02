@@ -98,7 +98,7 @@ modalCloses.forEach((modalClose) => {
 })
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper('.portfolio__container', {
+let swiperPortfolio = typeof Swiper === 'undefined' ? null : new Swiper('.portfolio__container', {
     cssMode: true,
     loop: true,
 
@@ -117,7 +117,7 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 });
 
 /*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper('.testimonial__container', {
+let swiperTestimonial = typeof Swiper === 'undefined' ? null : new Swiper('.testimonial__container', {
     grabCursor: true,
     spaceBetween: 48,
     loop: true,
@@ -237,7 +237,7 @@ if (dropdownItem) {
 
 
 /*==================== BLOG SLIDER ====================*/
-let swiperBlog = new Swiper('.blog__container', {
+let swiperBlog = typeof Swiper === 'undefined' ? null : new Swiper('.blog__container', {
     grabCursor: true,
     spaceBetween: 48,
     loop: true,

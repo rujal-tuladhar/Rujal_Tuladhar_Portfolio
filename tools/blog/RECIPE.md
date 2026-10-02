@@ -137,6 +137,58 @@ curl -s -o /dev/null -w "%{http_code}" https://novatoronto.com/blog/<slug>/
 Expect `200`. Then finish with a two-line report: the title, the URL, the word
 count, and the number of sources.
 
+## Lead posts: the 100-topic calendar and the ready queue (added 2026-10-02)
+
+Rujal asked for a post every day that promotes a Nova service and brings leads. These are
+EVERGREEN buyer-intent posts (cost, comparison, how-to, industry problem, Canadian rules),
+separate from the weekly AI news post.
+
+| Path | What |
+|---|---|
+| `tools/blog/_queue/calendar.json` | The 100 topics in publishing order: n, slug, title, primary_keyword, service, outline |
+| `tools/blog/_queue/NNN-<slug>.json` | A fully written, validated post waiting to go out (NNN = calendar n, zero-padded) |
+| `tools/blog/_queue/state.json` | Last queue publish date (one queued post per day, enforced by the publisher) |
+| `tools/blog/_queue/failed/` | Posts that failed validation at publish time (usually a source went dead) |
+
+The folder starts with an underscore so GitHub Pages does not serve drafts.
+
+### Every day, in this order
+
+1. **Publish the next ready post (cheap, do this FIRST):**
+   ```
+   python C:/Users/Rujal/Documents/GitHub/Rujal_Tuladhar_Portfolio/tools/blog/publish_post.py --next
+   ```
+   It picks the lowest-numbered file in `_queue/`, validates it (live link check), publishes with
+   today's date, moves the JSON to `posts/<date>-<slug>.json`, commits and pushes. If a post fails
+   validation it is moved to `_queue/failed/` and the next one is tried. It refuses to publish a
+   second queued post on the same day. Then confirm the URL returns 200 as in step 5 above.
+
+2. **Top up the queue by ONE post** if it holds fewer than 10 ready posts: take the lowest `n` in
+   `calendar.json` whose slug is neither in `published.json` nor already a file in `_queue/`.
+   Research and write it exactly as steps 2-3 above (every fact fetched today, 900-1,400 words),
+   keep the calendar slug, add a `faq` array (3-5 real buyer questions, plain-text answers under
+   600 chars), end with a bridge to the calendar item's service page, save it as
+   `tools/blog/_queue/NNN-<slug>.json`, and validate with:
+   ```
+   python C:/Users/Rujal/Documents/GitHub/Rujal_Tuladhar_Portfolio/tools/blog/publish_post.py C:/Users/Rujal/Documents/GitHub/Rujal_Tuladhar_Portfolio/tools/blog/_queue/NNN-<slug>.json --dry-run
+   ```
+   Fix until it passes. If usage is short, skip the top-up - publishing comes first.
+
+3. **AI news post: Mondays only** ("AI This Week", the original daily recipe above), or any day
+   something big happens. On other days the queued lead post IS the day's post.
+
+4. If something is in `_queue/failed/`, repair it when there is time: replace the dead source or
+   drop that fact, move the file back into `_queue/`, dry-run again.
+
+### Extra fields the publisher now understands
+
+- `"faq": [ { "q": "Question ending in ?", "a": "Plain-text answer, no HTML, under 600 chars" } ]`
+  (optional, 3-6 items). Rendered as a "Common questions" section and as FAQPage structured data.
+- Covers are drawn by `tools/blog/cover.py`: an original illustration picked from the slug
+  (website, chart, shop, phone, video, automation, news, rules, course). No stock photos.
+  `python tools/blog/cover.py` renders a sample of each style into `_cover_samples/`.
+- Every lead post should link once to the free course: `../../ai-course/` ("free AI course for beginners").
+
 ## If something is wrong
 
 - **Push fails** → do not retry blindly. Report the error. Rujal may need to

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use AI with web search to research a business question, ask for and open the sources, and apply a simple three-step check before relying on any answer">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-course/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-course/">
+    <meta property="og:title" content="Lesson 4: Research and Fact-Checking: Trust, but Verify | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="og:description" content="Use AI with web search to research a business question, ask for and open the sources, and apply a simple three-step check before relying on any answer">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 4: Research and Fact-Checking: Trust, but Verify | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="twitter:description" content="Use AI with web search to research a business question, ask for and open the sources, and apply a simple three-step check before relying on any answer">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 4: Research and Fact-Checking: Trust, but Verify | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 4 of 7 &bull; about 15 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">Research and Fact-Checking: Trust, but Verify</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Use AI with web search to research a business question, ask for and open the sources, and apply a simple three-step check before relying on any answer.</div>
+
+                <p>In the last lesson you used AI to write. Today you use it to find things out. This can save you a lot of reading time. It is also where a wrong answer can cost you real money.</p><p>You do not need to become a researcher. You need two habits: ask the tool to show where its answer came from, and spend a few minutes checking before you act on it. By the end of this lesson you will have tested one real answer yourself.</p>
+
+                <h2>Two modes: answering from memory or searching the web</h2>
+                <p>An AI chat tool can answer in two ways. It can answer <strong>from memory</strong>, using what it learned when it was built, which may be many months old. Or it can <strong>search the web</strong>, read a few pages, and answer from those.</p><p>The quickest way to tell which one you got is to look for links. An answer built from a search usually shows <strong>citations</strong>, which are small links to the pages it used. No links usually means it answered from memory.</p><p>As of October 2, 2026, the free plans of three common tools all include web search:</p><ul><li><strong>ChatGPT:</strong> it may search on its own. To start a search yourself, select <em>View all tools</em> and then <em>Search</em>, or type / and choose Search. When a <em>Sources</em> button appears, it lists the pages used.</li><li><strong>Claude:</strong> press the + button and click <em>Web search</em> so a checkmark shows. In the newer version there is no switch, and Claude searches when it judges that it will help. Answers that use search include source links.</li><li><strong>Gemini:</strong> when it has used web pages, a <em>Sources</em> button appears with the answer. Google notes that not every answer has one.</li></ul><p>None of the three help pages gives a fixed number of free searches per day. Each free plan has usage limits, and the tool tells you when you reach them. Copilot, the fourth tool from Lesson 1, also answers from web search on its free version, so look for the links shown with its answer. If you are not sure whether your tool searched, type: "Search the web for this and show your sources."</p>
+                <h2>Why a confident answer can still be wrong</h2>
+                <p>In Lesson 1 you saw that AI builds answers by predicting likely words. For research, that has one consequence to remember: <strong>plausible and true are not the same thing</strong>. The tool writes what sounds right, in the same confident tone, whether it is right or not.</p><p>The usual failures are:</p><ul><li>Made-up statistics</li><li>Wrong dates</li><li>Out-of-date prices and rates</li><li>Invented quotes, sometimes with a real person's name attached</li></ul><p>The companies that make these tools say so themselves. OpenAI's help page on search warns that results and citations "can be incomplete, outdated, or incorrect." Anthropic and Google publish similar warnings for Claude and Gemini.</p><p>Here is a local example. Ontario's general minimum wage rose to $17.95 an hour on October 1, 2026. The day before, it was $17.60. A tool answering from memory could easily give you the old number, and it would sound just as sure of itself.</p>
+                <h2>Ask for proof, then do the three-step check</h2>
+                <p>You can make checking much easier by asking for proof at the start. Add these lines to any research question:</p><ul><li>"Give me the source link for every claim."</li><li>"Quote the exact sentence you relied on."</li><li>"What is the date of this information?"</li><li>"Tell me what you are not sure about."</li></ul><p>A link is not proof by itself. The tool can misread a page, or link to a page that does not say what it claims. Even the "exact quote" can be wrong. So before you rely on an answer, do the <strong>three-step check</strong>:</p><ol><li><strong>Open the link.</strong> Find the sentence on the page. Does it really say that? Your browser's "Find on page" option makes this quick.</li><li><strong>Look at who published it and when.</strong> A government page updated last week is worth more than a blog post with no date.</li><li><strong>Find a second source.</strong> For anything you will act on or publish, find one independent source that agrees, ideally the original authority.</li></ol><p>If a link is broken, or the page does not contain the claim, treat the claim as unconfirmed. Tell the tool and ask it to search again. Check the new answer the same way, because a tool will sometimes simply agree with you.</p>
+                <h2>Where AI is only the starting point</h2>
+                <p>Some facts are too costly to get wrong. For these, use AI to understand the topic and prepare your questions. The answer itself comes from the official page or a professional:</p><ul><li>Tax rates and filing rules</li><li>Licences and permits</li><li>Employment standards, such as pay, hours, vacation and termination</li><li>Health claims about a product or service</li><li>Anything legal, such as contracts, leases and disputes</li></ul><p>For example, the Canada Revenue Agency lists the HST rate for Ontario as 13%. An AI tool will probably tell you the same. But the rate on a particular sale can depend on what you sell and on the place of supply, which is often where your customer is. That part belongs to the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html" target="_blank" rel="noopener">CRA's own pages</a> or your accountant.</p><p>Good research jobs for AI in a small business:</p><ul><li>Comparing two software options side by side, then confirming prices on each company's own pricing page</li><li>Explaining a new rule in plain language</li><li>Preparing a list of questions before you call your accountant, lawyer or city hall</li><li>Summarizing a long document you own</li></ul>
+                <h2>Summarizing long documents, and what this means for your business</h2>
+                <p>Free plans also let you attach a file, such as a PDF of a supplier contract or an insurance policy. As of October 2, 2026, OpenAI's help page says ChatGPT's free plan allows 3 file uploads a day. Claude's help page lists up to 20 files per chat, and Gemini's lists up to 10 files in one prompt. Free plans also have general usage limits, and all of these numbers change, so check your tool's help page.</p><p>Ask for two things: a plain-language summary, and "What would a careful reader worry about here?" The second question is the useful one. It brings up renewal dates, penalties and notice periods that are easy to miss. Then ask which section each point comes from and read those parts yourself. A summary can leave out or misstate a clause. For a contract you are about to sign, the summary helps you prepare questions. It does not replace legal advice.</p><p><strong>Privacy note:</strong> do not paste or upload anything that contains personal information about customers, staff or anyone else. That includes names, contact details, health details and payment information. If a document has these, leave it out or remove those parts first. A contract also names the other company and holds confidential business terms, which Lesson 6 treats as material to handle with care, so check your privacy settings there before you upload one. Lesson 6 covers privacy in more detail.</p><p>You may also see a feature called <em>Deep Research</em> in ChatGPT and Gemini. It reads many pages and writes a longer report with sources. Google says a report usually takes about 5 to 10 minutes. How much you can use it depends on your plan, and Google says it may be unavailable at busy times without a paid plan. Claude lists its similar Research feature under paid plans only. The same three-step check applies to those reports.</p><p>For a GTA small business, the lesson is simple. AI can cut down your reading time, but only the checking step makes the result safe to rely on. One wrong number in a quote, a payroll run or a web page can cost more than the time you saved.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Fact-check one real answer</h2>
+                    <ol>
+                        <li>Choose one question that involves a rule or a number. To finish in about 10 minutes, use one of these two: &quot;What is the current general minimum wage in Ontario?&quot; or &quot;What rate of HST applies in Ontario?&quot; (A question about your own city&#x27;s rules, such as sidewalk signs, also works but may take longer.)</li>
+                        <li>Open your free AI chat tool and make sure web search is on (see the first section). Paste the first prompt below with your question filled in. Do not include any customer or staff details.</li>
+                        <li>Open up to three of the links in the answer. On each page, find the sentence that supports the claim. Write down yes or no: does the page really say what the AI said?</li>
+                        <li>For each link you opened, note who published the page and the date it was written or last updated.</li>
+                        <li>Now go to the official source yourself, without using the AI&#x27;s link: ontario.ca for provincial rules, canada.ca for federal tax, or your city&#x27;s own website. Find the same fact there. Answer key for the two examples, checked on October 2, 2026: Ontario&#x27;s general minimum wage is $17.95 an hour (in effect October 1, 2026 to September 30, 2027), and the HST rate in Ontario is 13%.</li>
+                        <li>Record three results in a note: Did the AI get it right? Was every source real and did it say what the AI claimed? Was the information current? Keep this note as your personal reminder of how much to trust your tool.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Research question with sources</h3>
+                <button type="button" class="c-copy" data-copy="p4-0">Copy prompt</button>
+                <div class="c-prompt" id="p4-0">I run a [type of business] in [city], Ontario. Search the web and answer this question: [your question]. Give me a source link for every claim. Quote the exact sentence you relied on from each source. Tell me the date of the information and who published it. Use official government sources where they exist. At the end, list anything you are not sure about.</div>
+                <h3>Ask the tool to check its own answer</h3>
+                <button type="button" class="c-copy" data-copy="p4-1">Copy prompt</button>
+                <div class="c-prompt" id="p4-1">Go back over your last answer. For each claim, show me the link and the exact sentence on that page that supports it. If you cannot find a supporting sentence, say so plainly and mark that claim as unconfirmed. Also tell me whether any of this information could have changed since [month and year].</div>
+                <h3>Summarize a document you own</h3>
+                <button type="button" class="c-copy" data-copy="p4-2">Copy prompt</button>
+                <div class="c-prompt" id="p4-2">I have attached [type of document, for example a supplier contract]. It contains no personal information about customers or staff. Summarize it in plain language in no more than [number] bullet points. Then answer: what would a careful reader worry about here? Look for renewal dates, fees, penalties, notice periods and anything unusual. For each point, tell me the section or page number so I can read it myself.</div>
+                <h3>Prepare for a call with a professional</h3>
+                <button type="button" class="c-copy" data-copy="p4-3">Copy prompt</button>
+                <div class="c-prompt" id="p4-3">I am going to speak with my [accountant / lawyer / city licensing office] about [topic]. I am a [type of business] in [city], Ontario. Explain the basics of this topic in plain language, with source links. Then give me [number] specific questions I should ask, and list the documents or numbers I should have ready before the call.</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l4c0"><span>I can tell whether my tool searched the web or answered from memory, and I know how to ask it to search.</span></label>
+                    <label><input type="checkbox" data-id="l4c1"><span>I asked for a source link, an exact quote and a date for every claim.</span></label>
+                    <label><input type="checkbox" data-id="l4c2"><span>I opened the links and found the claim on the page myself.</span></label>
+                    <label><input type="checkbox" data-id="l4c3"><span>I noted who published each source and when it was last updated.</span></label>
+                    <label><input type="checkbox" data-id="l4c4"><span>I confirmed anything I will act on or publish with the official page or a professional.</span></label>
+                    <label><input type="checkbox" data-id="l4c5"><span>I kept personal information about customers and staff (names, contact details, health details, payment information) out of anything I pasted or uploaded.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> AI can find and explain an answer in minutes, but it is only safe to rely on after you have opened the source, checked who published it and when, and confirmed it with the original authority.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt" target="_blank" rel="noopener">OpenAI Help Center: Searching the web with ChatGPT (available on Free, how to start a search, citations and Sources, accuracy warning)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq" target="_blank" rel="noopener">OpenAI Help Center: ChatGPT Free Tier FAQ (what the free tier includes, separate tool limits)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/8555545-file-uploads-faq" target="_blank" rel="noopener">OpenAI Help Center: File Uploads FAQ (Free users limited to 3 file uploads per day)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt" target="_blank" rel="noopener">OpenAI Help Center: Deep research in ChatGPT (what it does, usage varies by plan)</a> &bull;
+                    <a href="https://claude.com/pricing" target="_blank" rel="noopener">Claude pricing (Free plan includes web search; Research listed under paid plans)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/10684626-enabling-and-using-web-search" target="_blank" rel="noopener">Claude Help Center: Enabling and using web search (Free accounts included, + button, newer version with no toggle, citations)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/8241126-uploading-files-to-claude" target="_blank" rel="noopener">Claude Help Center: Uploading files to Claude (up to 20 files per chat)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on" target="_blank" rel="noopener">Claude Help Center: Claude is providing incorrect or misleading responses (provider statement on inaccurate output and quotes)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/14143489?hl=en" target="_blank" rel="noopener">Gemini Apps Help: View related sources from Gemini Apps (Sources button; not all responses include sources)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/16275805?hl=en" target="_blank" rel="noopener">Gemini Apps Help: Gemini Apps limits and upgrades (limits without a paid plan; Deep Research may be unavailable at busy times)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/14903178?hl=en" target="_blank" rel="noopener">Gemini Apps Help: Upload and analyse files (up to 10 files per prompt, subject to availability)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/15719111?hl=en" target="_blank" rel="noopener">Gemini Apps Help: Deep Research in Gemini Apps (how it works, about 5 to 10 minutes per report, limits)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/13275745?hl=en" target="_blank" rel="noopener">Gemini Apps Help: Use Gemini Apps (Google&#x27;s statement that Gemini can make mistakes)</a> &bull;
+                    <a href="https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage" target="_blank" rel="noopener">Government of Ontario: Minimum wage, Your guide to the Employment Standards Act (general minimum wage $17.95 from October 1, 2026; page updated September 28, 2026)</a> &bull;
+                    <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html" target="_blank" rel="noopener">Canada Revenue Agency: GST/HST calculator and rates (Ontario 13%)</a> &bull;
+                    <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html" target="_blank" rel="noopener">Canada Revenue Agency: Charge and collect the tax, which rate to charge (place of supply rules)</a>
+                </p>
+
+                <div class="c-nav">
+                    <a href="../lesson-3/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 3</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="4">Mark this lesson complete</button>
+                    <a href="../lesson-5/" class="button button--flex">Next: lesson 5 <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-course';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>

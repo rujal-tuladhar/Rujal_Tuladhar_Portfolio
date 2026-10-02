@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pick one repetitive task, turn it into a reusable AI routine you can run in about a minute, and understand what the next level of automation looks lik">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-course/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-course/">
+    <meta property="og:title" content="Lesson 7: Your First Automation: Hand Off One Small Task | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="og:description" content="Pick one repetitive task, turn it into a reusable AI routine you can run in about a minute, and understand what the next level of automation looks lik">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 7: Your First Automation: Hand Off One Small Task | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work">
+    <meta property="twitter:description" content="Pick one repetitive task, turn it into a reusable AI routine you can run in about a minute, and understand what the next level of automation looks lik">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-course.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 7: Your First Automation: Hand Off One Small Task | AI for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 7 of 7 &bull; about 15 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">Your First Automation: Hand Off One Small Task</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Pick one repetitive task, turn it into a reusable AI routine you can run in about a minute, and understand what the next level of automation looks like and when it is worth it.</div>
+
+                <p>Welcome to the last lesson. So far you have mostly typed each prompt fresh, even when you saved a good one in your prompt library. Today you stop doing that for one task. You will write the instructions once, save them, and from then on only add the part that changes.</p><p>That is all "automation" means at this stage. No robots, no coding, no paid software. One small, boring job that you hand off, and still check.</p>
+
+                <h2>Three rungs, and the right first task</h2>
+                <p>At this level, automation means one thing: <strong>I no longer start from a blank page for this task.</strong> Picture a ladder with three rungs.</p><ul><li><strong>Rung one: a saved prompt.</strong> A block of text you keep and paste in each time.</li><li><strong>Rung two: a saved assistant.</strong> Your tool remembers the instructions, so you only paste the new input.</li><li><strong>Rung three: a connected automation.</strong> Your form, inbox, calendar and spreadsheet pass work to each other without you copying it across.</li></ul><p>Pick a first task that is frequent, boring, low-risk and follows the same pattern each time. Good candidates: replying to the same five customer questions, turning rough job notes into a tidy quote description, a weekly social post, or draft replies to public reviews.</p><p>Bad first tasks: anything where money moves, anything sent to customers with no human look, and anything that needs red-light information from Lesson 6. Customer names, phone numbers, addresses, health details and payment details stay out of the chat tool. Use placeholders such as [customer name] instead.</p>
+                <h2>Rung one: write your standing instructions</h2>
+                <p><em>Standing instructions</em> are a reusable prompt that holds everything that stays the same: your business details, your tone, your rules and the format you want. It is the five-part prompt from Lesson 2, written once and kept. At the bottom sits a clearly marked blank for the part that changes.</p><p>For a plumber's quote routine, the fixed part might say who the business is, "write in plain, friendly English", "never state a price or date I did not give you", and "give me a three-line job description and a materials list". The blank is today's rough notes.</p><p>You do not have to write this alone. In the exercise, the AI asks you a few questions and then writes the block for you. Keep it in the prompt library you started in Lesson 2. Running it takes about a minute: paste, fill the blank, read the result.</p>
+                <h2>Rung two: let the tool remember</h2>
+                <p>Most chat tools can store standing instructions so you skip the pasting. The names keep changing, so here is what the official help pages said on October 2, 2026. Check them again before you rely on any detail.</p><ul><li><strong>ChatGPT:</strong> use a <em>Project</em>. Select New project in the sidebar, then open the more options menu (the three dots) and choose Project settings to add your instructions. OpenAI says projects are open to signed-in users, depending on your plan, and lists up to five files for free users. Custom GPTs, an older ChatGPT feature for building a saved assistant that you may still see mentioned online, are no longer the route: personal accounts, free or paid, cannot create new ones, and OpenAI says it plans to retire them.</li><li><strong>Claude:</strong> also called <em>Projects</em>. Free accounts can create up to five, each with its own instructions.</li><li><strong>Gemini:</strong> called <em>Gems</em>. You give a Gem a name and instructions, and the help page does not list a paid plan as a requirement. Google says that starting in November 2026, Gems on personal accounts will go away and turn into "skills" automatically.</li><li><strong>Microsoft Copilot:</strong> called <em>agents</em>. Microsoft says what you can do varies by account type, subscription and organization settings, so check inside your own account.</li></ul><p>Some tools can also run a prompt on a schedule. ChatGPT's help page says free accounts can have three active scheduled tasks, each running no more than once a day in a loose window such as "morning". Gemini is gradually rolling out scheduled actions to personal accounts, up to ten at a time, but only with the Keep Activity setting on, so weigh that against your Lesson 6 privacy choices. Claude keeps scheduled tasks for paid plans.</p>
+                <h2>Rung three: tools that pass work to each other</h2>
+                <p>On rung three, a <em>no-code automation tool</em> does the passing along. That is software that links your apps with click-together steps instead of programming. Each automation starts with a <em>trigger</em>, the event that sets it off. For example: an enquiry arrives through your website form, it is logged in a spreadsheet, an AI step drafts a reply for you to approve, and the person is added to a follow-up list.</p><p>Three common tools, with limits from their pricing pages on October 2, 2026:</p><ul><li><strong>Zapier:</strong> the free plan gives 100 tasks a month and two-step automations only (one trigger, one action). Longer chains and its built-in AI steps are on the Professional plan, from US$19.99 a month billed yearly.</li><li><strong>Make:</strong> the free plan gives 1,000 credits a month, two active scenarios (its word for automations) and a 15-minute minimum gap between runs. Its paid Core plan is listed from US$9 a month.</li><li><strong>n8n:</strong> the hosted version has a free trial, not a free plan, then starts at 20 euros a month billed yearly. A free version exists, but you run it on your own server, which is not a beginner job.</li></ul><p>Rung three means real customer details flow through another company's software. Before you connect anything, read that tool's privacy terms and make sure your own privacy policy covers it.</p><p>An <strong>AI receptionist</strong>, a voice assistant that answers your phone, takes details and books appointments, is rung three with a voice. It speaks to customers directly, so it needs careful set-up and testing. It is not a first project.</p><p>Rung three is worth it only after a rung-two routine has proved itself for weeks and the copying between apps has become the slow part. One caution: if an automation sends promotional emails or texts, Canada's anti-spam law (CASL) still applies. The three basics from Lesson 3 have not changed: consent, identification of your business, and a working unsubscribe honoured within 10 business days. This is a summary, not legal advice.</p>
+                <h2>Stay in the loop, measure, and keep the seven habits</h2>
+                <p>Review every output at first. After a couple of clean weeks, you can spot-check work that stays inside your business, such as notes or summaries. Anything that goes to a customer still gets read by you before it is sent, every time. When the routine gets something wrong, do not only fix that one answer. Add a line to the standing instructions so it stays fixed.</p><p>Then measure. Time the task the old way, then with the routine, for two weeks. If it does not save time, drop it and pick another task.</p><p>That completes the course. The seven habits to keep:</p><ol><li>AI drafts, you decide.</li><li>Use five-part prompts.</li><li>Follow up instead of starting over.</li><li>Verify before you rely on an answer.</li><li>Describe visuals clearly.</li><li>Use the traffic-light rule for privacy.</li><li>Automate the boring pattern.</li></ol><p>For a small business, the gain is modest but real. As an example, a routine that saves fifteen minutes each working day gives back over an hour a week. Your own numbers will differ, which is why you time it. The first two rungs can be tried on a free plan.</p><p>This course was made by Nova Toronto, which offers website design, digital marketing and AI automation for businesses across the Greater Toronto Area. If you reach rung three and would rather have it built for you, that is the kind of work Nova does. There is a live demo of Nova's AI assistant on <a href="https://novatoronto.com" target="_blank" rel="noopener">novatoronto.com</a> if you are curious. No obligation; the course is yours either way.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Build and test your first reusable routine (about 10 minutes)</h2>
+                    <ol>
+                        <li>Choose one task you repeat at least weekly that is boring, low-risk and follows the same pattern, such as replying to a common customer question. Write down roughly how long it takes you by hand.</li>
+                        <li>Open your free AI chat tool and paste the Routine builder prompt below, with your task described in the blank.</li>
+                        <li>Answer its questions (five at most) about your business, your tone, the rules it must follow and the format you want. Short answers are fine. Leave out any red-light information from Lesson 6.</li>
+                        <li>Copy the finished standing instructions into your prompt library. If your tool has a free way to save instructions (a Project in ChatGPT or Claude, a Gem in Gemini), you can save the block there as well after the exercise.</li>
+                        <li>Run the routine twice with two real examples from this week. First replace every private detail (names, phone numbers, addresses, account or payment details) with a placeholder such as [customer name]. Time each run.</li>
+                        <li>Note one thing it got wrong, then add one line to the standing instructions to fix it. Use the Fix-it prompt below if you want help wording the line.</li>
+                        <li>Compare your new time with the old one and write both down. That is your first automation. Keep timing it for two weeks before you decide to keep it.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Routine builder</h3>
+                <button type="button" class="c-copy" data-copy="p7-0">Copy prompt</button>
+                <div class="c-prompt" id="p7-0">Help me create standing instructions I can reuse for this task: [describe the task]. Ask me up to five short questions, one at a time, about my business, my tone, the rules you must follow and the format I want. Do not ask for customer names, contact details or any other personal information. Then write the final standing instructions as a single block I can copy, with a clearly marked place for the new input each time.</div>
+                <h3>Standing instructions template</h3>
+                <button type="button" class="c-copy" data-copy="p7-1">Copy prompt</button>
+                <div class="c-prompt" id="p7-1">You are helping [business name], a [type of business] in [city or area]. Task: [what you want done each time]. Tone: [for example: friendly, plain English, short sentences]. Rules: never state a price, date or promise I did not give you; if something is missing, ask me instead of guessing; keep placeholders such as [customer name] exactly as written; [add your own rule]. Format: [for example: a reply under 120 words with a greeting and a sign-off from [your first name]]. NEW INPUT STARTS HERE: [paste today&#x27;s notes or message, with private details replaced by placeholders]</div>
+                <h3>Fix-it line</h3>
+                <button type="button" class="c-copy" data-copy="p7-2">Copy prompt</button>
+                <div class="c-prompt" id="p7-2">When I ran my standing instructions, the output had this problem: [describe what went wrong]. Suggest one short line I can add to the instructions so this does not happen again. Show me only the new line and tell me where to put it.</div>
+                <h3>Is this ready for rung three?</h3>
+                <button type="button" class="c-copy" data-copy="p7-3">Copy prompt</button>
+                <div class="c-prompt" id="p7-3">Here is a task I currently do by hand: [list the steps in order, and which apps you use for each]. Tell me which step is the trigger, which steps a no-code automation tool could do, which steps should keep a human check, and how many steps the automation would need in total. Then tell me honestly whether it is worth connecting yet or whether a saved prompt is enough.</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l7c0"><span>My first task is frequent, boring, low-risk and follows the same pattern each time.</span></label>
+                    <label><input type="checkbox" data-id="l7c1"><span>It involves no money moving, nothing sent to customers unread, and no red-light information.</span></label>
+                    <label><input type="checkbox" data-id="l7c2"><span>I replace customer names, contact details and other private details with placeholders before I paste anything.</span></label>
+                    <label><input type="checkbox" data-id="l7c3"><span>My standing instructions hold my business details, tone, rules and format, with a clearly marked blank for the new input.</span></label>
+                    <label><input type="checkbox" data-id="l7c4"><span>The instructions are saved in my prompt library and, if my tool allows it for free, inside a Project or Gem.</span></label>
+                    <label><input type="checkbox" data-id="l7c5"><span>I review every output for now, and I add a line to the instructions whenever it gets something wrong.</span></label>
+                    <label><input type="checkbox" data-id="l7c6"><span>I am timing the task for two weeks and will drop the routine if it does not save time.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> Write the instructions once, save them, check every result, and keep the routine only if the clock shows it saves you time.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://help.openai.com/en/articles/10169521-projects-in-chatgpt" target="_blank" rel="noopener">OpenAI Help Center: Projects in ChatGPT</a> &bull;
+                    <a href="https://help.openai.com/en/articles/8554397-creating-and-editing-gpts" target="_blank" rel="noopener">OpenAI Help Center: Creating and editing GPTs (creation limits and planned retirement)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt" target="_blank" rel="noopener">OpenAI Help Center: Scheduled tasks in ChatGPT</a> &bull;
+                    <a href="https://support.claude.com/en/articles/9517075-what-are-projects" target="_blank" rel="noopener">Claude Help Center: What are projects?</a> &bull;
+                    <a href="https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork" target="_blank" rel="noopener">Claude Help Center: Schedule recurring tasks in Cowork</a> &bull;
+                    <a href="https://claude.com/pricing" target="_blank" rel="noopener">Claude pricing</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/15146780" target="_blank" rel="noopener">Gemini Apps Help: Use Gems in Gemini Apps</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/16316416" target="_blank" rel="noopener">Gemini Apps Help: Schedule actions in Gemini Apps</a> &bull;
+                    <a href="https://support.microsoft.com/en-us/topic/get-started-with-agents-in-microsoft-365-copilot-943e563d-602d-40fa-bdd1-dbc83f582466" target="_blank" rel="noopener">Microsoft Support: Get started with agents in Microsoft 365 Copilot</a> &bull;
+                    <a href="https://zapier.com/pricing" target="_blank" rel="noopener">Zapier pricing</a> &bull;
+                    <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener">Make pricing</a> &bull;
+                    <a href="https://n8n.io/pricing/" target="_blank" rel="noopener">n8n pricing</a> &bull;
+                    <a href="https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-1.html" target="_blank" rel="noopener">Justice Laws: Canada&#x27;s anti-spam legislation (CASL), section 6 on consent and message content</a> &bull;
+                    <a href="https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-2.html" target="_blank" rel="noopener">Justice Laws: CASL, sections 10 and 11 on express consent and unsubscribe</a> &bull;
+                    <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-36/page-1.html" target="_blank" rel="noopener">Justice Laws: Electronic Commerce Protection Regulations (CRTC), sender identification and mailing address</a> &bull;
+                    <a href="https://novatoronto.com/" target="_blank" rel="noopener">Nova Toronto homepage (services and live AI assistant demo)</a>
+                </p>
+
+                <div class="c-panel" style="margin-top: 2rem;">
+                    <h2 style="margin-top: 0;">You finished the course</h2>
+                    <p style="margin-bottom: 0;">That is the whole course, and the seven habits are yours to keep. If you would like a second opinion on where AI or automation could fit in your own business, you can book a free 30-minute consultation with Rujal at Nova Toronto. There is no obligation, and if the honest answer is that a saved prompt is all you need, that is what you will hear.</p>
+                </div>
+                <div class="c-nav">
+                    <a href="../lesson-6/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 6</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="7">Mark this lesson complete</button>
+                    <a href="../../index.html#contact" class="button button--flex">Book a free 30-minute call <i class="uil uil-calendar-alt button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-course';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>
