@@ -1,0 +1,195 @@
+{
+ "slug": "automate-invoice-reminders-small-business",
+ "title": "How to automate invoice reminders and late-payment follow-up",
+ "category": "AI Automation",
+ "excerpt": "How to automate invoice reminders for a small business: what QuickBooks, Wave and FreshBooks send, where they stop, and the Ontario rules.",
+ "keywords": "automate invoice reminders small business, automatic payment reminders QuickBooks, overdue invoice follow up automation, Wave invoice reminders Canada",
+ "cover_title": "Invoice Reminders on Autopilot",
+ "intro_html": "<p>Chasing unpaid invoices is the job nobody in a small business owns. It gets done on a Friday afternoon, from memory, by whoever is least busy. Xero's <a href=\"https://www.xero.com/ca/resources/small-business-insights/latest-canada/\" target=\"_blank\" rel=\"noopener\">Canada Small Business Insights</a>, published July 30, 2026, shows the result: in the June quarter the average invoice to a Canadian small business was settled 11.3 days past its due date, and 29.0 days after it was issued. Both figures are worse than the 2025 averages of 10.5 and 27.1 days.</p><p>Your accounting software sends reminders once you switch them on, and a small automation covers the gaps. Here is what QuickBooks Online, Wave and FreshBooks do according to their own help pages as of October 2, 2026, where each one stops, how to add texts, and two Canadian rules to get right first.</p>",
+ "glance": [
+  {
+   "icon": "uil-clock",
+   "heading": "11.3 days late",
+   "sub": "Average for Canadian small businesses in the June 2026 quarter, per Xero"
+  },
+  {
+   "icon": "uil-envelope",
+   "heading": "Three reminders, built in",
+   "sub": "QuickBooks Online and FreshBooks each allow up to three; Wave uses fixed days"
+  },
+  {
+   "icon": "uil-mobile-android",
+   "heading": "Texts need a connector",
+   "sub": "The three help pages describe email only; Zapier or Make plus Twilio adds SMS"
+  },
+  {
+   "icon": "uil-percentage",
+   "heading": "5% a year cap",
+   "sub": "What the Interest Act allows when a contract shows only a monthly rate"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "CASL still applies",
+   "sub": "A plain reminder skips consent but still needs your identity and an unsubscribe"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What QuickBooks, Wave and FreshBooks already send",
+   "body_html": "<p>All three tools have reminders in their settings.</p><ul><li><strong>QuickBooks Online.</strong> Intuit's <a href=\"https://quickbooks.intuit.com/learn-support/en-ca/help-article/invoicing/send-invoice-reminders-automatically-manually/L84cQjpxo_CA_en_CA\" target=\"_blank\" rel=\"noopener\">help article</a> describes up to three automatic reminders, each set up to 90 days before or after the due date. They go out only for invoices you emailed from QuickBooks. The <a href=\"https://quickbooks.intuit.com/ca/pricing/\" target=\"_blank\" rel=\"noopener\">Canadian pricing page</a> lists automated workflows under Advanced, the top plan.</li><li><strong>Wave.</strong> The <a href=\"https://support.waveapps.com/hc/en-us/articles/208621676-Schedule-invoice-payment-reminders\" target=\"_blank\" rel=\"noopener\">help page</a>, updated August 10, 2026, says scheduled reminders are for businesses that accept online payments through Wave or subscribe to the Pro Plan, which <a href=\"https://www.waveapps.com/pricing\" target=\"_blank\" rel=\"noopener\">costs $25 CAD a month or $250 CAD a year</a>. Timings are fixed: 14, 7 or 3 days before the due date, on it, and 3, 7 or 14 days after.</li><li><strong>FreshBooks.</strong> Its <a href=\"https://support.freshbooks.com/hc/en-us/articles/227559727-What-are-payment-reminders-and-late-fees\" target=\"_blank\" rel=\"noopener\">support article</a> allows up to three reminder emails before or after the due date, plus an optional late fee: a percentage of the invoice, a percentage of the outstanding balance, or a flat amount. Regular <a href=\"https://www.freshbooks.com/en-ca/pricing\" target=\"_blank\" rel=\"noopener\">Canadian prices</a> are $26 CAD a month for Lite (five billable clients), $42 for Plus (50) and $72 for Premium (unlimited).</li></ul>",
+   "takeaway": "Before buying anything new, open your invoice settings this week and switch on three reminders in the tool you already use."
+  },
+  {
+   "heading": "Where built-in reminders stop",
+   "body_html": "<ul><li><strong>Email only.</strong> None of the three articles mentions text messages.</li><li><strong>One rule for everyone.</strong> The QuickBooks article describes one company-wide set of rules. An owner asked on <a href=\"https://quickbooks.intuit.com/learn-support/en-us/reports-and-accounting/can-i-turn-off-automatic-invoice-reminders-by-customer-invoice/00/710448\" target=\"_blank\" rel=\"noopener\">Intuit's community forum</a> how to switch reminders off for one customer; the staff answer was the global on/off switch. That thread dates from 2020 to 2023, so check your own account.</li><li><strong>Partial payments.</strong> Wave says reminders stop once an invoice is marked fully paid. It does not say they pause after a part payment.</li><li><strong>Gaps.</strong> Wave reminds the customer's primary email only, and its default setting does not apply to recurring invoices. FreshBooks applies reminders and late fees to newly created invoices, so older ones are chased by hand.</li><li><strong>Disputes.</strong> None of the pages describes a way to hold reminders on a disputed invoice.</li></ul>",
+   "takeaway": "Write down your exceptions: payment plans, disputed jobs, customers who never open email. If that list has more than a handful of names, built-in reminders alone will either annoy people or miss them."
+  },
+  {
+   "heading": "A three-step sequence and its timing",
+   "body_html": "<p>This is my suggested starting sequence, not a vendor default. It uses timings all three tools offer.</p><ol><li><strong>Three days before the due date.</strong> A friendly heads-up with the invoice number, amount and payment link.</li><li><strong>Three days after.</strong> A short nudge asking whether the invoice reached the right person, with your phone number. If you add a text, add it here.</li><li><strong>Fourteen days after.</strong> A firmer note: the balance, the interest term from your agreement if you have one, and the day you will call.</li></ol><p>Then stop automating and pick up the phone. QuickBooks and FreshBooks cap you at three reminders anyway. Put the invoice number and amount in every subject line, and write in your own voice rather than the tone of a collections notice.</p>",
+   "takeaway": "Use the same three dates for every customer, and put the day-15 phone call in your calendar as a recurring task so the sequence always ends with a human."
+  },
+  {
+   "heading": "Adding text messages with Zapier or Make",
+   "body_html": "<p>To get past email, you connect the accounting tool to a messaging service.</p><p><a href=\"https://zapier.com/apps/quickbooks/integrations\" target=\"_blank\" rel=\"noopener\">QuickBooks Online on Zapier</a> has the useful triggers: New Invoice Due (an invoice comes due within a number of days you set), New Payment, and New Paid Invoice (the balance reaches zero). The last two make partial payments manageable: a payment that leaves a balance can send a thank-you with the remaining amount instead of another nudge. Zapier also lists a <a href=\"https://zapier.com/apps/quickbooks/integrations/twilio\" target=\"_blank\" rel=\"noopener\">QuickBooks-to-Twilio connection</a> with a Send SMS action. <a href=\"https://zapier.com/apps/freshbooks/integrations\" target=\"_blank\" rel=\"noopener\">FreshBooks</a> offers New Invoice, Updated Invoice and New Invoice Payment. <a href=\"https://zapier.com/apps/wave/integrations\" target=\"_blank\" rel=\"noopener\">Wave</a> lists only New Customer and New Invoice, so a Wave workflow has to track due dates itself.</p><p><a href=\"https://zapier.com/pricing\" target=\"_blank\" rel=\"noopener\">Zapier's free plan</a> gives 100 tasks a month but only two-step workflows. A filter, a text and a log entry need Professional, from US$29.99 a month (US$19.99 billed yearly) for 750 tasks; its <a href=\"https://help.zapier.com/hc/en-us/articles/8496196837261-How-is-task-usage-measured-in-Zapier\" target=\"_blank\" rel=\"noopener\">help centre</a> says triggers, filters and delays do not use tasks. <a href=\"https://www.make.com/en/pricing\" target=\"_blank\" rel=\"noopener\">Make</a> lists a free plan with 1,000 credits a month, and Core from $9 a month; the page shows no currency label.</p><p>Texts are cheap. <a href=\"https://www.twilio.com/en-us/sms/pricing/ca\" target=\"_blank\" rel=\"noopener\">Twilio's Canada page</a> lists $0.0083 per outbound message segment plus a carrier fee of $0.0087 on Bell and Virgin or $0.0084 on Rogers and Fido, and $1.15 a month for a local number. That works out to under two cents per message segment on those carriers, and a long text can use more than one segment. The page does not state a currency either, so confirm it on your Twilio bill.</p>",
+   "takeaway": "At 40 invoices a month the running cost is roughly one Zapier plan plus a few dollars for texts and the number; the real cost is the time spent building and testing the stop conditions."
+  },
+  {
+   "heading": "Ontario basics: interest and CASL",
+   "body_html": "<p>This is general information, not legal advice. I am not a lawyer, so check both points with one before you rely on them.</p><p><strong>Interest has to be agreed before the work.</strong> QuickBooks Canada's <a href=\"https://quickbooks.intuit.com/ca/resources/running-a-business/late-fees-invoices/\" target=\"_blank\" rel=\"noopener\">guide to late fees</a> says a late fee usually has to be part of what the client agreed to before the work started, not something added afterwards, and an Ontario law firm's <a href=\"https://www.listerlawyers.com/blog/interest-rates-in-commercial-contracts/\" target=\"_blank\" rel=\"noopener\">article</a> (December 2023, so older) says the same about a rate printed only on the invoice. Section 4 of the federal <a href=\"https://laws-lois.justice.gc.ca/eng/acts/i-15/page-1.html\" target=\"_blank\" rel=\"noopener\">Interest Act</a> adds that when a written contract gives a rate per day, week or month without the equivalent yearly rate, no more than five per cent a year is recoverable (mortgages on real property are excepted). So put the term, with a yearly rate, in the quote or contract the customer accepts. <a href=\"https://www.ontario.ca/page/suing-someone-small-claims-court\" target=\"_blank\" rel=\"noopener\">Ontario's Small Claims Court</a> has handled claims up to $50,000 since October 1, 2025, and the province says that in most cases a claim cannot be filed more than two years after the incident, so keep a dated log of reminders.</p><p><strong>CASL covers reminders, including texts.</strong> <a href=\"https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-1.html\" target=\"_blank\" rel=\"noopener\">Canada's anti-spam law</a> applies to messages sent to email and telephone accounts. Subsection 6(6) lifts the consent requirement for a message that solely facilitates, completes or confirms a transaction the person already agreed to. The message must still identify your business, give contact details and include an unsubscribe mechanism. Because the exemption covers messages that solely deal with the transaction, a reminder that also promotes something may need consent. Federal <a href=\"https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/texting-good-client-relations\" target=\"_blank\" rel=\"noopener\">texting guidance</a> suggests your business name, a STOP option and a reference to the order. <a href=\"https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/anti-spam-legislation-questions-answered\" target=\"_blank\" rel=\"noopener\">BDC notes</a> the CRTC can fine individuals up to $1 million and corporations up to $10 million.</p>",
+   "takeaway": "Put the interest term, with a yearly rate, in the document your customer signs, and keep every reminder free of marketing with your business name and a STOP option in each text."
+  },
+  {
+   "heading": "When to hand the setup to someone else",
+   "body_html": "<p>Do it yourself if you invoice from one tool, your exception list is short and email is enough.</p><p>Bring someone in when:</p><ul><li>Deposits, part payments or payment plans are normal, so a reminder has to know the remaining balance.</li><li>You want texts that stop the minute a payment lands.</li><li>Invoices start in one system, such as job or booking software, and get paid in another.</li></ul><p>Nova Toronto <a href=\"../../ai-automation/\">quotes automation work per project</a>, so bring your exception list. If missed calls are the bigger leak, the <a href=\"../../ai-automation/ai-receptionist/\">AI receptionist</a> is quoted the same way, and a live voice demo answers on the homepage. Prefer to learn it yourself? Start with the <a href=\"../../ai-course/\">free AI course for beginners</a>.</p>",
+   "takeaway": "Count last quarter's invoices that needed special handling; under five, do it yourself, and above that, get a quote and compare it with the hours you spend chasing."
+  }
+ ],
+ "bottom_line_html": "<p>Start with what you already have: reminders three days before, three days after and fourteen days after the due date, then a phone call. Add a connector and texts only when the exceptions justify it, put your interest term in the contract, and keep reminders free of promotion. To talk through whether your invoicing is worth automating yet, <a href=\"../../index.html#contact\">book a free consultation</a>.</p>",
+ "faq": [
+  {
+   "q": "Does QuickBooks Online send automatic invoice reminders?",
+   "a": "Yes. Intuit's help article describes up to three automatic reminders, each set up to 90 days before or after the due date. They go only to invoices you emailed from QuickBooks, and the article describes email, not texts."
+  },
+  {
+   "q": "Are Wave invoice reminders free in Canada?",
+   "a": "Wave's help page says scheduled reminders are for businesses that accept online payments through Wave or subscribe to the Pro Plan, listed at $25 CAD a month or $250 CAD a year. Timings are fixed at 3, 7 or 14 days before or after the due date, or on it."
+  },
+  {
+   "q": "Can I charge interest on an overdue invoice in Ontario?",
+   "a": "Only if the customer agreed to it beforehand. The federal Interest Act also limits recovery to five per cent a year when a written contract shows only a daily, weekly or monthly rate. Put the term and yearly rate in your contract and have a lawyer check it."
+  },
+  {
+   "q": "Do I need consent under CASL to text a payment reminder?",
+   "a": "The Act lifts the consent requirement for a message that solely facilitates, completes or confirms a transaction the person already agreed to. The text must still identify your business, give contact details and offer an unsubscribe such as STOP. A reminder that also promotes something may need consent. Check with a lawyer."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Xero: Canada Small Business Insights, June quarter 2026",
+   "url": "https://www.xero.com/ca/resources/small-business-insights/latest-canada/"
+  },
+  {
+   "label": "QuickBooks: Send invoice reminders automatically or manually in QuickBooks Online",
+   "url": "https://quickbooks.intuit.com/learn-support/en-ca/help-article/invoicing/send-invoice-reminders-automatically-manually/L84cQjpxo_CA_en_CA"
+  },
+  {
+   "label": "QuickBooks Canada: Plans and pricing",
+   "url": "https://quickbooks.intuit.com/ca/pricing/"
+  },
+  {
+   "label": "QuickBooks Community: Can I turn off automatic invoice reminders by customer/invoice?",
+   "url": "https://quickbooks.intuit.com/learn-support/en-us/reports-and-accounting/can-i-turn-off-automatic-invoice-reminders-by-customer-invoice/00/710448"
+  },
+  {
+   "label": "QuickBooks Canada: Late fees on invoices, a business owner's guide",
+   "url": "https://quickbooks.intuit.com/ca/resources/running-a-business/late-fees-invoices/"
+  },
+  {
+   "label": "Wave Help Center: Schedule invoice payment reminders",
+   "url": "https://support.waveapps.com/hc/en-us/articles/208621676-Schedule-invoice-payment-reminders"
+  },
+  {
+   "label": "Wave: Pricing",
+   "url": "https://www.waveapps.com/pricing"
+  },
+  {
+   "label": "FreshBooks Support: What are payment reminders and late fees?",
+   "url": "https://support.freshbooks.com/hc/en-us/articles/227559727-What-are-payment-reminders-and-late-fees"
+  },
+  {
+   "label": "FreshBooks: Pricing (Canada)",
+   "url": "https://www.freshbooks.com/en-ca/pricing"
+  },
+  {
+   "label": "Zapier: QuickBooks Online integrations, triggers and actions",
+   "url": "https://zapier.com/apps/quickbooks/integrations"
+  },
+  {
+   "label": "Zapier: QuickBooks Online and Twilio integration",
+   "url": "https://zapier.com/apps/quickbooks/integrations/twilio"
+  },
+  {
+   "label": "Zapier: FreshBooks integrations, triggers and actions",
+   "url": "https://zapier.com/apps/freshbooks/integrations"
+  },
+  {
+   "label": "Zapier: Wave integrations, triggers and actions",
+   "url": "https://zapier.com/apps/wave/integrations"
+  },
+  {
+   "label": "Zapier: Plans and pricing",
+   "url": "https://zapier.com/pricing"
+  },
+  {
+   "label": "Zapier Help: How is task usage measured in Zapier?",
+   "url": "https://help.zapier.com/hc/en-us/articles/8496196837261-How-is-task-usage-measured-in-Zapier"
+  },
+  {
+   "label": "Make: Pricing",
+   "url": "https://www.make.com/en/pricing"
+  },
+  {
+   "label": "Twilio: SMS pricing in Canada",
+   "url": "https://www.twilio.com/en-us/sms/pricing/ca"
+  },
+  {
+   "label": "Justice Laws Website: Interest Act, sections 3 and 4",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/i-15/page-1.html"
+  },
+  {
+   "label": "Lister-Beaupre: Interest rates in commercial contracts",
+   "url": "https://www.listerlawyers.com/blog/interest-rates-in-commercial-contracts/"
+  },
+  {
+   "label": "Ontario.ca: Suing someone in Small Claims Court",
+   "url": "https://www.ontario.ca/page/suing-someone-small-claims-court"
+  },
+  {
+   "label": "Justice Laws Website: Canada's anti-spam legislation, section 6",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-1.html"
+  },
+  {
+   "label": "Innovation, Science and Economic Development Canada: Texting for good client relations",
+   "url": "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/texting-good-client-relations"
+  },
+  {
+   "label": "BDC: Canada's anti-spam legislation, your questions answered",
+   "url": "https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/anti-spam-legislation-questions-answered"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation services",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "Business tasks to automate with AI",
+   "href": "../business-tasks-to-automate-with-ai/"
+  }
+ ]
+}

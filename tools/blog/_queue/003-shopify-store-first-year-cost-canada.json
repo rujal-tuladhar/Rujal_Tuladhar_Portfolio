@@ -1,0 +1,164 @@
+{
+ "slug": "shopify-store-first-year-cost-canada",
+ "title": "What a Shopify store really costs in Canada in year one",
+ "category": "Website Design",
+ "excerpt": "Shopify store cost in Canada for year one: plan, theme, apps, card fees and setup, totalled at three sales levels from Shopify's live CAD prices.",
+ "keywords": "Shopify store cost Canada, Shopify setup cost, ecommerce website cost Canada, cost to start online store Canada 2026",
+ "cover_title": "Shopify in Canada: The Year-One Bill",
+ "intro_html": "<p>You are ready to sell online, you have looked at Shopify's pricing page, and the number on it looks small. Then you search for what a store really costs and the answers run from a few hundred dollars to tens of thousands. Both can be true, because they are counting different things.</p><p>I run an online shop and an Amazon.ca store myself, so this is built the way I would budget my own: from <a href=\"https://www.shopify.com/ca/pricing\" target=\"_blank\" rel=\"noopener\">Shopify's Canadian pricing page</a> as it read on October 2, 2026, plus add-ons and the card fees on real sales. Plan prices are in CAD; themes, apps and domains are mostly priced in USD. The totals are my own arithmetic, so you can redo them with your numbers.</p>",
+ "glance": [
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$444 for the plan",
+   "sub": "Basic for year one, paid yearly or monthly with the $1 intro offer"
+  },
+  {
+   "icon": "uil-credit-card",
+   "heading": "2.8% + 30 cents",
+   "sub": "Per online card order on Basic; about 3.4% of sales at a $50 average order"
+  },
+  {
+   "icon": "uil-exchange",
+   "heading": "Add-ons bill from USD",
+   "sub": "Themes, apps and domains convert at about 1.45 with Shopify's 1.5% fee"
+  },
+  {
+   "icon": "uil-wrench",
+   "heading": "$0 to $4,000 to set up",
+   "sub": "Build it yourself, or pay $2,000 to $4,000 for a basic assisted build"
+  },
+  {
+   "icon": "uil-calculator",
+   "heading": "$875 to $14,230",
+   "sub": "Year-one totals at $1,000, $5,000 and $20,000 a month in sales"
+  },
+  {
+   "icon": "uil-receipt",
+   "heading": "$30,000 tax line",
+   "sub": "GST/HST registration is required once sales pass it over four quarters"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "The plan: $37 or $49 a month on Basic",
+   "body_html": "<p>Most small stores choose from three plans. Basic is $49 CAD a month paid monthly, or $37 a month paid yearly. Grow is $132 or $99. Advanced is $517 or $389. New stores get three days free, and Shopify says most plans then cost $1 a month for the first three months before standard monthly pricing starts.</p><p>That offer creates a quirk. Pay yearly and Basic costs $37 times 12, or $444. Pay monthly with the $1 offer and it is $3 plus nine months at $49, which is also $444. Without the offer, a year of monthly billing is $588.</p><p>You may have seen other figures. An <a href=\"https://elevatewebdesign.ca/blog/ecommerce-website-cost-canada\" target=\"_blank\" rel=\"noopener\">April 2026 guide from a Toronto web designer</a> lists Basic at $45 a month billed annually, while <a href=\"https://www.ecommercedevelopmentpros.ca/shopify-website-design-cost/\" target=\"_blank\" rel=\"noopener\">a Canadian agency guide updated on September 24</a> and <a href=\"https://salaccounting.ca/blog/shopify-pricing-canada/\" target=\"_blank\" rel=\"noopener\">a Toronto accounting firm's June guide</a> both list $37, which matches Shopify's page today. Prices move, so check the date on anything you read.</p><p>Hosting is included, and Shopify says there are no setup fees on any plan.</p>",
+   "takeaway": "Budget $444 for the plan in year one on Basic. Starting monthly with the $1 offer costs the same as paying yearly and leaves you free to stop if the store does not work out."
+  },
+  {
+   "heading": "Theme, domain and apps: priced in US dollars",
+   "body_html": "<p>The <a href=\"https://themes.shopify.com/themes\" target=\"_blank\" rel=\"noopener\">Shopify Theme Store</a> listed 1,299 themes on October 2, 2026: 24 free and 1,275 paid. Paid themes run from $100 to $500 USD as a one-time payment, and you only pay when you publish the theme.</p><p><a href=\"https://www.shopify.com/ca/domains\" target=\"_blank\" rel=\"noopener\">Shopify's domains page</a> says prices typically start at $9 USD a year, and its <a href=\"https://www.shopify.com/ca/blog/domain-price\" target=\"_blank\" rel=\"noopener\">September 25 pricing guide</a> lists a .com bought through Shopify at $16 a year. The guide does not state a currency; I have treated it as USD, because Shopify bills domains from USD.</p><p>Apps are where budgets drift. Many have a free tier: the reviews app <a href=\"https://apps.shopify.com/judgeme\" target=\"_blank\" rel=\"noopener\">Judge.me</a> has a free plan and a paid one at $15 a month, billed in USD. The agency guide above estimates most stores spend $50 to $500 CAD a month on apps, with launch-stage stores under $100.</p><p>Watch the currency. Shopify's <a href=\"https://help.shopify.com/en/manual/your-account/manage-billing/your-invoice/local-currency\" target=\"_blank\" rel=\"noopener\">billing help page</a> says the plan is priced directly in CAD, but app charges, theme purchases and domains are converted from USD with a 1.5% exchange fee included. At the <a href=\"https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/\" target=\"_blank\" rel=\"noopener\">Bank of Canada's October 1 rate</a> of 1.4243, a $350 USD theme comes to about $506 CAD and a $16 domain to about $23.</p>",
+   "takeaway": "Launch on a free theme and free app tiers, and add a paid app only when you can name the sale it will win. Read every app and theme price as USD and multiply by about 1.45."
+  },
+  {
+   "heading": "Card fees on a sample month of sales",
+   "body_html": "<p>On Basic, Shopify Payments charges 2.8% plus 30 cents CAD on each online card order. Take a month with $5,000 in sales across 100 orders. The 2.8% is $140, the 30-cent charges add $30, and the month costs $170, or 3.4% of sales. The fixed 30 cents weighs more on small orders.</p><p>American Express and international cards are 3.5% plus 30 cents. Using an outside payment provider instead of Shopify Payments adds a 2% transaction fee on Basic, another $100 on the sample month. If you accept US dollars but are paid in Canadian dollars, <a href=\"https://help.shopify.com/en/manual/international/pricing/fees\" target=\"_blank\" rel=\"noopener\">Shopify's fee schedule</a> lists a 2% conversion fee outside the United States.</p><p>Grow lowers the online rate to 2.6% and Advanced to 2.4%. By my arithmetic, Grow's 0.2-point saving covers its higher price only above roughly $31,000 a month in card sales on yearly billing. Below that, upgrade for the features, not the rate.</p>",
+   "takeaway": "Budget about 3.4% of sales for card fees at a $50 average order, not the 2.8% headline, and stay on Shopify Payments unless you have a specific reason to use another provider."
+  },
+  {
+   "heading": "Building it yourself versus hiring",
+   "body_html": "<p>Doing it yourself costs time more than money. The <a href=\"https://www.ecommercedevelopmentpros.ca/shopify-website-design-cost/\" target=\"_blank\" rel=\"noopener\">Ecommerce Development Pros guide</a> puts a basic DIY store at $300 to $1,000 to set up. The hours go into product photos, descriptions, shipping rules and tax settings.</p><p>Hiring ranges widely. Shopify's own <a href=\"https://www.shopify.com/partners/directory/services/store-setup/customize-design\" target=\"_blank\" rel=\"noopener\">Partner Directory</a> showed 4,745 partners for store build or redesign work on October 2, 2026, with starting prices on the first page from $100 to $10,000, listed in USD. The same agency guide prices a basic assisted setup at $3,000 to $4,000. Our own <a href=\"../../website-design/\">ecommerce build</a> at Nova Toronto is $2,000 plus applicable tax, on Shopify or WooCommerce.</p><p>Who should not hire anyone: if you have a couple of dozen products, decent photos and a free weekend, build it yourself and put the money into stock. Hire when the catalogue is large, when you are moving from another platform, or when your hours are worth more than the fee.</p>",
+   "takeaway": "Ask for quotes in writing that say how many products get loaded, who sets up shipping and tax, and what support follows launch. Compare quotes on those three lines before you compare the price."
+  },
+  {
+   "heading": "Year-one totals at three sales levels",
+   "body_html": "<p>Here is the year added up. I assumed Basic at $444, a $23 domain, a $50 average order and Shopify Payments on standard cards. The app budgets are my assumptions.</p><ul><li><strong>$1,000 a month in sales, built yourself.</strong> Free theme, free app tiers and $408 in card fees. <strong>About $875.</strong></li><li><strong>$5,000 a month.</strong> Apps at $50 a month and $2,040 in card fees. With a $350 USD theme you set up yourself, <strong>about $3,610</strong>. With a $2,000 professional build instead, <strong>about $5,110</strong> plus applicable tax on the build.</li><li><strong>$20,000 a month.</strong> Apps at $300 a month, $8,160 in card fees and a $2,000 build. <strong>About $14,230.</strong></li></ul><p>On the last line the plan is $444 and the card fees are $8,160. The subscription is about 3% of the bill.</p><p>That is also why published totals disagree. The accounting firm's guide puts a beginner's first year at $4,000 to $12,000 CAD, counting ads, product photos and packaging. The agency guide's $7,500 to more than $80,000 CAD adds marketing, content and ongoing support. Mine leave out inventory, shipping, advertising and your own time.</p>",
+   "takeaway": "Redo this list with your own average order and sales target before you pick a plan or a builder. Card fees, not the subscription, are the line that grows with you."
+  },
+  {
+   "heading": "What the totals leave out: sales tax and traffic",
+   "body_html": "<p>Tax first. The <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html\" target=\"_blank\" rel=\"noopener\">Canada Revenue Agency</a> says you stop being a small supplier once taxable sales pass $30,000 in a single calendar quarter or over four consecutive calendar quarters. You must then register for GST/HST within 29 days of the effective date, and if you pass $30,000 inside one quarter, you charge tax starting with the sale that put you over. Below that line, registering is optional. The $5,000-a-month store above would pass $30,000 in total sales in its seventh month. This is a summary, not tax advice, and the timing rules have details, so check your own dates with an accountant or the CRA.</p><p>Then there is traffic. Statistics Canada's <a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm\" target=\"_blank\" rel=\"noopener\">retail report for July 2026</a> put retail e-commerce at $5.5 billion for the month, or 7.5% of all retail trade. The buyers exist, but they will not find a new store by accident. For a store with physical products, <a href=\"../../digital-marketing/google-shopping/\">Google Shopping</a> is the first paid channel I would test, because the ad is your product photo and price, shown to someone already searching.</p>",
+   "takeaway": "Add an advertising line to your first-year budget, and set a reminder each quarter to check your last four quarters of sales against $30,000. Ask an accountant when you get close."
+  }
+ ],
+ "bottom_line_html": "<p>The short version: a Shopify store in Canada costs about $875 in its first year if you build it yourself and sell $1,000 a month, roughly $3,600 to $5,100 at $5,000 a month, and around $14,200 at $20,000 a month. The plan is $444 of each. Card fees are the cost that grows, and USD-priced apps are the one that creeps.</p><p>If you would rather hand off the build, our <a href=\"../../website-design/\">ecommerce websites</a> are $2,000 plus applicable tax, and once the store is live, <a href=\"../../digital-marketing/google-shopping/\">Google Shopping management</a> is quoted per account. Doing it yourself? Our <a href=\"../../ai-course/\">free AI course for beginners</a> has lessons on writing and on making visuals with free tools. Not sure which route fits? Book a <a href=\"../../index.html#contact\">free consultation</a>.</p>",
+ "faq": [
+  {
+   "q": "How much does Shopify cost per month in Canada in 2026?",
+   "a": "On October 2, 2026, Shopify's Canadian pricing page listed Basic at $49 CAD a month paid monthly or $37 paid yearly. Card fees on Basic are 2.8% plus 30 cents per online order on top."
+  },
+  {
+   "q": "What does a Shopify store cost in its first year in Canada?",
+   "a": "By my arithmetic: about $875 for a self-built store selling $1,000 a month, $3,600 to $5,100 at $5,000 a month, and about $14,200 at $20,000 a month with a $2,000 build. That covers plan, domain, theme, apps and card fees, not inventory, shipping or ads."
+  },
+  {
+   "q": "Are Shopify apps and themes billed in Canadian dollars?",
+   "a": "The plan is priced directly in CAD. Shopify's billing help page says app charges, theme purchases and domains are converted from USD with a 1.5% exchange fee. Paid themes run $100 to $500 USD, paid once."
+  },
+  {
+   "q": "Do I need to charge HST on my Shopify store right away?",
+   "a": "Not always. The Canada Revenue Agency requires GST/HST registration once taxable sales pass $30,000 in a single calendar quarter or over four consecutive quarters. Below that it is optional. A store selling $5,000 a month passes $30,000 in total sales in its seventh month. Check your own dates with an accountant."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Shopify Canada: Pricing",
+   "url": "https://www.shopify.com/ca/pricing"
+  },
+  {
+   "label": "Shopify Theme Store: All themes",
+   "url": "https://themes.shopify.com/themes"
+  },
+  {
+   "label": "Shopify Canada: Buy a Domain Name",
+   "url": "https://www.shopify.com/ca/domains"
+  },
+  {
+   "label": "Shopify Canada Blog: How Much Does a Domain Name Cost? (2026 Guide)",
+   "url": "https://www.shopify.com/ca/blog/domain-price"
+  },
+  {
+   "label": "Shopify Help Center: Paying Shopify bills in your local currency",
+   "url": "https://help.shopify.com/en/manual/your-account/manage-billing/your-invoice/local-currency"
+  },
+  {
+   "label": "Shopify Help Center: Fees and costs",
+   "url": "https://help.shopify.com/en/manual/international/pricing/fees"
+  },
+  {
+   "label": "Shopify App Store: Judge.me Product Reviews App",
+   "url": "https://apps.shopify.com/judgeme"
+  },
+  {
+   "label": "Shopify Partner Directory: Hire Shopify Experts",
+   "url": "https://www.shopify.com/partners/directory/services/store-setup/customize-design"
+  },
+  {
+   "label": "Bank of Canada: Daily exchange rates",
+   "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"
+  },
+  {
+   "label": "Ecommerce Development Pros: How Much Does a Shopify Website Cost? (2026 Pricing Breakdown)",
+   "url": "https://www.ecommercedevelopmentpros.ca/shopify-website-design-cost/"
+  },
+  {
+   "label": "SAL Accounting: Shopify Pricing in Canada: The Real Cost of Starting a Shopify Store",
+   "url": "https://salaccounting.ca/blog/shopify-pricing-canada/"
+  },
+  {
+   "label": "Elevate Web Design: Ecommerce Website Cost in Canada (2026 Real Numbers)",
+   "url": "https://elevatewebdesign.ca/blog/ecommerce-website-cost-canada"
+  },
+  {
+   "label": "Canada Revenue Agency: When to register for and start charging the GST/HST",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html"
+  },
+  {
+   "label": "Statistics Canada: The Daily, Retail trade, July 2026",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design service",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "How much should a Toronto small business spend on Google Ads in 2026?",
+   "href": "../google-ads-budget-toronto/"
+  }
+ ]
+}

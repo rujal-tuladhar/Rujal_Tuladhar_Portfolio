@@ -1,0 +1,174 @@
+{
+ "slug": "shopify-vs-woocommerce-cost-canada",
+ "title": "Shopify vs WooCommerce: three-year cost for a Canadian shop",
+ "category": "Website Design",
+ "excerpt": "Shopify vs WooCommerce cost in Canada over three years: plan, hosting, card fees, add-ons and upkeep, added up line by line in CAD from vendor pages.",
+ "keywords": "Shopify vs WooCommerce cost Canada, WooCommerce hosting cost Canada, Shopify or WordPress for small store, best ecommerce platform Canada small business",
+ "cover_title": "Shopify vs WooCommerce: 3-Year Bill",
+ "intro_html": "<p>You have decided to sell online and you are down to two names. Shopify charges a monthly fee and hosts the store for you. WooCommerce is free software that runs on a WordPress site you pay to host. Search for which is cheaper and the answers collide: one Canadian guide puts WooCommerce at less than a third of Shopify's three-year cost, and another puts it at roughly three times as much.</p><p>I run an online shop and an Amazon.ca store myself, and Nova Toronto builds stores on either platform for the same price, so I have no reason to push one. Below is the three-year bill from the vendors' own pages as they read on October 2, 2026, in Canadian dollars unless I say otherwise. The order volume is hypothetical and the arithmetic is mine.</p>",
+ "glance": [
+  {
+   "icon": "uil-shop",
+   "heading": "$37 a month",
+   "sub": "Shopify Basic on yearly billing, with hosting and SSL included"
+  },
+  {
+   "icon": "uil-server",
+   "heading": "$17 to $119 a month",
+   "sub": "WooCommerce hosting in CAD, from self-managed to fully managed"
+  },
+  {
+   "icon": "uil-credit-card",
+   "heading": "2.8% against 2.9%",
+   "sub": "Shopify Payments and WooPayments, each plus 30 cents an order"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Upkeep is the real split",
+   "sub": "Shopify's certification covers your store; on WooCommerce it is the owner's job"
+  },
+  {
+   "icon": "uil-calculator",
+   "heading": "$8,112 to $11,784",
+   "sub": "Three-year WooCommerce totals at 100 orders a month; Shopify lands at $9,252"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Platform and hosting: what you pay every month",
+   "body_html": "<p><a href=\"https://www.shopify.com/ca/pricing\" target=\"_blank\" rel=\"noopener\">Shopify's Canadian pricing page</a> lists Basic at $49 a month paid monthly or $37 a month paid yearly, and Grow at $132 or $99. Web hosting and an SSL certificate are included in every plan. Three years of Basic is $1,332 on yearly billing or $1,764 month to month.</p><p><a href=\"https://woocommerce.com/pricing/\" target=\"_blank\" rel=\"noopener\">WooCommerce's pricing page</a> describes the plugin as free, with no monthly subscription and a 0% revenue share. You buy the hosting, and WooCommerce's own estimate is $25 to $350 a month for most stores, in US dollars.</p><p>Canadian hosts show how wide WooCommerce hosting cost is in Canada. <a href=\"https://whc.ca/managed-wordpress-hosting\" target=\"_blank\" rel=\"noopener\">Web Hosting Canada's WP Pro plan</a> has a regular price of $16.99 a month, or $5.99 if you prepay three years, with automatic updates, daily backups and SSL. <a href=\"https://canadianwebhosting.com/hosting/managed-wordpress\" target=\"_blank\" rel=\"noopener\">Canadian Web Hosting's managed WordPress plans</a> start at $29 a month, but WooCommerce stores go on its Pro plan at $119 a month on 12-month billing. Over 36 months that is $612 at WHC's regular price ($216 prepaid) or $4,284 managed.</p>",
+   "takeaway": "Shopify's platform fee is a fixed $1,332 for three years on Basic. WooCommerce hosting can cost less than half of that or more than three times it, so ask any host for the renewal price and who applies plugin updates before you pay."
+  },
+  {
+   "heading": "Card fees and add-ons: apps versus extensions",
+   "body_html": "<p>On Basic, Shopify Payments charges 2.8% plus 30 cents on each online card order. In Canada, <a href=\"https://woocommerce.com/document/woopayments/fees/\" target=\"_blank\" rel=\"noopener\">WooPayments</a> charges 2.9% plus 30 cents. <a href=\"https://stripe.com/en-ca/pricing\" target=\"_blank\" rel=\"noopener\">Stripe's Canadian rate</a> is the same 2.9% plus 30 cents, with no monthly fee.</p><p>On $5,000 in sales across 100 orders, that is $170 on Shopify and $175 on WooCommerce. The bigger difference is choice: Shopify adds a 2% fee on Basic if you use an outside payment provider, while <a href=\"https://woocommerce.com/woocommerce-vs-shopify/\" target=\"_blank\" rel=\"noopener\">WooCommerce's comparison page</a> says you can use any gateway without that kind of penalty.</p><p>Add-ons bill differently. <a href=\"https://help.shopify.com/en/manual/your-account/manage-billing/your-invoice/local-currency\" target=\"_blank\" rel=\"noopener\">Shopify's billing help page</a> says app, theme and domain charges are converted from US dollars with a 1.5% exchange fee. At the <a href=\"https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/\" target=\"_blank\" rel=\"noopener\">Bank of Canada's October 1 rate</a> of 1.4243, a US$15 app costs about $21.68 a month. A <a href=\"https://www.ecommercedevelopmentpros.ca/shopify-website-design-cost/\" target=\"_blank\" rel=\"noopener\">Canadian agency guide updated on September 24</a> says most stores spend $50 to $500 a month on apps.</p><p>WooCommerce extensions are yearly licences. Its marketplace showed Canadian prices on October 2, 2026: <a href=\"https://woocommerce.com/products/canada-post-shipping-method/\" target=\"_blank\" rel=\"noopener\">Canada Post Shipping Method</a> at $157 a year and <a href=\"https://woocommerce.com/products/woocommerce-subscriptions/\" target=\"_blank\" rel=\"noopener\">WooCommerce Subscriptions</a> at $402. A <a href=\"https://www.webnixon.com/blog/woocommerce-vs-shopify-canada/\" target=\"_blank\" rel=\"noopener\">Toronto agency's March 2026 comparison</a> budgets $300 to $600 a year for plugin licences.</p>",
+   "takeaway": "Card fees are within $5 a month of each other at this volume. Write down the features you need on launch day and price each one twice: as a Shopify app billed monthly from US dollars, and as a WooCommerce extension billed yearly."
+  },
+  {
+   "heading": "Updates and security: who does the work",
+   "body_html": "<p><a href=\"https://www.shopify.com/ca/security/pci-compliant\" target=\"_blank\" rel=\"noopener\">Shopify says</a> it is certified Level 1 PCI DSS compliant, and that the certification covers your store, its cart and its hosting by default.</p><p><a href=\"https://woocommerce.com/document/pci-dss-compliance-and-woocommerce/\" target=\"_blank\" rel=\"noopener\">WooCommerce's PCI guide</a> says compliance is ultimately the store owner's responsibility. Its list includes SSL on the checkout, strong passwords, and keeping WordPress, WooCommerce, themes and plugins up to date.</p><p>You can cover that three ways. Do it yourself on a host with automatic updates, and pay in time. Pay a managed host: Canadian Web Hosting's Pro plan includes plugin and theme updates with a backup first, and one support or development hour a month. Or buy a care plan: <a href=\"https://web321.ca/how-much-does-a-wordpress-maintenance-plan-cost-in-canada/\" target=\"_blank\" rel=\"noopener\">Web321, a Canadian maintenance provider</a>, says these typically run $120 to $500 a month in Canada.</p><p>That choice explains the clashing totals. The Toronto agency above puts three years of Shopify at $7,000 to $16,000 and WooCommerce at $22,000 to $42,000, because it assumes maintenance at $500 to $1,000 a month. A <a href=\"https://onurkurtic.ca/blog/shopify-vs-woocommerce-real-cost/\" target=\"_blank\" rel=\"noopener\">British Columbia developer's May 2026 comparison</a> gets roughly $2,780 for WooCommerce, build fee included, against about $9,000 for Shopify with apps, and has no line for ongoing maintenance. Neither lists card processing fees among its line items.</p>",
+   "takeaway": "Before you choose, name the person who will run updates and check backups every month. If nobody will, budget for a managed host or a care plan, or pick Shopify."
+  },
+  {
+   "heading": "Three years at 100 orders a month",
+   "body_html": "<p>Here is my own version. The store takes 100 orders a month at a $50 average: $180,000 and 3,600 orders over 36 months. Each platform uses a free theme (<a href=\"https://themes.shopify.com/themes?price%5B%5D=free\" target=\"_blank\" rel=\"noopener\">Shopify's Theme Store</a> listed 24 on October 2, 2026, and WooCommerce's <a href=\"https://woocommerce.com/products/storefront/\" target=\"_blank\" rel=\"noopener\">Storefront</a> is free). You need a domain either way, so I left it out. The app and extension budgets are my assumptions.</p><ul><li><strong>Shopify Basic, yearly billing.</strong> Plan $1,332, apps at $50 a month $1,800, card fees $6,120. <strong>About $9,252.</strong></li><li><strong>WooCommerce, self-managed.</strong> WHC hosting at its regular price $612, extensions at $400 a year $1,200, card fees $6,300. <strong>About $8,112</strong>, plus your own hours on updates.</li><li><strong>WooCommerce, managed.</strong> Canadian Web Hosting Pro $4,284, extensions $1,200, card fees $6,300. <strong>About $11,784.</strong></li></ul><p>Shopify lands in the middle: about $32 a month more than looking after WooCommerce yourself, and about $70 a month less than paying a host to do it. Card fees are more than half of every total, and nearly the same on both.</p><p>Two things move these numbers. An outside payment provider on Shopify Basic would add 2% of $180,000, or $3,600. And a professional build costs extra on either platform; ours is $2,000 plus applicable tax on both.</p>",
+   "takeaway": "Redo the three lines with your own order count and average order. At this volume Shopify sits within about $70 a month of either WooCommerce route, so let the upkeep question decide, not the sticker price."
+  },
+  {
+   "heading": "Shopify or WordPress: which suits a small store",
+   "body_html": "<p>I run my own store, and in my view the monthly bill is rarely the hard part. The hours are.</p><p><strong>Shopify fits</strong> if you want your time to go to products and customers, you have no WordPress site yet, and your needs are standard: a catalogue, a cart, shipping rates and card payments. It also suits in-person selling, since Basic lists in-person card rates of 2.6% and Interac at 15 cents.</p><p><strong>WooCommerce fits</strong> if you already have a WordPress site that brings in visitors, you need a particular payment provider, or you want to own the software and move hosts when you like.</p><p>Think twice about WooCommerce if the only reason is that the plugin is free: skipped updates become your security problem, and the managed route costs more than Shopify. Think twice about Shopify if you need a long list of paid apps: $150 a month in apps is $5,400 over three years.</p>",
+   "takeaway": "If you have no WordPress site and nobody to maintain one, start on Shopify Basic. If your WordPress site already brings in visitors and the upkeep is covered, add WooCommerce to it instead of starting over."
+  }
+ ],
+ "bottom_line_html": "<p>The short version: there is no single best ecommerce platform for a Canadian small business on price alone. At 100 orders a month, three years costs about $9,252 on Shopify Basic, about $8,112 on WooCommerce you maintain yourself, and about $11,784 with a managed host. What differs most is who keeps the store updated and secure.</p><p>If you would rather hand off the build, our <a href=\"../../website-design/\">ecommerce websites</a> are $2,000 plus applicable tax on Shopify or WooCommerce, and once the store is live, <a href=\"../../digital-marketing/google-shopping/\">Google Shopping management</a> is quoted per account. Building it yourself? Our <a href=\"../../ai-course/\">free AI course for beginners</a> is a no-cost place to start. Not sure which platform fits? Book a <a href=\"../../index.html#contact\">free consultation</a> and bring your order numbers.</p>",
+ "faq": [
+  {
+   "q": "Is WooCommerce really free in Canada?",
+   "a": "The plugin is. WooCommerce's pricing page describes it as free with no monthly subscription. You still pay for hosting, extensions and card fees: on October 2, 2026, hosting ran from $16.99 CAD a month at regular price on Web Hosting Canada's WP Pro plan to $119 on Canadian Web Hosting's managed Pro plan, and WooPayments charged 2.9% plus 30 cents per order."
+  },
+  {
+   "q": "Is Shopify or WooCommerce cheaper over three years?",
+   "a": "By my arithmetic for a store taking 100 orders a month at $50 each: about $9,252 on Shopify Basic, about $8,112 on WooCommerce if you maintain it yourself, and about $11,784 with a managed host. Those totals cover the plan or hosting, add-ons and card fees, not the build, domain, advertising or stock."
+  },
+  {
+   "q": "Are card fees lower on WooCommerce than on Shopify?",
+   "a": "Not on the standard options. Shopify Payments on Basic is 2.8% plus 30 cents per online order, and WooPayments in Canada is 2.9% plus 30 cents. Shopify Basic adds a 2% fee if you use an outside payment provider; WooCommerce says you can use any gateway without that kind of penalty."
+  },
+  {
+   "q": "Who is responsible for security on a WooCommerce store?",
+   "a": "The store owner. WooCommerce's PCI guide says compliance is ultimately the store owner's responsibility and lists keeping WordPress, WooCommerce, themes and plugins up to date. Shopify says its Level 1 PCI DSS certification covers your store, cart and hosting by default."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Shopify Canada: Pricing",
+   "url": "https://www.shopify.com/ca/pricing"
+  },
+  {
+   "label": "Shopify Canada: PCI compliance",
+   "url": "https://www.shopify.com/ca/security/pci-compliant"
+  },
+  {
+   "label": "Shopify Help Center: Local currency billing",
+   "url": "https://help.shopify.com/en/manual/your-account/manage-billing/your-invoice/local-currency"
+  },
+  {
+   "label": "Shopify Theme Store: Free themes",
+   "url": "https://themes.shopify.com/themes?price%5B%5D=free"
+  },
+  {
+   "label": "WooCommerce: Pricing",
+   "url": "https://woocommerce.com/pricing/"
+  },
+  {
+   "label": "WooCommerce: WooPayments fees",
+   "url": "https://woocommerce.com/document/woopayments/fees/"
+  },
+  {
+   "label": "WooCommerce: WooCommerce vs Shopify",
+   "url": "https://woocommerce.com/woocommerce-vs-shopify/"
+  },
+  {
+   "label": "WooCommerce: PCI-DSS compliance and WooCommerce",
+   "url": "https://woocommerce.com/document/pci-dss-compliance-and-woocommerce/"
+  },
+  {
+   "label": "WooCommerce Marketplace: Canada Post Shipping Method",
+   "url": "https://woocommerce.com/products/canada-post-shipping-method/"
+  },
+  {
+   "label": "WooCommerce Marketplace: WooCommerce Subscriptions",
+   "url": "https://woocommerce.com/products/woocommerce-subscriptions/"
+  },
+  {
+   "label": "WooCommerce Marketplace: Storefront theme",
+   "url": "https://woocommerce.com/products/storefront/"
+  },
+  {
+   "label": "Stripe Canada: Pricing and fees",
+   "url": "https://stripe.com/en-ca/pricing"
+  },
+  {
+   "label": "Web Hosting Canada: Managed WordPress hosting",
+   "url": "https://whc.ca/managed-wordpress-hosting"
+  },
+  {
+   "label": "Canadian Web Hosting: Managed WordPress hosting in Canada",
+   "url": "https://canadianwebhosting.com/hosting/managed-wordpress"
+  },
+  {
+   "label": "Bank of Canada: Daily exchange rates",
+   "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"
+  },
+  {
+   "label": "Web321: How much does a WordPress maintenance plan cost in Canada?",
+   "url": "https://web321.ca/how-much-does-a-wordpress-maintenance-plan-cost-in-canada/"
+  },
+  {
+   "label": "Ecommerce Development Pros: How Much Does a Shopify Website Cost in 2026?",
+   "url": "https://www.ecommercedevelopmentpros.ca/shopify-website-design-cost/"
+  },
+  {
+   "label": "Webnixon: WooCommerce vs Shopify Canada: Full 2026 Comparison for Canadian Businesses",
+   "url": "https://www.webnixon.com/blog/woocommerce-vs-shopify-canada/"
+  },
+  {
+   "label": "Onur Kurtic: Shopify vs WooCommerce: The Real Cost for Small Businesses",
+   "url": "https://onurkurtic.ca/blog/shopify-vs-woocommerce-real-cost/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design service",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "AI Website Builders in 2026: Real Prices and Where They Break",
+   "href": "../ai-website-builders-cost-2026/"
+  }
+ ]
+}

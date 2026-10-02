@@ -1,0 +1,167 @@
+{
+ "slug": "amazon-ca-seller-startup-costs-2026",
+ "title": "What it costs to start selling on Amazon.ca in 2026",
+ "category": "Digital Marketing",
+ "excerpt": "The real cost to sell on Amazon Canada in 2026: plan fees, referral fees, FBA rates, barcodes and a first-90-days budget for one product.",
+ "keywords": "cost to sell on Amazon Canada, Amazon.ca seller fees 2026, Amazon referral fees Canada, sell on Amazon Canada small business",
+ "cover_title": "Amazon.ca Start-Up Costs, Added Up",
+ "intro_html": "<p>You have a product, a supplier quote and a stack of Amazon fee guides that do not agree. One says the monthly plan is $39.99, another $29.99, and most examples are in US dollars. Before you open an account or pay for setup help, you need the Canadian numbers in one place.</p><p>I run my own Amazon.ca store, so this is the worksheet I would fill in before listing a product. Every fee was read on <a href=\"https://sell.amazon.ca/pricing\" target=\"_blank\" rel=\"noopener\">Amazon.ca's pricing page</a> or a linked source on October 2, 2026. Prices are Canadian dollars unless marked, and the sample budget uses my own labelled assumptions.</p>",
+ "glance": [
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$29.99 a month",
+   "sub": "Professional plan on Amazon.ca. Individual is $1.49 per item sold instead"
+  },
+  {
+   "icon": "uil-percentage",
+   "heading": "15% referral fee",
+   "sub": "Most categories, charged on price plus shipping, $0.40 minimum"
+  },
+  {
+   "icon": "uil-truck",
+   "heading": "FBA from $5.92 a unit",
+   "sub": "Standard-size item, before the 3.5% surcharge and holiday peak rates"
+  },
+  {
+   "icon": "uil-tag-alt",
+   "heading": "$26.25 a year",
+   "sub": "GS1 Canada licence for one barcode, revenue under $250,000"
+  },
+  {
+   "icon": "uil-calculator-alt",
+   "heading": "About $1,616 to start",
+   "sub": "Sample 90-day budget for 150 units, before freight and storage"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Selling plans: $1.49 a sale or $29.99 a month",
+   "body_html": "<p>Amazon.ca lists two plans: Individual at $1.49 per item sold, and Professional at $29.99 a month, each plus referral fees. The $39.99 in many guides is real, but it comes from <a href=\"https://sell.amazon.com/pricing\" target=\"_blank\" rel=\"noopener\">Amazon's US pricing page</a>, where the plans are US$0.99 per item and US$39.99 a month. Register through the Canadian site and you pay the Canadian price.</p><p>Amazon suggests Individual below 30 units a month. The arithmetic says switch sooner: $29.99 divided by $1.49 is just over 20, so Professional is cheaper from the 21st sale. Professional is also the plan Amazon points to if you want to advertise, qualify for top placement on the product page or apply to sell in more categories. On Individual you ship at rates Amazon sets, even when the credit is less than your postage.</p>",
+   "takeaway": "Testing one product with a handful of sales? Start on Individual and pay no monthly fee. Planning to advertise or sell more than 20 units a month? Budget $29.99 a month from day one."
+  },
+  {
+   "heading": "Referral fees: 15% for most products, with price cliffs",
+   "body_html": "<p>The referral fee is Amazon's commission, charged on everything the customer pays: item price, shipping and gift wrap. Most categories are 15% with a $0.40 minimum per item, including Home and Kitchen, Pet Products, and Sports and Outdoors. Computers and Consumer Electronics are 8%.</p><p>Three groups have a price cliff:</p><ul><li><strong>Baby, and Beauty, Health and Personal Care:</strong> 8% at $15.00 or less, 15% above. A $15.00 item pays $1.20; at $15.01 it pays $2.25.</li><li><strong>Grocery and Gourmet:</strong> 8% at $20.00 or less, 15% above.</li><li><strong>Clothing and Accessories:</strong> 10% under $20, 17% from $20. A $19.99 shirt pays $2.00; a $20.00 shirt pays $3.40.</li></ul><p>In a notice posted in late 2025, Amazon told Canadian sellers there would be <a href=\"https://sellercentral.amazon.ca/seller-forums/discussions/t/a9383e96-87ef-484e-bbe7-cc07584331bb\" target=\"_blank\" rel=\"noopener\">no increases to Canada referral and FBA fees for 2026</a>. The fuel surcharge covered in the next section came later, in April 2026.</p>",
+   "takeaway": "Find your category on the table before you set a price. If you sell near a cliff, a one-cent price change moves the fee by about a dollar a sale."
+  },
+  {
+   "heading": "Fulfilment: ship it yourself or pay for FBA",
+   "body_html": "<p>With <a href=\"https://sell.amazon.ca/fulfilment-by-amazon\" target=\"_blank\" rel=\"noopener\">Fulfilment by Amazon</a> (FBA) you send stock to Amazon and pay a per-unit fee covering picking, packing, shipping, customer service and returns. A standard-size item costs $5.92 for the first 100 g, $7.23 at 400 to 500 g and $8.49 at 900 g to 1 kg. Storage is $40 per cubic metre a month from January to September and $77 from October to December.</p><p>Two additions were not on that page on October 2, 2026. <a href=\"https://techstartups.com/2026/04/02/amazon-to-add-3-5-fba-surcharge-starting-april-17-2026-as-fuel-costs-rise-amid-us-iran-war/\" target=\"_blank\" rel=\"noopener\">TechStartups reported</a> that a 3.5% fuel and logistics surcharge on fulfilment fees would start April 17, 2026 in the US and Canada, and <a href=\"https://www.supplychaindive.com/news/amazon-announces-2026-holiday-fulfillment-fees-advises-early-shipping/824962/\" target=\"_blank\" rel=\"noopener\">Supply Chain Dive reported in July</a> that it stays until further notice. <a href=\"https://sellercentral.amazon.com/seller-forums/discussions/t/3e31fbb7-04e0-4ed4-873e-f74b1052e2ff\" target=\"_blank\" rel=\"noopener\">Amazon's holiday notice on its US seller forum</a> sets peak fulfilment fees from October 15, 2026 to January 14, 2027, with the surcharge on top. <a href=\"https://amzprep.com/holiday-peak-fulfillment-fees/\" target=\"_blank\" rel=\"noopener\">AMZ Prep's summary of the Canadian rates</a>, a third-party source, gives the same dates for Canada and puts the peak fee for a 400 to 500 g standard item at $7.65. Confirm the rate for your own product in Seller Central before you rely on it.</p><p>Shipping yourself avoids storage fees but not postage. Canada Post's <a href=\"https://www.canadapost-postescanada.ca/cpc/doc/en/support/prices/business-prices.pdf\" target=\"_blank\" rel=\"noopener\">small business price sheet</a>, updated September 7, 2026, lists Expedited Parcel up to 0.5 kg at $9.68 to $20.80 depending on the rate code for your origin and destination, before any fuel surcharge. Membership is free, and <a href=\"https://www.canadapost-postescanada.ca/cpc/en/small-business/marketing/campaign/unified-pricing.page\" target=\"_blank\" rel=\"noopener\">until December 31, 2026</a> members get up to 38% off the counter rate for domestic Expedited Parcel.</p>",
+   "takeaway": "On these published rates, a 450 g item costs less to fulfil through FBA than to post yourself. Heavy, bulky or slow-selling items can flip that, so compare both in Amazon's Revenue Calculator before you send stock in."
+  },
+  {
+   "heading": "Start-up items: barcode, photos, first inventory",
+   "body_html": "<p><strong>Barcode.</strong> Amazon's <a href=\"https://sell.amazon.ca/beginners-guide\" target=\"_blank\" rel=\"noopener\">beginner's guide</a> says it matches products by GTIN, most often a UPC, which is usually printed on the packaging. A branded product you resell already has one. For your own product, <a href=\"https://gs1ca.org/small-business/\" target=\"_blank\" rel=\"noopener\">GS1 Canada</a> charges $26.25 a year for one barcode if your revenue is under $250,000.</p><p><strong>Photos.</strong> A phone and a white backdrop cost nothing. For a studio, <a href=\"https://www.julesdesign.ca/toronto-amazon-product-photography/\" target=\"_blank\" rel=\"noopener\">Jules Design in Toronto</a> publishes a $500 plus HST minimum and says most Amazon projects come in around $600 plus HST.</p><p><strong>Inventory.</strong> The largest line, and only your supplier can price it.</p><p><strong>Brand.</strong> Brand Registry is free, but Amazon requires a pending or registered trademark. The <a href=\"https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/trademarks/fees-trademarks\" target=\"_blank\" rel=\"noopener\">Canadian Intellectual Property Office</a> charges $491.06 to file online for the first class of goods in 2026. That matters because Amazon's headline <a href=\"https://sell.amazon.ca/grow\" target=\"_blank\" rel=\"noopener\">new-seller incentive</a>, 10% back on your first $70,000 in branded sales, sits under Brand Registry. Treat incentives as a bonus: Amazon's own pages show the advertising credit as up to $1,250 on one page and $50 on another.</p>",
+   "takeaway": "Reselling an existing branded product needs no new barcode. A new own-brand product should budget $26.25 for the barcode now and decide on the $491.06 trademark once the product is selling."
+  },
+  {
+   "heading": "Paperwork and tax before you register",
+   "body_html": "<p>Amazon's checklist asks for government-issued ID, an internationally chargeable credit card, a business licence or registration, proof of residential address from the last 180 days and tax information. The same guide says you do not need to be incorporated; you can register as an individual. Fees go on the card and sales proceeds reach your bank every two weeks, so inventory is cash out well before cash comes in.</p><p>The <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html\" target=\"_blank\" rel=\"noopener\">Canada Revenue Agency</a> says you must register for GST/HST once revenue passes $30,000 over four consecutive calendar quarters, or within a single quarter. Below that, registration is voluntary. This is general information, not tax advice, so check your own situation with an accountant.</p>",
+   "takeaway": "Gather the ID, card and proof of address before you click Sign up, and ask your accountant whether registering for GST/HST voluntarily makes sense for you."
+  },
+  {
+   "heading": "A first-90-days budget and margin check for one product",
+   "body_html": "<p>The product is my assumption: a kitchen gadget in Home and Kitchen selling for $29.99, shipping at 450 g in a standard-size box, costing $8.00 a unit landed, with 150 units sent to FBA in October.</p><p><strong>Per unit, at holiday rates:</strong> the referral fee is 15% of $29.99, or $4.50. Fulfilment is $7.65 plus the 3.5% surcharge, about $7.92. Amazon keeps $12.42 and you keep $17.57, which is $9.57 after product cost.</p><p><strong>Cash out over 90 days:</strong></p><ul><li>Professional plan, three months: $89.97</li><li>GS1 Canada barcode: $26.25</li><li>150 units at $8.00: $1,200</li><li>Advertising cap of $100 a month, my choice: $300</li></ul><p>That is $1,616.22 with do-it-yourself photos, before freight to Amazon's warehouse, storage and returns. Storage is minor: 150 boxes of 20 by 15 by 8 cm take 0.36 cubic metres, about $28 a month at the October to December rate.</p><p><strong>The margin check:</strong> you need to sell 92 of the 150 units to get your cash back. Sell all 150 and you clear roughly $1,019 before freight, storage, returns and tax. Sell only 75 and you are about $298 behind with half the stock unsold. Post the same item yourself at $9.68 to $20.80 and the $9.57 a unit becomes $7.81 on the cheapest route and a loss of $3.31 on the most expensive one.</p>",
+   "takeaway": "If your own numbers leave only a dollar or two a unit after Amazon's fees, fix the price, the cost or the product before you order stock, not after."
+  }
+ ],
+ "bottom_line_html": "<p>The short version: the fixed costs are small, $29.99 a month and a $26.25 barcode. The real money goes to stock, commission and fulfilment. In the example, Amazon keeps about 41% of a $29.99 FBA sale before you pay for the product. Who should not bother yet: anyone whose product leaves a dollar or two a unit in that math, because ads and returns will take the rest.</p><p>If you would rather have the account, listings and shipping settings set up properly from the start, Nova Toronto offers <a href=\"../../amazon-seller/\">Amazon.ca seller setup</a> and <a href=\"../../walmart-seller/\">Walmart.ca seller setup</a> from $450. <a href=\"../../index.html#contact\">Book a free consultation</a> to go through your numbers, or start with our <a href=\"../../ai-course/\">free AI course for beginners</a> if AI tools are new to you.</p>",
+ "faq": [
+  {
+   "q": "How much does the Amazon.ca Professional selling plan cost in 2026?",
+   "a": "Amazon.ca's pricing page lists Professional at CAD $29.99 a month plus selling fees and Individual at CAD $1.49 per item sold. The US$39.99 figure in many guides comes from Amazon's US site. Professional is cheaper from the 21st sale in a month."
+  },
+  {
+   "q": "What is the referral fee on Amazon.ca?",
+   "a": "Most categories pay 15% of everything the customer pays, including shipping, with a CAD $0.40 minimum per item. Clothing pays 10% under $20 and 17% from $20."
+  },
+  {
+   "q": "Is FBA cheaper than shipping Amazon orders myself in Canada?",
+   "a": "For a small, light item it can be. Amazon.ca lists FBA at $7.23 for a 400 to 500 g standard-size item, and a 3.5% surcharge and holiday peak rates are added on top. Canada Post's small business price sheet lists Expedited Parcel up to 0.5 kg at $9.68 to $20.80, depending on the route."
+  },
+  {
+   "q": "Do I need a barcode and a GST/HST number to start selling on Amazon.ca?",
+   "a": "A branded product you resell already has a barcode. For your own product, GS1 Canada charges $26.25 a year for one if your revenue is under $250,000. The Canada Revenue Agency requires GST/HST registration once revenue passes $30,000 over four consecutive calendar quarters or in a single quarter; below that it is voluntary. Check your own situation with an accountant."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Amazon.ca: How pricing works on Amazon.ca (selling plans, referral fees, FBA fees)",
+   "url": "https://sell.amazon.ca/pricing"
+  },
+  {
+   "label": "Amazon.com: How much does it cost to sell on Amazon? (US selling plans)",
+   "url": "https://sell.amazon.com/pricing"
+  },
+  {
+   "label": "Amazon.ca: Beginner's Guide to Selling on Amazon",
+   "url": "https://sell.amazon.ca/beginners-guide"
+  },
+  {
+   "label": "Amazon.ca: Fulfilment by Amazon (FBA)",
+   "url": "https://sell.amazon.ca/fulfilment-by-amazon"
+  },
+  {
+   "label": "Amazon.ca: Grow Your Amazon Selling Business (New Seller Incentives)",
+   "url": "https://sell.amazon.ca/grow"
+  },
+  {
+   "label": "Amazon Seller Central Canada: 2026 Updates to Canada referral and Fulfilment by Amazon fees",
+   "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/a9383e96-87ef-484e-bbe7-cc07584331bb"
+  },
+  {
+   "label": "Amazon Seller Central: Holiday 2026: Same fees, same eligibility, earlier deadlines",
+   "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/3e31fbb7-04e0-4ed4-873e-f74b1052e2ff"
+  },
+  {
+   "label": "TechStartups: Amazon to add 3.5% FBA surcharge starting April 17, 2026",
+   "url": "https://techstartups.com/2026/04/02/amazon-to-add-3-5-fba-surcharge-starting-april-17-2026-as-fuel-costs-rise-amid-us-iran-war/"
+  },
+  {
+   "label": "Supply Chain Dive: Amazon announces 2026 holiday fulfillment fees, advises early shipping",
+   "url": "https://www.supplychaindive.com/news/amazon-announces-2026-holiday-fulfillment-fees-advises-early-shipping/824962/"
+  },
+  {
+   "label": "AMZ Prep: 2026-2027 Holiday Peak FBA Fulfillment Fees for USA and Canada",
+   "url": "https://amzprep.com/holiday-peak-fulfillment-fees/"
+  },
+  {
+   "label": "GS1 Canada: Small Business subscriptions",
+   "url": "https://gs1ca.org/small-business/"
+  },
+  {
+   "label": "Canada Post: Business prices, Solutions for Small Business (updated September 7, 2026)",
+   "url": "https://www.canadapost-postescanada.ca/cpc/doc/en/support/prices/business-prices.pdf"
+  },
+  {
+   "label": "Canada Post: Small business shipping discounts",
+   "url": "https://www.canadapost-postescanada.ca/cpc/en/small-business/marketing/campaign/unified-pricing.page"
+  },
+  {
+   "label": "Canada Revenue Agency: When to register for and start charging the GST/HST",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html"
+  },
+  {
+   "label": "Canadian Intellectual Property Office: Fees for trademarks",
+   "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/trademarks/fees-trademarks"
+  },
+  {
+   "label": "Jules Design: Toronto Amazon Product Photography",
+   "url": "https://www.julesdesign.ca/toronto-amazon-product-photography/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Amazon.ca seller setup",
+   "href": "../../amazon-seller/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "How much a Toronto small business should spend on Google Ads",
+   "href": "../google-ads-budget-toronto/"
+  }
+ ]
+}

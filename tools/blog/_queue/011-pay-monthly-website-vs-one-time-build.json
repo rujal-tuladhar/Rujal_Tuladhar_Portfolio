@@ -1,0 +1,166 @@
+{
+ "slug": "pay-monthly-website-vs-one-time-build",
+ "title": "Pay-monthly website vs one-time build: which costs less?",
+ "category": "Website Design",
+ "excerpt": "Pay monthly website vs one time cost over three years, using real Canadian prices, plus who owns the site and domain when you cancel.",
+ "keywords": "pay monthly website vs one time cost, website subscription canada, monthly website plan small business, website as a service cost",
+ "cover_title": "Monthly Plan or One-Time Build?",
+ "intro_html": "<p>Two quotes land in your inbox. One says $0 down and $150 a month. The other says $1,800, once. The monthly plan is easier on this month's cash; the fixed price looks cheaper over time. Which costs less depends on how long you keep the site, and on what you are left holding the day you stop paying.</p><p>This post takes the published prices and terms of four Canadian pay-monthly providers, checked on October 2, 2026, plus the hosting and domain fees a one-time build still carries, and runs both models over 36 months. Figures are in Canadian dollars, before tax, and were checked on October 2, 2026. Prices change, so confirm them before you sign.</p>",
+ "glance": [
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$90 to $175 a month",
+   "sub": "Published prices for four done-for-you Canadian website plans"
+  },
+  {
+   "icon": "uil-chart-line",
+   "heading": "$5,400 vs about $2,220",
+   "sub": "36 months at $150 versus an $1,800 build plus hosting and domain"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "Break-even near month 13",
+   "sub": "When a $150 plan overtakes an $1,800 build; month 23 for a $90 plan"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Ownership is a contract term",
+   "sub": "The author is the first owner of copyright; assignment must be in writing"
+  },
+  {
+   "icon": "uil-server",
+   "heading": "$70 to $140 a year",
+   "sub": "Basic hosting on three-year billing plus a .ca domain"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "How pay-monthly website plans work",
+   "body_html": "<p>A pay-monthly plan, also sold as a website subscription or website as a service, folds the build, hosting and a quota of edits into one recurring fee. Four Canadian providers publish prices:</p><ul><li><strong><a href=\"https://craftedwebsites.ca/\" target=\"_blank\" rel=\"noopener\">Crafted Websites</a>:</strong> $150 CAD a month, $0 down, for a custom 5-page site with hosting, SSL, backups and unlimited standard updates. 12-month initial term, then month-to-month.</li><li><strong><a href=\"https://www.onkyohwebdesigns.ca/\" target=\"_blank\" rel=\"noopener\">Onkyoh Web Designs</a></strong> in Toronto: $0 down and $175 a month, no minimum commitment.</li><li><strong><a href=\"https://webdesignpackages.ca/\" target=\"_blank\" rel=\"noopener\">Web Design Packages</a>:</strong> $97 CAD a month for up to 4 pages with hosting and 180 minutes of updates a year (domain not included), or $189 CAD for up to 10 pages with a domain. No setup costs.</li><li><strong><a href=\"https://www.mybusinesswebsite.ca/\" target=\"_blank\" rel=\"noopener\">My Business Website</a>:</strong> $90 a month for design, hosting, a domain name and change requests, cancel anytime.</li></ul><p>The Onkyoh and My Business Website pages do not label a currency. Both are Canadian businesses, so I have treated their prices as Canadian dollars; confirm that before you sign. Do-it-yourself builders are subscriptions too: <a href=\"https://www.squarespace.com/pricing\" target=\"_blank\" rel=\"noopener\">Squarespace</a> lists CA$21 a month for Basic on annual billing, and <a href=\"https://www.shopify.com/ca/pricing\" target=\"_blank\" rel=\"noopener\">Shopify Basic</a> is $37 CAD a month billed annually.</p>",
+   "takeaway": "Done-for-you monthly plans in Canada publish at roughly $90 to $175 a month. Ask every provider for the same three numbers: the monthly fee, the minimum term and how many edits are included."
+  },
+  {
+   "heading": "Three-year total cost: subscription versus one-time build",
+   "body_html": "<p>Take a five-page site. On a subscription, 36 months at $150 comes to <strong>$5,400</strong>. At $175 it is $6,300; at $90, $3,240.</p><p>The one-time side uses our own <a href=\"../../index.html#website-pricing\">Silver package</a>: $1,800 plus applicable tax for five pages with analytics and SEO. Assume you pay for hosting and the domain yourself. <a href=\"https://www.canspace.ca/web-hosting.html\" target=\"_blank\" rel=\"noopener\">CanSpace</a>, a Canadian host, lists its Medium plan at $9.99 a month on three-year billing, $359.64 in total. <a href=\"https://www.cira.ca/en/resources/news/domains/how-much-does-a-ca-domain-cost/\" target=\"_blank\" rel=\"noopener\">CIRA</a>, which manages the .ca registry, says a .ca domain typically costs $10 to $20 a year, so allow $60. Total: about <strong>$2,220</strong>. That build costs about $12 a month to keep online, so a $150 plan's running total overtakes it at around month 13 and a $90 plan's at around month 23.</p><p>A smaller site tells the same story: our three-page Bronze build at $900, CanSpace's Starter plan at $179.64 for three years and $60 for the domain come to about $1,140, against $3,492 for 36 months at $97 (a four-page plan with no domain).</p><p>One fairness check: a subscription includes someone making your edits. <a href=\"https://webdesignguide.ca/web-design-pricing/\" target=\"_blank\" rel=\"noopener\">WebDesignGuide's June 2026 pricing guide</a> puts a website care plan at CA$75 to $250 a month. The low end adds $2,700 over three years and brings the one-time route to about $4,920: still under the $150 and $175 plans, but well above the $90 and $97 ones.</p>",
+   "takeaway": "If you will keep the site longer than two years and can handle small edits yourself, the one-time build costs less. If you would buy a monthly care plan anyway, compare that all-in figure with the subscription instead."
+  },
+  {
+   "heading": "Who owns the site, domain and content when you cancel",
+   "body_html": "<p>Three things are at stake, and they are owned separately. What follows is general information, not legal advice; have a lawyer read any contract you plan to rely on.</p><p><strong>The domain.</strong> <a href=\"https://www.cira.ca/en/resources/documents/domains/general-registration-rules/\" target=\"_blank\" rel=\"noopener\">CIRA's registration rules</a> let a registrant ask its registrar, at any time, to put a .ca registration into another person's name. In practice the listed registrant is the one who can make that request. If your provider registered the domain under its own name, you may need the provider's co-operation to move it. (The posted rules are version 3.22, dated February 2019.)</p><p><strong>The design and code.</strong> Section 13 of the federal <a href=\"https://laws-lois.justice.gc.ca/eng/acts/c-42/section-13.html\" target=\"_blank\" rel=\"noopener\">Copyright Act</a> makes the author of a work the first owner of its copyright, subject to exceptions such as work made by an employee, and says an assignment is only valid in writing, signed by the owner. Montreal studio <a href=\"https://www.webnordique.com/en/blog/who-owns-your-website-quebec/\" target=\"_blank\" rel=\"noopener\">Web Nordique</a> draws the practical conclusion in an August 2026 checklist: when an agency or freelancer builds the site, the client does not hold the rights until a signed document transfers them.</p><p><strong>The content.</strong> Published terms vary. Crafted Websites says clients own their domain and content and can request an export. <a href=\"https://webdesignpackages.ca/cancellation-refund-policy/\" target=\"_blank\" rel=\"noopener\">Web Design Packages' cancellation policy</a> says a cancelled site stays active until the end of the paid period, after which hosting and support may stop. <a href=\"https://support.squarespace.com/hc/en-us/articles/205810508-Cancel-your-website-subscription\" target=\"_blank\" rel=\"noopener\">Squarespace</a> says a cancelled site shows a \"Website expired\" message while your data is kept in case you reactivate, and its <a href=\"https://support.squarespace.com/hc/en-us/articles/206566687-Exporting-your-site\" target=\"_blank\" rel=\"noopener\">export tool</a> produces an .xml file for WordPress that leaves out store pages, style settings and custom CSS.</p><p>One more caution: Ontario's <a href=\"https://www.ontario.ca/laws/statute/02c30\" target=\"_blank\" rel=\"noopener\">Consumer Protection Act</a> defines a consumer as an individual acting for personal, family or household purposes, not a person acting for business purposes. Do not assume shopper-style cancellation rights cover a contract your business signs; ask a lawyer if it matters to your decision.</p>",
+   "takeaway": "Before you sign either model, get three lines in writing: the domain is registered in your business's name, the design and code are assigned to you and from what date, and you receive an export of files and content if you leave."
+  },
+  {
+   "heading": "What a one-time build still costs each year",
+   "body_html": "<p>Paying once does not mean paying nothing afterwards:</p><ul><li><strong>Hosting.</strong> CanSpace's shared plans are $4.99, $9.99 and $22.99 a month in Canadian dollars on three-year billing, each with a free SSL certificate, and the company says the sign-up price is also the renewal price.</li><li><strong>Domain.</strong> CIRA says $10 to $20 a year is typical for a .ca. Toronto studio <a href=\"https://elevatewebdesign.ca/blog/small-business-website-cost-canada\" target=\"_blank\" rel=\"noopener\">Elevate Web Design</a> quotes $15 to $30 and WebDesignGuide CA$15 to $25, so the sources differ by a few dollars.</li><li><strong>Email.</strong> Elevate puts mailboxes at $6 to $12 each per month through Google Workspace or Microsoft 365.</li><li><strong>Premium WordPress plugins.</strong> Elevate says $200 to $1,200 a year; WebDesignGuide says CA$200 to $800 in one place and up to $600 in another. The sources disagree on the ceiling.</li><li><strong>An online store.</strong> The platform fee continues whoever builds it: Shopify Basic at $37 CAD a month on annual billing is $1,332 over three years.</li></ul>",
+   "takeaway": "At these prices a brochure site with basic hosting and a .ca domain runs on roughly $70 to $140 a year. Email, plugins and a care plan are what push it higher, so ask which ones your build actually needs."
+  },
+  {
+   "heading": "Which model suits a new business versus an established one",
+   "body_html": "<p><strong>A brand-new business</strong> that is short on cash, or not yet sure the idea will last, can reasonably start monthly if there is no long minimum term. Against our $900 Bronze build, a $90 plan stays cheaper until about month 11. A 12-month initial term commits you to 12 payments whatever happens, so read that line first.</p><p><strong>An established business</strong> that expects to keep the same site for three years or more usually pays less with a fixed-price build, and ends up with something it can move to another host. The exception is an owner who never wants to log in: bundled edits then have real value, and the low-priced plans compete well with a build plus a care plan.</p><p>Skip a subscription if the contract does not say what you leave with. Skip a one-time build if nobody will look after it and you will not pay for upkeep.</p>",
+   "takeaway": "New and unsure: choose a monthly plan with no minimum term and a written exit. Established and staying put: a one-time build with the domain in your name is the lower three-year cost."
+  }
+ ],
+ "bottom_line_html": "<p>Over three years, a one-time build plus hosting and a domain costs less than every done-for-you monthly plan priced here, unless you add a paid care plan, in which case the cheapest subscriptions win. In the first year the subscription is lighter on cash. So decide how long you will keep the site and whether you want someone else doing the edits, then get ownership of the domain, code and content in writing.</p><p>At Nova Toronto our <a href=\"../../website-design/\">website design</a> is fixed-price: $900 for three pages, $1,800 for five pages with analytics and SEO, $2,000 for a Shopify or WooCommerce store and $5,000 for custom work, all plus applicable tax. To run your own numbers against a monthly quote, <a href=\"../../index.html#contact\">book a free consultation</a> and bring the quote. There is also our <a href=\"../../ai-course/\">free AI course for beginners</a> if you plan to handle your own updates and want to get comfortable with AI tools first.</p>",
+ "faq": [
+  {
+   "q": "Is a pay-monthly website cheaper than paying once?",
+   "a": "In the first year, usually yes. Over three years, usually no. A $150-a-month plan costs $5,400 over 36 months, while an $1,800 build plus about $360 of hosting and $60 for the domain comes to roughly $2,220 before tax. Adding a monthly care plan narrows or reverses the gap."
+  },
+  {
+   "q": "Do I own my website if I cancel a monthly plan?",
+   "a": "Only if the contract says so. Under section 13 of Canada's Copyright Act the author of a work is the first owner of its copyright, and an assignment has to be in writing and signed by the owner. Published terms vary, so get ownership of the domain, code and content in writing before you sign. This is general information, not legal advice."
+  },
+  {
+   "q": "What does a one-time website cost each year after it is built?",
+   "a": "For a simple brochure site, roughly $70 to $140 a year: basic Canadian shared hosting at $4.99 to $9.99 a month on three-year billing plus a .ca domain, which CIRA says typically costs $10 to $20 a year. Business email, premium WordPress plugins and a care plan are extra."
+  },
+  {
+   "q": "Can I cancel a website subscription whenever I want?",
+   "a": "That depends on the plan. Published Canadian terms range from cancel anytime and no minimum commitment to a 12-month initial term followed by month-to-month. Ontario's Consumer Protection Act defines a consumer as an individual acting for personal, family or household purposes, not for business purposes, so read the contract's own cancellation terms and ask a lawyer if unsure."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Crafted Websites: Managed website plan, pricing and FAQ",
+   "url": "https://craftedwebsites.ca/"
+  },
+  {
+   "label": "Onkyoh Web Designs: Small business web design, Toronto",
+   "url": "https://www.onkyohwebdesigns.ca/"
+  },
+  {
+   "label": "Web Design Packages: Monthly website plans for Canadian businesses",
+   "url": "https://webdesignpackages.ca/"
+  },
+  {
+   "label": "Web Design Packages: Cancellation and refund policy",
+   "url": "https://webdesignpackages.ca/cancellation-refund-policy/"
+  },
+  {
+   "label": "My Business Website: Professional business websites from $90 a month",
+   "url": "https://www.mybusinesswebsite.ca/"
+  },
+  {
+   "label": "Squarespace: Pricing plans",
+   "url": "https://www.squarespace.com/pricing"
+  },
+  {
+   "label": "Squarespace Help: Cancel your website subscription",
+   "url": "https://support.squarespace.com/hc/en-us/articles/205810508-Cancel-your-website-subscription"
+  },
+  {
+   "label": "Squarespace Help: Exporting your site",
+   "url": "https://support.squarespace.com/hc/en-us/articles/206566687-Exporting-your-site"
+  },
+  {
+   "label": "Shopify Canada: Pricing",
+   "url": "https://www.shopify.com/ca/pricing"
+  },
+  {
+   "label": "CanSpace: Canadian web hosting plans",
+   "url": "https://www.canspace.ca/web-hosting.html"
+  },
+  {
+   "label": "CIRA: How much does a .CA domain cost?",
+   "url": "https://www.cira.ca/en/resources/news/domains/how-much-does-a-ca-domain-cost/"
+  },
+  {
+   "label": "CIRA: General Registration Rules",
+   "url": "https://www.cira.ca/en/resources/documents/domains/general-registration-rules/"
+  },
+  {
+   "label": "Justice Laws Website: Copyright Act, section 13",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/c-42/section-13.html"
+  },
+  {
+   "label": "Ontario e-Laws: Consumer Protection Act, 2002",
+   "url": "https://www.ontario.ca/laws/statute/02c30"
+  },
+  {
+   "label": "WebDesignGuide: Web design pricing in Canada 2026",
+   "url": "https://webdesignguide.ca/web-design-pricing/"
+  },
+  {
+   "label": "Elevate Web Design: Small business website cost in Canada (2026)",
+   "url": "https://elevatewebdesign.ca/blog/small-business-website-cost-canada"
+  },
+  {
+   "label": "Web Nordique: Who owns your website? What to check before you sign",
+   "url": "https://www.webnordique.com/en/blog/who-owns-your-website-quebec/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design services",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "AI Website Builders in 2026: Real Prices and Where They Break",
+   "href": "../ai-website-builders-cost-2026/"
+  }
+ ]
+}

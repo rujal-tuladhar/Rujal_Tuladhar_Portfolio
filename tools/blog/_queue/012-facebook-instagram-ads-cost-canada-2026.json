@@ -1,0 +1,138 @@
+{
+ "slug": "facebook-instagram-ads-cost-canada-2026",
+ "title": "What Facebook and Instagram ads cost in Canada in 2026",
+ "category": "Digital Marketing",
+ "excerpt": "What Facebook ads cost in Canada in 2026: published CPM and CPC benchmarks side by side, each with its currency and date, plus a small local budget.",
+ "keywords": "Facebook ads cost Canada, Instagram ads cost Canada, Meta ads CPM Canada, Facebook ads budget small business",
+ "cover_title": "What Meta Ads Cost in Canada",
+ "intro_html": "<p>Search for what Facebook ads cost in Canada and every page gives a different answer: $11.47 per thousand views, $13.40, $6 to $15, 60 cents a click. Most do not say whether the dollars are Canadian or American, how old the data is, or whose campaigns it came from. That is a weak basis for deciding whether Meta ads fit your budget before you hire someone to run them.</p><p>So this post takes the pages that publish Canadian figures, notes each one's currency and date, and works them into a small local budget. Every number was checked on its source page on October 2, 2026. They are benchmarks, not a quote.</p>",
+ "glance": [
+  {
+   "icon": "uil-chart-line",
+   "heading": "$11.47 to $13.40 CPM",
+   "sub": "Three 2026 trackers for Canada; only one states its currency (US dollars)"
+  },
+  {
+   "icon": "uil-exchange",
+   "heading": "US$1 = C$1.4243",
+   "sub": "Bank of Canada rate on October 1, 2026: a 42% gap if the two dollars get mixed"
+  },
+  {
+   "icon": "uil-wallet",
+   "heading": "$300 to $1,000 a month",
+   "sub": "The first-test ad budget two Canadian agencies describe for a local business"
+  },
+  {
+   "icon": "uil-receipt",
+   "heading": "13% HST on top in Ontario",
+   "sub": "Meta adds GST/HST to ad charges unless a GST/HST number is on the account"
+  },
+  {
+   "icon": "uil-users-alt",
+   "heading": "$500 to $3,000 to manage",
+   "sub": "Monthly fee ranges published by three Canadian agencies; creative is often extra"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "The published Canadian benchmarks, side by side",
+   "body_html": "<p>CPM is the cost of 1,000 ad impressions; CPC is the cost of one click. Facebook and Instagram ads run from the same Meta account, so most sources report them together.</p><ul><li><strong><a href=\"https://lebesgue.io/facebook-ads/facebook-cpm-by-country\" target=\"_blank\" rel=\"noopener\">Lebesgue</a>:</strong> $11.47 CPM for Canada in its 2026 ecommerce benchmark, against $16.08 for the United States. No currency label.</li><li><strong><a href=\"https://www.superads.ai/facebook-ads-costs/cpm-cost-per-mille/canada\" target=\"_blank\" rel=\"noopener\">Superads</a>:</strong> a median Canadian CPM averaging about $13.05 over 13 months to July 2026. No currency label.</li><li><strong><a href=\"https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026\" target=\"_blank\" rel=\"noopener\">AdAmigo</a>:</strong> $13.40 CPM and $1.75 CPC, typical CPM range $11 to $16. Stated in US dollars; 2026 projections built on late-2025 data.</li><li><strong><a href=\"https://owlsdigital.com/facebook-ads-cost-canada/\" target=\"_blank\" rel=\"noopener\">Owls Digital</a></strong> (Vaughan, updated September 10, 2026): CPM C$11 to C$16, CPC C$0.50 to C$2.00, cost per lead C$5 to C$30. Labelled CAD.</li><li><strong><a href=\"https://ap-digital.ca/blog/how-much-do-instagram-ads-cost-canada\" target=\"_blank\" rel=\"noopener\">AP Digital</a></strong> (Vancouver, August 11, 2026): Instagram CPM $6 to $15 and CPC $0.50 to $3.50; Facebook CPM $5 to $12. No currency label.</li><li><strong><a href=\"https://www.wordstream.com/blog/facebook-ads-benchmarks-2026\" target=\"_blank\" rel=\"noopener\">WordStream</a></strong> (updated September 14, 2026): US$0.60 a click on traffic campaigns and US$27.39 a lead on leads campaigns. US campaigns, stated in USD.</li></ul>",
+   "takeaway": "On most of these pages a Canadian CPM sits between about $11 and $16 and a click between 50 cents and $2; AP Digital goes as low as $5. Before you plan around any of them, find out which dollar the page means."
+  },
+  {
+   "heading": "Why the numbers disagree, and which dollar each one means",
+   "body_html": "<p>Start with currency. On October 1, 2026 the <a href=\"https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/\" target=\"_blank\" rel=\"noopener\">Bank of Canada</a> rate was C$1.4243 per US dollar. AdAmigo's US$13.40 is therefore about C$19.09, and its US$11 to $16 range is roughly C$15.70 to C$22.80. Owls Digital prints the same $11 to $16 range in Canadian dollars. Both cannot describe one market; the difference is 42%. Lebesgue's $11.47 sits in a global table, so it is probably US dollars (about C$16.34), but the page never says.</p><p>Then the samples. Lebesgue measures online stores only. Superads reports medians from accounts using its tool. AP Digital reports its own clients. WordStream's leads figures are medians from 452 US campaigns. Even for the United States, Lebesgue says $16.08 and AdAmigo $23.00.</p><p>Season moves the price too: Superads' Canadian CPM climbed from $10.32 to $17.00 between September and December 2025.</p><p>Underneath, there is no rate card. Meta's help article \"About ad auctions\" says each ad is ranked on its bid, the estimated chance the viewer acts, and ad quality, so a more relevant ad can beat a higher bid. (I name Meta's help articles by title here; search the title to read them.) Your own bill is simpler, because it is in your ad account's currency. Meta's article on changing currency says a switch closes the old ad account and creates a new one.</p>",
+   "takeaway": "When anyone quotes you a CPM, ask for the currency, the date and the campaign objective. Set your ad account to Canadian dollars on day one so your reports match your bank statement."
+  },
+  {
+   "heading": "A realistic starting budget, according to these sources",
+   "body_html": "<p>Meta's article \"How much it costs to advertise on Meta technologies\" says you decide how much to spend, with campaign and account spending limits as caps. Its \"Best practices for minimum budgets\" article names no single floor: it uses US dollars, says minimums vary by country and objective, and says Ads Manager alerts you when a budget is too low. Owls Digital and AP Digital both put the practical floor at about $5 a day; AP Digital recommends at least $300 a month.</p><p>For a first test, Owls Digital describes $300 to $1,000 a month for a very local business; AP Digital says $300 to $500 to test and $500 to $1,500 to grow. <a href=\"https://digitalsense.ca/meta-ads-agency-cost-canada/\" target=\"_blank\" rel=\"noopener\">Digital Sense</a>, a Toronto agency, notes that some Canadian specialists suggest at least around $1,000 a month so campaigns gather enough data.</p><p>Take $600 a month, about $20 a day (my example). At Owls Digital's ranges it buys 300 to 1,200 clicks, or 20 to 120 leads. At WordStream's US$27.39 a lead, about C$39, it buys roughly 15. Meta's \"About the learning phase\" article says an ad set usually leaves that phase after about 50 results in the week after its last significant edit. If the result you want is a lead, $140 a week will rarely reach 50, so run one ad set, not three. Meta's GST/HST article says tax is added on top of ad charges for advertisers with a Canadian address unless a GST/HST number is on the ad account; at <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html\" target=\"_blank\" rel=\"noopener\">Ontario's 13%</a>, $600 becomes $678. This is not tax advice; ask your accountant how the tax applies to your business.</p>",
+   "takeaway": "Plan $300 to $1,000 a month for a first local test, allow for 13% HST in Ontario unless your GST/HST number is on the account (check with your accountant), and judge it after 30 days on enquiries, not impressions."
+  },
+  {
+   "heading": "Creative and management fees on top of ad spend",
+   "body_html": "<p>The ad budget goes to Meta. Running the account is a separate bill. Published Canadian ranges: Owls Digital says $800 to $2,000 or more a month, or a percentage of ad spend; AP Digital says $500 to $1,500; Digital Sense (September 11, 2026) says roughly C$750 to C$3,000 or more, C$500 to C$1,000 or more for a small local campaign, or 10% to 20% of ad spend.</p><p>Creative is often charged on top. Digital Sense's illustrative budget is $2,000 of ad spend, $1,000 of management and $500 for creative and editing: $3,500 in total, of which about 57% reaches Meta.</p><p>At $600 of ad spend, even a $500 fee nearly doubles the monthly cost. The cheap route is to do it yourself: Meta's cost article calls buying from your Facebook Page the simplest way to buy ads, with fewer customization options than Ads Manager. At Nova Toronto, Meta ads management is quoted per account, and AI video ads are $497, $897 or $1,497.</p>",
+   "takeaway": "Ask every agency two questions: is ad spend included in the fee, and how many new ads do I get each month? If the fee is bigger than the ad budget, start smaller or run it yourself first."
+  },
+  {
+   "heading": "When Meta fits a local business better than search ads",
+   "body_html": "<p>Search ads reach people already looking; Meta puts an offer in front of people who were not. WordStream's <a href=\"https://www.wordstream.com/blog/2026-google-ads-benchmarks\" target=\"_blank\" rel=\"noopener\">2026 search benchmarks</a> put the average click at US$5.42 and the average lead at US$66.69, against US$27.39 for a Facebook lead. Both sets of figures come from US campaigns. Its Facebook report adds that Google Ads may carry more buying intent and treats the two channels as complementary.</p><p>Meta tends to fit when the product is visual, low-priced or unfamiliar. AP Digital says salons and restaurants see its lowest costs, at $8 to $25 and $5 to $15 a lead. The benchmarks disagree here as well: WordStream's US data puts beauty and personal care at US$50.91 a lead, its second-highest category. It fits less well where people search in a hurry or each lead is expensive: WordStream's highest Facebook cost per lead is dentists at US$61.56, about C$88.</p><p>Who should not bother yet: a business with under $300 a month to spend, no landing page, or no way to count enquiries. For the search side, see our guide to <a href=\"../google-ads-budget-toronto/\">Google Ads budgets in Toronto</a>.</p>",
+   "takeaway": "A GTA salon, restaurant, gym or shop with good photos can test Meta first, with a small budget and a way to count enquiries. A plumber, locksmith or dentist should usually fund search first and use Meta to stay visible."
+  }
+ ],
+ "bottom_line_html": "<p>Once the one source that states US dollars is converted, the published Canadian CPM figures for 2026 run from about C$11 to C$19, and a click from about 50 cents to $2. The pages with no currency label could shift that range either way. A first local test is $300 to $1,000 a month plus applicable tax, and at that size hired management can cost as much as the ads.</p><p>If you would rather have someone set up the account, tracking and first campaign, Nova Toronto quotes <a href=\"../../digital-marketing/meta-ads/\">Meta ads management</a> per account; details are on our <a href=\"../../digital-marketing/\">digital marketing page</a>. To build your own skills first, there is a <a href=\"../../ai-course/\">free AI course for beginners</a>. Or <a href=\"../../index.html#contact\">book the free consultation</a> and bring your monthly budget and what one new customer is worth to you.</p>",
+ "faq": [
+  {
+   "q": "How much do Facebook ads cost in Canada in 2026?",
+   "a": "Most published 2026 benchmarks put a Canadian CPM at roughly $11 to $16 and a click at about 50 cents to $2, but sources mix currencies: AdAmigo's US$13.40 CPM is about C$19, while Owls Digital quotes C$11 to C$16. Check the currency and date of any figure."
+  },
+  {
+   "q": "What is the minimum budget for Facebook and Instagram ads in Canada?",
+   "a": "Meta's minimum-budget article names no single figure; it says minimums vary by country and objective. Two Canadian agencies put the practical floor at about $5 a day and describe $300 to $1,000 a month of ad spend for a first local test."
+  },
+  {
+   "q": "Does Meta charge HST on Facebook and Instagram ads in Ontario?",
+   "a": "Yes. Meta's GST/HST help article says the tax is added on top of ad charges for Canadian advertisers unless a GST/HST number is added to the ad account. Ontario's rate is 13%, so $600 of ad spend is charged as $678. This is not tax advice; check with your accountant."
+  },
+  {
+   "q": "How much does it cost to have someone manage Meta ads in Canada?",
+   "a": "Three Canadian agencies publish monthly ranges: $500 to $1,500 (AP Digital), $800 to $2,000 or more (Owls Digital), and roughly C$750 to C$3,000 or more, or 10% to 20% of ad spend (Digital Sense). Ad spend is separate and creative is often extra. Nova Toronto quotes Meta ads management per account."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Lebesgue: Facebook Ads CPM by Country: 2026 Ecommerce Benchmarks",
+   "url": "https://lebesgue.io/facebook-ads/facebook-cpm-by-country"
+  },
+  {
+   "label": "Superads: Facebook Ads CPM Benchmarks in Canada",
+   "url": "https://www.superads.ai/facebook-ads-costs/cpm-cost-per-mille/canada"
+  },
+  {
+   "label": "AdAmigo: Meta Ads CPM & CPC Benchmarks by Country in 2026",
+   "url": "https://www.adamigo.ai/blog/meta-ads-cpm-cpc-benchmarks-by-country-2026"
+  },
+  {
+   "label": "Owls Digital: Facebook Ads Cost in Canada: 2026 Pricing Guide",
+   "url": "https://owlsdigital.com/facebook-ads-cost-canada/"
+  },
+  {
+   "label": "AP Digital: How Much Do Instagram Ads Cost in Canada: 2026 Guide",
+   "url": "https://ap-digital.ca/blog/how-much-do-instagram-ads-cost-canada"
+  },
+  {
+   "label": "WordStream: Facebook Ads Benchmarks 2026",
+   "url": "https://www.wordstream.com/blog/facebook-ads-benchmarks-2026"
+  },
+  {
+   "label": "WordStream: Google Ads Benchmarks 2026",
+   "url": "https://www.wordstream.com/blog/2026-google-ads-benchmarks"
+  },
+  {
+   "label": "Digital Sense: How Much Does a Meta Ads Agency Charge in Canada?",
+   "url": "https://digitalsense.ca/meta-ads-agency-cost-canada/"
+  },
+  {
+   "label": "Bank of Canada: Daily exchange rates",
+   "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"
+  },
+  {
+   "label": "Canada Revenue Agency: GST/HST calculator (and rates)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our digital marketing services",
+   "href": "../../digital-marketing/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "How much should a Toronto small business spend on Google Ads?",
+   "href": "../google-ads-budget-toronto/"
+  }
+ ]
+}

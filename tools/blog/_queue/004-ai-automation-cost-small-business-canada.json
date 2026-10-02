@@ -1,0 +1,159 @@
+{
+ "slug": "ai-automation-cost-small-business-canada",
+ "title": "What AI automation costs a Canadian small business in 2026",
+ "category": "AI Automation",
+ "excerpt": "AI automation cost for a small business in Canada, in CAD: tool subscriptions, setup fees, upkeep and a sample monthly bill for three workflows.",
+ "keywords": "AI automation cost small business, AI automation agency pricing, automation setup fee Canada, cost to automate business tasks",
+ "cover_title": "AI Automation Costs in Canada, 2026",
+ "intro_html": "<p>You know which jobs you want off your plate: replying to new leads, chasing reviews, sorting the inbox. What will it cost? Published answers run from a few hundred dollars a month to five figures, rarely in Canadian dollars.</p><p>In Statistics Canada's <a href=\"https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm\" target=\"_blank\" rel=\"noopener\">second-quarter 2026 analysis</a>, 10.6% of businesses named cost as a barrier limiting their use of AI, yet its <a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/260831/dq260831a-eng.htm\" target=\"_blank\" rel=\"noopener\">August 31 release</a> found 25.2% plan to use AI in the next 12 months. This post splits the bill into three layers and prices three common workflows in Canadian dollars. Figures come from the linked pages on October 2, 2026, converted at the <a href=\"https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/\" target=\"_blank\" rel=\"noopener\">Bank of Canada's October 1 rate</a> of 1.4243 Canadian dollars per US dollar.</p>",
+ "glance": [
+  {
+   "icon": "uil-layer-group",
+   "heading": "Three cost layers",
+   "sub": "Tool subscriptions, a one-time setup and yearly upkeep"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "About $49 CAD a month to run",
+   "sub": "Sample bill for three small workflows on Zapier, with texts and AI included"
+  },
+  {
+   "icon": "uil-wrench",
+   "heading": "$1,500 to $15,000 to build",
+   "sub": "Published single-workflow ranges disagree, and most are not in CAD"
+  },
+  {
+   "icon": "uil-chart-line",
+   "heading": "Bills grow with volume",
+   "sub": "Tasks, credits, executions, texts and AI tokens are all metered"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "5% to 20% a year for upkeep",
+   "sub": "Published maintenance estimates, as a share of the build cost"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "The three cost layers: tools, setup, upkeep",
+   "body_html": "<p>Every automation bill has three parts, and most price lists show only one.</p><ul><li><strong>Tool subscriptions.</strong> <a href=\"https://zapier.com/pricing\" target=\"_blank\" rel=\"noopener\">Zapier</a> lists prices in USD: a free plan with 100 tasks a month, then Professional from $19.99 a month billed annually ($29.99 billed monthly) for 750 tasks. <a href=\"https://www.make.com/en/pricing\" target=\"_blank\" rel=\"noopener\">Make</a> has a free plan with 1,000 credits a month and lists Core from $9 a month for 10,000 credits; its page shows no currency, so I have read it as USD. <a href=\"https://n8n.io/pricing/\" target=\"_blank\" rel=\"noopener\">n8n</a> charges in euros: Starter is €20 a month billed annually for 2,500 workflow executions.</li><li><strong>Setup.</strong> A one-time fee to design, build and test the workflow. Build it yourself and the cost is your hours.</li><li><strong>Upkeep.</strong> Apps update, logins expire and a workflow that ran in March can quietly stop in June.</li></ul><p>At the rate on October 2, 2026, Zapier Professional billed monthly is about $43 CAD, Make Core about $13 CAD and n8n Starter about $32 CAD (the euro was at 1.6030). Zapier says customers can be billed in local currencies including CAD, converted from the USD price at the rate on the day of payment, so the CAD amount moves from invoice to invoice.</p>",
+   "takeaway": "Budget for all three lines. If a quote or a pricing page shows only one, ask what the other two will be."
+  },
+  {
+   "heading": "What agencies publish for setup and retainers",
+   "body_html": "<p>Published agency ranges disagree.</p><ul><li><a href=\"https://taskip.net/ai-automation-agency-pricing/\" target=\"_blank\" rel=\"noopener\">Taskip's August 2026 guide</a> gives a typical small-business setup fee of $1,500 to $5,000 and a retainer of $500 to $1,500 a month.</li><li><a href=\"https://www.layer3labs.io/roi/ai-automation-agency-cost\" target=\"_blank\" rel=\"noopener\">Layer3Labs</a> prices a single-workflow build, such as invoice intake or lead routing, at $5,000 to $15,000 over two to four weeks, and retainers at $3,000 to $20,000 a month.</li><li>A Canada-focused guide by <a href=\"https://www.jahanzaib.ai/blog/ai-automation-agency-vs-in-house-canada\" target=\"_blank\" rel=\"noopener\">engineer Jahanzaib Ahmed</a> puts one narrow-scope automation, such as lead capture to CRM, at $5,000 to $15,000 CAD.</li></ul><p>So the same one-workflow job is published at anywhere from $1,500 to $15,000. Taskip says its examples are in USD, which makes its range roughly $2,100 to $7,100 CAD to build and $700 to $2,100 CAD a month. Layer3Labs does not name a currency; read as US dollars, its top build figure is about $21,400 CAD. My read: the low figures describe workflows assembled from ready-made connectors, the high ones custom code or several systems.</p>",
+   "takeaway": "Ask for a fixed price in CAD, with tax shown separately, for one named workflow, and any monthly fee listed on its own line. A range is not a quote."
+  },
+  {
+   "heading": "Usage-based costs that grow with volume",
+   "body_html": "<p>The subscription is a floor; each platform meters something different.</p><ul><li><strong>Zapier counts tasks:</strong> each unit of work it completes, with failed actions not counted. Four action steps run 200 times is 800 tasks. Go over with pay-per-task on and extra tasks cost 1.25 times your base rate on annual billing or 2.5 times on monthly, and usage stops at three times your plan until the next cycle.</li><li><strong>Make counts credits:</strong> one per module action, and features using Make's own AI provider may use more.</li><li><strong>n8n counts executions:</strong> one run of the whole workflow, however many steps it has.</li><li><strong>Text messages.</strong> <a href=\"https://www.twilio.com/en-us/sms/pricing/ca\" target=\"_blank\" rel=\"noopener\">Twilio's Canada page</a> lists $0.0083 per outbound SMS segment plus a carrier fee (the highest is $0.0087, on Bell) and $1.15 a month for a local number. No currency is stated, so I have treated it as USD.</li><li><strong>AI model fees.</strong> <a href=\"https://platform.claude.com/docs/en/about-claude/pricing\" target=\"_blank\" rel=\"noopener\">Anthropic's price list</a> has Claude Haiku 4.5 at $1 per million input tokens and $5 per million output tokens in USD; its own worked example comes to about $37 for 10,000 support conversations.</li></ul>",
+   "takeaway": "At small volumes texts and AI fees are pocket change; the platform tier is the line that jumps. Count monthly runs and steps per workflow before picking a plan."
+  },
+  {
+   "heading": "A sample monthly bill for three workflows",
+   "body_html": "<p>Picture a small GTA cleaning company or clinic running three workflows on Zapier. The volumes are my assumptions, not vendor figures.</p><ul><li><strong>New-lead follow-up:</strong> 60 leads a month, four actions each (save the lead, email a reply, text the lead, alert the owner): 240 tasks, 60 texts.</li><li><strong>Review request after each job:</strong> 80 jobs, two actions each: 160 tasks, 80 texts.</li><li><strong>Inbox triage:</strong> 150 emails, two actions each (an AI model drafts a reply, the draft is saved for your approval): 300 tasks, 150 AI calls.</li></ul><p>That is 700 tasks, just inside Zapier Professional's 750. The bill: $29.99 USD billed monthly (about $43 CAD); 140 texts at up to 1.7 cents each plus the $1.15 number (about $5 CAD if Twilio's prices are in USD); and 150 AI calls that, if each is about the size of the conversations in Anthropic's example, cost well under $1. Total: about $49 CAD a month before tax.</p><p>Double the volume and you need Zapier's 1,500-task tier at $58.50 USD billed monthly, about $83 CAD, while texts and AI together reach only about $10 CAD. On n8n the original example is 290 executions against Starter's 2,500, and on Make the 700 actions are a small share of Core's 10,000 credits, though steps that read or search for data use credits too, so count those before you choose.</p>",
+   "takeaway": "For a business this size the running cost is about the price of a phone plan. The real spend is the one-time build and the time it takes to keep it working."
+  },
+  {
+   "heading": "Upkeep: the line most quotes leave out",
+   "body_html": "<p>Published upkeep estimates are usually a share of the build cost. <a href=\"https://parix.ai/blog/how-much-does-ai-automation-cost/\" target=\"_blank\" rel=\"noopener\">Parix</a> says 5 to 15% of setup per year, roughly $50 to $400 a month, covering hosting, API fees and monitoring. <a href=\"https://www.lowcode.agency/blog/zapier-maintenance-cost\" target=\"_blank\" rel=\"noopener\">LowCode Agency</a> suggests reserving 10 to 20% of the original build cost per year for Zapier maintenance. On a $3,000 build, those ranges work out to $150 to $600 a year.</p><p>That is far below the retainers above because the scope differs: Layer3Labs describes a retainer as a recurring fee for ongoing work and support, not only repairs. If repairs are all you need, ask for a per-fix rate.</p>",
+   "takeaway": "Ask whether upkeep is a monthly retainer or pay-as-needed, who gets the alert when a workflow fails, and what a fix costs."
+  },
+  {
+   "heading": "How to scope a small first project",
+   "body_html": "<p>Start with payback, not features. <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage\" target=\"_blank\" rel=\"noopener\">Ontario's general minimum wage</a> has been $17.95 an hour since October 1, 2026. If a workflow saves five hours of admin a week (my assumption), that is $89.75 a week, or about $389 a month, before payroll costs. On those assumptions, a $3,000 build with a $49 running bill pays for itself in roughly nine months; a $10,000 build saving the same five hours takes about two and a half years.</p><ul><li>Pick one workflow that runs many times a week and has a clear finish line.</li><li>Write the trigger, the steps and the monthly volume on one page. That page is your scope.</li><li>Keep the platform account and phone number in your own name so you can change providers.</li><li>Skip it if the task comes up only a few times a month. A checklist is cheaper.</li></ul><p>Not sure what to automate first? See <a href=\"../business-tasks-to-automate-with-ai/\">which business tasks are worth automating</a>.</p>",
+   "takeaway": "One workflow, one page of scope, one fixed price, and a payback figure you worked out yourself. Have a person approve anything customer-facing for the first two weeks."
+  }
+ ],
+ "bottom_line_html": "<p>A realistic budget has three lines: about $50 CAD a month to run a few workflows, a one-time build that published sources put anywhere from roughly $2,100 to $21,000 CAD for a single workflow, and 5 to 20% of the build each year to keep it working. To build it yourself, our <a href=\"../../ai-course/\">free AI course for beginners</a> is a place to start. To hand it off, Nova Toronto quotes <a href=\"../../ai-automation/\">AI automation</a> and <a href=\"../../ai-automation/ai-receptionist/\">AI receptionist</a> work per project, so you get a number for your workflow instead of a range, and a <a href=\"../../index.html#contact\">free consultation</a> is a chance to ask whether a task is worth automating yet.</p>",
+ "faq": [
+  {
+   "q": "How much does AI automation cost a small business per month in Canada?",
+   "a": "In this post's example, three workflows using 700 Zapier tasks, 140 text messages and 150 AI calls came to about $49 CAD a month before tax. Published agency retainers are much higher: Taskip's guide lists $500 to $1,500 USD a month for small businesses."
+  },
+  {
+   "q": "What is a typical automation setup fee in Canada?",
+   "a": "Published figures disagree: Taskip lists $1,500 to $5,000 USD one-time for small businesses, while a Canada-focused guide by Jahanzaib Ahmed puts a single narrow-scope workflow at $5,000 to $15,000 CAD. Ask for a fixed price in CAD for one named workflow."
+  },
+  {
+   "q": "Why does an automation bill go up as the business gets busier?",
+   "a": "The platforms meter usage: Zapier counts tasks, Make counts credits and n8n counts workflow executions. In the example, doubling volume from 700 to 1,400 Zapier tasks moves you from the 750-task tier at $29.99 USD to the 1,500-task tier at $58.50 USD, billed monthly. Texts and AI fees rise too, but stay around $10 CAD a month at this scale."
+  },
+  {
+   "q": "How much should I budget to maintain an automation?",
+   "a": "Published estimates run from 5 to 15% of the setup cost per year (Parix) to 10 to 20% of the build cost per year (LowCode Agency). On a $3,000 build that is $150 to $600 a year. A monthly retainer covers ongoing work as well as fixes, so ask what is included."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Zapier: Plans and pricing",
+   "url": "https://zapier.com/pricing"
+  },
+  {
+   "label": "Make: Pricing and credits",
+   "url": "https://www.make.com/en/pricing"
+  },
+  {
+   "label": "n8n: Plans and pricing",
+   "url": "https://n8n.io/pricing/"
+  },
+  {
+   "label": "Twilio: SMS pricing in Canada",
+   "url": "https://www.twilio.com/en-us/sms/pricing/ca"
+  },
+  {
+   "label": "Anthropic: Claude API pricing",
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+   "label": "Taskip: AI automation agency pricing, six models (2026)",
+   "url": "https://taskip.net/ai-automation-agency-pricing/"
+  },
+  {
+   "label": "Parix: How much does AI automation cost",
+   "url": "https://parix.ai/blog/how-much-does-ai-automation-cost/"
+  },
+  {
+   "label": "Layer3Labs: AI automation agency cost (2026)",
+   "url": "https://www.layer3labs.io/roi/ai-automation-agency-cost"
+  },
+  {
+   "label": "Jahanzaib Ahmed: AI automation agency vs in-house, Canada 2026 guide",
+   "url": "https://www.jahanzaib.ai/blog/ai-automation-agency-vs-in-house-canada"
+  },
+  {
+   "label": "LowCode Agency: Zapier maintenance cost budgeting guide",
+   "url": "https://www.lowcode.agency/blog/zapier-maintenance-cost"
+  },
+  {
+   "label": "Statistics Canada: Analysis on AI use by businesses in Canada, Q2 2026",
+   "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+  },
+  {
+   "label": "Statistics Canada: Canadian Survey on Business Conditions, Q3 2026",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260831/dq260831a-eng.htm"
+  },
+  {
+   "label": "Bank of Canada: Daily exchange rates",
+   "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"
+  },
+  {
+   "label": "Government of Ontario: Minimum wage",
+   "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation services",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "Which business tasks to automate with AI",
+   "href": "../business-tasks-to-automate-with-ai/"
+  }
+ ]
+}

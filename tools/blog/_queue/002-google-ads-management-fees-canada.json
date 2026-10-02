@@ -1,0 +1,167 @@
+{
+ "slug": "google-ads-management-fees-canada",
+ "title": "Google Ads management fees in Canada: flat fee or percentage?",
+ "category": "Digital Marketing",
+ "excerpt": "Google Ads management fees in Canada compared: percentage vs flat fee, published prices, and the cost at $1,000, $2,000 and $5,000 a month.",
+ "keywords": "Google Ads management fees Canada, how much do Google Ads agencies charge, PPC management pricing Toronto, Google Ads setup fee",
+ "cover_title": "Google Ads Fees: Flat or Percentage?",
+ "intro_html": "<p>You have decided to run Google Ads, asked three agencies for a quote, and got three answers you cannot line up: 15% of your ad spend, $499 a month flat, or $399 a month plus a $1,000 setup fee. None of that buys a click; it is the manager's pay, on top of what Google charges.</p><p>At $1,000 to $5,000 a month in ads, the fee model matters more than the rate, because a minimum fee can cost nearly as much as the ads. Below: the prices Canadian agencies had published on October 2, 2026, the math at three budgets, and the terms to refuse. How much to spend on the ads themselves is covered in <a href=\"../google-ads-budget-toronto/\">our Toronto Google Ads budget guide</a>.</p>",
+ "glance": [
+  {
+   "icon": "uil-percentage",
+   "heading": "10% to 20% of spend",
+   "sub": "The usual percentage model, often with a $750 to $1,000 monthly minimum"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$399 to $500 flat",
+   "sub": "The lowest published monthly prices I found for small Canadian accounts"
+  },
+  {
+   "icon": "uil-calculator-alt",
+   "heading": "Up to 75% of spend",
+   "sub": "A $750 minimum fee on a $1,000 ad budget; the same fee is 15% at $5,000"
+  },
+  {
+   "icon": "uil-receipt",
+   "heading": "Setup: $0 to $2,000",
+   "sub": "Some published plans charge none; the range usually quoted is $500 to $1,500"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Keep Admin access",
+   "sub": "Only an Admin user can unlink an agency's manager account in Google Ads"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Three pricing models: percentage, flat fee, hybrid",
+   "body_html": "<ul><li><strong>Percentage of ad spend.</strong> <a href=\"https://socialknowhow.com/google-ads-management-pricing-canada/\" target=\"_blank\" rel=\"noopener\">Social Know How</a>, <a href=\"https://consultusdigital.com/blog/google-ads-cost-canada/\" target=\"_blank\" rel=\"noopener\">Consultus Digital</a> and <a href=\"https://bizstori.ca/how-much-does-ppc-management-cost-in-toronto/\" target=\"_blank\" rel=\"noopener\">BizStori</a> all put the usual rate at 10% to 20%; <a href=\"https://littledragon.ca/google-ads-pricing-costs-breakdown-what-to-expect/\" target=\"_blank\" rel=\"noopener\">Little Dragon Media</a> stretches it to 30%. The catch is the floor: <a href=\"https://thesocialshepherd.ca/flat-fee-google-ads-management-canada/\" target=\"_blank\" rel=\"noopener\">The Social Shepherd</a> says these deals often carry a $750 to $1,000 monthly minimum, and <a href=\"https://catmomedia.ca/blog/google-ads-management-cost\" target=\"_blank\" rel=\"noopener\">Catmo Media</a> publishes one: 15% of spend, a $750 minimum, and at least $5,000 a month in ads.</li><li><strong>Flat monthly fee.</strong> <a href=\"https://digitalshiftmedia.com/ppc/google-ads-management-pricing/\" target=\"_blank\" rel=\"noopener\">Digital Shift</a> in Calgary lists Google Search management at $499 a month with no commission. <a href=\"https://thinkprofits.com/ppc-advertising/\" target=\"_blank\" rel=\"noopener\">ThinkProfits</a> in Vancouver lists $399 a month for up to $1,000 in managed spend and $699 for up to $5,000.</li><li><strong>Hybrid.</strong> A smaller base plus a smaller percentage, or a flat fee that becomes a percentage past a threshold. ThinkProfits does the second above $10,000 a month.</li></ul><p>The trade-off, per Consultus Digital: a percentage rewards the agency when your spend rises; a flat fee is easy to budget but can underpay a complicated account.</p>",
+   "takeaway": "Ask every agency the same two questions: what is the monthly minimum, and at what spend level does the fee change? Those two answers make the quotes comparable."
+  },
+  {
+   "heading": "Published Canadian fee ranges for small accounts",
+   "body_html": "<p>Agency guides disagree.</p><ul><li>Social Know How (Vaughan, August 19, 2026): roughly $400 to $900 a month for accounts spending under $2,500.</li><li>BizStori (Scarborough): $800 to $1,500 on $1,000 to $3,000 of spend.</li><li><a href=\"https://searchbeyondgoogle.com/blog/how-much-does-google-ads-management-cost/\" target=\"_blank\" rel=\"noopener\">Search Beyond Google</a> (June 18, 2026): most Toronto small and mid-sized firms should plan for $1,500 to $2,500 in management on $2,000 to $5,000 of ads.</li><li>Flat retainers overall: roughly $400 to $2,500 per Consultus Digital (Toronto, September 15, 2026); $300 to $1,500 per The Social Shepherd.</li></ul><p>Actual price lists sit at the low end: $399 at ThinkProfits, $499 at Digital Shift, and $500 at The Social Shepherd in Toronto for budgets up to $3,000. The Social Shepherd states CAD; the other two pages do not name a currency, so confirm it.</p><p>On setup fees, The Social Shepherd and Catmo both call $500 to $1,500 the usual one-time charge, and both charge none. BizStori puts a single-service build at $500 to $1,200. ThinkProfits lists $1,000 to $2,000 depending on the plan.</p>",
+   "takeaway": "For a GTA account spending $1,000 to $3,000 a month, a quote between $400 and $1,500 a month sits inside the published range. What separates the two ends is the work delivered, so get that in writing."
+  },
+  {
+   "heading": "The fee at $1,000, $2,000 and $5,000 a month",
+   "body_html": "<p>Four structures from the rates above at three ad budgets, fee as a share of spend in brackets:</p><ul><li><strong>Straight 15%, no minimum:</strong> $150, $300 and $750 (15% each time).</li><li><strong>15% with a $750 minimum:</strong> $750 each time (75%, 37.5% and 15%).</li><li><strong>Flat $499:</strong> $499 each time (50%, 25% and 10%).</li><li><strong>Stepped flat fee at ThinkProfits list prices:</strong> $399, $699 and $699 (40%, 35% and 14%), plus a one-time setup of $1,000 or $1,200.</li></ul><p>A straight 15% is cheapest at $1,000 and $2,000, but only with no minimum; it passes the $499 flat fee near $3,300 of spend. BizStori's own example shows the catch: 15% of a $1,500 budget is $225, which it considers too little to pay for real weekly management. Once a $750 floor applies, both flat options cost less at all three budgets.</p><p>Setup changes the first year: at $1,000 a month on the $399 plan, twelve months of fees plus the $1,000 setup is $5,788 against $12,000 of ads.</p><p>Ask whether a quote includes HST. The Canada Revenue Agency <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html\" target=\"_blank\" rel=\"noopener\">lists Ontario's rate at 13%</a>, which turns a $750 fee into $847.50. Whether and how tax applies depends on the supplier and your business, so check the invoice with your accountant. One line you should no longer see: Google's 2.5% Canada DST fee <a href=\"https://support.google.com/google-ads/answer/9750227?hl=en\" target=\"_blank\" rel=\"noopener\">stopped applying to ads served in Canada as of July 1, 2025</a>.</p>",
+   "takeaway": "Compare quotes on total first-year cost at your real budget: twelve months of fees, plus setup, plus HST. At $1,000 to $2,000 of monthly spend, a minimum fee changes the answer more than the percentage does."
+  },
+  {
+   "heading": "What the fee should include",
+   "body_html": "<p>A low fee that leaves out tracking is not a low fee. Google's <a href=\"https://support.google.com/google-ads/answer/1722022?hl=en\" target=\"_blank\" rel=\"noopener\">conversion measurement guide</a> explains why: you choose the actions that count, such as a purchase, a sign-up or a phone call, and automated bidding relies on those signals.</p><ul><li><strong>Conversion tracking</strong> for calls, forms and sales, tested before launch. ThinkProfits includes GA4 and Tag Manager setup in its entry plan; The Social Shepherd and Catmo fold tracking into the build.</li><li><strong>Search-term and negative-keyword work on a stated schedule.</strong> The Social Shepherd commits to weekly.</li><li><strong>A monthly report with Google's real numbers.</strong> Google's <a href=\"https://support.google.com/adspolicy/answer/9457109?hl=en\" target=\"_blank\" rel=\"noopener\">advertiser guide to working with third parties</a> says you have the right to know your clicks, impressions and total Google cost. Its <a href=\"https://support.google.com/adspolicy/answer/16489093\" target=\"_blank\" rel=\"noopener\">transparency requirements</a> say that when a manager shares cost data it must be the exact amount Google charged, and that a separate management fee must be disclosed in writing before your first purchase and on every invoice.</li><li><strong>Landing pages: usually extra.</strong> Little Dragon Media lists landing page design and ad creative as items that may be invoiced separately. Consultus Digital suggests budgeting a one-time $2,000 to $8,000 for a landing page and tracking setup if they do not exist yet.</li></ul>",
+   "takeaway": "Ask for the scope as a written list with a frequency beside each item. If tracking and a monthly report showing Google's own cost figures are not on it, the quote is incomplete."
+  },
+  {
+   "heading": "Red flags: ownership, lock-ins and vague setup fees",
+   "body_html": "<p><strong>The account is in the agency's name.</strong> BizStori warns that you lose your campaign history when you leave. Google's <a href=\"https://support.google.com/google-ads/answer/9978556?hl=en\" target=\"_blank\" rel=\"noopener\">access levels page</a> shows that only an Admin user can grant access, accept or reject a manager's link request, and unlink a manager account. Its <a href=\"https://support.google.com/google-ads/answer/7456532?hl=en\" target=\"_blank\" rel=\"noopener\">page on manager ownership</a> adds that an owner manager can remove users from your account, though you can always unlink it. The safe setup: create the account under your own Google login, keep Admin, put your own card on file with Google, and link the agency as a manager.</p><p><strong>A long lock-in.</strong> BizStori warns against long lock-in contracts, and Search Beyond Google against a 12-month contract with no performance benchmarks or exit clause. Digital Shift, ThinkProfits and Catmo all advertise no long-term contract.</p><p><strong>A setup fee with no list attached.</strong> It should itemize the campaign build, tracking and keyword research.</p><p><strong>Guaranteed positions.</strong> Google's advertiser guide says no one can guarantee a specific ad position in its search results, because an auction decides it on every search.</p>",
+   "takeaway": "Before you sign, log in to Google Ads yourself and confirm your own email is listed as Admin and your own card is the payment method. If an agency will not work that way, choose another."
+  },
+  {
+   "heading": "Which model fits which budget",
+   "body_html": "<ul><li><strong>Under $1,000 a month in ads:</strong> on the published prices above, a managed plan costs 40% or more of your spend. Consider paying by the hour for a one-time build or audit, which Consultus Digital puts at $100 to $200 an hour, then running one Search campaign yourself. Our <a href=\"../../ai-course/\">free AI course for beginners</a> covers drafting with AI tools and checking their answers, useful when you write your own ads.</li><li><strong>$1,000 to $10,000 a month:</strong> a flat fee is more predictable and, wherever a minimum applies, cheaper.</li><li><strong>Above $10,000 a month:</strong> expect a negotiated percentage. Social Know How reports roughly 10% to 15% for accounts spending $10,000 to $50,000.</li></ul>",
+   "takeaway": "Most GTA small businesses sit in the middle band. There, pick the flat-fee quote with the clearest written scope, not the lowest number."
+  }
+ ],
+ "bottom_line_html": "<p>Put every quote on one line: the monthly fee at your actual budget, setup fee, HST, contract length, and who holds Admin on the account.</p><p>At Nova Toronto, <a href=\"../../digital-marketing/google-search/\">Google</a>, <a href=\"../../digital-marketing/meta-ads/\">Meta</a> and <a href=\"../../digital-marketing/microsoft-ads/\">Microsoft</a> ads management is quoted per account; hold our quote to the same checklist. Details are on our <a href=\"../../digital-marketing/\">digital marketing page</a>. If the missing piece is the page your ads point to, our 3-page Bronze website is $900 plus applicable tax. If you already have a quote and want a second opinion, <a href=\"../../index.html#contact\">book the free consultation</a>.</p>",
+ "faq": [
+  {
+   "q": "How much do Google Ads agencies charge in Canada?",
+   "a": "Canadian agency guides put percentage fees at 10% to 20% of ad spend, often with a $750 to $1,000 monthly minimum, and flat fees from about $300 to $2,500 a month. The lowest published price lists start at $399 to $500 a month."
+  },
+  {
+   "q": "Is a flat fee or a percentage of ad spend cheaper on a small Google Ads budget?",
+   "a": "It depends on the minimum. A straight 15% on $2,000 of spend is $300, less than a $499 flat fee. But percentage plans often carry a $750 to $1,000 minimum, which makes the published flat fees of $399 to $699 cheaper. With no minimum, 15% passes a $499 flat fee near $3,300 a month."
+  },
+  {
+   "q": "Is a Google Ads setup fee normal, and how much should it be?",
+   "a": "Common, but not universal. Canadian agencies describe $500 to $1,500 as the usual one-time fee, and published price lists run from no setup fee to $2,000. Ask for an itemized list covering the campaign build, conversion tracking and keyword research."
+  },
+  {
+   "q": "Who should own the Google Ads account when an agency manages it?",
+   "a": "You should. Create the account under your own Google login, keep Admin access, and link the agency as a manager. Only an Admin can grant access or unlink a manager account. If the account is in the agency's name, you can lose the campaign history when you leave."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Advertising Policies Help: Transparency requirements",
+   "url": "https://support.google.com/adspolicy/answer/16489093"
+  },
+  {
+   "label": "Google Advertising Policies Help: Advertiser guide - Working with third parties",
+   "url": "https://support.google.com/adspolicy/answer/9457109?hl=en"
+  },
+  {
+   "label": "Google Ads Help: About access levels in your Google Ads account",
+   "url": "https://support.google.com/google-ads/answer/9978556?hl=en"
+  },
+  {
+   "label": "Google Ads Help: Manager accounts - About ownership of client accounts",
+   "url": "https://support.google.com/google-ads/answer/7456532?hl=en"
+  },
+  {
+   "label": "Google Ads Help: About conversion measurement",
+   "url": "https://support.google.com/google-ads/answer/1722022?hl=en"
+  },
+  {
+   "label": "Google Ads Help: Jurisdiction-specific surcharges",
+   "url": "https://support.google.com/google-ads/answer/9750227?hl=en"
+  },
+  {
+   "label": "Canada Revenue Agency: GST/HST calculator (and rates)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html"
+  },
+  {
+   "label": "ThinkProfits: PPC management and Google Ads Canada, plans and setup fees",
+   "url": "https://thinkprofits.com/ppc-advertising/"
+  },
+  {
+   "label": "Digital Shift: Google Ads management pricing in Canada",
+   "url": "https://digitalshiftmedia.com/ppc/google-ads-management-pricing/"
+  },
+  {
+   "label": "The Social Shepherd: Flat-fee Google Ads management in Canada",
+   "url": "https://thesocialshepherd.ca/flat-fee-google-ads-management-canada/"
+  },
+  {
+   "label": "Catmo Media: Google Ads management cost, what agencies charge in 2026",
+   "url": "https://catmomedia.ca/blog/google-ads-management-cost"
+  },
+  {
+   "label": "BizStori: How much does PPC management cost in Toronto? (2026)",
+   "url": "https://bizstori.ca/how-much-does-ppc-management-cost-in-toronto/"
+  },
+  {
+   "label": "Social Know How: Google Ads management pricing in Canada, 2026 guide",
+   "url": "https://socialknowhow.com/google-ads-management-pricing-canada/"
+  },
+  {
+   "label": "Consultus Digital: How much do Google Ads cost in Canada? 2026 guide",
+   "url": "https://consultusdigital.com/blog/google-ads-cost-canada/"
+  },
+  {
+   "label": "Search Beyond Google: How much does Google Ads management cost? (Canada pricing guide)",
+   "url": "https://searchbeyondgoogle.com/blog/how-much-does-google-ads-management-cost/"
+  },
+  {
+   "label": "Little Dragon Media: Canada's 2026 Google Ads pricing and costs guide",
+   "url": "https://littledragon.ca/google-ads-pricing-costs-breakdown-what-to-expect/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our digital marketing services",
+   "href": "../../digital-marketing/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "How much should a Toronto small business spend on Google Ads?",
+   "href": "../google-ads-budget-toronto/"
+  }
+ ]
+}
