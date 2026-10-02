@@ -7,3 +7,9 @@ package.json
 
 # Vapi private API key (never commit)
 .vapi-key
+
+# private working files - never publish
+_marketing/demand-test-2026-10/
+_cover_samples/
+tools/blog/_queue/failed/
+__pycache__/

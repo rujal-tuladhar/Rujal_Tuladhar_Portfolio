@@ -3,6 +3,11 @@
 publish_post.py - turn a post JSON into a live blog post on novatoronto.com.
 
     python tools/blog/publish_post.py <post.json> [--date YYYY-MM-DD] [--no-push] [--dry-run] [--update]
+    python tools/blog/publish_post.py --next [--date YYYY-MM-DD] [--no-push] [--dry-run] [--force]
+
+    --next publishes the lowest-numbered ready post in tools/blog/_queue/ (NNN-slug.json), at most
+    one per day. A post that fails validation (e.g. a source went dead) is moved to _queue/failed/
+    and the next one is tried (up to 3). After publishing, the JSON moves to posts/<date>-<slug>.json.
 
     --update re-renders an EXISTING slug in place (corrections). Keeps the original
     publish date in the log, swaps the slide/card/strip, bumps sitemap lastmod.
@@ -27,6 +32,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, '..', '..'))
 TEMPLATE = os.path.join(HERE, 'post_template.html')
 LOG = os.path.join(HERE, 'published.json')
+QUEUE = os.path.join(HERE, '_queue')          # underscore = not served by GitHub Pages
 DOMAIN = 'https://novatoronto.com'
 
 ALLOWED_CATEGORIES = {'AI Tools', 'AI News', 'AI Automation', 'Digital Marketing', 'Website Design'}
@@ -160,6 +166,16 @@ def validate(post, all_html, update=False):
     for g in post['glance']:
         if not re.fullmatch(r'uil-[a-z0-9\-]+', g['icon']):
             fail('glance icon %r is not a Unicons class' % g['icon'])
+    faq = post.get('faq') or []
+    if faq:
+        if not (3 <= len(faq) <= 6):
+            fail('faq needs 3-6 items, got %d' % len(faq))
+        for f in faq:
+            q, a = f.get('q', '').strip(), f.get('a', '').strip()
+            if not q.endswith('?') or len(q) > 110:
+                fail('faq question must end with ? and be under 110 chars: %r' % q)
+            if not a or '<' in a or len(a) > 600:
+                fail('faq answers are plain text, 1-600 chars: %r' % q)
 
     tags = set(t.lower() for t in re.findall(r'<\s*/?\s*([a-zA-Z0-9]+)', all_html))
     bad = tags - ALLOWED_TAGS
@@ -207,55 +223,11 @@ def validate(post, all_html, update=False):
 
 # ------------------------------------------------------------- cover image ----
 def make_cover(post, date_iso, out_path):
-    from PIL import Image, ImageDraw, ImageFont
-    W, H = 1200, 630
-    F_BOLD, F_REG = 'C:/Windows/Fonts/segoeuib.ttf', 'C:/Windows/Fonts/segoeui.ttf'
-    if not os.path.exists(F_BOLD):
-        F_BOLD = F_REG = None
-    def font(p, s):
-        return ImageFont.truetype(p, s) if p else ImageFont.load_default()
-
-    im = Image.new('RGB', (W, H), (255, 255, 255))
-    d = ImageDraw.Draw(im)
-    for x in range(int(W * .58), W):
-        t = (x - W * .58) / (W - W * .58)
-        d.line([(x, 0), (x, H)], fill=(int(255 - 23 * t), int(255 - 10 * t), int(255 - 3 * t)))
-    d.rectangle([0, H - 14, W, H], fill=(0, 150, 221))
-    d.rectangle([0, 0, 10, H], fill=(0, 150, 221))
-
-    logo_p = os.path.join(REPO, 'assets', 'img', 'NovaToronto.png')
-    y = 58
-    if os.path.exists(logo_p):
-        logo = Image.open(logo_p).convert('RGBA')
-        lw = 240
-        logo = logo.resize((lw, round(logo.height * lw / logo.width)), Image.LANCZOS)
-        im.paste(logo, (72, y), logo)
-        y += logo.height + 26
-
-    f_eb = font(F_BOLD, 24)
-    d.text((72, y), (post['category'] + '  ·  ' + human_date(date_iso)).upper(), font=f_eb, fill=(0, 115, 168))
-    y += 46
-
-    f_h = font(F_BOLD, 60)
-    words_, lines, cur = post['cover_title'].split(), [], ''
-    for w in words_:
-        t = (cur + ' ' + w).strip()
-        if d.textlength(t, font=f_h) <= 780:
-            cur = t
-        else:
-            lines.append(cur); cur = w
-    if cur:
-        lines.append(cur)
-    for line in lines[:3]:
-        d.text((72, y), line, font=f_h, fill=(27, 37, 50))
-        y += 70
-
-    y += 10
-    d.text((72, y), 'By Rujal Tuladhar  ·  novatoronto.com', font=font(F_REG, 26), fill=(83, 96, 110))
-
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    im.save(out_path, 'JPEG', quality=84, optimize=True, progressive=True)
-    return os.path.getsize(out_path)
+    """Illustrated cover - drawn by tools/blog/cover.py (motif picked from slug/category)."""
+    if HERE not in sys.path:
+        sys.path.insert(0, HERE)
+    import cover
+    return cover.make_cover(post, date_iso, out_path)
 
 
 # ---------------------------------------------------------------- rendering ----
@@ -285,6 +257,19 @@ def render_post(post, date_iso, cover_rel, cover_abs):
         sep = ' &bull;' if i < len(post['related']) - 1 else ''
         related.append('                        <a href="%s">%s</a>%s' % (attr(r['href']), html.escape(r['label']), sep))
 
+    faq_block, faq_schema = '', ''
+    if post.get('faq'):
+        rows = ['                    <h2>Common questions</h2>']
+        for f in post['faq']:
+            rows.append('                    <h3>%s</h3>' % html.escape(f['q'].strip()))
+            rows.append('                    <p>%s</p>' % html.escape(f['a'].strip()))
+        faq_block = '\n'.join(rows)
+        data = {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
+            {'@type': 'Question', 'name': f['q'].strip(),
+             'acceptedAnswer': {'@type': 'Answer', 'text': f['a'].strip()}} for f in post['faq']]}
+        faq_schema = ('    <script type="application/ld+json">\n' +
+                      json.dumps(data, indent=2, ensure_ascii=False).replace('</', '<\\/') + '\n    </script>')
+
     glance_label = '%s at a glance' % post['title']
     subs = {
         '{{TITLE}}': html.escape(post['title']),
@@ -305,6 +290,8 @@ def render_post(post, date_iso, cover_rel, cover_abs):
         '{{GLANCE_CAPTION}}': html.escape(glance_label + ' &mdash; the short version.').replace('&amp;mdash;', '&mdash;'),
         '{{SECTIONS}}': nl.join(sections),
         '{{BOTTOM_LINE}}': post['bottom_line_html'].strip(),
+        '{{FAQ_BLOCK}}': faq_block,
+        '{{FAQ_SCHEMA}}': faq_schema,
         '{{SOURCES}}': nl.join(sources),
         '{{RELATED}}': nl.join(related),
     }
@@ -391,6 +378,8 @@ def main():
     argv = sys.argv[1:]
     if not argv:
         print(__doc__); sys.exit(1)
+    if argv[0] == '--next':
+        return run_next(argv)
     post_path = argv[0]
     date_iso = datetime.date.today().isoformat()
     if '--date' in argv:
@@ -401,7 +390,8 @@ def main():
 
     post = json.load(io.open(post_path, encoding='utf-8'))
     slug = post['slug']
-    all_html = post['intro_html'] + ''.join(s['body_html'] for s in post['sections']) + post['bottom_line_html']
+    all_html = (post['intro_html'] + ''.join(s['body_html'] for s in post['sections']) + post['bottom_line_html'] +
+                ''.join('<p>%s</p>' % html.escape(f.get('a', '')) for f in (post.get('faq') or [])))
     n_words = validate(post, all_html, update=update)
     if dry:
         print('dry run - nothing written'); return
@@ -518,6 +508,15 @@ def main():
         log.insert(0, entry_log)
     io.open(LOG, 'w', encoding='utf-8').write(json.dumps(log, indent=2, ensure_ascii=False))
 
+    # 5b. queue bookkeeping: a post published from _queue/ moves into posts/ (the audit trail)
+    qf = os.environ.get('NOVA_QUEUE_FILE')
+    if qf and os.path.exists(qf) and not update:
+        dest = os.path.join(HERE, 'posts', '%s-%s.json' % (date_iso, slug))
+        os.replace(qf, dest)
+        io.open(os.path.join(QUEUE, 'state.json'), 'w', encoding='utf-8').write(
+            json.dumps({'last_date': date_iso, 'last_slug': slug}, indent=1))
+        print('queue: moved %s -> posts/%s' % (os.path.basename(qf), os.path.basename(dest)))
+
     # 6. git
     if no_push:
         print('--no-push: changes are in the working tree, not committed'); return
@@ -530,6 +529,43 @@ def main():
     if r.returncode != 0:
         print('PUSH FAILED:\n' + r.stderr); sys.exit(3)
     print('pushed. live in ~2 min at %s/blog/%s/' % (DOMAIN, slug))
+
+
+def queue_files():
+    if not os.path.isdir(QUEUE):
+        return []
+    return sorted(f for f in os.listdir(QUEUE) if re.fullmatch(r'\d{3}-[a-z0-9\-]+\.json', f))
+
+
+def run_next(argv):
+    """Publish the next ready post from _queue/. Cheap: no research, one command."""
+    date_iso = datetime.date.today().isoformat()
+    if '--date' in argv:
+        date_iso = argv[argv.index('--date') + 1]
+    dry = '--dry-run' in argv
+    state_p = os.path.join(QUEUE, 'state.json')
+    state = json.load(io.open(state_p, encoding='utf-8')) if os.path.exists(state_p) else {}
+    files = queue_files()
+    print('queue: %d ready post(s)' % len(files))
+    if state.get('last_date') == date_iso and '--force' not in argv and not dry:
+        print('queue: already published %s today (%s) - nothing to do' % (state.get('last_slug'), date_iso)); return
+    if not files:
+        print('queue: EMPTY - write the next calendar topic into tools/blog/_queue/ (see RECIPE.md)'); return
+    for f in files[:3]:
+        src = os.path.join(QUEUE, f)
+        cmd = [sys.executable, os.path.abspath(__file__), src, '--date', date_iso]
+        cmd += [a for a in ('--no-push', '--dry-run') if a in argv]
+        print('queue: publishing %s' % f); sys.stdout.flush()
+        rc = subprocess.run(cmd, env=dict(os.environ, NOVA_QUEUE_FILE=src)).returncode
+        if rc == 0:
+            left = len(queue_files())
+            print('queue: done. %d post(s) left%s' % (left, ' - TOP UP the queue (RECIPE.md)' if left < 5 else '')); return
+        if rc != 2 or dry:
+            print('queue: stopped with exit code %d - not a validation problem, fix before retrying' % rc); sys.exit(rc)
+        os.makedirs(os.path.join(QUEUE, 'failed'), exist_ok=True)
+        os.replace(src, os.path.join(QUEUE, 'failed', f))
+        print('queue: %s failed validation -> moved to _queue/failed/, trying the next one' % f)
+    print('queue: 3 posts failed validation in a row - stopping'); sys.exit(2)
 
 
 if __name__ == '__main__':
