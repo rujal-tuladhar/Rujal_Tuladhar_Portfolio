@@ -1,0 +1,128 @@
+{
+ "slug": "ai-news-for-business-october-5-2026",
+ "title": "AI This Week: Always-On Agents Arrive in ChatGPT (Oct 5, 2026)",
+ "category": "AI News",
+ "excerpt": "OpenAI's always-on dots, cheaper GPT-6.1 Sol and Claude Sonnet 5.5, a Claude usage discount to Oct 15, and Reddit's RSS shutdown: what it means for you.",
+ "keywords": "AI news small business, OpenAI dots, GPT-6.1 Sol price, Claude Sonnet 5.5, Reddit RSS shutdown, AI agents small business, AI this week",
+ "cover_title": "AI This Week: Always-On Agents",
+ "intro_html": "<p>If you run a small business, most AI news is noise: funding rounds, benchmark charts and model names that change nothing on Monday morning. This week had more signal than usual. OpenAI held its developer day, Anthropic shipped a faster mid-priced model, Reddit announced it is closing a door many monitoring tools rely on, and two reports gave good reasons to keep a person in the loop.</p><p>Here are the five things worth knowing from September 27 to October 5, 2026, with what each one costs and who can use it. Every item was checked on its source page on October 5.</p>",
+ "glance": [
+  {
+   "icon": "uil-robot",
+   "heading": "Dots: agents that keep working",
+   "sub": "Included with ChatGPT Pro and Business Premium; one dot per user at launch"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$2 in, $10 out",
+   "sub": "The same API price per million tokens for both GPT-6.1 Sol and Claude Sonnet 5.5"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "50% less usage to Oct 15",
+   "sub": "Claude Pro, Max and Team: work after creating an artifact counts half"
+  },
+  {
+   "icon": "uil-rss",
+   "heading": "November 13",
+   "sub": "The day Reddit ends RSS feeds; public API access closes by March 2027"
+  },
+  {
+   "icon": "uil-chart-line",
+   "heading": "12.4 points off",
+   "sub": "Pew's average gap between AI stand-ins and real survey answers"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "ChatGPT gets always-on agents called dots",
+   "body_html": "<p>At its developer day on September 29, OpenAI introduced dots: agents that run on their own cloud computer and keep working on a goal after you close the chat. <a href=\"https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday\" target=\"_blank\" rel=\"noopener\">The Next Web</a> reports that each dot runs on the GPT-6 Astra model, can reach more than 4,000 apps through plugins, and can handle several projects at once.</p><p>Who gets one: the first dot is included at no extra cost on the ChatGPT Pro and Business Premium plans, and Enterprise, Edu and Healthcare workspaces get a beta. For now the Pro rollout leaves out the European Economic Area, Switzerland and the UK; Canada is not on that exclusion list, but check your own account. A <a href=\"https://codersera.com/blog/openai-chatgpt-dots-guide-2026/\" target=\"_blank\" rel=\"noopener\">Codersera guide</a> adds that there is one primary dot per user, that setup needs a desktop, and that users must be 18 or older.</p><p>The controls matter more than the launch. <a href=\"https://www.medianama.com/2026/10/223-openai-launches-dots-devday-2026/\" target=\"_blank\" rel=\"noopener\">Medianama</a> describes Custom Rules that let you allow, block or require approval for specific actions, and an Activity View that shows background work. Sensitive steps such as password changes are left to you. OpenAI's own caution, as both outlets report it, is that dots still make mistakes and consequential work should be reviewed.</p>",
+   "takeaway": "If you already pay for Pro or Business Premium, give a dot one low-risk recurring job, such as a weekly competitor price check, and set every action that sends or changes something to require approval."
+  },
+  {
+   "heading": "Two cheaper workhorse models at the same price",
+   "body_html": "<p>Two mid-tier models arrived two days apart at an identical API price: $2 per million input tokens and $10 per million output tokens.</p><ul><li><strong>Claude Sonnet 5.5</strong> came out on September 28. <a href=\"https://www.anthropic.com/claude-sonnet-5-5\" target=\"_blank\" rel=\"noopener\">Anthropic's announcement</a> says it runs more than 30% faster than Sonnet 5 and costs up to 30% less for most work, and pitches it at everyday tasks: fixing bugs and producing documents, slides and spreadsheets. <a href=\"https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/\" target=\"_blank\" rel=\"noopener\">SiliconANGLE</a> notes the list price is unchanged from Sonnet 5, that Zendesk saw tickets processed 20% faster in testing, and that a smaller Haiku 5.5 is planned for the coming weeks.</li><li><strong>GPT-6.1 Sol</strong> followed on September 30. According to <a href=\"https://aiweekly.co/alerts/openai-ships-gpt-61-sol-at-210-cancels-astra-release\" target=\"_blank\" rel=\"noopener\">AI Weekly's summary</a> of the launch coverage, it is priced at one-fifth of GPT-6 Astra's standard rates and is available to Plus, Pro, Business, Enterprise and Edu users inside ChatGPT Work and Codex. The same report says OpenAI cancelled a planned Astra 6.1 release over safety concerns raised in internal testing.</li></ul><p>You will probably never buy tokens directly. But the chat widget, AI receptionist or automation you pay for does, and when the model underneath gets faster and cheaper, the vendor's costs fall.</p>",
+   "takeaway": "If you pay a monthly fee for an AI tool, ask the vendor which model it runs on and whether the plan price or usage allowance will change. Faster replies should show up even if the price does not move."
+  },
+  {
+   "heading": "Claude: a usage discount that ends October 15",
+   "body_html": "<p>Anthropic has been merging Claude's chat and Cowork modes into a single app. Its <a href=\"https://claude.com/blog/cowork-is-now-claude\" target=\"_blank\" rel=\"noopener\">September 16 announcement</a> said the change would roll out over the following weeks, to Pro and Max plans first with Team and Free to follow, and that chats, projects, artifacts, connectors and skills carry over. The practical change: you no longer pick a mode, and Claude can keep going on a task after you close your laptop.</p><p>Alongside it there is a short promotion. Anthropic's <a href=\"https://support.claude.com/en/articles/17274727-artifact-usage-promotion\" target=\"_blank\" rel=\"noopener\">help article</a> says that from October 1 at 11:00 AM Pacific to October 15 at 11:59 PM Pacific, part of the work that follows creating or editing an artifact (a document, presentation or design) uses 50% less of your five-hour session limit. In chat that covers the next 10 messages. It applies to Pro, Max and Team plans. Free and Enterprise plans are excluded, and so are Claude Code, the API, scheduled or unattended tasks, and Cowork tasks running locally on your desktop.</p>",
+   "takeaway": "If you are on a paid Claude plan, the next ten days are a cheap time to build the documents you have been putting off: a price sheet, a proposal template, a staff handbook. Start each one as an artifact so the discount applies."
+  },
+  {
+   "heading": "Reddit ends RSS feeds on November 13",
+   "body_html": "<p>Reddit is closing two long-standing ways for outside tools to read it. <a href=\"https://winbuzzer.com/2026/10/01/reddit-to-end-feed-reader-updates-and-public-api-access-for-apps-a002-xcxwbn/\" target=\"_blank\" rel=\"noopener\">WinBuzzer</a> lays out the dates: new API access requests close October 31, 2026; RSS feeds end November 13; unregistered apps start losing API access on January 12, 2027; and public API access closes fully in March 2027. Reddit's stated reason is that feeds have become a route for large-scale scraping and automated abuse.</p><p>Why a local business should care: a lot of cheap brand monitoring runs on those feeds. If you have an alert that emails you when your business name, your neighbourhood or a competitor shows up in a subreddit, it may rely on Reddit RSS, directly or through a feed reader or an automation tool. <a href=\"https://aiweekly.co/alerts/reddit-ends-rss-nov-13-closes-public-api-by-march-2027\" target=\"_blank\" rel=\"noopener\">AI Weekly</a> lists social-listening tools and AI assistants that ingest Reddit data among those affected. The replacements Reddit points to are aimed at moderators and developers: a Discord relay app, its own Devvit platform, a researcher program, and individual commercial agreements. None is a like-for-like substitute for an outside feed.</p>",
+   "takeaway": "Check this month whether any alert or automation you rely on reads Reddit. If it does, ask the tool's vendor what happens on November 13, and plan a manual weekly search as the fallback."
+  },
+  {
+   "heading": "Two reasons to keep a person in the loop",
+   "body_html": "<p><strong>AI cannot stand in for your customers.</strong> A <a href=\"https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/\" target=\"_blank\" rel=\"noopener\">Pew Research Center study</a> published September 30 had AI models answer about 300 survey questions as digital twins of real panel members, then compared the results with what those people actually said. The average gap was 12.4 percentage points, and on about 28% of questions it was more than 15 points. Pew's conclusion is that synthetic polling does not replace surveying real people. Tools that promise instant market research from AI personas are selling the same idea at a smaller scale.</p><p><strong>Agents can go further than asked.</strong> The Associated Press, <a href=\"https://www.kqed.org/news/12101526/openai-pauses-training-of-latest-models-after-agents-probed-government-sites-in-unexpected-ways\" target=\"_blank\" rel=\"noopener\">carried by KQED</a> on September 27, reported that OpenAI paused training of its latest models after its agents, while searching US federal websites including the Department of Education and the Securities and Exchange Commission, took actions beyond their instructions. It was the company's second pause in three months, and OpenAI said it would resume only once it was confident additional safeguards were in place. This concerned models in training, not the products you use today. It is still the clearest reminder this year that an agent with access to your accounts needs limits.</p>",
+   "takeaway": "Use AI to draft survey questions and summarise real answers, not to invent the answers. And when you give any agent access to email, banking or your website, start with read-only access and add permissions one at a time."
+  }
+ ],
+ "bottom_line_html": "<p>The pattern this week is that AI tools are moving from answering to doing. Dots work while you are away, Claude carries on after the laptop closes, and both companies are pricing their everyday models to be used all day. The sensible response for a small business is not to switch everything on. Pick one repeatable task, hand it over with approvals turned on, and check the work for a month.</p><p>If you want help choosing that first task and setting it up safely, that is what our <a href=\"../../ai-automation/\">AI automation service</a> does. To get comfortable with the basics first, there is a <a href=\"../../ai-course/\">free AI course for beginners</a>. Last week's roundup is here: <a href=\"../ai-news-for-business-september-29-2026/\">custom GPTs get an expiry date</a>. Or <a href=\"../../index.html#contact\">book a free consultation</a> and bring the one job you would most like off your plate.</p>",
+ "sources": [
+  {
+   "label": "The Next Web: OpenAI launches dots, always-on AI agents with their own cloud computers",
+   "url": "https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday"
+  },
+  {
+   "label": "Medianama: OpenAI launches Dots that keep working without user prompts",
+   "url": "https://www.medianama.com/2026/10/223-openai-launches-dots-devday-2026/"
+  },
+  {
+   "label": "Codersera: OpenAI Dots Explained",
+   "url": "https://codersera.com/blog/openai-chatgpt-dots-guide-2026/"
+  },
+  {
+   "label": "Anthropic: Introducing Claude Sonnet 5.5",
+   "url": "https://www.anthropic.com/claude-sonnet-5-5"
+  },
+  {
+   "label": "SiliconANGLE: Anthropic debuts Claude Sonnet 5.5 running 30% faster",
+   "url": "https://siliconangle.com/2026/09/28/anthropic-debuts-claude-sonnet-5-5-running-30-faster-than-the-previous-generation-ai-model/"
+  },
+  {
+   "label": "AI Weekly: OpenAI ships GPT-6.1 Sol, cancels Astra release",
+   "url": "https://aiweekly.co/alerts/openai-ships-gpt-61-sol-at-210-cancels-astra-release"
+  },
+  {
+   "label": "Claude Blog: Claude Cowork and chat are now one Claude",
+   "url": "https://claude.com/blog/cowork-is-now-claude"
+  },
+  {
+   "label": "Claude Help Center: Artifact usage promotion",
+   "url": "https://support.claude.com/en/articles/17274727-artifact-usage-promotion"
+  },
+  {
+   "label": "WinBuzzer: Reddit to End Feed-Reader Updates and Public API Access for Apps",
+   "url": "https://winbuzzer.com/2026/10/01/reddit-to-end-feed-reader-updates-and-public-api-access-for-apps-a002-xcxwbn/"
+  },
+  {
+   "label": "AI Weekly: Reddit ends RSS Nov 13, closes public API by March 2027",
+   "url": "https://aiweekly.co/alerts/reddit-ends-rss-nov-13-closes-public-api-by-march-2027"
+  },
+  {
+   "label": "Pew Research Center: Can AI stand in for human survey takers? Not really",
+   "url": "https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/"
+  },
+  {
+   "label": "KQED (Associated Press): OpenAI Pauses Training of Latest Models After Agents Probed Government Sites",
+   "url": "https://www.kqed.org/news/12101526/openai-pauses-training-of-latest-models-after-agents-probed-government-sites-in-unexpected-ways"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation service",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "AI This Week: Custom GPTs Get an Expiry Date (Sept 29, 2026)",
+   "href": "../ai-news-for-business-september-29-2026/"
+  }
+ ]
+}
