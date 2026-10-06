@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-build_course.py - renders the free "AI for Beginners" course from tools/course/course.json.
+build_course.py - renders a free course from a JSON file in this folder (default course.json = "AI for Beginners").
+    python tools/course/build_course.py ai-for-seniors      builds tools/course/ai-for-seniors.json into /ai-for-seniors/
+Optional course keys: slug, short_name, signup_label, email_placeholder, large_text, hero_image (repo path of a photo),
+and per lesson: image (repo path) + image_alt.
 
     python tools/course/build_course.py            validate + write pages
     python tools/course/build_course.py --check    validate only (links, tags, lengths)
@@ -35,6 +38,51 @@ e = html.escape
 def fail(msg):
     print('COURSE CHECK FAILED: ' + msg)
     sys.exit(2)
+
+
+def slug_of(course):
+    return course.get('slug', 'ai-course')
+
+
+def canon(course):
+    return '%s/%s/' % (DOMAIN, slug_of(course))
+
+
+def hero_rel(course):
+    """Repo-relative path of the course cover: a supplied photo if it exists, else the drawn cover."""
+    h = course.get('hero_image')
+    if h and os.path.exists(os.path.join(REPO, h)):
+        return h
+    return 'assets/img/%s.jpg' % slug_of(course)
+
+
+def hero_abs(course):
+    return '%s/%s' % (DOMAIN, hero_rel(course))
+
+
+def big_css(course):
+    """Larger type for audiences that need it (course['large_text'] = true)."""
+    if not course.get('large_text'):
+        return ''
+    return ('    <style>\n        .course p, .course li, .c-lesson span, .c-check label { font-size: 1.2rem; line-height: 1.85; }\n'
+            '        .course h2 { font-size: 1.7rem; } .course h3, .c-lesson h3 { font-size: 1.25rem; }\n'
+            '        .c-prompt { font-size: 1.05rem; } .c-note { font-size: 1rem; } .c-kicker { font-size: 1rem; }\n'
+            '        .c-form input[type=text], .c-form input[type=email] { font-size: 1.15rem; min-height: 56px; }\n'
+            '        .c-form button, .c-copy { font-size: 1.05rem; min-height: 52px; }\n    </style>\n')
+
+
+def all_courses():
+    """Every course JSON in this folder: [(slug, short_name, promise)]."""
+    out = []
+    for f in sorted(os.listdir(HERE)):
+        if f.endswith('.json'):
+            try:
+                c = json.load(io.open(os.path.join(HERE, f), encoding='utf-8'))
+            except Exception:
+                continue
+            if 'lessons' in c and 'landing' in c:
+                out.append((slug_of(c), c.get('short_name') or c['course_title'].split(':')[0], c.get('promise', '')))
+    return out
 
 
 def read(p):
@@ -154,9 +202,9 @@ def ld(data):
 
 def form_html(course, cta, where):
     L = course['landing']
-    start = DOMAIN + '/ai-course/start/'
+    start = canon(course) + 'start/'
     welcome = L['welcome_email'].replace('{START_URL}', start)
-    return '''<form class="c-form" action="%s" method="POST">
+    return ('''<form class="c-form" action="%s" method="POST">
                         <input type="hidden" name="_subject" value="New AI course signup &mdash; novatoronto.com">
                         <input type="hidden" name="_template" value="table">
                         <input type="hidden" name="_next" value="%s?welcome=1">
@@ -170,6 +218,8 @@ def form_html(course, cta, where):
                         <button type="submit" class="button button--flex">%s <i class="uil uil-arrow-right button__icon"></i></button>
                         <p class="c-note">%s</p>
                     </form>''' % (FORM, start, e(welcome, quote=True), where, where, where, where, where, e(cta), e(L['form_note']))
+            ).replace('Free AI course (', e(course.get('signup_label', 'Free AI course')) + ' (').replace(
+              'you@business.com', e(course.get('email_placeholder', 'you@business.com'), quote=True))
 
 
 # ------------------------------------------------------------------- pages ----
@@ -179,7 +229,7 @@ def landing(course):
     header, footer = chrome(prefix)
     total_min = sum(int(l['minutes']) for l in lessons)
     schema = ld({'@context': 'https://schema.org', '@type': 'Course', 'name': course['course_title'],
-                 'description': L['meta_description'], 'url': DOMAIN + '/ai-course/', 'inLanguage': 'en-CA',
+                 'description': L['meta_description'], 'url': canon(course), 'inLanguage': 'en-CA',
                  'isAccessibleForFree': True,
                  'provider': {'@type': 'Organization', 'name': 'Nova Toronto', 'sameAs': DOMAIN + '/'},
                  'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'CAD', 'category': 'Free'},
@@ -203,7 +253,7 @@ def landing(course):
                     </ul>
                 </div>
                 <div class="c-panel" id="signup">
-                    <img src="../assets/img/ai-course.jpg" width="1200" height="630" alt="%s"
+                    <img src="../@@HERO@@" width="1200" height="630" alt="%s"
                         style="width: 100%%; height: auto; border-radius: 1rem; margin-bottom: 1.25rem;">
                     <h2 style="margin: 0 0 .4rem; font-size: 1.3rem;">Get the course free</h2>
                     <p style="margin-bottom: 1rem;">Enter your email and start lesson 1 right away.</p>
@@ -245,8 +295,20 @@ def landing(course):
        '\n'.join('                <h3>%s</h3>\n                <p>%s</p>' % (e(f['q']), e(f['a'])) for f in L['faq']),
        e(course['promise']), form_html(course, 'Send me the free course', 'bottom'))
     title = L['meta_title'] if 'Nova Toronto' in L['meta_title'] else L['meta_title'] + ' | Nova Toronto'
-    return (head(prefix, title, L['meta_description'], DOMAIN + '/ai-course/',
-                 'index, follow', DOMAIN + '/assets/img/ai-course.jpg', schema) + header + body + footer + tail(prefix))
+    body = body.replace('@@HERO@@', hero_rel(course))
+    others = [c for c in all_courses() if c[0] != slug_of(course) and os.path.isdir(os.path.join(REPO, c[0]))]
+    if others:
+        more = '                <h2>More free courses</h2>\n                <div class="c-lessons">\n' + '\n'.join(
+            '                    <a class="c-lesson" href="../%s/"><b><i class="uil uil-graduation-cap"></i></b><div><h3>%s</h3><span>%s</span></div><span>Free</span></a>'
+            % (s, e(n), e(p)) for s, n, p in others) + '\n                </div>\n\n'
+        mark = '                <p class="c-note" style="margin-top: 1.5rem;">Written by'
+        body = body.replace(mark, more + mark, 1)
+    return (head(prefix, title, L['meta_description'], canon(course),
+                 'index, follow', hero_abs(course), schema + big_css(course)) + header + body + footer + tail(prefix))
+
+
+def progress_js(course):
+    return PROGRESS_JS.replace("'nova-ai-course'", "'nova-%s'" % slug_of(course))
 
 
 PROGRESS_JS = '''    <script>
@@ -313,8 +375,8 @@ def start_page(course):
 
 ''' % (e(course['course_title']), e(L['start_page_intro']), '\n'.join(rows))
     return (head(prefix, 'Your lessons: ' + course['course_title'] + ' | Nova Toronto', L['meta_description'],
-                 DOMAIN + '/ai-course/', 'noindex, follow', DOMAIN + '/assets/img/ai-course.jpg')
-            + header + body + footer + tail(prefix, PROGRESS_JS))
+                 canon(course), 'noindex, follow', hero_abs(course), big_css(course))
+            + header + body + footer + tail(prefix, progress_js(course)))
 
 
 def lesson_page(course, l):
@@ -389,9 +451,16 @@ def lesson_page(course, l):
 
 ''' % (n, total, int(l['minutes']), e(l['title']), e(l['objective']), l['intro_html'].strip(), sections,
        e(l['exercise']['title']), steps, '\n'.join(prompts), checks, e(l['takeaway']), sources, finish, prev_, n, next_)
-    return (head(prefix, 'Lesson %d: %s | %s' % (n, l['title'], course['course_title']), l['objective'][:150],
-                 DOMAIN + '/ai-course/', 'noindex, follow', DOMAIN + '/assets/img/ai-course.jpg')
-            + header + body + footer + tail(prefix, PROGRESS_JS))
+    img = l.get('image')
+    if img and os.path.exists(os.path.join(REPO, img)):
+        pic = ('<img src="../../%s" width="1600" height="900" alt="%s" loading="lazy"\n'
+               '                    style="width: 100%%; height: auto; border-radius: 1rem; margin-bottom: 1.5rem; box-shadow: 0 8px 30px rgba(0,70,120,0.12);">\n\n                '
+               % (img, e(l.get('image_alt') or l['title'], quote=True)))
+        mark = '<div class="c-box"><strong>By the end of this lesson:</strong>'
+        body = body.replace(mark, pic + mark, 1)
+    return (head(prefix, 'Lesson %d: %s | %s' % (n, l['title'], course.get('short_name') or course['course_title']), l['objective'][:150],
+                 canon(course), 'noindex, follow', hero_abs(course), big_css(course))
+            + header + body + footer + tail(prefix, progress_js(course)))
 
 
 # ---------------------------------------------------------------- validate ----
@@ -440,38 +509,50 @@ def validate(course, check_links=True):
 
 
 def main():
-    course = json.load(io.open(os.path.join(HERE, 'course.json'), encoding='utf-8'))
+    """python build_course.py [course-file-or-slug] [--check] [--no-links]
+    No name = course.json (the AI for Beginners course at /ai-course/)."""
+    names = [a for a in sys.argv[1:] if not a.startswith('--')]
+    name = names[0] if names else 'course'
+    path = os.path.join(HERE, name if name.endswith('.json') else name + '.json')
+    course = json.load(io.open(path, encoding='utf-8'))
+    slug = slug_of(course)
     validate(course, check_links='--no-links' not in sys.argv)
+    missing = [l['number'] for l in course['lessons'] if l.get('image') and not os.path.exists(os.path.join(REPO, l['image']))]
+    if missing:
+        print('note: lesson image file not found yet for lessons %s (pages build without them)' % missing)
     if '--check' in sys.argv:
         return
-    import cover
-    kb = cover.make_cover({'slug': 'free-ai-course-for-beginners', 'category': 'Free course',
-                           'cover_title': course.get('cover_title', 'Free AI Course for Beginners')},
-                          course.get('date', '2026-10-02'), os.path.join(REPO, 'assets', 'img', 'ai-course.jpg'), motif='course') // 1024
-    print('cover: assets/img/ai-course.jpg (%d KB)' % kb)
-    write(os.path.join(REPO, 'ai-course', 'index.html'), landing(course))
-    write(os.path.join(REPO, 'ai-course', 'start', 'index.html'), start_page(course))
+    if hero_rel(course) == 'assets/img/%s.jpg' % slug:          # no photo supplied: draw the cover
+        import cover
+        kb = cover.make_cover({'slug': 'free-ai-course-' + slug, 'category': 'Free course',
+                               'cover_title': course.get('cover_title', course.get('short_name', 'Free AI Course'))},
+                              course.get('date', '2026-10-02'), os.path.join(REPO, 'assets', 'img', slug + '.jpg'), motif='course') // 1024
+        print('cover: assets/img/%s.jpg drawn (%d KB)' % (slug, kb))
+    else:
+        print('cover: using photo %s' % hero_rel(course))
+    write(os.path.join(REPO, slug, 'index.html'), landing(course))
+    write(os.path.join(REPO, slug, 'start', 'index.html'), start_page(course))
     for l in course['lessons']:
-        write(os.path.join(REPO, 'ai-course', 'lesson-%d' % l['number'], 'index.html'), lesson_page(course, l))
-    print('wrote ai-course/ (landing, start, %d lessons)' % len(course['lessons']))
+        write(os.path.join(REPO, slug, 'lesson-%d' % l['number'], 'index.html'), lesson_page(course, l))
+    print('wrote %s/ (landing, start, %d lessons)' % (slug, len(course['lessons'])))
 
     sm = os.path.join(REPO, 'sitemap.xml')
     s = read(sm)
-    loc = '<loc>%s/ai-course/</loc>' % DOMAIN
+    loc = '<loc>%s</loc>' % canon(course)
     if loc not in s:
         nl = '\r\n' if s.count('\r\n') > s.count('\n') / 2 else '\n'
         i = s.find('\n', s.find('<urlset')) + 1
         entry = '  <url>%s    %s%s    <lastmod>%s</lastmod>%s    <priority>0.8</priority>%s  </url>%s' % (
             nl, loc, nl, course.get('date', '2026-10-02'), nl, nl, nl)
         io.open(sm, 'w', encoding='utf-8', newline='').write(s[:i] + entry + s[i:])
-        print('sitemap: added /ai-course/')
+        print('sitemap: added /%s/' % slug)
     gen = os.path.join(REPO, 'tools', 'generate_local_pages.py')
     g = read(gen)
     anchor = '("blog/", 0.7),'
-    if anchor in g and '"ai-course/"' not in g:
+    if anchor in g and ('"%s/"' % slug) not in g:
         nl = '\r\n' if g.count('\r\n') > g.count('\n') / 2 else '\n'
-        io.open(gen, 'w', encoding='utf-8', newline='').write(g.replace(anchor, anchor + nl + '    ("ai-course/", 0.8),', 1))
-        print('generator: added ai-course/ to STATIC_URLS')
+        io.open(gen, 'w', encoding='utf-8', newline='').write(g.replace(anchor, anchor + nl + '    ("%s/", 0.8),' % slug, 1))
+        print('generator: added %s/ to STATIC_URLS' % slug)
 
 
 if __name__ == '__main__':

@@ -350,9 +350,59 @@ def human_date(iso):
     return '%s %d, %d' % (d.strftime('%B'), d.day, d.year)
 
 
+PHOTO_DIR = os.path.join(HERE, '_photos')     # 1600x900 master photos, one per post slug (underscore = not served)
+
+
+def photo_key(slug):
+    return slug.replace('/', '--')
+
+
+def photo_for(slug):
+    for ext in ('.jpg', '.jpeg', '.png', '.webp'):
+        p = os.path.join(PHOTO_DIR, photo_key(slug) + ext)
+        if os.path.exists(p):
+            return p
+    return None
+
+
+def fit(im, w, h):
+    """Centre-crop to w:h, then resize."""
+    from PIL import Image
+    im = im.convert('RGB')
+    r = w / h
+    if im.width / im.height > r:
+        nw = int(im.height * r); x = (im.width - nw) // 2
+        im = im.crop((x, 0, x + nw, im.height))
+    else:
+        nh = int(im.width / r); y = (im.height - nh) // 2
+        im = im.crop((0, y, im.width, y + nh))
+    return im.resize((w, h), Image.LANCZOS)
+
+
+def make_photo_cover(photo_path, out_path):
+    """1200x630 cover from a photo: clean image, soft bottom shade, small site tag. No title text
+    (the page prints the title above the picture)."""
+    from PIL import Image, ImageDraw
+    im = fit(Image.open(photo_path), 1200, 630).convert('RGBA')
+    shade = Image.new('RGBA', im.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(shade)
+    for y in range(470, 630):
+        d.line([(0, y), (1200, y)], fill=(6, 20, 44, int(150 * ((y - 470) / 160) ** 1.6)))
+    im.alpha_composite(shade)
+    d = ImageDraw.Draw(im)
+    d.text((40, 582), 'novatoronto.com', font=_font(F_SEMI, 24), fill=(255, 255, 255, 235))
+    d.rectangle([0, 622, 1200, 630], fill=(255, 255, 255, 255))
+    d.rectangle([0, 622, 384, 630], fill=SKY + (255,))
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    im.convert('RGB').save(out_path, 'JPEG', quality=86, optimize=True, progressive=True)
+    return os.path.getsize(out_path)
+
+
 def make_cover(post, date_iso, out_path, motif=None):
     from PIL import Image, ImageDraw, ImageFilter
     slug = post.get('slug', 'post')
+    if motif is None and photo_for(slug):          # a real photo beats the drawn cover
+        return make_photo_cover(photo_for(slug), out_path)
     seed = int(hashlib.sha256(slug.encode('utf-8')).hexdigest()[:8], 16)
     rng = random.Random(seed)
     motif = motif or pick_motif(slug, post.get('category', ''))
