@@ -44,6 +44,10 @@ def main():
                     s = main_at + m.start(1)
                     raw = raw[:s] + new_src + raw[s + len(m.group(1)):]
                 raw = re.sub(r'(<meta property="(?:og|twitter):image" content=")[^"]*(")', r'\g<1>' + new_abs + r'\g<2>', raw)
+                if 'property="og:image"' not in raw:     # text-only older post: no picture slot, so a share image only
+                    t = re.search(r'([ \t]*)<meta property="og:title"[^>]*>(\r?\n)', raw)
+                    if t:
+                        raw = raw[:t.end()] + t.group(1) + '<meta property="og:image" content="%s">' % new_abs + t.group(2) + raw[t.end():]
                 io.open(page, 'w', encoding='utf-8', newline='').write(raw)
         done += 1
         print('cover <- photo  %s' % slug)
