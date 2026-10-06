@@ -1,0 +1,1132 @@
+{
+ "slug": "ai-for-business",
+ "course_title": "AI for Business: A Free Practical Course for Canadian Small-Business Owners",
+ "short_name": "AI for Business",
+ "promise": "In seven short lessons you will put AI to work on a few real tasks in your own business, under one page of written ground rules, building a playbook of customer replies, marketing, quotes and staff documents as you go, and you will finish with the plain arithmetic that shows in hours and dollars whether each one was worth keeping.",
+ "audience": "Owners and managers of small local businesses in Canada, many in the Greater Toronto Area (trades, clinics, salons, restaurants, retail and online shops, professional services), who already know how to use an AI chat assistant, have very little spare time, may be working from a phone between jobs, and want more enquiries answered, less admin and fewer missed calls without putting customer trust at risk.",
+ "cover_title": "Free course: AI for Business",
+ "date": "2026-10-06",
+ "signup_label": "Free course: AI for Business",
+ "email_placeholder": "you@business.com",
+ "large_text": false,
+ "hero_image": "assets/img/courses/ai-for-business/hero.jpg",
+ "hero_alt": "Illustration of a neighbourhood shopping street at opening time, with a barber raising a blind, a mechanic rolling up a garage door and a cafe owner setting a notebook and phone on the counter.",
+ "landing": {
+  "meta_title": "Free AI for Business Course for Canadian Small Business",
+  "meta_description": "Seven short lessons for Canadian small-business owners: put AI to work on replies, marketing and quotes, then check if it paid. Free by email.",
+  "h1": "AI for Business: A Free Practical Course for Canadian Small-Business Owners",
+  "subhead": "In seven short lessons you put AI to work on a few real tasks in your own business, under one page of written ground rules, and finish with the plain arithmetic that shows whether each one was worth keeping.",
+  "learn_bullets": [
+   "Count your week and pick the three repeated tasks that are safest and most worthwhile to hand to AI first, with a dated baseline to measure against.",
+   "Write a one-page staff AI policy with a never-enter list, a named privacy contact and a short table of approved tools.",
+   "Build a one-page facts sheet, then use it for saved customer replies, review responses and an FAQ you can stand behind.",
+   "Turn one real job into a week of posts, an email and ad lines, and check them against Canada's advertising and anti-spam rules.",
+   "Draft quotes, payment reminders and written procedures with AI while a calculator and a named person check every figure.",
+   "Decide with your own missed-call numbers whether an AI receptionist deserves a trial, then score every AI use as keep, fix or drop."
+  ],
+  "who_for": [
+   "Owners and managers of small Canadian businesses: trades, clinics, salons, restaurants, retail and online shops, and professional services.",
+   "People who can already use an AI chat assistant and want practical uses for it, not another introduction.",
+   "Anyone short on time who needs lessons that fit on a phone between jobs.",
+   "Owners who want more enquiries answered and less admin without putting customer trust at risk."
+  ],
+  "faq": [
+   {
+    "q": "Is it really free?",
+    "a": "Yes. All seven lessons are free, with no payment details asked for. The course is published by Nova Toronto, a Toronto studio that sells AI set-up services, and the final lesson says so plainly. You are never required to buy anything."
+   },
+   {
+    "q": "Do I need to pay for any AI tool?",
+    "a": "No. The exercises can be done on the free plan of an AI assistant you already use, and none of them asks you to enter customer personal information. Lesson 2 explains why a business account is the safer choice for regular business work and shows you how to work out whether a paid plan would earn its cost. That decision stays with you."
+   },
+   {
+    "q": "How long does it take?",
+    "a": "Each lesson is about 15 minutes to read, with an exercise of roughly 10 to 15 minutes. A few exercises have follow-up steps to finish later in the week, such as getting staff to initial a policy or checking a provider's pricing page. You can go at your own pace."
+   },
+   {
+    "q": "Will you spam me?",
+    "a": "No. You will get this course by email and occasional practical tips from Nova Toronto. You can stop the emails at any time by replying STOP or by emailing novatoronto.ca@gmail.com."
+   },
+   {
+    "q": "Do I need technical skills or a computer?",
+    "a": "No technical skills are needed, only the ability to use an AI chat assistant and write a clear prompt. If that is new to you, start with the free AI for Beginners course at novatoronto.com/ai-course/. Most exercises work on a phone with a note and a calculator. One or two optional set-up steps, such as turning on Gmail templates, need a computer."
+   }
+  ],
+  "form_note": "By signing up you agree to receive this course by email and occasional practical tips from Nova Toronto (novatoronto.com, 365-355-3133), and you can stop at any time by replying STOP.",
+  "welcome_email": "Hello,\n\nThanks for signing up for AI for Business, the free course from Nova Toronto.\n\nStart here: {START_URL}\n\nThere are seven lessons of about 15 minutes each. Every lesson ends with a short exercise for your own business and adds one page to a folder or phone note called your AI playbook. Begin with Lesson 1 and work through in order, at your own pace.\n\nYou can stop these emails at any time by replying STOP or by emailing novatoronto.ca@gmail.com.\n\nRujal Tuladhar\nNova Toronto\nnovatoronto.com | 365-355-3133",
+  "start_page_intro": "Welcome to AI for Business, seven short lessons that each end with something built or decided for your own business. Start with Lesson 1 and work through in order, because each lesson adds one page to the AI playbook that the next one uses.",
+  "finish_note": "You now have a seven-page AI playbook and your own numbers showing what was worth keeping. If you would like a second opinion on it, Nova Toronto offers a free 30-minute conversation: call or text 365-355-3133 or email novatoronto.ca@gmail.com. There is no obligation, and the playbook is yours to use with anyone you choose."
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "slug": "lesson-1",
+   "title": "Find the Hours: Which Tasks Are Worth Handing to AI",
+   "minutes": 15,
+   "objective": "Rank your business's repeated tasks by hours and dollars, choose the three that are safest and most worthwhile to hand to AI first, and record the baseline numbers you will measure against in Lesson 7.",
+   "intro_html": "<p>In Statistics Canada's business conditions survey for the <a href=\"https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm\" target=\"_blank\" rel=\"noopener\">second quarter of 2026</a>, 19.2% of businesses said they had used AI to produce goods or deliver services in the previous 12 months. That figure cannot tell you whether AI would pay in your shop. A count of your own week can.</p><p>This course assumes you can already use an AI chat assistant and write a clear prompt; the free <a href=\"https://novatoronto.com/ai-course/\" target=\"_blank\" rel=\"noopener\">AI for Beginners course</a> covers that. Each of the seven lessons adds one page to a single folder or phone note called your <strong>AI playbook</strong>. Today's page is a ranked list of your repeated tasks and four baseline numbers you will come back to in Lesson 7.</p>",
+   "sections": [
+    {
+     "heading": "Start with a count, not a tool",
+     "body_html": "<p>It is easy to misjudge where the hours go until you write them down. For one ordinary week, keep a tally on paper or in a phone note. Each time a task repeats, record who did it, how many times it came up and roughly how many minutes it took.</p><p>Include the small ones: answering the same question about hours or prices, confirming appointments, chasing an unpaid invoice, writing up a quote, replying to reviews. If you cannot wait a week, estimate from memory today and correct the numbers as the week goes on. Write task names only, with no customer or staff names.</p>"
+    },
+    {
+     "heading": "Turn minutes into hours and dollars",
+     "body_html": "<p>One sum runs through the whole course:</p><p><strong>minutes × times per week ÷ 60 = hours a week<br>× 52 = hours a year<br>× what that hour costs you = dollars a year</strong></p><p><em>Example only; replace every number with your own.</em> A 15-minute task that comes up 10 times a week takes 2.5 hours a week, or 130 hours a year. At an example cost of $30 an hour, that is $3,900 a year.</p><p>Then halve it, to $1,950. AI usually shortens a task instead of removing it, someone still has to check the result, and you have not measured anything yet.</p><p><strong>What an hour costs you.</strong> For your own time, use what you would pay someone else to do that task. For staff, the wage is only part of it. <em>A rough Ontario example for 2026, in Canadian dollars, using a $25 wage you should replace</em> (the province's <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage\" target=\"_blank\" rel=\"noopener\">general minimum wage</a> has been $17.95 an hour since 1 October 2026): the employer's <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html\" target=\"_blank\" rel=\"noopener\">Canada Pension Plan contribution</a> of 5.95% ($1.49), the employer's <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html\" target=\"_blank\" rel=\"noopener\">Employment Insurance premium</a> of 1.4 times the 1.63% employee rate ($0.57), <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/vacation\" target=\"_blank\" rel=\"noopener\">minimum vacation pay</a> of 4% ($1.00; 6% after five years of employment) and a <a href=\"https://www.wsib.ca/en/2026premiumrates\" target=\"_blank\" rel=\"noopener\">Workplace Safety and Insurance Board premium</a> that depends on your industry class and claims record (2026 class rates run from $0.18 to $3.55 per $100 of insurable payroll; at an example $1.23, about $0.31). That is roughly $28.37 an hour before benefits or public holiday pay; this course rounds to $30 in its examples. The estimate ignores exemptions, yearly maximums and any other payroll costs that apply to you, and other provinces have their own rules, so ask your payroll provider or accountant for your real figure. This is general information, not legal, tax or payroll advice.</p>"
+    },
+    {
+     "heading": "The four-question fit test",
+     "body_html": "<p>Hours alone do not make a task a good candidate. Put each one through four questions:</p><ol><li><strong>Does it follow a pattern?</strong> The same kind of request gets the same kind of answer most of the time.</li><li><strong>Is it mostly words or sorting?</strong> Drafting, summarizing, rewording and grouping are what a chat assistant does best.</li><li><strong>Can a person check the result in under a minute?</strong> If checking takes as long as doing, there is little to gain.</li><li><strong>What does a mistake cost?</strong> A clumsy sentence in a draft is cheap. A wrong price or a skipped safety step is not.</li></ol><p>Then sort the tasks into three piles:</p><ul><li><strong>This week:</strong> first drafts of replies, summaries and posts.</li><li><strong>This month, with checks:</strong> quotes, bookkeeping tidy-up and staff documents. Worth doing, with every figure and fact re-checked by a person.</li><li><strong>People only:</strong> pricing and hiring decisions, complaints, safety and anything a regulator cares about. AI may help you prepare; a person decides.</li></ul><p>Tick any task that involves customer or staff personal details. Those details stay out of AI tools; Lesson 2 sets the written rules.</p>"
+    },
+    {
+     "heading": "Draft, check, send, and what it really costs",
+     "body_html": "<p>Every later lesson follows one rule: <strong>draft, check, send</strong>. AI prepares, a named person approves, and the business stays responsible for whatever goes out. An assistant can be wrong while sounding sure, so the check is part of the task.</p><p>Count the real cost before you start: the subscription, if any; set-up time; the time someone spends checking each result; and what one mistake would cost you with a customer. If checking takes nearly as long as the time saved, move the task down a pile or cross it off.</p><p>Frequency matters too. <em>Example only:</em> a 20-minute task done twice a month is 8 hours a year, or $240 at $30 an hour and $120 once halved. An hour or two of set-up uses up a good share of that, so rare tasks are seldom worth it. Some gains, such as a calmer Monday, never show up in dollars; note them, but do not count them.</p><p>Today's exercise needs only the free plan of the assistant you already use. Free plans limit how much you can use them, and vendors change the limits without notice (<a href=\"https://support.google.com/gemini/answer/16275805?hl=en\" target=\"_blank\" rel=\"noopener\">Google's Gemini limits page</a> is one example), so if you hit one, finish on paper.</p>"
+    },
+    {
+     "heading": "Take a dated baseline before you change anything",
+     "body_html": "<p>Lesson 7 asks whether any of this paid off, and you can only answer if today's numbers are written down. Record the date and these four:</p><ol><li><strong>Missed calls in the last seven days.</strong> On an iPhone with iOS 26 or later, open Phone, tap Calls (Recents in the Classic layout), tap the <a href=\"https://support.apple.com/en-us/126076\" target=\"_blank\" rel=\"noopener\">Filter button</a> in the upper-right corner and choose Missed. In Google's Phone app on Android, the <a href=\"https://support.google.com/phoneapp/answer/2811854?hl=en\" target=\"_blank\" rel=\"noopener\">Home tab</a> lists call history with an icon beside each missed call; other makers' phone apps differ. For a desk line or internet-phone system, ask your provider where its call log is.</li><li><strong>Time to first reply on your last ten enquiries.</strong> In your inbox, texts or direct messages, note the gap between each enquiry and your first answer.</li><li><strong>Hours a week on quotes, invoices and paperwork</strong>, taken from your tally.</li><li><strong>Unanswered reviews</strong>, counted on each review page you have.</li></ol><p>If you have a Google Business Profile, its <a href=\"https://support.google.com/business/answer/9918094?hl=en\" target=\"_blank\" rel=\"noopener\">Performance report</a> shows calls, website clicks and direction requests for a date range you set. The call figure counts clicks on the call button on your profile, so it shows interest, not whether anyone answered.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "The one-page task audit (about 15 minutes, on paper or in a phone note)",
+    "steps": [
+     "List ten tasks you or your staff repeat every week; if time is short, start with five and add the rest later. Write task names only, with no customer or staff names. No spreadsheet is needed.",
+     "Beside each task, write times per week and minutes each. With a phone calculator, work out hours a year (minutes x times per week / 60 x 52) and dollars a year at your own hourly cost. Then halve the dollar figure.",
+     "Mark each task's harm-if-wrong as low, medium or high, and tick any task that involves customer or staff personal details.",
+     "Type the list, or dictate it with your phone keyboard's microphone, into the free plan of the AI assistant you already use, with the 'Sort my task list' prompt below. Read the list over first to be sure it holds no names or personal details. Overrule the assistant wherever you know better. If the app says you have reached a usage limit, finish the sort on paper with the four questions.",
+     "Circle one 'this week' task, one 'this month, with checks' task and one 'people only' task.",
+     "Write today's date and your four baseline numbers: missed calls in the last seven days, time to first reply on your last ten enquiries, hours a week on quotes, invoices and paperwork, and unanswered reviews. If one takes too long to count today, write your best estimate, mark it as an estimate and correct it this week. Save this as page 1 of your AI playbook; every later lesson adds one page."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Tasks I may have missed",
+     "text": "I run a [type of business] in [city or region] with [number] staff. Here are the repeated weekly tasks I have listed so far: [task names only].\n\nSuggest up to eight other routine tasks that a business like mine often repeats each week and that I may have left out. Ask me whether each one applies to me; do not assume it does. Do not estimate any times for me and do not recommend any product."
+    },
+    {
+     "label": "Sort my task list",
+     "text": "I run a [type of business] with [number] staff. Below is my list of repeated weekly tasks. Each line gives the task, times per week, minutes each, my harm-if-wrong rating (low, medium or high) and a Y if the task involves customer or staff personal details. The list contains no names or personal details.\n\nFor each task, answer these four questions in a few words: 1) Does it follow a pattern? 2) Is it mostly words or sorting? 3) Can a person check the result in under a minute? 4) What does a mistake cost?\n\nThen put each task in one of three piles: \"this week\" (low-risk first drafts), \"this month, with checks\" (useful, but a person re-checks every figure and fact) or \"people only\" (pricing and hiring decisions, complaints, safety, anything a regulator cares about). Give one line of reasoning per task. If you are unsure, choose the more cautious pile and say why. Do not recommend any product or subscription.\n\nMy list:\n[your tasks, one per line]"
+    },
+    {
+     "label": "Challenge my numbers",
+     "text": "Here are my estimates for the same tasks, one per line: [task, times per week, minutes each, hours a year, dollars a year]. My hourly cost figure is [dollar amount] an hour.\n\nCheck my arithmetic using this formula: minutes x times per week / 60 = hours a week; x 52 = hours a year; x hourly cost = dollars a year. Show your working for each line so I can re-check it on a calculator. Then point out any estimate that looks too high or too low for a [type of business] and ask me one question about each. Do not change my numbers yourself."
+    },
+    {
+     "label": "What checking will involve",
+     "text": "My first task to try is: [your 'this week' task]. Describe in two sentences what an AI first draft for this task would look like. Then list the three things a person in my business should check before the result is sent or used, and estimate the checking time in seconds. Finish with the details I should never put in the prompt, such as customer names, contact details or payment information. Keep the whole answer under 150 words."
+    }
+   ],
+   "checklist": [
+    "I have listed my repeated tasks (ten, or at least five to start) with times per week and minutes each.",
+    "Each task has hours a year and a halved dollars-a-year figure, worked out with my own hourly cost.",
+    "Each task is marked low, medium or high for harm-if-wrong, and tasks involving personal details are ticked.",
+    "I have circled one 'this week' task, one 'this month, with checks' task and one 'people only' task.",
+    "Today's date and my four baseline numbers are written down.",
+    "The page is saved as page 1 of my AI playbook and has no customer or staff names on it."
+   ],
+   "takeaway": "Count your week before you choose a tool: the tasks worth handing to AI first are frequent, patterned, quick for a person to check and cheap to get wrong, and a dated baseline is the only way you will know later whether it paid.",
+   "sources": [
+    {
+     "label": "Nova Toronto: Free AI Course for Beginners: 7 Short Lessons to Use AI Confidently and Safely at Work",
+     "url": "https://novatoronto.com/ai-course/"
+    },
+    {
+     "label": "Statistics Canada: Analysis on artificial intelligence use by businesses in Canada, second quarter of 2026",
+     "url": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2026010-eng.htm"
+    },
+    {
+     "label": "Canada Revenue Agency: CPP contribution rates, maximums and exemptions",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html"
+    },
+    {
+     "label": "Canada Revenue Agency: EI premium rates and maximums",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/employment-insurance-ei/ei-premium-rates-maximums.html"
+    },
+    {
+     "label": "Government of Ontario: Your guide to the Employment Standards Act - Vacation",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/vacation"
+    },
+    {
+     "label": "Government of Ontario: Your guide to the Employment Standards Act - Minimum wage",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage"
+    },
+    {
+     "label": "Workplace Safety and Insurance Board (WSIB): 2026 premium rates",
+     "url": "https://www.wsib.ca/en/2026premiumrates"
+    },
+    {
+     "label": "Apple Support: Use Unified layout in the Phone app on iPhone",
+     "url": "https://support.apple.com/en-us/126076"
+    },
+    {
+     "label": "Google Phone app Help: Manage call history & do a reverse phone number look up",
+     "url": "https://support.google.com/phoneapp/answer/2811854?hl=en"
+    },
+    {
+     "label": "Google Business Profile Help: Understand your Business Profile performance & insights",
+     "url": "https://support.google.com/business/answer/9918094?hl=en"
+    },
+    {
+     "label": "Google Gemini Apps Help: Gemini Apps limits & upgrades for Google AI subscribers",
+     "url": "https://support.google.com/gemini/answer/16275805?hl=en"
+    },
+    {
+     "label": "Google Gboard Help: Type with your voice",
+     "url": "https://support.google.com/gboard/answer/2781851?hl=en&co=GENIE.Platform%3DAndroid"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-business/lesson-1.jpg",
+   "image_alt": "An electrician at a kitchen table in the evening sorts coloured sticky notes into three piles beside a calculator and a mug."
+  },
+  {
+   "number": 2,
+   "slug": "lesson-2",
+   "title": "Set the Ground Rules: Staff AI Policy, Privacy and Approved Tools",
+   "minutes": 15,
+   "objective": "Write a one-page staff AI policy with a named privacy contact, a never-enter list and a short table of approved tools, each checked against eight privacy and cost questions.",
+   "intro_html": "<p>Lessons 3 to 6 all have you putting business material into AI tools. Before that starts, your business needs one page of rules: which tools are approved, what never goes into them, and who checks the output.</p><p>The <a href=\"https://novatoronto.com/ai-course/\" target=\"_blank\" rel=\"noopener\">beginner course</a> gave you a personal traffic-light rule for what to type. This lesson turns it into a rule for everyone who works for you, with a named privacy contact and a short table of approved tools. It becomes page 2 of your AI playbook.</p>",
+   "sections": [
+    {
+     "heading": "Why the rules come before the tools",
+     "body_html": "<p>Canada's federal private-sector privacy law, PIPEDA, <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/\" target=\"_blank\" rel=\"noopener\">applies to organizations</a> that collect, use or disclose personal information in the course of commercial activity. Alberta, British Columbia and Quebec have <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/r_o_p/prov-pipeda/\" target=\"_blank\" rel=\"noopener\">their own private-sector laws</a> that generally apply instead for business inside the province, though PIPEDA still covers personal information that crosses a border. Ontario has a separate health-information law, PHIPA.</p><p>What matters for AI: the Office of the Privacy Commissioner of Canada (OPC) says a business <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_accountability/\" target=\"_blank\" rel=\"noopener\">stays responsible</a> for personal information it transfers to a third party for processing, and must use a contract or other means to get comparable protection. An AI vendor is a third party. The usual leak is not a hack. It is a well-meaning employee pasting a customer's details into a personal free account nobody at the business chose.</p><p><a href=\"https://www.parl.ca/legisinfo/en/bill/45-1/c-36\" target=\"_blank\" rel=\"noopener\">Bill C-36</a>, which would enact a new federal privacy law, was introduced on 15 June 2026. On 6 October 2026, when this lesson was checked, it was at second reading in the House of Commons and had not passed, so this lesson describes the law in force.</p>"
+    },
+    {
+     "heading": "Four privacy moves for a small business",
+     "body_html": "<ol><li><strong>List what you hold.</strong> Write down the kinds of personal information you keep (contact details, addresses, payment records, appointment or health notes) and which software touches each.</li><li><strong>Name a privacy contact.</strong> PIPEDA's accountability principle requires someone to be responsible for compliance, and its <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_openness/\" target=\"_blank\" rel=\"noopener\">openness principle</a> expects that person's name or title and contact information to be available. Usually that is the owner.</li><li><strong>Update your notice.</strong> <a href=\"https://www.priv.gc.ca/en/privacy-topics/airports-and-borders/gl_dab_090127/\" target=\"_blank\" rel=\"noopener\">OPC guidelines</a> expect you to tell customers in clear language that their information may be processed in another country and may be accessible to law enforcement and national security authorities there. Add a line to your privacy notice or intake form saying you use service providers, including AI tools, that may do this.</li><li><strong>Know the breach steps.</strong> Contain it, write down what happened, and assess whether there is a \"real risk of significant harm\". If there is, PIPEDA <a href=\"https://www.priv.gc.ca/en/privacy-topics/business-privacy/breaches-and-safeguards/privacy-breaches-at-your-business/gd_pb_201810/\" target=\"_blank\" rel=\"noopener\">requires a report</a> to the Privacy Commissioner and notice to the people affected as soon as feasible. Keep a record of every breach for 24 months. Knowingly ignoring these duties is an offence, with <a href=\"https://laws-lois.justice.gc.ca/eng/acts/P-8.6/section-28.html\" target=\"_blank\" rel=\"noopener\">fines of up to $100,000</a>. OPC guidance treats the business that controls the information as responsible for reporting even when the breach happens at its processor.</li></ol><p>Staff records differ: PIPEDA <a href=\"https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_17/\" target=\"_blank\" rel=\"noopener\">covers employee information</a> only in federally regulated businesses such as banks, so in most Ontario shops keeping staff files out of AI tools is good practice rather than a PIPEDA duty. Questions go to the <a href=\"https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/\" target=\"_blank\" rel=\"noopener\">OPC Information Centre</a> at 1-800-282-1376, Monday to Friday, 9 am to 4 pm Eastern. This is general information, not legal advice.</p>"
+    },
+    {
+     "heading": "Plans and settings matter more than the brand",
+     "body_html": "<p>The same assistant can be safe or unsafe depending on the plan and its switches. From the vendors' own pages on 6 October 2026:</p><ul><li><strong>Personal plans.</strong> For the <a href=\"https://support.google.com/gemini/answer/13594961?hl=en\" target=\"_blank\" rel=\"noopener\">personal Gemini app</a>, Google says a subset of chats is read by human reviewers, reviewed chats can be kept for up to three years, and users should not enter confidential information.</li><li><strong>Business plans.</strong> Google says <a href=\"https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub?hl=en\" target=\"_blank\" rel=\"noopener\">Workspace content</a> is not used to train models outside your domain without permission. Anthropic says inputs and outputs from its <a href=\"https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training\" target=\"_blank\" rel=\"noopener\">commercial products</a>, such as Claude for Work, are not used for training by default unless you send feedback or opt in (its <a href=\"https://support.claude.com/en/articles/9266767-what-is-the-team-plan\" target=\"_blank\" rel=\"noopener\">Team plan</a> needs at least two members). Microsoft says <a href=\"https://learn.microsoft.com/en-us/copilot/microsoft-365/enterprise-data-protection\" target=\"_blank\" rel=\"noopener\">Copilot prompts and responses</a> used by organizations under its commercial terms are not used to train foundation models.</li></ul><p>So the policy says business accounts only, one login each, <a href=\"https://www.cyber.gc.ca/en/guidance/secure-your-accounts-and-devices-multi-factor-authentication-itsap30030\" target=\"_blank\" rel=\"noopener\">two-step sign-in</a>. The Canadian Centre for Cyber Security's <a href=\"https://www.cyber.gc.ca/en/guidance/generative-artificial-intelligence-ai-itsap00041\" target=\"_blank\" rel=\"noopener\">generative AI guidance</a> recommends setting policies on how AI is used, multi-factor authentication, and keeping personal or sensitive business data out of prompts.</p><p><strong>Choose in this order.</strong> First, AI features inside software you already pay for (email, accounting, booking, point of sale). For example, on the same day Google's <a href=\"https://workspace.google.com/intl/en_ca/pricing\" target=\"_blank\" rel=\"noopener\">Canadian pricing page</a> listed its Workspace Standard plan at CA$18.40 per user per month on monthly billing, before tax and before introductory or annual-commitment discounts, with Gemini in Gmail, Docs and Meet. Prices change, so check the page yourself. Second, one general assistant. Specialized tools last. Cancel anything that overlaps.</p><p><strong>Example arithmetic, replace the numbers with your own:</strong> $35 a seat x 3 staff x 12 months = $1,260 a year. At an example cost of $30 an hour, that tool must save 42 hours a year, just under 50 minutes a week across the whole team, to pay for itself.</p>"
+    },
+    {
+     "heading": "Eight questions for any tool or vendor",
+     "body_html": "<p>Answer these from the vendor's own pricing and privacy pages, not from a sales call.</p><ol><li>Is our data used to train the model?</li><li>Where is it stored, and who can see it?</li><li>Can I add and remove staff and see usage?</li><li>What is the all-in price, including overage, and in which currency?</li><li>Is it month to month?</li><li>Can I export everything when I leave?</li><li>Is there support I can reach?</li><li>Can I speak to a current customer like me?</li></ol><p><strong>Red flags in a pitch:</strong> guaranteed leads or rankings, no published prices, long lock-in, \"set and forget\" claims, a guaranteed grant, or terms under which the vendor owns your phone number, ad account or website. On grants, <a href=\"https://www.bdc.ca/en/canada-digital-adoption-program\" target=\"_blank\" rel=\"noopener\">BDC's page</a> says the Canada Digital Adoption Program stopped accepting new applications for its Boost Your Business Technology stream on 19 February 2024, so check any funding claim at the source.</p>"
+    },
+    {
+     "heading": "The seven lines of a workable staff policy",
+     "body_html": "<ol><li>Approved tools only, on business accounts, with one login each and two-step sign-in.</li><li>The never-enter list, in your own plain words.</li><li>A named person reviews anything before it reaches a customer or the books.</li><li>Honesty: say when someone is dealing with an automated system, and no fake reviews, testimonials or results.</li><li>No AI-only decisions about people.</li><li>Marketing messages pass the Lesson 4 anti-spam check.</li><li>Mistakes are reported fast and without blame, and here is who to tell.</li></ol><p>Line 4 reflects the <a href=\"https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/\" target=\"_blank\" rel=\"noopener\">generative AI principles</a> Canada's federal, provincial and territorial privacy commissioners published in December 2023: people should know when they are dealing with a generative AI tool.</p><p>Some readers have extra rules. Ontario clinics handle health information under PHIPA. Quebec's private-sector law, <a href=\"https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25\" target=\"_blank\" rel=\"noopener\">updated by Law 25</a>, adds duties such as a privacy impact assessment before personal information is sent outside Quebec. Regulated professionals should ask their regulator before using AI with client files. Review the page every six months; tools, prices and the law change. This is general information, not legal advice.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Write and sign your one-page staff AI policy (about 15 minutes for the draft, of which about 10 is in your AI assistant; initials and vendor checks can finish this week)",
+    "steps": [
+     "Ask every staff member, with no blame attached, which AI tools they already use for work, and add your own. List every AI or software subscription you pay for.",
+     "Pick the one or two tools you will approve. Run each through the eight questions using the vendor's own pricing and privacy pages, then mark it approved, approved with limits or not approved. If you find two subscriptions doing the same job, cancel one.",
+     "Write your never-enter list in your own plain words. For example: customer names with health or payment details, card numbers, social insurance numbers, passwords, staff records, anything told to you in confidence.",
+     "Give your AI assistant the seven lines, your approved-tools table and your never-enter list (rules only, no real customer or staff details) and ask for a one-page policy. A free AI chat app is fine for this step because nothing confidential goes in. If you wrote a one-page rule in the beginner course, start from that. Rewrite anything that does not sound like your shop.",
+     "Add the privacy contact's name and the 'if something goes wrong' step: who to tell the same day, and that this person contains it, writes down what happened and assesses the risk.",
+     "In each approved tool, set the training and history options to match the policy and turn on two-step sign-in. Lesson 6 of the beginner course covers changing the key privacy settings; if you cannot find a switch, search the vendor's own help pages.",
+     "Date the page, have each staff member read and initial it (a solo owner signs it too), and put a six-month review in your calendar. Save it as page 2 of your AI playbook."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Ask staff what they already use",
+     "text": "Write a short, friendly message to my [number] staff at [business name]. Ask which AI tools they already use for work, whether each is on a personal or a business account, and which tasks they use it for. Make it clear nobody is in trouble and that I am asking so we can agree on approved tools and simple rules. Ask for replies by [date]. Keep it under 90 words, in a [tone] tone."
+    },
+    {
+     "label": "Check a vendor against the eight questions",
+     "text": "I am deciding whether to approve [tool name and plan] for my business. Below is text I copied today from the vendor's own pricing page and privacy page: [paste the page text]. Using only that text, answer these eight questions: 1) Is our data used to train the model? 2) Where is it stored and who can see it? 3) Can I add and remove staff and see usage? 4) What is the all-in price, including overage, and in which currency? 5) Is it month to month? 6) Can I export everything when I leave? 7) Is there support I can reach? 8) Can I speak to a current customer like me? For each answer, quote the sentence you relied on. If the text does not answer a question, write 'not stated' and do not guess. Finish with a list of questions I should send the vendor."
+    },
+    {
+     "label": "Draft the one-page staff AI policy",
+     "text": "Write a one-page staff AI policy for [type of business] with [number] staff in [city, province]. Use plain language a new hire can read in two minutes. Build it from these seven rules: [paste your seven lines]. Approved tools table: [tool, plan, what it may be used for, any limits]. Never-enter list: [your list]. Privacy contact: [name or job title]. If something goes wrong, tell [name] the same day. Add a line for each staff member's initials and the date, and a review date of [date six months from now]. Do not add any rule I did not give you. At the end, list anything unclear or missing as questions for me."
+    },
+    {
+     "label": "Privacy notice line, for checking before you publish",
+     "text": "Draft two plain-language sentences for the privacy notice and intake form of [type of business] in [province]. They should say that we use outside service providers, including AI tools, to [purposes, for example draft replies and summarize notes], that these providers may process information outside Canada, where it may be accessible to law enforcement and national security authorities in that country, and that people can contact [privacy contact name or title] at [business email or phone] with questions. Give me two versions, one shorter than the other. This is a draft only; I will have the wording checked before I publish it."
+    }
+   ],
+   "checklist": [
+    "I asked staff which AI tools they already use and listed every subscription we pay for.",
+    "Each approved tool passed the eight questions from the vendor's own pages, and any overlapping subscription is cancelled.",
+    "Approved tools are on business accounts with one login per person, two-step sign-in on, and training and history settings matched to the policy.",
+    "My never-enter list is written in my own words and every staff member has read it.",
+    "A privacy contact is named, the policy says who to tell when something goes wrong, and our privacy notice mentions service providers outside Canada.",
+    "The policy is dated and initialled, saved as page 2 of the AI playbook, with a six-month review in the calendar."
+   ],
+   "takeaway": "Your business answers for customer information wherever it goes, so put the approved tools, the never-enter list and the named reviewer on one signed page before anyone uses AI on customer work.",
+   "sources": [
+    {
+     "label": "Office of the Privacy Commissioner of Canada: PIPEDA requirements in brief",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Provincial laws that may apply instead of PIPEDA",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/r_o_p/prov-pipeda/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: PIPEDA Fair Information Principle 1 - Accountability",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_accountability/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: PIPEDA Fair Information Principle 8 - Openness",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_openness/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Guidelines for processing personal data across borders",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/airports-and-borders/gl_dab_090127/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: What you need to know about mandatory reporting of breaches of security safeguards",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/business-privacy/breaches-and-safeguards/privacy-breaches-at-your-business/gd_pb_201810/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Report a privacy breach at your business",
+     "url": "https://www.priv.gc.ca/en/report-a-concern/report-a-privacy-breach-at-your-organization/report-a-privacy-breach-at-your-business/"
+    },
+    {
+     "label": "Justice Laws Website: Breach of Security Safeguards Regulations (SOR/2018-64)",
+     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-64/FullText.html"
+    },
+    {
+     "label": "Justice Laws Website: Personal Information Protection and Electronic Documents Act, section 28 (offence and punishment)",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/section-28.html"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Privacy in the Workplace",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_17/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Principles for responsible, trustworthy and privacy-protective generative AI technologies",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Contact the Information Centre",
+     "url": "https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/"
+    },
+    {
+     "label": "Parliament of Canada (LEGISinfo): Bill C-36, Protecting Privacy and Consumer Data Act",
+     "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36"
+    },
+    {
+     "label": "Canadian Centre for Cyber Security: Generative artificial intelligence - ITSAP.00.041",
+     "url": "https://www.cyber.gc.ca/en/guidance/generative-artificial-intelligence-ai-itsap00041"
+    },
+    {
+     "label": "Canadian Centre for Cyber Security: Secure your accounts and devices with multi-factor authentication (ITSAP.30.030)",
+     "url": "https://www.cyber.gc.ca/en/guidance/secure-your-accounts-and-devices-multi-factor-authentication-itsap30030"
+    },
+    {
+     "label": "Commission d'acces a l'information du Quebec: Principaux changements aux lois sur la protection des renseignements personnels (Law 25)",
+     "url": "https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25"
+    },
+    {
+     "label": "BDC: Canada Digital Adoption Program (CDAP)",
+     "url": "https://www.bdc.ca/en/canada-digital-adoption-program"
+    },
+    {
+     "label": "Google: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+    },
+    {
+     "label": "Google Workspace: Generative AI in Google Workspace Privacy Hub",
+     "url": "https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub?hl=en"
+    },
+    {
+     "label": "Google Workspace: Pricing (Canada)",
+     "url": "https://workspace.google.com/intl/en_ca/pricing"
+    },
+    {
+     "label": "Anthropic Privacy Center: Is my data used for model training? (commercial products)",
+     "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training"
+    },
+    {
+     "label": "Anthropic Help Center: What is the Team plan?",
+     "url": "https://support.claude.com/en/articles/9266767-what-is-the-team-plan"
+    },
+    {
+     "label": "Microsoft Learn: Enterprise data protection in Microsoft Copilot and Microsoft Copilot Chat",
+     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/enterprise-data-protection"
+    },
+    {
+     "label": "Nova Toronto: AI for Beginners course",
+     "url": "https://novatoronto.com/ai-course/"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-business/lesson-2.jpg",
+   "image_alt": "A clinic manager and two staff gather at a reception counter as one of them initials a single sheet of paper."
+  },
+  {
+   "number": 3,
+   "slug": "lesson-3",
+   "title": "Answer Customers Faster: Replies, Reviews and FAQs",
+   "minutes": 15,
+   "objective": "Build a one-page business facts sheet and use it to produce saved replies, a review response and an FAQ that are accurate enough to send after a quick check.",
+   "intro_html": "<p>Most customer questions are the same handful asked again and again: price, hours, area, availability, how to book. This lesson turns them into replies you can send in seconds, starting with the step that stops an AI assistant from making things up about your business.</p><p>You will finish with page 3 of your AI playbook: a one-page facts sheet, five saved replies and one posted review response. The Lesson 1 rule still applies: draft, check, send.</p>",
+   "sections": [
+    {
+     "heading": "Write the facts sheet first",
+     "body_html": "<p>An assistant does not know your prices, hours, service area or policies. Asked to answer a customer, it fills each gap with something plausible, and a plausible wrong price is worse than a slow reply. The fix is one page of facts it must work from.</p><p>Use these headings:</p><ul><li>Hours, including holidays</li><li>Area served</li><li>Services, with starting prices or ranges</li><li>How to book</li><li>Payment methods</li><li>Warranty, refund and cancellation terms</li><li>What you do not do</li><li>Your tone, in three or four words</li></ul><p>Customer personal details stay off the sheet. Each time you use it, add one standing instruction: <strong>\"Use only the facts sheet. If the answer is not there, say I will check and get back to you.\"</strong> Then test it with questions the sheet does not cover. If the assistant guesses, tighten the wording before you trust any draft.</p><p>A phone note pasted at the top of each chat works with any assistant. Some can hold the sheet for you: when this lesson was checked on 6 October 2026, <a href=\"https://support.claude.com/en/articles/9517075-what-are-projects\" target=\"_blank\" rel=\"noopener\">Claude's help centre</a> said free accounts can create up to five projects, each with its own instructions and documents, and <a href=\"https://help.openai.com/en/articles/10169521-projects-in-chatgpt\" target=\"_blank\" rel=\"noopener\">OpenAI's help centre</a> listed projects for free ChatGPT users with up to five files each. Limits change, so check your own tool, and use the one your Lesson 2 policy approves.</p>"
+    },
+    {
+     "heading": "Build the reply library from real enquiries",
+     "body_html": "<p>Do not guess which questions matter. Read your last 30 enquiries across email, text and direct messages and tally them. You will likely find a short list of questions that keep repeating. For each one, have the assistant draft a reply from the facts sheet with blanks for the name, date and price, then correct it against the sheet yourself.</p><p>Store the finished replies where you actually answer, so most customers get a reply with no AI involved:</p><ul><li><strong>Gmail:</strong> templates are switched on under Settings, See all settings, Advanced. <a href=\"https://support.google.com/mail/answer/14864208?hl=en\" target=\"_blank\" rel=\"noopener\">Google's help page</a> says they can only be turned on and used on a computer, not in the phone app.</li><li><strong>iPhone:</strong> text replacement (Settings, General, Keyboard, Text Replacement) expands a short code into a full reply as you type.</li><li><strong>WhatsApp Business app:</strong> quick replies are under Tools, and typing \"/\" in a chat brings them up.</li><li><strong>Any phone:</strong> a pinned note you copy from. Other keyboards and messaging apps vary, so look in their settings for a saved-reply option.</li></ul>"
+    },
+    {
+     "heading": "Reviews: ask fairly, answer every one",
+     "body_html": "<p>Invite every customer the same way, offer nothing in return, and never write or buy a review. The Competition Bureau says anyone who writes or permits reviews that give a false or misleading impression could be liable under the Competition Act, says staff who post reviews must disclose their connection to the business, and lists giving customers incentives to leave positive reviews among the practices it calls astroturfing. The <a href=\"https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/penalties-and-remedies-non-compliance\" target=\"_blank\" rel=\"noopener\">civil penalty</a> for a first violation can reach $750,000 for an individual and $10 million for a corporation, or three times the benefit gained if that is larger. The Bureau's information centre is 1-800-348-5358 (toll-free in Canada).</p><p>Platform rules go further. <a href=\"https://support.google.com/contributionpolicy/answer/7400114?hl=en\" target=\"_blank\" rel=\"noopener\">Google's Maps policy</a> bars payment, discounts or free goods or services in exchange for a review, and bars discouraging negative reviews or asking only satisfied customers. Google does let you ask with a review link or QR code. <a href=\"https://biz.yelp.com/support-center/Reviews/Best_Practices/Don-t-Ask-for-Reviews/en-US\" target=\"_blank\" rel=\"noopener\">Yelp</a> tells businesses not to ask at all.</p><p>Canada's anti-spam law requires consent before you send commercial messages by email, text or instant message, and a review request sent that way may be caught by it. Until Lesson 4 walks through consent, ask in person, on the receipt or with a QR code at the counter.</p><p>To reply on Google, open your Business Profile, choose Read reviews, then Reply. Google checks replies against its policies and posts approved ones publicly under the review.</p><ul><li><strong>Positive review:</strong> a short thank-you that picks up something the reviewer wrote. No offers.</li><li><strong>Hard review:</strong> acknowledge it, give a direct way to sort it out offline, and say what you changed if you changed something.</li></ul><p>Either way, never confirm that the reviewer is a client or patient, and add nothing about their visit, purchase or bill. Under the federal privacy law (PIPEDA), personal information may be <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_use/\" target=\"_blank\" rel=\"noopener\">used or disclosed only for the purpose it was collected for</a> unless the person consents or the law requires it. Your province may have its own privacy law as well. Clinics face tighter rules: the College of Physicians and Surgeons of Ontario's <a href=\"https://www.cpso.on.ca/en/physicians/policies-guidance/policies/social-media/advice-to-the-profession-social-media\" target=\"_blank\" rel=\"noopener\">social media advice</a> says a post may be deemed a breach of confidentiality even if only the patient could recognize themselves in it. If you are in a regulated profession, check with your own regulator first. This is general information, not legal advice.</p>"
+    },
+    {
+     "heading": "Turn the answers into an FAQ",
+     "body_html": "<p>Each saved reply is also an FAQ entry. Publish the same answers on your website so the question stops arriving. On your Google Business Profile, fill in the fields your profile offers, such as the business description, hours and, where available, services. Google's help pages say the profile's chat feature ended on 31 July 2024 and that the Q&amp;A section is offered only for select business categories and regions, so check what your own profile shows before relying on it.</p><p>A wrong written answer is still your answer. Check every entry against the facts sheet, and when a price or policy changes, update the sheet first, then the replies and the FAQ.</p>"
+    },
+    {
+     "heading": "The arithmetic and the limits",
+     "body_html": "<p><strong>Example only. Replace every number with your own.</strong> 20 enquiries a week x 3 minutes saved per reply = 60 minutes, or 1 hour a week, which is 52 hours a year. At an example $30 an hour that is $1,560. The assumptions to replace: your weekly enquiry count, the minutes you actually save once checking time is included, and what an hour costs you.</p><p>The number to watch is time to first reply, which you recorded in Lesson 1. Measure it again on your next ten enquiries.</p><p>Some messages are written by a person from start to finish: complaints involving money or legal exposure, health or safety questions, and anything the facts sheet does not cover.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Facts sheet and five saved replies (about 15 minutes on a phone, plus two follow-ups this week)",
+    "steps": [
+     "Write a first version of your facts sheet under the eight headings in this lesson. Short points are enough. Mark anything you are unsure of and fix it at the source later (your price list, booking page or written policy), not from memory.",
+     "Open the assistant your Lesson 2 policy approves, paste in the sheet and add the instruction: \"Use only the facts sheet. If the answer is not there, say I will check and get back to you.\"",
+     "Paste in your five most common customer questions with names and contact details removed. Ask for a reply to each in your tone, under 90 words, with blanks for the details that change.",
+     "Ask three trick questions the sheet does not answer, such as a service you do not offer or a price that is not listed. Confirm the assistant says it will check instead of guessing. If it guesses, tighten the instruction and try again.",
+     "Correct all five drafts against the sheet, then save them where you answer customers: email templates, a text shortcut, messaging-app quick replies or a pinned note.",
+     "This week: draft a reply to one real review, critical or lukewarm if you have one, with the reviewer's name and any identifying details left out of what you paste. Check that it reveals nothing about their visit, then post it yourself.",
+     "This week: turn the five answers into an FAQ, check each entry against the sheet and publish it on your website. File the facts sheet and replies as page 3 of your AI playbook."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Saved replies from your facts sheet",
+     "text": "You are helping me answer customer enquiries for my [type of business] in [city or area]. Use only the facts sheet below. If an answer is not on the sheet, write \"I will check and get back to you\" and do not guess.\n\nWrite one reply to each question in a [three or four words describing your tone] tone, under 90 words. Wherever a detail changes from customer to customer, leave a blank marked NAME, DATE or PRICE.\n\nFACTS SHEET:\n[paste your facts sheet]\n\nQUESTIONS (names and contact details removed):\n1. [question]\n2. [question]\n3. [question]\n4. [question]\n5. [question]"
+    },
+    {
+     "label": "Trick-question test",
+     "text": "Using only the facts sheet I gave you, answer these three customer questions:\n1. [a question about a service you do not offer]\n2. [a question about a price that is not on the sheet]\n3. [a question about a date, guarantee or policy the sheet does not cover]\n\nAfter each answer, tell me which line of the facts sheet you used. If no line covers the question, say so and give only the \"I will check and get back to you\" reply."
+    },
+    {
+     "label": "Public reply to a review",
+     "text": "Draft a public reply to the review below for my [type of business]. Keep it under 70 words in a [calm and warm] tone.\n\nRules: do not confirm that the reviewer is a customer, client or patient. Do not mention anything about their visit, purchase or bill beyond what they wrote themselves. No offers, no excuses and no arguing.\n\nIf the review is critical: acknowledge the concern, invite them to contact [role and business phone number or email] so we can sort it out directly, and mention [what we changed, or delete this line].\nIf the review is positive: thank them and pick up one thing they mentioned.\n\nREVIEW (reviewer's name and identifying details removed):\n[paste the review text]"
+    },
+    {
+     "label": "FAQ from your saved replies",
+     "text": "Turn the saved replies below into a website FAQ of [5 to 8] questions and answers for my [type of business]. Use only what is in the replies and the facts sheet. Keep each answer under 60 words, in plain language with Canadian spelling. Replace every blank with wording that works for any customer, such as the price range shown on the sheet. At the end, list anything you were unsure about so I can check it.\n\nFACTS SHEET:\n[paste your facts sheet]\n\nSAVED REPLIES:\n[paste your saved replies]"
+    }
+   ],
+   "checklist": [
+    "My facts sheet fits on one page, holds no customer personal details, and every price and policy on it was checked at the source.",
+    "The assistant answered all three trick questions with \"I will check and get back to you\" instead of guessing.",
+    "Five saved replies are stored where I answer customers, each with blanks for the details that change.",
+    "Every customer is asked for a review the same way, with nothing offered in return, and nobody connected to the business posts one without disclosing the connection.",
+    "One review reply is posted, and it reveals nothing about the reviewer's visit or whether they are a customer.",
+    "I have written down which messages a person always writes: money or legal complaints, health or safety questions, and anything not on the sheet."
+   ],
+   "takeaway": "An assistant held to a one-page facts sheet and checked by a named person gives fast answers you can stand behind, while one left to guess gives fast answers you will spend longer correcting.",
+   "sources": [
+    {
+     "label": "Google: Maps User Generated Content Policy Help - Prohibited and restricted content",
+     "url": "https://support.google.com/contributionpolicy/answer/7400114?hl=en"
+    },
+    {
+     "label": "Google: Manage customer reviews (Google Business Profile Help)",
+     "url": "https://support.google.com/business/answer/3474050?hl=en"
+    },
+    {
+     "label": "Google: Tips to get more reviews (Google Business Profile Help)",
+     "url": "https://support.google.com/business/answer/3474122?hl=en"
+    },
+    {
+     "label": "Google: Changes to Google Business Profile chat and call history",
+     "url": "https://support.google.com/business/answer/14919056?hl=en"
+    },
+    {
+     "label": "Google: Edit your Business Profile (Google Business Profile Help)",
+     "url": "https://support.google.com/business/answer/3039617?hl=en"
+    },
+    {
+     "label": "Yelp: Don't Ask for Reviews",
+     "url": "https://biz.yelp.com/support-center/Reviews/Best_Practices/Don-t-Ask-for-Reviews/en-US"
+    },
+    {
+     "label": "Competition Bureau Canada: Online reviews posted by employees: businesses could be liable",
+     "url": "https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html"
+    },
+    {
+     "label": "Competition Bureau Canada: The Deceptive Marketing Practices Digest - Volume 1",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices-digest-volume-1"
+    },
+    {
+     "label": "Competition Bureau Canada: Penalties and remedies for non-compliance",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/penalties-and-remedies-non-compliance"
+    },
+    {
+     "label": "Competition Bureau Canada: Contact the Information Centre",
+     "url": "https://competition-bureau.canada.ca/en/contact-information-centre"
+    },
+    {
+     "label": "Innovation, Science and Economic Development Canada: Getting consent to send email (Canada's anti-spam legislation)",
+     "url": "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: PIPEDA Fair Information Principle 5 - Limiting Use, Disclosure, and Retention",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_use/"
+    },
+    {
+     "label": "College of Physicians and Surgeons of Ontario: Advice to the Profession: Social Media",
+     "url": "https://www.cpso.on.ca/en/physicians/policies-guidance/policies/social-media/advice-to-the-profession-social-media"
+    },
+    {
+     "label": "Google: Create a template in Gmail (Gmail Help)",
+     "url": "https://support.google.com/mail/answer/14864208?hl=en"
+    },
+    {
+     "label": "Apple: Set up shorthand for frequently used text on iPhone (iPhone User Guide)",
+     "url": "https://support.apple.com/guide/iphone/use-text-replacements-iph6d01d862/ios"
+    },
+    {
+     "label": "WhatsApp: How to use quick replies (WhatsApp Help Center)",
+     "url": "https://faq.whatsapp.com/smbi/account-and-profile/how-to-use-quick-replies/?lang=en"
+    },
+    {
+     "label": "Anthropic: What are projects? (Claude Help Center)",
+     "url": "https://support.claude.com/en/articles/9517075-what-are-projects"
+    },
+    {
+     "label": "OpenAI: Projects in ChatGPT (OpenAI Help Center)",
+     "url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-business/lesson-3.jpg",
+   "image_alt": "A hair-salon owner types on a phone at the reception desk while a pleased customer waves goodbye at the door."
+  },
+  {
+   "number": 4,
+   "slug": "lesson-4",
+   "title": "Marketing Content and Ads That Stay Within the Rules",
+   "minutes": 15,
+   "objective": "Turn one real job or product into a week of posts, an email and ad variations, check every claim against your facts, and make sure your email and text marketing meets Canada's anti-spam law.",
+   "intro_html": "<p>Lesson 3 left you with a facts sheet and checked answers. This lesson turns one real job into a week of marketing: two posts, a short email and a few ad lines. The AI multiplies what you give it. You supply the facts and do the checking.</p><p>It also covers two sets of rules that matter more once content is quick to produce: truthful advertising, and Canada's anti-spam law for email and text. You finish with content ready to post, a consent log and one number that shows whether an ad can pay for itself.</p>",
+   "sections": [
+    {
+     "heading": "Start with one true thing, then make five pieces",
+     "body_html": "<p>Skip the request for \"marketing ideas\". Start from something true and yours: a job finished this month, a product that just arrived, a question a customer asked this week, the season. Give the AI tool your Lesson 3 facts sheet and plain notes about the job, and pair the result with your own photo of the work. Local detail and proof are the parts an AI tool cannot supply. Where they are missing, it fills the gap with generic wording or makes something up.</p><p>From that one job, ask for five pieces:</p><ul><li>a post for your business listing</li><li>a social caption</li><li>a short email</li><li>a new FAQ entry</li><li>an ad angle</li></ul><p>Two posts a week is about eight a month. Batch them in one sitting and that is one block of time, not eight separate scrambles.</p><p>Describe the job, not the customer. Names, addresses and contact details stay out of your notes and out of the AI tool.</p>"
+    },
+    {
+     "heading": "Ad lines, and the number that decides whether an ad can work",
+     "body_html": "<p>Ad platforms mix and test short pieces of text, so ask for several, written to the platform's limits. <a href=\"https://support.google.com/google-ads/answer/7684791?hl=en\" target=\"_blank\" rel=\"noopener\">Google's help page for responsive search ads</a> lists up to 15 headlines of 30 characters and up to 4 descriptions of 90 characters (checked 6 October 2026). Ask for three angles (price, speed and trust) with a character count beside every line, and recount any line near the limit yourself, because AI tools can miscount. Then change one thing at a time, so you can tell what made the difference.</p><p>Before you spend, work out two numbers. <strong>The figures are examples only. Replace each with your own.</strong></p><ul><li><strong>Cost per lead</strong> = ad spend &divide; leads. Example: $300 &divide; 6 enquiries = $50.</li><li><strong>Break-even cost per lead</strong> = gross profit per job &times; close rate. Example: $400 &times; 1 job won from every 4 enquiries = $100. Gross profit is what the job brings in minus what it directly costs you to deliver, and close rate is the share of enquiries that turn into jobs.</li></ul><p>In the example a lead costs $50 and the business can afford up to $100, so the ad has room. If your cost per lead sits above your break-even, better wording will not rescue the ad. Change the offer, the targeting or the landing page, or stop the ad.</p>"
+    },
+    {
+     "heading": "Four questions before anything is published",
+     "body_html": "<p>Put every post, email and ad through four questions:</p><ol><li><strong>Is it true?</strong> Check each price, date and claim against the facts sheet.</li><li><strong>Can I prove it</strong> to a customer standing in front of me?</li><li><strong>Am I allowed to say it in my trade?</strong></li><li><strong>Does it reveal anything about a customer?</strong></li></ol><p>The first two are law. The Competition Act prohibits promoting a product or service with claims that are false or misleading in a material respect, and the <a href=\"https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/misleading-representations-and-deceptive-marketing-practices\" target=\"_blank\" rel=\"noopener\">Competition Bureau</a> weighs the general impression as well as the literal words. Its guidance names specific traps: performance claims with no adequate and proper test done before the claim is made, a made-up \"regular price\" that dresses up a sale, a headline price that leaves out mandatory fees (government charges such as sales tax aside), and untrue low-stock or deadline claims. For a first violation, <a href=\"https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/penalties-and-remedies-non-compliance\" target=\"_blank\" rel=\"noopener\">civil penalties</a> are the ones Lesson 3 set out: up to $750,000 for an individual and $10 million for a corporation, or three times the benefit gained if that is larger. The <a href=\"https://adstandards.ca/code/the-code-online/\" target=\"_blank\" rel=\"noopener\">Canadian Code of Advertising Standards</a> also says every claim must be supported by competent and reliable evidence.</p><p>So strike \"best\" and \"number one\" unless you hold the proof. Publish a testimonial only with the customer's written approval and permission, and exactly as they gave it. Never show an AI-made image as your finished work or as a real customer. Platforms add their own rules: <a href=\"https://www.meta.com/help/artificial-intelligence/355108217670024/\" target=\"_blank\" rel=\"noopener\">Meta says</a> it puts an \"AI info\" label on ad images created or significantly edited with its generative AI features, or created or edited with third-party AI tools.</p><p>For question 3, regulated professions have stricter rules: the <a href=\"https://www.cpso.on.ca/Physicians/Policies-Guidance/Policies/Advertising\" target=\"_blank\" rel=\"noopener\">College of Physicians and Surgeons of Ontario's advertising policy</a>, for one, bars testimonials and comparisons with other practitioners. If you answer to a regulator, read its advertising rule first. For question 4, the <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_consent/\" target=\"_blank\" rel=\"noopener\">consent principle in federal privacy law (PIPEDA)</a> expects meaningful consent to use personal information, and consent again for a new purpose. Alberta, British Columbia and Quebec have their own private-sector privacy laws, so check which one covers you. A photo taken for the job file is not yet cleared for an ad, so ask before showing a recognizable face, name, house number or licence plate.</p><p><em>This is general information, not legal advice.</em></p>"
+    },
+    {
+     "heading": "Email and text: three anti-spam checks",
+     "body_html": "<p><a href=\"https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email\" target=\"_blank\" rel=\"noopener\">Canada's anti-spam legislation (CASL)</a> covers commercial messages sent to an electronic address, which the Act defines as an email, instant messaging, telephone or similar account. For you that means marketing emails, texts and direct messages. Each one must pass three checks. Public posts must still meet the truth rules above.</p><ol><li><strong>Consent, with proof.</strong> Express consent means the person agreed, verbally or in writing, to receive your messages. It lasts until they withdraw it. Implied consent is time-limited: generally up to two years after a purchase and six months after an enquiry. Whoever claims consent has the onus of proving it, so keep a simple log: who, when, how.</li><li><strong>Identification.</strong> Each message names your business and gives a current mailing address plus a phone number, email address or web address, valid for at least 60 days after sending.</li><li><strong>Unsubscribe.</strong> Each message offers a clear, no-cost way to opt out, acted on within 10 business days at the latest. If your texts say \"reply STOP\", honour every STOP.</li></ol><p>AI can write the message. It cannot create consent. Under the Act, a message asking for consent is itself a commercial message, so emailing strangers to ask permission does not get you around the rule. The <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/r_o_p/canadas-anti-spam-legislation/casl-compliance-help-for-businesses/casl_guide/\" target=\"_blank\" rel=\"noopener\">Privacy Commissioner's e-marketing guidance</a> says PIPEDA prohibits harvesting addresses with computer programs, with very limited exceptions, and that you stay responsible for the consent behind any list a supplier hands you. Treat bought and scraped lists as off limits. The maximum penalty per violation is $1 million for an individual and $10 million for a business.</p><p><em>This is general information, not legal advice. The rules have exceptions, so check the official pages linked here or ask a lawyer before you rely on one.</em></p>"
+    },
+    {
+     "heading": "Honest limits",
+     "body_html": "<p>AI makes content cheap for everyone, your competitors included, so volume alone will not win attention. AI copy also drifts toward the same generic phrases and can get details wrong. Three habits keep it useful:</p><ul><li>Check every price, date and claim against the facts sheet.</li><li>Read each piece aloud once. If it no longer sounds like you, rewrite it.</li><li>Judge marketing by enquiries and bookings, not likes.</li></ul>"
+    }
+   ],
+   "exercise": {
+    "title": "One job, one week of marketing (about 15 minutes on a phone)",
+    "steps": [
+     "Pick one real finished job, product or customer question from the last month.",
+     "Give the assistant approved in your Lesson 2 policy your facts sheet and a few plain notes about the job, with no customer names, addresses or contact details. Ask for a business-listing post, a social caption, a 90-word email, and three ad headlines with one description. The first prompt below does this.",
+     "Run each piece through the four-question check. Strike out any claim you could not prove to a customer standing in front of you.",
+     "Run the three anti-spam checks on the email. Write down exactly which contacts are allowed to receive it and why, and start a consent log with three headings: who, when, how. Keep the log in your own records, not in the AI tool.",
+     "Work out your break-even cost per lead from your own gross profit per job and close rate.",
+     "Schedule or post the two posts, with your own photo of the work. Check first that the photo shows no face, name, house number or licence plate you have not been given permission to show.",
+     "Finish this week: go through your whole contact list. Remove anyone whose consent you cannot account for, and invite contacts whose implied consent is still running to opt in before it runs out. Fix your message footer so it shows your business name, a mailing address, one other contact method and a working unsubscribe. Save the week's content, the consent log and your break-even number as page 4 of your AI playbook."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "One job, five pieces",
+     "text": "Use only the facts sheet and job notes below. If a detail is missing, leave a [BLANK] for me to fill in. Do not invent prices, dates, results, reviews, awards or customer details, and do not use words such as best, number one or guaranteed. Write: (1) a business-listing post under [80] words, (2) a social caption under [50] words, (3) an email of about 90 words with a subject line, (4) one FAQ question and answer, and (5) three ad headlines of 30 characters or fewer, one each for price, speed and trust, plus one description of 90 characters or fewer. Tone: [how you talk to customers]. Area served: [city or neighbourhoods]. FACTS SHEET: [paste your facts sheet]. JOB NOTES, with no customer names or addresses: [what the job was, what you did, what makes it worth showing]."
+    },
+    {
+     "label": "Ad lines to the character limit",
+     "text": "Write [8] search ad headlines of 30 characters or fewer and [3] descriptions of 90 characters or fewer for [service or product] in [area served]. Cover three angles (price, speed and trust) and label the angle of each line. After each line, show its character count including spaces. Use only these facts: [paste the relevant lines of your facts sheet]. No superlatives, no guarantees, and no made-up deadlines, discounts or stock levels."
+    },
+    {
+     "label": "Claim check before publishing",
+     "text": "Act as a cautious reviewer. Do not rewrite anything yet. List every factual claim in the copy below in a table with three columns: the claim, where it appears in my facts sheet (or 'not found'), and what proof a customer could ask to see. Then flag any superlative, comparison with competitors, price or discount claim, urgency wording, health or safety claim, testimonial, and anything that could identify a customer. This is a first check only; I will make the final decision. COPY: [paste the post, email or ad]. FACTS SHEET: [paste your facts sheet]."
+    },
+    {
+     "label": "Message footer and sign-up wording",
+     "text": "Check the marketing [email or text] below against three points and tell me what is missing. Do not judge whether I have consent; I will check that against my own records. (1) Does it clearly name my business, [business name]? (2) Does it show a mailing address and at least one of a phone number, email address or web address? (3) Does it give a clear, free way to unsubscribe? Then draft a short sign-up line for my [counter card or website form] that says what people will receive ([type of messages]), who it comes from ([business name], [mailing address], [phone, email or web address]) and that they can unsubscribe at any time. MESSAGE, with no customer details: [paste your draft]."
+    }
+   ],
+   "checklist": [
+    "This week's posts, email and ad lines all start from one real job and my facts sheet.",
+    "Every claim has passed the four questions, and anything I could not prove is gone.",
+    "No customer can be identified in words or photos without permission, and no AI-made image is shown as real work.",
+    "My email or text names the business, shows a mailing address plus one other contact method, and has a working unsubscribe.",
+    "My consent log has started (who, when, how) and I know which contacts may receive the email, and why.",
+    "My break-even cost per lead is written down, worked out from my own numbers."
+   ],
+   "takeaway": "AI can turn one true job into a week of marketing, but the facts, the proof and the consent have to come from you.",
+   "sources": [
+    {
+     "label": "Justice Laws Website (Government of Canada): Canada's anti-spam legislation, S.C. 2010, c. 23, full text",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/FullText.html"
+    },
+    {
+     "label": "Justice Laws Website (Government of Canada): Electronic Commerce Protection Regulations (CRTC), SOR/2012-36",
+     "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2012-36/FullText.html"
+    },
+    {
+     "label": "Innovation, Science and Economic Development Canada: Getting consent to send email",
+     "url": "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email"
+    },
+    {
+     "label": "Innovation, Science and Economic Development Canada: Texting for good client relations",
+     "url": "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/texting-good-client-relations"
+    },
+    {
+     "label": "Innovation, Science and Economic Development Canada: Understanding Canada's anti-spam legislation",
+     "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/understand-canadas-anti-spam-legislation/understand-canadas-anti-spam-legislation-sub/understanding-canadas-anti-spam-legislation"
+    },
+    {
+     "label": "Competition Bureau Canada: Misleading representations and deceptive marketing practices",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/misleading-representations-and-deceptive-marketing-practices"
+    },
+    {
+     "label": "Competition Bureau Canada: False or misleading representations",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/false-or-misleading-representations"
+    },
+    {
+     "label": "Competition Bureau Canada: Penalties and remedies for non-compliance",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/penalties-and-remedies-non-compliance"
+    },
+    {
+     "label": "Competition Bureau Canada: Performance claims not based on an adequate and proper test",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/performance-claims-not-based-adequate-and-proper-test"
+    },
+    {
+     "label": "Competition Bureau Canada: Ordinary selling price",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/ordinary-selling-price"
+    },
+    {
+     "label": "Competition Bureau Canada: Fake urgency cues",
+     "url": "https://competition-bureau.canada.ca/deceptive-marketing-practices/types-deceptive-marketing-practices/fake-urgency-cues"
+    },
+    {
+     "label": "Competition Bureau Canada: Use of tests or testimonials",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/use-tests-or-testimonials"
+    },
+    {
+     "label": "Competition Bureau Canada: Frequently asked questions about Canada's anti-spam legislation",
+     "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/compliance-and-enforcement/frequently-asked-questions-about-canadas-anti-spam-legislation"
+    },
+    {
+     "label": "Ad Standards: The Canadian Code of Advertising Standards (The Code Online)",
+     "url": "https://adstandards.ca/code/the-code-online/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: PIPEDA Fair Information Principle 3 - Consent",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_consent/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Summary of privacy laws in Canada",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/02_05_d_15/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Guidance for businesses doing e-marketing",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/r_o_p/canadas-anti-spam-legislation/casl-compliance-help-for-businesses/casl_guide/"
+    },
+    {
+     "label": "Google Ads Help: About responsive search ads",
+     "url": "https://support.google.com/google-ads/answer/7684791?hl=en"
+    },
+    {
+     "label": "Meta: How AI-generated images in ads are identified and labeled on Meta",
+     "url": "https://www.meta.com/help/artificial-intelligence/355108217670024/"
+    },
+    {
+     "label": "Meta: Expanding GenAI Transparency for Meta's Ads Products",
+     "url": "https://about.fb.com/news/2025/02/gen-ai-transparency-metas-ads-products/"
+    },
+    {
+     "label": "College of Physicians and Surgeons of Ontario: Advertising (policy)",
+     "url": "https://www.cpso.on.ca/Physicians/Policies-Guidance/Policies/Advertising"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-business/lesson-4.jpg",
+   "image_alt": "A florist photographs a finished bouquet on her workbench, with cut stems, ribbon and blank paper tags around it."
+  },
+  {
+   "number": 5,
+   "slug": "lesson-5",
+   "title": "Paperwork: Quotes, Invoices, Books and Staff Documents",
+   "minutes": 14,
+   "objective": "Produce a clear quote from rough job notes with every figure re-checked, set up polite payment reminders, and turn one task you do from memory into a written procedure someone else can follow.",
+   "intro_html": "<p>Paperwork sits in the \"this month, with checks\" pile from Lesson 1. The wording is easy work for an AI assistant; the numbers and the rules are not. Here the assistant drafts, and a calculator, your invoicing software and a named person do the rest.</p><p>You will finish with a quote template built from a real job or a one-page procedure for a task that lives only in your head, plus a tally of every correction you made. That is page 5 of your AI playbook.</p>",
+   "sections": [
+    {
+     "heading": "What AI drafts, and what it must not decide",
+     "body_html": "<p>Use your approved assistant for the parts of paperwork that are language: turning rough notes into a clear scope, ordering a document sensibly, writing reminders, suggesting an expense category, and explaining a report you do not understand.</p><p>Keep four things out of its hands:</p><ul><li><strong>Arithmetic nobody re-checked.</strong> An assistant can add wrongly and sound sure. Google's own notice says Gemini may produce inaccurate information, and Anthropic tells users not to rely on Claude as their only source of truth.</li><li><strong>Tax answers.</strong> Those come from your accountant or the Canada Revenue Agency (CRA) business enquiries line, 1-800-959-5525.</li><li><strong>Anything sent to the CRA</strong> that a person has not reviewed.</li><li><strong>Decisions about people</strong>, such as who gets hired.</li></ul><p>Your Lesson 2 never-enter list still applies: no customer names or addresses, bank details, card numbers or social insurance numbers in a chat tool.</p>"
+    },
+    {
+     "heading": "A quote from rough notes, then the number check",
+     "body_html": "<p>Dictate or type what you saw on site, just as you would jot it, and add the relevant lines of your own price list. Ask for six parts: scope, inclusions, exclusions, assumptions, how long the quote is valid, and payment terms. The prices come from you. Exclusions and assumptions are the lines that prevent disputes later.</p><p><em>Example arithmetic, replace with your own numbers:</em> 8 quotes a week x 15 minutes saved each = 120 minutes, or 2 hours a week.</p><p>Now the number check. Every subtotal, tax line and total comes from a calculator or your invoicing software, never from the draft. <em>Example, replace with your own numbers and your province's rate:</em> $1,200 plus 13 per cent HST, the Ontario rate, is $156 of tax and a total of $1,356.</p><p>Fixed details live on your template, not in the AI's draft. If you are registered for GST/HST, the <a href=\"https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4022/general-information-gst-hst-registrants.html\" target=\"_blank\" rel=\"noopener\">CRA's chart</a> sets out what a business customer needs on an invoice to claim the tax back: under $100, your business name, the date and the total; from $100 to $499.99, also your registration number and the GST/HST charged (or a note that it is included); at $500 or more, also the buyer's name, a brief description and the payment terms. For most businesses the CRA's small-supplier limit is $30,000 of taxable sales, counted over a single calendar quarter or the last four in a row. Once you pass it you must register; the CRA's <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html\" target=\"_blank\" rel=\"noopener\">registration page</a> explains the timing.</p><p><strong>Ontario:</strong> the province's <a href=\"https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract\" target=\"_blank\" rel=\"noopener\">consumer contract page</a> says that when a written estimate is included in a consumer contract, the final price cannot be more than 10 per cent above it unless the customer agrees to a new price and signs a change to the contract. This is general information, not legal advice; for tax questions, ask your accountant or the CRA.</p>"
+    },
+    {
+     "heading": "Getting paid, keeping books, and one fraud check",
+     "body_html": "<p>Write a firm, polite three-message reminder sequence once and reuse it: a few days before the due date, the day after, and one to two weeks late. First check what your invoicing software already sends. On 6 October 2026, for example, Wave's invoicing page listed automatic overdue reminders as a feature of its Pro plan, and QuickBooks' Canadian invoicing page described reminder emails for invoices coming due or overdue. Check each vendor's pricing page for current plans and costs.</p><p>Do not let an assistant invent late-fee wording. Under section 4 of the federal Interest Act, when a written contract states interest by the day, week or month, no more than 5 per cent a year can be charged or recovered unless the contract also states the equivalent yearly rate (mortgages are excepted). Have your accountant or lawyer settle that line before it goes on your template. This is general information, not legal advice.</p><p>For the books, AI can explain a statement, suggest categories and prepare questions for your accountant, working from descriptions and totals, never account numbers. Your bookkeeper or accountant has the final word. The CRA says to keep records and supporting documents for <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records/where-keep-your-records-long-request-permission-destroy-them-early.html\" target=\"_blank\" rel=\"noopener\">six years</a> from the end of the last tax year they relate to. Scanned images of paper receipts are accepted only if the scanning meets a national standard, so keep the originals until your accountant confirms yours does. The CRA also says records kept outside Canada and reached electronically from Canada do not count as kept in Canada; ask your accountant how that affects your cloud software.</p><p><strong>One fraud check belongs here.</strong> The Competition Bureau warns that AI can clone a voice and write messages in a specific person's style, and the Canadian Anti-Fraud Centre describes spoofed emails telling a business that a supplier's payment details have changed. Before paying to new or changed bank details, phone the supplier on a number you already had, never one given in the message. Report fraud to your local police and to the Centre at 1-888-495-8501 or through its <a href=\"https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm\" target=\"_blank\" rel=\"noopener\">reporting page</a>.</p>"
+    },
+    {
+     "heading": "Staff documents: procedures and hiring",
+     "body_html": "<p>Small businesses hire rarely but re-explain constantly. <em>Example arithmetic, replace with your own numbers:</em> 20 minutes x 6 times a month = 2 hours a month, or 24 hours a year.</p><p>Record a voice note talking through one task from start to finish. Some phones can turn a recording into text; Apple's <a href=\"https://support.apple.com/guide/iphone/view-a-transcription-iph00953a982/ios\" target=\"_blank\" rel=\"noopener\">Voice Memos page</a> explains transcripts on iPhone, so check there whether your model and region are covered. Otherwise dictate straight into the assistant. Ask for numbered steps, a check after each risky step and clear \"stop and ask\" points. Then let the newest person try it and note where they get stuck.</p><p>For hiring, AI can tighten a job posting and draft duty-based interview questions. The <a href=\"https://www.ohrc.on.ca/en/iv-human-rights-issues-all-stages-employment/5-interviewing-and-making-hiring-decisions\" target=\"_blank\" rel=\"noopener\">Ontario Human Rights Commission</a> advises setting questions in advance from the job's essential duties and asking every applicant the same ones. You remove anything touching a protected ground, such as age, family status, disability or place of origin. A person makes every hiring decision and can explain it. Resumes stay out of consumer chat tools; that is the safe default, since the privacy law covering applicants varies by province and industry.</p><p><strong>Ontario employers with 25 or more employees:</strong> since 1 January 2026, a <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/requirements-related-publicly-advertised-job\" target=\"_blank\" rel=\"noopener\">publicly advertised job posting</a> must show expected pay or a range no wider than $50,000 a year (not required for jobs paying more than $200,000), say if AI is used to screen, assess or select applicants, say whether it is for an existing vacancy, and carry no Canadian-experience requirement. Interviewed applicants must be told within 45 days of their last interview whether a hiring decision has been made. Elsewhere, ask your province's employment standards office.</p><p>An AI-written procedure never replaces training the law requires. In Ontario that includes basic health and safety awareness training for workers and supervisors, Workplace Hazardous Materials Information System (WHMIS) training before workers use hazardous products, accessible customer service training for employees and volunteers, and at least one certified food handler on site during every hour a food premises operates. This is general information, not legal advice.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Choose your track: a checked quote or a written procedure (about 10 to 15 minutes each, on a phone)",
+    "steps": [
+     "Pick the track that matches the 'this month' task you circled in Lesson 1, and plan to do the other one later this week.",
+     "Money track: take a real job you quoted recently or one waiting on your desk. Dictate or type the rough notes exactly as you would jot them, add the relevant lines of your own price list (no customer name or address), and ask your approved assistant for a quote with scope, inclusions, exclusions, assumptions, validity period and payment terms in plain language.",
+     "Money track: recalculate every figure with a calculator or your invoicing software and fix anything that differs. Save the corrected result as your quote template and add one overdue-payment reminder beside it.",
+     "People track: pick one task that lives only in your head (opening up, handling a return, booking a new client, closing the till). Record a three-minute voice note explaining it start to finish and get the transcript, or dictate straight into the assistant. Leave out customer and staff names. Ask for a one-page procedure: numbered steps, a check after any step where a mistake costs money or safety, and a 'stop and ask the owner' list.",
+     "People track: later this week, hand the procedure to a staff member or a friend, note every question they ask, and add the missing steps.",
+     "On either track, keep a tally of every correction you had to make, and write down who checks the numbers and who checks the wording.",
+     "Save the template or procedure, with the tally, as page 5 of your AI playbook. The tally comes back in Lesson 7."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Quote from rough notes",
+     "text": "Turn my rough site notes into a customer quote for a [type of business] in [province]. Use only my notes and my price list below. Do not invent prices, quantities or timelines. Where something is missing, write CHECK in capitals and list it at the end as a question for me. Lay it out as: scope of work, what is included, what is excluded, assumptions, how long the quote is valid ([number] days), and payment terms ([your payment terms]). Use plain language and no sales talk. Do not calculate tax or totals; leave those lines blank for me to fill in from my invoicing software.\n\nMy notes: [paste your notes, with no customer name or address]\n\nMy price list lines: [paste the relevant lines]"
+    },
+    {
+     "label": "Three payment reminders",
+     "text": "Write three short payment reminders for a [type of business], firm and polite, each under 80 words: one to send [number] days before the due date, one for the day after it, and one for [number] days late. Leave clearly marked blanks for the customer's first name, invoice number, amount, due date and how to pay, which I will fill in myself outside this chat. Do not mention interest, late fees or legal action. Do not add any facts I have not given you."
+    },
+    {
+     "label": "Voice note to one-page procedure",
+     "text": "Below is a transcript of me explaining how we [task] at my [type of business]. Turn it into a one-page procedure a new employee could follow on their first day: numbered steps in order, a check after any step where a mistake could cost money or affect safety, and a final list headed 'Stop and ask [owner or manager]'. Keep my wording where it is clear. Do not add steps I did not describe. Instead, list anything that seems to be missing as questions for me at the end.\n\nTranscript: [paste the transcript, with no customer or staff names]"
+    },
+    {
+     "label": "Same interview questions for every candidate",
+     "text": "Draft [number] interview questions for a [job title] at a [type of business]. Tie each question to one of these duties: [list the main duties]. Every candidate will be asked the same questions in the same order. Do not include anything about age, family or marital status, health or disability, religion, citizenship, place of origin, or where the person gained their experience. After each question, note which duty it tests and what a strong answer would show."
+    }
+   ],
+   "checklist": [
+    "Every subtotal, tax line and total was recalculated on a calculator or in my invoicing software, not taken from the AI draft.",
+    "My template, not the AI draft, carries my business name, GST/HST registration number and fixed terms.",
+    "No customer names, addresses, bank or card details, social insurance numbers or resumes went into a chat tool.",
+    "Any late-fee or interest line has been reviewed by my accountant or lawyer before going on the template.",
+    "New or changed bank details get a phone call to a number I already had before any payment is sent.",
+    "Someone other than me has tried the written procedure, and my correction tally is saved on page 5 of the playbook."
+   ],
+   "takeaway": "Let AI handle the wording of your paperwork, and let a calculator, your software and a named person handle the numbers, the rules and every decision about people.",
+   "sources": [
+    {
+     "label": "Canada Revenue Agency: Charge and collect the GST/HST",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html"
+    },
+    {
+     "label": "Canada Revenue Agency: When to register for and start charging the GST/HST",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html"
+    },
+    {
+     "label": "Canada Revenue Agency: General Information for GST/HST Registrants (RC4022)",
+     "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4022/general-information-gst-hst-registrants.html"
+    },
+    {
+     "label": "Canada Revenue Agency: Where to keep your records, for how long and how to request the permission to destroy them early",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records/where-keep-your-records-long-request-permission-destroy-them-early.html"
+    },
+    {
+     "label": "Canada Revenue Agency: Acceptable format, imaging paper documents and backing up electronic files",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/keeping-records/acceptable-format-imaging-paper-documents-backing-electronic-files.html"
+    },
+    {
+     "label": "Canada Revenue Agency: Contact the Canada Revenue Agency (CRA)",
+     "url": "https://www.canada.ca/en/revenue-agency/corporate/contact-information.html"
+    },
+    {
+     "label": "Justice Laws Website: Interest Act, section 4",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/I-15/page-1.html"
+    },
+    {
+     "label": "Government of Ontario: Your rights when signing or cancelling a contract",
+     "url": "https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Spear phishing",
+     "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/spear-phishing-harponnage-eng.htm"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Report fraud and cybercrime",
+     "url": "https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Joint Advisory: Cyber officials warn Canadians of malicious campaign to impersonate high-profile public figures",
+     "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2025/2025-06-23-eng.htm"
+    },
+    {
+     "label": "Competition Bureau Canada: The rise of AI: Fraud in the digital age",
+     "url": "https://www.canada.ca/en/competition-bureau/news/2024/03/the-rise-of-ai-fraud-in-the-digital-age.html"
+    },
+    {
+     "label": "Government of Ontario: Requirements related to publicly advertised job postings (Your guide to the Employment Standards Act)",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/requirements-related-publicly-advertised-job"
+    },
+    {
+     "label": "Ontario Human Rights Commission: 5. Interviewing and making hiring decisions",
+     "url": "https://www.ohrc.on.ca/en/iv-human-rights-issues-all-stages-employment/5-interviewing-and-making-hiring-decisions"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Application of the Personal Information Protection and Electronic Documents Act to Employee Records",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_18/"
+    },
+    {
+     "label": "Government of Ontario: Health and safety training",
+     "url": "https://www.ontario.ca/page/health-and-safety-training"
+    },
+    {
+     "label": "Government of Ontario: Workplace Hazardous Materials Information System (WHMIS)",
+     "url": "https://www.ontario.ca/page/workplace-hazardous-materials-information-system-whmis"
+    },
+    {
+     "label": "Government of Ontario: How to train your staff on accessibility",
+     "url": "https://www.ontario.ca/page/how-train-your-staff-accessibility"
+    },
+    {
+     "label": "Government of Ontario: Food handler training and certification",
+     "url": "https://www.ontario.ca/page/food-handler-training-and-certification"
+    },
+    {
+     "label": "Apple Support: View a Voice Memos transcription on iPhone",
+     "url": "https://support.apple.com/guide/iphone/view-a-transcription-iph00953a982/ios"
+    },
+    {
+     "label": "Google: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+    },
+    {
+     "label": "Anthropic: Claude is providing incorrect or misleading responses. What's going on?",
+     "url": "https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on"
+    },
+    {
+     "label": "Wave: Invoicing",
+     "url": "https://www.waveapps.com/invoicing"
+    },
+    {
+     "label": "Intuit QuickBooks Canada: Invoicing",
+     "url": "https://quickbooks.intuit.com/ca/invoicing/"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-business/lesson-5.jpg",
+   "image_alt": "A bicycle-shop owner shows a new employee how to adjust a wheel while a phone propped on the workbench records the walkthrough."
+  },
+  {
+   "number": 6,
+   "slug": "lesson-6",
+   "title": "AI Receptionists and Chat Agents: Decide, Brief, Compare",
+   "minutes": 14,
+   "objective": "Decide with your own call and cost numbers whether an AI phone or chat agent is worth a trial, write the one-page brief it must follow, and compare providers on cost, control and privacy.",
+   "intro_html": "<p>An AI receptionist answers your phone, and a chat agent answers your website or messaging inbox, when you cannot. It can pay for itself or be a monthly bill that recovers nothing; your own call log tells you which.</p><p>You will finish with page 6 of your AI playbook: the arithmetic, a one-page brief for the agent, and a written decision of no, not yet, or a 30-day trial.</p>",
+   "sections": [
+    {
+     "heading": "What an agent does, and where it breaks",
+     "body_html": "<p>A phone or chat agent can answer at any hour, reply from your facts sheet, collect a name and reason for calling, book or take a message, and send you a summary.</p><p>It struggles with poor lines, upset callers, emergencies, unusual requests and anything your facts sheet does not cover. Plan now for how those calls reach a person.</p>"
+    },
+    {
+     "heading": "Run the missed-call arithmetic before you shop",
+     "body_html": "<p>Start with the missed-call count from your Lesson 1 baseline. <strong>These are example numbers; replace every one with your own.</strong></p><ul><li>6 missed calls a week × half that were real enquiries = 3</li><li>3 × a close rate of 1 in 3 = 1 job a week</li><li>1 job × $250 gross profit × 4.33 weeks = about $1,080 a month at stake</li><li>Assume an agent recovers half until you have measured: about $540</li><li>Less an example all-in cost of $200 a month = about $340 a month ahead</li></ul><p>Run the same sum with 1 missed call a week: about $180 at stake, about $90 recovered, against the same $200. That business loses about $110 a month.</p><p>Price the cheaper fixes before any agent:</p><ul><li><strong>A callback habit:</strong> every missed call returned at two set times a day.</li><li><strong>Voicemail-to-text:</strong> Rogers listed a Premium Voicemail-to-Text add-on at $7.00 a month on its <a href=\"https://www.rogers.com/mobility/add-ons\" target=\"_blank\" rel=\"noopener\">consumer add-ons page</a> on 6 October 2026; business plans may differ.</li><li><strong>Forwarding unanswered calls</strong> to a staff phone or answering service; TELUS, for example, describes a <a href=\"https://www.telus.com/en/support/article/call-forward-mobile\" target=\"_blank\" rel=\"noopener\">Call Forward No Reply</a> setting for mobiles. Ask your carrier what forwarded calls cost.</li><li><strong>A booking link</strong> in your voicemail greeting and text replies.</li></ul>"
+    },
+    {
+     "heading": "Write the brief: your playbook is the script",
+     "body_html": "<p>Your playbook is the agent's script: the facts sheet and saved replies (Lesson 3), tone and offers (Lesson 4), price ranges and stop-and-ask points (Lesson 5) and the policy (Lesson 2). Thin documents produce wrong answers. The brief has five parts:</p><ol><li><strong>Greeting.</strong> It says it is an automated assistant and, if the call is recorded, says so and why.</li><li><strong>Three jobs it may do,</strong> such as answering from the facts sheet, booking and taking messages.</li><li><strong>A never list:</strong> firm prices outside the facts sheet; medical, legal or safety advice; taking card numbers.</li><li><strong>Emergencies:</strong> “If this is an emergency, hang up and dial 9-1-1.” Clinics can add <a href=\"https://988.ca/\" target=\"_blank\" rel=\"noopener\">9-8-8</a>, the Suicide Crisis Helpline, by call or text at any hour.</li><li><strong>Hand-off:</strong> anyone who asks for a person, or is upset, gets one or a promised callback time.</li></ol><p>Why those lines are there:</p><ul><li><strong>Recording.</strong> Federal privacy commissioner <a href=\"https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/\" target=\"_blank\" rel=\"noopener\">guidance on recording customer calls</a> says to tell the caller the call is recorded and why, and to offer another way to deal with you if they object. It does not mention AI agents, so assume an agent's recordings and transcripts count.</li><li><strong>Saying it is automated.</strong> No general federal rule in force requires this, as far as this lesson's checks found (bills <a href=\"https://www.parl.ca/legisinfo/en/bill/45-1/c-34\" target=\"_blank\" rel=\"noopener\">C-34</a> and <a href=\"https://www.parl.ca/legisinfo/en/bill/45-1/c-36\" target=\"_blank\" rel=\"noopener\">C-36</a> were still at second reading on 6 October 2026). It is recommended practice: <a href=\"https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/\" target=\"_blank\" rel=\"noopener\">Canada's privacy commissioners</a> say people should know when they are dealing with a generative AI tool, and the Competition Bureau says courts look at the <a href=\"https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/false-or-misleading-representations\" target=\"_blank\" rel=\"noopener\">general impression</a> you create.</li><li><strong>Storage abroad.</strong> <a href=\"https://www.priv.gc.ca/en/privacy-topics/airports-and-borders/gl_dab_090127/\" target=\"_blank\" rel=\"noopener\">Federal guidance</a> says the federal private-sector privacy law does not bar processing outside Canada, but you stay accountable and should tell customers. As Lesson 2 noted, Quebec's private-sector privacy law requires a <a href=\"https://www.legisquebec.gouv.qc.ca/en/document/cs/p-39.1\" target=\"_blank\" rel=\"noopener\">privacy impact assessment</a> before personal information is sent outside Quebec. Ontario clinics: read the provincial privacy commissioner's January 2026 <a href=\"https://www.ipc.on.ca/en/media-centre/news-releases/ipc-releases-new-guidance-ai-scribes-help-protect-patient-privacy\" target=\"_blank\" rel=\"noopener\">AI scribe guidance</a> and ask your college.</li><li><strong>Cards.</strong> <a href=\"https://listings.pcisecuritystandards.org/documents/Protecting_Telephone_Based_Payment_Card_Data_v3-0_nov_2018.pdf\" target=\"_blank\" rel=\"noopener\">Card-industry guidance</a> puts the people and systems that take spoken card details under its security standard. Keep payments with your processor.</li><li><strong>Accessibility.</strong> Ontario's <a href=\"https://www.ontario.ca/page/how-make-customer-service-accessible\" target=\"_blank\" rel=\"noopener\">customer service guidance</a> expects staff to communicate in a way that considers a customer's disability, so always offer another route.</li></ul><p>This is general information, not legal advice.</p>"
+    },
+    {
+     "heading": "You answer for what it says: trial rules",
+     "body_html": "<p>In <a href=\"https://decisions.civilresolutionbc.ca/crt/crtd/en/item/525448/index.do\" target=\"_blank\" rel=\"noopener\">Moffatt v. Air Canada, 2024 BCCRT 149</a>, decided 14 February 2024, British Columbia's Civil Resolution Tribunal held the airline responsible for its website chatbot's wrong answer about bereavement fares, calling the chatbot part of the airline's website, and ordered it to pay $812.02 in damages, interest and fees. This is one small-claims decision and general information, not legal advice. The practical point stands: the agent's words are yours.</p><p>So a trial has rules:</p><ul><li>30 days, month to month, with a written monthly cost ceiling.</li><li>After-hours or overflow calls only at first.</li><li>Twenty test calls with your own hardest questions before launch.</li><li>Transcripts read daily at first, then weekly.</li><li>Every cost counted, including set-up and your review time.</li></ul>"
+    },
+    {
+     "heading": "Compare providers on ten questions",
+     "body_html": "<p>Score each provider on the eight questions from Lesson 2, plus two for phone agents: <strong>who owns the phone number and the recordings</strong>, and <strong>what happens to calls when the service is down</strong>.</p><p>The <a href=\"https://crtc.gc.ca/eng/phone/mobile/num.htm\" target=\"_blank\" rel=\"noopener\">CRTC</a>, the federal telecommunications regulator, says you can keep a landline or mobile number if the new provider does the transfer while the old service is active, but a move to or from an internet-based (VoIP) service might need a new one. Get it in writing that a vendor-supplied number can be transferred out. Ask how 9-1-1 works on any internet-based line; the CRTC requires many of those providers to <a href=\"https://crtc.gc.ca/eng/phone/911/voip.htm\" target=\"_blank\" rel=\"noopener\">explain its limits</a>.</p><p>Two examples of pricing models, from the vendors' own pages on 6 October 2026. They are not recommendations or averages:</p><ul><li><strong>Per call:</strong> <a href=\"https://smith.ai/pricing/ai-receptionist\" target=\"_blank\" rel=\"noopener\">Smith.ai's AI Receptionist</a> listed a free tier of 25 calls a month, then $3.00 a call, and a Pro plan at $150 a month for 75 calls. Month to month, with 30 days' notice to cancel. The page names no currency, so confirm it before you sign.</li><li><strong>Phone plan plus call bundle:</strong> <a href=\"https://www.quo.com/pricing\" target=\"_blank\" rel=\"noopener\">Quo</a> listed plans from US$19 per user per month on monthly billing, each with an AI agent and 10 agent-handled calls a month; a US$25 a month tier covers 40 calls, then US$0.75 a call, with taxes and fees extra.</li></ul><p>Neither page says plainly whether you get a Canadian local number; add it to your list to ask.</p><p>This lesson stops at inbound calls. The <a href=\"https://crtc.gc.ca/eng/phone/telemarketing/tobligations/rules-regles.htm\" target=\"_blank\" rel=\"noopener\">CRTC</a> allows sales calls by automated calling device only with the person's prior express consent, <a href=\"https://lnnte-dncl.gc.ca/en/Organization/Frequently-Asked-Questions\" target=\"_blank\" rel=\"noopener\">National Do Not Call List rules</a> also apply, and marketing texts fall under the Lesson 4 anti-spam checks. Leave outbound until you have had advice. This is general information, not legal advice.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "The agent brief and the decision (steps 1 to 4 take about 10 minutes with your approved AI assistant; the provider scoring in step 5 and the final decision can finish this week)",
+    "steps": [
+     "Run the missed-call arithmetic with your own numbers from your Lesson 1 baseline: missed calls a week, the share that were real enquiries, your close rate and your gross profit per job. Write down the monthly amount at stake and half of it as the assumed recovery. The first prompt below checks your sums.",
+     "Write one line each for what two cheaper options would cost you a month, choosing from a callback habit, voicemail-to-text, forwarding unanswered calls and a booking link. Use the price on your own carrier's page, not the example in this lesson; if you do not have it to hand, write \"to check\".",
+     "Write your one-page agent brief as five short headings with one or two lines each: the greeting with its disclosure, three permitted jobs, your never list, the emergency line and the hand-off rule.",
+     "Give the brief and your facts sheet (no customer names, numbers or details) to the assistant your Lesson 2 policy approves. Have it tidy the wording, then ask it to play a difficult caller against the brief. Note every place the brief breaks and add the missing line.",
+     "This week: open two providers' public pricing and privacy pages, or one provider and the cheaper option you already have, and score each on the ten questions. Anything not published goes on a list to ask in writing.",
+     "Record your decision as no, not yet, or a 30-day trial with a monthly cost ceiling, and give the reason in one sentence. Save the arithmetic, the brief, the scorecard and the decision as page 6 of your AI playbook."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Check my missed-call arithmetic",
+     "text": "Check my arithmetic and show every step so I can repeat it on a calculator. My numbers: [missed calls a week], [share of those that were real enquiries, as a fraction or per cent], [close rate], [gross profit per job in dollars], [all-in monthly cost of the agent in dollars, including set-up spread over 12 months and my review time].\n\nWork out: missed calls x share x close rate x gross profit x 4.33 = monthly amount at stake. Then half of that as the assumed recovery. Then the recovery minus the monthly cost.\n\nFinish with two lines: how many missed calls a week I would need to break even, and which of my five numbers changes the result most if I have it wrong. Do not add any industry averages or statistics."
+    },
+    {
+     "label": "Tidy my agent brief",
+     "text": "You are helping me write a one-page brief for an automated phone or chat assistant at [business name], a [type of business] in [city or area served].\n\nMy draft brief: [paste your draft]\n\nMy facts sheet: [paste your facts sheet, with no customer names or details]\n\nRewrite the brief in short, plain sentences under five headings: Greeting, Three jobs it may do, Never, Emergencies, Hand-off. Keep every rule I wrote. Do not add services, prices or promises that are not in the facts sheet.\n\nThe greeting must say the caller has reached an automated assistant and must say [that the call is recorded for (purpose) / that the call is not recorded]. The Emergencies line must tell the caller to hang up and dial 9-1-1. The Hand-off line must say how a caller reaches a person: [transfer to (role) / a callback within (time)].\n\nAt the end, list any gap or contradiction you found instead of filling it with a guess."
+    },
+    {
+     "label": "Play a difficult caller",
+     "text": "Act as a caller to [business name]. I will reply as the automated assistant and I may only use this brief: [paste your brief].\n\nRun five short calls, one at a time, and wait for my reply after each thing you say. Make them hard:\n1. An upset customer complaining about [a complaint you really get].\n2. Someone pushing for a firm price on [a job or service that is not on the facts sheet].\n3. Someone describing [an emergency in your trade or setting].\n4. Someone who asks for a real person three times.\n5. Someone who starts to read out a card number.\n\nAfter the fifth call, list each moment where the brief gave me no clear instruction, and suggest one plain line to add to the brief for each. Use invented callers only, with no real names, phone numbers or card numbers."
+    },
+    {
+     "label": "Provider scorecard and questions to send",
+     "text": "I am comparing providers of an AI phone or chat agent for my business. Below is text I copied today from the public pricing and privacy pages of [Provider A] and [Provider B].\n\n[paste the text from each provider's pages]\n\nMake a table with one row for each question and one column for each provider:\n1. Is our data used to train the model?\n2. Where is it stored and who can see it?\n3. Can I add and remove staff and see usage?\n4. What is the all-in price including overage, and in which currency?\n5. Is it month to month, and how much notice to cancel?\n6. Can I export everything when I leave?\n7. Is there support I can reach?\n8. Can I speak to a current customer like me?\n9. Who owns the phone number and the recordings, and can the number be transferred out?\n10. What happens to calls when the service is down?\n\nAnswer only from the pasted text and quote the few words you relied on. Where the text does not answer, write \"not published\" and do not guess. Then draft a short, polite email to each provider asking only its unanswered questions, signed [your name and business]."
+    }
+   ],
+   "checklist": [
+    "My missed-call arithmetic uses my own numbers, and I priced at least two cheaper options before any agent.",
+    "My brief opens by saying the caller has reached an automated assistant and whether, and why, the call is recorded.",
+    "My never list covers prices outside the facts sheet, medical, legal or safety advice, and card numbers.",
+    "Emergencies are sent to 9-1-1, and any caller can reach a person or get a promised callback time.",
+    "Nothing I pasted into the assistant contained a customer's name, number or details.",
+    "Each provider is scored on all ten questions, with unpublished answers on a list to ask in writing.",
+    "My decision (no, not yet, or a 30-day trial with a monthly cost ceiling) is on page 6 of my playbook with a one-sentence reason."
+   ],
+   "takeaway": "An AI receptionist earns a trial only when your own missed-call numbers beat its all-in cost and the cheaper fixes, and it is only as safe as the one-page brief you write for it.",
+   "sources": [
+    {
+     "label": "British Columbia Civil Resolution Tribunal: Moffatt v. Air Canada, 2024 BCCRT 149",
+     "url": "https://decisions.civilresolutionbc.ca/crt/crtd/en/item/525448/index.do"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Recording of customer telephone calls",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Principles for responsible, trustworthy and privacy-protective generative AI technologies",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Guidelines for processing personal data across borders",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/airports-and-borders/gl_dab_090127/"
+    },
+    {
+     "label": "Parliament of Canada (LEGISinfo): Bill C-34, Safe Social Media Act",
+     "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34"
+    },
+    {
+     "label": "Parliament of Canada (LEGISinfo): Bill C-36, Protecting Privacy and Consumer Data Act",
+     "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36"
+    },
+    {
+     "label": "LégisQuébec: Act respecting the protection of personal information in the private sector (chapter P-39.1), section 17",
+     "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/p-39.1"
+    },
+    {
+     "label": "Competition Bureau Canada: False or misleading representations",
+     "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/false-or-misleading-representations"
+    },
+    {
+     "label": "CRTC: Key Unsolicited Telecommunications Rules",
+     "url": "https://crtc.gc.ca/eng/phone/telemarketing/tobligations/rules-regles.htm"
+    },
+    {
+     "label": "National Do Not Call List (CRTC): Frequently Asked Questions - For Telemarketers",
+     "url": "https://lnnte-dncl.gc.ca/en/Organization/Frequently-Asked-Questions"
+    },
+    {
+     "label": "CRTC: Switch providers and keep your number",
+     "url": "https://crtc.gc.ca/eng/phone/mobile/num.htm"
+    },
+    {
+     "label": "CRTC: 9-1-1 Obligations of Local VoIP Service Providers in Canada",
+     "url": "https://crtc.gc.ca/eng/phone/911/voip.htm"
+    },
+    {
+     "label": "9-8-8: Suicide Crisis Helpline: Home page",
+     "url": "https://988.ca/"
+    },
+    {
+     "label": "Government of Ontario: How to make customer service accessible",
+     "url": "https://www.ontario.ca/page/how-make-customer-service-accessible"
+    },
+    {
+     "label": "Information and Privacy Commissioner of Ontario: IPC releases new guidance on AI scribes to help protect patient privacy (28 January 2026)",
+     "url": "https://www.ipc.on.ca/en/media-centre/news-releases/ipc-releases-new-guidance-ai-scribes-help-protect-patient-privacy"
+    },
+    {
+     "label": "PCI Security Standards Council: Information Supplement - Protecting Telephone-Based Payment Card Data (version 3.0, November 2018)",
+     "url": "https://listings.pcisecuritystandards.org/documents/Protecting_Telephone_Based_Payment_Card_Data_v3-0_nov_2018.pdf"
+    },
+    {
+     "label": "Smith.ai: Plans & Pricing for AI Receptionist",
+     "url": "https://smith.ai/pricing/ai-receptionist"
+    },
+    {
+     "label": "Quo: Pricing (all prices in USD)",
+     "url": "https://www.quo.com/pricing"
+    },
+    {
+     "label": "Rogers: Mobility add-ons (Premium Voicemail-to-Text)",
+     "url": "https://www.rogers.com/mobility/add-ons"
+    },
+    {
+     "label": "TELUS: Call forwarding on your mobile device",
+     "url": "https://www.telus.com/en/support/article/call-forward-mobile"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-business/lesson-6.jpg",
+   "image_alt": "A plumber works under a kitchen sink with both hands busy while a phone beside the toolbox glows with an incoming call."
+  },
+  {
+   "number": 7,
+   "slug": "lesson-7",
+   "title": "Did It Pay Off? The Scorecard and Your Next 90 Days",
+   "minutes": 15,
+   "objective": "Compare your results with your Lesson 1 baseline, work out what each AI use saved or cost, and decide what to keep, fix or drop over the next 90 days.",
+   "intro_html": "<p>Six lessons ago you wrote down four numbers before changing anything. Today you find out what the changes were worth. Some will have paid for themselves, some will need fixing, and one or two may cost more than they save.</p><p>You will finish with a one-page scorecard, a verdict on each AI use and three dated actions for the next 90 days: page 7, the last page of your AI playbook.</p>",
+   "sections": [
+    {
+     "heading": "Re-run the baseline, like for like",
+     "body_html": "<p>Open page 1 of your playbook and count the same four things, over the same length of time, from the same places: missed calls over seven days, time to first reply on your last ten enquiries, hours a week on quotes, invoices and paperwork, and unanswered reviews. Note a holiday or seasonal rush beside the number; do not adjust for it.</p><p>If you took the course in a week, you have no results yet. Fill the scorecard with estimates, write <strong>estimate</strong> beside each, and replace them with measured numbers in 30 days.</p><p>Two reports can help, each with a limit. In Google Business Profile, the <a href=\"https://support.google.com/business/answer/9918094?hl=en\" target=\"_blank\" rel=\"noopener\">Performance report</a> lists Calls, Website clicks and Directions, and for some businesses Bookings and Messages. Calls there counts clicks on the call button on your profile, not calls you answered or missed. In Google Ads, <a href=\"https://support.google.com/google-ads/answer/6270625?hl=en\" target=\"_blank\" rel=\"noopener\">Conversions and Cost / conv.</a> are only as reliable as your conversion tracking. Your call log, inbox and calendar remain the best evidence.</p>"
+    },
+    {
+     "heading": "The honest sum for each change",
+     "body_html": "<p>Work out one figure for each AI use from Lessons 2 to 6:</p><p><strong>Monthly gain = (hours saved × what an hour costs you) + (extra jobs × gross profit per job) − (subscriptions + your checking and fixing time)</strong></p><p><em>An example with invented numbers; replace every one with your own:</em></p><ul><li>Time saved: 90 minutes a week × 4.33 weeks ÷ 60 = about 6.5 hours a month, × $30 an hour = $195</li><li>Extra jobs you can point to: 1 a month × $250 gross profit = $250</li><li>Subscription: $40 a month</li><li>Checking and fixing: 30 minutes a week × 4.33 ÷ 60 = about 2.2 hours a month, × $30 = about $65</li><li>Monthly gain: $195 + $250 − $40 − $65 = $340</li></ul><p><strong>Payback months = set-up cost ÷ monthly gain.</strong> In the same example, with $500 of set-up fees and your own time, $500 ÷ $340 is about a month and a half.</p><p>Three rules keep the sum honest. Count an extra job only if you can name the booking. Count saved hours at full value only if they went to paid work or replaced hours you would otherwise pay for. Take subscription costs from your card statement in Canadian dollars, not from the price page.</p><p>Whether a subscription is deductible is a question for your accountant. The Canada Revenue Agency's <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/business-expenses.html\" target=\"_blank\" rel=\"noopener\">general rule</a> is that you can deduct any reasonable current expense you incur to earn income. This is general information, not tax advice.</p><p>Use a calculator. As in Lesson 5, let AI set out the sum but not add it.</p>"
+    },
+    {
+     "heading": "Quality first, then keep, fix or drop",
+     "body_html": "<p>Time saved is half the picture. Beside each use, note:</p><ul><li>your correction tally from Lesson 5, and whether the errors were in wording or in facts and figures</li><li>any complaint or awkward moment that traces back to an AI draft or an automated answer</li><li>the direction of your reviews and your time to first reply</li><li>what staff say, including whoever does the checking</li></ul><p>A saving that irritates customers is not a saving. One wrong price or one upset customer goes in the cost column before you call anything a win. Gains that will not fit the sum, such as an evening back or a calmer front desk, go in a notes column and stay out of the dollars.</p><p>Then give each use one verdict:</p><ul><li><strong>Keep:</strong> positive gain, few corrections, no complaints.</li><li><strong>Fix:</strong> the idea is sound but the facts sheet, the instruction or the checking step is weak. Name the fix and a date.</li><li><strong>Drop:</strong> negative gain, or nobody has opened it in a month. Cancel it today.</li></ul><p>While your statements are open, look for two subscriptions doing the same job and keep one.</p>"
+    },
+    {
+     "heading": "Your next 90 days",
+     "body_html": "<p>Add one new use a month, not three at once, so you can tell which change moved which number. Each gets a named owner, a review date and one number to re-measure.</p><p>Put two standing checks in your calendar:</p><ul><li><strong>Every six months:</strong> re-read your Lesson 2 policy and re-check prices, plan terms and settings on each approved tool, because these move. Two examples as of 6 October 2026: Ontario's <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage\" target=\"_blank\" rel=\"noopener\">general minimum wage</a> rose from $17.60 to $17.95 an hour on 1 October 2026, which may change what an hour costs you, and federal privacy <a href=\"https://www.parl.ca/legisinfo/en/bill/45-1/c-36\" target=\"_blank\" rel=\"noopener\">Bill C-36</a>, introduced on 15 June 2026, is at second reading in the House of Commons and is not law.</li><li><strong>Every 90 days:</strong> check your Lesson 4 consent log for implied consent that is about to run out. Under Canada's anti-spam law, implied consent from an existing business relationship <a href=\"https://crtc.gc.ca/eng/com500/guide.htm\" target=\"_blank\" rel=\"noopener\">generally lasts</a> two years after a purchase and six months after an enquiry, and the sender has to be able to prove consent. Express consent <a href=\"https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email\" target=\"_blank\" rel=\"noopener\">has no time limit</a> unless the person withdraws it. Before the date passes, ask for express consent or stop marketing to that contact.</li></ul><p>This is general information, not legal advice.</p>"
+    },
+    {
+     "heading": "On your own or with help, and who to ask",
+     "body_html": "<p>Most of what you built you can run yourself: saved replies, content drafts, quote templates and procedures all work in a chat assistant with a person checking. Outside help earns its fee when the work touches your phone line, when several systems must pass information to each other, or when you have no hours to test.</p><p>Check what is free first. <a href=\"https://www.ontario.ca/page/small-business-enterprise-centre-locations\" target=\"_blank\" rel=\"noopener\">Ontario Small Business Advisory Centres</a> (many still go by Small Business Enterprise Centre) offer free consultations. <a href=\"https://digitalmainstreet.ca/\" target=\"_blank\" rel=\"noopener\">Digital Main Street</a>'s grant portal has closed, but its digital assessment and online training modules remain available. <a href=\"https://www.bdc.ca/en/consulting\" target=\"_blank\" rel=\"noopener\">BDC's consulting services</a> are paid, with the price set by the scope of the work. The Canada Digital Adoption Program's Boost Your Business Technology stream <a href=\"https://www.bdc.ca/en/financing/canada-digital-adoption-program\" target=\"_blank\" rel=\"noopener\">stopped taking new applications</a> on 19 February 2024, as Lesson 2 noted, so a pitch that leans on it is out of date.</p><p>For questions about the rules, go to the source. These numbers were checked on 6 October 2026. Phone numbers change, so confirm each one on the linked official page before you call:</p><ul><li>Privacy: <a href=\"https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/\" target=\"_blank\" rel=\"noopener\">Office of the Privacy Commissioner of Canada</a>, 1-800-282-1376</li><li>Email and text marketing: <a href=\"https://crtc.gc.ca/eng/contact/\" target=\"_blank\" rel=\"noopener\">CRTC</a>, 1-877-249-2782, and the <a href=\"https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en\" target=\"_blank\" rel=\"noopener\">Spam Reporting Centre</a></li><li>Advertising and reviews: <a href=\"https://competition-bureau.canada.ca/en/contact-information-centre\" target=\"_blank\" rel=\"noopener\">Competition Bureau</a>, 1-800-348-5358</li><li>Business tax: <a href=\"https://www.canada.ca/en/revenue-agency/corporate/contact-information.html\" target=\"_blank\" rel=\"noopener\">Canada Revenue Agency business enquiries</a>, 1-800-959-5525</li><li>Health information in Ontario, for clinics and other health care providers: <a href=\"https://www.ipc.on.ca/en/contact-us\" target=\"_blank\" rel=\"noopener\">Information and Privacy Commissioner of Ontario</a>, 1-800-387-0073</li><li>Ontario employment standards: <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0\" target=\"_blank\" rel=\"noopener\">Employment Standards Information Centre</a>, 1-800-531-5551</li><li>Fraud: <a href=\"https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm\" target=\"_blank\" rel=\"noopener\">Canadian Anti-Fraud Centre</a>, 1-888-495-8501</li><li>Cyber security: <a href=\"https://www.cyber.gc.ca/en/contact-cyber-centre\" target=\"_blank\" rel=\"noopener\">Canadian Centre for Cyber Security</a>, 1-833-292-3788</li></ul><p>These offices give general information. They do not replace your own lawyer or accountant.</p><p>This course is published by <a href=\"https://novatoronto.com/\" target=\"_blank\" rel=\"noopener\">Nova Toronto</a>, a Toronto studio that sells AI receptionist and automation set-up to Greater Toronto Area businesses (365-355-3133, novatoronto.ca@gmail.com), so it has an interest in what you decide. Put the Lesson 2 and Lesson 6 questions to it as you would to anyone. Whoever you choose, the playbook you built is exactly what an installer, including a competitor, will need from you.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Fill in the scorecard and set your next 90 days (10 to 15 minutes with a phone calculator; your approved AI assistant is optional)",
+    "steps": [
+     "Open page 1 of your AI playbook and copy your four baseline numbers, with their date, onto a new page headed Scorecard.",
+     "Beside each one, write today's number from the same source, counted over the same length of time, and mark it 'measured' or 'estimate'. If you have not had time to count, write your best estimate and move on.",
+     "List each change you made in Lessons 2 to 6. For each, note minutes saved per week, the monthly cost from your card statement, minutes per week you spend checking and fixing it, and any problems or complaints.",
+     "Work out the monthly gain for each on a calculator using the lesson formula. If you want the sum laid out for you, paste your numbers only (no customer or staff details) into the first prompt below in the assistant your Lesson 2 policy approves, then re-check every line on the calculator.",
+     "Write keep, fix or drop beside each use. For anything marked drop, cancel it now if that takes a minute; otherwise write 'cancel' with today's date and do it before the day ends.",
+     "Choose three actions for the next 90 days, one a month, each with a named owner, a review date and the one number you will re-measure.",
+     "Set three calendar reminders: 30 days from today to replace estimates with measured numbers, 90 days from today for a 30-minute review that includes your consent log, and six months from today to re-check your policy, prices and tool settings. Save this as page 7. Your playbook is complete."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Set out my scorecard sum",
+     "text": "I am reviewing one AI use in my small business: [what it does, for example saved replies to common enquiries]. My numbers are: minutes saved per week [number]; what an hour costs me [dollars]; extra jobs per month I can point to [number]; gross profit per job [dollars]; subscription cost per month in Canadian dollars [dollars]; minutes per week I spend checking and fixing [number]; one-time set-up cost [dollars]. Set out monthly gain = (hours saved x hourly cost) + (extra jobs x gross profit per job) - (subscription + cost of checking time), using 4.33 weeks per month, then payback months = set-up cost / monthly gain. Show every step on its own line so I can re-check it on a calculator. Tell me which of my inputs look like guesses and what I could count to replace each guess. Do not add benefits I did not list."
+    },
+    {
+     "label": "Challenge my keep, fix or drop verdicts",
+     "text": "Here is my scorecard, with no customer or staff names: [paste each AI use with its monthly gain, number of corrections, any complaints described without names or contact details, and your verdict]. For each line, argue against my verdict in two sentences, then name the single piece of evidence that would settle it within 30 days. Point out any two tools that appear to do the same job. Do not suggest new tools."
+    },
+    {
+     "label": "Turn three actions into a 90-day plan",
+     "text": "Turn these three actions into a 90-day plan for a [type of business] with [number] staff: [action 1], [action 2], [action 3]. Schedule one action per month starting from [today's date]. For each, give: the owner [role, for example office manager], a start date and a review date, the one number we will measure before and after, the check a person does before anything reaches a customer, and the result that would make us stop. Keep it to one page in plain language."
+    },
+    {
+     "label": "Write a hand-over brief for outside help",
+     "text": "I may hire someone to set up [what you want, for example an after-hours phone agent or a link between my booking and invoicing software]. Using the notes below from my AI playbook, write a one-page brief I can give to any installer. Include: what we want it to do, what it must never do, the facts it must use, how we will measure it against our baseline of [baseline number], our monthly cost ceiling of [dollars], and a list of questions I want answered in writing about price, contract length, how our data is used, and who owns the phone number and recordings. Notes: [paste your policy summary, facts sheet headings and agent brief, with no customer details]."
+    }
+   ],
+   "checklist": [
+    "Four baseline numbers re-counted from the same sources, each marked measured or estimate",
+    "Monthly gain worked out on a calculator for every AI use, with checking and fixing time counted as a cost",
+    "One verdict per use (keep, fix or drop), and everything marked drop cancelled",
+    "Three actions for the next 90 days, one a month, each with an owner, a review date and a number to re-measure",
+    "Calendar reminders set: 30 days to replace estimates, 90 days for a review and consent-log check, six months for policy, prices and settings",
+    "Playbook pages 1 to 7 saved in one place that a second person can find"
+   ],
+   "takeaway": "An AI use earns its place only when your own before-and-after numbers, with checking time and complaints counted, say it does.",
+   "sources": [
+    {
+     "label": "Google Business Profile Help: Understand your Business Profile performance & insights",
+     "url": "https://support.google.com/business/answer/9918094?hl=en"
+    },
+    {
+     "label": "Google Ads Help: Understand your conversion tracking data",
+     "url": "https://support.google.com/google-ads/answer/6270625?hl=en"
+    },
+    {
+     "label": "Canada Revenue Agency: Business expenses",
+     "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/business-expenses.html"
+    },
+    {
+     "label": "CRTC: From Canada's Anti-Spam Legislation (CASL) Guidance on Implied Consent",
+     "url": "https://crtc.gc.ca/eng/com500/guide.htm"
+    },
+    {
+     "label": "Justice Laws Website: Canada's anti-spam legislation (S.C. 2010, c. 23), sections 10 and 13",
+     "url": "https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-2.html"
+    },
+    {
+     "label": "Government of Canada: Getting consent to send email",
+     "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email"
+    },
+    {
+     "label": "Government of Canada: Canada's anti-spam legislation (Spam Reporting Centre)",
+     "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en"
+    },
+    {
+     "label": "Parliament of Canada LEGISinfo: Bill C-36, Protecting Privacy and Consumer Data Act",
+     "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36"
+    },
+    {
+     "label": "Government of Ontario: Minimum wage (Your guide to the Employment Standards Act)",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage"
+    },
+    {
+     "label": "Government of Ontario: Your guide to the Employment Standards Act",
+     "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0"
+    },
+    {
+     "label": "Government of Ontario: Ontario Small Business Advisory Centre locations",
+     "url": "https://www.ontario.ca/page/small-business-enterprise-centre-locations"
+    },
+    {
+     "label": "Digital Main Street: Home page",
+     "url": "https://digitalmainstreet.ca/"
+    },
+    {
+     "label": "BDC: Consulting services",
+     "url": "https://www.bdc.ca/en/consulting"
+    },
+    {
+     "label": "BDC: Canada Digital Adoption Program",
+     "url": "https://www.bdc.ca/en/financing/canada-digital-adoption-program"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: Contact the Information Centre",
+     "url": "https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/"
+    },
+    {
+     "label": "CRTC: Contact us",
+     "url": "https://crtc.gc.ca/eng/contact/"
+    },
+    {
+     "label": "Competition Bureau Canada: Contact the Information Centre",
+     "url": "https://competition-bureau.canada.ca/en/contact-information-centre"
+    },
+    {
+     "label": "Canada Revenue Agency: Contact the Canada Revenue Agency (CRA)",
+     "url": "https://www.canada.ca/en/revenue-agency/corporate/contact-information.html"
+    },
+    {
+     "label": "Information and Privacy Commissioner of Ontario: Contact Us",
+     "url": "https://www.ipc.on.ca/en/contact-us"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Report fraud and cybercrime",
+     "url": "https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm"
+    },
+    {
+     "label": "Canadian Centre for Cyber Security: Contact the Cyber Centre",
+     "url": "https://www.cyber.gc.ca/en/contact-cyber-centre"
+    },
+    {
+     "label": "Nova Toronto: Home page",
+     "url": "https://novatoronto.com/"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-business/lesson-7.jpg",
+   "image_alt": "A bakery owner pins coloured cards into three groups on a corkboard, with a notebook, calculator and tray of loaves behind her."
+  }
+ ]
+}

@@ -1,0 +1,1126 @@
+{
+ "slug": "ai-for-seniors",
+ "course_title": "AI for Seniors: Everyday Help and Staying Safe, in 7 Short Lessons",
+ "short_name": "AI for Seniors",
+ "promise": "In seven calm lessons of about 10 to 15 minutes each, you will use a free AI chat app on your phone or tablet for everyday things, such as writing to family, making sense of a confusing letter and planning meals or outings. You will also build one simple habit, pause, hang up, call back, that protects you from AI-powered scams, and you will know where Canadians report fraud.",
+ "audience": "Adults of about 60 and older in Canada, many of them in the Greater Toronto Area, who are curious or nervous about AI, use a phone or tablet more than a computer, and want help with everyday life rather than work skills, without putting their privacy or savings at risk.",
+ "cover_title": "Free course: AI for Seniors",
+ "date": "2026-10-06",
+ "signup_label": "Free course: AI for Seniors",
+ "email_placeholder": "you@example.com",
+ "large_text": true,
+ "hero_image": "assets/img/courses/ai-for-seniors/hero.jpg",
+ "hero_alt": "A painted illustration of four older adults of different backgrounds around a sunlit kitchen table with tea and biscuits, one holding a tablet and another with a phone on the table, all looking relaxed and interested.",
+ "landing": {
+  "meta_title": "Free AI for Seniors Course in 7 Lessons | Nova Toronto",
+  "meta_description": "A free 7-lesson email course for adults 60 and older. Use an AI chat app on your phone or tablet for everyday help, and learn to spot AI scams.",
+  "h1": "AI for Seniors: Everyday Help and Staying Safe, in 7 Short Lessons",
+  "subhead": "A free, calm course that shows you how to use an AI chat app on your phone or tablet for everyday things, and how to protect yourself from AI-powered scams.",
+  "learn_bullets": [
+   "Install a genuine free AI chat app from your official app store and have your first conversation with it.",
+   "Talk instead of typing, make the text larger, and ask again until an answer is clear.",
+   "Write a card or message to family and friends that still sounds like you.",
+   "Turn a confusing bill or letter into plain words, after covering up your personal details.",
+   "Plan a few suppers, a small outing or a hobby project, and confirm the details that matter.",
+   "Use one routine for suspicious calls and messages (pause, hang up, call back) and know where Canadians report fraud."
+  ],
+  "who_for": [
+   "Adults of about 60 and older who are curious about AI, or a little nervous about it.",
+   "People who use a phone or tablet more than a computer.",
+   "Anyone who wants help with everyday life, without putting privacy or savings at risk.",
+   "Family members who would like a patient, step-by-step course to share with a parent or grandparent."
+  ],
+  "faq": [
+   {
+    "q": "Is it really free?",
+    "a": "Yes. All seven lessons are free. The course never asks for a card number, banking details or any payment."
+   },
+   {
+    "q": "Do I need to pay for any AI tool?",
+    "a": "No. Every exercise works on the free plan of one AI chat app. Lesson 1 shows you how to install a genuine one from your official app store. You may see an offer for a paid plan inside the app, and you can say no."
+   },
+   {
+    "q": "How long does it take?",
+    "a": "Each lesson takes about 12 to 15 minutes, including a short practice exercise. All seven come to roughly an hour and a half. Go at your own pace and repeat any lesson as often as you like."
+   },
+   {
+    "q": "Will you spam me?",
+    "a": "No. You will get this course by email and occasional practical tips from Nova Toronto. You can stop the emails at any time by replying STOP or writing to novatoronto.ca@gmail.com. We do not sell or share your email address."
+   },
+   {
+    "q": "Do I need technical skills or a computer?",
+    "a": "No. You need a phone or tablet and an email address. Every technical word is explained the first time it appears, and each step is written out in plain language. You do not need a computer or a printer."
+   }
+  ],
+  "form_note": "By signing up, you agree to receive this course by email and occasional practical tips from Nova Toronto (novatoronto.com, 365-355-3133), and you can stop at any time by replying STOP.",
+  "welcome_email": "Hello,\n\nWelcome to AI for Seniors. Your course starts here: {START_URL}\n\nThere are seven short lessons of about 12 to 15 minutes each. Every lesson ends with a practice exercise for your phone or tablet. Start with Lesson 1 and go at your own pace. If you are worried about a call or message right now, go to Lesson 6 first.\n\nThe course is free. It never asks for banking details or a card number.\n\nTo stop these emails at any time, reply STOP or write to novatoronto.ca@gmail.com.\n\nRujal Tuladhar\nNova Toronto",
+  "start_page_intro": "Here are your seven lessons, each about 12 to 15 minutes long with a short practice exercise for your phone or tablet. Start with Lesson 1 and go at your own pace, or go straight to Lesson 6 if you are worried about a call or message right now.",
+  "finish_note": "You have finished the course, and it asks for nothing in return. Nova Toronto builds websites and sets up advertising and AI tools for small businesses in the Greater Toronto Area. If you or a family member who runs a business would like a free 30-minute conversation, you are welcome to get in touch at 365-355-3133 or novatoronto.ca@gmail.com, with no pressure either way."
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "slug": "lesson-1",
+   "title": "Your First Conversation With an AI Helper",
+   "minutes": 15,
+   "objective": "Install a genuine free AI chat app, ask one question and one follow-up, and name the three ground rules that apply in every lesson.",
+   "intro_html": "<p>Welcome. In this first lesson you will put one AI chat app on your phone or tablet. Then you will have a short conversation with it.</p><p>You will also learn three ground rules that come back in every lesson. They protect your privacy and your savings. Allow about 15 minutes, and go at your own pace.</p>",
+   "sections": [
+    {
+     "heading": "What an AI chat app is",
+     "body_html": "<p>An <strong>app</strong> is a program on your phone or tablet. An AI chat app is a program that has read a great deal of writing. You ask a question, and it writes a likely-sounding answer.</p><p>It is not a person, and it does not know you. It can be wrong while sounding sure. The companies that make these apps say so themselves. Microsoft's terms say, \"Copilot can make mistakes.\"</p><p>You may already have seen one. Google says some Android phones come with its Gemini helper already set up as the phone's assistant. In Canada, WhatsApp, Messenger, Facebook and Instagram can include a helper called Meta AI. For this course, please use one separate chat app, so each lesson looks the same on your screen.</p>"
+    },
+    {
+     "heading": "Getting the real app",
+     "body_html": "<p>Choose one free app and stay with it for the whole course. A good choice is one a family member already uses, so help is close by.</p><p>We found these four in the Canadian app stores for iPhone, iPad and Android on 6 October 2026. Each one was free to install and has a free plan.</p><ul><li><strong>ChatGPT</strong>. Publisher: OpenAI. The App Store shows it as OpenAI OpCo, LLC.</li><li><strong>Google Gemini</strong>. Publisher: Google LLC.</li><li><strong>Microsoft Copilot</strong>. Publisher: Microsoft Corporation.</li><li><strong>Claude by Anthropic</strong>. Publisher: Anthropic PBC.</li></ul><p>The <strong>publisher</strong> is the company that makes the app. The store shows its name on the app's page. Stores may call it the developer or the seller.</p><p>Install your app only from your device's official app store. On an iPhone or iPad, that is the App Store. On an Android phone or tablet, it is Google Play, also called the Play Store.</p><p>Open the store yourself and search for the app by name. Do not install an app from a link in a text, an email or an ad.</p><p>Before you tap to install, read the publisher's name and compare it with the list above. Canada's <a href=\"https://www.getcybersafe.gc.ca/en/blogs/why-you-should-never-give-your-personal-information-ai\" target=\"_blank\" rel=\"noopener\">Get Cyber Safe</a> program says criminals sometimes make fake AI apps and look-alike websites. If the name does not match, leave it and search again.</p>"
+    },
+    {
+     "heading": "Signing up: what it asks for, and what it never needs",
+     "body_html": "<p>Most apps ask you to create an <strong>account</strong>. An account is your own sign-in. It lets the app keep your chats for you.</p><p>Sign-up usually asks for an email address. Some apps let you use a Google, Apple or Microsoft account you already have. Gemini signs you in with a Google account. Claude also texts a six-digit code to your phone to confirm your number. That code goes into the app's sign-up screen and nowhere else.</p><p>A free plan does not need any of these four things:</p><ul><li>banking details</li><li>a card number</li><li>your social insurance number</li><li>your health-card number</li></ul><p>You may see an offer for a paid plan, or an ad. You can say no to both. The free plan is enough for all seven lessons.</p><p>If any screen still asks for one of those four things, stop there. Close the app and ask someone you trust to look at it with you.</p><p>Free plans do limit how much you can use them. A short written chat like today's should fit. If a notice says you have reached a limit, nothing is broken and you have not been charged. Some notices say when you can carry on. If yours does not, try again later in the day.</p>"
+    },
+    {
+     "heading": "Your first conversation, one step at a time",
+     "body_html": "<p>Open the app. Look for the box where you write, usually near the bottom of the screen. Tap it and your keyboard appears.</p><p>Ask in ordinary words, as you would ask a well-read neighbour. There are no special commands to learn. Then tap the send button, which is often a small arrow.</p><p>Read the answer. Then ask again. A second question about the same thing is called a <strong>follow-up</strong>. The app keeps track of what you were just talking about.</p><p>Nothing breaks if you ask a \"wrong\" question. Typing cannot harm your phone or the app. If an answer seems odd, ask again in different words.</p><p>If you would rather speak than type, Lesson 2 shows you how.</p>"
+    },
+    {
+     "heading": "The three ground rules, and a safety minute",
+     "body_html": "<p>These three rules apply in every lesson. You will see them again, word for word.</p><ol><li><strong>Keep private numbers out.</strong></li><li><strong>Check anything that matters.</strong></li><li><strong>It is not your doctor, lawyer or financial adviser.</strong></li></ol><p><strong>Private numbers</strong> are the ones below. Leave them out of every chat.</p><ul><li>bank and card numbers</li><li>PINs, passwords and one-time codes. A one-time code is the short number a bank or service sends to confirm it is you</li><li>your health-card number</li><li>your social insurance number</li><li>driver's licence and passport numbers</li></ul><p>Official Canadian advice points the same way. See <a href=\"https://www.getcybersafe.gc.ca/en/blogs/why-you-should-never-give-your-personal-information-ai\" target=\"_blank\" rel=\"noopener\">Get Cyber Safe</a>, the <a href=\"https://www.priv.gc.ca/en/privacy-topics/information-and-advice-for-individuals/your-privacy-rights/02_05_d_64_tips/\" target=\"_blank\" rel=\"noopener\">Privacy Commissioner's 10 tips</a> and the Government of Canada page, <a href=\"https://www.canada.ca/en/employment-social-development/programs/sin/protect.html\" target=\"_blank\" rel=\"noopener\">Protect your Social Insurance Number</a>.</p><p><strong>Check anything that matters.</strong> Does an answer touch your money, your health or a big decision? Confirm it with a real person or an official source before you act. The <a href=\"https://www.cyber.gc.ca/en/guidance/generative-artificial-intelligence-ai-itsap00041\" target=\"_blank\" rel=\"noopener\">Canadian Centre for Cyber Security</a> also advises checking AI answers against sources you can trust.</p><p><strong>An AI app is not a doctor, a lawyer or a financial adviser.</strong> It can help you understand words and prepare questions. The decision belongs with a qualified person. Microsoft's terms for its own app say, \"Do not use Copilot as a substitute for professional advice.\"</p><p><strong>Safety minute.</strong> An urgent request for money, gift cards or a code is your signal to stop. Call someone you trust on a number you already have. Lesson 6 covers this fully. If you are worried about a call or message right now, go to Lesson 6 first.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Test it on something you know well (about 10 minutes, phone or tablet)",
+    "steps": [
+     "Open your chosen AI chat app and tap the box where you write.",
+     "Type this question, filling the blank with a hobby you have had for years, a favourite dish or a town you know well (not your address): In five short sentences, tell me about [your subject]. If you would rather not choose, use this ready-made practice question: In five short sentences, tell me about growing tomatoes in pots.",
+     "Tap send and read the answer. Because you know the subject, look for one thing it got right and one thing that is vague or wrong.",
+     "Now type this follow-up and send it: Which parts of that are you least sure about?",
+     "On paper, note one thing you would trust and one thing you would double-check.",
+     "Your win for today: you asked, it answered, and you judged the answer yourself. You typed no name, no address and no private numbers."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Your first question",
+     "text": "In five short sentences, tell me about [a hobby, a favourite dish or a town I know well]."
+    },
+    {
+     "label": "Ready-made practice question",
+     "text": "In five short sentences, tell me about growing tomatoes in pots."
+    },
+    {
+     "label": "Your follow-up",
+     "text": "Which parts of that are you least sure about?"
+    },
+    {
+     "label": "Ideas for what to ask next",
+     "text": "I am new to AI chat apps. Give me three everyday things I could ask you about [cooking, gardening or another interest], one line each."
+    }
+   ],
+   "checklist": [
+    "I opened my device's official app store myself and installed one AI chat app.",
+    "I read the publisher's name and it matched the list in this lesson.",
+    "I signed up without giving banking details, a card number, my social insurance number or my health-card number.",
+    "I asked one question and one follow-up.",
+    "I noted one thing I would trust and one thing I would double-check.",
+    "I can say the three ground rules: Keep private numbers out. Check anything that matters. It is not your doctor, lawyer or financial adviser."
+   ],
+   "takeaway": "You can ask an AI app anything in ordinary words, and you stay the judge of what it tells you.",
+   "sources": [
+    {
+     "label": "Apple App Store (Canada): ChatGPT",
+     "url": "https://apps.apple.com/ca/app/chatgpt/id6448311069"
+    },
+    {
+     "label": "Apple App Store (Canada): Google Gemini",
+     "url": "https://apps.apple.com/ca/app/google-gemini/id6477489729"
+    },
+    {
+     "label": "Apple App Store (Canada): Microsoft Copilot",
+     "url": "https://apps.apple.com/ca/app/microsoft-copilot/id541164041"
+    },
+    {
+     "label": "Apple App Store (Canada): Claude by Anthropic",
+     "url": "https://apps.apple.com/ca/app/claude-by-anthropic/id6473753684"
+    },
+    {
+     "label": "Google Play (Canada): ChatGPT",
+     "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en_CA&gl=CA"
+    },
+    {
+     "label": "Google Play (Canada): Google Gemini",
+     "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=en_CA&gl=CA"
+    },
+    {
+     "label": "Google Play (Canada): Microsoft Copilot",
+     "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow&hl=en_CA&gl=CA"
+    },
+    {
+     "label": "Google Play (Canada): Claude by Anthropic",
+     "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=en_CA&gl=CA"
+    },
+    {
+     "label": "Google: Gemini mobile app availability",
+     "url": "https://support.google.com/gemini/answer/14579026?hl=en"
+    },
+    {
+     "label": "Google: What you need to sign in to Gemini Apps",
+     "url": "https://support.google.com/gemini/answer/13278668?hl=en"
+    },
+    {
+     "label": "Google: Google AI plans (free plan at 0 $CA per month)",
+     "url": "https://gemini.google/subscriptions/"
+    },
+    {
+     "label": "Google: Gemini Apps limits & upgrades for Google AI subscribers",
+     "url": "https://support.google.com/gemini/answer/16275805?hl=en"
+    },
+    {
+     "label": "Google: Get started with the Gemini mobile app (Android)",
+     "url": "https://support.google.com/gemini/answer/14554984?hl=en&co=GENIE.Platform%3DAndroid"
+    },
+    {
+     "label": "Microsoft: Copilot - Terms of Use",
+     "url": "https://www.microsoft.com/en-ca/microsoft-copilot/for-individuals/termsofuse"
+    },
+    {
+     "label": "Microsoft: Copilot App Updates for Personal, Work, and School Accounts",
+     "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app"
+    },
+    {
+     "label": "Microsoft: Supported regions and languages in Microsoft Copilot",
+     "url": "https://support.microsoft.com/en-us/microsoft-copilot/supported-regions-and-languages-in-microsoft-copilot"
+    },
+    {
+     "label": "Anthropic: Plans & Pricing",
+     "url": "https://claude.com/pricing"
+    },
+    {
+     "label": "Anthropic: Supported countries and regions",
+     "url": "https://www.anthropic.com/supported-countries"
+    },
+    {
+     "label": "Anthropic: Verify your phone number",
+     "url": "https://support.claude.com/en/articles/8287232-verify-your-phone-number"
+    },
+    {
+     "label": "Meta: Meet Your New Assistant: Meta AI, Built With Llama 3",
+     "url": "https://about.fb.com/news/2024/04/meta-ai-assistant-built-with-llama-3/"
+    },
+    {
+     "label": "Get Cyber Safe: Why you should never give your personal information to AI",
+     "url": "https://www.getcybersafe.gc.ca/en/blogs/why-you-should-never-give-your-personal-information-ai"
+    },
+    {
+     "label": "Canadian Centre for Cyber Security: Generative artificial intelligence - ITSAP.00.041",
+     "url": "https://www.cyber.gc.ca/en/guidance/generative-artificial-intelligence-ai-itsap00041"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: 10 tips for protecting personal information",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/information-and-advice-for-individuals/your-privacy-rights/02_05_d_64_tips/"
+    },
+    {
+     "label": "Government of Canada (Employment and Social Development Canada / Service Canada): Protect your Social Insurance Number",
+     "url": "https://www.canada.ca/en/employment-social-development/programs/sin/protect.html"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-seniors/lesson-1.jpg",
+   "image_alt": "A woman in her seventies with silver hair and glasses sits in an armchair by a window, holding a phone with a curious half-smile."
+  },
+  {
+   "number": 2,
+   "slug": "lesson-2",
+   "title": "Talk Instead of Typing, and Ask Again Until It Is Clear",
+   "minutes": 12,
+   "objective": "Use your voice, larger text and the read-aloud button to hold a comfortable conversation, and steer an answer with short spoken follow-ups.",
+   "intro_html": "<p>Small keys and small print make any phone or tablet tiring to use. In this lesson you will speak to your AI app and have it read to you.</p><p>You will also practise six short phrases that steer an answer until it is clear. The keyboard microphone and larger text are built into your device. You do not need a paid plan for them.</p>",
+   "sections": [
+    {
+     "heading": "Three ways to skip typing",
+     "body_html": "<p><strong>1. The microphone key on your keyboard.</strong> Tap the box where you type, and the keyboard appears. Find the small microphone, tap it and speak. Your words turn into text. This is called <em>dictation</em>, which means typing by voice. Use it when you want to check your words before you send them.</p><ul><li><strong>iPhone or iPad:</strong> look for the small microphone on the keyboard or beside the box where you type. If it is missing, open Settings, tap General, tap Keyboard, then turn on Enable Dictation. Apple's steps: <a href=\"https://support.apple.com/en-ca/guide/iphone/iph2c0651d2/ios\" target=\"_blank\" rel=\"noopener\">iPhone</a>, <a href=\"https://support.apple.com/en-ca/guide/ipad/ipad997d9642/ipados\" target=\"_blank\" rel=\"noopener\">iPad</a>.</li><li><strong>Android with Google's Gboard keyboard:</strong> the microphone is at the top of the keyboard. Tap it, wait for the words \"Speak now\", then talk. <a href=\"https://support.google.com/gboard/answer/2781851?hl=en&amp;co=GENIE.Platform%3DAndroid\" target=\"_blank\" rel=\"noopener\">Google's steps</a>.</li></ul><p><strong>2. The app's own voice button.</strong> This starts a spoken conversation. You talk, and the app answers out loud. Use it when your hands are busy. The button is in or beside the box where you type.</p><p>On their help pages in October 2026, ChatGPT and Copilot call it the Voice icon. Gemini calls it Live. Claude calls it voice mode and shows a sound-wave symbol. Buttons move when apps are updated, so check your app's help page if yours looks different.</p><p>Free plans can limit spoken conversations, and some apps offer them only on certain plans or in certain regions. If the app says you have reached a limit, carry on with the keyboard microphone.</p><p><strong>3. The read-aloud button.</strong> This reads a written answer to you. Use it when your eyes are tired. Look under or beside the answer for a small speaker, or the words Read aloud or Listen. Gemini calls it Listen. Not every app has one. The exercise below gives you another way.</p>"
+    },
+    {
+     "heading": "Make the screen easier on your eyes",
+     "body_html": "<p>Text size is a setting on your device, not in the AI app. Change it once, and apps that support the setting will follow it.</p><ul><li><strong>iPhone or iPad:</strong> open Settings, tap Accessibility, tap Display &amp; Text Size, then tap Larger Text. Drag the slider. Apple's steps: <a href=\"https://support.apple.com/en-ca/guide/iphone/iph3c076905a/ios\" target=\"_blank\" rel=\"noopener\">iPhone</a>, <a href=\"https://support.apple.com/en-ca/guide/ipad/ipad9a246013/ipados\" target=\"_blank\" rel=\"noopener\">iPad</a>.</li><li><strong>Android:</strong> open Settings, type \"Font size\" in the search box, select it, and move the slider. Menus on Samsung phones, other makes and older versions of Android may look different. <a href=\"https://support.google.com/accessibility/android/answer/11183305?hl=en\" target=\"_blank\" rel=\"noopener\">Google's steps</a>.</li></ul><p>Apple notes that very large text can make buttons harder to tap. Go up one step at a time and see how it feels.</p><p>You can also ask the app to change how it writes. Say: \"Use short sentences and a numbered list.\" Short lines are easier to follow on a small screen.</p>"
+    },
+    {
+     "heading": "Speak naturally, and ask again",
+     "body_html": "<p>Talk the way you would to a helpful person at a counter. You can pause. You can correct yourself. Say \"No, I meant...\" and carry on.</p><p>If you are more comfortable in another language, try asking in it. Language support differs from app to app.</p><p>Asking again is the normal way to use this tool. It is not a sign you did something wrong. These six follow-ups work well by voice:</p><ul><li>\"Shorter, please.\"</li><li>\"Explain it in plainer words.\"</li><li>\"Give me an everyday example.\"</li><li>\"Put it in numbered steps.\"</li><li>\"What does that word mean?\"</li><li>\"Start again. I meant...\"</li></ul><p>Keep one more phrase handy. Call it the honesty question: \"How sure are you, and where could I confirm this?\"</p><p>The app may still sound confident when it is wrong. So ground rule 2 stays in place: check anything that matters.</p>"
+    },
+    {
+     "heading": "You are in control of the microphone",
+     "body_html": "<p>An app can use your microphone only after you say yes. Your device asks you the first time. That yes is called a <em>permission</em>.</p><p>You can look at this permission, or switch it off, at any time:</p><ul><li><strong>iPhone or iPad:</strong> open Settings, tap Privacy &amp; Security, then tap Microphone. Each app on the list has its own switch. Apple's steps: <a href=\"https://support.apple.com/en-ca/guide/iphone/iph168c4bbd5/ios\" target=\"_blank\" rel=\"noopener\">iPhone</a>, <a href=\"https://support.apple.com/en-ca/guide/ipad/ipade3312ebe/ipados\" target=\"_blank\" rel=\"noopener\">iPad</a>.</li><li><strong>Android:</strong> open Settings, tap Apps, tap the name of your AI app, then tap Permissions. The wording can differ by make of phone. <a href=\"https://support.google.com/android/answer/9431959?hl=en\" target=\"_blank\" rel=\"noopener\">Google's steps</a>.</li></ul><p>On an iPhone or iPad, watch the top of the screen. A small orange indicator appears while an app is using the microphone.</p><p>What you say becomes text in your chat, and it is saved like a typed message. Some apps also keep the sound recording for a time. Your app's privacy page explains what it keeps. Lesson 7 shows how to delete a chat.</p>"
+    },
+    {
+     "heading": "Safety minute",
+     "body_html": "<p>Talking out loud does not change the rules. Never read out a card number, PIN, password or one-time code. Not in an AI chat, and not to any caller.</p><p>A <em>one-time code</em> is the short number a bank or service sends to confirm it is you.</p><p>If a caller or a screen asks for one of these, stop and hang up. Then phone the organization yourself, on a number you already have, such as the one on the back of your card. The Canadian Anti-Fraud Centre has more advice on its page <a href=\"https://antifraudcentre-centreantifraude.ca/protect-protegez-eng.htm\" target=\"_blank\" rel=\"noopener\">Protect yourself from fraud</a>.</p><p>The three ground rules, the same in every lesson:</p><ol><li>Keep private numbers out.</li><li>Check anything that matters.</li><li>It is not your doctor, lawyer or financial adviser.</li></ol><p>Rule 3 is meant plainly. An AI app is not a doctor, a lawyer or a financial adviser, however sure it sounds.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Ask out loud (about 10 minutes, phone or tablet)",
+    "steps": [
+     "Open your AI app. Use this made-up practice question: \"My spider plant has brown tips on its leaves. What could be causing that?\" If you prefer, ask about another thing in the room, such as a kitchen tool.",
+     "Tap the box where you type, then tap the microphone on your keyboard. Ask the question aloud. Do not say your address, an account number or anything about your family. When your words appear as text in the box, tap send.",
+     "Use two follow-ups by voice. First say: \"Explain it in plainer words.\" Send it. Then say: \"Put it in three numbered steps.\" Send it.",
+     "Tap the read-aloud button to hear the answer. If your app does not have one, make the text one size larger in your device settings and read it instead.",
+     "Open your device settings and find where the microphone permission for the app is shown, so you know where it lives. The steps are in the section \"You are in control of the microphone\". You do not need to change it.",
+     "Your win for today: a whole conversation without typing, steered by you."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Ask about something in the room",
+     "text": "I am looking at [a thing in the room, such as a houseplant or a kitchen tool]. Tell me about it in five short sentences."
+    },
+    {
+     "label": "Make the answer easier to read",
+     "text": "Please answer again. Use short sentences and a numbered list, and explain [the word or part I did not follow] in everyday words."
+    },
+    {
+     "label": "Start again",
+     "text": "Start again. I meant [what I really wanted to ask], not [what you answered]."
+    },
+    {
+     "label": "The honesty question",
+     "text": "How sure are you about [the part that matters to me], and where could I confirm this?"
+    }
+   ],
+   "checklist": [
+    "I found the microphone on my keyboard, or my app's voice button, and asked a question aloud.",
+    "I steered the answer with two spoken follow-ups.",
+    "I heard an answer read aloud, or made the text one size larger.",
+    "I know where my device shows the microphone permission for my AI app.",
+    "I can say the honesty question: \"How sure are you, and where could I confirm this?\"",
+    "I said no card number, PIN, password or one-time code out loud."
+   ],
+   "takeaway": "You can hold a whole conversation by voice, and asking again until the answer is clear is the normal way to use an AI app.",
+   "sources": [
+    {
+     "label": "Apple Support: Dictate text on iPhone",
+     "url": "https://support.apple.com/en-ca/guide/iphone/iph2c0651d2/ios"
+    },
+    {
+     "label": "Apple Support: Dictate text on iPad",
+     "url": "https://support.apple.com/en-ca/guide/ipad/ipad997d9642/ipados"
+    },
+    {
+     "label": "Google Gboard Help: Type with your voice",
+     "url": "https://support.google.com/gboard/answer/2781851?hl=en&co=GENIE.Platform%3DAndroid"
+    },
+    {
+     "label": "Apple Support: Make text easier to read on iPhone",
+     "url": "https://support.apple.com/en-ca/guide/iphone/iph3c076905a/ios"
+    },
+    {
+     "label": "Apple Support: Make text easier to read on iPad",
+     "url": "https://support.apple.com/en-ca/guide/ipad/ipad9a246013/ipados"
+    },
+    {
+     "label": "Apple Support: Change the font size on your iPhone, iPad, and iPod touch",
+     "url": "https://support.apple.com/en-ca/102453"
+    },
+    {
+     "label": "Google Android Accessibility Help: Change text & display settings",
+     "url": "https://support.google.com/accessibility/android/answer/11183305?hl=en"
+    },
+    {
+     "label": "Apple Support: Control access to hardware features on iPhone",
+     "url": "https://support.apple.com/en-ca/guide/iphone/iph168c4bbd5/ios"
+    },
+    {
+     "label": "Apple Support: Control access to hardware features on iPad",
+     "url": "https://support.apple.com/en-ca/guide/ipad/ipade3312ebe/ipados"
+    },
+    {
+     "label": "Google Android Help: Change app permissions on your Android phone",
+     "url": "https://support.google.com/android/answer/9431959?hl=en"
+    },
+    {
+     "label": "OpenAI Help Center: ChatGPT Voice",
+     "url": "https://help.openai.com/en/articles/8400625-voice-mode-faq"
+    },
+    {
+     "label": "OpenAI Help Center: Voice Dictation - FAQ",
+     "url": "https://help.openai.com/en/articles/12168547-voice-dictation-faq"
+    },
+    {
+     "label": "Google Gemini Apps Help: Talk naturally with Gemini Live",
+     "url": "https://support.google.com/gemini/answer/15274899?hl=en&co=GENIE.Platform%3DAndroid"
+    },
+    {
+     "label": "Google Gemini Apps Help: Change Gemini's voice",
+     "url": "https://support.google.com/gemini/answer/15277943?hl=en"
+    },
+    {
+     "label": "Google Gemini Apps Help: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+    },
+    {
+     "label": "Microsoft Support: Get started with voice features in Microsoft Copilot",
+     "url": "https://support.microsoft.com/en-us/microsoft-copilot/using-copilot-voice-with-microsoft-copilot"
+    },
+    {
+     "label": "Anthropic Claude Help Center: Use voice mode",
+     "url": "https://support.claude.com/en/articles/11101966-using-voice-mode"
+    },
+    {
+     "label": "Anthropic Privacy Center: What personal data is collected when using dictation on the Claude mobile apps?",
+     "url": "https://privacy.claude.com/en/articles/10067979-what-personal-data-is-collected-when-using-dictation-on-the-claude-mobile-apps"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Protect yourself from fraud",
+     "url": "https://antifraudcentre-centreantifraude.ca/protect-protegez-eng.htm"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-seniors/lesson-2.jpg",
+   "image_alt": "A man in his late sixties stands in his kitchen speaking to a tablet on the counter, gesturing toward a potted plant on the windowsill."
+  },
+  {
+   "number": 3,
+   "slug": "lesson-3",
+   "title": "Writing Messages and Cards to Family and Friends",
+   "minutes": 12,
+   "objective": "Draft a personal message or card with AI, adjust it until it sounds like you, and keep private details out of the chat.",
+   "intro_html": "<p>A blank card can be harder than it looks. You know how you feel about the person, but the first line will not come.</p><p>In this lesson, your AI app writes a first try, called a <strong>draft</strong>. Then you shape it until it sounds like you. You will also learn one habit that keeps personal details out of the chat.</p>",
+   "sections": [
+    {
+     "heading": "What the app does, and what stays yours",
+     "body_html": "<p>An AI app is useful for four writing jobs:</p><ul><li><strong>Getting started</strong> when the page is blank.</li><li><strong>Finding the tone</strong>, whether warmer or firmer.</li><li><strong>Shortening</strong> a message that runs long.</li><li><strong>Tidying</strong> spelling and grammar.</li></ul><p>Three things stay yours: the memories, the facts and the feelings. The app has never met your friend. It only knows what you tell it in the chat.</p><p>If you give it few details, it may make some up. So read every draft and take out anything that is not true.</p>"
+    },
+    {
+     "heading": "Tell it what a helpful friend would ask",
+     "body_html": "<p>There is no formula to memorize. Picture a friend sitting beside you, offering to help with a card. They would ask a few plain questions:</p><ul><li>Who is it for? A first name is enough.</li><li>What is the occasion?</li><li>What are two or three true details?</li><li>How long should it be?</li><li>How should it sound: cheerful, gentle, or polite and firm?</li></ul><p>Answer those in ordinary sentences, by voice or by typing. For example: “Write a thank-you note of three sentences for my neighbour Joan. She watered my tomatoes for two weeks. Make it cheerful.”</p><p>The same approach works for many kinds of message:</p><ul><li>a birthday or anniversary note</li><li>a thank-you card</li><li>a catch-up message to a grandchild</li><li>a few lines of sympathy</li><li>a polite and firm note to a landlord or condo office</li></ul>"
+    },
+    {
+     "heading": "Keep your own voice, then copy it out",
+     "body_html": "<p>The first draft is rarely the one to send. It may sound too fancy, or not like you at all. That is normal, and you fix it by asking again.</p><p>Use the short follow-ups from Lesson 2. These work well for messages:</p><ul><li>“Give me two versions.”</li><li>“Plainer, more like how I talk.”</li><li>“Shorter, please.”</li></ul><p>Then change a word or two yourself. Put in the nickname you use, or a phrase you always say. Small changes make the message yours.</p><p>Last, read it aloud. If you would never say a line, change it.</p><p><strong>Moving the message out of the app.</strong> Look under the answer for a Copy button. It may be the word “Copy” or a small icon, often two overlapping squares. <strong>Copy</strong> tells your phone to remember the words. <strong>Paste</strong> puts them down somewhere else.</p><p>Next, open your messages or email app and start a new message. On an iPhone or iPad, tap where the words should go. If the word Paste does not appear, tap the same spot once more. Then tap Paste. On an Android phone or tablet, touch and hold that spot, then tap Paste.</p><p>Apps move their buttons from time to time. If you cannot find Copy, press and hold on the answer and look for it in the menu. You can also write the message out by hand on a card.</p>"
+    },
+    {
+     "heading": "Writing to relatives in another language",
+     "body_html": "<p>AI apps can write in many languages. Several of the companies behind them list the languages they support on their help pages.</p><p>This can help with a note to relatives abroad. Write your message in the language you find most comfortable. Then ask the app to put it into theirs.</p><p>Take care with anything important. Names, sayings and tone can come out wrong. Ask a family member who speaks the language well to read it before you send it.</p>"
+    },
+    {
+     "heading": "The placeholder habit and your safety minute",
+     "body_html": "<p>A <strong>placeholder</strong> is a stand-in word. You type the stand-in in the chat. Later, you add the real detail by hand.</p><ul><li>Use first names only.</li><li>Type “[my address]” or “[account number]” in place of the real thing.</li><li>Leave out other people's private details, such as their health or money matters.</li><li>Leave out the dates your home will be empty.</li></ul><p>Here is the reason. Most AI apps save your chats so you can find them again. Some also use chats to improve the app, unless you change a setting. Lesson 7 shows you where that setting is.</p><p>The Office of the Privacy Commissioner of Canada gives similar advice for anything you share online. The first tip on its page <a href=\"https://www.priv.gc.ca/en/privacy-topics/technology/online-privacy-tracking-cookies/online-privacy/protecting-your-privacy-online/\" target=\"_blank\" rel=\"noopener\">5 tips to protect your privacy online</a> is “Share with caution”.</p><p><strong>Safety minute.</strong> You have now seen how fast an app can write a warm, tidy message. Anyone can do the same. Good spelling and a friendly tone no longer prove that a message is genuine. <a href=\"https://www.getcybersafe.gc.ca/en/blogs/cyber-criminals-are-using-artificial-intelligence-ai-online-threats\" target=\"_blank\" rel=\"noopener\">Get Cyber Safe</a>, a Government of Canada campaign, makes the same point about scam messages.</p><p>One calm action covers it. If a message asks for money, gift cards or a code, stop. Then call the person on a number you already have. Lesson 6 covers this in full.</p><p>The three ground rules apply here, as in every lesson:</p><ol><li>Keep private numbers out.</li><li>Check anything that matters.</li><li>It is not your doctor, lawyer or financial adviser.</li></ol><p>Said plainly: an AI app is not a doctor, a lawyer or a financial adviser. It can help you word a note to your landlord. For advice about your rights, your health or your money, ask a qualified person.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "A message someone would be glad to get: a practice run (about 10 minutes, phone or tablet)",
+    "steps": [
+     "Open your AI app and start a new chat. A new chat is a fresh conversation, so earlier topics do not get mixed in. Look for the words “New chat”, or a small pencil or plus symbol. Buttons differ from app to app. This practice run uses a made-up friend called Rosa, so nothing personal goes into the chat.",
+     "Type or say this practice request: “Please write a short birthday message of three or four sentences for my friend Rosa. She is turning 75. She taught me to make perogies, and we went fishing together every July. Make it warm and plain.”",
+     "Read the draft. Then ask for one change. Say “Warmer”, “Shorter”, or “Plainer, more like how I talk.”",
+     "Look under the answer for the Copy button and tap it. If you cannot find one, press and hold on the answer and choose Copy from the menu.",
+     "Open your notes app, or start a new email and leave the “To” line empty. On an iPhone or iPad, tap in the writing space. If Paste does not appear, tap the same spot once more. Then tap Paste. On an Android phone or tablet, touch and hold in the writing space, then tap Paste.",
+     "Change at least two phrases yourself, as if Rosa were your own friend. Then read the message aloud. If a line sounds stiff, change it.",
+     "Your win for today: you steered a draft until it sounded like you, and you moved it out of the app. You do not need to send this one. When you write to a real person, follow the same steps, use a first name only, and leave out addresses and phone numbers. Sending is always your choice."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "A birthday, thank-you or thinking-of-you note",
+     "text": "Please write a short [birthday / thank-you / thinking-of-you] message of three or four sentences for [first name]. Two true things about us are [first detail] and [second detail]. Make it sound [warm / cheerful / gentle] and plain, the way I would say it out loud. Do not add any facts I have not given you."
+    },
+    {
+     "label": "Make it sound more like me",
+     "text": "Give me two more versions of that message. Make one [warmer / shorter] and one [more playful / more gentle]. Use plain, everyday words, more like how I talk."
+    },
+    {
+     "label": "A polite and firm note",
+     "text": "Help me write a polite and firm note to my [landlord / condo office]. The problem is [the problem in one sentence]. It started [when it started]. I would like [what you want done] by [date]. Keep it under 120 words. Do not ask for my name, address or unit number. Leave a labelled blank for each one so I can add them by hand."
+    },
+    {
+     "label": "A message in another language",
+     "text": "Please write this message in [language] for my [cousin / friend] [first name]: [your message]. Keep it short and friendly. Under each line, show the meaning in English so I can check it."
+    }
+   ],
+   "checklist": [
+    "I told the app who the message was for, the occasion and two details.",
+    "I asked for at least one change, such as warmer, shorter or plainer.",
+    "I changed two phrases myself and read the message aloud.",
+    "I found Copy and pasted the message into another app, or I know I can write it out by hand.",
+    "I used first names only and kept addresses, phone numbers and account numbers out of the chat.",
+    "I can say the three ground rules without looking."
+   ],
+   "takeaway": "The app can hand you a first draft in seconds, but the memories, the facts and the final word are yours.",
+   "sources": [
+    {
+     "label": "Office of the Privacy Commissioner of Canada: 5 tips to protect your privacy online",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/technology/online-privacy-tracking-cookies/online-privacy/protecting-your-privacy-online/"
+    },
+    {
+     "label": "Office of the Privacy Commissioner of Canada: 10 tips for protecting personal information",
+     "url": "https://www.priv.gc.ca/en/privacy-topics/information-and-advice-for-individuals/your-privacy-rights/02_05_d_64_tips/"
+    },
+    {
+     "label": "Get Cyber Safe: How cyber criminals are using artificial intelligence (AI) for online threats",
+     "url": "https://www.getcybersafe.gc.ca/en/blogs/cyber-criminals-are-using-artificial-intelligence-ai-online-threats"
+    },
+    {
+     "label": "Get Cyber Safe: How to avoid sharing too much information online",
+     "url": "https://www.getcybersafe.gc.ca/en/blogs/how-avoid-sharing-too-much-information-online"
+    },
+    {
+     "label": "Apple Support: Copy and paste between your iPhone and other Apple devices",
+     "url": "https://support.apple.com/en-ca/guide/iphone/iph220ea8dca/ios"
+    },
+    {
+     "label": "Apple Support: Select, edit, and move text on iPhone",
+     "url": "https://support.apple.com/en-ca/guide/iphone/iph1a9cae52c/ios"
+    },
+    {
+     "label": "Google Docs Editors Help: Copy and paste text and images (Android)",
+     "url": "https://support.google.com/docs/answer/161768?hl=en&co=GENIE.Platform%3DAndroid"
+    },
+    {
+     "label": "Google Gemini Apps Help: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+    },
+    {
+     "label": "Google Gemini Apps Help: Where you can use the Gemini web app",
+     "url": "https://support.google.com/gemini/answer/13575153?hl=en"
+    },
+    {
+     "label": "Microsoft Support: Privacy FAQ for Microsoft Copilot",
+     "url": "https://support.microsoft.com/en-us/topic/privacy-faq-for-microsoft-copilot-27b3a435-8dc9-4b55-9a4b-58eeb9647a7f"
+    },
+    {
+     "label": "Microsoft Support: Supported languages for Microsoft Copilot",
+     "url": "https://support.microsoft.com/en-us/microsoft-copilot/supported-regions-and-languages-in-microsoft-copilot"
+    },
+    {
+     "label": "Anthropic Privacy Center: Is my data used for model training?",
+     "url": "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training"
+    },
+    {
+     "label": "Claude Help Center: How to use Claude in your preferred language",
+     "url": "https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-seniors/lesson-3.jpg",
+   "image_alt": "A grandfather in his seventies writes in a greeting card at a small desk, with a phone leaning against a jar of garden flowers."
+  },
+  {
+   "number": 4,
+   "slug": "lesson-4",
+   "title": "Making Sense of a Confusing Bill or Letter",
+   "minutes": 15,
+   "objective": "Get a plain-language explanation of a confusing bill or letter after leaving out your personal details, and decide which real person or office to confirm it with.",
+   "intro_html": "<p>A letter arrives full of words like \"arrears\" and \"remit\". You read it twice and still are not sure what it wants from you. Turning official wording into plain words is something your AI app does well.</p><p>Today you will practise on a made-up notice. You will also learn two habits for your own mail. Cover up your details before you share anything. Then confirm with a real person or office before you act.</p>",
+   "sections": [
+    {
+     "heading": "What your AI app can do with a confusing page",
+     "body_html": "<p>Your AI app is good at four things here:</p><ul><li>putting <em>jargon</em> into plain words. Jargon means the special words that offices and companies use</li><li>summing up a long page in a few lines</li><li>listing what you are being asked to do, and by when</li><li>suggesting questions to ask the sender</li></ul><p>There are three ways to show it a document. You can read the confusing part aloud, as you did in Lesson 2. You can type or paste the words. Or you can take a photo, if your free app allows it.</p><p>Before an app can use your camera or photos, your phone or tablet asks your permission. You may say no and read the page aloud instead.</p><p>Start with only the part you do not understand. One paragraph is often enough.</p>"
+    },
+    {
+     "heading": "The cover-up habit, every time",
+     "body_html": "<p>A bill or letter holds far more about you than a birthday message does. Before you share any part of one, leave out or cover these details:</p><ul><li>your full name, address and date of birth</li><li>account and customer numbers</li><li>card numbers</li><li>your health-card number and social insurance number</li></ul><p>Cover any barcode or square code (often called a QR code) as well. This is a simple precaution.</p><p>If you read aloud, skip those lines. If you type, put \"[my account number]\" in place of the real one, as in Lesson 3. If you take a photo, cover the details with sticky notes or a folded sheet of paper first.</p><p>Before you send a photo, look at what else is in the frame. Other mail or a pill bottle may be in view.</p><p>There is a reason for this habit. The company behind an app may store what you send. Google's privacy page for its Gemini app gives this advice. Do not enter confidential information you would not want a reviewer to see. Lesson 7 shows the settings that give you more say.</p><p>Ontario's guide for seniors says to give your health-card number to no one except a health care provider. Rules differ in other provinces.</p>"
+    },
+    {
+     "heading": "The paper is the authority",
+     "body_html": "<p>An AI app can misread a number or mix up a date. It can also sound sure when it is wrong.</p><p>Treat its answer as a helpful first reading. Then hold the summary beside the letter. Check every amount, date and name against the paper. If they differ, the paper wins.</p>"
+    },
+    {
+     "heading": "Take the decision to the right person",
+     "body_html": "<p>An AI app is not a doctor, a lawyer or a financial adviser. Google and Microsoft both tell people not to use their AI apps in place of professional advice.</p><p>Use the app to understand the words and prepare your questions. Then take the decision to a person whose job it is.</p><p>These Ontario contacts were checked on 6 October 2026. Other provinces have their own services.</p><ul><li><strong>Health letters and medicine questions:</strong> your pharmacist, or Health811. Dial 811 to talk with a registered nurse. It is free and open 24 hours a day. TTY (text telephone) users dial 711.</li><li><strong>Legal letters:</strong> Legal Aid Ontario, at 1-800-668-8258 or 416-979-1446 in the Greater Toronto Area. It answers Monday to Friday, 8 a.m. to 5 p.m. Eastern time. It also funds community legal clinics. For free general legal information, read Steps to Justice at <a href=\"https://stepstojustice.ca/\" target=\"_blank\" rel=\"noopener\">stepstojustice.ca</a>. Steps to Justice also describes the Law Society Referral Service. It offers a free 30-minute consultation with a lawyer or paralegal. Look it up on the Law Society of Ontario's own website.</li><li><strong>Bank and credit letters:</strong> your own branch, or the number on the back of your card. The <a href=\"https://www.canada.ca/en/financial-consumer-agency.html\" target=\"_blank\" rel=\"noopener\">Financial Consumer Agency of Canada</a> has consumer information on banking, loans and debt.</li><li><strong>Tax letters:</strong> the Canada Revenue Agency, at 1-800-959-8281. It answers Monday to Friday, 8 a.m. to 8 p.m. Eastern time.</li><li><strong>Canada Pension Plan and Old Age Security letters:</strong> Service Canada, at 1-800-277-9914 (TTY 1-800-255-4786). It answers Monday to Friday, 8:30 a.m. to 4:30 p.m. local time.</li><li><strong>Not sure who to ask:</strong> dial 2-1-1. This free, confidential helpline points you to community and social services. In Ontario it is answered 24 hours a day, in more than 150 languages.</li></ul>"
+    },
+    {
+     "heading": "The call-back rule, and your safety minute",
+     "body_html": "<p>Sometimes the first question is whether a letter or bill is real. The call-back rule answers it.</p><p>To confirm, use a phone number or web address you already have. Look on the back of your card or on an older statement. Or type the organization's web address yourself.</p><p>Never use the contact details printed in something you are unsure about. The Canada Revenue Agency gives similar advice about suspicious calls: find an official phone number and call it yourself.</p><p><strong>Safety minute:</strong> if a letter involves money, a deadline or your health, confirm with the organization before you act. Taking a few minutes to check is always reasonable.</p><p>The three ground rules, the same in every lesson:<br>(1) Keep private numbers out.<br>(2) Check anything that matters.<br>(3) It is not your doctor, lawyer or financial adviser.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Decode the practice notice (about 10 minutes, phone or tablet)",
+    "steps": [
+     "Open your AI app and start a new chat. Give it the made-up notice that follows. You can copy it from the box labelled \"Practice notice (made-up)\" on this page and paste it in. Or tap the microphone and read it aloud. The notice says: \"WILLOWMERE HYDRO. NOTICE OF ARREARS. Customer: [name covered]. Account number: [covered]. Our records show an outstanding balance of $148.36 on your account. This amount is now in arrears. Please remit payment in full on or before March 12, 2027. A late payment charge of 1.5% per month will apply to any amount unpaid after that date. If you are enrolled in pre-authorized debit, please disregard this notice. Questions? Call 416-555-0142 or visit www.example.com.\"",
+     "Ask: \"Explain this in plain language. What is it asking me to do, and by when?\"",
+     "Ask: \"List any words I might not know and explain each one in a sentence.\"",
+     "Ask: \"Who should I contact to confirm this is genuine, and how should I find their phone number?\"",
+     "Compare the answers with this answer key. What it is: a reminder that a bill was not paid on time. Amount: $148.36. Pay by: March 12, 2027. If it is late: a charge of 1.5% a month is added. Exception: if the bill is paid by automatic withdrawal from a bank account, the notice can be ignored. Words: \"arrears\" means money that is overdue. \"Remit\" means send payment. \"Outstanding balance\" means the amount still unpaid. \"Pre-authorized debit\" means an automatic withdrawal you agreed to. \"Disregard\" means ignore. Did your app get the amount and the date right?",
+     "Now check the call-back rule. A good answer tells you to use a number you already have, such as one on an older bill. It may also tell you to type the company's web address yourself. If your app told you to phone the number printed on the notice, that is the mistake to watch for. (Willowmere Hydro is invented. The phone number and web address in the notice are set aside for examples and belong to no real company.)",
+     "Your win for today: a confusing page turned into a plain summary, and you checked the AI's work. Because the notice is invented, you shared nothing personal. With your own mail, apply the cover-up habit first."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Practice notice (made-up)",
+     "text": "WILLOWMERE HYDRO. NOTICE OF ARREARS. Customer: [name covered]. Account number: [covered]. Our records show an outstanding balance of $148.36 on your account. This amount is now in arrears. Please remit payment in full on or before March 12, 2027. A late payment charge of 1.5% per month will apply to any amount unpaid after that date. If you are enrolled in pre-authorized debit, please disregard this notice. Questions? Call 416-555-0142 or visit www.example.com."
+    },
+    {
+     "label": "Plain-language summary of your own letter",
+     "text": "Explain this in plain language, using short sentences. What is it asking me to do, and by when? I have left out my personal details on purpose. Here is the part I do not understand: [type, paste or read out the confusing part]"
+    },
+    {
+     "label": "Words I might not know",
+     "text": "List any words in this [bill or letter] that I might not know. Explain each one in one sentence, with an everyday example."
+    },
+    {
+     "label": "Questions for the real office",
+     "text": "I am going to phone [the kind of office, for example \"my electricity company\" or \"my bank\"] to confirm this letter and ask what to do. Give me five short questions to ask. Do not give me a phone number. I will use one I already have."
+    }
+   ],
+   "checklist": [
+    "I showed the app only the part I did not understand.",
+    "I left out or covered my name, address, date of birth and every account, card, health-card and social insurance number.",
+    "I covered any barcode or square code, and looked at what else was in the photo before sending it.",
+    "I checked every amount and date in the AI's answer against the paper.",
+    "I know which person or office to take the decision to.",
+    "To confirm a letter is real, I use a phone number or web address I already have, not the one printed on it."
+   ],
+   "takeaway": "Let your AI app explain the words, then let the paper and the right person or office decide what you do.",
+   "sources": [
+    {
+     "label": "Government of Ontario: Health and well-being (A guide to programs and services for seniors)",
+     "url": "https://www.ontario.ca/document/guide-programs-and-services-seniors/health-and-well-being"
+    },
+    {
+     "label": "Government of Ontario: Your health",
+     "url": "https://www.ontario.ca/page/your-health"
+    },
+    {
+     "label": "Legal Aid Ontario: How do I apply for legal aid?",
+     "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/"
+    },
+    {
+     "label": "Legal Aid Ontario: Find a legal clinic",
+     "url": "https://www.legalaid.on.ca/legal-clinics/"
+    },
+    {
+     "label": "Steps to Justice (Community Legal Education Ontario): Home",
+     "url": "https://stepstojustice.ca/"
+    },
+    {
+     "label": "Steps to Justice (Community Legal Education Ontario): 1. Get legal help",
+     "url": "https://stepstojustice.ca/steps/1-get-legal-help"
+    },
+    {
+     "label": "Canada Revenue Agency: Contact the Canada Revenue Agency (CRA)",
+     "url": "https://www.canada.ca/en/revenue-agency/corporate/contact-information.html"
+    },
+    {
+     "label": "Canada Revenue Agency: Scams and fraud - Recognize a scam",
+     "url": "https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html"
+    },
+    {
+     "label": "Employment and Social Development Canada: Canada Pension Plan (contact)",
+     "url": "https://www.canada.ca/en/employment-social-development/corporate/contact/cpp.html"
+    },
+    {
+     "label": "Employment and Social Development Canada: Old Age Security (contact)",
+     "url": "https://www.canada.ca/en/employment-social-development/corporate/contact/oas.html"
+    },
+    {
+     "label": "211 Ontario: Contact",
+     "url": "https://211ontario.ca/contact/"
+    },
+    {
+     "label": "211 Canada: Connect to Essential Services with 211",
+     "url": "https://211.ca/"
+    },
+    {
+     "label": "Financial Consumer Agency of Canada: Financial Consumer Agency of Canada",
+     "url": "https://www.canada.ca/en/financial-consumer-agency.html"
+    },
+    {
+     "label": "Google: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en-CA"
+    },
+    {
+     "label": "Google: Upload & analyze files in Gemini Apps",
+     "url": "https://support.google.com/gemini/answer/14903178?hl=en-CA"
+    },
+    {
+     "label": "Microsoft: Microsoft Copilot Supplemental Terms of Use",
+     "url": "https://www.microsoft.com/en-ca/microsoft-copilot/for-individuals/termsofuse"
+    },
+    {
+     "label": "Anthropic: Consumer Terms of Service",
+     "url": "https://www.anthropic.com/legal/consumer-terms"
+    },
+    {
+     "label": "Anthropic: Is my data used for model training?",
+     "url": "https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training"
+    },
+    {
+     "label": "Google Android Help: Change app permissions on your Android phone",
+     "url": "https://support.google.com/android/answer/9431959?hl=en"
+    },
+    {
+     "label": "North American Numbering Plan Administrator: 555 Line Numbers",
+     "url": "https://nanpa.com/numbering/555-line-numbers"
+    },
+    {
+     "label": "Internet Assigned Numbers Authority: Example Domains",
+     "url": "https://www.iana.org/help/example-domains"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-seniors/lesson-4.jpg",
+   "image_alt": "A woman in her eighties at a dining table holds a phone above a paper notice, with a sticky note covering the top corner of the page."
+  },
+  {
+   "number": 5,
+   "slug": "lesson-5",
+   "title": "Planning Meals, Outings and Hobbies",
+   "minutes": 12,
+   "objective": "Plan a few days of meals, a small outing or a hobby project with AI, and confirm the details that matter before relying on them.",
+   "intro_html": "<p>So far you have used your AI app to ask, to write and to read. Today you use it to plan. That could be a few suppers, a half-day out or a hobby project.</p><p>Treat any plan from an AI app as a first draft. It is useful, and it can also be wrong. So this lesson adds one habit: confirm the details that matter before you rely on them.</p>",
+   "sections": [
+    {
+     "heading": "Tell it about you, in ordinary sentences",
+     "body_html": "<p>An AI app does not know your kitchen, your budget or your pace. A plan fits you only when you tell it a few things.</p><p>Say them the way you would to a friend who is helping you:</p><ul><li>how many people the plan is for</li><li>how much you want to spend</li><li>what you like and what you dislike</li><li>how far you can comfortably walk</li><li>the season or the month</li><li>for meals, what is already in your kitchen</li></ul><p>You do not need all six every time. Two or three details already give a better plan. If the answer does not suit you, ask again, as you practised in Lesson 2.</p>"
+    },
+    {
+     "heading": "Meals: suppers, a shopping list and leftovers",
+     "body_html": "<p>Meals are a good place to start. Ask for a few simple suppers for one or two people. Ask for one shopping list, grouped by section of the store. Then ask for ways to use up the leftovers.</p><p>The app can suggest meals. It cannot know your health. <strong>An AI app is not a doctor, a lawyer or a financial adviser.</strong></p><p>Do you have a food allergy or a health condition? Do you take a medication that affects what you eat? Then pause before you follow the plan. Take it to your doctor, your pharmacist or a registered dietitian. A registered dietitian is a trained, regulated expert in food and health.</p><p>If you have a food allergy, read the label on each package yourself, every time. The Canadian Food Inspection Agency gives the same advice.</p><p>In Ontario, you can call <strong>811</strong> and ask to speak with a registered dietitian. If you use a TTY (a text telephone), call 711. The Ontario government says this advice on food and healthy eating is free. Other provinces differ, so check your provincial government's website.</p><p>For general ideas, Health Canada publishes <a href=\"https://www.canada.ca/en/health-canada/services/food-guide.html\" target=\"_blank\" rel=\"noopener\">Canada's food guide</a>. It has a page called <a href=\"https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/seniors.html\" target=\"_blank\" rel=\"noopener\">Healthy eating for seniors</a>, with tips on cooking for one or two people.</p>"
+    },
+    {
+     "heading": "Outings and hobbies",
+     "body_html": "<p>For an outing, ask for a relaxed half-day plan. Say that you want rest stops, places to sit and washrooms along the way. Ask for a packing list. Ask for questions to put to the venue before you book. A venue is the place you plan to visit.</p><p>Know two limits. First, the app does not make the booking. Second, it may describe hours, prices or even places that are out of date or do not exist. It can sound sure and still be wrong. The next section shows the calm fix.</p><p>Here is one local example. Toronto Public Library offers free passes to some arts and cultural attractions in the city. You need an adult library card. The program is called tpl:map (checked on 6 October 2026). Check the library's own website for details.</p><p>For a trip outside Canada, start with the Government of Canada's <a href=\"https://travel.gc.ca/travelling/advisories\" target=\"_blank\" rel=\"noopener\">Travel advice and advisories</a>. Read its page on <a href=\"https://travel.gc.ca/travelling/documents/travel-insurance\" target=\"_blank\" rel=\"noopener\">travel health insurance</a> before you go. Your provincial health plan may pay none, or only a small part, of medical bills outside Canada.</p><p>Hobbies work the same way. You can ask for:</p><ul><li>what to plant this month</li><li>help reading one line of a knitting pattern</li><li>questions to ask relatives for a family history</li><li>the rules of a card game</li><li>book suggestions</li><li>a few phrases to learn before a visit</li></ul>"
+    },
+    {
+     "heading": "The double-check habit",
+     "body_html": "<p>Ground rule 2 says: check anything that matters. In a plan, five kinds of detail matter most:</p><ul><li>opening days and hours</li><li>prices</li><li>accessibility, such as ramps, elevators and seating</li><li>bus, subway and train times</li><li>cooking temperatures</li></ul><p>Confirm each one with the place itself, by phone or on its own website. For transit times and fares, use the transit company's own website.</p><p>For cooking temperatures, use Health Canada's page <a href=\"https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html\" target=\"_blank\" rel=\"noopener\">Safe cooking temperatures</a>. For example, it lists poultry pieces, such as chicken thighs, at 74°C (165°F). A whole bird is listed at 82°C (180°F).</p><p>Some free AI apps can search the web and show where an answer came from. Not every answer comes with a source. So ask: <em>\"Which website did that come from?\"</em> Then find that organization's website yourself and read the page. If the app cannot name a source, treat the detail as not yet confirmed.</p>"
+    },
+    {
+     "heading": "Keep your plan, then the safety minute",
+     "body_html": "<p>When a plan suits you, ask: <em>\"Put this in one large-print list.\"</em> Tap the copy button and paste the list into your notes app, or send it to a family member.</p><p><strong>Safety minute.</strong> Planning often ends with booking and paying. Do that part outside the chat.</p><ul><li>Book and pay only on a website you reached yourself and already trust. Type the web address yourself, or phone the place directly. Do not book through a link in a text, an email or an advertisement.</li><li>If a price looks too good to be true, pause and check the company first. The <a href=\"https://antifraudcentre-centreantifraude.ca/protect-protegez-eng.htm\" target=\"_blank\" rel=\"noopener\">Canadian Anti-Fraud Centre</a> advises checking that any organization you deal with is real.</li><li>In the chat, name your city or neighbourhood, not your street address. Leave out the dates your home will be empty.</li><li>Never type a passport number or a card number into the chat. No plan needs them.</li></ul><p>The three ground rules, the same in every lesson:</p><p><strong>(1) Keep private numbers out. (2) Check anything that matters. (3) It is not your doctor, lawyer or financial adviser.</strong></p>"
+    }
+   ],
+   "exercise": {
+    "title": "Three suppers, one shopping list, one fact checked (about 10 minutes, phone or tablet)",
+    "steps": [
+     "Open your AI app and start a new chat. Type or say this made-up practice kitchen: \"I cook for two people. In my kitchen I have four chicken thighs, carrots, half a cabbage, rice and eggs. We do not like mushrooms. I want suppers that take about 30 minutes and use one pot or one pan.\"",
+     "Ask: \"Suggest three simple suppers for the next three days.\" Read the three ideas.",
+     "Swap one: \"I don't feel like the second one. Give me another.\"",
+     "Ask: \"Make one shopping list for all three suppers, grouped by section of the store, in large print.\"",
+     "Ask: \"Which details in this plan should I double-check?\" Then ask: \"What inside temperature should chicken thighs reach to be safe to eat?\"",
+     "Check that answer yourself. Open the Health Canada page called Safe cooking temperatures, using the link in the section \"The double-check habit\" of this lesson. Scroll to the heading that starts with the word Poultry. Find the row for Pieces. It should read 74°C (165°F). On paper, note whether the AI was right.",
+     "Your win for today: a plan made for one kitchen, a list you could shop from, and one fact you confirmed yourself. For a second round, repeat the steps with the foods really in your kitchen. Or plan an outing: ask for \"a relaxed half-day out for two people in [your city] this month, with places to sit and washrooms nearby\". Then confirm one opening time on the place's own website or by phone. Name your city only, never your street address."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Three suppers and a shopping list",
+     "text": "I cook for [number] people. In my kitchen I have [three or four foods]. We do not like [food]. I want suppers that take about [number] minutes. Suggest three simple suppers for the next three days. Then make one shopping list for all three, grouped by section of the store, in large print."
+    },
+    {
+     "label": "A relaxed half-day out",
+     "text": "Plan a relaxed half-day out for [number] people in [city or neighbourhood] in [month]. I can walk for about [number] minutes at a time. Include places to sit and washrooms. Add a short packing list. Then list the questions I should ask each place before I book."
+    },
+    {
+     "label": "Getting started with a hobby",
+     "text": "I would like help with [hobby, such as gardening, knitting or family history]. I am [a beginner / coming back to it after many years]. Give me five short steps to get started this [season or month], in plain words and large print."
+    },
+    {
+     "label": "The double-check question",
+     "text": "Which details in this plan should I double-check before I rely on it? For each one, tell me what kind of place or official website can confirm it. Do not guess at phone numbers or web addresses."
+    }
+   ],
+   "checklist": [
+    "I gave the app a few details about me in ordinary sentences, with no street address.",
+    "I asked for a plan and then changed one thing about it.",
+    "I asked for a large-print list and I know how to copy it into my notes.",
+    "I confirmed one detail myself, on an official website or with the place itself.",
+    "I know that questions about allergies, health conditions or medication go to my doctor, pharmacist or a registered dietitian.",
+    "I will book and pay only on a website I reached myself and already trust."
+   ],
+   "takeaway": "A plan from your AI app is a useful first draft, and it becomes a plan you can rely on once you have confirmed the details that matter with the place itself or an official source.",
+   "sources": [
+    {
+     "label": "Health Canada: Safe cooking temperatures",
+     "url": "https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html"
+    },
+    {
+     "label": "Health Canada: Canada's food guide",
+     "url": "https://www.canada.ca/en/health-canada/services/food-guide.html"
+    },
+    {
+     "label": "Health Canada: Healthy eating for seniors",
+     "url": "https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/seniors.html"
+    },
+    {
+     "label": "Health Canada: Food Allergies and Intolerances",
+     "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-allergies-intolerances.html"
+    },
+    {
+     "label": "Canadian Food Inspection Agency: Have food allergies? Tips for reading food labels",
+     "url": "https://inspection.canada.ca/en/inspect-and-protect/articles/tips-reading-food-labels"
+    },
+    {
+     "label": "Government of Ontario: Healthy choices",
+     "url": "https://www.ontario.ca/page/healthy-choices"
+    },
+    {
+     "label": "Government of Ontario: Your health",
+     "url": "https://www.ontario.ca/page/your-health"
+    },
+    {
+     "label": "Government of Ontario: Health and well-being (A guide to programs and services for seniors)",
+     "url": "https://www.ontario.ca/document/guide-programs-and-services-seniors/health-and-well-being"
+    },
+    {
+     "label": "Government of Canada: Travel advice and advisories",
+     "url": "https://travel.gc.ca/travelling/advisories"
+    },
+    {
+     "label": "Government of Canada: Trip interruption and travel health insurance",
+     "url": "https://travel.gc.ca/travelling/documents/travel-insurance"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Protect yourself from fraud",
+     "url": "https://antifraudcentre-centreantifraude.ca/protect-protegez-eng.htm"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Merchandise",
+     "url": "https://www.antifraudcentre-centreantifraude.ca/scams-fraudes/merchandise-marchandises-eng.htm"
+    },
+    {
+     "label": "Competition Bureau Canada: Online shopping scams: handle with care",
+     "url": "https://www.canada.ca/en/competition-bureau/news/2018/03/online-shopping-scams-handle-with-care.html"
+    },
+    {
+     "label": "Toronto Public Library: tpl:map",
+     "url": "https://tpl.ca/using-the-library/services/map/"
+    },
+    {
+     "label": "Anthropic: Enabling and using web search",
+     "url": "https://support.claude.com/en/articles/10684626-enabling-and-using-web-search"
+    },
+    {
+     "label": "Google: View related sources from Gemini Apps",
+     "url": "https://support.google.com/gemini/answer/14143489?hl=en"
+    },
+    {
+     "label": "Google: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-seniors/lesson-5.jpg",
+   "image_alt": "An older couple at a kitchen counter with fresh vegetables; one writes on a notepad while the other speaks to a tablet on a stand."
+  },
+  {
+   "number": 6,
+   "slug": "lesson-6",
+   "title": "AI Scam Calls and Messages: Pause, Hang Up, Call Back",
+   "minutes": 15,
+   "objective": "Recognize the warning signs of AI voice-cloning \"grandparent\" calls and fake messages, and respond with one routine: pause, hang up, call back on a number you already have.",
+   "intro_html": "<p>In Lesson 3, your AI app helped you write a warm, tidy message in seconds. Criminals have the same kind of tool. They use it to write flawless messages and to imitate a voice from a short recording.</p><p>So a familiar voice or a polished message no longer proves who is contacting you. This lesson gives you one routine that works anyway: <strong>pause, hang up, call back</strong>.</p>",
+   "sections": [
+    {
+     "heading": "The “grandparent” call, step by step",
+     "body_html": "<p>The <a href=\"https://antifraudcentre-centreantifraude.ca/scams-fraudes/emergency-urgence-eng.htm\" target=\"_blank\" rel=\"noopener\">Canadian Anti-Fraud Centre</a> calls this an emergency fraud, or grandparent fraud. It can target anyone, not only grandparents.</p><p>It often runs like this:</p><ol><li>The phone rings. A voice that sounds like a grandchild or relative says they are in trouble. It may be an arrest, a car accident or trouble getting home from another country.</li><li>A second caller may join in, claiming to be a police officer or a lawyer.</li><li>They push you to act right away. They may say a “gag order” (a court order to stay silent) forbids you from telling anyone.</li><li>They ask for money in an odd way. It may be cash for a courier (a delivery person) or cash in the mail. It may be gift cards or cryptocurrency, a kind of digital money.</li></ol><p>The voice may sound exactly right. The <a href=\"https://rcmp.ca/en/yukon/news/2025/07/yukoners-we-need-you-talk-about-fraud-your-family-friends-and-neighbors\" target=\"_blank\" rel=\"noopener\">RCMP has warned</a> that scammers may use AI-made voices to pose as a loved one. The <a href=\"https://www.cyber.gc.ca/en/what-voice-phishing-vishing-itsap00102\" target=\"_blank\" rel=\"noopener\">Canadian Centre for Cyber Security</a> says criminals use AI and short audio samples to imitate a voice.</p><p>You do not have to judge the voice. The warning signs do that.</p>"
+    },
+    {
+     "heading": "Three warning signs that do not change",
+     "body_html": "<p>These three signs are hard to hide. They apply to calls, texts and emails.</p><ul><li><strong>Hurry.</strong> “Right now.” “Today.” “Before the bank closes.”</li><li><strong>Secrecy.</strong> “Don't tell Mom.” “You are not allowed to talk about this.”</li><li><strong>An unusual way to pay, or a request for a code.</strong> Gift cards, cash for a courier, or cryptocurrency. Or a request for a PIN, a password, access to your device or a one-time code. (A one-time code is the short number a bank texts you.)</li></ul><p>A new phone number is a fourth clue. The Canadian Anti-Fraud Centre describes messages that say, in effect, “My phone broke, here is my new number.”</p><p><strong>One sign is enough.</strong> You do not need to be sure before you act.</p>"
+    },
+    {
+     "heading": "One routine for every case: pause, hang up, call back",
+     "body_html": "<ol><li><strong>Pause.</strong> Take one slow breath. Agree to nothing.</li><li><strong>Hang up, or do not reply.</strong> You do not owe the caller a reason. Ending the call is not rude.</li><li><strong>Call back on a number you already have.</strong> Use your address book, your contacts list or the back of your bank card. Never use a number the caller or the message gives you.</li></ol><p>A real emergency can wait five minutes for a check. A real grandchild will understand.</p><p>The number on your screen can be faked. The <a href=\"https://crtc.gc.ca/eng/phone/telemarketing/identit.htm\" target=\"_blank\" rel=\"noopener\">CRTC</a>, Canada's telecom regulator, calls this caller ID spoofing.</p><p>If the caller claims to be police, hang up and call your local police yourself. In Toronto, the <a href=\"https://www.tps.ca/contact/416-808-2222-police-non-emergency/\" target=\"_blank\" rel=\"noopener\">police non-emergency line</a> is 416-808-2222. From a mobile phone, you can also dial *877 (*TPS). Elsewhere, look up the number on your police service's own website. If anyone is in immediate danger, call 911.</p><p><strong>Add a family code word.</strong> The RCMP suggests one, and the Canadian Centre for Cyber Security suggests a shared word or code. Agree on it in person or by phone. Never put it in a text, an email or an AI app. You can also ask a question only the real person could answer.</p>"
+    },
+    {
+     "heading": "Messages that look official",
+     "body_html": "<p>Some texts and emails pose as a bank, the tax agency, a delivery company or “tech support”. Get Cyber Safe, a Government of Canada site, explains these fake emails (<a href=\"https://www.getcybersafe.gc.ca/en/phishing\" target=\"_blank\" rel=\"noopener\">phishing</a>) and fake texts (<a href=\"https://www.getcybersafe.gc.ca/en/blogs/smishing-introduction\" target=\"_blank\" rel=\"noopener\">smishing</a>).</p><p>Do not tap the link, and do not call the number in the message. Open the official app, type the web address yourself, or call the number on your card.</p><p>Here is what real organizations say they will never do:</p><ul><li><strong>Police and courts.</strong> The <a href=\"https://antifraudcentre-centreantifraude.ca/scams-fraudes/emergency-urgence-eng.htm\" target=\"_blank\" rel=\"noopener\">Canadian Anti-Fraud Centre</a> says Canada's justice system does not allow bail to be paid with cash or cryptocurrency. The <a href=\"https://rcmp.ca/en/bc/hope/news/2026/05/4353598\" target=\"_blank\" rel=\"noopener\">RCMP</a> says police and court agencies will never phone you to demand cash or any other payment. <a href=\"https://www.haltonpolice.ca/community-resources/frauds-and-scams/grandparent-scam/\" target=\"_blank\" rel=\"noopener\">Halton Regional Police</a> say a court or law office will never send someone to your home to collect cash.</li><li><strong>The Canada Revenue Agency (CRA).</strong> The <a href=\"https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html\" target=\"_blank\" rel=\"noopener\">CRA says</a> it will not demand immediate payment by gift card or cryptocurrency. The same goes for prepaid credit cards and Interac e-Transfer. It will not threaten to arrest you.</li><li><strong>Banks.</strong> The <a href=\"https://cba.ca/article/what-your-bank-will-never-ask\" target=\"_blank\" rel=\"noopener\">Canadian Bankers Association</a> says a bank will never call, email or text to ask for a password or a one-time passcode. It will not ask for remote access, which means control of your phone or computer from somewhere else. It will never ask you to withdraw money or hand over your card and PIN for an “investigation”. The <a href=\"https://antifraudcentre-centreantifraude.ca/features-vedette/2026/07/impersonation-arnaqueurs-eng.htm\" target=\"_blank\" rel=\"noopener\">Canadian Anti-Fraud Centre</a> warns that scammers may ask you to move money to a “safe” account. If you hear that, hang up and call the number on your card.</li></ul>"
+    },
+    {
+     "heading": "What your AI app can and cannot do",
+     "body_html": "<p>Your AI app can list warning signs, explain a word and help you rehearse what to say.</p><p>It cannot tell you that a message is safe. It does not know who sent it, and it can be wrong while sounding sure. When in doubt, the routine decides, not the app.</p><p>An AI app is not a doctor, lawyer or financial adviser.</p><p>The three ground rules:</p><ol><li>Keep private numbers out.</li><li>Check anything that matters.</li><li>It is not your doctor, lawyer or financial adviser.</li></ol><p><strong>If you have already sent money or shared a code,</strong> call your bank on the number on your card. Then call your local police. You can also report it to the <a href=\"https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm\" target=\"_blank\" rel=\"noopener\">Canadian Anti-Fraud Centre</a> at 1-888-495-8501. The line is open Monday to Friday, 10 a.m. to 4:45 p.m. Eastern time, and closed on holidays. Fraud is a crime against you, not a failing. Lesson 7 covers reporting step by step.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Spot the signs and write your hang-up line (about 10 minutes, phone or tablet)",
+    "steps": [
+     "Open your AI app. Copy the first practice box below this exercise and paste it into the app. It holds a made-up message and a question. If you prefer, read this message aloud instead: “Hi Grandma, it's Jamie. I dropped my phone in the lake, so this is my new number: 416-555-0142. Please delete the old one. I'm in some trouble and I need $900 today, before 3 o'clock. Can you buy gift cards and text me photos of the codes on the back? Please don't tell Mom or Dad. I'll explain later. Love you.”",
+     "If you read it aloud, add this question: “What are the warning signs in this message, and what should I do?” Then send it. The message is invented, so it holds nothing personal.",
+     "Compare the app's answer with this lesson. Did it catch the hurry (today, before 3 o'clock), the secrecy (don't tell Mom or Dad) and the unusual payment (gift cards and codes)? Did it notice the new number? Did it tell you to call back on a number you already have? If it missed one, you caught something the app did not.",
+     "Ask: “Write two calm sentences I can say to end a suspicious phone call, even if the caller sounds like someone I love.”",
+     "Ask: “Shorter, please.” Change a word or two so it sounds like you. Then say your line aloud twice.",
+     "Write your line on paper and keep it near the phone. Your win for today: a line ready, so you never have to think of one under pressure.",
+     "Two reminders. Choose your family code word with your family in person or by phone, never in the app. Do not paste real messages you have received. Use the practice one."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Practice message and first question (made up, ready to paste)",
+     "text": "This is a made-up practice text message. What are the warning signs in this message, and what should I do?\n\n“Hi Grandma, it's Jamie. I dropped my phone in the lake, so this is my new number: 416-555-0142. Please delete the old one. I'm in some trouble and I need $900 today, before 3 o'clock. Can you buy gift cards and text me photos of the codes on the back? Please don't tell Mom or Dad. I'll explain later. Love you.”"
+    },
+    {
+     "label": "Your hang-up line",
+     "text": "Write two calm sentences I can say to end a suspicious phone call, even if the caller sounds like someone I love. Make them [polite / firm / very short]."
+    },
+    {
+     "label": "Rehearse ending a pressure call",
+     "text": "Let's rehearse. Pretend to be a caller who says they are from [a bank / a delivery company / tech support] and pushes me to act fast. I will practise ending the call. Use made-up details only, and do not ask me for any real information. When I end the call, tell me what I did well."
+    },
+    {
+     "label": "Warning signs in plain words",
+     "text": "List the warning signs of a scam [phone call / text message / email] in five short lines. Use plain words and short sentences."
+    }
+   ],
+   "checklist": [
+    "I can name the three warning signs: hurry, secrecy, and an unusual way to pay or a request for a code.",
+    "I know the routine: pause, hang up or do not reply, and call back on a number I already have.",
+    "I do not treat a familiar voice, a polished message or the number on my screen as proof.",
+    "I do not tap links or call numbers given in a message. I use the official app, a web address I type myself, or the number on my card.",
+    "My hang-up line is written on paper and kept near the phone.",
+    "I will agree on a family code word in person or by phone, never in a text, an email or an AI app."
+   ],
+   "takeaway": "A voice or a message can be faked, so let the routine decide: pause, hang up, and call back on a number you already have.",
+   "sources": [
+    {
+     "label": "Canadian Anti-Fraud Centre: Emergency",
+     "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/emergency-urgence-eng.htm"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Emergency-grandparent scam",
+     "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2023/02/grandparent-scam-arnaque-grands-parents-eng.htm"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Canadian Anti-Fraud Centre Impersonation",
+     "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/07/impersonation-arnaqueurs-eng.htm"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: Report fraud and cybercrime",
+     "url": "https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm"
+    },
+    {
+     "label": "Royal Canadian Mounted Police (Yukon): Yukoners, we need you to talk about fraud with your family, friends and neighbors",
+     "url": "https://rcmp.ca/en/yukon/news/2025/07/yukoners-we-need-you-talk-about-fraud-your-family-friends-and-neighbors"
+    },
+    {
+     "label": "Royal Canadian Mounted Police (British Columbia): Fraudulent call for help from family members",
+     "url": "https://rcmp.ca/en/bc/safety-tips/frauds-and-scams/fraudulent-call-help-family-members"
+    },
+    {
+     "label": "Royal Canadian Mounted Police (Hope, B.C.): Hope RCMP warn public of fraudsters targeting seniors with \"Grandparent Scam\"",
+     "url": "https://rcmp.ca/en/bc/hope/news/2026/05/4353598"
+    },
+    {
+     "label": "Canadian Centre for Cyber Security: What is voice phishing (vishing)? - ITSAP.00.102",
+     "url": "https://www.cyber.gc.ca/en/what-voice-phishing-vishing-itsap00102"
+    },
+    {
+     "label": "Halton Regional Police Service: Grandparent Scam",
+     "url": "https://www.haltonpolice.ca/community-resources/frauds-and-scams/grandparent-scam/"
+    },
+    {
+     "label": "Canada Revenue Agency: Scams and fraud - CRA - Recognize a scam",
+     "url": "https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html"
+    },
+    {
+     "label": "Canadian Bankers Association: Spot scams before they happen: what your bank will NEVER ask",
+     "url": "https://cba.ca/article/what-your-bank-will-never-ask"
+    },
+    {
+     "label": "Canadian Radio-television and Telecommunications Commission (CRTC): Caller ID Spoofing",
+     "url": "https://crtc.gc.ca/eng/phone/telemarketing/identit.htm"
+    },
+    {
+     "label": "Get Cyber Safe: Phishing: Don't get reeled in",
+     "url": "https://www.getcybersafe.gc.ca/en/phishing"
+    },
+    {
+     "label": "Get Cyber Safe: Smishing: An introduction",
+     "url": "https://www.getcybersafe.gc.ca/en/blogs/smishing-introduction"
+    },
+    {
+     "label": "Toronto Police Service: 416-808-2222 (*8-7-7) Non-Emergency",
+     "url": "https://www.tps.ca/contact/416-808-2222-police-non-emergency/"
+    },
+    {
+     "label": "City of Toronto: Make the Right Call",
+     "url": "https://www.toronto.ca/home/311-toronto-at-your-service/make-the-right-call/"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-seniors/lesson-6.jpg",
+   "image_alt": "An older man calmly sets a cordless phone back on its base at a hallway table and reaches for a paper address book."
+  },
+  {
+   "number": 7,
+   "slug": "lesson-7",
+   "title": "Fake Pictures, Reporting Fraud and Your Safety Card",
+   "minutes": 15,
+   "objective": "Question pictures and videos that may be fake, know where Canadians report fraud, and make a one-page safety card to keep by the phone.",
+   "intro_html": "<p>This is the last lesson. It covers three things. First, pictures and videos that may be fake. Second, where Canadians report fraud. Third, a safety card to keep by your phone.</p><p>Lesson 6 dealt with calls and messages. Today adds pictures, and you finish with a card in your own words.</p>",
+   "sections": [
+    {
+     "heading": "Fake pictures and videos: check the source, not the picture",
+     "body_html": "<p>AI can now make a picture, a video or a voice that looks and sounds real. These fakes are often called <strong>deepfakes</strong>.</p><p>They turn up in several places. Some are investment ads that seem to show a famous person. Others are dating profiles, charity appeals or dramatic &quot;news&quot; photos.</p><p>The Canadian Securities Administrators are the group of provincial and territorial agencies that oversee investing in Canada. They urge older Canadians to avoid investments promoted online that seem to be backed by a celebrity.</p><p>Get Cyber Safe is the Government of Canada's online safety campaign. Its tips mention visual clues, such as odd-looking hands or a person who never blinks. Those clues can help, but a well-made fake may show none of them. So do not rely on your eyes alone. Do not rely on any app or label that claims to spot fakes, either.</p><p>Check where the picture came from and what it wants you to do. Ask three questions before you believe or share:</p><ol><li>Who posted this?</li><li>Can I find the same thing from a news outlet or official source I already trust?</li><li>Is it pushing me to pay, click or hurry?</li></ol><p>If the answer to the third question is yes, stop there. Do not pay, and do not tap anything in the post.</p><p>Before any investment, check that the seller is registered. That means they are on a securities regulator's official list. Type <a href=\"https://aretheyregistered.ca/\" target=\"_blank\" rel=\"noopener\">aretheyregistered.ca</a> into your browser yourself. A browser is the app you use to visit websites, such as Safari or Chrome.</p>"
+    },
+    {
+     "heading": "If you think you have been targeted, or have lost money",
+     "body_html": "<p>Being defrauded is a crime against you. It is not a failing. Reporting it helps protect other people too.</p><p>Take these steps, even if no money was lost:</p><ol><li><strong>Stop contact.</strong> Do not reply, and do not send more money.</li><li><strong>Call your bank or card company.</strong> Use the number on the back of your card.</li><li><strong>Report it to your local police</strong> and ask for a file number. Toronto Police non-emergency: 416-808-2222. Ontario Provincial Police non-emergency: 1-888-310-1122. Anywhere else, find the number on your police service's own website.</li><li><strong>Report it to the Canadian Anti-Fraud Centre.</strong> Call 1-888-495-8501, Monday to Friday, 10 a.m. to 4:45 p.m. Eastern time. It is closed on holidays. Or report online at <a href=\"https://reportcyberandfraud.canada.ca/\" target=\"_blank\" rel=\"noopener\">reportcyberandfraud.canada.ca</a>.</li><li><strong>Keep the evidence.</strong> Save the messages, emails and receipts.</li><li><strong>Tell someone you trust.</strong></li></ol><p>If you are in immediate danger, call 911.</p><p>One more caution. Someone may later offer to recover your money for a fee. Treat that as another scam, and do not pay.</p>"
+    },
+    {
+     "heading": "Other official contacts worth knowing",
+     "body_html": "<ul><li><strong>Spam texts: forward them to 7726.</strong> The number spells SPAM on most keypads. Get Cyber Safe says this is free and alerts your phone company. Do not tap any link in the text.</li><li><strong>Credit bureaus.</strong> These two companies keep the record of your loans and cards. Did you give out identity details, such as your date of birth or social insurance number? Ask each bureau to put an alert on your file. An alert asks lenders to phone you before giving credit in your name. Equifax Canada: 1-800-465-7166. TransUnion Canada: 1-800-663-9980.</li><li><strong>The Little Black Book of Scams.</strong> A <a href=\"https://competition-bureau.canada.ca/en/little-black-book-scams-2nd-edition\" target=\"_blank\" rel=\"noopener\">free booklet from the Competition Bureau</a>, offered in eight languages.</li><li><strong>Get Cyber Safe.</strong> Plain advice on staying safe online, at <a href=\"https://www.getcybersafe.gc.ca/en\" target=\"_blank\" rel=\"noopener\">getcybersafe.gc.ca</a>.</li><li><strong>Seniors Safety Line, Ontario: 1-866-299-1011.</strong> A confidential line for older adults facing any type of abuse or neglect. It is open 24 hours a day, in over 200 languages. Other provinces have their own services.</li></ul>"
+    },
+    {
+     "heading": "Tidy your AI app in three steps",
+     "body_html": "<ol><li><strong>Delete a chat you do not want kept.</strong> Open your list of chats, open the menu for that chat, and choose Delete. It leaves your list at once. ChatGPT and Claude both say full removal from their systems can take up to 30 days.</li><li><strong>Find the setting for using your chats to improve the app.</strong> Switch it off where the app allows. Look in Settings, under Privacy or Data controls. In ChatGPT it is &quot;Improve the model for everyone&quot;. In Gemini it is &quot;Keep Activity&quot;. In Copilot it is &quot;Training on conversation activity&quot;. In Claude it is the switch about helping to improve the AI models.</li><li><strong>Sign out on a shared device.</strong> After using a library tablet or a relative's phone, open Settings. Choose Sign out or Log out.</li></ol><p>App menus change. If a name does not match your screen, ask a family member to look with you.</p><p>The three ground rules, one last time: (1) Keep private numbers out. (2) Check anything that matters. (3) It is not your doctor, lawyer or financial adviser.</p><p>To say it plainly: an AI app is not a doctor, a lawyer or a financial adviser. For those decisions, ask a qualified person.</p>"
+    },
+    {
+     "heading": "Keep going",
+     "body_html": "<p>Use your AI app for one useful thing each week. It could be a recipe, a letter or a question about your garden.</p><p>Share your safety card with a friend or relative. Explaining it to someone else helps you remember it.</p><p>For patient, in-person help, try your public library or a seniors' centre. Toronto Public Library offers free &quot;Book a Librarian&quot; appointments of 30 to 60 minutes. Its Answerline is 416-397-5981.</p><p>Ontario lists Seniors Active Living Centre programs on <a href=\"https://www.ontario.ca/page/find-seniors-active-living-centre-near-you\" target=\"_blank\" rel=\"noopener\">ontario.ca</a>, searchable by postal code. Connected Canadians, a national charity, gives older adults free technology help. Its number is 1-877-304-5813.</p><p>This course is published by Nova Toronto, a digital studio in Toronto run by Rujal Tuladhar. It builds websites and sets up advertising and AI tools for small businesses. If you know a business owner who would find that useful, you can find it at <a href=\"https://novatoronto.com/\" target=\"_blank\" rel=\"noopener\">novatoronto.com</a>.</p>"
+    }
+   ],
+   "exercise": {
+    "title": "Make your large-print safety card (about 10 minutes, phone or tablet)",
+    "steps": [
+     "Open your AI app and start a new chat. Copy the first prompt below and paste it in, or read it aloud. It says: \"Make me a one-page safety card in large print with these four headings. Before I act: pause, hang up, call back on a number I already have. Warning signs: hurry, secrecy, an unusual way to pay or a request for a code. I never share: PINs, passwords, one-time codes, banking details, health-card number, social insurance number. If I think it is fraud: my bank, my local police, the Canadian Anti-Fraud Centre, with a blank line after each. Add three blank lines for numbers I trust. Do not fill in any phone numbers.\"",
+     "Ask for one change, such as \"Shorter\" or \"Bigger headings\".",
+     "Check that every phone number line is blank. AI can get phone numbers wrong. If it filled any in, say: \"Remove all phone numbers and leave blank lines.\"",
+     "Print the card, or copy it out by hand in large letters. You do not need a printer.",
+     "Add the numbers by hand, on the paper only. Take them from your own address book, the back of your bank card and the verified list in this lesson. Do not type them into the app, and do not write your family code word on the card.",
+     "Put the card where you take phone calls. Then tell one relative or friend about it. Your win for today, and for the course: a card in your own words that protects you, made with a tool you now know how to use."
+    ]
+   },
+   "prompts": [
+    {
+     "label": "Make my safety card",
+     "text": "Make me a one-page safety card in [large] print with these four headings. Before I act: pause, hang up, call back on a number I already have. Warning signs: hurry, secrecy, an unusual way to pay or a request for a code. I never share: PINs, passwords, one-time codes, banking details, health-card number, social insurance number. If I think it is fraud: my bank, my local police, the Canadian Anti-Fraud Centre, with a blank line after each. Add three blank lines for numbers I trust. Do not fill in any phone numbers."
+    },
+    {
+     "label": "Change the card",
+     "text": "Please make the card [shorter / with bigger headings / in plainer words]. Keep every phone number line blank."
+    },
+    {
+     "label": "Questions to ask about a picture or post",
+     "text": "I saw a post online about [describe it in a few words, with no names of people you know]. Do not tell me whether it is real or fake. List the questions I should ask about who posted it, and where I could confirm it with a news outlet or official source I already trust."
+    },
+    {
+     "label": "One useful thing this week",
+     "text": "Suggest [three] small, useful things I could ask an AI app this week about [a hobby or everyday task]. Do not ask me for any personal details."
+    }
+   ],
+   "checklist": [
+    "I can name the three questions to ask before I believe or share a picture or video.",
+    "I know the steps if I am targeted: stop contact, call my bank on the number on my card, report to my local police and the Canadian Anti-Fraud Centre, keep the messages, tell someone I trust.",
+    "My safety card is where I take phone calls, and I added the phone numbers by hand.",
+    "My family code word is not on the card and not typed into any app.",
+    "I deleted one old chat and found the setting for using my chats to improve the app.",
+    "I told one relative or friend about my card."
+   ],
+   "takeaway": "Check the source before you trust the picture, report fraud without shame, and keep your card by the phone: pause, hang up, call back.",
+   "sources": [
+    {
+     "label": "Canadian Anti-Fraud Centre: Report fraud and cybercrime",
+     "url": "https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm"
+    },
+    {
+     "label": "Canadian Anti-Fraud Centre: What to do if you're a victim of fraud",
+     "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/victim-victime-eng.htm"
+    },
+    {
+     "label": "Government of Canada: Report Cybercrime and Fraud",
+     "url": "https://reportcyberandfraud.canada.ca/"
+    },
+    {
+     "label": "Toronto Police Service: 416-808-2222 (*8-7-7) Non-Emergency",
+     "url": "https://www.tps.ca/contact/416-808-2222-police-non-emergency/"
+    },
+    {
+     "label": "Toronto Police Service: Fraud",
+     "url": "https://www.tps.ca/fraud/"
+    },
+    {
+     "label": "Ontario Provincial Police: Report Online",
+     "url": "https://www.opp.ca/index.php?id=132"
+    },
+    {
+     "label": "Equifax Canada: How to Place a Fraud Alert on Your Equifax Credit Report",
+     "url": "https://www.equifax.ca/personal/education/identity/articles/-/learn/how-can-i-place-a-fraud-alert-on-my-equifax-credit-report/"
+    },
+    {
+     "label": "TransUnion Canada: Fraud Victims Resources",
+     "url": "https://www.transunion.ca/assistance/fraud-victims-resources"
+    },
+    {
+     "label": "Get Cyber Safe: Reporting spam text messages to 7726",
+     "url": "https://www.getcybersafe.gc.ca/en/blogs/reporting-spam-text-messages-7726"
+    },
+    {
+     "label": "Canadian Telecommunications Association: What to do if you have been targeted by fraud",
+     "url": "https://canadatelecoms.ca/consumer_resource/what-to-do-if-you-have-been-targeted-by-fraud/"
+    },
+    {
+     "label": "Competition Bureau Canada: The Little Black Book of Scams 2nd edition",
+     "url": "https://competition-bureau.canada.ca/en/little-black-book-scams-2nd-edition"
+    },
+    {
+     "label": "Elder Abuse Prevention Ontario: Seniors Safety Line",
+     "url": "https://eapon.ca/seniors-safety-line/"
+    },
+    {
+     "label": "Assaulted Women's Helpline: Seniors Safety Line",
+     "url": "https://www.awhl.org/seniors"
+    },
+    {
+     "label": "Canadian Securities Administrators: Canadian Securities Administrators encourage Canadians to look out for deceptive social media investment scams",
+     "url": "https://www.securities-administrators.ca/news/canadian-securities-administrators-encourage-canadians-to-look-out-for-deceptive-social-media-investment-scams/"
+    },
+    {
+     "label": "Canadian Securities Administrators: Know the Red Flags of Fraud",
+     "url": "https://www.securities-administrators.ca/investor-tools/avoiding-fraud/know-the-red-flags-of-fraud/"
+    },
+    {
+     "label": "Canadian Securities Administrators: Are They Registered?",
+     "url": "https://aretheyregistered.ca/"
+    },
+    {
+     "label": "Get Cyber Safe: The next generation: Spotting content created with artificial intelligence",
+     "url": "https://www.getcybersafe.gc.ca/en/next-generation-spotting-content-created-with-artificial-intelligence"
+    },
+    {
+     "label": "Get Cyber Safe: New technology",
+     "url": "https://www.getcybersafe.gc.ca/en/blogs/new-technology"
+    },
+    {
+     "label": "OpenAI Help Center: Data controls in ChatGPT",
+     "url": "https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt"
+    },
+    {
+     "label": "OpenAI Help Center: Deleting and archiving chats in ChatGPT",
+     "url": "https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt"
+    },
+    {
+     "label": "Google: Gemini Apps Privacy Hub",
+     "url": "https://support.google.com/gemini/answer/13594961?hl=en"
+    },
+    {
+     "label": "Microsoft Support: Microsoft Copilot privacy controls",
+     "url": "https://support.microsoft.com/en-us/topic/microsoft-copilot-privacy-controls-8e479f27-6eb6-48c5-8d6a-c134062e2be6"
+    },
+    {
+     "label": "Anthropic Privacy Center: How do I change my model improvement privacy settings?",
+     "url": "https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings"
+    },
+    {
+     "label": "Anthropic Privacy Center: How long do you store my data?",
+     "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data"
+    },
+    {
+     "label": "Toronto Public Library: Seniors Digital Skills",
+     "url": "https://tpl.ca/using-the-library/services/seniors-digital-skills/"
+    },
+    {
+     "label": "Toronto Public Library: Book a Librarian",
+     "url": "https://tpl.ca/using-the-library/services/book-a-librarian/"
+    },
+    {
+     "label": "Government of Ontario: Find a Seniors Active Living Centre program near you",
+     "url": "https://www.ontario.ca/page/find-seniors-active-living-centre-near-you"
+    },
+    {
+     "label": "Connected Canadians: home page",
+     "url": "https://www.connectedcanadians.ca/"
+    },
+    {
+     "label": "Nova Toronto: home page",
+     "url": "https://novatoronto.com/"
+    }
+   ],
+   "image": "assets/img/courses/ai-for-seniors/lesson-7.jpg",
+   "image_alt": "A woman in her seventies fixes a plain card to the fridge beside a wall phone, while her adult grandson stands by holding a tablet."
+  }
+ ]
+}

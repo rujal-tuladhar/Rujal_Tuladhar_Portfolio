@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compare your results with your Lesson 1 baseline, work out what each AI use saved or cost, and decide what to keep, fix or drop over the next 90 days.">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-for-business/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-for-business/">
+    <meta property="og:title" content="Lesson 7: Did It Pay Off? The Scorecard and Your Next 90 Days | AI for Business">
+    <meta property="og:description" content="Compare your results with your Lesson 1 baseline, work out what each AI use saved or cost, and decide what to keep, fix or drop over the next 90 days.">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-for-business.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 7: Did It Pay Off? The Scorecard and Your Next 90 Days | AI for Business">
+    <meta property="twitter:description" content="Compare your results with your Lesson 1 baseline, work out what each AI use saved or cost, and decide what to keep, fix or drop over the next 90 days.">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-for-business.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 7: Did It Pay Off? The Scorecard and Your Next 90 Days | AI for Business</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 7 of 7 &bull; about 15 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">Did It Pay Off? The Scorecard and Your Next 90 Days</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Compare your results with your Lesson 1 baseline, work out what each AI use saved or cost, and decide what to keep, fix or drop over the next 90 days.</div>
+
+                <p>Six lessons ago you wrote down four numbers before changing anything. Today you find out what the changes were worth. Some will have paid for themselves, some will need fixing, and one or two may cost more than they save.</p><p>You will finish with a one-page scorecard, a verdict on each AI use and three dated actions for the next 90 days: page 7, the last page of your AI playbook.</p>
+
+                <h2>Re-run the baseline, like for like</h2>
+                <p>Open page 1 of your playbook and count the same four things, over the same length of time, from the same places: missed calls over seven days, time to first reply on your last ten enquiries, hours a week on quotes, invoices and paperwork, and unanswered reviews. Note a holiday or seasonal rush beside the number; do not adjust for it.</p><p>If you took the course in a week, you have no results yet. Fill the scorecard with estimates, write <strong>estimate</strong> beside each, and replace them with measured numbers in 30 days.</p><p>Two reports can help, each with a limit. In Google Business Profile, the <a href="https://support.google.com/business/answer/9918094?hl=en" target="_blank" rel="noopener">Performance report</a> lists Calls, Website clicks and Directions, and for some businesses Bookings and Messages. Calls there counts clicks on the call button on your profile, not calls you answered or missed. In Google Ads, <a href="https://support.google.com/google-ads/answer/6270625?hl=en" target="_blank" rel="noopener">Conversions and Cost / conv.</a> are only as reliable as your conversion tracking. Your call log, inbox and calendar remain the best evidence.</p>
+                <h2>The honest sum for each change</h2>
+                <p>Work out one figure for each AI use from Lessons 2 to 6:</p><p><strong>Monthly gain = (hours saved × what an hour costs you) + (extra jobs × gross profit per job) − (subscriptions + your checking and fixing time)</strong></p><p><em>An example with invented numbers; replace every one with your own:</em></p><ul><li>Time saved: 90 minutes a week × 4.33 weeks ÷ 60 = about 6.5 hours a month, × $30 an hour = $195</li><li>Extra jobs you can point to: 1 a month × $250 gross profit = $250</li><li>Subscription: $40 a month</li><li>Checking and fixing: 30 minutes a week × 4.33 ÷ 60 = about 2.2 hours a month, × $30 = about $65</li><li>Monthly gain: $195 + $250 − $40 − $65 = $340</li></ul><p><strong>Payback months = set-up cost ÷ monthly gain.</strong> In the same example, with $500 of set-up fees and your own time, $500 ÷ $340 is about a month and a half.</p><p>Three rules keep the sum honest. Count an extra job only if you can name the booking. Count saved hours at full value only if they went to paid work or replaced hours you would otherwise pay for. Take subscription costs from your card statement in Canadian dollars, not from the price page.</p><p>Whether a subscription is deductible is a question for your accountant. The Canada Revenue Agency's <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/business-expenses.html" target="_blank" rel="noopener">general rule</a> is that you can deduct any reasonable current expense you incur to earn income. This is general information, not tax advice.</p><p>Use a calculator. As in Lesson 5, let AI set out the sum but not add it.</p>
+                <h2>Quality first, then keep, fix or drop</h2>
+                <p>Time saved is half the picture. Beside each use, note:</p><ul><li>your correction tally from Lesson 5, and whether the errors were in wording or in facts and figures</li><li>any complaint or awkward moment that traces back to an AI draft or an automated answer</li><li>the direction of your reviews and your time to first reply</li><li>what staff say, including whoever does the checking</li></ul><p>A saving that irritates customers is not a saving. One wrong price or one upset customer goes in the cost column before you call anything a win. Gains that will not fit the sum, such as an evening back or a calmer front desk, go in a notes column and stay out of the dollars.</p><p>Then give each use one verdict:</p><ul><li><strong>Keep:</strong> positive gain, few corrections, no complaints.</li><li><strong>Fix:</strong> the idea is sound but the facts sheet, the instruction or the checking step is weak. Name the fix and a date.</li><li><strong>Drop:</strong> negative gain, or nobody has opened it in a month. Cancel it today.</li></ul><p>While your statements are open, look for two subscriptions doing the same job and keep one.</p>
+                <h2>Your next 90 days</h2>
+                <p>Add one new use a month, not three at once, so you can tell which change moved which number. Each gets a named owner, a review date and one number to re-measure.</p><p>Put two standing checks in your calendar:</p><ul><li><strong>Every six months:</strong> re-read your Lesson 2 policy and re-check prices, plan terms and settings on each approved tool, because these move. Two examples as of 6 October 2026: Ontario's <a href="https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage" target="_blank" rel="noopener">general minimum wage</a> rose from $17.60 to $17.95 an hour on 1 October 2026, which may change what an hour costs you, and federal privacy <a href="https://www.parl.ca/legisinfo/en/bill/45-1/c-36" target="_blank" rel="noopener">Bill C-36</a>, introduced on 15 June 2026, is at second reading in the House of Commons and is not law.</li><li><strong>Every 90 days:</strong> check your Lesson 4 consent log for implied consent that is about to run out. Under Canada's anti-spam law, implied consent from an existing business relationship <a href="https://crtc.gc.ca/eng/com500/guide.htm" target="_blank" rel="noopener">generally lasts</a> two years after a purchase and six months after an enquiry, and the sender has to be able to prove consent. Express consent <a href="https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email" target="_blank" rel="noopener">has no time limit</a> unless the person withdraws it. Before the date passes, ask for express consent or stop marketing to that contact.</li></ul><p>This is general information, not legal advice.</p>
+                <h2>On your own or with help, and who to ask</h2>
+                <p>Most of what you built you can run yourself: saved replies, content drafts, quote templates and procedures all work in a chat assistant with a person checking. Outside help earns its fee when the work touches your phone line, when several systems must pass information to each other, or when you have no hours to test.</p><p>Check what is free first. <a href="https://www.ontario.ca/page/small-business-enterprise-centre-locations" target="_blank" rel="noopener">Ontario Small Business Advisory Centres</a> (many still go by Small Business Enterprise Centre) offer free consultations. <a href="https://digitalmainstreet.ca/" target="_blank" rel="noopener">Digital Main Street</a>'s grant portal has closed, but its digital assessment and online training modules remain available. <a href="https://www.bdc.ca/en/consulting" target="_blank" rel="noopener">BDC's consulting services</a> are paid, with the price set by the scope of the work. The Canada Digital Adoption Program's Boost Your Business Technology stream <a href="https://www.bdc.ca/en/financing/canada-digital-adoption-program" target="_blank" rel="noopener">stopped taking new applications</a> on 19 February 2024, as Lesson 2 noted, so a pitch that leans on it is out of date.</p><p>For questions about the rules, go to the source. These numbers were checked on 6 October 2026. Phone numbers change, so confirm each one on the linked official page before you call:</p><ul><li>Privacy: <a href="https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada</a>, 1-800-282-1376</li><li>Email and text marketing: <a href="https://crtc.gc.ca/eng/contact/" target="_blank" rel="noopener">CRTC</a>, 1-877-249-2782, and the <a href="https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en" target="_blank" rel="noopener">Spam Reporting Centre</a></li><li>Advertising and reviews: <a href="https://competition-bureau.canada.ca/en/contact-information-centre" target="_blank" rel="noopener">Competition Bureau</a>, 1-800-348-5358</li><li>Business tax: <a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html" target="_blank" rel="noopener">Canada Revenue Agency business enquiries</a>, 1-800-959-5525</li><li>Health information in Ontario, for clinics and other health care providers: <a href="https://www.ipc.on.ca/en/contact-us" target="_blank" rel="noopener">Information and Privacy Commissioner of Ontario</a>, 1-800-387-0073</li><li>Ontario employment standards: <a href="https://www.ontario.ca/document/your-guide-employment-standards-act-0" target="_blank" rel="noopener">Employment Standards Information Centre</a>, 1-800-531-5551</li><li>Fraud: <a href="https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm" target="_blank" rel="noopener">Canadian Anti-Fraud Centre</a>, 1-888-495-8501</li><li>Cyber security: <a href="https://www.cyber.gc.ca/en/contact-cyber-centre" target="_blank" rel="noopener">Canadian Centre for Cyber Security</a>, 1-833-292-3788</li></ul><p>These offices give general information. They do not replace your own lawyer or accountant.</p><p>This course is published by <a href="https://novatoronto.com/" target="_blank" rel="noopener">Nova Toronto</a>, a Toronto studio that sells AI receptionist and automation set-up to Greater Toronto Area businesses (365-355-3133, novatoronto.ca@gmail.com), so it has an interest in what you decide. Put the Lesson 2 and Lesson 6 questions to it as you would to anyone. Whoever you choose, the playbook you built is exactly what an installer, including a competitor, will need from you.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Fill in the scorecard and set your next 90 days (10 to 15 minutes with a phone calculator; your approved AI assistant is optional)</h2>
+                    <ol>
+                        <li>Open page 1 of your AI playbook and copy your four baseline numbers, with their date, onto a new page headed Scorecard.</li>
+                        <li>Beside each one, write today&#x27;s number from the same source, counted over the same length of time, and mark it &#x27;measured&#x27; or &#x27;estimate&#x27;. If you have not had time to count, write your best estimate and move on.</li>
+                        <li>List each change you made in Lessons 2 to 6. For each, note minutes saved per week, the monthly cost from your card statement, minutes per week you spend checking and fixing it, and any problems or complaints.</li>
+                        <li>Work out the monthly gain for each on a calculator using the lesson formula. If you want the sum laid out for you, paste your numbers only (no customer or staff details) into the first prompt below in the assistant your Lesson 2 policy approves, then re-check every line on the calculator.</li>
+                        <li>Write keep, fix or drop beside each use. For anything marked drop, cancel it now if that takes a minute; otherwise write &#x27;cancel&#x27; with today&#x27;s date and do it before the day ends.</li>
+                        <li>Choose three actions for the next 90 days, one a month, each with a named owner, a review date and the one number you will re-measure.</li>
+                        <li>Set three calendar reminders: 30 days from today to replace estimates with measured numbers, 90 days from today for a 30-minute review that includes your consent log, and six months from today to re-check your policy, prices and tool settings. Save this as page 7. Your playbook is complete.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Set out my scorecard sum</h3>
+                <button type="button" class="c-copy" data-copy="p7-0">Copy prompt</button>
+                <div class="c-prompt" id="p7-0">I am reviewing one AI use in my small business: [what it does, for example saved replies to common enquiries]. My numbers are: minutes saved per week [number]; what an hour costs me [dollars]; extra jobs per month I can point to [number]; gross profit per job [dollars]; subscription cost per month in Canadian dollars [dollars]; minutes per week I spend checking and fixing [number]; one-time set-up cost [dollars]. Set out monthly gain = (hours saved x hourly cost) + (extra jobs x gross profit per job) - (subscription + cost of checking time), using 4.33 weeks per month, then payback months = set-up cost / monthly gain. Show every step on its own line so I can re-check it on a calculator. Tell me which of my inputs look like guesses and what I could count to replace each guess. Do not add benefits I did not list.</div>
+                <h3>Challenge my keep, fix or drop verdicts</h3>
+                <button type="button" class="c-copy" data-copy="p7-1">Copy prompt</button>
+                <div class="c-prompt" id="p7-1">Here is my scorecard, with no customer or staff names: [paste each AI use with its monthly gain, number of corrections, any complaints described without names or contact details, and your verdict]. For each line, argue against my verdict in two sentences, then name the single piece of evidence that would settle it within 30 days. Point out any two tools that appear to do the same job. Do not suggest new tools.</div>
+                <h3>Turn three actions into a 90-day plan</h3>
+                <button type="button" class="c-copy" data-copy="p7-2">Copy prompt</button>
+                <div class="c-prompt" id="p7-2">Turn these three actions into a 90-day plan for a [type of business] with [number] staff: [action 1], [action 2], [action 3]. Schedule one action per month starting from [today&#x27;s date]. For each, give: the owner [role, for example office manager], a start date and a review date, the one number we will measure before and after, the check a person does before anything reaches a customer, and the result that would make us stop. Keep it to one page in plain language.</div>
+                <h3>Write a hand-over brief for outside help</h3>
+                <button type="button" class="c-copy" data-copy="p7-3">Copy prompt</button>
+                <div class="c-prompt" id="p7-3">I may hire someone to set up [what you want, for example an after-hours phone agent or a link between my booking and invoicing software]. Using the notes below from my AI playbook, write a one-page brief I can give to any installer. Include: what we want it to do, what it must never do, the facts it must use, how we will measure it against our baseline of [baseline number], our monthly cost ceiling of [dollars], and a list of questions I want answered in writing about price, contract length, how our data is used, and who owns the phone number and recordings. Notes: [paste your policy summary, facts sheet headings and agent brief, with no customer details].</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l7c0"><span>Four baseline numbers re-counted from the same sources, each marked measured or estimate</span></label>
+                    <label><input type="checkbox" data-id="l7c1"><span>Monthly gain worked out on a calculator for every AI use, with checking and fixing time counted as a cost</span></label>
+                    <label><input type="checkbox" data-id="l7c2"><span>One verdict per use (keep, fix or drop), and everything marked drop cancelled</span></label>
+                    <label><input type="checkbox" data-id="l7c3"><span>Three actions for the next 90 days, one a month, each with an owner, a review date and a number to re-measure</span></label>
+                    <label><input type="checkbox" data-id="l7c4"><span>Calendar reminders set: 30 days to replace estimates, 90 days for a review and consent-log check, six months for policy, prices and settings</span></label>
+                    <label><input type="checkbox" data-id="l7c5"><span>Playbook pages 1 to 7 saved in one place that a second person can find</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> An AI use earns its place only when your own before-and-after numbers, with checking time and complaints counted, say it does.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://support.google.com/business/answer/9918094?hl=en" target="_blank" rel="noopener">Google Business Profile Help: Understand your Business Profile performance &amp; insights</a> &bull;
+                    <a href="https://support.google.com/google-ads/answer/6270625?hl=en" target="_blank" rel="noopener">Google Ads Help: Understand your conversion tracking data</a> &bull;
+                    <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/sole-proprietorships-partnerships/business-expenses.html" target="_blank" rel="noopener">Canada Revenue Agency: Business expenses</a> &bull;
+                    <a href="https://crtc.gc.ca/eng/com500/guide.htm" target="_blank" rel="noopener">CRTC: From Canada&#x27;s Anti-Spam Legislation (CASL) Guidance on Implied Consent</a> &bull;
+                    <a href="https://laws-lois.justice.gc.ca/eng/acts/E-1.6/page-2.html" target="_blank" rel="noopener">Justice Laws Website: Canada&#x27;s anti-spam legislation (S.C. 2010, c. 23), sections 10 and 13</a> &bull;
+                    <a href="https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email" target="_blank" rel="noopener">Government of Canada: Getting consent to send email</a> &bull;
+                    <a href="https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en" target="_blank" rel="noopener">Government of Canada: Canada&#x27;s anti-spam legislation (Spam Reporting Centre)</a> &bull;
+                    <a href="https://www.parl.ca/legisinfo/en/bill/45-1/c-36" target="_blank" rel="noopener">Parliament of Canada LEGISinfo: Bill C-36, Protecting Privacy and Consumer Data Act</a> &bull;
+                    <a href="https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage" target="_blank" rel="noopener">Government of Ontario: Minimum wage (Your guide to the Employment Standards Act)</a> &bull;
+                    <a href="https://www.ontario.ca/document/your-guide-employment-standards-act-0" target="_blank" rel="noopener">Government of Ontario: Your guide to the Employment Standards Act</a> &bull;
+                    <a href="https://www.ontario.ca/page/small-business-enterprise-centre-locations" target="_blank" rel="noopener">Government of Ontario: Ontario Small Business Advisory Centre locations</a> &bull;
+                    <a href="https://digitalmainstreet.ca/" target="_blank" rel="noopener">Digital Main Street: Home page</a> &bull;
+                    <a href="https://www.bdc.ca/en/consulting" target="_blank" rel="noopener">BDC: Consulting services</a> &bull;
+                    <a href="https://www.bdc.ca/en/financing/canada-digital-adoption-program" target="_blank" rel="noopener">BDC: Canada Digital Adoption Program</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: Contact the Information Centre</a> &bull;
+                    <a href="https://crtc.gc.ca/eng/contact/" target="_blank" rel="noopener">CRTC: Contact us</a> &bull;
+                    <a href="https://competition-bureau.canada.ca/en/contact-information-centre" target="_blank" rel="noopener">Competition Bureau Canada: Contact the Information Centre</a> &bull;
+                    <a href="https://www.canada.ca/en/revenue-agency/corporate/contact-information.html" target="_blank" rel="noopener">Canada Revenue Agency: Contact the Canada Revenue Agency (CRA)</a> &bull;
+                    <a href="https://www.ipc.on.ca/en/contact-us" target="_blank" rel="noopener">Information and Privacy Commissioner of Ontario: Contact Us</a> &bull;
+                    <a href="https://antifraudcentre-centreantifraude.ca/report-signalez-eng.htm" target="_blank" rel="noopener">Canadian Anti-Fraud Centre: Report fraud and cybercrime</a> &bull;
+                    <a href="https://www.cyber.gc.ca/en/contact-cyber-centre" target="_blank" rel="noopener">Canadian Centre for Cyber Security: Contact the Cyber Centre</a> &bull;
+                    <a href="https://novatoronto.com/" target="_blank" rel="noopener">Nova Toronto: Home page</a>
+                </p>
+
+                <div class="c-panel" style="margin-top: 2rem;">
+                    <h2 style="margin-top: 0;">You finished the course</h2>
+                    <p style="margin-bottom: 0;">You now have a seven-page AI playbook and your own numbers showing what was worth keeping. If you would like a second opinion on it, Nova Toronto offers a free 30-minute conversation: call or text 365-355-3133 or email novatoronto.ca@gmail.com. There is no obligation, and the playbook is yours to use with anyone you choose.</p>
+                </div>
+                <div class="c-nav">
+                    <a href="../lesson-6/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 6</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="7">Mark this lesson complete</button>
+                    <a href="../../index.html#contact" class="button button--flex">Book a free 30-minute call <i class="uil uil-calendar-alt button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-for-business';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>

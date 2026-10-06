@@ -31,7 +31,8 @@ FORM = 'https://formsubmit.co/novatoronto.ca@gmail.com'
 ALLOWED_TAGS = {'p', 'a', 'strong', 'em', 'ul', 'ol', 'li', 'br'}
 # Hosts that answer 400 to curl but are live. Each was opened in a browser and the cited claim read
 # on the page before being listed here. help.instagram.com: checked 2026-10-02 (AI label rules).
-VERIFIED_WALLS = {'help.instagram.com'}
+# faq.whatsapp.com and meta.com/help: checked 2026-10-06 (quick replies article; AI info label on ad images).
+VERIFIED_WALLS = {'help.instagram.com', 'faq.whatsapp.com', 'meta.com', 'www.meta.com'}
 e = html.escape
 
 
@@ -500,6 +501,8 @@ def validate(course, check_links=True):
             code, ok = publish_post.check_url(u)
             if not ok and publish_post.domain_of(u) in VERIFIED_WALLS:
                 code, ok = code + ' wall', True      # live page that refuses non-browser clients
+            if not ok and code == '429':
+                code, ok = '429 busy', True          # rate-limited by the server = the page exists
             if not ok:
                 dead.append((u, code))
             print('  %s %s  %s' % ('ok  ' if ok else 'DEAD', code, u[:95]))

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Write a one-page staff AI policy with a named privacy contact, a never-enter list and a short table of approved tools, each checked against eight priv">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-for-business/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-for-business/">
+    <meta property="og:title" content="Lesson 2: Set the Ground Rules: Staff AI Policy, Privacy and Approved Tools | AI for Business">
+    <meta property="og:description" content="Write a one-page staff AI policy with a named privacy contact, a never-enter list and a short table of approved tools, each checked against eight priv">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-for-business.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 2: Set the Ground Rules: Staff AI Policy, Privacy and Approved Tools | AI for Business">
+    <meta property="twitter:description" content="Write a one-page staff AI policy with a named privacy contact, a never-enter list and a short table of approved tools, each checked against eight priv">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-for-business.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 2: Set the Ground Rules: Staff AI Policy, Privacy and Approved Tools | AI for Business</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 2 of 7 &bull; about 15 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">Set the Ground Rules: Staff AI Policy, Privacy and Approved Tools</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Write a one-page staff AI policy with a named privacy contact, a never-enter list and a short table of approved tools, each checked against eight privacy and cost questions.</div>
+
+                <p>Lessons 3 to 6 all have you putting business material into AI tools. Before that starts, your business needs one page of rules: which tools are approved, what never goes into them, and who checks the output.</p><p>The <a href="https://novatoronto.com/ai-course/" target="_blank" rel="noopener">beginner course</a> gave you a personal traffic-light rule for what to type. This lesson turns it into a rule for everyone who works for you, with a named privacy contact and a short table of approved tools. It becomes page 2 of your AI playbook.</p>
+
+                <h2>Why the rules come before the tools</h2>
+                <p>Canada's federal private-sector privacy law, PIPEDA, <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/" target="_blank" rel="noopener">applies to organizations</a> that collect, use or disclose personal information in the course of commercial activity. Alberta, British Columbia and Quebec have <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/r_o_p/prov-pipeda/" target="_blank" rel="noopener">their own private-sector laws</a> that generally apply instead for business inside the province, though PIPEDA still covers personal information that crosses a border. Ontario has a separate health-information law, PHIPA.</p><p>What matters for AI: the Office of the Privacy Commissioner of Canada (OPC) says a business <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_accountability/" target="_blank" rel="noopener">stays responsible</a> for personal information it transfers to a third party for processing, and must use a contract or other means to get comparable protection. An AI vendor is a third party. The usual leak is not a hack. It is a well-meaning employee pasting a customer's details into a personal free account nobody at the business chose.</p><p><a href="https://www.parl.ca/legisinfo/en/bill/45-1/c-36" target="_blank" rel="noopener">Bill C-36</a>, which would enact a new federal privacy law, was introduced on 15 June 2026. On 6 October 2026, when this lesson was checked, it was at second reading in the House of Commons and had not passed, so this lesson describes the law in force.</p>
+                <h2>Four privacy moves for a small business</h2>
+                <ol><li><strong>List what you hold.</strong> Write down the kinds of personal information you keep (contact details, addresses, payment records, appointment or health notes) and which software touches each.</li><li><strong>Name a privacy contact.</strong> PIPEDA's accountability principle requires someone to be responsible for compliance, and its <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_openness/" target="_blank" rel="noopener">openness principle</a> expects that person's name or title and contact information to be available. Usually that is the owner.</li><li><strong>Update your notice.</strong> <a href="https://www.priv.gc.ca/en/privacy-topics/airports-and-borders/gl_dab_090127/" target="_blank" rel="noopener">OPC guidelines</a> expect you to tell customers in clear language that their information may be processed in another country and may be accessible to law enforcement and national security authorities there. Add a line to your privacy notice or intake form saying you use service providers, including AI tools, that may do this.</li><li><strong>Know the breach steps.</strong> Contain it, write down what happened, and assess whether there is a "real risk of significant harm". If there is, PIPEDA <a href="https://www.priv.gc.ca/en/privacy-topics/business-privacy/breaches-and-safeguards/privacy-breaches-at-your-business/gd_pb_201810/" target="_blank" rel="noopener">requires a report</a> to the Privacy Commissioner and notice to the people affected as soon as feasible. Keep a record of every breach for 24 months. Knowingly ignoring these duties is an offence, with <a href="https://laws-lois.justice.gc.ca/eng/acts/P-8.6/section-28.html" target="_blank" rel="noopener">fines of up to $100,000</a>. OPC guidance treats the business that controls the information as responsible for reporting even when the breach happens at its processor.</li></ol><p>Staff records differ: PIPEDA <a href="https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_17/" target="_blank" rel="noopener">covers employee information</a> only in federally regulated businesses such as banks, so in most Ontario shops keeping staff files out of AI tools is good practice rather than a PIPEDA duty. Questions go to the <a href="https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/" target="_blank" rel="noopener">OPC Information Centre</a> at 1-800-282-1376, Monday to Friday, 9 am to 4 pm Eastern. This is general information, not legal advice.</p>
+                <h2>Plans and settings matter more than the brand</h2>
+                <p>The same assistant can be safe or unsafe depending on the plan and its switches. From the vendors' own pages on 6 October 2026:</p><ul><li><strong>Personal plans.</strong> For the <a href="https://support.google.com/gemini/answer/13594961?hl=en" target="_blank" rel="noopener">personal Gemini app</a>, Google says a subset of chats is read by human reviewers, reviewed chats can be kept for up to three years, and users should not enter confidential information.</li><li><strong>Business plans.</strong> Google says <a href="https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub?hl=en" target="_blank" rel="noopener">Workspace content</a> is not used to train models outside your domain without permission. Anthropic says inputs and outputs from its <a href="https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training" target="_blank" rel="noopener">commercial products</a>, such as Claude for Work, are not used for training by default unless you send feedback or opt in (its <a href="https://support.claude.com/en/articles/9266767-what-is-the-team-plan" target="_blank" rel="noopener">Team plan</a> needs at least two members). Microsoft says <a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/enterprise-data-protection" target="_blank" rel="noopener">Copilot prompts and responses</a> used by organizations under its commercial terms are not used to train foundation models.</li></ul><p>So the policy says business accounts only, one login each, <a href="https://www.cyber.gc.ca/en/guidance/secure-your-accounts-and-devices-multi-factor-authentication-itsap30030" target="_blank" rel="noopener">two-step sign-in</a>. The Canadian Centre for Cyber Security's <a href="https://www.cyber.gc.ca/en/guidance/generative-artificial-intelligence-ai-itsap00041" target="_blank" rel="noopener">generative AI guidance</a> recommends setting policies on how AI is used, multi-factor authentication, and keeping personal or sensitive business data out of prompts.</p><p><strong>Choose in this order.</strong> First, AI features inside software you already pay for (email, accounting, booking, point of sale). For example, on the same day Google's <a href="https://workspace.google.com/intl/en_ca/pricing" target="_blank" rel="noopener">Canadian pricing page</a> listed its Workspace Standard plan at CA$18.40 per user per month on monthly billing, before tax and before introductory or annual-commitment discounts, with Gemini in Gmail, Docs and Meet. Prices change, so check the page yourself. Second, one general assistant. Specialized tools last. Cancel anything that overlaps.</p><p><strong>Example arithmetic, replace the numbers with your own:</strong> $35 a seat x 3 staff x 12 months = $1,260 a year. At an example cost of $30 an hour, that tool must save 42 hours a year, just under 50 minutes a week across the whole team, to pay for itself.</p>
+                <h2>Eight questions for any tool or vendor</h2>
+                <p>Answer these from the vendor's own pricing and privacy pages, not from a sales call.</p><ol><li>Is our data used to train the model?</li><li>Where is it stored, and who can see it?</li><li>Can I add and remove staff and see usage?</li><li>What is the all-in price, including overage, and in which currency?</li><li>Is it month to month?</li><li>Can I export everything when I leave?</li><li>Is there support I can reach?</li><li>Can I speak to a current customer like me?</li></ol><p><strong>Red flags in a pitch:</strong> guaranteed leads or rankings, no published prices, long lock-in, "set and forget" claims, a guaranteed grant, or terms under which the vendor owns your phone number, ad account or website. On grants, <a href="https://www.bdc.ca/en/canada-digital-adoption-program" target="_blank" rel="noopener">BDC's page</a> says the Canada Digital Adoption Program stopped accepting new applications for its Boost Your Business Technology stream on 19 February 2024, so check any funding claim at the source.</p>
+                <h2>The seven lines of a workable staff policy</h2>
+                <ol><li>Approved tools only, on business accounts, with one login each and two-step sign-in.</li><li>The never-enter list, in your own plain words.</li><li>A named person reviews anything before it reaches a customer or the books.</li><li>Honesty: say when someone is dealing with an automated system, and no fake reviews, testimonials or results.</li><li>No AI-only decisions about people.</li><li>Marketing messages pass the Lesson 4 anti-spam check.</li><li>Mistakes are reported fast and without blame, and here is who to tell.</li></ol><p>Line 4 reflects the <a href="https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/" target="_blank" rel="noopener">generative AI principles</a> Canada's federal, provincial and territorial privacy commissioners published in December 2023: people should know when they are dealing with a generative AI tool.</p><p>Some readers have extra rules. Ontario clinics handle health information under PHIPA. Quebec's private-sector law, <a href="https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25" target="_blank" rel="noopener">updated by Law 25</a>, adds duties such as a privacy impact assessment before personal information is sent outside Quebec. Regulated professionals should ask their regulator before using AI with client files. Review the page every six months; tools, prices and the law change. This is general information, not legal advice.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Write and sign your one-page staff AI policy (about 15 minutes for the draft, of which about 10 is in your AI assistant; initials and vendor checks can finish this week)</h2>
+                    <ol>
+                        <li>Ask every staff member, with no blame attached, which AI tools they already use for work, and add your own. List every AI or software subscription you pay for.</li>
+                        <li>Pick the one or two tools you will approve. Run each through the eight questions using the vendor&#x27;s own pricing and privacy pages, then mark it approved, approved with limits or not approved. If you find two subscriptions doing the same job, cancel one.</li>
+                        <li>Write your never-enter list in your own plain words. For example: customer names with health or payment details, card numbers, social insurance numbers, passwords, staff records, anything told to you in confidence.</li>
+                        <li>Give your AI assistant the seven lines, your approved-tools table and your never-enter list (rules only, no real customer or staff details) and ask for a one-page policy. A free AI chat app is fine for this step because nothing confidential goes in. If you wrote a one-page rule in the beginner course, start from that. Rewrite anything that does not sound like your shop.</li>
+                        <li>Add the privacy contact&#x27;s name and the &#x27;if something goes wrong&#x27; step: who to tell the same day, and that this person contains it, writes down what happened and assesses the risk.</li>
+                        <li>In each approved tool, set the training and history options to match the policy and turn on two-step sign-in. Lesson 6 of the beginner course covers changing the key privacy settings; if you cannot find a switch, search the vendor&#x27;s own help pages.</li>
+                        <li>Date the page, have each staff member read and initial it (a solo owner signs it too), and put a six-month review in your calendar. Save it as page 2 of your AI playbook.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Ask staff what they already use</h3>
+                <button type="button" class="c-copy" data-copy="p2-0">Copy prompt</button>
+                <div class="c-prompt" id="p2-0">Write a short, friendly message to my [number] staff at [business name]. Ask which AI tools they already use for work, whether each is on a personal or a business account, and which tasks they use it for. Make it clear nobody is in trouble and that I am asking so we can agree on approved tools and simple rules. Ask for replies by [date]. Keep it under 90 words, in a [tone] tone.</div>
+                <h3>Check a vendor against the eight questions</h3>
+                <button type="button" class="c-copy" data-copy="p2-1">Copy prompt</button>
+                <div class="c-prompt" id="p2-1">I am deciding whether to approve [tool name and plan] for my business. Below is text I copied today from the vendor&#x27;s own pricing page and privacy page: [paste the page text]. Using only that text, answer these eight questions: 1) Is our data used to train the model? 2) Where is it stored and who can see it? 3) Can I add and remove staff and see usage? 4) What is the all-in price, including overage, and in which currency? 5) Is it month to month? 6) Can I export everything when I leave? 7) Is there support I can reach? 8) Can I speak to a current customer like me? For each answer, quote the sentence you relied on. If the text does not answer a question, write &#x27;not stated&#x27; and do not guess. Finish with a list of questions I should send the vendor.</div>
+                <h3>Draft the one-page staff AI policy</h3>
+                <button type="button" class="c-copy" data-copy="p2-2">Copy prompt</button>
+                <div class="c-prompt" id="p2-2">Write a one-page staff AI policy for [type of business] with [number] staff in [city, province]. Use plain language a new hire can read in two minutes. Build it from these seven rules: [paste your seven lines]. Approved tools table: [tool, plan, what it may be used for, any limits]. Never-enter list: [your list]. Privacy contact: [name or job title]. If something goes wrong, tell [name] the same day. Add a line for each staff member&#x27;s initials and the date, and a review date of [date six months from now]. Do not add any rule I did not give you. At the end, list anything unclear or missing as questions for me.</div>
+                <h3>Privacy notice line, for checking before you publish</h3>
+                <button type="button" class="c-copy" data-copy="p2-3">Copy prompt</button>
+                <div class="c-prompt" id="p2-3">Draft two plain-language sentences for the privacy notice and intake form of [type of business] in [province]. They should say that we use outside service providers, including AI tools, to [purposes, for example draft replies and summarize notes], that these providers may process information outside Canada, where it may be accessible to law enforcement and national security authorities in that country, and that people can contact [privacy contact name or title] at [business email or phone] with questions. Give me two versions, one shorter than the other. This is a draft only; I will have the wording checked before I publish it.</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l2c0"><span>I asked staff which AI tools they already use and listed every subscription we pay for.</span></label>
+                    <label><input type="checkbox" data-id="l2c1"><span>Each approved tool passed the eight questions from the vendor&#x27;s own pages, and any overlapping subscription is cancelled.</span></label>
+                    <label><input type="checkbox" data-id="l2c2"><span>Approved tools are on business accounts with one login per person, two-step sign-in on, and training and history settings matched to the policy.</span></label>
+                    <label><input type="checkbox" data-id="l2c3"><span>My never-enter list is written in my own words and every staff member has read it.</span></label>
+                    <label><input type="checkbox" data-id="l2c4"><span>A privacy contact is named, the policy says who to tell when something goes wrong, and our privacy notice mentions service providers outside Canada.</span></label>
+                    <label><input type="checkbox" data-id="l2c5"><span>The policy is dated and initialled, saved as page 2 of the AI playbook, with a six-month review in the calendar.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> Your business answers for customer information wherever it goes, so put the approved tools, the never-enter list and the named reviewer on one signed page before anyone uses AI on customer work.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: PIPEDA requirements in brief</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/r_o_p/prov-pipeda/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: Provincial laws that may apply instead of PIPEDA</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_accountability/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: PIPEDA Fair Information Principle 1 - Accountability</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_openness/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: PIPEDA Fair Information Principle 8 - Openness</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/airports-and-borders/gl_dab_090127/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: Guidelines for processing personal data across borders</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/business-privacy/breaches-and-safeguards/privacy-breaches-at-your-business/gd_pb_201810/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: What you need to know about mandatory reporting of breaches of security safeguards</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/report-a-concern/report-a-privacy-breach-at-your-organization/report-a-privacy-breach-at-your-business/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: Report a privacy breach at your business</a> &bull;
+                    <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-64/FullText.html" target="_blank" rel="noopener">Justice Laws Website: Breach of Security Safeguards Regulations (SOR/2018-64)</a> &bull;
+                    <a href="https://laws-lois.justice.gc.ca/eng/acts/P-8.6/section-28.html" target="_blank" rel="noopener">Justice Laws Website: Personal Information Protection and Electronic Documents Act, section 28 (offence and punishment)</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/employers-and-employees/02_05_d_17/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: Privacy in the Workplace</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: Principles for responsible, trustworthy and privacy-protective generative AI technologies</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/contact-the-opc/contact-the-information-centre/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: Contact the Information Centre</a> &bull;
+                    <a href="https://www.parl.ca/legisinfo/en/bill/45-1/c-36" target="_blank" rel="noopener">Parliament of Canada (LEGISinfo): Bill C-36, Protecting Privacy and Consumer Data Act</a> &bull;
+                    <a href="https://www.cyber.gc.ca/en/guidance/generative-artificial-intelligence-ai-itsap00041" target="_blank" rel="noopener">Canadian Centre for Cyber Security: Generative artificial intelligence - ITSAP.00.041</a> &bull;
+                    <a href="https://www.cyber.gc.ca/en/guidance/secure-your-accounts-and-devices-multi-factor-authentication-itsap30030" target="_blank" rel="noopener">Canadian Centre for Cyber Security: Secure your accounts and devices with multi-factor authentication (ITSAP.30.030)</a> &bull;
+                    <a href="https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25" target="_blank" rel="noopener">Commission d&#x27;acces a l&#x27;information du Quebec: Principaux changements aux lois sur la protection des renseignements personnels (Law 25)</a> &bull;
+                    <a href="https://www.bdc.ca/en/canada-digital-adoption-program" target="_blank" rel="noopener">BDC: Canada Digital Adoption Program (CDAP)</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/13594961?hl=en" target="_blank" rel="noopener">Google: Gemini Apps Privacy Hub</a> &bull;
+                    <a href="https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub?hl=en" target="_blank" rel="noopener">Google Workspace: Generative AI in Google Workspace Privacy Hub</a> &bull;
+                    <a href="https://workspace.google.com/intl/en_ca/pricing" target="_blank" rel="noopener">Google Workspace: Pricing (Canada)</a> &bull;
+                    <a href="https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training" target="_blank" rel="noopener">Anthropic Privacy Center: Is my data used for model training? (commercial products)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/9266767-what-is-the-team-plan" target="_blank" rel="noopener">Anthropic Help Center: What is the Team plan?</a> &bull;
+                    <a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/enterprise-data-protection" target="_blank" rel="noopener">Microsoft Learn: Enterprise data protection in Microsoft Copilot and Microsoft Copilot Chat</a> &bull;
+                    <a href="https://novatoronto.com/ai-course/" target="_blank" rel="noopener">Nova Toronto: AI for Beginners course</a>
+                </p>
+
+                <div class="c-nav">
+                    <a href="../lesson-1/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 1</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="2">Mark this lesson complete</button>
+                    <a href="../lesson-3/" class="button button--flex">Next: lesson 3 <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-for-business';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>

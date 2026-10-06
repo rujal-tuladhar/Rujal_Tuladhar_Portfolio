@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan a few days of meals, a small outing or a hobby project with AI, and confirm the details that matter before relying on them.">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-for-seniors/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-for-seniors/">
+    <meta property="og:title" content="Lesson 5: Planning Meals, Outings and Hobbies | AI for Seniors">
+    <meta property="og:description" content="Plan a few days of meals, a small outing or a hobby project with AI, and confirm the details that matter before relying on them.">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-for-seniors.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 5: Planning Meals, Outings and Hobbies | AI for Seniors">
+    <meta property="twitter:description" content="Plan a few days of meals, a small outing or a hobby project with AI, and confirm the details that matter before relying on them.">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-for-seniors.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 5: Planning Meals, Outings and Hobbies | AI for Seniors</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+    <style>
+        .course p, .course li, .c-lesson span, .c-check label { font-size: 1.2rem; line-height: 1.85; }
+        .course h2 { font-size: 1.7rem; } .course h3, .c-lesson h3 { font-size: 1.25rem; }
+        .c-prompt { font-size: 1.05rem; } .c-note { font-size: 1rem; } .c-kicker { font-size: 1rem; }
+        .c-form input[type=text], .c-form input[type=email] { font-size: 1.15rem; min-height: 56px; }
+        .c-form button, .c-copy { font-size: 1.05rem; min-height: 52px; }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 5 of 7 &bull; about 12 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">Planning Meals, Outings and Hobbies</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Plan a few days of meals, a small outing or a hobby project with AI, and confirm the details that matter before relying on them.</div>
+
+                <p>So far you have used your AI app to ask, to write and to read. Today you use it to plan. That could be a few suppers, a half-day out or a hobby project.</p><p>Treat any plan from an AI app as a first draft. It is useful, and it can also be wrong. So this lesson adds one habit: confirm the details that matter before you rely on them.</p>
+
+                <h2>Tell it about you, in ordinary sentences</h2>
+                <p>An AI app does not know your kitchen, your budget or your pace. A plan fits you only when you tell it a few things.</p><p>Say them the way you would to a friend who is helping you:</p><ul><li>how many people the plan is for</li><li>how much you want to spend</li><li>what you like and what you dislike</li><li>how far you can comfortably walk</li><li>the season or the month</li><li>for meals, what is already in your kitchen</li></ul><p>You do not need all six every time. Two or three details already give a better plan. If the answer does not suit you, ask again, as you practised in Lesson 2.</p>
+                <h2>Meals: suppers, a shopping list and leftovers</h2>
+                <p>Meals are a good place to start. Ask for a few simple suppers for one or two people. Ask for one shopping list, grouped by section of the store. Then ask for ways to use up the leftovers.</p><p>The app can suggest meals. It cannot know your health. <strong>An AI app is not a doctor, a lawyer or a financial adviser.</strong></p><p>Do you have a food allergy or a health condition? Do you take a medication that affects what you eat? Then pause before you follow the plan. Take it to your doctor, your pharmacist or a registered dietitian. A registered dietitian is a trained, regulated expert in food and health.</p><p>If you have a food allergy, read the label on each package yourself, every time. The Canadian Food Inspection Agency gives the same advice.</p><p>In Ontario, you can call <strong>811</strong> and ask to speak with a registered dietitian. If you use a TTY (a text telephone), call 711. The Ontario government says this advice on food and healthy eating is free. Other provinces differ, so check your provincial government's website.</p><p>For general ideas, Health Canada publishes <a href="https://www.canada.ca/en/health-canada/services/food-guide.html" target="_blank" rel="noopener">Canada's food guide</a>. It has a page called <a href="https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/seniors.html" target="_blank" rel="noopener">Healthy eating for seniors</a>, with tips on cooking for one or two people.</p>
+                <h2>Outings and hobbies</h2>
+                <p>For an outing, ask for a relaxed half-day plan. Say that you want rest stops, places to sit and washrooms along the way. Ask for a packing list. Ask for questions to put to the venue before you book. A venue is the place you plan to visit.</p><p>Know two limits. First, the app does not make the booking. Second, it may describe hours, prices or even places that are out of date or do not exist. It can sound sure and still be wrong. The next section shows the calm fix.</p><p>Here is one local example. Toronto Public Library offers free passes to some arts and cultural attractions in the city. You need an adult library card. The program is called tpl:map (checked on 6 October 2026). Check the library's own website for details.</p><p>For a trip outside Canada, start with the Government of Canada's <a href="https://travel.gc.ca/travelling/advisories" target="_blank" rel="noopener">Travel advice and advisories</a>. Read its page on <a href="https://travel.gc.ca/travelling/documents/travel-insurance" target="_blank" rel="noopener">travel health insurance</a> before you go. Your provincial health plan may pay none, or only a small part, of medical bills outside Canada.</p><p>Hobbies work the same way. You can ask for:</p><ul><li>what to plant this month</li><li>help reading one line of a knitting pattern</li><li>questions to ask relatives for a family history</li><li>the rules of a card game</li><li>book suggestions</li><li>a few phrases to learn before a visit</li></ul>
+                <h2>The double-check habit</h2>
+                <p>Ground rule 2 says: check anything that matters. In a plan, five kinds of detail matter most:</p><ul><li>opening days and hours</li><li>prices</li><li>accessibility, such as ramps, elevators and seating</li><li>bus, subway and train times</li><li>cooking temperatures</li></ul><p>Confirm each one with the place itself, by phone or on its own website. For transit times and fares, use the transit company's own website.</p><p>For cooking temperatures, use Health Canada's page <a href="https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html" target="_blank" rel="noopener">Safe cooking temperatures</a>. For example, it lists poultry pieces, such as chicken thighs, at 74°C (165°F). A whole bird is listed at 82°C (180°F).</p><p>Some free AI apps can search the web and show where an answer came from. Not every answer comes with a source. So ask: <em>"Which website did that come from?"</em> Then find that organization's website yourself and read the page. If the app cannot name a source, treat the detail as not yet confirmed.</p>
+                <h2>Keep your plan, then the safety minute</h2>
+                <p>When a plan suits you, ask: <em>"Put this in one large-print list."</em> Tap the copy button and paste the list into your notes app, or send it to a family member.</p><p><strong>Safety minute.</strong> Planning often ends with booking and paying. Do that part outside the chat.</p><ul><li>Book and pay only on a website you reached yourself and already trust. Type the web address yourself, or phone the place directly. Do not book through a link in a text, an email or an advertisement.</li><li>If a price looks too good to be true, pause and check the company first. The <a href="https://antifraudcentre-centreantifraude.ca/protect-protegez-eng.htm" target="_blank" rel="noopener">Canadian Anti-Fraud Centre</a> advises checking that any organization you deal with is real.</li><li>In the chat, name your city or neighbourhood, not your street address. Leave out the dates your home will be empty.</li><li>Never type a passport number or a card number into the chat. No plan needs them.</li></ul><p>The three ground rules, the same in every lesson:</p><p><strong>(1) Keep private numbers out. (2) Check anything that matters. (3) It is not your doctor, lawyer or financial adviser.</strong></p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Three suppers, one shopping list, one fact checked (about 10 minutes, phone or tablet)</h2>
+                    <ol>
+                        <li>Open your AI app and start a new chat. Type or say this made-up practice kitchen: &quot;I cook for two people. In my kitchen I have four chicken thighs, carrots, half a cabbage, rice and eggs. We do not like mushrooms. I want suppers that take about 30 minutes and use one pot or one pan.&quot;</li>
+                        <li>Ask: &quot;Suggest three simple suppers for the next three days.&quot; Read the three ideas.</li>
+                        <li>Swap one: &quot;I don&#x27;t feel like the second one. Give me another.&quot;</li>
+                        <li>Ask: &quot;Make one shopping list for all three suppers, grouped by section of the store, in large print.&quot;</li>
+                        <li>Ask: &quot;Which details in this plan should I double-check?&quot; Then ask: &quot;What inside temperature should chicken thighs reach to be safe to eat?&quot;</li>
+                        <li>Check that answer yourself. Open the Health Canada page called Safe cooking temperatures, using the link in the section &quot;The double-check habit&quot; of this lesson. Scroll to the heading that starts with the word Poultry. Find the row for Pieces. It should read 74°C (165°F). On paper, note whether the AI was right.</li>
+                        <li>Your win for today: a plan made for one kitchen, a list you could shop from, and one fact you confirmed yourself. For a second round, repeat the steps with the foods really in your kitchen. Or plan an outing: ask for &quot;a relaxed half-day out for two people in [your city] this month, with places to sit and washrooms nearby&quot;. Then confirm one opening time on the place&#x27;s own website or by phone. Name your city only, never your street address.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Three suppers and a shopping list</h3>
+                <button type="button" class="c-copy" data-copy="p5-0">Copy prompt</button>
+                <div class="c-prompt" id="p5-0">I cook for [number] people. In my kitchen I have [three or four foods]. We do not like [food]. I want suppers that take about [number] minutes. Suggest three simple suppers for the next three days. Then make one shopping list for all three, grouped by section of the store, in large print.</div>
+                <h3>A relaxed half-day out</h3>
+                <button type="button" class="c-copy" data-copy="p5-1">Copy prompt</button>
+                <div class="c-prompt" id="p5-1">Plan a relaxed half-day out for [number] people in [city or neighbourhood] in [month]. I can walk for about [number] minutes at a time. Include places to sit and washrooms. Add a short packing list. Then list the questions I should ask each place before I book.</div>
+                <h3>Getting started with a hobby</h3>
+                <button type="button" class="c-copy" data-copy="p5-2">Copy prompt</button>
+                <div class="c-prompt" id="p5-2">I would like help with [hobby, such as gardening, knitting or family history]. I am [a beginner / coming back to it after many years]. Give me five short steps to get started this [season or month], in plain words and large print.</div>
+                <h3>The double-check question</h3>
+                <button type="button" class="c-copy" data-copy="p5-3">Copy prompt</button>
+                <div class="c-prompt" id="p5-3">Which details in this plan should I double-check before I rely on it? For each one, tell me what kind of place or official website can confirm it. Do not guess at phone numbers or web addresses.</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l5c0"><span>I gave the app a few details about me in ordinary sentences, with no street address.</span></label>
+                    <label><input type="checkbox" data-id="l5c1"><span>I asked for a plan and then changed one thing about it.</span></label>
+                    <label><input type="checkbox" data-id="l5c2"><span>I asked for a large-print list and I know how to copy it into my notes.</span></label>
+                    <label><input type="checkbox" data-id="l5c3"><span>I confirmed one detail myself, on an official website or with the place itself.</span></label>
+                    <label><input type="checkbox" data-id="l5c4"><span>I know that questions about allergies, health conditions or medication go to my doctor, pharmacist or a registered dietitian.</span></label>
+                    <label><input type="checkbox" data-id="l5c5"><span>I will book and pay only on a website I reached myself and already trust.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> A plan from your AI app is a useful first draft, and it becomes a plan you can rely on once you have confirmed the details that matter with the place itself or an official source.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://www.canada.ca/en/health-canada/services/general-food-safety-tips/safe-internal-cooking-temperatures.html" target="_blank" rel="noopener">Health Canada: Safe cooking temperatures</a> &bull;
+                    <a href="https://www.canada.ca/en/health-canada/services/food-guide.html" target="_blank" rel="noopener">Health Canada: Canada&#x27;s food guide</a> &bull;
+                    <a href="https://www.canada.ca/en/health-canada/services/food-guide/eating-support/life-stages/seniors.html" target="_blank" rel="noopener">Health Canada: Healthy eating for seniors</a> &bull;
+                    <a href="https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-allergies-intolerances.html" target="_blank" rel="noopener">Health Canada: Food Allergies and Intolerances</a> &bull;
+                    <a href="https://inspection.canada.ca/en/inspect-and-protect/articles/tips-reading-food-labels" target="_blank" rel="noopener">Canadian Food Inspection Agency: Have food allergies? Tips for reading food labels</a> &bull;
+                    <a href="https://www.ontario.ca/page/healthy-choices" target="_blank" rel="noopener">Government of Ontario: Healthy choices</a> &bull;
+                    <a href="https://www.ontario.ca/page/your-health" target="_blank" rel="noopener">Government of Ontario: Your health</a> &bull;
+                    <a href="https://www.ontario.ca/document/guide-programs-and-services-seniors/health-and-well-being" target="_blank" rel="noopener">Government of Ontario: Health and well-being (A guide to programs and services for seniors)</a> &bull;
+                    <a href="https://travel.gc.ca/travelling/advisories" target="_blank" rel="noopener">Government of Canada: Travel advice and advisories</a> &bull;
+                    <a href="https://travel.gc.ca/travelling/documents/travel-insurance" target="_blank" rel="noopener">Government of Canada: Trip interruption and travel health insurance</a> &bull;
+                    <a href="https://antifraudcentre-centreantifraude.ca/protect-protegez-eng.htm" target="_blank" rel="noopener">Canadian Anti-Fraud Centre: Protect yourself from fraud</a> &bull;
+                    <a href="https://www.antifraudcentre-centreantifraude.ca/scams-fraudes/merchandise-marchandises-eng.htm" target="_blank" rel="noopener">Canadian Anti-Fraud Centre: Merchandise</a> &bull;
+                    <a href="https://www.canada.ca/en/competition-bureau/news/2018/03/online-shopping-scams-handle-with-care.html" target="_blank" rel="noopener">Competition Bureau Canada: Online shopping scams: handle with care</a> &bull;
+                    <a href="https://tpl.ca/using-the-library/services/map/" target="_blank" rel="noopener">Toronto Public Library: tpl:map</a> &bull;
+                    <a href="https://support.claude.com/en/articles/10684626-enabling-and-using-web-search" target="_blank" rel="noopener">Anthropic: Enabling and using web search</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/14143489?hl=en" target="_blank" rel="noopener">Google: View related sources from Gemini Apps</a> &bull;
+                    <a href="https://support.google.com/gemini/answer/13594961?hl=en" target="_blank" rel="noopener">Google: Gemini Apps Privacy Hub</a>
+                </p>
+
+                <div class="c-nav">
+                    <a href="../lesson-4/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 4</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="5">Mark this lesson complete</button>
+                    <a href="../lesson-6/" class="button button--flex">Next: lesson 6 <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-for-seniors';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>

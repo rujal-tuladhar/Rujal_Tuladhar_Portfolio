@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17927080637');
+        gtag('config', 'G-B064YQYKLC');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Build a one-page business facts sheet and use it to produce saved replies, a review response and an FAQ that are accurate enough to send after a quick">
+    <meta name="author" content="Rujal Tuladhar">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://novatoronto.com/ai-for-business/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://novatoronto.com/ai-for-business/">
+    <meta property="og:title" content="Lesson 3: Answer Customers Faster: Replies, Reviews and FAQs | AI for Business">
+    <meta property="og:description" content="Build a one-page business facts sheet and use it to produce saved replies, a review response and an FAQ that are accurate enough to send after a quick">
+    <meta property="og:image" content="https://novatoronto.com/assets/img/ai-for-business.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Lesson 3: Answer Customers Faster: Replies, Reviews and FAQs | AI for Business">
+    <meta property="twitter:description" content="Build a one-page business facts sheet and use it to produce saved replies, a review response and an FAQ that are accurate enough to send after a quick">
+    <meta property="twitter:image" content="https://novatoronto.com/assets/img/ai-for-business.jpg">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Lesson 3: Answer Customers Faster: Replies, Reviews and FAQs | AI for Business</title>
+    <link rel="icon" href="../../assets/img/small_logo.png" type="image/png">
+    <style>
+        .course p { line-height: 1.8; margin-bottom: 1.15rem; color: var(--text-color); }
+        .course p a, .course li a { color: var(--first-color-text); font-weight: 500; }
+        .course ul, .course ol { margin: 0 0 1.25rem 1.35rem; color: var(--text-color); line-height: 1.7; }
+        .course ul { list-style: disc; } .course ol { list-style: decimal; }
+        .course li { margin-bottom: .45rem; }
+        .course h2 { font-size: 1.45rem; color: var(--title-color); margin: 2.4rem 0 1rem; }
+        .course h3 { font-size: 1.08rem; color: var(--title-color); margin: 1.4rem 0 .4rem; }
+        .c-kicker { display: block; color: var(--first-color-text); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .85rem; margin-bottom: .5rem; }
+        .c-box { background: hsl(199, 70%, 97%); border-left: 4px solid var(--first-color); border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin: 1.25rem 0 2rem; color: var(--title-color); line-height: 1.6; }
+        .c-card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1.25rem 1.4rem; margin-bottom: 1rem; }
+        .c-exercise { background: var(--container-color); border: 2px solid var(--first-color); border-radius: 1.25rem; padding: 1.5rem 1.6rem; margin: 2rem 0; }
+        .c-exercise h2 { margin-top: 0; }
+        .c-prompt { position: relative; background: #0b1f3a; color: #e6f1fb; border-radius: .9rem; padding: 1.1rem 1.2rem 1.1rem; margin: .6rem 0 1.4rem; font-family: Consolas, 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; }
+        .c-copy { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; margin: 0 0 .2rem; padding: .4rem 1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: #fff; color: var(--first-color-text); font-weight: 600; cursor: pointer; font-size: .85rem; }
+        .c-check label { display: flex; gap: .7rem; align-items: flex-start; padding: .55rem 0; color: var(--text-color); line-height: 1.5; cursor: pointer; min-height: 44px; }
+        .c-check input { width: 20px; height: 20px; margin-top: .15rem; flex: none; accent-color: hsl(199, 100%, 33%); }
+        .c-nav { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; margin: 2.5rem 0 1rem; }
+        .c-lessons { display: grid; gap: .8rem; margin: 1.5rem 0 2rem; }
+        .c-lesson { display: grid; grid-template-columns: 48px 1fr auto; gap: 1rem; align-items: center; text-decoration: none; background: var(--container-color); border: 1px solid rgba(0, 150, 221, .18); border-radius: 1rem; padding: 1rem 1.2rem; }
+        .c-lesson b { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .9rem; background: rgba(0, 150, 221, .1); color: var(--first-color-text); font-size: 1.1rem; }
+        .c-lesson h3 { margin: 0 0 .15rem; font-size: 1rem; color: var(--title-color); }
+        .c-lesson span { color: var(--text-color-light); font-size: .85rem; }
+        .c-lesson.done b { background: #16a34a; color: #fff; }
+        .c-form { display: grid; gap: .7rem; max-width: 520px; }
+        .c-form input[type=text], .c-form input[type=email] { padding: .9rem 1rem; border-radius: .9rem; border: 1px solid rgba(0, 150, 221, .35); background: #fff; color: #1b2532; font-size: 16px; min-height: 48px; width: 100%; }
+        .c-form button { border: none; cursor: pointer; min-height: 48px; justify-content: center; }
+        .c-note { font-size: .82rem; color: var(--text-color-light); line-height: 1.5; margin: 0; }
+        .c-hero { display: grid; gap: 2.5rem; align-items: center; }
+        .c-panel { background: linear-gradient(160deg, hsl(199, 70%, 97%), #fff); border: 2px solid var(--first-color); border-radius: 1.5rem; padding: 1.75rem; }
+        .c-ticks { list-style: none !important; margin-left: 0 !important; }
+        .c-ticks li { position: relative; padding-left: 1.9rem; }
+        .c-ticks li::before { content: '\2713'; position: absolute; left: 0; top: 0; color: #16a34a; font-weight: 700; }
+        @media (min-width: 900px) { .c-hero { grid-template-columns: 1.05fr .95fr; } }
+    </style>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../../" class="nav__logo">
+                <img src="../../assets/img/NovaToronto.png" width="110" height="60" alt="Nova Toronto logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item"><a href="../../" class="nav__link"><i class="uil uil-estate nav__icon"></i>HOME</a></li>
+                    <li class="nav__item dropdown">
+                        <a href="../../services/" class="nav__link dropdown__toggle"><i class="uil uil-apps nav__icon"></i>SERVICES</a>
+                        <ul class="dropdown__menu">
+                            <li><a href="../../website-design/" class="nav__link dropdown__item">Website Design</a></li>
+                            <li><a href="../../digital-marketing/" class="nav__link dropdown__item">Digital Marketing</a></li>
+                            <li><a href="../../ai-automation/" class="nav__link dropdown__item">AI Automation</a></li>
+                            <li><a href="../../amazon-seller/" class="nav__link dropdown__item">Amazon Seller</a></li>
+                            <li><a href="../../walmart-seller/" class="nav__link dropdown__item">Walmart Seller</a></li>
+                            <li><a href="/#ai-video" class="nav__link dropdown__item">AI Video Production</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="../../blog/" class="nav__link"><i class="uil uil-newspaper nav__icon"></i>BLOG</a></li>
+                    <li class="nav__item"><a href="../../#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>PORTFOLIO</a></li>
+                    <li class="nav__item"><a href="../../#website-pricing" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>PRICING</a></li>
+                    <li class="nav__item"><a href="../../#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>CONTACT</a></li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle"><i class="uil uil-apps"></i></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container course" style="max-width: 760px;">
+                <a href="../start/" class="button button--small button--link" style="margin-bottom: 1rem;"><i class="uil uil-arrow-left"></i> All lessons</a>
+                <span class="c-kicker">Lesson 3 of 7 &bull; about 15 minutes</span>
+                <h1 class="section__title" style="text-align: left; padding-top: 0; margin-bottom: 1rem;">Answer Customers Faster: Replies, Reviews and FAQs</h1>
+                <div class="c-box"><strong>By the end of this lesson:</strong> Build a one-page business facts sheet and use it to produce saved replies, a review response and an FAQ that are accurate enough to send after a quick check.</div>
+
+                <p>Most customer questions are the same handful asked again and again: price, hours, area, availability, how to book. This lesson turns them into replies you can send in seconds, starting with the step that stops an AI assistant from making things up about your business.</p><p>You will finish with page 3 of your AI playbook: a one-page facts sheet, five saved replies and one posted review response. The Lesson 1 rule still applies: draft, check, send.</p>
+
+                <h2>Write the facts sheet first</h2>
+                <p>An assistant does not know your prices, hours, service area or policies. Asked to answer a customer, it fills each gap with something plausible, and a plausible wrong price is worse than a slow reply. The fix is one page of facts it must work from.</p><p>Use these headings:</p><ul><li>Hours, including holidays</li><li>Area served</li><li>Services, with starting prices or ranges</li><li>How to book</li><li>Payment methods</li><li>Warranty, refund and cancellation terms</li><li>What you do not do</li><li>Your tone, in three or four words</li></ul><p>Customer personal details stay off the sheet. Each time you use it, add one standing instruction: <strong>"Use only the facts sheet. If the answer is not there, say I will check and get back to you."</strong> Then test it with questions the sheet does not cover. If the assistant guesses, tighten the wording before you trust any draft.</p><p>A phone note pasted at the top of each chat works with any assistant. Some can hold the sheet for you: when this lesson was checked on 6 October 2026, <a href="https://support.claude.com/en/articles/9517075-what-are-projects" target="_blank" rel="noopener">Claude's help centre</a> said free accounts can create up to five projects, each with its own instructions and documents, and <a href="https://help.openai.com/en/articles/10169521-projects-in-chatgpt" target="_blank" rel="noopener">OpenAI's help centre</a> listed projects for free ChatGPT users with up to five files each. Limits change, so check your own tool, and use the one your Lesson 2 policy approves.</p>
+                <h2>Build the reply library from real enquiries</h2>
+                <p>Do not guess which questions matter. Read your last 30 enquiries across email, text and direct messages and tally them. You will likely find a short list of questions that keep repeating. For each one, have the assistant draft a reply from the facts sheet with blanks for the name, date and price, then correct it against the sheet yourself.</p><p>Store the finished replies where you actually answer, so most customers get a reply with no AI involved:</p><ul><li><strong>Gmail:</strong> templates are switched on under Settings, See all settings, Advanced. <a href="https://support.google.com/mail/answer/14864208?hl=en" target="_blank" rel="noopener">Google's help page</a> says they can only be turned on and used on a computer, not in the phone app.</li><li><strong>iPhone:</strong> text replacement (Settings, General, Keyboard, Text Replacement) expands a short code into a full reply as you type.</li><li><strong>WhatsApp Business app:</strong> quick replies are under Tools, and typing "/" in a chat brings them up.</li><li><strong>Any phone:</strong> a pinned note you copy from. Other keyboards and messaging apps vary, so look in their settings for a saved-reply option.</li></ul>
+                <h2>Reviews: ask fairly, answer every one</h2>
+                <p>Invite every customer the same way, offer nothing in return, and never write or buy a review. The Competition Bureau says anyone who writes or permits reviews that give a false or misleading impression could be liable under the Competition Act, says staff who post reviews must disclose their connection to the business, and lists giving customers incentives to leave positive reviews among the practices it calls astroturfing. The <a href="https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/penalties-and-remedies-non-compliance" target="_blank" rel="noopener">civil penalty</a> for a first violation can reach $750,000 for an individual and $10 million for a corporation, or three times the benefit gained if that is larger. The Bureau's information centre is 1-800-348-5358 (toll-free in Canada).</p><p>Platform rules go further. <a href="https://support.google.com/contributionpolicy/answer/7400114?hl=en" target="_blank" rel="noopener">Google's Maps policy</a> bars payment, discounts or free goods or services in exchange for a review, and bars discouraging negative reviews or asking only satisfied customers. Google does let you ask with a review link or QR code. <a href="https://biz.yelp.com/support-center/Reviews/Best_Practices/Don-t-Ask-for-Reviews/en-US" target="_blank" rel="noopener">Yelp</a> tells businesses not to ask at all.</p><p>Canada's anti-spam law requires consent before you send commercial messages by email, text or instant message, and a review request sent that way may be caught by it. Until Lesson 4 walks through consent, ask in person, on the receipt or with a QR code at the counter.</p><p>To reply on Google, open your Business Profile, choose Read reviews, then Reply. Google checks replies against its policies and posts approved ones publicly under the review.</p><ul><li><strong>Positive review:</strong> a short thank-you that picks up something the reviewer wrote. No offers.</li><li><strong>Hard review:</strong> acknowledge it, give a direct way to sort it out offline, and say what you changed if you changed something.</li></ul><p>Either way, never confirm that the reviewer is a client or patient, and add nothing about their visit, purchase or bill. Under the federal privacy law (PIPEDA), personal information may be <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_use/" target="_blank" rel="noopener">used or disclosed only for the purpose it was collected for</a> unless the person consents or the law requires it. Your province may have its own privacy law as well. Clinics face tighter rules: the College of Physicians and Surgeons of Ontario's <a href="https://www.cpso.on.ca/en/physicians/policies-guidance/policies/social-media/advice-to-the-profession-social-media" target="_blank" rel="noopener">social media advice</a> says a post may be deemed a breach of confidentiality even if only the patient could recognize themselves in it. If you are in a regulated profession, check with your own regulator first. This is general information, not legal advice.</p>
+                <h2>Turn the answers into an FAQ</h2>
+                <p>Each saved reply is also an FAQ entry. Publish the same answers on your website so the question stops arriving. On your Google Business Profile, fill in the fields your profile offers, such as the business description, hours and, where available, services. Google's help pages say the profile's chat feature ended on 31 July 2024 and that the Q&amp;A section is offered only for select business categories and regions, so check what your own profile shows before relying on it.</p><p>A wrong written answer is still your answer. Check every entry against the facts sheet, and when a price or policy changes, update the sheet first, then the replies and the FAQ.</p>
+                <h2>The arithmetic and the limits</h2>
+                <p><strong>Example only. Replace every number with your own.</strong> 20 enquiries a week x 3 minutes saved per reply = 60 minutes, or 1 hour a week, which is 52 hours a year. At an example $30 an hour that is $1,560. The assumptions to replace: your weekly enquiry count, the minutes you actually save once checking time is included, and what an hour costs you.</p><p>The number to watch is time to first reply, which you recorded in Lesson 1. Measure it again on your next ten enquiries.</p><p>Some messages are written by a person from start to finish: complaints involving money or legal exposure, health or safety questions, and anything the facts sheet does not cover.</p>
+
+                <div class="c-exercise">
+                    <h2><i class="uil uil-pen"></i> Try it: Facts sheet and five saved replies (about 15 minutes on a phone, plus two follow-ups this week)</h2>
+                    <ol>
+                        <li>Write a first version of your facts sheet under the eight headings in this lesson. Short points are enough. Mark anything you are unsure of and fix it at the source later (your price list, booking page or written policy), not from memory.</li>
+                        <li>Open the assistant your Lesson 2 policy approves, paste in the sheet and add the instruction: &quot;Use only the facts sheet. If the answer is not there, say I will check and get back to you.&quot;</li>
+                        <li>Paste in your five most common customer questions with names and contact details removed. Ask for a reply to each in your tone, under 90 words, with blanks for the details that change.</li>
+                        <li>Ask three trick questions the sheet does not answer, such as a service you do not offer or a price that is not listed. Confirm the assistant says it will check instead of guessing. If it guesses, tighten the instruction and try again.</li>
+                        <li>Correct all five drafts against the sheet, then save them where you answer customers: email templates, a text shortcut, messaging-app quick replies or a pinned note.</li>
+                        <li>This week: draft a reply to one real review, critical or lukewarm if you have one, with the reviewer&#x27;s name and any identifying details left out of what you paste. Check that it reveals nothing about their visit, then post it yourself.</li>
+                        <li>This week: turn the five answers into an FAQ, check each entry against the sheet and publish it on your website. File the facts sheet and replies as page 3 of your AI playbook.</li>
+                    </ol>
+                </div>
+
+                <h2>Prompts you can copy</h2>
+                <h3>Saved replies from your facts sheet</h3>
+                <button type="button" class="c-copy" data-copy="p3-0">Copy prompt</button>
+                <div class="c-prompt" id="p3-0">You are helping me answer customer enquiries for my [type of business] in [city or area]. Use only the facts sheet below. If an answer is not on the sheet, write &quot;I will check and get back to you&quot; and do not guess.
+
+Write one reply to each question in a [three or four words describing your tone] tone, under 90 words. Wherever a detail changes from customer to customer, leave a blank marked NAME, DATE or PRICE.
+
+FACTS SHEET:
+[paste your facts sheet]
+
+QUESTIONS (names and contact details removed):
+1. [question]
+2. [question]
+3. [question]
+4. [question]
+5. [question]</div>
+                <h3>Trick-question test</h3>
+                <button type="button" class="c-copy" data-copy="p3-1">Copy prompt</button>
+                <div class="c-prompt" id="p3-1">Using only the facts sheet I gave you, answer these three customer questions:
+1. [a question about a service you do not offer]
+2. [a question about a price that is not on the sheet]
+3. [a question about a date, guarantee or policy the sheet does not cover]
+
+After each answer, tell me which line of the facts sheet you used. If no line covers the question, say so and give only the &quot;I will check and get back to you&quot; reply.</div>
+                <h3>Public reply to a review</h3>
+                <button type="button" class="c-copy" data-copy="p3-2">Copy prompt</button>
+                <div class="c-prompt" id="p3-2">Draft a public reply to the review below for my [type of business]. Keep it under 70 words in a [calm and warm] tone.
+
+Rules: do not confirm that the reviewer is a customer, client or patient. Do not mention anything about their visit, purchase or bill beyond what they wrote themselves. No offers, no excuses and no arguing.
+
+If the review is critical: acknowledge the concern, invite them to contact [role and business phone number or email] so we can sort it out directly, and mention [what we changed, or delete this line].
+If the review is positive: thank them and pick up one thing they mentioned.
+
+REVIEW (reviewer&#x27;s name and identifying details removed):
+[paste the review text]</div>
+                <h3>FAQ from your saved replies</h3>
+                <button type="button" class="c-copy" data-copy="p3-3">Copy prompt</button>
+                <div class="c-prompt" id="p3-3">Turn the saved replies below into a website FAQ of [5 to 8] questions and answers for my [type of business]. Use only what is in the replies and the facts sheet. Keep each answer under 60 words, in plain language with Canadian spelling. Replace every blank with wording that works for any customer, such as the price range shown on the sheet. At the end, list anything you were unsure about so I can check it.
+
+FACTS SHEET:
+[paste your facts sheet]
+
+SAVED REPLIES:
+[paste your saved replies]</div>
+
+                <h2>Before you move on</h2>
+                <div class="c-check">
+                    <label><input type="checkbox" data-id="l3c0"><span>My facts sheet fits on one page, holds no customer personal details, and every price and policy on it was checked at the source.</span></label>
+                    <label><input type="checkbox" data-id="l3c1"><span>The assistant answered all three trick questions with &quot;I will check and get back to you&quot; instead of guessing.</span></label>
+                    <label><input type="checkbox" data-id="l3c2"><span>Five saved replies are stored where I answer customers, each with blanks for the details that change.</span></label>
+                    <label><input type="checkbox" data-id="l3c3"><span>Every customer is asked for a review the same way, with nothing offered in return, and nobody connected to the business posts one without disclosing the connection.</span></label>
+                    <label><input type="checkbox" data-id="l3c4"><span>One review reply is posted, and it reveals nothing about the reviewer&#x27;s visit or whether they are a customer.</span></label>
+                    <label><input type="checkbox" data-id="l3c5"><span>I have written down which messages a person always writes: money or legal complaints, health or safety questions, and anything not on the sheet.</span></label>
+                </div>
+
+                <div class="c-box"><strong>Remember:</strong> An assistant held to a one-page facts sheet and checked by a named person gives fast answers you can stand behind, while one left to guess gives fast answers you will spend longer correcting.</div>
+
+                <p style="font-size: .9rem;">Sources checked for this lesson:
+                    <a href="https://support.google.com/contributionpolicy/answer/7400114?hl=en" target="_blank" rel="noopener">Google: Maps User Generated Content Policy Help - Prohibited and restricted content</a> &bull;
+                    <a href="https://support.google.com/business/answer/3474050?hl=en" target="_blank" rel="noopener">Google: Manage customer reviews (Google Business Profile Help)</a> &bull;
+                    <a href="https://support.google.com/business/answer/3474122?hl=en" target="_blank" rel="noopener">Google: Tips to get more reviews (Google Business Profile Help)</a> &bull;
+                    <a href="https://support.google.com/business/answer/14919056?hl=en" target="_blank" rel="noopener">Google: Changes to Google Business Profile chat and call history</a> &bull;
+                    <a href="https://support.google.com/business/answer/3039617?hl=en" target="_blank" rel="noopener">Google: Edit your Business Profile (Google Business Profile Help)</a> &bull;
+                    <a href="https://biz.yelp.com/support-center/Reviews/Best_Practices/Don-t-Ask-for-Reviews/en-US" target="_blank" rel="noopener">Yelp: Don&#x27;t Ask for Reviews</a> &bull;
+                    <a href="https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html" target="_blank" rel="noopener">Competition Bureau Canada: Online reviews posted by employees: businesses could be liable</a> &bull;
+                    <a href="https://competition-bureau.canada.ca/en/deceptive-marketing-practices-digest-volume-1" target="_blank" rel="noopener">Competition Bureau Canada: The Deceptive Marketing Practices Digest - Volume 1</a> &bull;
+                    <a href="https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/penalties-and-remedies-non-compliance" target="_blank" rel="noopener">Competition Bureau Canada: Penalties and remedies for non-compliance</a> &bull;
+                    <a href="https://competition-bureau.canada.ca/en/contact-information-centre" target="_blank" rel="noopener">Competition Bureau Canada: Contact the Information Centre</a> &bull;
+                    <a href="https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email" target="_blank" rel="noopener">Innovation, Science and Economic Development Canada: Getting consent to send email (Canada&#x27;s anti-spam legislation)</a> &bull;
+                    <a href="https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_use/" target="_blank" rel="noopener">Office of the Privacy Commissioner of Canada: PIPEDA Fair Information Principle 5 - Limiting Use, Disclosure, and Retention</a> &bull;
+                    <a href="https://www.cpso.on.ca/en/physicians/policies-guidance/policies/social-media/advice-to-the-profession-social-media" target="_blank" rel="noopener">College of Physicians and Surgeons of Ontario: Advice to the Profession: Social Media</a> &bull;
+                    <a href="https://support.google.com/mail/answer/14864208?hl=en" target="_blank" rel="noopener">Google: Create a template in Gmail (Gmail Help)</a> &bull;
+                    <a href="https://support.apple.com/guide/iphone/use-text-replacements-iph6d01d862/ios" target="_blank" rel="noopener">Apple: Set up shorthand for frequently used text on iPhone (iPhone User Guide)</a> &bull;
+                    <a href="https://faq.whatsapp.com/smbi/account-and-profile/how-to-use-quick-replies/?lang=en" target="_blank" rel="noopener">WhatsApp: How to use quick replies (WhatsApp Help Center)</a> &bull;
+                    <a href="https://support.claude.com/en/articles/9517075-what-are-projects" target="_blank" rel="noopener">Anthropic: What are projects? (Claude Help Center)</a> &bull;
+                    <a href="https://help.openai.com/en/articles/10169521-projects-in-chatgpt" target="_blank" rel="noopener">OpenAI: Projects in ChatGPT (OpenAI Help Center)</a>
+                </p>
+
+                <div class="c-nav">
+                    <a href="../lesson-2/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson 2</a>
+                    <button type="button" class="c-copy" id="c-done" data-lesson="3">Mark this lesson complete</button>
+                    <a href="../lesson-4/" class="button button--flex">Next: lesson 4 <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <p class="footer__title">Nova Toronto</p>
+                    <span class="footer__subtitle">From click to customers</span>
+                    <a href="tel:+13653553133" class="footer__tel">
+                        <i class="uil uil-phone" aria-hidden="true"></i> 365-355-3133
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li><a href="../../website-design/" class="footer__link">Website Design</a></li>
+                    <li><a href="../../digital-marketing/" class="footer__link">Digital Marketing</a></li>
+                    <li><a href="../../ai-automation/" class="footer__link">AI Automation</a></li>
+                    <li><a href="/amazon-seller/" class="footer__link">Amazon Seller</a></li>
+                    <li><a href="/walmart-seller/" class="footer__link">Walmart Seller</a></li>
+                    <li><a href="../../index.html#contact" class="footer__link">Contact</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/Nova-Toronto-108507575043046/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Facebook"><i class="uil uil-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/nova_toronto/" target="_blank" rel="noopener" class="footer__social" aria-label="Nova Toronto on Instagram"><i class="uil uil-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/rujal-tuladhar-37877b167/" target="_blank" rel="noopener" class="footer__social" aria-label="Rujal Tuladhar on LinkedIn"><i class="uil uil-linkedin-alt" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Nova Toronto. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="../../assets/js/main.js"></script>
+    <script>
+        (function () {
+            var KEY = 'nova-ai-for-business';
+            function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (err) { return {}; } }
+            function save(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (err) { } }
+            var state = load();
+            document.querySelectorAll('[data-lesson-row]').forEach(function (row) {
+                if (state['done' + row.getAttribute('data-lesson-row')]) { row.classList.add('done'); }
+            });
+            document.querySelectorAll('.c-check input').forEach(function (box) {
+                var id = box.getAttribute('data-id');
+                box.checked = !!state[id];
+                box.addEventListener('change', function () { state[id] = box.checked; save(state); });
+            });
+            var done = document.getElementById('c-done');
+            if (done) {
+                var n = done.getAttribute('data-lesson');
+                var paint = function () { done.textContent = state['done' + n] ? 'Lesson complete \u2713' : 'Mark this lesson complete'; };
+                paint();
+                done.addEventListener('click', function () {
+                    state['done' + n] = !state['done' + n]; save(state); paint();
+                    if (state['done' + n] && typeof gtag === 'function') { gtag('event', 'course_lesson_complete', { lesson: n }); }
+                });
+            }
+            document.querySelectorAll('.c-copy[data-copy]').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var text = document.getElementById(btn.getAttribute('data-copy')).textContent;
+                    var ok = function () { var old = btn.textContent; btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = old; }, 1600); };
+                    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(ok, function () { }); }
+                    else { var r = document.createRange(); r.selectNodeContents(document.getElementById(btn.getAttribute('data-copy'))); var s = getSelection(); s.removeAllRanges(); s.addRange(r); try { document.execCommand('copy'); ok(); } catch (err) { } }
+                });
+            });
+            var w = document.getElementById('c-welcome');
+            if (w && /[?&]welcome=1/.test(location.search)) { w.style.display = 'block'; }
+        })();
+    </script>
+</body>
+
+</html>
