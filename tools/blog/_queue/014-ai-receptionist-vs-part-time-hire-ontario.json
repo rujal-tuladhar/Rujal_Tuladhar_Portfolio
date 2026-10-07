@@ -1,0 +1,151 @@
+{
+ "slug": "ai-receptionist-vs-part-time-hire-ontario",
+ "title": "AI receptionist vs a part-time hire: the Ontario wage math",
+ "category": "AI Automation",
+ "excerpt": "What a 20-hour-a-week receptionist really costs an Ontario employer in 2026, line by line, and what the same money buys in AI answering.",
+ "keywords": "cost of hiring a receptionist Ontario, part time receptionist cost ontario, Ontario minimum wage 2026, ai receptionist vs human receptionist cost, employer CPP EI cost Ontario, receptionist wage Toronto",
+ "cover_title": "Receptionist: Hire or AI?",
+ "intro_html": "<p>You are about to post a part-time front-desk job because the phone keeps ringing while you are with a client. The ad will say 20 hours a week at around minimum wage, and in your head the cost is the hourly rate times the hours. It is more than that, and the gap is easy to work out from government pages.</p><p>This post does that math for Ontario using figures I read on October 6, 2026, then sets it beside the listed prices of three AI answering tools. The two do not do the same job, so the last sections cover what a person still does better and how most small offices can combine them.</p>",
+ "glance": [
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$17.95 an hour",
+   "sub": "Ontario's general minimum wage since October 1, 2026"
+  },
+  {
+   "icon": "uil-chart-line",
+   "heading": "$20.00 median",
+   "sub": "Job Bank's median hourly wage for receptionists in the Toronto region"
+  },
+  {
+   "icon": "uil-plus-circle",
+   "heading": "About 11% on top",
+   "sub": "Vacation pay, CPP and EI added to the wage in the 20-hour example below"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "20 of 168 hours",
+   "sub": "A 20-hour hire covers roughly 12% of the week; the phone rings in the rest"
+  },
+  {
+   "icon": "uil-robot",
+   "heading": "$29 to $349 a month",
+   "sub": "Listed plan prices at Dialzara, Rosie and Goodcall, before currency conversion"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "The wage floor, and what Toronto actually pays",
+   "body_html": "<p>Ontario's <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage\" target=\"_blank\" rel=\"noopener\">minimum wage page</a>, updated September 28, 2026, puts the general rate at $17.95 an hour from October 1, 2026. It was $17.60 for the twelve months before that.</p><p>Minimum wage is the floor, not the going rate. The federal <a href=\"https://www.jobbank.gc.ca/marketreport/wages-occupation/24391/22437\" target=\"_blank\" rel=\"noopener\">Job Bank wage report for receptionists</a> (NOC 14101) shows a median of $20.00 an hour in the Toronto region and a high of $28.57, against medians of $20.50 for Ontario and $21.00 for Canada. Those figures come from Statistics Canada's Labour Force Survey for 2023 to 2024, so treat them as a conservative baseline.</p>",
+   "takeaway": "Budget on $20 an hour, not $17.95, if you want applicants with front-desk experience in the GTA."
+  },
+  {
+   "heading": "What you pay on top of the hourly rate",
+   "body_html": "<p>Five items sit above the wage. Each one below is from the government page that sets it.</p><ul><li><strong>Vacation pay.</strong> The province's <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/vacation\" target=\"_blank\" rel=\"noopener\">vacation guide</a> sets it at four per cent of gross wages for employees with less than five years of service and six per cent after that. Part-time staff are covered.</li><li><strong>Canada Pension Plan.</strong> The <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html\" target=\"_blank\" rel=\"noopener\">Canada Revenue Agency table</a> lists a 2026 employee and employer rate of 5.95% each, on pensionable earnings above a $3,500 basic exemption and up to $74,600.</li><li><strong>Employment Insurance.</strong> The <a href=\"https://www.canada.ca/en/employment-social-development/news/2025/09/canada-employment-insurance-commission-sets-the-2026-employment-insurance-premium-rate.html\" target=\"_blank\" rel=\"noopener\">2026 rate announcement</a> sets the employer premium at $2.28 per $100 of insurable earnings, which is 1.4 times the employee rate of $1.63.</li><li><strong>Public holidays.</strong> Ontario has <a href=\"https://www.ontario.ca/document/your-guide-employment-standards-act-0/public-holidays\" target=\"_blank\" rel=\"noopener\">nine public holidays</a>, and qualified part-time employees get public holiday pay: regular wages plus vacation pay for the four work weeks before the holiday week, divided by 20.</li><li><strong>WSIB.</strong> The <a href=\"https://www.wsib.ca/en/businesses/registration-and-coverage/do-you-need-register-us\" target=\"_blank\" rel=\"noopener\">Workplace Safety and Insurance Board</a> says most Ontario businesses with employees must register within 10 calendar days of the first hire, and names a few types that are exempt. Its <a href=\"https://www.wsib.ca/en/2026premiumrates\" target=\"_blank\" rel=\"noopener\">2026 rates</a> include $0.18 per $100 of insurable payroll for the professional, scientific and technical class and $1.59 for ambulatory health care. Your class decides your rate, so confirm it with the WSIB.</li></ul><p>One item most small offices can leave out: the <a href=\"https://www.ontario.ca/document/employer-health-tax-eht\" target=\"_blank\" rel=\"noopener\">Employer Health Tax</a>. Ontario lists a $1 million exemption for eligible employers whose Ontario payroll is under $5 million.</p>",
+   "takeaway": "Before you post the job, write these five lines under the hourly rate; your accountant or payroll provider can confirm each one in a single call."
+  },
+  {
+   "heading": "The math for a 20-hour week",
+   "body_html": "<p>This is my own arithmetic from the rates above, for 20 hours a week over 52 weeks. It is a planning estimate, not payroll advice.</p><ul><li><strong>At $17.95.</strong> Wages $18,668. Vacation pay at 4% adds $746.72. Employer CPP on the amount above $3,500 is about $947, and employer EI about $443. Total: roughly $20,800 a year, or about $1,734 a month. That works out to almost exactly $20.00 for each hour worked.</li><li><strong>At $20.00.</strong> Wages $20,800, vacation pay $832, CPP about $1,079, EI about $493. Total: roughly $23,200 a year, or about $1,934 a month, which is $22.31 for each hour worked.</li></ul><p>In both cases the add-ons come to a little over 11% of the wage. WSIB is extra if it applies: on the minimum-wage example, about $35 a year at the $0.18 rate or about $309 at the $1.59 rate. Public holiday pay is extra too, around $75 per holiday on the minimum-wage example. Recruiting, training and equipment are not counted.</p>",
+   "takeaway": "A 20-hour front-desk job at minimum wage is a commitment of about $1,700 to $1,750 a month, and closer to $1,950 at the Toronto median."
+  },
+  {
+   "heading": "What the same money buys in AI answering",
+   "body_html": "<p>An AI receptionist is software that picks up the phone, answers common questions, takes a message or books an appointment, and passes the call to a person when it needs to. Listed prices on October 6, 2026:</p><ul><li><a href=\"https://dialzara.com/pricing\" target=\"_blank\" rel=\"noopener\">Dialzara</a>: $29 a month with 60 minutes, up to $349 a month with 1,000 minutes, and overage from $0.48 down to $0.35 a minute.</li><li><a href=\"https://heyrosie.com/pricing\" target=\"_blank\" rel=\"noopener\">Rosie</a>: $49 a month with 250 minutes, $149 with 1,000 minutes and $299 with 2,000. Direct calendar booking and live call transfers start on the $149 plan.</li><li><a href=\"https://www.goodcall.com/pricing\" target=\"_blank\" rel=\"noopener\">Goodcall</a>: $79, $129 or $249 a month per agent. Minutes are unlimited; the cap is 100, 250 or 500 unique callers a month, with $0.50 for each one over.</li></ul><p>None of the three pages I read spells out Canadian dollars, so assume US dollars until the checkout says otherwise. Even the largest plan here is $4,188 a year at list price, against roughly $20,800 for the minimum-wage hire. The bigger difference is hours. Twenty staffed hours is about 12% of a 168-hour week, and Rosie's page lists 24/7 answering and simultaneous calls on every plan. I compared more tools and per-minute costs in <a href=\"../ai-receptionist-cost-2026/\">what an AI receptionist costs in 2026</a>.</p>",
+   "takeaway": "On price alone the software wins by a wide margin, so the decision turns on what you need done at the desk, not on the monthly bill."
+  },
+  {
+   "heading": "Where a person is still needed",
+   "body_html": "<p>This part is my judgment, not a statistic. The software only handles the phone. A person at the desk also does things no phone agent can:</p><ul><li>Greets whoever walks in, takes payment at the counter and deals with paperwork.</li><li>Calms someone who is upset, or notices that a regular client sounds unwell.</li><li>Handles the odd request that fits no script and knows when to interrupt you.</li><li>Does the filing, ordering and tidying that fill the gaps between calls.</li></ul><p>If your front desk is mostly foot traffic, hire the person. If it is mostly phone calls, and many of them arrive while you are busy or closed, a part-time hire leaves most of the problem in place.</p>",
+   "takeaway": "List what your front desk did last week and mark each task phone or in-person; the split tells you which one you are really short of."
+  },
+  {
+   "heading": "The blended setup most small offices land on",
+   "body_html": "<p>You do not have to pick one. A common arrangement:</p><ol><li><strong>Staff the hours people walk in.</strong> Put your part-time hours where the foot traffic is, and let that person answer the phone first.</li><li><strong>Send overflow and after-hours calls to the AI.</strong> When the line is busy or the office is closed, the software answers, books or takes a message, and texts you the summary.</li><li><strong>Review the transcripts weekly.</strong> They show what callers ask for and when, which tells you whether your staffed hours are in the right place.</li></ol><p>In the minimum-wage example, each hour a week you do not need to staff is worth about $1,040 a year.</p><p>Nova Toronto sets up <a href=\"../../ai-automation/ai-receptionist/\">AI receptionists</a> as part of its <a href=\"../../ai-automation/\">AI automation work</a>, quoted per project, and there is a live voice demo on the homepage so you can hear one before deciding anything. If you would rather understand the technology first, the <a href=\"../../ai-course/\">free AI course for beginners</a> covers the basics in seven short lessons.</p>",
+   "takeaway": "Count your missed and after-hours calls for two weeks before you post the job; that number decides how many staffed hours you actually need."
+  }
+ ],
+ "bottom_line_html": "<p>A 20-hour-a-week receptionist in Ontario costs about $20,800 a year at minimum wage once vacation pay, CPP and EI are counted, and about $23,200 at the Toronto median. AI answering costs a fraction of that and covers every hour, but it only handles the phone. Hire for the in-person work, let software take overflow and after-hours calls, and check the numbers with your accountant before you commit. To talk through which mix fits your office, <a href=\"../../index.html#contact\">book a free consultation</a>.</p>",
+ "faq": [
+  {
+   "q": "What is the minimum wage in Ontario right now?",
+   "a": "Ontario's minimum wage page lists the general rate as $17.95 an hour effective October 1, 2026. It was $17.60 from October 1, 2025 to September 30, 2026. A lower student rate applies to some students under 18."
+  },
+  {
+   "q": "How much does a part-time receptionist cost an employer in Ontario?",
+   "a": "For 20 hours a week over a full year, my estimate is about $20,800 at the $17.95 minimum wage and about $23,200 at $20 an hour. That includes 4% vacation pay, employer CPP at 5.95% above the $3,500 exemption and employer EI at $2.28 per $100. WSIB premiums and public holiday pay are extra."
+  },
+  {
+   "q": "Do I have to pay CPP, EI and vacation pay for a part-time employee?",
+   "a": "Yes in most cases. Ontario's vacation guide covers part-time employees at four per cent of gross wages, and the federal CPP and EI rates apply to an employee's earnings whether the job is full-time or part-time. Ask your accountant or payroll provider to confirm your situation."
+  },
+  {
+   "q": "Can an AI receptionist replace a human receptionist?",
+   "a": "It can replace the phone-answering part: picking up, answering common questions, booking and taking messages at any hour. It cannot greet walk-ins, take payment at the counter or handle paperwork. Many small offices keep a person for in-person hours and use AI for overflow and after-hours calls."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Ontario.ca: Minimum wage (Your guide to the Employment Standards Act)",
+   "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/minimum-wage"
+  },
+  {
+   "label": "Job Bank Canada: Wages for receptionists near Toronto (NOC 14101)",
+   "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/24391/22437"
+  },
+  {
+   "label": "Ontario.ca: Vacation (Your guide to the Employment Standards Act)",
+   "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/vacation"
+  },
+  {
+   "label": "Canada Revenue Agency: CPP contribution rates, maximums and exemptions",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html"
+  },
+  {
+   "label": "Employment and Social Development Canada: 2026 Employment Insurance premium rate",
+   "url": "https://www.canada.ca/en/employment-social-development/news/2025/09/canada-employment-insurance-commission-sets-the-2026-employment-insurance-premium-rate.html"
+  },
+  {
+   "label": "Ontario.ca: Public holidays (Your guide to the Employment Standards Act)",
+   "url": "https://www.ontario.ca/document/your-guide-employment-standards-act-0/public-holidays"
+  },
+  {
+   "label": "WSIB: Do you need to register with us?",
+   "url": "https://www.wsib.ca/en/businesses/registration-and-coverage/do-you-need-register-us"
+  },
+  {
+   "label": "WSIB: 2026 premium rates",
+   "url": "https://www.wsib.ca/en/2026premiumrates"
+  },
+  {
+   "label": "Ontario.ca: Employer Health Tax",
+   "url": "https://www.ontario.ca/document/employer-health-tax-eht"
+  },
+  {
+   "label": "Dialzara: Pricing",
+   "url": "https://dialzara.com/pricing"
+  },
+  {
+   "label": "Rosie: Pricing",
+   "url": "https://heyrosie.com/pricing"
+  },
+  {
+   "label": "Goodcall: Pricing",
+   "url": "https://www.goodcall.com/pricing"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI receptionist service",
+   "href": "../../ai-automation/ai-receptionist/"
+  },
+  {
+   "label": "What an AI receptionist costs in 2026",
+   "href": "../ai-receptionist-cost-2026/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  }
+ ]
+}
