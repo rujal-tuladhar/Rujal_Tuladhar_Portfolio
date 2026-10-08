@@ -1,0 +1,163 @@
+{
+ "slug": "wix-vs-squarespace-vs-wordpress-ontario",
+ "title": "Wix vs Squarespace vs WordPress for an Ontario small business",
+ "category": "Website Design",
+ "excerpt": "Plan prices read from each vendor's own page, speed data, what you can take with you if you leave, and a verdict by type of Ontario business.",
+ "keywords": "wix vs squarespace vs wordpress canada, best website builder small business canada, wordpress vs wix ontario, squarespace pricing cad, wordpress hosting cost canada, website builder comparison 2026",
+ "cover_title": "Wix, Squarespace or WordPress?",
+ "intro_html": "<p>You have a free weekend, a domain name in mind and three browser tabs open: Wix, Squarespace and WordPress. Every comparison you find declares a winner, and the winner is usually whatever the author sells or earns a commission on.</p><p>This one is built from pages I read on October 7, 2026: each vendor's pricing page, their help articles on exporting a site, and two independent data sets on usage and speed. I build sites for a living, so my own bias is stated near the end.</p>",
+ "glance": [
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "CA$21 a month",
+   "sub": "Squarespace Basic on annual billing, the only one of the three that showed me Canadian dollars"
+  },
+  {
+   "icon": "uil-bolt",
+   "heading": "94% vs 70%",
+   "sub": "Share of Wix and WordPress sites passing the mobile loading-speed test in one Q2 2026 study"
+  },
+  {
+   "icon": "uil-export",
+   "heading": "Export: no, partly, yes",
+   "sub": "Wix sites cannot leave Wix, Squarespace exports some content, WordPress exports its content to a file"
+  },
+  {
+   "icon": "uil-chart-line",
+   "heading": "40.1% of all websites",
+   "sub": "WordPress usage according to W3Techs on October 7, 2026; Wix 4.2%, Squarespace 2.4%"
+  },
+  {
+   "icon": "uil-percentage",
+   "heading": "Plus 13% HST",
+   "sub": "All three vendors list prices before tax; Ontario's rate is 13%"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What each one costs, from the vendor's own page",
+   "body_html": "<p>Only one of the three showed me Canadian dollars, so read the currency on each line.</p><ul><li><strong>Squarespace</strong> (<a href=\"https://www.squarespace.com/pricing\" target=\"_blank\" rel=\"noopener\">pricing page</a>, in CA$): Basic is CA$21 a month on annual billing or CA$30 month to month. Core is CA$32 or CA$45, Plus is CA$46 or CA$59, and Advanced is CA$109 or CA$139. Annual plans include one year of domain registration.</li><li><strong>Wix</strong> (<a href=\"https://www.wix.com/plans\" target=\"_blank\" rel=\"noopener\">plans page</a>): the page showed me US dollars \"for reference only\" and says prices and currency vary by location. On yearly billing the four paid plans, Light, Core, Business and Business Elite, ran from just under US$18 to just under US$160 a month. Light has no online payments. There is a free plan, and a domain voucher comes with a first premium plan.</li><li><strong>WordPress.com</strong> (<a href=\"https://wordpress.com/pricing/\" target=\"_blank\" rel=\"noopener\">pricing page</a>, in US$): Personal is $4 a month billed yearly or $9 monthly, Premium $8 or $18, Business $25 or $40, and Commerce $45 or $70. The page shows plugins on every paid plan and a free domain for the first year on annual terms.</li><li><strong>Self-hosted WordPress</strong>: the software is free and open source under the GPLv2 licence, as <a href=\"https://wordpress.org/about/\" target=\"_blank\" rel=\"noopener\">WordPress.org</a> explains, but you rent hosting. <a href=\"https://www.hostinger.com/ca/wordpress-hosting\" target=\"_blank\" rel=\"noopener\">Hostinger's Canadian page</a>, one of the hosts <a href=\"https://wordpress.org/hosting/\" target=\"_blank\" rel=\"noopener\">WordPress.org lists</a>, advertised CA$4.19 a month. That price needs 48 months paid upfront (CA$201.12), and the plan then renews at CA$15.39 a month.</li></ul><p>None of these prices includes tax. The <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html\" target=\"_blank\" rel=\"noopener\">Canada Revenue Agency rate table</a> puts Ontario's HST at 13%. My arithmetic: Squarespace Basic for a year is CA$252, or about CA$285 if HST is added at checkout.</p>",
+   "takeaway": "Compare the annual total in Canadian dollars with tax, and write down the renewal price; the advertised monthly figure is the smallest number each vendor could show you."
+  },
+  {
+   "heading": "What each one does well",
+   "body_html": "<p>The three are built for different owners. The judgments here are mine; the figures are from the linked pages.</p><ul><li><strong>Wix</strong> gives you the most freedom to drag things around, a free plan to practise on, and its own booking tool. Wix's <a href=\"https://support.wix.com/en/article/wix-bookings-upgrading-wix-bookings\" target=\"_blank\" rel=\"noopener\">help article on Bookings</a> says you need to upgrade to a paid plan before you can accept bookings and payments.</li><li><strong>Squarespace</strong> is the hardest to make ugly. The templates are tidy and the pricing is in Canadian dollars. Appointment booking is a separate product: <a href=\"https://acuityscheduling.com/pricing\" target=\"_blank\" rel=\"noopener\">Acuity Scheduling</a> lists its plans at US$16, US$27 and US$49 a month on annual billing. Selling on the Basic plan carries a 2% store transaction fee, which drops to 0% from Core up.</li><li><strong>WordPress</strong> is the most flexible and the one most other tools connect to. <a href=\"https://w3techs.com/technologies/overview/content_management\" target=\"_blank\" rel=\"noopener\">W3Techs</a> counted it on 40.1% of all websites on October 7, 2026, against 4.2% for Wix and 2.4% for Squarespace. That size means a plugin exists for almost anything, and almost any developer can take over your site.</li></ul>",
+   "takeaway": "List the two or three things your site must do, such as take bookings, show a menu or collect quote requests, and check what each platform charges for exactly those before you compare anything else."
+  },
+  {
+   "heading": "Speed: the all-in-one builders load faster on average",
+   "body_html": "<p>The <a href=\"https://www.corewebvitals.io/state-of-cwv/explorer/technologies/cms\" target=\"_blank\" rel=\"noopener\">State of Web Vitals Q2 2026 explorer</a>, which covers 189,915 sites using mobile field data, reports these figures for Largest Contentful Paint, the measure of how long the main content takes to appear:</p><ul><li>Wix: 1.6 seconds at the 75th percentile, with 94.4% of sites passing.</li><li>Squarespace: 2.2 seconds, 85.8% passing.</li><li>WordPress: 2.7 seconds, 69.5% passing.</li></ul><p>On all three Core Web Vitals together, the same page shows 85% of Wix sites and 86% of Squarespace sites passing, against 69% for WordPress.</p><p>These are averages. A WordPress site on good hosting with a light theme can be very fast; cheap hosting and heavy plugins are what pull the average down.</p>",
+   "takeaway": "If you are building it yourself and will never tune it, a hosted builder is more likely to give you a fast site than a budget WordPress install."
+  },
+  {
+   "heading": "What you can take with you if you leave",
+   "body_html": "<p>This is the question owners ask two years too late.</p><ul><li><strong>Wix:</strong> its <a href=\"https://support.wix.com/en/article/exporting-or-embedding-your-wix-site-elsewhere\" target=\"_blank\" rel=\"noopener\">help article on exporting</a> says a Wix site must run on Wix's servers and cannot be hosted elsewhere. You can keep your domain with another provider, but leaving means rebuilding the site.</li><li><strong>Squarespace:</strong> its <a href=\"https://support.squarespace.com/hc/en-us/articles/206566687-Exporting-your-site\" target=\"_blank\" rel=\"noopener\">export guide</a> describes an XML file made for importing into WordPress. Layout pages, one blog page and gallery pages come across. Store pages, product blocks, style settings and custom CSS do not.</li><li><strong>WordPress:</strong> the <a href=\"https://wordpress.org/documentation/article/tools-export-screen/\" target=\"_blank\" rel=\"noopener\">built-in export tool</a> writes your posts, pages, comments, categories, tags and users to an XML file that another WordPress site can import. Self-hosted, you also hold the files and database, so you can move hosts.</li></ul><p>On any of them, register the domain in your own name and keep the login. The domain is the one thing that moves everywhere.</p>",
+   "takeaway": "If you expect to outgrow the site within a few years, weigh this section more heavily than the monthly price."
+  },
+  {
+   "heading": "Who does the upkeep",
+   "body_html": "<p>Wix and Squarespace are hosted services: the platform, hosting and security updates are the vendor's job and are included in the plan. WordPress.com works the same way.</p><p>Self-hosted WordPress hands that job to you. The <a href=\"https://wordpress.org/documentation/article/updating-wordpress/\" target=\"_blank\" rel=\"noopener\">WordPress update guide</a> says minor and security releases install automatically on most sites, but major releases still need you to click Update, and it recommends backing up first. Themes and plugins have updates of their own, so someone has to own the task.</p>",
+   "takeaway": "Choose self-hosted WordPress only if you, a staff member or a paid provider will log in every month to update and back up."
+  },
+  {
+   "heading": "A verdict by type of business, and when DIY stops being cheaper",
+   "body_html": "<p>My recommendations, as opinion:</p><ul><li><strong>Trades (plumber, electrician, landscaper):</strong> Squarespace Basic or Wix Light. You need a phone number, service areas, photos and a quote form, and you will not have time for upkeep.</li><li><strong>Clinic or salon:</strong> Wix if you want booking inside the builder, or Squarespace plus Acuity. Health clinics should check how any booking tool stores patient information before using it.</li><li><strong>Restaurant or cafe:</strong> Squarespace. Menu, hours, map and photos are what it does best.</li><li><strong>Consultant or writer who will publish often:</strong> WordPress. Start on WordPress.com if you do not want to manage hosting.</li><li><strong>Anyone planning a large store or custom features later:</strong> WordPress, with someone responsible for it.</li></ul><p>Who should not bother with any of this yet: if you cannot describe what you sell and to whom in one paragraph, write that first. The platform will not fix it.</p><p>Here is my bias. Nova Toronto builds small sites at published prices: a three-page Bronze site is $900 and a five-page Silver site with analytics and SEO is $1,800, plus applicable tax. On cash alone DIY wins: by my arithmetic $900 is about three and a half years of Squarespace Basic at CA$252 a year. DIY stops being cheaper when you count your own hours and the weeks the half-finished site stays unpublished. I compared the routes in <a href=\"../freelancer-vs-agency-vs-diy-website-cost/\">freelancer, agency or DIY</a>, and the packages are on our <a href=\"../../website-design/\">website design page</a>. If you would rather learn the tools yourself first, the <a href=\"../../ai-course/\">free AI course for beginners</a> is a good place to start.</p>",
+   "takeaway": "Pick the platform that matches who will maintain the site in year two, not the one with the longest feature list."
+  }
+ ],
+ "bottom_line_html": "<p>Squarespace is the tidy, Canadian-dollar choice for a simple service site. Wix has booking built in and the fastest average loading times, but the site cannot leave Wix. WordPress gives you the most control and the cleanest exit, and asks for regular upkeep. Check the annual total with HST, the renewal price and the export rules before you pay for a year. For a second opinion, <a href=\"../../index.html#contact\">book a free consultation</a>; it is fine if the answer is to build it yourself.</p>",
+ "faq": [
+  {
+   "q": "Which is cheapest for a small business in Canada: Wix, Squarespace or WordPress?",
+   "a": "On advertised price, WordPress is lowest: WordPress.com Personal was US$4 a month billed yearly and one Canadian hosting offer for self-hosted WordPress was CA$4.19 a month, but that needed 48 months paid upfront and renews at CA$15.39. Squarespace Basic was CA$21 a month on annual billing. Wix showed me US-dollar reference prices starting just under US$18 a month. All were before tax, read on October 7, 2026."
+  },
+  {
+   "q": "Can I move my Wix or Squarespace site to WordPress later?",
+   "a": "Not as a straight transfer. Wix's help article says a Wix site must run on Wix's servers, so you would rebuild it. Squarespace exports an XML file made for WordPress that carries layout pages, one blog page and galleries, but not store pages, product blocks, style settings or custom CSS. Your domain name can move in either case if it is registered to you."
+  },
+  {
+   "q": "Is WordPress better for SEO than Wix or Squarespace?",
+   "a": "Not automatically. All three let you set page titles and descriptions and can rank locally. In the State of Web Vitals Q2 2026 data, Wix and Squarespace sites passed Google's Core Web Vitals more often than WordPress sites on mobile, 85% and 86% against 69%. WordPress offers more SEO plugins and control, which helps only if someone uses them and keeps the site fast."
+  },
+  {
+   "q": "Do I pay HST on Wix, Squarespace or WordPress plans in Ontario?",
+   "a": "All three pricing pages list prices before tax and say tax is added based on your billing address. Ontario's HST rate is 13% according to the Canada Revenue Agency, so budget for it on top of the listed price and confirm the final amount on the checkout page. If your business is registered for GST/HST, ask your accountant whether you can claim it back."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Squarespace: Pricing",
+   "url": "https://www.squarespace.com/pricing"
+  },
+  {
+   "label": "Wix: Premium plans",
+   "url": "https://www.wix.com/plans"
+  },
+  {
+   "label": "WordPress.com: Pricing",
+   "url": "https://wordpress.com/pricing/"
+  },
+  {
+   "label": "WordPress.org: About WordPress",
+   "url": "https://wordpress.org/about/"
+  },
+  {
+   "label": "WordPress.org: Hosting",
+   "url": "https://wordpress.org/hosting/"
+  },
+  {
+   "label": "Hostinger Canada: WordPress hosting",
+   "url": "https://www.hostinger.com/ca/wordpress-hosting"
+  },
+  {
+   "label": "Canada Revenue Agency: GST/HST calculator and rates",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html"
+  },
+  {
+   "label": "Wix Help Center: Upgrading Wix Bookings",
+   "url": "https://support.wix.com/en/article/wix-bookings-upgrading-wix-bookings"
+  },
+  {
+   "label": "Acuity Scheduling: Pricing",
+   "url": "https://acuityscheduling.com/pricing"
+  },
+  {
+   "label": "W3Techs: Usage statistics of content management systems",
+   "url": "https://w3techs.com/technologies/overview/content_management"
+  },
+  {
+   "label": "CoreWebVitals.io: The State of Web Vitals, CMS performance",
+   "url": "https://www.corewebvitals.io/state-of-cwv/explorer/technologies/cms"
+  },
+  {
+   "label": "Wix Help Center: Exporting or embedding your Wix site elsewhere",
+   "url": "https://support.wix.com/en/article/exporting-or-embedding-your-wix-site-elsewhere"
+  },
+  {
+   "label": "Squarespace Help Center: Exporting your site",
+   "url": "https://support.squarespace.com/hc/en-us/articles/206566687-Exporting-your-site"
+  },
+  {
+   "label": "WordPress.org Documentation: Tools Export screen",
+   "url": "https://wordpress.org/documentation/article/tools-export-screen/"
+  },
+  {
+   "label": "WordPress.org Documentation: Updating WordPress",
+   "url": "https://wordpress.org/documentation/article/updating-wordpress/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design service",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "Freelancer, agency or DIY: what each website route costs",
+   "href": "../freelancer-vs-agency-vs-diy-website-cost/"
+  },
+  {
+   "label": "What AI website builders cost in 2026",
+   "href": "../ai-website-builders-cost-2026/"
+  }
+ ]
+}
