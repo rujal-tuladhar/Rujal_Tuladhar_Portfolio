@@ -1,0 +1,151 @@
+{
+ "slug": "amazon-ca-seller-verification-documents",
+ "title": "Amazon.ca seller verification: documents Canadians need",
+ "category": "Digital Marketing",
+ "excerpt": "What Amazon.ca asks a Canadian seller to prove, which provincial paper counts as a registration extract, why uploads get rejected and how to prepare.",
+ "keywords": "Amazon seller account verification documents Canada, Amazon.ca seller registration requirements, Amazon seller identity verification failed, Amazon seller video verification Canada, registration extract Canada Amazon, Master Business Licence Amazon, sell on Amazon Canada",
+ "cover_title": "Amazon.ca seller verification",
+ "intro_html": "<p>You filled in the Amazon.ca seller registration form in an evening, uploaded a passport photo and a bank statement, and then the account stopped moving. Or it was approved, and months later an email asked for a \"registration extract\" that no Canadian government office issues under that name.</p><p>Verification is where most new Canadian sellers lose time, and almost always over paperwork that could have been lined up beforehand. This guide is built from pages I read in October 2026: Amazon.ca's own registration guide, posts by Amazon staff on the Canadian seller forum, the Ontario and federal registry pages, and a handful of independent guides. I run an Amazon.ca store myself, so I have been through this.</p>",
+ "glance": [
+  {
+   "icon": "uil-file-check-alt",
+   "heading": "6 items at sign-up",
+   "sub": "ID, email, chargeable credit card, business registration, proof of address and tax information"
+  },
+  {
+   "icon": "uil-calendar-alt",
+   "heading": "180 days",
+   "sub": "How recent Amazon.ca says your proof of residential address has to be"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "3 business days or less",
+   "sub": "Amazon's own figure for a usual identity check; forum reports of weeks exist when papers do not match"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$60 for 5 years",
+   "sub": "Ontario business name registration, the document sole proprietors are most often missing"
+  },
+  {
+   "icon": "uil-video",
+   "heading": "Photo or video call",
+   "sub": "You either photograph your face and ID or meet an Amazon associate on a call"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What Amazon.ca asks for at registration",
+   "body_html": "<p>Amazon's <a href=\"https://sell.amazon.ca/beginners-guide\" target=\"_blank\" rel=\"noopener\">New Seller Registration Guide</a> lists six things to have ready:</p><ul><li>Government-issued ID</li><li>An email address</li><li>An internationally chargeable credit card. The guide names American Express, Diners Club, Discover, JCB, MasterCard and Visa.</li><li>A business licence or registration</li><li>Proof of residential address from the last 180 days, such as a bank or credit card statement</li><li>Tax information</li></ul><p>The same page says the form itself can often be finished in a few hours, and that verifying your identity as the primary contact \"usually takes three business days or less\".</p><p>A <a href=\"https://myamazonguy.com/amazon-canada/selling-on-amazon-canada-document-checklist/\" target=\"_blank\" rel=\"noopener\">Canadian checklist from My Amazon Guy</a> adds that prepaid and debit cards are not accepted. That is an agency's experience, not Amazon's written rule.</p>",
+   "takeaway": "Gather all six items before you click Register; a half-finished application with a missing document is how a three-day check turns into three weeks."
+  },
+  {
+   "heading": "The registration extract: which Canadian document counts",
+   "body_html": "<p>This is the step that trips up Canadians, because \"registration extract\" is Amazon's international term. An Amazon staff member posted a <a href=\"https://sellercentral.amazon.ca/seller-forums/discussions/t/aa97d0f5-f266-4a1f-9737-15fadf98fd0c\" target=\"_blank\" rel=\"noopener\">guide on the Amazon.ca seller forum</a> that translates it:</p><ul><li><strong>Federal corporation:</strong> a Certificate of Compliance or Certificate of Status from Corporations Canada. The <a href=\"https://ised-isde.canada.ca/site/corporations-canada/en/node/14\" target=\"_blank\" rel=\"noopener\">Corporations Canada page</a> explains that a Certificate of Compliance shows the corporation exists, has made its annual filings and has paid its fees. You request it online with the corporation name and number.</li><li><strong>Sole proprietorship or partnership:</strong> a Master Business Licence or Certificate of Registration from your provincial registry. The post gives ServiceOntario, BC Registry Services and Quebec's Registraire des entreprises as examples.</li><li><strong>Individual selling under a personal name:</strong> Canada Revenue Agency business number documentation plus ID.</li></ul><p>The same post warns that CRA documents alone are typically not sufficient for a business, that bank statements are not accepted as a registration extract, and that the document should be current, usually within six months, in PDF, and in English or French.</p><p>In Ontario the paper you want is a business name registration. The <a href=\"https://www.ontario.ca/page/ontario-business-registry-all-services\" target=\"_blank\" rel=\"noopener\">Ontario Business Registry page</a> lists the fee for a sole proprietorship at $60 and notes that the registration, formerly known as a Master Business Licence, expires every five years. A <a href=\"https://www.venn.ca/resources/how-to-get-a-master-business-licence-in-ontario\" target=\"_blank\" rel=\"noopener\">guide from Venn</a> says online registrations are processed immediately.</p>",
+   "takeaway": "If you are an Ontario sole proprietor selling under a business name, spend the $60 on a provincial registration before you apply; a CRA letter by itself is the document sellers report being rejected."
+  },
+  {
+   "heading": "Tax information and the self-attestation letter",
+   "body_html": "<p>Two more pieces of paper come up for Canadian accounts.</p><p><strong>GST/HST number.</strong> An <a href=\"https://sellercentral.amazon.ca/seller-forums/discussions/t/4a5ab5b5-4e21-4658-b241-36cb0d6c183b\" target=\"_blank\" rel=\"noopener\">Amazon staff post on tax readiness</a> gives the format Seller Central expects: nine digits, then RT, then four digits. Whether you need one yet depends on your sales. The <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html\" target=\"_blank\" rel=\"noopener\">Canada Revenue Agency</a> sets the small supplier threshold at $30,000 over four consecutive calendar quarters, requires registration within 29 days once you pass it, and allows voluntary registration before that.</p><p><strong>Self-attestation letter.</strong> According to the forum guide above, this letter states the business entity name, the full ownership structure with percentages, the full names and birth dates of the individuals, and the business registration number. It is signed by a legal representative such as the owner or a director, and dated within the last 180 days. The post ties it to beneficial ownership requirements.</p>",
+   "takeaway": "Ask your accountant about registering for GST/HST voluntarily before you apply, and keep a signed, dated ownership letter on file even if you are the only owner."
+  },
+  {
+   "heading": "Why documents get rejected",
+   "body_html": "<p>The independent guides agree with each other on the causes, and they match what sellers describe on the forums.</p><ul><li><strong>Names and addresses that do not match.</strong> <a href=\"https://www.sellersprite.com/en/blog/amazon-seller-account-verification\" target=\"_blank\" rel=\"noopener\">SellerSprite's June 2026 guide</a> says the name on your ID has to match the name on your bank statement and business registration exactly. The Amazon staff member in the forum guide adds that the system is case-sensitive.</li><li><strong>Poor images.</strong> <a href=\"https://titannetwork.com/account-verification-amazon-complete-guide/\" target=\"_blank\" rel=\"noopener\">Titan Network's guide</a> recommends a 300 DPI scan or your phone's document mode, all four corners visible, and no photos of photos.</li><li><strong>Old or expired documents.</strong> Amazon.ca says 180 days for proof of address. Several third-party guides say 90 days, so a statement from the last three months satisfies both.</li><li><strong>Screenshots.</strong> SellerSprite lists screenshots in place of formal statements as a cause of failure. Download the PDF statement from your bank.</li></ul>",
+   "takeaway": "Type your name and address into Seller Central exactly as they appear on your bank statement, down to the unit number and middle initial, then check your ID and registration say the same."
+  },
+  {
+   "heading": "The photo or video call step",
+   "body_html": "<p>Amazon.ca's registration guide describes two ways to finish identity verification. You either take a photo of your face and your government-issued ID, or you join or schedule a video call with an Amazon associate. For the call, the guide says to bring your government-issued ID and proof of residential address.</p><p>An <a href=\"https://sellercentral.amazon.com/seller-forums/discussions/t/2a49ff44-23b8-45b8-9cbb-7aeeb95d6c92\" target=\"_blank\" rel=\"noopener\">Amazon staff post about preparing for the call</a> says you should receive an email beforehand listing the information and documents to have ready, and tells sellers to review that email thoroughly. It also confirms there are instant and scheduled call options.</p><p>Titan Network's guide says the associate asks you to hold your ID beside your face and may ask what you sell and where you buy it. That is one agency's account.</p>",
+   "takeaway": "Have the original ID and a printed or on-screen statement within reach, sit somewhere well lit, and make sure the person on camera is the person named on the account."
+  },
+  {
+   "heading": "If the account is stuck, and a checklist before you start",
+   "body_html": "<p>Being stuck is common enough that it has its own forum threads. In an <a href=\"https://sellersasksellers.com/t/account-verification-for-canadian-sellers/6585\" target=\"_blank\" rel=\"noopener\">October 2025 thread on Sellers Ask Sellers</a>, a Canadian seller describes weeks of rejections after submitting a CRA filing confirmation and a GST registration. Other sellers pointed to a provincial business registration as the document Amazon was really asking for.</p><p>If you are rejected, compare the rejected upload against your Seller Central profile field by field before you send anything else. Titan Network advises treating attempts as limited, and adding a short cover letter that explains any difference between documents on the second try.</p><p>A checklist to finish before you click Register:</p><ul><li>Government ID that is not expired, photographed flat with all four corners showing</li><li>A PDF bank or credit card statement from the last 90 days with the same name and address as the ID</li><li>A credit card that can be charged internationally</li><li>Your provincial business name registration, or for a federal corporation a Certificate of Compliance</li><li>Your CRA business number, and GST/HST number if you have one</li><li>A signed ownership letter dated this month</li><li>One spelling of your name, business name and address, used everywhere</li></ul><p>Who should not bother with help: if you have these seven things and they match, you can register on your own in an evening. If you would rather hand over the setup, Nova Toronto's <a href=\"../../amazon-seller/\">Amazon.ca seller service</a> includes Seller Central account setup and training, listed from $450 to $900. For the fees that come after approval, see <a href=\"../amazon-ca-seller-startup-costs-2026/\">what it costs to start selling on Amazon.ca</a>. There is also a <a href=\"../../ai-course/\">free AI course for beginners</a>.</p>",
+   "takeaway": "Most verification delays are decided before you apply, by whether your documents agree with each other."
+  }
+ ],
+ "bottom_line_html": "<p>Amazon.ca wants to see who you are, where you live, that your business is registered and how it is taxed. For a Canadian sole proprietor, the missing piece is usually a provincial business name registration, which in Ontario costs $60. Get the documents to match each other first and the check Amazon describes as taking three business days or less has a fair chance of doing so. If you are stuck and want a second pair of eyes, <a href=\"../../index.html#contact\">book a free consultation</a>.</p>",
+ "faq": [
+  {
+   "q": "What documents do I need to open an Amazon.ca seller account in Canada?",
+   "a": "Amazon.ca's registration guide lists government-issued ID, an email address, an internationally chargeable credit card, a business licence or registration, proof of residential address from the last 180 days such as a bank or credit card statement, and tax information. Canadian businesses may also be asked for a registration extract and a signed self-attestation letter about ownership."
+  },
+  {
+   "q": "What is a registration extract for a Canadian Amazon seller?",
+   "a": "It is Amazon's term for an official document showing your business is registered. An Amazon staff post on the Canadian seller forum says a federal corporation can use a Certificate of Compliance or Certificate of Status from Corporations Canada, and a sole proprietorship or partnership can use a Master Business Licence or Certificate of Registration from its provincial registry. The post says CRA documents alone are typically not sufficient."
+  },
+  {
+   "q": "How long does Amazon.ca seller verification take?",
+   "a": "Amazon.ca's registration guide says verifying your identity usually takes three business days or less. Independent guides report one to two business days when documents are clear and match, and several weeks when names or addresses differ or a manual review is needed. Sellers on forums have described longer waits when Amazon asked for a business registration document they did not have."
+  },
+  {
+   "q": "Do I need a GST/HST number to sell on Amazon.ca?",
+   "a": "Amazon asks for tax information at registration. The Canada Revenue Agency requires GST/HST registration once your taxable sales pass $30,000 over four consecutive calendar quarters, within 29 days of that point, and lets you register voluntarily earlier. Amazon's forum guidance gives the number format as nine digits, RT, then four digits. Ask an accountant which option suits your situation."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Amazon.ca: New Seller Registration Guide",
+   "url": "https://sell.amazon.ca/beginners-guide"
+  },
+  {
+   "label": "Amazon.ca Seller Forums: Guide to Self-Attestation Letters and Registration Extract for Canadian Sellers",
+   "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/aa97d0f5-f266-4a1f-9737-15fadf98fd0c"
+  },
+  {
+   "label": "Amazon.ca Seller Forums: Get Tax-Ready for 2026, a Canadian Seller's Documentation Checklist",
+   "url": "https://sellercentral.amazon.ca/seller-forums/discussions/t/4a5ab5b5-4e21-4658-b241-36cb0d6c183b"
+  },
+  {
+   "label": "Amazon Seller Forums: Prepare for your Identity Verification Video Call",
+   "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/2a49ff44-23b8-45b8-9cbb-7aeeb95d6c92"
+  },
+  {
+   "label": "Government of Ontario: Ontario Business Registry, all services",
+   "url": "https://www.ontario.ca/page/ontario-business-registry-all-services"
+  },
+  {
+   "label": "Corporations Canada: Get a Certificate of Compliance or a Certificate of Existence",
+   "url": "https://ised-isde.canada.ca/site/corporations-canada/en/node/14"
+  },
+  {
+   "label": "Canada Revenue Agency: When to register for and start charging the GST/HST",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html"
+  },
+  {
+   "label": "My Amazon Guy: Selling on Amazon Canada document checklist",
+   "url": "https://myamazonguy.com/amazon-canada/selling-on-amazon-canada-document-checklist/"
+  },
+  {
+   "label": "SellerSprite: Amazon Seller Account Verification, Documents, KYC and Address Proof Guide",
+   "url": "https://www.sellersprite.com/en/blog/amazon-seller-account-verification"
+  },
+  {
+   "label": "Titan Network: Account Verification Amazon, Complete Step-by-Step Guide",
+   "url": "https://titannetwork.com/account-verification-amazon-complete-guide/"
+  },
+  {
+   "label": "Venn: How to Get a Master Business Licence in Ontario",
+   "url": "https://www.venn.ca/resources/how-to-get-a-master-business-licence-in-ontario"
+  },
+  {
+   "label": "Sellers Ask Sellers: Account verification for Canadian sellers",
+   "url": "https://sellersasksellers.com/t/account-verification-for-canadian-sellers/6585"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our Amazon.ca seller service",
+   "href": "../../amazon-seller/"
+  },
+  {
+   "label": "What it costs to start selling on Amazon.ca in 2026",
+   "href": "../amazon-ca-seller-startup-costs-2026/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  }
+ ]
+}
