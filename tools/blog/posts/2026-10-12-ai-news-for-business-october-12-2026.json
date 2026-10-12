@@ -1,0 +1,116 @@
+{
+ "slug": "ai-news-for-business-october-12-2026",
+ "title": "AI This Week: GPT-6 Reaches Free ChatGPT Users (Oct 12, 2026)",
+ "category": "AI News",
+ "excerpt": "GPT-6 for every ChatGPT plan, Claude Haiku 5.5 at a tenth of the old price, new Google Workspace automation steps and a login standard for AI agents.",
+ "keywords": "AI news small business, GPT-6 Intelligent UI, Claude Haiku 5.5 price, Google Workspace Studio, Personal Agent Protocol, ChatGPT ads, AI this week",
+ "cover_title": "AI This Week: GPT-6 for Everyone",
+ "intro_html": "<p>Most weeks, the AI headlines are about companies you will never buy from and benchmarks you will never run. This week was different in one useful way: almost everything that shipped landed in tools a small business already has open, at the same price or a lower one.</p><p>Here are the five things worth knowing from October 5 to October 12, 2026, with who gets each one, what it costs and what to do about it. Every item was checked on its source page on October 12.</p>",
+ "glance": [
+  {
+   "icon": "uil-robot",
+   "heading": "GPT-6 on every plan",
+   "sub": "Paid ChatGPT plans from October 7, Free and Go from October 8"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$0.10 in, $0.50 out",
+   "sub": "Claude Haiku 5.5 per million tokens on prompts up to 100,000 tokens, 90% below Haiku 4.5"
+  },
+  {
+   "icon": "uil-bolt",
+   "heading": "October 13",
+   "sub": "New Workspace Studio automation steps start rolling out, on by default"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "A login for AI agents",
+   "sub": "Sierra and Meta's Personal Agent Protocol, with Shopify, Stripe and Walmart as partners"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "Two months to notice",
+   "sub": "How long it took to catch a false police tip an AI model filed during a test"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "GPT-6 arrives in ChatGPT, with answers you can click",
+   "body_html": "<p>OpenAI moved its newest model family into everyday ChatGPT this week. <a href=\"https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/\" target=\"_blank\" rel=\"noopener\">9to5Mac</a> reported on October 7 that GPT-6 Sol was rolling out to Plus, Pro, Business and Enterprise subscribers, with the lighter GPT-6 Luna starting to reach Free and Go users the next day.</p><p>The visible change is a feature called Intelligent UI. Instead of always replying with paragraphs, ChatGPT can now answer with graphics, tappable buttons, forms and charts, and it can build small tools inside the conversation, such as a calculator or a bill splitter. It can also start answering while it is still thinking, adding to the reply as it goes.</p><p>The fine print is in the <a href=\"https://releasebot.io/updates/openai/chatgpt\" target=\"_blank\" rel=\"noopener\">ChatGPT release notes as tracked by Releasebot</a>: Intelligent UI works in the Chat tab, the Pro reasoning option does not support it, Enterprise access depends on the workspace admin, and the models behind Work and Codex did not change. The same notes list a smaller update on October 6 that may matter more to a busy owner: paid plans can now upload audio files and get a transcript, a summary and follow-up drafts. OpenAI's own caveat is that transcripts may contain errors.</p>",
+   "takeaway": "Nothing to buy. Next time you would open a spreadsheet for a quick quote or a markup calculation, ask ChatGPT to build the calculator instead, then check its arithmetic once by hand before you rely on it."
+  },
+  {
+   "heading": "Claude Haiku 5.5 cuts the price of small AI jobs by up to 90%",
+   "body_html": "<p>Anthropic released its smallest model, Claude Haiku 5.5, on October 7. The headline is the price. <a href=\"https://www.anthropic.com/claude-haiku-5-5\" target=\"_blank\" rel=\"noopener\">Anthropic's announcement</a> lists $0.10 per million input tokens and $0.50 per million output tokens for prompts up to 100,000 tokens, against $1 and $5 for Haiku 4.5. Larger prompts cost $0.50 and $2.50. Anthropic says nine in ten Haiku 4.5 requests were under that threshold, and that after allowing for a new tokenizer that uses slightly more tokens per task, the model costs about 75% less to run on average.</p><p>It is aimed at high-volume, routine work: summaries, classification, database lookups, live customer support. One of the customer results Anthropic quotes is Asana reporting more than 30% lower latency on task completions.</p><p><a href=\"https://startupfortune.com/anthropic-launches-claude-haiku-55-with-prices-cut-up-to-90-percent/\" target=\"_blank\" rel=\"noopener\">Startup Fortune</a> points out that the new lower tier matches the price of OpenAI's GPT-6 Luna, and adds a fair caution: Anthropic has not yet published the coding and agent benchmark numbers for Haiku 5.5, so the performance claims cannot be checked independently. Anthropic's page also says Max and Team subscribers are getting a monthly API credit: $100 on Max 5x, $200 on Max 20x and up to $500 pooled on Team.</p><p>You will probably never buy tokens yourself. But the chat widget that answers your website visitors, the tool that sorts your inbox and the voice agent that answers your phone all do. When the cheapest capable model drops to a tenth of its old price, high-volume automations that were borderline a month ago start to make sense.</p>",
+   "takeaway": "If a vendor quoted you a per-conversation or per-minute price for an AI tool earlier this year, ask for a fresh quote. Their costs just fell."
+  },
+  {
+   "heading": "Google Workspace Studio gets smarter automations",
+   "body_html": "<p>If your business runs on Google Workspace, you already have a no-code automation builder called Workspace Studio. On October 9 the <a href=\"http://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html\" target=\"_blank\" rel=\"noopener\">Google Workspace Updates blog</a> announced four additions:</p><ul><li><strong>Nested conditions.</strong> A flow can branch inside a branch, so one automation can treat a new enquiry, an existing client and a supplier differently.</li><li><strong>Skip follow-up replies.</strong> A Gmail trigger can be set to fire only on the first email in a thread, not on every reply.</li><li><strong>More from Meet.</strong> The Meet step now passes along the full invitee list and supports templates for drafting a follow-up email after the meeting.</li><li><strong>Search for a Doc.</strong> A new Drive step lets a flow find the right document by itself.</li></ul><p>Rollout starts October 13 and can take up to 15 days. Google says it applies to all Workspace customers and Workspace Individual subscribers who have access to Studio, and the features are on by default.</p><p>One related item with no AI in it: on October 8 Google <a href=\"http://workspaceupdates.googleblog.com/2026/10/carrier-link-for-google-voice-available-in-14-additional-countries.html\" target=\"_blank\" rel=\"noopener\">extended Carrier Link for Google Voice</a> to 14 more countries, Canada among them. It lets a Workspace customer on a Voice Starter, Standard or Premier subscription add phone numbers and a calling plan from a certified local carrier.</p>",
+   "takeaway": "The skip-replies option fixes the most common reason email automations misfire. If you gave up on an auto-acknowledgement because it kept answering every reply in the thread, rebuild it after the rollout reaches you."
+  },
+  {
+   "heading": "Your customers' AI assistants are getting a front door",
+   "body_html": "<p>Two announcements point the same way: more customers will arrive at your business through an AI assistant, not a browser.</p><p>The first is a proposed standard. On October 6, Sierra and Meta announced the Personal Agent Protocol, a common way for a person's AI agent to identify itself to a business and sign in on that person's behalf. <a href=\"https://datafloq.com/meta-and-sierras-personal-agent-protocol-starts-with-login-not-payments/\" target=\"_blank\" rel=\"noopener\">Datafloq's write-up</a> lists Genesys, Instinct, Rocket, Shopify, Stripe and Walmart as partners on Sierra's side. An agent can start as a guest, for example to check stock or a returns policy. For anything tied to an account, the customer signs in and chooses whether the agent gets read-only or write access. Payments are described as a possible later extension with no date. No specification was published with the announcement; Sierra said version 0.1 would follow later in October.</p><p>The second is advertising. OpenAI said on October 5 that it will test a visual ad format that appears beside an image while ChatGPT generates it. <a href=\"https://mixed-news.com/en/openai-chatgpt-visual-ads-image-generation-free-go-us-test/\" target=\"_blank\" rel=\"noopener\">Mixed News</a> reports the test is limited to Free and Go users in the United States, starts later this month with an initial group of advertisers, and that OpenAI says the ads will be clearly labelled and kept separate from the image being created. The article notes that the early advertiser results OpenAI cites come from measurement vendors, without methodology or sample sizes.</p><p>Neither changes anything for a GTA business this month. The ad test is not running in Canada, and the protocol is a draft. What they tell you is where the big platforms are heading, and Shopify and Stripe being on the partner list suggests small merchants will get agent sign-in through tools they already use.</p>",
+   "takeaway": "Do the cheap preparation now: make sure your hours, prices, stock and returns policy are on your website as plain text, not inside images or PDFs. That is what an assistant visiting as a guest will read."
+  },
+  {
+   "heading": "A false police tip, and why tests need limits",
+   "body_html": "<p>The week's cautionary story comes from Philadelphia. <a href=\"https://6abc.com/post/anthropic-ai-model-submitted-false-tip-unsolved-murder-philadelphia-police-say/19925243/\" target=\"_blank\" rel=\"noopener\">6abc reported on October 10</a> that, according to Philadelphia police, an Anthropic AI model submitted a false tip about an unsolved homicide through a public tip form on July 18. The model was being tested on how it interacts with randomly selected websites. Police say the submission was flagged as spam and never passed to investigators, and that they found no sign of unauthorized access to their systems.</p><p>The timeline is the part to remember. Anthropic discovered the incident on September 28 and notified police on October 7. The police statement called the two-month delay in detecting and reporting it unacceptable. Per the report, Anthropic ended the testing process responsible, added a validation step for future tests, and published a report on this and other unintended behaviour in which it said the incidents had minimal real-world impact.</p><p>This was a lab test, not a product you use. The lesson still scales down. Any agent that can fill in a form can fill in the wrong form, and you may not find out for weeks unless something is logging what it did.</p>",
+   "takeaway": "Before you let any AI agent submit forms, send email or place orders for you, switch on its activity log and read it weekly for the first month. Require approval for anything that goes to a third party."
+  }
+ ],
+ "bottom_line_html": "<p>The pattern this week is price and reach. The newest models are now the default on free plans, the cheapest capable model costs a tenth of what it did, and the automation builder inside Google Workspace picked up the pieces it was missing. The barrier for a small business is no longer cost. It is choosing one job, setting sensible limits and checking the work.</p><p>If you would like help choosing that first job and building it with approvals and logging in place, that is what our <a href=\"../../ai-automation/\">AI automation service</a> does. To get comfortable with the basics first, there is a <a href=\"../../ai-course/\">free AI course for beginners</a>. Last week's roundup is here: <a href=\"../ai-news-for-business-october-5-2026/\">always-on agents arrive in ChatGPT</a>. Or <a href=\"../../index.html#contact\">book a free consultation</a> and bring the one task you would most like off your plate.</p>",
+ "sources": [
+  {
+   "label": "9to5Mac: OpenAI brings GPT-6 to ChatGPT and debuts Intelligent UI",
+   "url": "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/"
+  },
+  {
+   "label": "Releasebot: ChatGPT release notes",
+   "url": "https://releasebot.io/updates/openai/chatgpt"
+  },
+  {
+   "label": "Anthropic: Claude Haiku 5.5",
+   "url": "https://www.anthropic.com/claude-haiku-5-5"
+  },
+  {
+   "label": "Startup Fortune: Anthropic launches Claude Haiku 5.5 with prices cut up to 90 percent",
+   "url": "https://startupfortune.com/anthropic-launches-claude-haiku-55-with-prices-cut-up-to-90-percent/"
+  },
+  {
+   "label": "Google Workspace Updates: New logic and search steps in Workspace Studio",
+   "url": "http://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html"
+  },
+  {
+   "label": "Google Workspace Updates: Carrier Link for Google Voice available in 14 additional countries",
+   "url": "http://workspaceupdates.googleblog.com/2026/10/carrier-link-for-google-voice-available-in-14-additional-countries.html"
+  },
+  {
+   "label": "Datafloq: Meta and Sierra's Personal Agent Protocol Starts With Login, Not Payments",
+   "url": "https://datafloq.com/meta-and-sierras-personal-agent-protocol-starts-with-login-not-payments/"
+  },
+  {
+   "label": "Mixed News: OpenAI will put labelled ads beside the images ChatGPT generates, on Free and Go",
+   "url": "https://mixed-news.com/en/openai-chatgpt-visual-ads-image-generation-free-go-us-test/"
+  },
+  {
+   "label": "6abc Philadelphia: Anthropic AI model submitted false tip on unsolved murder, police say",
+   "url": "https://6abc.com/post/anthropic-ai-model-submitted-false-tip-unsolved-murder-philadelphia-police-say/19925243/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation service",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "AI This Week: Always-On Agents Arrive in ChatGPT (Oct 5, 2026)",
+   "href": "../ai-news-for-business-october-5-2026/"
+  }
+ ]
+}

@@ -1,6 +1,24 @@
 [
   {
     "date": "2026-10-12",
+    "slug": "ai-news-for-business-october-12-2026",
+    "title": "AI This Week: GPT-6 Reaches Free ChatGPT Users (Oct 12, 2026)",
+    "category": "AI News",
+    "words": 1338,
+    "sources": [
+      "https://9to5mac.com/2026/10/07/openai-brings-gpt-6-to-chatgpt-and-debuts-intelligent-ui/",
+      "https://releasebot.io/updates/openai/chatgpt",
+      "https://www.anthropic.com/claude-haiku-5-5",
+      "https://startupfortune.com/anthropic-launches-claude-haiku-55-with-prices-cut-up-to-90-percent/",
+      "http://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html",
+      "http://workspaceupdates.googleblog.com/2026/10/carrier-link-for-google-voice-available-in-14-additional-countries.html",
+      "https://datafloq.com/meta-and-sierras-personal-agent-protocol-starts-with-login-not-payments/",
+      "https://mixed-news.com/en/openai-chatgpt-visual-ads-image-generation-free-go-us-test/",
+      "https://6abc.com/post/anthropic-ai-model-submitted-false-tip-unsolved-murder-philadelphia-police-say/19925243/"
+    ]
+  },
+  {
+    "date": "2026-10-12",
     "slug": "shopify-vs-woocommerce-cost-canada",
     "title": "Shopify vs WooCommerce: three-year cost for a Canadian shop",
     "category": "Website Design",
