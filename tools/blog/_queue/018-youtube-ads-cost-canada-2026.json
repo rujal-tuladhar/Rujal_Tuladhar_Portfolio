@@ -1,0 +1,158 @@
+{
+ "slug": "youtube-ads-cost-canada-2026",
+ "title": "What YouTube ads cost in Canada in 2026",
+ "category": "Digital Marketing",
+ "excerpt": "YouTube ads cost in Canada 2026: how Google bills views and impressions, CPV and CPM ranges in CAD, what $20 a day buys, and the video cost budgets forget.",
+ "keywords": "YouTube ads cost Canada, YouTube ad minimum budget, YouTube cost per view Canada, YouTube Shorts ads small business, YouTube CPM 2026, bumper ads cost, Demand Gen budget",
+ "cover_title": "YouTube Ads Cost in Canada",
+ "intro_html": "<p>You want to run a YouTube ad for your business, and every guide quotes a different number. One says a view costs three cents, another says thirty, a third says you need $100 a day before it is worth starting. None is in Canadian dollars and none explains why they disagree.</p><p>This post sorts it out for a GTA owner: how Google bills YouTube ads, what the 2026 benchmark guides say, what $20 a day buys as plain arithmetic, the length rules including Shorts, and the cost most budgets leave out, the video itself. Every figure was checked against its source page on October 11, 2026, and third-party estimates are labelled.</p>",
+ "glance": [
+  {
+   "icon": "uil-play-circle",
+   "heading": "30 seconds = a view",
+   "sub": "On in-stream ads you pay when someone watches 30 seconds or interacts, whichever comes first (Google)"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "US$0.03 to $0.30 a view",
+   "sub": "The span of 2026 third-party CPV estimates; about C$0.04 to $0.43 at the Bank of Canada rate"
+  },
+  {
+   "icon": "uil-tv-retro",
+   "heading": "US$5 to $10 per 1,000",
+   "sub": "Store Growers' CPM range for most advertisers; bumper ads lower, connected TV higher"
+  },
+  {
+   "icon": "uil-calendar-alt",
+   "heading": "$5 floor, $100 'best practice'",
+   "sub": "Google's API minimum daily budget versus what a Google product manager called the bare minimum for Demand Gen"
+  },
+  {
+   "icon": "uil-video",
+   "heading": "6, 15 and 60 seconds",
+   "sub": "Bumper, standard non-skippable and the Shorts feed cut-off; vertical 9:16 for Shorts"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "How Google bills a YouTube ad: views or impressions",
+   "body_html": "<p>YouTube ads are bought through Google Ads, and there are two ways to be charged. The first is cost per view. <a href=\"https://support.google.com/google-ads/answer/2472735?hl=en\" target=\"_blank\" rel=\"noopener\">Google's CPV bidding page</a> defines a view by placement: on in-stream ads it is 30 seconds watched, or to the end if shorter, or an interaction, whichever comes first; on in-feed ads it is a click on the thumbnail or 10 seconds of autoplay; on Shorts it is 10 seconds or a tap on the call to action. With target CPV you set the average you will pay and Google says it charges the lowest amount available for each view. Someone who skips at second six costs you nothing.</p><p>The second is cost per thousand impressions, or CPM. <a href=\"https://support.google.com/google-ads/answer/2375464?hl=en\" target=\"_blank\" rel=\"noopener\">Google's video ad formats page</a> (updated October 2025) says non-skippable and bumper ads use target CPM, so you pay for showings whether or not anyone wanted to watch. In-feed ads are charged only when someone clicks. Masthead ads are reservation-only, outside a small-business budget.</p><p>Budgets work like search ads. <a href=\"https://support.google.com/google-ads/answer/6385083?hl=en\" target=\"_blank\" rel=\"noopener\">Google's average daily budget page</a> says you can edit the daily figure at any time, Google may spend up to twice it on one day, and the monthly limit is 30.4 times the daily budget. A $20 day is a $608 month at most.</p>",
+   "takeaway": "Decide first whether you want views or impressions. A skippable ad on CPV bidding is the only format where an uninterested viewer costs you nothing."
+  },
+  {
+   "heading": "What a view and an impression cost: the 2026 estimates",
+   "body_html": "<p>Google publishes no rate card, so every cost figure is an estimate from an agency or benchmark publisher, each measuring different accounts. Four from 2026, all in US dollars:</p><ul><li><a href=\"https://megadigital.ai/en/blog/youtube-ad-benchmarks/\" target=\"_blank\" rel=\"noopener\">Mega Digital</a> (July 2026): average CPV $0.026, CPM about $3.53, view rate 31.9%, click-through 0.65%. Its data is its own clients, January to September 2024, largely Asia-Pacific, so treat it as the low end.</li><li><a href=\"https://www.storegrowers.com/youtube-ads-benchmarks/\" target=\"_blank\" rel=\"noopener\">Store Growers</a> (updated February 2026): CPM $5 to $10 for most advertisers, bumper ads $3.24 to $4.37, Shorts about $4, connected TV $8.72 to $10.01. CPV about $0.05 for in-stream and $0.10 to $0.30 on Shorts. It cites Strike Social, AdConversion and Pixability.</li><li><a href=\"https://adwave.com/resources/youtube-ad-costs\" target=\"_blank\" rel=\"noopener\">Adwave</a> (July 2026): $0.01 to $0.10 a view for standard skippable campaigns, $0.10 to $0.30 in competitive verticals; CPM $6 to $15 standard, $10 to $25 non-skippable. It calls these industry estimates, not official Google rates.</li><li><a href=\"https://joinbrands.com/blog/how-much-do-youtube-ads-cost/\" target=\"_blank\" rel=\"noopener\">JoinBrands</a> (August 2026): $0.03 to $0.30 a view, $2 to $10 CPM, cost per action $15 to $75 or more.</li></ul><p>At the <a href=\"https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/\" target=\"_blank\" rel=\"noopener\">Bank of Canada rate</a> of 1.4271 on October 9, 2026 (my conversion), a skippable view is roughly C$0.04 to C$0.14 in an ordinary category, up to about C$0.43 in a crowded one, and a thousand impressions is about C$7 to C$14. None of these publishers breaks out Canada; the only Canadian-dollar guide ranking for this search dates from 2020, so I left it out.</p>",
+   "takeaway": "Plan on C$0.05 to C$0.15 a view and C$7 to C$14 per thousand impressions, then let your own data replace the estimate."
+  },
+  {
+   "heading": "What $20 a day actually buys",
+   "body_html": "<p>Illustrations using the converted ranges above, not forecasts.</p><ul><li><strong>$20 a day on a skippable in-stream ad.</strong> At C$0.07 a view, about 285 counted views a day, roughly 8,500 a month. At C$0.14, about 140 a day, roughly 4,300 a month. A counted view means 30 seconds watched or a click.</li><li><strong>$20 a day on six-second bumpers.</strong> At the Store Growers bumper CPM, about C$4.60 to C$6.25 converted, roughly 3,200 to 4,300 impressions a day, or 100,000 to 130,000 a month. Nobody can skip, but nobody can click either.</li><li><strong>$100 a day.</strong> That is $3,040 a month, and it is what Google now calls the floor for its conversion format. <a href=\"https://ppc.land/google-pm-calls-100-a-day-the-floor-for-a-demand-gen-campaign/\" target=\"_blank\" rel=\"noopener\">PPC Land</a> (October 4, 2026) quotes Alejandro Osio, Google's product manager for Demand Gen and YouTube performance ads, calling $100 a day the bare minimum best practice, while the Google Ads API enforces only a $5 daily minimum.</li></ul><p>Campaign type matters as much as budget. <a href=\"https://support.google.com/google-ads/answer/13695777?hl=en\" target=\"_blank\" rel=\"noopener\">Google's Demand Gen page</a> says it serves on YouTube including Shorts, Discover, Gmail, Maps and the Display Network, and recommends a budget of at least ten times your target cost per action. If a booked job is worth $40 to you, that is a $400 day. Video view and video reach campaigns, which bid on CPV or CPM, are where $20 a day is still a real experiment.</p>",
+   "takeaway": "At $20 a day, buy views or reach, not conversions. Google's own guidance puts conversion-bid campaigns at $100 a day and up."
+  },
+  {
+   "heading": "Format and length rules, including Shorts",
+   "body_html": "<ul><li><strong>Skippable in-stream.</strong> Viewers can skip after five seconds. No maximum length, but Google recommends under three minutes. Billed per view.</li><li><strong>Non-skippable in-stream.</strong> <a href=\"https://support.google.com/google-ads/answer/11462260\" target=\"_blank\" rel=\"noopener\">Google's non-skippable page</a> lists bumper ads up to 6 seconds, standard non-skippable at 7 to 15 seconds, and a 16 to 30 second version shown only on connected TV and only horizontal. All use target CPM.</li><li><strong>In-feed.</strong> A thumbnail in search results and feeds. You pay only when someone clicks to watch.</li><li><strong>Shorts.</strong> <a href=\"https://support.google.com/google-ads/answer/16041697?hl=en\" target=\"_blank\" rel=\"noopener\">Google's Shorts ads guide</a> recommends vertical 9:16 video. Ads can run to three minutes but only the first 60 seconds play in the Shorts feed, with an overlay at 50 seconds, so Google advises under 60 seconds. Viewers skip by swiping. Shorts run through Demand Gen, video view, video reach and Performance Max campaigns.</li></ul><p>In practice a small business needs three cuts of one message, six, 15 and 30 seconds, with the offer in the first five seconds, in both horizontal and vertical. One length in one orientation closes half the placements above.</p>",
+   "takeaway": "Brief the video in three lengths and two orientations before you brief the campaign."
+  },
+  {
+   "heading": "Why test it in Canada, and the cost budgets forget",
+   "body_html": "<p>The audience case is simple. Numeris measured Canadian viewing from September 1 to November 30, 2025, and as <a href=\"https://cmotech.ca/story/youtube-tops-canada-streaming-viewing-says-numeris\" target=\"_blank\" rel=\"noopener\">CMOtech reported in May 2026</a>, YouTube ranked ahead of Netflix, Amazon Prime and Disney and had the largest ad-supported reach among streaming platforms available in Canada; among adults 18 to 44 it beat the major broadcasters on weekly reach and time spent. <a href=\"https://mobilesyrup.com/2026/05/15/study-shows-more-canadians-are-choosing-youtube-than-ever-before/\" target=\"_blank\" rel=\"noopener\">MobileSyrup</a> calls it the most-watched streaming platform in Canada.</p><p>The cost benchmark posts never include is the video. Every figure above assumes a finished ad in the right lengths and orientations. A filmed commercial in Toronto is a five-figure project once crew, location and editing are added, as we showed in <a href=\"../ai-video-ad-vs-videographer-cost-toronto/\">our AI video versus videographer comparison</a>. For a $600-a-month media test, the creative should not cost twenty times the first month of ads.</p><p>How to test: one video view campaign, one skippable ad, one audience by location and interest, $15 to $20 a day for two weeks, the range Adwave suggests for a first run. Compare view rate with the 31.9% average and cost per view with your converted estimate, then scale the budget or fix the first five seconds.</p><p>Who should not bother yet: a business with no landing page or call tracking, a trade whose first job is worth under $100, and anyone who cannot produce a vertical and a horizontal cut of the same ad.</p>",
+   "takeaway": "Budget for the video and the two-week test together. $600 of media with no ad is not an experiment."
+  }
+ ],
+ "bottom_line_html": "<p>The 2026 estimates cluster at US$0.03 to $0.30 a view and US$5 to $10 per thousand impressions, roughly C$0.04 to $0.43 and C$7 to $14 at today's rate. Google accepts $5 a day, its product manager calls $100 a day the floor for conversion campaigns, and $20 a day on a skippable ad buys a few thousand counted views a month. Get the video right first, then let two weeks of your own numbers replace everyone's estimate.</p><p>If the missing piece is the ad itself, Nova Toronto's <a href=\"../../index.html#ai-video\">AI video production</a> is priced for this kind of test: a 15 to 20 second brand video from $497 plus HST in widescreen and vertical, a 20 to 40 second video for $897 with 15-second and 6-second cutdowns, or a 45 to 60 second hero video for $1,497 with cutdowns sized for YouTube, Meta, Instagram and TikTok, delivered in three to five business days. New to AI tools? Start with the <a href=\"../../ai-course/\">free AI course for beginners</a>. Want a second opinion on your first YouTube budget? <a href=\"../../index.html#contact\">Book a free consultation</a> and bring the offer you want to advertise.</p>",
+ "faq": [
+  {
+   "q": "What is the minimum budget for YouTube ads?",
+   "a": "Google's system accepts as little as $5 a day, the minimum the Google Ads API enforces. A useful budget is higher: in October 2026 a Google product manager called $100 a day the bare minimum best practice for a Demand Gen campaign. For a view or reach campaign, 2026 guides suggest $10 to $50 a day for a two-week test."
+  },
+  {
+   "q": "How much does a YouTube view cost in Canada?",
+   "a": "Google publishes no rates, so the figures are agency estimates in US dollars. Four 2026 guides span about $0.03 to $0.30 a view, with ordinary categories at $0.05 to $0.10. At the Bank of Canada rate of 1.4271 on October 9, 2026, that is roughly C$0.04 to C$0.43. On skippable in-stream ads a view counts only at 30 seconds watched or an interaction, so skipped plays cost nothing."
+  },
+  {
+   "q": "Are YouTube Shorts ads cheaper than regular YouTube ads?",
+   "a": "Per impression, similar or lower: Store Growers puts Shorts CPM at about US$4 against $5 to $10 for in-stream. Per counted view they can be dearer, with Shorts CPV estimated at $0.10 to $0.30 versus about $0.05 for in-stream, partly because a Shorts view counts at 10 seconds rather than 30. Shorts ads need vertical 9:16 video and only the first 60 seconds play in the feed."
+  },
+  {
+   "q": "How long should a YouTube ad be?",
+   "a": "Bumper ads are up to 6 seconds, standard non-skippable ads 7 to 15 seconds, and a 16 to 30 second non-skippable version runs only on connected TV. Skippable in-stream ads have no maximum but can be skipped after 5 seconds, and Google recommends under three minutes. For Shorts, Google advises under 60 seconds. A practical plan is one message cut to 6, 15 and 30 seconds, horizontal and vertical."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Ads Help: About YouTube's cost-per-view (CPV) bidding",
+   "url": "https://support.google.com/google-ads/answer/2472735?hl=en"
+  },
+  {
+   "label": "Google Ads Help: About video ad formats",
+   "url": "https://support.google.com/google-ads/answer/2375464?hl=en"
+  },
+  {
+   "label": "Google Ads Help: Non-skippable in-stream ads",
+   "url": "https://support.google.com/google-ads/answer/11462260"
+  },
+  {
+   "label": "Google Ads Help: Your guide to YouTube Shorts ads",
+   "url": "https://support.google.com/google-ads/answer/16041697?hl=en"
+  },
+  {
+   "label": "Google Ads Help: About average daily budgets",
+   "url": "https://support.google.com/google-ads/answer/6385083?hl=en"
+  },
+  {
+   "label": "Google Ads Help: About Demand Gen campaigns",
+   "url": "https://support.google.com/google-ads/answer/13695777?hl=en"
+  },
+  {
+   "label": "Mega Digital: YouTube Ad Benchmarks by Industry 2026",
+   "url": "https://megadigital.ai/en/blog/youtube-ad-benchmarks/"
+  },
+  {
+   "label": "Store Growers: YouTube Ads Benchmarks (2026)",
+   "url": "https://www.storegrowers.com/youtube-ads-benchmarks/"
+  },
+  {
+   "label": "Adwave: YouTube Ad Costs",
+   "url": "https://adwave.com/resources/youtube-ad-costs"
+  },
+  {
+   "label": "JoinBrands: How Much Do YouTube Ads Cost in 2026",
+   "url": "https://joinbrands.com/blog/how-much-do-youtube-ads-cost/"
+  },
+  {
+   "label": "PPC Land: Google PM calls $100 a day the floor for a Demand Gen campaign",
+   "url": "https://ppc.land/google-pm-calls-100-a-day-the-floor-for-a-demand-gen-campaign/"
+  },
+  {
+   "label": "Bank of Canada: Daily exchange rates",
+   "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"
+  },
+  {
+   "label": "CMOtech: YouTube tops Canada streaming viewing, says Numeris",
+   "url": "https://cmotech.ca/story/youtube-tops-canada-streaming-viewing-says-numeris"
+  },
+  {
+   "label": "MobileSyrup: Study shows more Canadians are choosing YouTube than ever before",
+   "url": "https://mobilesyrup.com/2026/05/15/study-shows-more-canadians-are-choosing-youtube-than-ever-before/"
+  }
+ ],
+ "related": [
+  {
+   "label": "AI video production from $497",
+   "href": "../../index.html#ai-video"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "AI video ad vs videographer: what each costs in Toronto",
+   "href": "../ai-video-ad-vs-videographer-cost-toronto/"
+  },
+  {
+   "label": "Google Ads vs Meta Ads for a GTA business",
+   "href": "../google-ads-vs-meta-ads-gta-business/"
+  }
+ ]
+}
