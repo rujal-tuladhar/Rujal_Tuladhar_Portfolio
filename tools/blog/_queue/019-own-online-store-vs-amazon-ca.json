@@ -1,0 +1,146 @@
+{
+ "slug": "own-online-store-vs-amazon-ca",
+ "title": "Your own online store vs Amazon.ca: where should you start?",
+ "category": "Website Design",
+ "excerpt": "Amazon.ca or your own Shopify store first? The fees on a $30 sale in CAD, who owns the customer, how fast you get paid, and a sequence for adding the other.",
+ "keywords": "shopify vs amazon canada, sell on amazon.ca or own website, amazon vs own store small business, where to sell online canada, amazon.ca referral fee, shopify fees canada",
+ "cover_title": "Own Store or Amazon.ca First?",
+ "intro_html": "<p>You have a product ready to sell online and two obvious places to put it: a store of your own, or Amazon.ca. Most comparisons you will find are written for American sellers, quote US dollars, and end with \"it depends\".</p><p>I run both, an Amazon.ca seller account and my own online store, so this is the comparison I would want before choosing. It covers how each channel finds buyers, what each takes from a $30 sale, who owns the customer, how the daily work differs, and a sensible order for adding the second channel. Every fee and rule was read on its source page on October 12, 2026. Prices are Canadian dollars unless marked.</p>",
+ "glance": [
+  {
+   "icon": "uil-percentage",
+   "heading": "15% vs 2.8% + 30 cents",
+   "sub": "Amazon.ca's referral fee in most categories against Shopify Basic's online card rate"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$29.99 vs $49 a month",
+   "sub": "Amazon.ca Professional plan against Shopify Basic on monthly billing"
+  },
+  {
+   "icon": "uil-users-alt",
+   "heading": "Who owns the customer",
+   "sub": "Amazon's messaging rules bar marketing and links to your own site; on your store the list is yours"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "3 business days vs about 14",
+   "sub": "Shopify Payments settlement in Canada against Amazon's typical payout cycle"
+  },
+  {
+   "icon": "uil-link",
+   "heading": "50 orders a month free",
+   "sub": "Shopify's Marketplace Connect app links one catalogue to Amazon, then 1% an order"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Traffic: Amazon brings buyers, your store has to earn them",
+   "body_html": "<p>The real difference between the two is not the software. It is where the customers come from.</p><p>On Amazon.ca, shoppers are already there, searching with a card on file. Even Shopify's own <a href=\"https://www.shopify.com/ca/compare/shopify-vs-amazon\" target=\"_blank\" rel=\"noopener\">comparison page</a> credits Amazon with \"immediate access to a built-in audience\", and adds the catch: higher competition. You are one offer among many, often on the same product page as other sellers.</p><p>On your own store, nobody arrives unless you bring them, through search, ads, social posts, email or word of mouth. That takes money or time, usually both.</p><p>Built-in traffic is not free traffic, though. Most Amazon sellers end up advertising inside Amazon to be seen. <a href=\"https://wiseppc.com/blog/amazon-sponsored-products-benchmarks/\" target=\"_blank\" rel=\"noopener\">WisePPC's benchmark</a> of 69 advertising accounts from April to June 2026 found a median cost per click of US$0.82 in the US marketplace, and the median account spent 28.2% of its ad-driven sales on the ads. None of it is broken out for Canada, so treat it as a rough guide.</p>",
+   "takeaway": "If you have no audience yet, Amazon.ca gets a product in front of buyers sooner. If you already have followers, an email list or walk-in customers, your own store turns them into sales without paying a commission."
+  },
+  {
+   "heading": "The fees on a $30 sale, in Canadian dollars",
+   "body_html": "<p><strong>Amazon.ca.</strong> <a href=\"https://sell.amazon.ca/pricing\" target=\"_blank\" rel=\"noopener\">Amazon's Canadian pricing page</a> lists two plans: Individual at $1.49 per item sold, or Professional at $29.99 a month. On top comes a referral fee on each sale: 15% in most categories, including Home and Kitchen, Pet Products, and Toys and Games, with a $0.40 minimum. Baby and Beauty items pay 8% at $15.00 or less. If Amazon stores and ships the product for you, Fulfilment by Amazon adds a per-unit fee, listed at $7.23 for a standard-size item of 400 to 500 g. Check Seller Central for any surcharge or seasonal rate on top of the listed one.</p><p><strong>Your own store on Shopify.</strong> <a href=\"https://www.shopify.com/ca/pricing\" target=\"_blank\" rel=\"noopener\">Shopify's Canadian pricing page</a> lists Basic at $49 a month, or $37 a month billed yearly. Online card payments through Shopify Payments cost 2.8% plus 30 cents. Use a different payment provider and Shopify adds a 2% fee. New stores get three days free, then $1 a month for three months.</p><p>Here is one sale worked through. The product is my assumption: a $30 kitchen item weighing 450 g.</p><ul><li><strong>Amazon.ca with FBA:</strong> referral fee $4.50, fulfilment $7.23. Amazon keeps $11.73, about 39% of the price, and delivers the order.</li><li><strong>Your own Shopify store:</strong> card fee $1.14. You keep $28.86, and you still have to pack and post the parcel.</li></ul><p>The gap is $10.59 a sale. On your own store that is the budget for postage and for whatever it cost to bring the buyer in. If you can do both for less than $10.59, your own store earns more per order. If you cannot, Amazon is doing the work more cheaply than you would.</p><p>The monthly fees behave differently too. Amazon's Individual plan costs nothing until you sell, and Professional becomes the cheaper plan from the 21st sale in a month. Shopify's $49 is due whether you sell or not: at 10 orders a month it is $4.90 an order, at 100 orders it is 49 cents.</p>",
+   "takeaway": "Run this sum for your own product before choosing: price, minus Amazon's referral and fulfilment fees, against price, minus the card fee, postage and your cost of finding a customer."
+  },
+  {
+   "heading": "Who owns the customer, the data and the brand",
+   "body_html": "<p>This is where the two channels are furthest apart, and it does not show up in a fee table.</p><p>An Amazon buyer is Amazon's customer. <a href=\"https://www.sellerlabs.com/?p=18941\" target=\"_blank\" rel=\"noopener\">Seller Labs' guide to the buyer-seller messaging rules</a>, updated in August 2026, tells sellers to strip marketing, promotions, coupons and cross-sells from their messages, along with external links, \"including your own website, social profiles, or a warranty registration page\". Buyers can also opt out of unsolicited seller messages. In practice, you cannot invite an Amazon buyer onto your mailing list or point them to your store.</p><p>On your own store the relationship is yours. Shopify's pitch is that you \"manage your own customer data\", set your own prices without a marketplace algorithm, and control how the brand looks. The limit is Canadian law, not a platform rule: the federal government's <a href=\"https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en\" target=\"_blank\" rel=\"noopener\">anti-spam legislation site</a> says businesses must obtain consent before sending commercial electronic messages. So ask for it at checkout.</p>",
+   "takeaway": "If repeat purchases matter to your product, such as refills, consumables or anything bought every few months, the customer list from your own store is worth more than the first sale. On Amazon, each repeat order pays the commission again."
+  },
+  {
+   "heading": "The workload an operator actually feels",
+   "body_html": "<p><strong>Getting started.</strong> Amazon's <a href=\"https://sell.amazon.ca/beginners-guide\" target=\"_blank\" rel=\"noopener\">beginner's guide</a> asks for government-issued ID, an internationally chargeable credit card, a business licence or registration, proof of residential address from the last 180 days and tax information, and says identity verification usually takes three business days or less. A store of your own has no gatekeeper, but you build every page: products, shipping rates, taxes, policies.</p><p><strong>Shipping, returns and support.</strong> With <a href=\"https://sell.amazon.ca/fulfilment-by-amazon\" target=\"_blank\" rel=\"noopener\">FBA</a>, Amazon picks, packs and ships, and handles customer enquiries, refunds and returns for those orders. Amazon says FBA may be the more cost-effective route once you sell 40 or more items a month. Refunds still cost you: the pricing page lists a refund administration fee of the lesser of $5.00 or 20% of the referral fee. On your own store every parcel, return and \"where is my order\" email is yours.</p><p><strong>Getting paid.</strong> <a href=\"https://help.shopify.com/en/manual/payments/shopify-payments/payouts/payout-timing\" target=\"_blank\" rel=\"noopener\">Shopify's payout page</a> gives a minimum settlement time of three business days for Canada. Amazon's cycle is slower: <a href=\"https://www.8fig.co/glossary/amazon-seller-payment-schedule\" target=\"_blank\" rel=\"noopener\">8fig's glossary</a>, a third-party source, describes payouts as typically every 14 days, covering orders delivered at least seven days earlier, with a further one to five business days to reach the bank. If you are paying for stock up front, that gap matters.</p>",
+   "takeaway": "Amazon with FBA is less daily work and slower cash. Your own store is more daily work and faster cash. Pick the constraint you can live with in your first six months."
+  },
+  {
+   "heading": "A sequence for starting with one and adding the other",
+   "body_html": "<p><strong>Start on Amazon.ca if</strong> the product is something people already search for by name or type, you have no audience, and your margin survives the fee sum above. Our <a href=\"../amazon-ca-seller-startup-costs-2026/\">Amazon.ca start-up cost breakdown</a> has the full first-90-days budget.</p><p><strong>Start with your own store if</strong> the product is new or unusual enough that nobody searches for it yet, it needs explaining, it is bought repeatedly, or you already have customers from a shop, a market stall or social media. Our <a href=\"../shopify-store-first-year-cost-canada/\">first-year Shopify cost post</a> and the <a href=\"../shopify-vs-woocommerce-cost-canada/\">Shopify versus WooCommerce comparison</a> cover the build side.</p><p><strong>Then add the second channel.</strong> You do not need two catalogues. Shopify's <a href=\"https://apps.shopify.com/marketplace-connect\" target=\"_blank\" rel=\"noopener\">Marketplace Connect app</a> links a Shopify catalogue to Amazon, Walmart and eBay and syncs inventory, orders and tracking. It is free for the first 50 marketplace orders a month, then 1% an order, capped at US$99 a month. Read its recent reviews before relying on it; some report price and inventory sync problems. Going the other way, Amazon's FBA page lists using FBA inventory for sales on other channels, so stock you have already sent to Amazon can fill orders from your own site.</p><p><strong>Who should not bother with Amazon yet:</strong> a product that leaves a dollar or two after the referral and fulfilment fees. <strong>Who should not build a store yet:</strong> anyone with no plan and no budget for bringing visitors to it.</p>",
+   "takeaway": "Pick the channel that fits the product, prove it sells there for three months, then connect the second one to the same catalogue."
+  }
+ ],
+ "bottom_line_html": "<p>Amazon.ca rents you its customers and takes about 39% of a $30 FBA sale in the example above. Your own store costs $49 a month and about $1.14 a sale in card fees, but the traffic, the parcels and the support are yours to handle. Neither is cheaper in general. One is cheaper for your product, and the $30 sum will tell you which.</p><p>If you would like either side set up properly, Nova Toronto builds <a href=\"../../website-design/\">ecommerce websites</a> for $2,000 plus applicable tax on Shopify or WooCommerce, and offers <a href=\"../../amazon-seller/\">Amazon.ca seller setup</a> from $450. If AI tools are new to you, the <a href=\"../../ai-course/\">free AI course for beginners</a> is a good place to start. Not sure which channel fits your product? <a href=\"../../index.html#contact\">Book a free consultation</a> and bring your price, your product cost and its shipping weight.</p>",
+ "faq": [
+  {
+   "q": "Is it cheaper to sell on Amazon.ca or on my own Shopify store?",
+   "a": "Per sale, your own store takes far less: Shopify Basic charges 2.8% plus 30 cents on a card payment, while Amazon.ca charges a 15% referral fee in most categories plus a fulfilment fee if you use FBA. But your own store has a $49 monthly plan, and you pay for postage and for bringing in every visitor. Work out both for your own product."
+  },
+  {
+   "q": "Can I email my Amazon customers about my own website?",
+   "a": "No. Guides to Amazon's buyer-seller messaging rules tell sellers to remove marketing, coupons and external links, including links to their own website. Customers who buy from your own store are different: you can market to them once you have their consent under Canada's anti-spam law."
+  },
+  {
+   "q": "Can I sell on Amazon.ca and my own store at the same time?",
+   "a": "Yes. Shopify's Marketplace Connect app links a Shopify catalogue to Amazon and syncs inventory and orders; it is free for the first 50 marketplace orders a month, then 1% an order up to US$99 a month. Start with one channel, get it working, then add the second."
+  },
+  {
+   "q": "How quickly do I get paid on each channel?",
+   "a": "Shopify's help pages give a minimum settlement time of three business days for Shopify Payments in Canada. Amazon is slower: third-party guides describe payouts as typically every 14 days, covering orders delivered at least seven days earlier. Check the Payments section of your own Seller Central account for your exact schedule."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Amazon.ca: How pricing works on Amazon.ca (selling plans, referral fees, FBA fees)",
+   "url": "https://sell.amazon.ca/pricing"
+  },
+  {
+   "label": "Amazon.ca: Fulfilment by Amazon (FBA)",
+   "url": "https://sell.amazon.ca/fulfilment-by-amazon"
+  },
+  {
+   "label": "Amazon.ca: Beginner's Guide to Selling on Amazon",
+   "url": "https://sell.amazon.ca/beginners-guide"
+  },
+  {
+   "label": "Shopify Canada: Pricing",
+   "url": "https://www.shopify.com/ca/pricing"
+  },
+  {
+   "label": "Shopify Canada: Shopify vs Amazon",
+   "url": "https://www.shopify.com/ca/compare/shopify-vs-amazon"
+  },
+  {
+   "label": "Shopify Help Center: Understanding Shopify Payments payout timing",
+   "url": "https://help.shopify.com/en/manual/payments/shopify-payments/payouts/payout-timing"
+  },
+  {
+   "label": "Shopify App Store: Shopify Marketplace Connect",
+   "url": "https://apps.shopify.com/marketplace-connect"
+  },
+  {
+   "label": "Seller Labs: Buyer-Seller Messaging Rules: What You Can and Can't Send",
+   "url": "https://www.sellerlabs.com/?p=18941"
+  },
+  {
+   "label": "WisePPC: Amazon Sponsored Products Benchmarks (June 2026)",
+   "url": "https://wiseppc.com/blog/amazon-sponsored-products-benchmarks/"
+  },
+  {
+   "label": "8fig: Amazon seller payment schedule",
+   "url": "https://www.8fig.co/glossary/amazon-seller-payment-schedule"
+  },
+  {
+   "label": "Government of Canada: Canada's anti-spam legislation",
+   "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en"
+  }
+ ],
+ "related": [
+  {
+   "label": "Ecommerce websites on Shopify or WooCommerce",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "Amazon.ca seller setup",
+   "href": "../../amazon-seller/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  },
+  {
+   "label": "What it costs to start selling on Amazon.ca in 2026",
+   "href": "../amazon-ca-seller-startup-costs-2026/"
+  }
+ ]
+}

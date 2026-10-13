@@ -1,0 +1,148 @@
+{
+ "slug": "website-design-packages-toronto",
+ "title": "Website design packages in Toronto: what each one should include",
+ "category": "Website Design",
+ "excerpt": "Website design packages in Toronto compared: what starter, standard and e-commerce packages include, the extras billed later, and what to ask first.",
+ "keywords": "website design packages toronto, web design packages toronto, small business website package, e-commerce website package, website redesign services toronto, what is included in a website package",
+ "cover_title": "What a Website Package Includes",
+ "intro_html": "<p>You asked three Toronto web shops for a quote and got three packages with three different names. One includes \"SEO\", one includes \"hosting\", one includes five pages and little else. The prices are easy to compare. What you actually get for them is not.</p><p>This guide covers what a starter, standard and e-commerce package normally includes, what tends to show up on a later invoice, and what to ask before you sign. For price ranges across Ontario shops, see our earlier post on <a href=\"../website-budget-tiers-ontario-2026/\">what $1,000, $2,000 and $5,000 buy</a>. Our own package lists are used as the worked example, and every outside fact was checked on October 12, 2026.</p>",
+ "glance": [
+  {
+   "icon": "uil-file-alt",
+   "heading": "Starter: about 3 pages",
+   "sub": "A customized template, contact form and map, built from your text and photos"
+  },
+  {
+   "icon": "uil-chart-line",
+   "heading": "Standard: about 5 pages",
+   "sub": "Adds analytics setup, a sitemap, sourced photos and an extra revision round"
+  },
+  {
+   "icon": "uil-shopping-cart",
+   "heading": "E-commerce: store setup",
+   "sub": "A set number of products loaded, shipping rules and training; platform fees are separate"
+  },
+  {
+   "icon": "uil-receipt",
+   "heading": "Extras come later",
+   "sub": "Extra pages, copywriting, hosting, the domain and 13% HST are the usual add-ons"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Ownership in writing",
+   "sub": "Be the domain registrant and get the design and files assigned to you"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Starter package: a small site on a template",
+   "body_html": "<p>A starter package is a small brochure site built on an existing template. Our Bronze package is a typical example: three pages for $900, with template selection, a one-hour brainstorm, theme customization, a mobile-responsive layout, Google Maps and a contact form, social media links and two rounds of revisions.</p><p>Look at what that list leaves out. It does not mention written copy, a photo shoot, hosting or the domain name. That is normal at this level: you supply the words and pictures, and the builder arranges them. If a starter quote from any shop does not say who writes the text, assume it is you.</p>",
+   "takeaway": "A starter package buys layout and setup, not content. Have your page text and photos ready, or budget for someone to produce them."
+  },
+  {
+   "heading": "Standard package: built to be found and measured",
+   "body_html": "<p>The standard package is where \"SEO basics\" and tracking appear. Our Silver package is five pages for $1,800 and adds custom icons, an XML sitemap, a 404 redirect, Google Analytics setup, photo sourcing and a third round of revisions.</p><p>\"SEO included\" means different things in different quotes, so ask for the list. <a href=\"https://developers.google.com/search/docs/fundamentals/seo-starter-guide\" target=\"_blank\" rel=\"noopener\">Google's SEO Starter Guide</a> describes the basics: a title that is unique to each page and accurately describes it, a short meta description unique to that page, alt text that explains each image, and a sitemap listing the URLs you care about. The same guide says some changes take effect in hours and others take several months.</p><p>None of that is a promise to rank. Google's own advice on <a href=\"https://developers.google.com/search/docs/fundamentals/do-i-need-seo\" target=\"_blank\" rel=\"noopener\">hiring an SEO</a> is blunt: nobody can guarantee a number-one ranking, and if a provider guarantees first place you should find someone else.</p>",
+   "takeaway": "Ask the builder to list the SEO items page by page. Titles, descriptions, alt text and a sitemap are basics; a guaranteed ranking is a warning sign."
+  },
+  {
+   "heading": "E-commerce package: the store, not the subscription",
+   "body_html": "<p>An e-commerce package covers setting up the store. Ours is $2,000 for store setup plus five pages on a WordPress (WooCommerce) or Shopify template, with 20 products uploaded, custom shipping setup, a mailing list plugin, photo sourcing, two rounds of revisions and three hours of how-to training.</p><p>Two things sit outside any package like this. The first is the product count: if you sell 200 items and the package loads 20, ask what the rest cost or plan to add them yourself after the training.</p><p>The second is the platform bill, which you pay for as long as the store is open. <a href=\"https://www.shopify.com/ca/pricing\" target=\"_blank\" rel=\"noopener\">Shopify's Canadian pricing page</a> lists Basic at $49 CAD a month, or $37 CAD a month on yearly billing, with an online card rate of 2.8% plus 30 cents on that plan. <a href=\"https://woocommerce.com/pricing/\" target=\"_blank\" rel=\"noopener\">WooCommerce</a> describes its core software as free and open source with no monthly subscription, but lists hosting and paid extensions as separate costs.</p>",
+   "takeaway": "Count your products and add the platform's monthly fee and card rate to the quote. The build price is only the first of those three numbers."
+  },
+  {
+   "heading": "The extras that get billed later",
+   "body_html": "<p>Most surprise invoices come from the same short list:</p><ul><li><strong>Extra pages.</strong> We publish ours: $200 per additional page on Bronze, Silver and E-commerce, and $400 on the custom Gold package. Ask every shop for its per-page rate.</li><li><strong>Revisions beyond the included rounds.</strong> Two or three rounds is common. Ask what a further round costs.</li><li><strong>Copywriting and photography.</strong> Photo sourcing means finding suitable images. It does not mean a photographer visits your shop.</li><li><strong>Hosting, SSL and the domain.</strong> For comparison, <a href=\"https://www.squarespace.com/pricing\" target=\"_blank\" rel=\"noopener\">Squarespace</a> says all of its plans include hosting and a free SSL certificate, and annual plans include one year of domain registration. A custom build may or may not bundle these.</li><li><strong>HST.</strong> The <a href=\"https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html\" target=\"_blank\" rel=\"noopener\">Canada Revenue Agency's rate table</a> shows 13% for Ontario. Check whether the quote is before or after tax.</li><li><strong>Accessibility work.</strong> <a href=\"https://www.ontario.ca/page/how-make-websites-accessible\" target=\"_blank\" rel=\"noopener\">Ontario's guidance</a> says businesses and non-profits with 50 or more employees must make public websites meet WCAG 2.0 Level AA. If that is you, it belongs in the quote. Confirm your own obligations with a professional.</li></ul>",
+   "takeaway": "Ask for one written total for year one: build, extra pages, content, hosting, domain, platform fees and HST."
+  },
+  {
+   "heading": "Who owns the domain and the files",
+   "body_html": "<p>A package can include everything and still leave you owning nothing. Two items matter most. This is general information, not legal advice.</p><p><strong>The domain.</strong> <a href=\"https://www.icann.org/resources/pages/benefits-2013-09-16-en\" target=\"_blank\" rel=\"noopener\">ICANN's statement of registrant rights and responsibilities</a> which covers .com and other generic domains, says the registrant assumes sole responsibility for the registration and use of the domain name, and is entitled to the registrar's instructions for managing and transferring it. So the name on the registration should be yours or your company's, with the builder given access to manage it.</p><p><strong>The design and files.</strong> Section 13 of Canada's <a href=\"https://laws-lois.justice.gc.ca/eng/acts/c-42/section-13.html\" target=\"_blank\" rel=\"noopener\">Copyright Act</a> says the author of a work is the first owner of the copyright, and that no assignment is valid unless it is in writing and signed by the owner. A contractor's design is not automatically yours because you paid the invoice. Ask for a written assignment and a copy of the site files at launch.</p>",
+   "takeaway": "Register the domain in your own name and get a signed line assigning the design and files to you once the final invoice is paid."
+  },
+  {
+   "heading": "Questions to ask before you sign",
+   "body_html": "<ol><li>How many pages are included, and what does each extra page cost?</li><li>Who writes the text and supplies the photos?</li><li>Which SEO items are done on each page?</li><li>Is analytics installed, and will I have my own login?</li><li>How many revision rounds, and what does another one cost?</li><li>Are hosting, SSL and the domain included, and for how long?</li><li>Will the domain be registered in my name, and are the design and files assigned to me in writing?</li><li>Is HST included in the price?</li></ol><p>Send the same eight questions to every shop. The written answers are easier to compare than the package names.</p>",
+   "takeaway": "A shop that answers all eight in writing has told you what the package really is. One that will not is telling you something too."
+  },
+  {
+   "heading": "When a redesign makes more sense than a new build",
+   "body_html": "<p>If your current site already brings in enquiries from Google, a redesign that keeps the existing pages and addresses is usually the safer purchase. Starting again changes your URLs, and Google treats that as a site move.</p><p><a href=\"https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes\" target=\"_blank\" rel=\"noopener\">Google's guidance on site moves with URL changes</a> says to map each old URL to its new one, use permanent redirects such as a 301, keep those redirects for as long as possible and generally at least a year, and expect temporary fluctuation in rankings during the move. A redesign package should therefore include a URL map and redirects. If the quote does not mention them, ask.</p><p>A new build makes more sense when there is no site yet, when you are changing platform (for example, moving a brochure site to a store), or when the business has changed so much that the old pages no longer describe it. Google's page on <a href=\"https://developers.google.com/search/docs/fundamentals/do-i-need-seo\" target=\"_blank\" rel=\"noopener\">hiring an SEO</a> also notes that a good time to bring in help is when you are considering a redesign, the earlier the better.</p>",
+   "takeaway": "If the old site ranks for anything, make the URL map and redirects a line item in the redesign quote before any design work starts."
+  }
+ ],
+ "bottom_line_html": "<p>Package names tell you very little. Compare the lists: pages, who supplies content, the specific SEO items, revision rounds, what happens with hosting and the domain, and who owns the result. Then add the extras and tax to get a first-year total.</p><p>Our <a href=\"../../website-design/\">website design packages</a> are published in full: $900 for three pages, $1,800 for five pages with analytics and a sitemap, $2,000 for an online store and $5,000 for a custom build. Our published lists do not cover hosting, domain registration or copywriting, so raise those when you <a href=\"../../index.html#contact\">book a free consultation</a>. If you plan to draft your own page text with AI tools, our <a href=\"../../ai-course/\">free AI course for beginners</a> is a good place to start.</p>",
+ "faq": [
+  {
+   "q": "What is included in a website design package in Toronto?",
+   "a": "It varies by shop, so read the list rather than the name. A starter package is usually a few template pages with a contact form and a set number of revisions. A standard package adds analytics setup and on-page SEO basics. Copywriting, photography, hosting and the domain are often separate, so ask about each one."
+  },
+  {
+   "q": "Does a website package include hosting and a domain name?",
+   "a": "Not always. Website builders such as Squarespace bundle hosting and SSL into every plan and include a domain for the first year on annual plans. A custom build from a web shop may or may not. Ask whether hosting and the domain are included, for how long, and whose name the domain is registered in."
+  },
+  {
+   "q": "Do I own my website after the designer builds it?",
+   "a": "Only if it is in writing. Under section 13 of Canada's Copyright Act the author of a work is the first owner of the copyright, and an assignment is valid only if it is in writing and signed by the owner. Ask for a written assignment and a copy of the files. This is general information, not legal advice."
+  },
+  {
+   "q": "Should I redesign my website or build a new one?",
+   "a": "If the current site already brings in search traffic, a redesign that keeps existing page addresses is usually safer. If addresses must change, Google advises mapping old URLs to new ones with permanent redirects and keeping them for at least a year. A new build suits a business with no site, a platform change or a changed offer."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Search Central: SEO Starter Guide",
+   "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+  },
+  {
+   "label": "Google Search Central: Do you need an SEO?",
+   "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo"
+  },
+  {
+   "label": "Google Search Central: Site moves with URL changes",
+   "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes"
+  },
+  {
+   "label": "Shopify Canada: Pricing",
+   "url": "https://www.shopify.com/ca/pricing"
+  },
+  {
+   "label": "WooCommerce: Pricing",
+   "url": "https://woocommerce.com/pricing/"
+  },
+  {
+   "label": "Squarespace: Pricing",
+   "url": "https://www.squarespace.com/pricing"
+  },
+  {
+   "label": "Ontario.ca: How to make websites accessible",
+   "url": "https://www.ontario.ca/page/how-make-websites-accessible"
+  },
+  {
+   "label": "Canada Revenue Agency: GST/HST calculator (and rates)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate/calculator.html"
+  },
+  {
+   "label": "ICANN: Registrants' benefits and responsibilities",
+   "url": "https://www.icann.org/resources/pages/benefits-2013-09-16-en"
+  },
+  {
+   "label": "Justice Laws Website: Copyright Act, section 13",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/c-42/section-13.html"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design packages",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "What a $1,000, $2,000 and $5,000 website gets you in Ontario",
+   "href": "../website-budget-tiers-ontario-2026/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  }
+ ]
+}

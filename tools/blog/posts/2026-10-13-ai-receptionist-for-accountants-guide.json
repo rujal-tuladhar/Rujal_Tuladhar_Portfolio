@@ -1,0 +1,139 @@
+{
+ "slug": "ai-receptionist-for-accountants-guide",
+ "title": "AI receptionist for accountants: what it handles, costs and must not do",
+ "category": "AI Automation",
+ "excerpt": "What an AI receptionist can answer for an Ontario accounting firm in tax season, what it must pass to a person, listed prices in CAD and the privacy rules.",
+ "keywords": "ai receptionist for accountants, ai receptionist accounting firm, ai answering service for bookkeepers, tax season phone answering, PIPEDA call recording, CPA Ontario confidentiality, ai receptionist cost Canada",
+ "cover_title": "AI Receptionist: Accountants",
+ "intro_html": "<p>From late February to the end of April the phone at a small accounting or bookkeeping firm rings while everyone who could answer it is inside a return. Most of those calls are simple: are you taking new clients, what do I need to bring, can I move my appointment. A few are not simple at all.</p><p>This guide sets out what an <a href=\"../../ai-automation/ai-receptionist/accountants/\">AI receptionist for accountants</a> can safely handle, what it has to hand to a person, what the listed plans cost in Canadian dollars, and what federal privacy law and the CPA Ontario code expect of you. Every figure comes from a page I opened on October 12, 2026.</p>",
+ "glance": [
+  {
+   "icon": "uil-chart-line",
+   "heading": "32 million calls",
+   "sub": "What the CRA says it received last year, with peaks of nearly 300,000 a day in tax season"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "April 30 and June 15",
+   "sub": "The 2026 filing deadlines for most individuals and for the self-employed"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "US$29 to US$349 a month",
+   "sub": "Dialzara's four listed plans, about C$41 to C$498 at the October 9 exchange rate"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Rule 208",
+   "sub": "CPA Ontario's confidentiality rule, which reaches anyone you give access to client information"
+  },
+  {
+   "icon": "uil-robot",
+   "heading": "Say it is recorded",
+   "sub": "The federal privacy regulator says callers must be told a call is being recorded, and why"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Why tax season is the hard part",
+   "body_html": "<p>I could not find a published count of calls to Canadian accounting firms, so I will not quote one. The best public signal is the Canada Revenue Agency's own phone line. In its <a href=\"https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/what-you-need-for-2026-tax-filing-season.html\" target=\"_blank\" rel=\"noopener\">notes for the 2026 filing season</a>, the CRA said it received more than 32 million calls the year before, with peaks of nearly 300,000 a day during tax season. The same page set deadlines of April 30, 2026 for most individuals and June 15 for the self-employed.</p><p>A <a href=\"https://www.advisor.ca/industry-news/industry/cra-says-its-ready-for-tax-season-after-services-revamp/\" target=\"_blank\" rel=\"noopener\">Canadian Press report carried by Advisor.ca</a> in February 2026 gave the shape of that curve: about 40,000 unique calls a day from October to December, rising to an average of about 90,000 a day from February to May.</p><p>Those are the CRA's phones, not yours, but the same taxpayers are calling in the same weeks.</p>",
+   "takeaway": "Pull last year's phone records for February to April and count the missed calls; that number, not a national statistic, tells you whether you have a problem."
+  },
+  {
+   "heading": "What it can answer on its own",
+   "body_html": "<p>An AI receptionist is software that picks up the phone, follows a script you approve and sends you a summary. The calls that suit it are the ones where the answer is the same for everyone:</p><ul><li><strong>Booking and rebooking.</strong> New-client consultations, document drop-offs and signing appointments, placed in your calendar.</li><li><strong>Hours, location and how to send documents.</strong> Tax-season hours, parking, and which portal or drop box you use.</li><li><strong>Document reminders.</strong> The general checklist you already hand out to personal-tax or year-end clients.</li><li><strong>Services and intake.</strong> Whether you do personal tax, corporate returns, bookkeeping or payroll, plus a few intake questions.</li><li><strong>Deadlines you have published.</strong> Your own cut-off date for receiving documents, read from the script.</li></ul><p>None of these needs the software to open a client file.</p>",
+   "takeaway": "Write down the ten questions your front desk answers most in March; if eight of them have one fixed answer, those are the calls to automate."
+  },
+  {
+   "heading": "What it must hand to a person",
+   "body_html": "<p>This section is my judgment, not a regulation. A phone agent should take a message and pass the call on, without attempting an answer, when a caller:</p><ul><li><strong>Asks for tax advice.</strong> Whether something is deductible or whether to incorporate is professional work.</li><li><strong>Asks about their own file.</strong> Refund amounts, balances owing, whether a return was filed. The software cannot confirm who is on the line.</li><li><strong>Has a letter from the CRA.</strong> A review, an audit notice or a collections call needs a person the same day.</li><li><strong>Wants to give sensitive details by voice.</strong> Social insurance numbers, banking details and CRA account credentials should go through your secure channel, not into a call transcript.</li><li><strong>Is upset, or disputing a fee.</strong> Hand over quickly and say when someone will call back.</li></ul><p>The script should also say plainly that the caller is speaking with an automated assistant, and offer a callback from a person at any point.</p>",
+   "takeaway": "Give the software one firm rule: it never reads out, confirms or guesses anything about a specific client's return."
+  },
+  {
+   "heading": "What it costs in Canadian dollars",
+   "body_html": "<p>Most of these tools are priced in US dollars. I converted at the <a href=\"https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/\" target=\"_blank\" rel=\"noopener\">Bank of Canada daily rate</a> for October 9, 2026, which was C$1.4271 per US dollar.</p><ul><li><a href=\"https://dialzara.com/pricing\" target=\"_blank\" rel=\"noopener\">Dialzara</a> states its prices in US dollars: $29 a month with 60 minutes (about C$41), $99 with 220 minutes (about C$141), $199 with 500 minutes (about C$284) and $349 with 1,000 minutes (about C$498). Extra minutes run from $0.48 down to $0.35 each. Appointment booking is listed on every plan. The page mentions call routing but does not say whether that includes transfer to a live person, so ask.</li><li><a href=\"https://heyrosie.com/pricing\" target=\"_blank\" rel=\"noopener\">Rosie</a> lists $49 a month with 250 minutes, $149 with 1,000 minutes and $299 with 2,000 minutes. The page does not name the currency; if it is US dollars, that is about C$70, C$213 and C$427. Booking directly into your calendar and live call transfers start on the $149 plan, and an accounting firm needs both.</li></ul><p>The trap for accountants is that minutes are monthly and your calls are not spread evenly. As an illustration only: if your calls average three minutes, a 220-minute plan covers roughly 73 calls, which may be plenty in August and gone early in April. I compared more tools in <a href=\"../ai-receptionist-cost-2026/\">what an AI receptionist costs in 2026</a>.</p>",
+   "takeaway": "Size the plan on your March call count, and confirm in writing that you can change plans month to month."
+  },
+  {
+   "heading": "Privacy: PIPEDA and the CPA Ontario code",
+   "body_html": "<p>Three things apply before the first call is answered. None of this is legal advice.</p><p><strong>PIPEDA covers the firm.</strong> The Privacy Commissioner's <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/\" target=\"_blank\" rel=\"noopener\">summary of the Act</a> says it applies to private-sector organizations that collect, use or disclose personal information in the course of commercial activity, and its examples of personal information include income, ID numbers and credit records.</p><p><strong>You stay responsible for the vendor.</strong> The Commissioner's <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_accountability/\" target=\"_blank\" rel=\"noopener\">accountability guidance</a> tells organizations to protect all personal information they hold, including anything transferred to a third party for processing, and to appoint someone responsible for compliance. Recordings and transcripts held by a phone-agent provider are that kind of transfer.</p><p><strong>Recording has rules.</strong> The Commissioner's page on <a href=\"https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/\" target=\"_blank\" rel=\"noopener\">recording customer telephone calls</a>, updated October 8, 2026, says the organization must tell the customer the call is being recorded, should state the purpose as clearly and narrowly as possible, and must give the customer a choice. Where recording is not integral to the service, it expects an alternative, such as carrying on without recording. It also treats voiceprints as sensitive biometric information, so do not use a caller's voice to identify them.</p><p><strong>CPAs carry a professional duty on top.</strong> Rule 208.1 of the <a href=\"https://assets.cpaontario.ca/members/regulations-guidance/pdfs/CPA-Ontario-Code-of-professional-conduct.pdf\" target=\"_blank\" rel=\"noopener\">CPA Ontario Code of Professional Conduct</a> bars a member or firm from disclosing confidential information about a client or former client, with listed exceptions such as consent. Rule 208.3 requires appropriate measures to protect that information, access limited to those with a legitimate purpose, and a written agreement from any such person to keep it confidential. The copy I read is the version adopted in 2016, so check the current text with CPA Ontario. Bookkeepers who are not CPAs are outside that code but not outside PIPEDA.</p>",
+   "takeaway": "Before you sign, get the vendor's written confidentiality terms, ask where recordings are stored and for how long, and turn recording off if you do not need it."
+  },
+  {
+   "heading": "Setting it up before February",
+   "body_html": "<p>A workable order for a small firm:</p><ol><li><strong>Start with overflow and after-hours only.</strong> Your staff answer first; the software takes what they cannot.</li><li><strong>Write the script from real calls.</strong> Fixed answers for routine questions, plus the hand-off list above.</li><li><strong>Add the recording notice and a way to reach a person.</strong></li><li><strong>Test it yourself in January.</strong> Call as a new client, as an existing client asking about a refund, and as someone holding a CRA letter. It should book the first and hand off the other two.</li><li><strong>Read the summaries weekly through April</strong> and fix whatever it got wrong.</li></ol><p>Who should not bother: a firm that already has a full-time receptionist and few missed calls.</p><p>Nova Toronto builds and scripts <a href=\"../../ai-automation/ai-receptionist/accountants/\">AI receptionists for accounting firms</a> in the GTA, quoted per project. If you would rather understand the technology first, the <a href=\"../../ai-course/\">free AI course for beginners</a> covers the basics in seven short lessons.</p>",
+   "takeaway": "Aim to have it tested and live by the end of January, so the first busy week is not also the first week of the experiment."
+  }
+ ],
+ "bottom_line_html": "<p>An AI receptionist suits an accounting firm for the calls with one fixed answer: booking, hours, document checklists and new-client intake. It should never give tax advice or discuss a specific client's file, and CRA letters and upset callers go to a person. Listed plans run from about C$41 to about C$498 a month at the current exchange rate, and the tax-season spike is what decides the plan. Tell callers if you record, and get the vendor's confidentiality terms in writing. To hear one scripted for an accounting office, <a href=\"../../index.html#contact\">book a free consultation</a>.</p>",
+ "faq": [
+  {
+   "q": "Can an AI receptionist give tax advice to callers?",
+   "a": "It should not. Script it to book appointments, share hours, explain your services and read out your general document checklist. Any question about what is deductible, how to file or what a client owes should be taken as a message and passed to an accountant."
+  },
+  {
+   "q": "How much does an AI receptionist cost for an accounting firm in Canada?",
+   "a": "Listed plans I read on October 12, 2026 ran from US$29 to US$349 a month at Dialzara, depending on minutes, which is about C$41 to C$498 at the Bank of Canada rate for October 9. Rosie lists $49 to $299 a month. A custom build from an agency is usually quoted per project."
+  },
+  {
+   "q": "Is an AI receptionist PIPEDA compliant for an accounting firm?",
+   "a": "The software is not compliant or non-compliant by itself; the firm is responsible. The Privacy Commissioner says to protect personal information you transfer to a third party for processing, and to tell callers if a call is recorded and why. Collect as little as possible by phone and get the vendor's confidentiality terms in writing."
+  },
+  {
+   "q": "Can I use an AI receptionist only during tax season?",
+   "a": "Often yes. The plans I looked at are billed monthly by minutes, so the practical approach is a small plan for after-hours calls most of the year and a larger one from February to April. Confirm with the provider that you can change plans month to month before you sign."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Canada Revenue Agency: What you need to know for the 2026 tax-filing season",
+   "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/what-you-need-for-2026-tax-filing-season.html"
+  },
+  {
+   "label": "Advisor.ca (The Canadian Press): CRA says it's ready for tax season after services revamp",
+   "url": "https://www.advisor.ca/industry-news/industry/cra-says-its-ready-for-tax-season-after-services-revamp/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Recording of customer telephone calls",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: PIPEDA requirements in brief",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: PIPEDA fair information principle 1, Accountability",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_accountability/"
+  },
+  {
+   "label": "CPA Ontario: CPA Code of Professional Conduct (Rule 208, Confidentiality of information)",
+   "url": "https://assets.cpaontario.ca/members/regulations-guidance/pdfs/CPA-Ontario-Code-of-professional-conduct.pdf"
+  },
+  {
+   "label": "Bank of Canada: Daily exchange rates",
+   "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/"
+  },
+  {
+   "label": "Dialzara: Pricing",
+   "url": "https://dialzara.com/pricing"
+  },
+  {
+   "label": "Rosie: Pricing",
+   "url": "https://heyrosie.com/pricing"
+  }
+ ],
+ "related": [
+  {
+   "label": "AI receptionist for accounting firms",
+   "href": "../../ai-automation/ai-receptionist/accountants/"
+  },
+  {
+   "label": "What an AI receptionist costs in 2026",
+   "href": "../ai-receptionist-cost-2026/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  }
+ ]
+}
