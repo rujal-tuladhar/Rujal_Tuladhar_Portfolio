@@ -43,7 +43,7 @@
     "slug": "gemini-vs-chatgpt-small-business",
     "title": "Gemini vs ChatGPT for small business: what you get in Google Workspace",
     "category": "AI Automation",
-    "words": 1485,
+    "words": 1534,
     "sources": [
       "https://workspace.google.com/pricing",
       "https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub",
@@ -52,7 +52,8 @@
       "https://help.openai.com/en/articles/10929079-google-drive-app-and-setup-in-chatgpt",
       "https://help.openai.com/en/articles/12143177-sharepoint-app-and-setup-in-chatgpt",
       "https://www.microsoft.com/en-ca/microsoft-365-copilot/business"
-    ]
+    ],
+    "updated": "2026-10-14"
   },
   {
     "date": "2026-10-14",
