@@ -1,6 +1,185 @@
 [
   {
     "date": "2026-10-13",
+    "slug": "will-customers-hate-ai-receptionist",
+    "title": "Will customers hate an AI receptionist? What makes callers stay",
+    "category": "AI Automation",
+    "words": 1255,
+    "sources": [
+      "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems",
+      "https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/transfer-to-number",
+      "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/",
+      "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_261008/",
+      "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/",
+      "https://www150.statcan.gc.ca/n1/daily-quotidien/220817/mc-a003-eng.htm",
+      "https://www150.statcan.gc.ca/n1/daily-quotidien/220817/g-a007-eng.htm"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "who-owns-my-website-domain-designer",
+    "title": "Who owns my website? Getting your domain back from a designer",
+    "category": "Website Design",
+    "words": 1344,
+    "sources": [
+      "https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en",
+      "https://www.icann.org/rdap",
+      "https://lookup.icann.org/en",
+      "https://www.cira.ca/uploads/2023/05/cdrppolicy_-_en.pdf",
+      "https://ciidrc.org/cdrp-process-graphic/guide-to-filing-a-cdrp-complaint/",
+      "https://laws-lois.justice.gc.ca/eng/acts/c-42/section-13.html",
+      "https://www.ontariocourts.ca/scj/small-claims-court/",
+      "https://www.nbc.ca/personal/advice/credit/dispute-credit-card-transaction.html",
+      "https://support.google.com/webmasters/answer/7687615"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "website-traffic-no-leads-fix",
+    "title": "Website getting traffic but no leads? What to fix first",
+    "category": "Website Design",
+    "words": 1362,
+    "sources": [
+      "https://support.google.com/analytics/answer/9267568",
+      "https://support.google.com/analytics/answer/9216061",
+      "https://support.google.com/google-ads/answer/6095883",
+      "https://support.google.com/google-ads/answer/6095878",
+      "https://support.google.com/webmasters/answer/7576553",
+      "https://www.nngroup.com/articles/web-form-design/",
+      "https://web.dev/articles/vitals",
+      "https://pagespeed.web.dev/",
+      "https://support.google.com/business/answer/3474122",
+      "https://support.google.com/business/answer/7091",
+      "https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "website-not-showing-on-google-fix",
+    "title": "Website not showing up on Google? 7 checks for Ontario businesses",
+    "category": "Website Design",
+    "words": 1397,
+    "sources": [
+      "https://developers.google.com/search/docs/fundamentals/get-on-google",
+      "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+      "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+      "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+      "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "https://search.google.com/search-console/about",
+      "https://support.google.com/webmasters/answer/34592",
+      "https://support.google.com/webmasters/answer/7440203",
+      "https://support.google.com/webmasters/answer/9012289",
+      "https://support.google.com/webmasters/answer/7576553",
+      "https://support.google.com/business/answer/7107242",
+      "https://support.google.com/business/answer/3039617",
+      "https://support.google.com/business/answer/7091"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "rank-higher-google-maps-toronto",
+    "title": "How to rank higher on Google Maps in Toronto without paying for ads",
+    "category": "Digital Marketing",
+    "words": 1250,
+    "sources": [
+      "https://support.google.com/business/answer/7091",
+      "https://support.google.com/business/answer/3038177",
+      "https://support.google.com/business/answer/9157481",
+      "https://support.google.com/business/answer/7107242",
+      "https://support.google.com/business/answer/3474050",
+      "https://support.google.com/contributionpolicy/answer/7400114",
+      "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+      "https://developers.google.com/search/docs/essentials/spam-policies",
+      "https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "how-to-sell-on-walmart-canada",
+    "title": "How to sell on Walmart Canada: approval, fees and payouts",
+    "category": "Digital Marketing",
+    "words": 1341,
+    "sources": [
+      "https://marketplacelearn.walmart.com/ca/guides/Getting%20started/Onboarding/before-you-start-selling-on-walmart-marketplace-canada",
+      "https://marketplacelearn.walmart.com/ca/guides/Getting%20started/Onboarding/complete-onboarding-in-seller-center",
+      "https://marketplacelearn.walmart.com/ca/guides/Getting%20started/Onboarding/commission-or-referral-fees-for-contract-categories",
+      "https://marketplacelearn.walmart.com/ca/guides/Getting%20started/Account%20settings/set-up-and-update-your-payment-info",
+      "https://marketplacelearn.walmart.com/ca/guides/Taxes%20&%20payments/Payments/payments-period-and-reports",
+      "https://marketplacelearn.walmart.com/ca/guides/Getting%20started/Getting%20ready%20to%20sell/item-setup-methods-overview",
+      "https://www.walmart.ca/en/marketplace/article/sell_easily_walmart",
+      "https://marketplacelearn.walmart.com/guides/Taxes%20%20;%20payments/Payments/Payment-processing",
+      "https://retail-insider.com/retail-insider/2022/09/walmart-recruits-canada-based-sellers-for-flagship-us-online-marketplace-interview/",
+      "https://sell.amazon.ca/pricing",
+      "https://www.ontario.ca/page/ontario-business-registry-all-services",
+      "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/when-register-charge.html"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "google-ads-clicks-no-conversions",
+    "title": "Google Ads clicks but no conversions? A GTA troubleshooting list",
+    "category": "Digital Marketing",
+    "words": 1300,
+    "sources": [
+      "https://support.google.com/google-ads/answer/1722022",
+      "https://support.google.com/google-ads/answer/6095882",
+      "https://support.google.com/google-ads/answer/2472708",
+      "https://support.google.com/google-ads/answer/2453972",
+      "https://support.google.com/google-ads/answer/1722038",
+      "https://support.google.com/google-ads/answer/1659694",
+      "https://support.google.com/google-ads/answer/6268632",
+      "https://support.google.com/google-ads/answer/13020501",
+      "https://support.google.com/google-ads/answer/6268633",
+      "https://web.dev/articles/vitals",
+      "https://developers.google.com/search/docs/appearance/page-experience"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "facebook-ads-clicks-no-sales",
+    "title": "Facebook ads getting clicks but no sales? Why and what to change",
+    "category": "Digital Marketing",
+    "words": 1303,
+    "sources": [
+      "https://help.shopify.com/en/manual/promoting-marketing/analyze-marketing/meta-data-sharing",
+      "https://woocommerce.com/document/facebook-for-woocommerce/",
+      "https://www.jonloomer.com/meta-campaign-objectives-best-practices/",
+      "https://baymard.com/learn/reduce-cart-abandonment",
+      "https://competition-bureau.canada.ca/en/node/662"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "do-i-need-a-website-if-i-have-instagram",
+    "title": "Do I need a website if I have Instagram? An honest answer",
+    "category": "Website Design",
+    "words": 1036,
+    "sources": [
+      "https://support.google.com/business/answer/7091",
+      "https://support.google.com/business/answer/3038177",
+      "https://developers.google.com/search/docs/fundamentals/get-on-google",
+      "https://techcrunch.com/2023/04/18/instagram-takes-on-linktree-and-others-with-support-for-up-to-5-links-in-bio/",
+      "https://www.ctvnews.ca/business/article/we-lost-things-well-never-get-back-sask-business-owners-claim-wrongful-instagram-suspensions-caused-by-ai/",
+      "https://aa.com.tr/en/americas/meta-permanently-ends-news-availability-on-its-platforms-in-canada/2959502",
+      "https://www.canada.ca/en/canadian-heritage/services/online-news.html"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "slug": "amazon-fba-vs-fbm-canada",
+    "title": "Amazon FBA vs FBM in Canada: which should a new seller pick?",
+    "category": "Digital Marketing",
+    "words": 1494,
+    "sources": [
+      "https://sell.amazon.ca/pricing",
+      "https://sell.amazon.ca/fulfilment-by-amazon",
+      "https://sell.amazon.com/blog/buy-box-featured-offer",
+      "https://www.canadapost-postescanada.ca/cpc/doc/en/support/prices/business-prices.pdf",
+      "https://www.digitalcommerce360.com/2026/04/03/amazon-to-add-fuel-and-logistics-surcharges/amp/"
+    ]
+  },
+  {
+    "date": "2026-10-13",
     "slug": "ai-receptionist-for-accountants-guide",
     "title": "AI receptionist for accountants: what it handles, costs and must not do",
     "category": "AI Automation",

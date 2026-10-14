@@ -1,0 +1,142 @@
+{
+ "slug": "google-ads-clicks-no-conversions",
+ "title": "Google Ads clicks but no conversions? A GTA troubleshooting list",
+ "category": "Digital Marketing",
+ "excerpt": "Google Ads getting clicks but no conversions? Check tracking and calls, search terms, location settings, landing page and target CPA before you pause.",
+ "keywords": "google ads clicks but no conversions, google ads not converting, google ads conversion tracking calls, search terms report negative keywords, presence vs interest location, target cpa, toronto google ads",
+ "cover_title": "Clicks But No Conversions?",
+ "intro_html": "<p>Your Google Ads dashboard shows clicks, the budget is being spent, and the Conversions column says zero. That usually means one of two things: the ads really are not producing customers, or they are and Google Ads cannot see it. Before you change a single bid, you need to know which.</p><p>This is the order I work through when a Toronto or GTA account shows clicks without conversions. Every setting named here was checked against Google's own help pages on October 13, 2026. Work top to bottom: the first two checks catch the most common problems, and they cost nothing.</p>",
+ "glance": [
+  {
+   "icon": "uil-phone",
+   "heading": "Calls count too",
+   "sub": "Calls from ads and from your website can be tracked as conversions"
+  },
+  {
+   "icon": "uil-search",
+   "heading": "Read the search terms",
+   "sub": "Negatives do not cover close variants, plurals or synonyms"
+  },
+  {
+   "icon": "uil-map-marker",
+   "heading": "Presence, not interest",
+   "sub": "The default location option also reaches people outside the GTA"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "Judge over 1-2 cycles",
+   "sub": "Smart Bidding needs a few conversion cycles before you can judge it"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "1. Prove conversion tracking works, including phone calls",
+   "body_html": "<p>Google describes conversions as valuable actions people take after interacting with your ad. Its <a href=\"https://support.google.com/google-ads/answer/1722022\" target=\"_blank\" rel=\"noopener\">conversion tracking overview</a> lists website actions such as purchases and sign-ups (tracked with the Google tag or Google Analytics), phone calls, app actions, and imported offline conversions. If none of those is set up, or the tag sits on the wrong page, the column stays at zero no matter how many customers you get.</p><p>For most GTA service businesses the gap is the phone. Google's <a href=\"https://support.google.com/google-ads/answer/6095882\" target=\"_blank\" rel=\"noopener\">call conversion guide</a> covers calls from ads that carry call or location assets, calls to a number shown on your website, and clicks on a number on your website. A call only counts when it lasts longer than a minimum duration you set, so pick a length that separates real enquiries from hang-ups.</p><p>A simple test: submit your own contact form and call from a mobile ad, then check a day later whether both appear. Also mark only real actions as primary conversions. A page view or a scroll will make results look better without bringing in a single job.</p>",
+   "takeaway": "If tracking is broken, fix it before touching bids, keywords or budget; otherwise you are optimizing blind."
+  },
+  {
+   "heading": "2. Read the search terms report and add negatives",
+   "body_html": "<p>Keywords are what you bid on; search terms are what people actually typed. The <a href=\"https://support.google.com/google-ads/answer/2472708\" target=\"_blank\" rel=\"noopener\">search terms report</a> lists the searches that triggered your ads and got impressions and clicks. Google leaves out terms with too little activity to protect privacy, so you will not see every query, but you will see the big leaks.</p><p>Look for searches that will never buy: job seekers (\"plumber jobs Mississauga\"), do-it-yourself searches, free or cheap versions, competitors' names, and services you do not offer. Each one becomes a negative keyword.</p><p>Two rules from Google's <a href=\"https://support.google.com/google-ads/answer/2453972\" target=\"_blank\" rel=\"noopener\">negative keyword guide</a> catch people out. Negative keywords will not match close variants or other expansions, and you need to add synonyms and singular or plural versions yourself. So \"job\" and \"jobs\" are two negatives, not one.</p>",
+   "takeaway": "Review search terms weekly for the first month; it is the cheapest way to stop paying for clicks that were never customers."
+  },
+  {
+   "heading": "3. Check the location option: presence versus interest",
+   "body_html": "<p>This setting hides under Locations, then Location options. Google's <a href=\"https://support.google.com/google-ads/answer/1722038\" target=\"_blank\" rel=\"noopener\">location targeting help</a> says the default and recommended option, Presence or interest, reaches people who are likely to be in or regularly in your locations and also people who have shown interest in them. The other option, Presence, shows ads to people likely to be located, or regularly located, in your targeted area.</p><p>For a business that serves customers in person, such as a Brampton renovator, a Scarborough clinic or a Vaughan cleaner, someone far away who is only reading about Toronto is rarely a customer. Switch to Presence, then open the locations report to see where clicks came from.</p>",
+   "takeaway": "If you only serve the GTA, use Presence and target the areas you actually travel to."
+  },
+  {
+   "heading": "4. Make the landing page match the ad",
+   "body_html": "<p>Google describes <a href=\"https://support.google.com/google-ads/answer/1659694\" target=\"_blank\" rel=\"noopener\">landing page experience</a> as how relevant and useful your page will be to the people who click your ad, and advises a page that is clear, useful and related to the keyword and what people are searching for. If the ad says \"emergency furnace repair Etobicoke\" and the click lands on a general home page, many visitors leave.</p><p>Check, on your phone, that the page repeats the service and area from the ad, shows a phone number you can tap, has a short form near the top, and loads quickly. For speed, <a href=\"https://web.dev/articles/vitals\" target=\"_blank\" rel=\"noopener\">web.dev</a> sets the good thresholds for Core Web Vitals: Largest Contentful Paint within 2.5 seconds, Interaction to Next Paint of 200 milliseconds or less, and Cumulative Layout Shift of 0.1 or less. Google's <a href=\"https://developers.google.com/search/docs/appearance/page-experience\" target=\"_blank\" rel=\"noopener\">page experience guidance</a> also asks whether pages display well on mobile and avoid intrusive interstitials such as full-screen pop-ups.</p>",
+   "takeaway": "One service, one area, one clear action per landing page usually beats sending every ad to the home page."
+  },
+  {
+   "heading": "5. Set a target CPA your numbers can support",
+   "body_html": "<p>Target CPA is the bid strategy that aims for as many conversions as possible near a cost per conversion you set. Google's <a href=\"https://support.google.com/google-ads/answer/6268632\" target=\"_blank\" rel=\"noopener\">Target CPA page</a> says conversion tracking must be set up first. When you have history, the recommended target is your average CPA from the last 30 days, adjusted for conversion delays. A target set too low can make the system skip clicks that would have converted, which can reduce total conversions.</p><p>Work out your own ceiling before you pick a number. An illustrative example, not a benchmark: if a job earns you $400 in gross profit and you win one job for every four enquiries, a lead is worth up to $100 to you before you lose money. A $30 target would likely starve the campaign; a $150 target would buy leads you cannot afford.</p>",
+   "takeaway": "Your target CPA should come from your margin and close rate, not from what a competitor says they pay."
+  },
+  {
+   "heading": "6. When to pause and when to wait",
+   "body_html": "<p>Smart Bidding needs time. Google's <a href=\"https://support.google.com/google-ads/answer/13020501\" target=\"_blank\" rel=\"noopener\">learning period article</a> says it can take a few conversion cycles, typically one to two, for a bid strategy to calibrate, where a conversion cycle is the time it takes for a click to result in a conversion. Its <a href=\"https://support.google.com/google-ads/answer/6268633\" target=\"_blank\" rel=\"noopener\">measurement tips</a> suggest judging over at least two full conversion cycles, or over longer periods such as a month or at least 50 conversions, and allowing for conversion delay, so the last few days often look worse than they are.</p><p>My rule of thumb:</p><ul><li><strong>Pause now</strong> if tracking is broken, if the search terms are mostly irrelevant, or if spend has passed what you could afford for two or three conversions with none recorded and no calls coming in.</li><li><strong>Wait</strong> if you changed the bid strategy, budget or target in the last cycle or two, or if leads are arriving by phone but are not tracked yet (fix the tracking while you wait).</li><li><strong>Change one thing at a time</strong>, so you know what worked.</li></ul>",
+   "takeaway": "Do not judge a campaign on a few days of data, and do not let a broken one run for a month either."
+  }
+ ],
+ "bottom_line_html": "<p>Clicks without conversions is usually a measurement problem first and an advertising problem second. Confirm forms and calls are tracked, cut wasted search terms, switch to Presence if you serve the GTA in person, make the landing page match the ad, and set a target CPA your margins support. Then give the account a full conversion cycle or two before you judge it.</p><p>If you would rather have someone else work through this list, our <a href=\"../../digital-marketing/\">digital marketing service</a> sets up tracking and manages Google Ads for GTA businesses. Most local businesses start around $500 to $1,500 a month in ad spend, and we build the plan around your budget on a free call. For background, see <a href=\"../google-ads-budget-toronto/\">how much a Toronto business should spend on Google Ads</a>, <a href=\"../google-ads-management-fees-canada/\">Google Ads management fees in Canada</a> and <a href=\"../google-ads-vs-meta-ads-gta-business/\">whether to run Google or Meta ads first</a>.</p>",
+ "faq": [
+  {
+   "q": "Why are my Google Ads getting clicks but no conversions?",
+   "a": "The most common causes are broken or missing conversion tracking (especially phone calls), irrelevant search terms, location settings that reach people outside your area, a landing page that does not match the ad, and a target CPA set too low. Check them in that order."
+  },
+  {
+   "q": "How long should I wait before pausing Google Ads with no conversions?",
+   "a": "Google says a bid strategy typically needs one to two conversion cycles to calibrate, and suggests judging results over at least two full cycles or a longer period such as a month. If tracking is broken or the search terms are mostly irrelevant, fix or pause right away instead of waiting."
+  },
+  {
+   "q": "Do phone calls count as Google Ads conversions?",
+   "a": "Yes, if you set them up. Google Ads can track calls from ads with call or location assets, calls to a number shown on your website, and clicks on a number on your website. A call counts when it lasts longer than a minimum duration you choose."
+  },
+  {
+   "q": "Should I use presence or interest location targeting in Google Ads?",
+   "a": "Presence or interest is Google's default, and it can reach people who have only shown interest in your area. Local service businesses in the GTA usually do better with Presence, which targets people likely to be in or regularly in the locations you choose."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Ads Help: About conversion tracking",
+   "url": "https://support.google.com/google-ads/answer/1722022"
+  },
+  {
+   "label": "Google Ads Help: Set up phone call conversion tracking",
+   "url": "https://support.google.com/google-ads/answer/6095882"
+  },
+  {
+   "label": "Google Ads Help: About the search terms report",
+   "url": "https://support.google.com/google-ads/answer/2472708"
+  },
+  {
+   "label": "Google Ads Help: About negative keywords",
+   "url": "https://support.google.com/google-ads/answer/2453972"
+  },
+  {
+   "label": "Google Ads Help: Location targeting options",
+   "url": "https://support.google.com/google-ads/answer/1722038"
+  },
+  {
+   "label": "Google Ads Help: Landing page experience definition",
+   "url": "https://support.google.com/google-ads/answer/1659694"
+  },
+  {
+   "label": "Google Ads Help: About Target CPA bidding",
+   "url": "https://support.google.com/google-ads/answer/6268632"
+  },
+  {
+   "label": "Google Ads Help: Duration of the learning period",
+   "url": "https://support.google.com/google-ads/answer/13020501"
+  },
+  {
+   "label": "Google Ads Help: Tips on measuring Smart Bidding performance",
+   "url": "https://support.google.com/google-ads/answer/6268633"
+  },
+  {
+   "label": "web.dev: Web Vitals",
+   "url": "https://web.dev/articles/vitals"
+  },
+  {
+   "label": "Google Search Central: Understanding page experience",
+   "url": "https://developers.google.com/search/docs/appearance/page-experience"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our digital marketing and Google Ads services",
+   "href": "../../digital-marketing/"
+  },
+  {
+   "label": "How much should a Toronto business spend on Google Ads?",
+   "href": "../google-ads-budget-toronto/"
+  },
+  {
+   "label": "Google Ads management fees in Canada",
+   "href": "../google-ads-management-fees-canada/"
+  }
+ ]
+}

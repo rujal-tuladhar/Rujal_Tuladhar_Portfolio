@@ -1,0 +1,131 @@
+{
+ "slug": "will-customers-hate-ai-receptionist",
+ "title": "Will customers hate an AI receptionist? What makes callers stay",
+ "category": "AI Automation",
+ "excerpt": "What makes an AI receptionist useful instead of annoying: say it is AI, transfer fast, keep answers short, book the job, and know which calls it should never take.",
+ "keywords": "ai receptionist customer experience, will customers hate ai receptionist, ai phone answering small business, ai receptionist transfer to human, call recording consent canada, ai receptionist ontario",
+ "cover_title": "Will Callers Hate an AI Receptionist?",
+ "intro_html": "<p>You have probably hung up on a phone robot yourself: the menu that never offers the option you need, the voice that will not let you speak to a person, the third \"Sorry, I didn't catch that.\" So when someone suggests an AI receptionist for your clinic, salon or trades business, the worry is fair. Will it chase customers away?</p><p>It can. It also does not have to. Whether callers stay comes down to a handful of design choices, most of which you make once at setup. This post is about those choices and the caller's experience, not about cost.</p>",
+ "glance": [
+  {
+   "icon": "uil-comment-info",
+   "heading": "Say it is AI",
+   "sub": "Canada's voluntary AI code asks that human-like systems be clearly identified"
+  },
+  {
+   "icon": "uil-exchange",
+   "heading": "Easy exit to a person",
+   "sub": "A transfer rule for \"I want a human\" should be the first one you write"
+  },
+  {
+   "icon": "uil-calendar-alt",
+   "heading": "Finish the job",
+   "sub": "Book, reschedule or take a message, not just answer questions"
+  },
+  {
+   "icon": "uil-language",
+   "heading": "26.3% of Toronto",
+   "sub": "Share who predominantly speak a non-official language at home (2021 Census)"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Recording needs notice",
+   "sub": "The OPC says callers must be told a call is recorded, and why"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Tell callers it is AI in the first sentence",
+   "body_html": "<p>The fastest way to annoy someone is to let them work out halfway through the call that they are talking to software. Open with it instead: \"Hi, you've reached Riverdale Physio. I'm the clinic's AI assistant. I can book or move appointments, or put you through to the front desk.\"</p><p>That one sentence does three jobs. It is honest, it sets expectations, and it tells the caller the way out. It also matches where Canadian policy is heading. Canada's <a href=\"https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems\" target=\"_blank\" rel=\"noopener\">Voluntary Code of Conduct on advanced generative AI systems</a> asks those who manage such systems to ensure that systems that could be mistaken for humans are clearly and prominently identified as AI. The code is voluntary, but it is a sensible standard for a small business to adopt anyway.</p>",
+   "takeaway": "Put \"I'm an AI assistant\" and \"I can put you through to a person\" in the greeting."
+  },
+  {
+   "heading": "Make it easy to reach a real person",
+   "body_html": "<p>Callers forgive a robot that hands them over quickly. They do not forgive one that traps them. Modern voice agents can pass a live call to a staff member's phone. On ElevenLabs, for example, the <a href=\"https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/transfer-to-number\" target=\"_blank\" rel=\"noopener\">transfer to number tool</a> moves the call to a set number when a condition you write in plain language is met, such as the caller explicitly asking to speak to a human. In its default conference mode on the Twilio integration, a short message can be read to your staff member first so they know who is on the line and why.</p><p>Write that rule first, and decide what happens when nobody picks up: a promised call-back within a stated time, with the caller's name and number confirmed back to them. A transfer that rings out and drops the caller is worse than no AI at all.</p>",
+   "takeaway": "\"Speak to a person\" should work on the first request, and a missed transfer should end in a confirmed call-back."
+  },
+  {
+   "heading": "Short answers, one question at a time, and finish the task",
+   "body_html": "<p>Most annoying AI calls fail in the same way: long answers. A caller asking \"Are you open Saturday?\" wants \"Yes, nine to two. Would you like to book?\", not a paragraph about your services. Keep each reply to a sentence or two and ask one question at a time.</p><p>The other failure is an assistant that can talk but cannot do anything. A receptionist is useful when it closes the loop: books the appointment into your real calendar, moves an existing booking, or takes a complete message (name, number, reason, best time) and sends it to you straight away. If the AI can only say \"someone will call you back\", callers will feel they wasted their time.</p><p>Test it yourself before customers do. Call it from your mobile, interrupt it, mumble an address, ask for a person, and listen to the recordings.</p>",
+   "takeaway": "Judge an AI receptionist by how many calls end with a booking or a complete message, not by how clever it sounds."
+  },
+  {
+   "heading": "Calls that should never stay with the AI",
+   "body_html": "<p>Some calls need a person immediately, every time. Set these as transfer rules or hard stops:</p><ul><li><strong>Emergencies.</strong> A burst pipe, a gas smell, a patient in pain, anyone describing a threat to safety. If it might be life-threatening, the assistant should tell the caller to hang up and dial 9-1-1, then alert you.</li><li><strong>Upset or confused callers.</strong> A customer complaining about a bill or a job does not want a polite robot. Transfer, or take a message flagged as urgent.</li><li><strong>Anything needing judgment.</strong> Quotes on unusual jobs, clinical or legal questions, refunds. The AI can collect details; a person should answer.</li></ul><p>Write the list down, put it in the setup, and review a sample of calls each week to see whether anything slipped through.</p>",
+   "takeaway": "Decide in advance which calls go straight to you; never leave emergencies or angry customers with the AI."
+  },
+  {
+   "heading": "Compared with a live answering service",
+   "body_html": "<p>A human answering service has real strengths: empathy, judgment on odd calls, and no one hangs up because they heard a synthetic voice. The question to ask any service is whether its operators can book straight into your calendar or only take messages; if it is messages only, the customer still waits for you.</p><p>An AI receptionist answers every call at once, at 2 a.m. as readily as 2 p.m., and can book directly if it is connected to your scheduling system. It is weaker on unusual calls and emotional ones. Many small businesses get the best of both: the AI handles bookings, hours and directions, and anything outside that goes to a person, whether that is your own staff or an answering service.</p>",
+   "takeaway": "Use AI for the routine, predictable calls and keep a human route for everything else."
+  },
+  {
+   "heading": "Multilingual callers and Canadian privacy rules",
+   "body_html": "<p>The GTA does not call in one language. In the 2021 Census, <a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/220817/mc-a003-eng.htm\" target=\"_blank\" rel=\"noopener\">26.3% of people in the Toronto area</a> predominantly spoke a language other than English or French at home. Among them, <a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/220817/g-a007-eng.htm\" target=\"_blank\" rel=\"noopener\">Mandarin, Cantonese, Punjabi and Urdu</a> were the largest groups. A voice agent that can switch to the caller's language is a real advantage, but only switch for languages you can follow up in, or the booking stalls at the next step.</p><p>On privacy, the federal law <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/\" target=\"_blank\" rel=\"noopener\">PIPEDA</a> generally covers private-sector businesses in Ontario that handle personal information in commercial activity; Ontario has its own law for personal health information. The Office of the Privacy Commissioner's guidance on <a href=\"https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/\" target=\"_blank\" rel=\"noopener\">recording customer telephone calls</a> says you must inform the caller that the call is recorded, state the purpose as clearly and narrowly as possible, and use the recording only for that purpose. If recording is not integral to the service, customers must be offered an alternative. The OPC <a href=\"https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_261008/\" target=\"_blank\" rel=\"noopener\">updated that guidance on October 8, 2026</a> to treat voiceprints as sensitive biometric information. This is general information, not legal advice.</p>",
+   "takeaway": "Add a recording notice with a plain purpose to the greeting, and only offer the languages your team can follow up in."
+  }
+ ],
+ "bottom_line_html": "<p>Customers do not hate AI receptionists. They hate being stuck. An assistant that says what it is, keeps answers short, books the appointment and hands over to a person the moment it should will usually beat a voicemail box that nobody checks until evening. Set the greeting, the transfer rules, the never-AI list and the recording notice carefully, then listen to real calls for the first few weeks and adjust.</p><p>Our <a href=\"../../ai-automation/ai-receptionist/\">AI receptionist service</a> is built around those rules, and we will walk you through a test call on a free consultation. For the wider picture, read <a href=\"../ai-receptionist-small-business/\">AI receptionists for small businesses</a>, <a href=\"../ai-receptionist-cost-2026/\">what an AI receptionist costs in 2026</a> and our <a href=\"../ai-receptionist-for-accountants-guide/\">guide for accounting firms</a>. If you are new to all of this, our <a href=\"../../ai-course/\">free AI course for beginners</a> is a gentle place to start.</p>",
+ "faq": [
+  {
+   "q": "Do I have to tell callers they are talking to an AI?",
+   "a": "There is no specific Ontario rule for phone assistants that we found, but Canada's Voluntary Code of Conduct on generative AI asks that systems that could be mistaken for humans be clearly identified as AI. Saying so in the greeting is honest and stops callers feeling tricked."
+  },
+  {
+   "q": "Can an AI receptionist transfer a call to a real person?",
+   "a": "Yes, if it is set up to. Voice platforms such as ElevenLabs offer a transfer tool that passes the live call to a phone number when a condition you set is met, for example the caller asking for a human. Plan what happens when nobody answers."
+  },
+  {
+   "q": "Is it legal to record customer calls in Canada?",
+   "a": "Generally yes, with notice. The Office of the Privacy Commissioner says organizations must tell callers a call is recorded, state the purpose, use it only for that purpose and offer an alternative if recording is not integral to the service. This is general information, not legal advice."
+  },
+  {
+   "q": "Which calls should an AI receptionist not handle?",
+   "a": "Emergencies, upset or confused callers, and anything needing professional judgment such as unusual quotes, refunds, clinical or legal questions. Set these as immediate transfers or urgent messages, and tell anyone describing a life-threatening situation to call 9-1-1."
+  }
+ ],
+ "sources": [
+  {
+   "label": "ISED Canada: Voluntary Code of Conduct on advanced generative AI systems",
+   "url": "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems"
+  },
+  {
+   "label": "ElevenLabs docs: Transfer to number",
+   "url": "https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/transfer-to-number"
+  },
+  {
+   "label": "Office of the Privacy Commissioner: Recording of customer telephone calls",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner: Updated guidance on voice data when recording customer calls (October 8, 2026)",
+   "url": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_261008/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner: PIPEDA in brief",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+  },
+  {
+   "label": "Statistics Canada: Languages other than English or French spoken at home, large urban centres (2021 Census)",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/220817/mc-a003-eng.htm"
+  },
+  {
+   "label": "Statistics Canada: Main non-official languages spoken at home in large urban centres (2021 Census)",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/220817/g-a007-eng.htm"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI receptionist service",
+   "href": "../../ai-automation/ai-receptionist/"
+  },
+  {
+   "label": "AI receptionists for small businesses",
+   "href": "../ai-receptionist-small-business/"
+  },
+  {
+   "label": "What an AI receptionist costs in 2026",
+   "href": "../ai-receptionist-cost-2026/"
+  }
+ ]
+}

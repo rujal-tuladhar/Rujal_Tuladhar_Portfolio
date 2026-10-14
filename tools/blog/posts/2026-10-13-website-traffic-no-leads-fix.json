@@ -1,0 +1,157 @@
+{
+ "slug": "website-traffic-no-leads-fix",
+ "title": "Website getting traffic but no leads? What to fix first",
+ "category": "Website Design",
+ "excerpt": "Website traffic but zero leads? Check tracking first, then the call to action, form length, reviews, mobile speed and who answers the phone after hours.",
+ "keywords": "website traffic but no leads, website not generating leads, why my website gets no enquiries, website call to action, contact form conversion, click to call website, small business website ontario",
+ "cover_title": "Traffic but No Leads?",
+ "intro_html": "<p>Your analytics show people visiting. Your inbox and phone say nobody is getting in touch. Before you redesign anything, ask a less exciting question: do you actually know how many enquiries the site produces? Many \"zero lead\" websites are really \"zero measured lead\" websites, with calls and form fills arriving but never counted.</p><p>This post is a checklist in the order I would work through it for an Ontario service business: first measurement, then the visitors themselves, then the page, the form, trust, mobile speed and the phone. Each step uses Google's own help pages or other published guidance, so you can check the details yourself.</p>",
+ "glance": [
+  {
+   "icon": "uil-chart-line",
+   "heading": "Measure before you fix",
+   "sub": "Mark form submits and calls as key events in Google Analytics"
+  },
+  {
+   "icon": "uil-search",
+   "heading": "Check who is visiting",
+   "sub": "Search Console shows the queries that bring people in"
+  },
+  {
+   "icon": "uil-file-edit-alt",
+   "heading": "Shorter forms",
+   "sub": "Remove every field you do not need on first contact"
+  },
+  {
+   "icon": "uil-star",
+   "heading": "Real reviews, no incentives",
+   "sub": "Google bans paying for reviews; the Competition Bureau warns on staff reviews"
+  },
+  {
+   "icon": "uil-bolt",
+   "heading": "2.5 seconds",
+   "sub": "Google's good threshold for Largest Contentful Paint"
+  },
+  {
+   "icon": "uil-phone",
+   "heading": "Answer the phone",
+   "sub": "A tap-to-call button only helps if someone picks up"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Step 1: Check whether leads are being tracked at all",
+   "body_html": "<p>In Google Analytics 4, a <a href=\"https://support.google.com/analytics/answer/9267568\" target=\"_blank\" rel=\"noopener\">key event</a> is an event that measures an action particularly important to your business, and any event you collect can be marked as one. For a service business that means two things: form submissions and phone calls.</p><p>For forms, GA4's <a href=\"https://support.google.com/analytics/answer/9216061\" target=\"_blank\" rel=\"noopener\">enhanced measurement</a> can record <em>form_start</em> when someone first interacts with a form and <em>form_submit</em> when they send it, without code changes. Submit a test enquiry yourself and confirm it shows up. If it does not, ask your developer to send a dedicated event from the thank-you step and mark that as the key event.</p><p>For calls, Google Ads offers several routes. Its <a href=\"https://support.google.com/google-ads/answer/6095883\" target=\"_blank\" rel=\"noopener\">call conversion help</a> describes tracking calls to a number on your website through a Google forwarding number, counted only when the call lasts longer than a minimum length you set, and importing calls from another system that knows which ones became sales. A simpler option, <a href=\"https://support.google.com/google-ads/answer/6095878\" target=\"_blank\" rel=\"noopener\">measuring clicks on your phone number on a mobile site</a>, counts taps on a text link, image or button, but Google is clear that it tracks the clicks, not the actual calls.</p>",
+   "takeaway": "Until form submits and calls are counted, you cannot tell a broken website from a working one that nobody is measuring."
+  },
+  {
+   "heading": "Step 2: Find out whether your visitors are buyers or researchers",
+   "body_html": "<p>Traffic is not one thing. A renovation company's article on \"how to remove grout\" can pull in plenty of do-it-yourselfers who will never hire anyone. Open the <a href=\"https://support.google.com/webmasters/answer/7576553\" target=\"_blank\" rel=\"noopener\">Performance report</a> in Search Console: it groups your Google traffic by the search query people typed, with clicks, impressions, click-through rate and average position.</p><p>Sort by clicks and read the top 20 queries honestly. If most are questions, how-to phrases or other companies' brand names, your traffic is mostly research. That is not wasted, but those pages need a softer next step, such as a link to the matching service page, rather than a hard \"book now\". If very few queries contain a service plus a place, such as \"furnace repair Brampton\", your service pages need work before more traffic will help.</p>",
+   "takeaway": "Lots of how-to traffic and little service-plus-city traffic explains many no-lead websites; fix the pages that match buying searches first."
+  },
+  {
+   "heading": "Step 3: Give every page one clear next step",
+   "body_html": "<p>Look at your homepage on a phone and ask: within one screen, can a visitor see what you do, where you do it and what to do next? Many small-business sites bury the phone number in the footer and the contact form on a separate page.</p><p>Pick one main action per page (call, request a quote or book) and repeat it near the top, after the description of the service and at the bottom. Use plain button text that says what happens: \"Call now\", \"Get a quote in 24 hours\" (only if you will actually reply in 24 hours). Put your service area in words on the page, not just in a map, so visitors from Vaughan or Oshawa know you cover them.</p>",
+   "takeaway": "If a visitor has to hunt for how to reach you, many will press back instead; put the action in front of them."
+  },
+  {
+   "heading": "Step 4: Cut the form down",
+   "body_html": "<p>Long quote forms lose people. Nielsen Norman Group's <a href=\"https://www.nngroup.com/articles/web-form-design/\" target=\"_blank\" rel=\"noopener\">form usability guidance</a> recommends removing fields whose information can be derived some other way, collected later or dropped altogether, and limiting the form to one or two optional fields clearly marked as optional. It also advises putting each label close to the field it describes.</p><p>For a first enquiry, name, phone or email, and a short \"what do you need?\" box are usually enough. Budget, address and project photos can come on the follow-up call. If you need detail to quote, ask for it in a second step after the visitor has already sent their contact details.</p>",
+   "takeaway": "Every field you remove makes the form quicker to finish; ask for the rest once you have a name and number."
+  },
+  {
+   "heading": "Step 5: Show reviews and local proof, the honest way",
+   "body_html": "<p>A stranger deciding whether to let you into their home wants evidence. Show your Google rating, a few recent reviews with first names and neighbourhoods, licences or association memberships, and photos of real jobs in the GTA.</p><p>Getting reviews is mostly asking. Google's <a href=\"https://support.google.com/business/answer/3474122\" target=\"_blank\" rel=\"noopener\">review tips</a> say you can send customers a Google link or QR code, that reviewers need to be signed in to a Google Account, and that replies should be conversational, not promotional. The same page says offering incentives such as free or discounted goods or services in exchange for reviews is strictly prohibited. In Canada, the Competition Bureau has <a href=\"https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html\" target=\"_blank\" rel=\"noopener\">warned businesses</a> that employee reviews which do not disclose the business connection are a concern, and that anyone who writes or permits reviews that give a false or misleading impression could be liable. Google's <a href=\"https://support.google.com/business/answer/7091\" target=\"_blank\" rel=\"noopener\">local ranking help</a> also notes that more reviews and positive ratings can help your local ranking.</p>",
+   "takeaway": "Ask every happy customer for a review with a direct link, show the results on your site, and never pay for them or post them yourself."
+  },
+  {
+   "heading": "Step 6: Make the mobile page load fast",
+   "body_html": "<p>Someone searching for a local service may well be on a phone, on mobile data, standing in the problem. Run your homepage and your main service page through <a href=\"https://pagespeed.web.dev/\" target=\"_blank\" rel=\"noopener\">PageSpeed Insights</a>. Google's <a href=\"https://web.dev/articles/vitals\" target=\"_blank\" rel=\"noopener\">Core Web Vitals guidance</a> gives three targets: Largest Contentful Paint within 2.5 seconds, Interaction to Next Paint of 200 milliseconds or less, and Cumulative Layout Shift of 0.1 or less, measured at the 75th percentile of page loads.</p><p>The usual culprits on small-business sites are oversized photos, sliders, chat widgets and several tracking scripts loading at once. Compress images, remove what nobody uses and test again. A layout that jumps while loading is also how visitors end up tapping the wrong button.</p>",
+   "takeaway": "Test the page your ads and searches actually land on, on mobile, and fix the slowest item first."
+  },
+  {
+   "heading": "Step 7: Make calls easy, and make sure someone answers",
+   "body_html": "<p>For GTA trades, clinics and other service businesses, the phone is often the lead. Make your number a tap-to-call link on mobile, in the header and next to every main button, and track the taps as in step 1.</p><p>Then look at what happens when the phone rings at 7 p.m. or on a Saturday. A click-to-call button that leads to a full voicemail box still loses the job. Options range from forwarding to a mobile, to an answering service, to an AI receptionist that answers, takes the details and books or texts you a summary. Whichever you choose, log after-hours calls for a month so you know how many there are before you pay for anything.</p>",
+   "takeaway": "Count your missed and after-hours calls first; that number tells you whether an answering solution is worth its cost."
+  }
+ ],
+ "bottom_line_html": "<p>Work in order: confirm form submits and calls are counted, check whether visitors are buyers or researchers, then fix the call to action, the form, your reviews, mobile speed and phone coverage. Most of these are small changes, and step 1 tells you whether each one worked.</p><p>If you want help, our <a href=\"../../website-design/\">website design</a> packages start at $900 for three pages, and $1,800 gets five pages with analytics and SEO set up, plus applicable tax. For after-hours calls, see our <a href=\"../../ai-automation/ai-receptionist/\">AI receptionist</a> service and our breakdown of <a href=\"../ai-receptionist-cost-2026/\">what AI receptionists cost in 2026</a>. If you are about to pay for traffic, read <a href=\"../google-ads-vs-meta-ads-gta-business/\">Google Ads vs Meta ads for a GTA business</a> first, and consider whether an <a href=\"../ai-website-chat-agents-cost-2026/\">AI chat agent on your website</a> fits your visitors.</p>",
+ "faq": [
+  {
+   "q": "Why does my website get traffic but no leads?",
+   "a": "Common causes are that leads are not being tracked, visitors are researching rather than buying, there is no clear call to action, the contact form is too long, there is little visible proof such as reviews, or the mobile page is slow. Check tracking first so you know whether there really are zero enquiries."
+  },
+  {
+   "q": "How do I track phone calls from my website?",
+   "a": "Make the number a tap-to-call link and measure the taps, which counts clicks but not actual calls. To count real calls, Google Ads can swap in a Google forwarding number and record calls that last longer than a minimum length you set, or import calls from a system that knows which became sales."
+  },
+  {
+   "q": "How many fields should a contact form have?",
+   "a": "As few as you can manage. Nielsen Norman Group advises removing fields that can be derived some other way, collected later or dropped, and keeping optional fields to one or two, clearly labelled. For a first enquiry, name, a phone or email and a short message are often enough."
+  },
+  {
+   "q": "Can I offer a discount for Google reviews?",
+   "a": "No. Google's review policy says offering incentives such as free or discounted goods or services in exchange for reviews is strictly prohibited. You can ask customers for reviews with a link or QR code, and staff should not post reviews without disclosing their connection."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Analytics Help: About key events",
+   "url": "https://support.google.com/analytics/answer/9267568"
+  },
+  {
+   "label": "Google Analytics Help: Enhanced measurement events",
+   "url": "https://support.google.com/analytics/answer/9216061"
+  },
+  {
+   "label": "Google Ads Help: About phone call conversion tracking",
+   "url": "https://support.google.com/google-ads/answer/6095883"
+  },
+  {
+   "label": "Google Ads Help: Measure phone number clicks on a mobile website",
+   "url": "https://support.google.com/google-ads/answer/6095878"
+  },
+  {
+   "label": "Search Console Help: Performance report (Search results)",
+   "url": "https://support.google.com/webmasters/answer/7576553"
+  },
+  {
+   "label": "Nielsen Norman Group: Website forms usability, top 10 recommendations",
+   "url": "https://www.nngroup.com/articles/web-form-design/"
+  },
+  {
+   "label": "web.dev: Web Vitals",
+   "url": "https://web.dev/articles/vitals"
+  },
+  {
+   "label": "PageSpeed Insights",
+   "url": "https://pagespeed.web.dev/"
+  },
+  {
+   "label": "Google Business Profile Help: Tips to get more reviews",
+   "url": "https://support.google.com/business/answer/3474122"
+  },
+  {
+   "label": "Google Business Profile Help: Tips to improve your local ranking",
+   "url": "https://support.google.com/business/answer/7091"
+  },
+  {
+   "label": "Competition Bureau Canada: Online reviews posted by employees, businesses could be liable",
+   "url": "https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design services",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "AI Receptionists in 2026: What They Cost and What Ontario Law Asks",
+   "href": "../ai-receptionist-cost-2026/"
+  },
+  {
+   "label": "Google Ads vs Meta ads: which should a GTA business run first?",
+   "href": "../google-ads-vs-meta-ads-gta-business/"
+  }
+ ]
+}

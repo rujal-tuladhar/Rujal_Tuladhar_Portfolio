@@ -1,0 +1,139 @@
+{
+ "slug": "rank-higher-google-maps-toronto",
+ "title": "How to rank higher on Google Maps in Toronto without paying for ads",
+ "category": "Digital Marketing",
+ "excerpt": "Google ranks Maps results on relevance, distance and prominence. What a Toronto business can actually change, and what gets a profile suspended.",
+ "keywords": "rank higher on google maps, google maps ranking toronto, google business profile tips, local seo toronto, google maps reviews, service area business google",
+ "cover_title": "Rank Higher on Google Maps",
+ "intro_html": "<p>A customer searches \"plumber near me\" or \"nail salon\" and three businesses appear in the map box. Yours is not one of them, even though you have been open for years. The first reaction is often to look for someone to pay. Google is blunt about that: its own help page says there is no way to request or pay for a better local ranking.</p><p>What you can do is give Google better information and give customers more reasons to talk about you. This guide walks through how Google decides who shows up, what a Toronto business can change this week, and the shortcuts that get profiles suspended.</p>",
+ "glance": [
+  {
+   "icon": "uil-map-marker",
+   "heading": "Three ranking factors",
+   "sub": "Google names relevance, distance and prominence"
+  },
+  {
+   "icon": "uil-ban",
+   "heading": "No paid shortcut",
+   "sub": "Google says you cannot pay for a better local ranking"
+  },
+  {
+   "icon": "uil-star",
+   "heading": "Reviews count",
+   "sub": "More reviews and positive ratings can help local ranking"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Review gating is banned",
+   "sub": "Asking only happy customers for reviews breaks Maps policy"
+  },
+  {
+   "icon": "uil-location-point",
+   "heading": "Up to 20 service areas",
+   "sub": "For businesses that visit customers, within about two hours' drive"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "How Google decides who appears on the map",
+   "body_html": "<p>Google's <a href=\"https://support.google.com/business/answer/7091\" target=\"_blank\" rel=\"noopener\">tips to improve your local ranking</a> name three factors:</p><ul><li><strong>Relevance:</strong> how well your Business Profile matches what someone searched for.</li><li><strong>Distance:</strong> how far your business is from the person searching. If the searcher does not share a location, Google uses what it knows about where they are.</li><li><strong>Prominence:</strong> how well known the business is. Google says this is based partly on how many websites link to you and how many reviews you have.</li></ul><p>You control relevance almost completely. You can build prominence over months. Distance you mostly cannot change, and that is the part most owners misunderstand.</p>",
+   "takeaway": "Spend your effort on relevance and prominence; accept that distance is mostly fixed."
+  },
+  {
+   "heading": "Why a Scarborough shop rarely shows up in Etobicoke",
+   "body_html": "<p>Toronto is wide. A searcher in Etobicoke typing \"auto repair\" will usually see shops near them, not a well-reviewed garage in Scarborough on the other side of the city, because distance is one of the three factors. No amount of profile editing moves your storefront closer.</p><p>What you can do depends on how you serve customers. If customers come to you, focus on winning the area around your door, where distance works for you. If you travel to customers, Google lets a <a href=\"https://support.google.com/business/answer/9157481\" target=\"_blank\" rel=\"noopener\">service-area business</a> list up to 20 service areas by city or postal code. Google asks that the overall area stay within about two hours of driving time and that you hide your address if you do not serve customers there. A service area tells Google where you work; it does not guarantee you will rank there.</p><p>Do not try to fix distance by inventing a second location. Google's <a href=\"https://support.google.com/business/answer/3038177\" target=\"_blank\" rel=\"noopener\">guidelines for representing your business</a> say P.O. boxes and remote mailboxes are not acceptable, and a rented mailing address you do not operate from is not eligible for a Business Profile.</p>",
+   "takeaway": "Own the neighbourhood around your real address, and use service areas honestly if you travel to customers."
+  },
+  {
+   "heading": "Get the basics right: categories, details and verification",
+   "body_html": "<p>Relevance starts with your primary category. Google's guidelines say to use as few categories as possible to describe your core business, and to pick ones that complete the sentence \"This business IS a\" rather than \"This business HAS a.\" A dental office is a dentist; it is not a \"teeth whitening\" keyword. Do not use categories as keywords.</p><p>Then fill in everything else. Google says businesses with complete and accurate information are more likely to show up in local results. That means hours (including holiday hours), phone number, website, attributes such as parking or Wi-Fi, and photos. <a href=\"https://support.google.com/business/answer/7107242\" target=\"_blank\" rel=\"noopener\">Verify your profile</a> as well: Google says verification gives you ownership of the profile, and its ranking page says verified businesses are more likely to show up in search results.</p><p>Keep your business name, address and phone number the same everywhere they appear: on your profile, your website, your invoices and any directories. Google's guidelines ask that your name match the real-world name used on your storefront, website and stationery. On your own website you can also add <a href=\"https://developers.google.com/search/docs/appearance/structured-data/local-business\" target=\"_blank\" rel=\"noopener\">LocalBusiness structured data</a>, which tells Google your name, address and hours in a format it reads directly.</p>",
+   "takeaway": "One accurate primary category, a complete verified profile and identical contact details everywhere are the cheapest gains available."
+  },
+  {
+   "heading": "Reviews: steady beats sudden, and always reply",
+   "body_html": "<p>Google says more reviews and positive ratings can help your local ranking, and that replying to reviews shows customers you value their feedback. The practical habit is simple: ask every customer, every week, rather than running a one-off push. A short link on your receipt, invoice email or a card at the counter works.</p><p>Reply to every review, good and bad. Google's <a href=\"https://support.google.com/business/answer/3474050\" target=\"_blank\" rel=\"noopener\">review management page</a> explains that replies appear publicly under the review as coming from the business, and that the reviewer is notified when you reply. A calm, specific reply to a one-star review is read by every future customer who scrolls past it.</p>",
+   "takeaway": "Build asking for reviews into your normal checkout or invoice routine, and answer each one within a few days."
+  },
+  {
+   "heading": "Neighbourhood pages and links that build prominence",
+   "body_html": "<p>Prominence is partly about how many websites link to you. Local links come from real activity: a supplier's dealer list, a BIA or chamber membership page, a community sponsorship, a local news mention. None of these is quick, but each is a genuine signal.</p><p>Neighbourhood pages on your own website can help when they say something true and specific: the jobs you have done in Leslieville, the parking near your Yorkville location, the delivery days for Mississauga. Be careful. Google's <a href=\"https://developers.google.com/search/docs/essentials/spam-policies\" target=\"_blank\" rel=\"noopener\">spam policies</a> list doorway abuse, including pages targeted at specific regions or cities that funnel users to one page, and substantially similar pages. Twenty copies of the same page with the city name swapped is exactly that.</p>",
+   "takeaway": "Write a neighbourhood page only when you have something specific to say about that neighbourhood."
+  },
+  {
+   "heading": "What Google's rules forbid",
+   "body_html": "<p>These are the shortcuts that can cost you the whole profile:</p><ul><li><strong>Keyword-stuffed names.</strong> Google's guidelines show names with added locations, such as a brand plus \"near SOHO\", as unacceptable, and warn that unnecessary information in the name could result in suspension. \"Best Plumber Toronto 24/7\" is not your business name.</li><li><strong>Fake or virtual addresses.</strong> As above, mailboxes and virtual offices are not eligible.</li><li><strong>Review gating.</strong> Google's <a href=\"https://support.google.com/contributionpolicy/answer/7400114\" target=\"_blank\" rel=\"noopener\">Maps content policy</a> says merchants may not discourage negative reviews or selectively solicit positive ones. Sending a survey first and only asking happy customers for a Google review is gating.</li><li><strong>Paid or incentivized reviews.</strong> The same policy bans reviews paid for directly or in kind, and offering discounts or free goods for reviews.</li></ul><p>There is a Canadian legal angle too. The Competition Bureau says <a href=\"https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html\" target=\"_blank\" rel=\"noopener\">employees must disclose their connection</a> to a business they review, and that businesses could be liable under the Competition Act for misleading reviews.</p>",
+   "takeaway": "If a tactic involves pretending, about your name, your address or your reviews, leave it alone."
+  }
+ ],
+ "bottom_line_html": "<p>You cannot buy a better spot on Google Maps, and you cannot move your shop closer to every searcher. You can choose the right category, complete and verify your profile, keep your details identical everywhere, collect reviews steadily and answer them, and earn real local links. Do that for a few months and you give Google every reason to show you to the people nearby.</p><p>If you would rather have someone set this up properly, our <a href=\"../../digital-marketing/\">digital marketing service</a> covers Google Business Profile clean-up alongside ads. When you are ready to add paid reach on top, read <a href=\"../google-ads-budget-toronto/\">how much to budget for Google Ads in Toronto</a> and <a href=\"../google-ads-vs-meta-ads-gta-business/\">Google Ads vs Meta Ads for GTA businesses</a>. And since your website is what Maps visitors click through to, our <a href=\"../website-design/essential-website-guide-toronto/\">essential website guide for Toronto businesses</a> covers what that page needs. There is also our <a href=\"../../ai-course/\">free AI course for beginners</a> if you want help writing review replies faster.</p>",
+ "faq": [
+  {
+   "q": "Can I pay Google to rank higher on Google Maps?",
+   "a": "No. Google's own help page says there is no way to request or pay for a better local ranking."
+  },
+  {
+   "q": "Why does my business show up on Google Maps in one area but not another?",
+   "a": "Distance is one of Google's three local ranking factors, along with relevance and prominence. Searchers usually see businesses close to them, so a shop in Scarborough will rarely appear for someone searching in Etobicoke, however good its profile is."
+  },
+  {
+   "q": "Can I add Toronto or keywords to my Google Business Profile name?",
+   "a": "Only if it is part of your real business name as used on your storefront, website and stationery. Google's guidelines treat added locations and service descriptions in the name as unacceptable and warn that this could lead to suspension."
+  },
+  {
+   "q": "Is it allowed to ask only happy customers for Google reviews?",
+   "a": "No. Google's Maps content policy says merchants may not discourage negative reviews or selectively solicit positive reviews. Ask every customer the same way, and never offer discounts or freebies in exchange for a review."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Business Profile Help: Tips to improve your local ranking on Google",
+   "url": "https://support.google.com/business/answer/7091"
+  },
+  {
+   "label": "Google Business Profile Help: Guidelines for representing your business on Google",
+   "url": "https://support.google.com/business/answer/3038177"
+  },
+  {
+   "label": "Google Business Profile Help: Manage your service areas",
+   "url": "https://support.google.com/business/answer/9157481"
+  },
+  {
+   "label": "Google Business Profile Help: Verify your business on Google",
+   "url": "https://support.google.com/business/answer/7107242"
+  },
+  {
+   "label": "Google Business Profile Help: Manage customer reviews",
+   "url": "https://support.google.com/business/answer/3474050"
+  },
+  {
+   "label": "Maps User Generated Content Policy: Prohibited and restricted content",
+   "url": "https://support.google.com/contributionpolicy/answer/7400114"
+  },
+  {
+   "label": "Google Search Central: Local Business structured data",
+   "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business"
+  },
+  {
+   "label": "Google Search Central: Spam policies for Google web search",
+   "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+  },
+  {
+   "label": "Competition Bureau Canada: Online reviews posted by employees, businesses could be liable",
+   "url": "https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our digital marketing services",
+   "href": "../../digital-marketing/"
+  },
+  {
+   "label": "How much to budget for Google Ads in Toronto",
+   "href": "../google-ads-budget-toronto/"
+  },
+  {
+   "label": "Google Ads vs Meta Ads for GTA businesses",
+   "href": "../google-ads-vs-meta-ads-gta-business/"
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "slug": "amazon-fba-vs-fbm-canada",
+ "title": "Amazon FBA vs FBM in Canada: which should a new seller pick?",
+ "category": "Digital Marketing",
+ "excerpt": "Amazon FBA vs FBM on Amazon.ca, worked out per unit for a light item and a bulky one, with Prime, storage fees and when a hybrid setup makes sense.",
+ "keywords": "amazon fba vs fbm canada, amazon.ca fba fees, fulfilment by amazon canada, fbm amazon canada, amazon fba storage fees canada, amazon buy box fba",
+ "cover_title": "FBA or FBM on Amazon.ca?",
+ "intro_html": "<p>You have a product and you are ready to list it on Amazon.ca. Now you have to choose: send your stock to Amazon and let it ship every order (Fulfilment by Amazon, or FBA), or keep it at home or in your shop and ship it yourself (Fulfilment by Merchant, or FBM). The answer depends mostly on how big and heavy your product is.</p><p>This post works through the per-unit costs for one light item and one bulky item. The fee figures come from Amazon's published Canadian fee page and Canada Post's published business prices, checked on October 13, 2026. All figures are in Canadian dollars, before tax. Fees change, so run your own product through Amazon's numbers before you commit stock.</p>",
+ "glance": [
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "$7.66 vs $43.95",
+   "sub": "FBA fee for a 550 g standard item vs a 5 kg medium-oversize item, with the 3.5% surcharge"
+  },
+  {
+   "icon": "uil-box",
+   "heading": "$40 to $77 per m³",
+   "sub": "Monthly FBA storage for standard-size stock, January-September vs October-December"
+  },
+  {
+   "icon": "uil-truck",
+   "heading": "From $9.90",
+   "sub": "Canada Post Expedited Parcel business price for 0.75 kg, before fuel surcharge"
+  },
+  {
+   "icon": "uil-star",
+   "heading": "Prime badge",
+   "sub": "Amazon calls FBA the easiest way to get it for most offers"
+  },
+  {
+   "icon": "uil-exchange",
+   "heading": "Hybrid is allowed",
+   "sub": "Many sellers run small items on FBA and bulky ones on FBM"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What FBA and FBM actually mean on Amazon.ca",
+   "body_html": "<p>Both methods list on the same product pages and pay the same selling fees. According to <a href=\"https://sell.amazon.ca/pricing\" target=\"_blank\" rel=\"noopener\">Amazon.ca's pricing page</a>, the Individual plan costs $1.49 per item sold and the Professional plan $29.99 a month, plus referral fees. Referral fees are a percentage of the total price, including shipping: 15% for Home and Kitchen and for \"Everything Else\", 8% for Computers and Consumer Electronics, with a $0.40 minimum in most categories.</p><p>The difference is who does the work after the sale. With <a href=\"https://sell.amazon.ca/fulfilment-by-amazon\" target=\"_blank\" rel=\"noopener\">FBA</a>, Amazon stores your stock, picks, packs and ships, and handles customer enquiries, refunds and returns for those orders. You pay a fulfilment fee per unit and a monthly storage fee. With FBM, you store the stock, pack each order, buy the postage and answer the customer. You pay no fulfilment or storage fee to Amazon, but every label, box and return is your cost and your time.</p><p>Amazon's own FBA page says FBA \"might be a more cost-effective choice\" if you sell 40 or more items a month on a Professional plan.</p>",
+   "takeaway": "FBA swaps your time and postage for Amazon's per-unit and storage fees. Which is cheaper depends on your product's size and weight."
+  },
+  {
+   "heading": "Per-unit maths: a light item",
+   "body_html": "<p>Take a $25 kitchen gadget that ships at 550 g in a small box, about 30 x 20 x 10 cm. Referral fee at 15%: $3.75.</p><p><strong>FBA.</strong> Amazon.ca lists $7.40 for a standard-size unit between 500 and 600 g. Since April 17, 2026, Amazon has added a 3.5% fuel and logistics surcharge to FBA fulfilment fees in the US and Canada, <a href=\"https://www.digitalcommerce360.com/2026/04/03/amazon-to-add-fuel-and-logistics-surcharges/amp/\" target=\"_blank\" rel=\"noopener\">according to Digital Commerce 360</a>, which quotes an Amazon representative saying it will stay in place until further notice. That makes the fee about $7.66. Storage for a box that size (0.006 cubic metres) at $40 per cubic metre is about $0.24 a month from January to September and about $0.46 a month from October to December. Total: about $11.65 a unit if it sells within a month.</p><p><strong>FBM.</strong> In Canada Post's <a href=\"https://www.canadapost-postescanada.ca/cpc/doc/en/support/prices/business-prices.pdf\" target=\"_blank\" rel=\"noopener\">Solutions for Small Business price guide</a> (updated September 7, 2026), Expedited Parcel for a parcel up to 0.75 kg starts at $9.90 and runs to $21.49, depending on the rate code for the origin and destination. Canada Post adds that a fuel surcharge may apply. Add the $3.75 referral fee, a box and your packing time, and you are at roughly $14 to $25 a unit plus the box, before you count your time.</p><p>For small, light items, FBA is usually as cheap as shipping it yourself or cheaper, and the order arrives with Prime.</p>",
+   "takeaway": "For a light, fast-moving product, FBA is the default choice: the fee is close to or below what you would pay Canada Post, and Amazon handles the returns."
+  },
+  {
+   "heading": "Per-unit maths: a bulky item",
+   "body_html": "<p>Now take a $60 item that weighs 5 kg in a 60 x 40 x 30 cm box. Referral fee at 15%: $9.00.</p><p><strong>FBA.</strong> The fee depends on Amazon's size tier, and the tier rules make a big difference. If Amazon classes the box as standard size, Amazon.ca lists $10.32 for 1,500 g plus $0.09 per extra 100 g, so about $13.47 at 5 kg. If it is classed as medium oversize, the fee is $37.78 for the first 500 g plus $0.52 for each extra 500 g, so $42.46, or about $43.95 with the 3.5% surcharge. Shipping weight is the greater of actual and dimensional weight. Oversize storage is $28 per cubic metre from January to September and $49 from October to December, so this 0.072 cubic metre box costs about $2.02 to $3.53 a month. If the item is classed as oversize, Amazon takes about $55 of a $60 sale before you have paid for the product.</p><p><strong>FBM.</strong> Canada Post's Expedited Parcel price for 5 kg starts at $12.22, is under $25 for most of the guide's rate codes and passes $40 only for the most remote ones. A box this size may also be priced on its volumetric equivalent rather than its actual weight. Even so, shipping it yourself usually costs about half of the oversize FBA fee or less.</p><p>Amazon's exact size-tier dimensions are in Seller Central help, which needs a seller login. Check the tier before you order inventory, using Amazon's free Revenue Calculator or the fee preview in your account.</p>",
+   "takeaway": "For bulky or heavy goods, FBM often keeps the margin that oversize FBA fees would take. Confirm the size tier before you buy stock."
+  },
+  {
+   "heading": "Prime badge and the Featured Offer (Buy Box)",
+   "body_html": "<p>The strongest argument for FBA is not cost. Amazon's <a href=\"https://sell.amazon.ca/fulfilment-by-amazon\" target=\"_blank\" rel=\"noopener\">FBA page</a> says using FBA \"is the easiest way to get the Prime badge for most offers\", and it lets you offer customers free two-day shipping through Prime. An FBM offer that takes a week to arrive competes on a different footing.</p><p>The Featured Offer, still widely called the Buy Box, is the offer with the Add to Cart and Buy Now buttons when several sellers list the same product. Amazon's <a href=\"https://sell.amazon.com/blog/buy-box-featured-offer\" target=\"_blank\" rel=\"noopener\">April 2026 seller guide</a> says it favours competitive prices, fast and free shipping, reliable delivery dates and an offer that is in stock. It also says fulfilling orders yourself \"can be just as effective\" as using Amazon's network. In other words, FBM can win, but only if you ship quickly and keep your delivery promises.</p>",
+   "takeaway": "If you resell a product other sellers also list, FBA's Prime badge and delivery speed make it easier to win the sale. If you sell your own brand, it matters less."
+  },
+  {
+   "heading": "Storage and aged inventory: the fees that show up later",
+   "body_html": "<p>New sellers often budget for the fulfilment fee and forget storage. Amazon.ca charges storage monthly on the daily average volume your stock takes up, and the October-to-December rate is close to double the rest of the year: $77 rather than $40 per cubic metre for standard-size stock.</p><p>Stock that sits in Amazon's warehouses for too long costs more. The FBA page says an aged inventory fee is charged monthly on items stored for more than 181 days, and the pricing page also lists a high storage utilization fee. Neither public page gives the rates. The Seller Central help pages it links to need a login, so check those rates in your account before you send stock in. Removal orders, when you ask Amazon to send stock back, are charged per item.</p><ul><li>Send in 30 to 60 days of stock at first, not a year's worth.</li><li>Check your inventory age report every month and remove or discount anything near 180 days.</li></ul>",
+   "takeaway": "FBA rewards products that sell quickly. If a product sells only a few units a month, storage and aged inventory fees can wipe out the margin."
+  },
+  {
+   "heading": "The hybrid approach most sellers end up with",
+   "body_html": "<p>You do not have to pick one method for your whole catalogue. A common setup is FBA for small, fast-selling items, where Prime and convenience pay for themselves, and FBM for bulky, slow or high-value items.</p><p>A practical way to start: list your first products as FBM from home for a few weeks. Once you know the real sales rate, move the winners to FBA.</p>",
+   "takeaway": "Start on FBM to test demand, move proven light sellers to FBA, and keep heavy or slow items on FBM."
+  }
+ ],
+ "bottom_line_html": "<p>For a light product that sells at least weekly, choose FBA: the fee is close to what you would pay Canada Post, you get the Prime badge, and Amazon handles returns. For a bulky, heavy or slow product, choose FBM, or at least price it out carefully, because oversize fulfilment and storage fees can take most of the sale.</p><p>If you want help choosing a fulfilment setup, pricing your first listings or getting your Seller Central account approved, see our <a href=\"../../amazon-seller/\">Amazon seller services</a>. Before you start, read <a href=\"../amazon-ca-seller-startup-costs-2026/\">what it costs to start selling on Amazon.ca in 2026</a>, and if you plan to sell on your own site too, see <a href=\"../shopify-store-first-year-cost-canada/\">the first-year cost of a Shopify store in Canada</a>. New to AI tools for listings? Try our <a href=\"../../ai-course/\">free AI course for beginners</a>.</p>",
+ "faq": [
+  {
+   "q": "Is FBA or FBM better for beginners on Amazon.ca?",
+   "a": "For small, light products, FBA is usually easier and often costs about the same per unit as shipping it yourself, and it gives you the Prime badge. For bulky or slow-selling products, FBM avoids oversize and storage fees. Many beginners test demand with FBM, then move proven sellers to FBA."
+  },
+  {
+   "q": "How much does Amazon FBA cost per item in Canada?",
+   "a": "Amazon.ca's published fulfilment fees start at $4.46 for an envelope-size item up to 100 g and $5.92 for a standard-size item up to 100 g, rising to $7.40 at 500 to 600 g. Oversize starts at $15.43. A 3.5% fuel and logistics surcharge has applied since April 17, 2026. Referral fees and monthly storage are extra."
+  },
+  {
+   "q": "Can FBM sellers win the Buy Box on Amazon?",
+   "a": "Yes. Amazon's seller guide says fulfilling orders yourself can be just as effective as using Amazon's network for becoming the Featured Offer, provided your price is competitive, shipping is fast and free or low-cost, delivery dates are reliable and the item is in stock."
+  },
+  {
+   "q": "Can I use FBA and FBM at the same time?",
+   "a": "Yes. You can choose the fulfilment method for each product, so many sellers use FBA for light, fast sellers and FBM for bulky or slow items."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Amazon.ca: Selling fees and FBA fees (pricing)",
+   "url": "https://sell.amazon.ca/pricing"
+  },
+  {
+   "label": "Amazon.ca: Fulfilment by Amazon",
+   "url": "https://sell.amazon.ca/fulfilment-by-amazon"
+  },
+  {
+   "label": "Amazon: Maximize your sales with the Featured Offer (formerly the Buy Box)",
+   "url": "https://sell.amazon.com/blog/buy-box-featured-offer"
+  },
+  {
+   "label": "Canada Post: Business prices, Solutions for Small Business (PDF)",
+   "url": "https://www.canadapost-postescanada.ca/cpc/doc/en/support/prices/business-prices.pdf"
+  },
+  {
+   "label": "Digital Commerce 360: Amazon to add fuel and logistics surcharges",
+   "url": "https://www.digitalcommerce360.com/2026/04/03/amazon-to-add-fuel-and-logistics-surcharges/amp/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our Amazon seller services",
+   "href": "../../amazon-seller/"
+  },
+  {
+   "label": "What it costs to start selling on Amazon.ca in 2026",
+   "href": "../amazon-ca-seller-startup-costs-2026/"
+  },
+  {
+   "label": "Shopify store first-year cost in Canada",
+   "href": "../shopify-store-first-year-cost-canada/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  }
+ ]
+}

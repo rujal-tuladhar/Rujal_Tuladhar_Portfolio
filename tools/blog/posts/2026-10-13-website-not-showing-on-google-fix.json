@@ -1,0 +1,160 @@
+{
+ "slug": "website-not-showing-on-google-fix",
+ "title": "Website not showing up on Google? 7 checks for Ontario businesses",
+ "category": "Website Design",
+ "excerpt": "Website not showing on Google? Seven checks for Ontario businesses: site: search, noindex, robots.txt, sitemaps, Search Console and your Business Profile.",
+ "keywords": "website not showing up on google, why is my website not on google, google search console indexing, noindex tag, robots.txt blocking google, google business profile website, ontario small business seo",
+ "cover_title": "Why Google Can't Find Your Site",
+ "intro_html": "<p>You type your business name into Google and your website is nowhere. Or it shows up, but only on page four. Those are two different problems with two different fixes, and many owners lose weeks treating one as the other.</p><p>The first problem is <strong>indexing</strong>: Google has not added your pages to its index, so they cannot appear for anything. The second is <strong>ranking</strong>: your pages are in the index, but other pages win the search. This guide walks through seven checks, in the order I run them for Ontario clients, using Google's own documentation. The first four take about 15 minutes and need nothing more than a browser and your website address.</p>",
+ "glance": [
+  {
+   "icon": "uil-search",
+   "heading": "Start with site:yourdomain.ca",
+   "sub": "Google's own quick check for whether pages are indexed"
+  },
+  {
+   "icon": "uil-ban",
+   "heading": "One stray noindex tag",
+   "sub": "Is enough for Google to drop a page from results"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "A few weeks for a new site",
+   "sub": "Google says it can take that long to notice a new site"
+  },
+  {
+   "icon": "uil-chart-line",
+   "heading": "Search Console names the reason",
+   "sub": "The Page indexing report says why each page is left out"
+  },
+  {
+   "icon": "uil-map-marker",
+   "heading": "Business Profile for your name",
+   "sub": "Link your site so it shows when people search your business"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Check 1: Is Google indexing your site at all?",
+   "body_html": "<p>Open Google and search <strong>site:yourdomain.ca</strong> (your own domain, no spaces). Google's <a href=\"https://developers.google.com/search/docs/fundamentals/get-on-google\" target=\"_blank\" rel=\"noopener\">getting started guide</a> gives this query as the way to see whether your pages are already indexed. If you see a list of your pages, you are indexed and your problem is ranking: skip to check 6. If you see nothing, keep going.</p><p>Two cautions. Google notes that the site: operator does not necessarily return every indexed URL, so a short list is not proof of a problem on its own. And the same page says it can take a few weeks for Google to notice a new site or changes to an existing one. If you launched last week on a brand-new domain with no links pointing to it, an empty result may simply mean Google has not found you yet.</p>",
+   "takeaway": "Thirty seconds with a site: search tells you whether you have an indexing problem or a ranking problem, so you fix the right thing."
+  },
+  {
+   "heading": "Check 2: Look for a noindex tag left on from the build",
+   "body_html": "<p>A common reason a finished site stays invisible is a setting left on from development. A <strong>noindex</strong> rule tells search engines not to index a page, and Google's <a href=\"https://developers.google.com/search/docs/crawling-indexing/block-indexing\" target=\"_blank\" rel=\"noopener\">documentation on blocking indexing</a> says that when Googlebot sees it, Google drops the page from results entirely, even if other sites link to it.</p><p>To check, open your homepage, right-click, choose View Page Source and search the page for <strong>noindex</strong>. If you find <em>&lt;meta name=\"robots\" content=\"noindex\"&gt;</em> in the head of the page, that is your culprit. The rule can also be sent as an X-Robots-Tag HTTP header, which you will not see in the source; check 5 catches that case.</p>",
+   "takeaway": "If your developer built the site on a hidden staging copy, ask them to confirm in writing that noindex was removed at launch."
+  },
+  {
+   "heading": "Check 3: Make sure robots.txt is not blocking Google",
+   "body_html": "<p>Visit <strong>yourdomain.ca/robots.txt</strong>. This small file tells crawlers which URLs they may access. A line reading <em>Disallow: /</em> under <em>User-agent: *</em> blocks every crawler from the whole site.</p><p>Google's <a href=\"https://developers.google.com/search/docs/crawling-indexing/robots/intro\" target=\"_blank\" rel=\"noopener\">robots.txt introduction</a> says the file is mainly for managing crawler traffic and is not a way to keep a page out of Google: a blocked URL can still appear in results, just without a description. That is the tell-tale symptom. If your listing shows up with no snippet text, robots.txt is probably blocking the page. The noindex documentation adds a second trap: if robots.txt blocks a page, Google never sees a noindex rule on it, so the two settings do not combine the way people expect.</p>",
+   "takeaway": "A listing with no description under it usually means robots.txt is blocking Google; fix the file, not the page."
+  },
+  {
+   "heading": "Check 4: Give Google a sitemap and a way in",
+   "body_html": "<p>A sitemap is a file listing the pages you want found. Google's <a href=\"https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview\" target=\"_blank\" rel=\"noopener\">sitemap overview</a> says you might not need one if your site is small (about 500 pages or fewer) and every page is linked from the others. It also says a sitemap helps when your site is new and has few external links, which describes most new small-business sites. A sitemap does not guarantee every page will be crawled and indexed, but Google says most sites benefit from having one.</p><p>Many website platforms create a sitemap automatically, often at <strong>yourdomain.ca/sitemap.xml</strong>. Check that the address loads, then submit it in Search Console (next check). New domains also gain from a few genuine links pointing in: your Google Business Profile, your industry association listing, a supplier's dealer page.</p>",
+   "takeaway": "A new domain with no links and no sitemap gives Google very little to find; fix both on launch day."
+  },
+  {
+   "heading": "Check 5: Use Search Console to get Google's own answer",
+   "body_html": "<p><a href=\"https://search.google.com/search-console/about\" target=\"_blank\" rel=\"noopener\">Google Search Console</a> lets you submit sitemaps and individual URLs for crawling, see which queries bring people to your site and get email alerts when Google finds issues. <a href=\"https://support.google.com/webmasters/answer/34592\" target=\"_blank\" rel=\"noopener\">Add your site as a property</a>: a Domain property covers every subdomain and both http and https, but needs a DNS record at your domain registrar to verify; a URL-prefix property covers only addresses that start with the exact prefix you enter.</p><p>Once verified, open the <a href=\"https://support.google.com/webmasters/answer/7440203\" target=\"_blank\" rel=\"noopener\">Page indexing report</a>. It lists pages that are not indexed and why, with labels such as <em>URL marked 'noindex'</em>, <em>URL blocked by robots.txt</em>, <em>Crawled - currently not indexed</em> and <em>Discovered - currently not indexed</em>. That label tells you which of the checks above applies.</p><p>Then paste your homepage address into the <a href=\"https://support.google.com/webmasters/answer/9012289\" target=\"_blank\" rel=\"noopener\">URL Inspection tool</a>. It shows whether the page is indexed, when Google last crawled it and whether crawling and indexing were allowed, and it can test the live version. After a fix, click <strong>Request indexing</strong>. Google's help says a request does not guarantee the page will be indexed, that there is a daily limit on requests, and that for many new or updated pages a sitemap is the better route.</p>",
+   "takeaway": "Search Console replaces guessing with Google's stated reason; set it up even if your site is already indexed."
+  },
+  {
+   "heading": "Check 6: Indexed but buried? Work on ranking, not indexing",
+   "body_html": "<p>If site: shows your pages but you never appear for the searches that matter, the problem is ranking, and requesting indexing again will not help. Google's <a href=\"https://developers.google.com/search/docs/fundamentals/seo-starter-guide\" target=\"_blank\" rel=\"noopener\">SEO starter guide</a> points to the basics: think about the words a customer would actually type, and give each page a title that is unique, clear, concise and accurate. A plumber whose homepage title is just \"Home\" gives Google little to work with; \"Emergency plumber in Mississauga\" plus the business name gives it the service and the place.</p><p>Search Console's <a href=\"https://support.google.com/webmasters/answer/7576553\" target=\"_blank\" rel=\"noopener\">Performance report</a> shows the queries your site already appears for, with clicks, impressions and average position. Be patient after changes: the starter guide says some take effect in a few hours and others could take several months, and suggests waiting a few weeks before judging.</p>",
+   "takeaway": "Write each important page around one service and one area, in the words your customers use, then give it time."
+  },
+  {
+   "heading": "Check 7: Link your Google Business Profile so your name search works",
+   "body_html": "<p>When people search your business name, Google can show your Business Profile alongside your website, and many people tap the profile first. <a href=\"https://support.google.com/business/answer/7107242\" target=\"_blank\" rel=\"noopener\">Verify the profile</a> first: Google chooses the method (video, phone or text, email, live video call or postcard), reviews usually take up to 5 business days, and some profiles verify instantly through Search Console website verification. Then <a href=\"https://support.google.com/business/answer/3039617\" target=\"_blank\" rel=\"noopener\">edit the profile</a> and enter your full website address, including https://. Google's help adds that you should make sure Googlebot is not blocked on your site, and that edits are reviewed before they appear.</p><p>For local searches, Google's <a href=\"https://support.google.com/business/answer/7091\" target=\"_blank\" rel=\"noopener\">local ranking help</a> says results are based on relevance, distance and prominence, and that complete, accurate information, verification and more reviews can help. Links from other websites count towards prominence too.</p>",
+   "takeaway": "A verified profile with your website linked is often the quickest way to appear when someone searches your business name."
+  }
+ ],
+ "bottom_line_html": "<p>Run the checks in order. If site: shows nothing, look for noindex, robots.txt blocks and a missing sitemap, then let Search Console tell you the exact reason. If site: shows your pages, stop chasing indexing and work on titles, content and your Business Profile. Most of the fixes take minutes; the waiting is the slow part.</p><p>If you would rather have someone check it for you, our <a href=\"../../website-design/\">website design</a> packages start at $900 for three pages, and $1,800 gets five pages with analytics and SEO, plus applicable tax. For budgets, see <a href=\"../website-budget-tiers-ontario-2026/\">what a $1,000, $2,000 and $5,000 website gets you in Ontario</a>; if you want paid traffic while SEO builds, read <a href=\"../google-ads-budget-toronto/\">how much a Toronto business should spend on Google Ads</a>; and if you built the site yourself, <a href=\"../ai-website-builders-cost-2026/\">where AI website builders break</a> is worth a look.</p>",
+ "faq": [
+  {
+   "q": "Why is my website not showing up on Google?",
+   "a": "Either Google has not indexed it, or it is indexed but ranks poorly. Search site:yourdomain.ca to tell which. If nothing appears, check for a noindex tag, a robots.txt file blocking crawlers and a missing sitemap, then use the Page indexing report in Search Console to see Google's stated reason. A brand-new site can also take a few weeks to be noticed."
+  },
+  {
+   "q": "How long does it take for a new website to show up on Google?",
+   "a": "Google says it can take a few weeks to notice a new site or changes to an existing one. Submitting a sitemap and requesting indexing in Search Console help Google find pages, but Google says neither guarantees indexing."
+  },
+  {
+   "q": "How do I get my website to show when people search my business name?",
+   "a": "Verify your Google Business Profile and add your full website address, including https://, to the profile. Google reviews edits before they go live. Make sure Googlebot is not blocked on your site, and give your homepage a clear title that includes your business name."
+  },
+  {
+   "q": "Does requesting indexing in Search Console get my page on Google?",
+   "a": "Not on its own. The URL Inspection tool can queue a page for crawling, but Google says a request does not guarantee indexing and there is a daily limit. Fix any noindex or robots.txt problem first, and submit a sitemap if you have many pages."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Search Central: Get your website on Google",
+   "url": "https://developers.google.com/search/docs/fundamentals/get-on-google"
+  },
+  {
+   "label": "Google Search Central: Block Search indexing with noindex",
+   "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing"
+  },
+  {
+   "label": "Google Search Central: Introduction to robots.txt",
+   "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro"
+  },
+  {
+   "label": "Google Search Central: Learn about sitemaps",
+   "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
+  },
+  {
+   "label": "Google Search Central: SEO starter guide",
+   "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+  },
+  {
+   "label": "Google Search Console: About Search Console",
+   "url": "https://search.google.com/search-console/about"
+  },
+  {
+   "label": "Search Console Help: Add a website property",
+   "url": "https://support.google.com/webmasters/answer/34592"
+  },
+  {
+   "label": "Search Console Help: Page indexing report",
+   "url": "https://support.google.com/webmasters/answer/7440203"
+  },
+  {
+   "label": "Search Console Help: URL Inspection tool",
+   "url": "https://support.google.com/webmasters/answer/9012289"
+  },
+  {
+   "label": "Search Console Help: Performance report (Search results)",
+   "url": "https://support.google.com/webmasters/answer/7576553"
+  },
+  {
+   "label": "Google Business Profile Help: Verify your business",
+   "url": "https://support.google.com/business/answer/7107242"
+  },
+  {
+   "label": "Google Business Profile Help: Edit your Business Profile",
+   "url": "https://support.google.com/business/answer/3039617"
+  },
+  {
+   "label": "Google Business Profile Help: Tips to improve your local ranking",
+   "url": "https://support.google.com/business/answer/7091"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design services",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "What a $1,000, $2,000 and $5,000 website gets you in Ontario",
+   "href": "../website-budget-tiers-ontario-2026/"
+  },
+  {
+   "label": "How Much Should a Toronto Small Business Spend on Google Ads in 2026?",
+   "href": "../google-ads-budget-toronto/"
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "slug": "who-owns-my-website-domain-designer",
+ "title": "Who owns my website? Getting your domain back from a designer",
+ "category": "Website Design",
+ "excerpt": "Your designer will not hand over your website or domain? How to check who owns it, which three logins you need, and the steps to get it back in Ontario.",
+ "keywords": "who owns my website, get domain back from web designer, web developer won't give access, domain registered in designer's name, transfer domain from developer, .ca domain dispute, website handover checklist",
+ "cover_title": "Who Owns Your Website?",
+ "intro_html": "<p>You paid someone to build your website, the relationship went sour, and now they will not give you the logins. Or they have gone quiet and the domain renewal notice is going to their inbox, not yours. This is one of the most common questions small-business owners ask about websites, and the answer starts with a fact many people never check: who is actually listed as the owner of the domain.</p><p>This guide walks through how to find out, the three separate logins that make up \"your website\", how to ask for them in writing, and what to do if the designer still refuses. It is general information for Ontario businesses, not legal advice.</p>",
+ "glance": [
+  {
+   "icon": "uil-search",
+   "heading": "Check the registrant first",
+   "sub": "A domain lookup shows the registrar, and the registrar knows the legal holder"
+  },
+  {
+   "icon": "uil-key-skeleton",
+   "heading": "Three logins, not one",
+   "sub": "Domain registrar, hosting account and the site's admin panel"
+  },
+  {
+   "icon": "uil-clock",
+   "heading": "5 calendar days",
+   "sub": "ICANN's limit for a registrar to give the holder a transfer code"
+  },
+  {
+   "icon": "uil-balance-scale",
+   "heading": "Up to $50,000",
+   "sub": "Ontario Small Claims Court limit if you are owed money for undelivered work"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Get it in writing",
+   "sub": "Copyright starts with the author; an assignment must be written and signed"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Step 1: find out whose name the domain is in",
+   "body_html": "<p>The domain (yourbusiness.ca or yourbusiness.com) is the piece that matters most. Whoever is the registrant, also called the registered name holder, controls where it points and whether it renews. If your designer registered it under their own name or company, they hold it on paper, even if you paid for it.</p><p>For a .com, run your domain through <a href=\"https://lookup.icann.org/en\" target=\"_blank\" rel=\"noopener\">ICANN Lookup</a>. ICANN's <a href=\"https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en\" target=\"_blank\" rel=\"noopener\">domain name holder FAQ</a> says the \"Registrar\" field shows who your registrar is. ICANN describes <a href=\"https://www.icann.org/rdap\" target=\"_blank\" rel=\"noopener\">RDAP</a> as the replacement for the old WHOIS protocol, and says registries and registrars have not been required to offer WHOIS since 28 January 2025, with a few exceptions. For a .ca, the Canadian Internet Registration Authority (CIRA) runs the registry and its own lookup at cira.ca.</p><p>Many lookups hide the owner's personal details for privacy, so you may only see the registrar's name. That is still useful: the registrar is the company you deal with next, and it can tell you what it needs to confirm you are the holder.</p>",
+   "takeaway": "Before you argue with anyone, look up the domain and write down the registrar's name and the expiry date."
+  },
+  {
+   "heading": "Step 2: list the three logins that make up your website",
+   "body_html": "<p>\"Access to my website\" usually means three different accounts, often with three different companies:</p><ul><li><strong>Registrar account:</strong> where the domain is registered and renewed (for example a Canadian registrar for a .ca). Whoever controls this can move the domain anywhere.</li><li><strong>Hosting account:</strong> the server where the site's files and database live. Without it you cannot take a backup or move the site.</li><li><strong>Site admin:</strong> the WordPress, Shopify, Wix or Squarespace login where you edit pages. Ask for an owner or administrator role, not an editor role.</li></ul><p>Two more are easy to forget: your business email if it runs on the same domain, and <a href=\"https://support.google.com/webmasters/answer/7687615\" target=\"_blank\" rel=\"noopener\">Google Search Console</a>. Google says a verified owner has full control of a Search Console property, only owners can add or remove users, and if all verified owners are removed the remaining users lose access after a grace period. Make sure you are a verified owner, not just a user.</p>",
+   "takeaway": "Write the three logins down as separate items; getting the admin password alone does not give you the domain."
+  },
+  {
+   "heading": "Step 3: ask in writing, once, with a deadline",
+   "body_html": "<p>Most handover problems end with a clear email. Keep it short and factual: list what you paid for, the domain name, and exactly what you want: the registrar account (or the domain moved into an account in your name), hosting access or a full backup, an administrator login, and the transfer code for the domain.</p><p>The transfer code, also called the Auth-Code or AuthInfo code, is what a new registrar needs to move the domain. For generic domains such as .com, ICANN says the registrar <a href=\"https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en\" target=\"_blank\" rel=\"noopener\">must provide the AuthInfo code within five calendar days</a> of the holder's request, and that a change of registrant is started by contacting the current registrar, which then asks the holder to confirm. Note the catch: those rights belong to the registrant. If the designer is listed as the holder, the registrar will deal with them, not you.</p><p>Also ask about the content and code. Under section 13 of Canada's <a href=\"https://laws-lois.justice.gc.ca/eng/acts/c-42/section-13.html\" target=\"_blank\" rel=\"noopener\">Copyright Act</a>, the author of a work is the first owner of its copyright, and an assignment is not valid unless it is in writing and signed by the owner. If your contract says nothing about ownership, that is a gap worth raising with a lawyer.</p>",
+   "takeaway": "Send one dated email listing every login and the transfer code, and give a reasonable deadline such as 10 business days."
+  },
+  {
+   "heading": "Step 4: if they refuse, use your payment and the courts",
+   "body_html": "<p>If you paid by credit card and the work was never delivered, call your card issuer. National Bank's <a href=\"https://www.nbc.ca/personal/advice/credit/dispute-credit-card-transaction.html\" target=\"_blank\" rel=\"noopener\">guide to disputing a credit card transaction</a> says to first discuss the problem with the seller, keep as much proof as possible, and that statement errors must be reported within 60 days. Card issuers set their own rules and time limits, so act quickly and ask yours what applies.</p><p>If you are owed money, Ontario's <a href=\"https://www.ontariocourts.ca/scj/small-claims-court/\" target=\"_blank\" rel=\"noopener\">Small Claims Court</a> handles civil claims valued up to $50,000, Your written request from Step 3 becomes your evidence.</p>",
+   "takeaway": "Keep every invoice, email and receipt: they are what a card issuer or a court will ask for."
+  },
+  {
+   "heading": "Step 5: the CIRA dispute process, and why it rarely fits",
+   "body_html": "<p>For .ca names, CIRA's <a href=\"https://www.cira.ca/uploads/2023/05/cdrppolicy_-_en.pdf\" target=\"_blank\" rel=\"noopener\">Domain Name Dispute Resolution Policy</a> (CDRP) is a forum for bad-faith registrations that is meant to be relatively inexpensive and quick. To win, you must prove on a balance of probabilities that the domain is confusingly similar to a mark you had rights in before it was registered, that the registrant has no legitimate interest, and that it was registered in bad faith. If you win, the panel decides whether the domain is deleted or transferred to you.</p><p>Bad faith in the policy includes registering a name to sell it to the mark holder for more than the registration cost, or to disrupt a competitor's business. A designer who simply registered the name for your project may not fit neatly. It also costs money: CIIDRC, a dispute provider, lists a <a href=\"https://ciidrc.org/cdrp-process-graphic/guide-to-filing-a-cdrp-complaint/\" target=\"_blank\" rel=\"noopener\">commencement fee of $1,000</a> plus tax, with panel fees on top. Treat it as a last resort, and talk to a lawyer first.</p>",
+   "takeaway": "A CDRP complaint is for bad-faith registrations of your business name, not a quick fix for an unpaid-invoice standoff."
+  },
+  {
+   "heading": "A six-item handover checklist before you pay a designer",
+   "body_html": "<p>Prevention is far cheaper than any of the steps above. Before the final payment, confirm each of these:</p><ol><li>The domain is registered in your business's name, in a registrar account you log in to, with your email on it.</li><li>The hosting account is in your name, or you have a full backup of files and database.</li><li>You have an owner or administrator login to the site's admin panel.</li><li>You are a verified owner in Google Search Console and an admin on Google Analytics and your Google Business Profile.</li><li>The contract assigns copyright in the design, code and content to you in writing, signed.</li><li>You have a one-page list of every account, renewal date and who pays for it.</li></ol>",
+   "takeaway": "Hold back the final payment until all six items are ticked; it is the one point where you have leverage."
+  }
+ ],
+ "bottom_line_html": "<p>Whoever is listed as registrant controls the domain, so check that first, then get the registrar, hosting and admin logins in your own name. A polite written request solves most cases. Card disputes and Small Claims Court are there if you paid for work you never received, and the CIRA dispute process is for real bad-faith registrations.</p><p>If you are starting over, read our breakdown of <a href=\"../freelancer-vs-agency-vs-diy-website-cost/\">freelancer, agency or DIY website costs</a> and <a href=\"../website-budget-tiers-ontario-2026/\">what a $1,000, $2,000 and $5,000 website gets you in Ontario</a>. At Nova Toronto, our <a href=\"../../website-design/\">website design</a> packages are fixed-price, from $900 for a three-page site to $5,000 for custom work. Want to manage more of it yourself? Our <a href=\"../../ai-course/\">free AI course for beginners</a> is a good start.</p>",
+ "faq": [
+  {
+   "q": "How do I find out who owns my website domain?",
+   "a": "Look up the domain with ICANN Lookup for a .com, or CIRA's lookup for a .ca. The result names the registrar. Personal details are often hidden for privacy, so contact that registrar and ask how to confirm whether you are the registered holder."
+  },
+  {
+   "q": "Can a web designer legally keep my domain name?",
+   "a": "If the designer registered the domain in their own name, they are the registrant on paper, even if you paid. Whether they must hand it over depends on your contract and what was agreed. Ask in writing first; if that fails, consider a card dispute, Small Claims Court or, for a .ca, the CIRA dispute policy. Talk to a lawyer for your situation."
+  },
+  {
+   "q": "How do I transfer my domain away from my developer?",
+   "a": "Get the transfer code (Auth-Code) from the current registrar and give it to the new registrar. For .com and similar domains, ICANN says the registrar must provide it to the holder within five calendar days. If the developer is the listed holder, they must request it or move the domain into your name first."
+  },
+  {
+   "q": "Who owns the website design and content I paid for?",
+   "a": "Under section 13 of Canada's Copyright Act, the author is the first owner of copyright, and an assignment must be in writing and signed. If your contract does not assign the design, code and content to you, ask for a signed assignment. This is general information, not legal advice."
+  }
+ ],
+ "sources": [
+  {
+   "label": "ICANN: Domain name holder FAQs (transfers, AuthInfo code, change of registrant)",
+   "url": "https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en"
+  },
+  {
+   "label": "ICANN: Registration Data Access Protocol (RDAP)",
+   "url": "https://www.icann.org/rdap"
+  },
+  {
+   "label": "ICANN Lookup",
+   "url": "https://lookup.icann.org/en"
+  },
+  {
+   "label": "CIRA: Domain Name Dispute Resolution Policy (CDRP)",
+   "url": "https://www.cira.ca/uploads/2023/05/cdrppolicy_-_en.pdf"
+  },
+  {
+   "label": "CIIDRC: Guide to filing a CDRP complaint",
+   "url": "https://ciidrc.org/cdrp-process-graphic/guide-to-filing-a-cdrp-complaint/"
+  },
+  {
+   "label": "Justice Laws Website: Copyright Act, section 13",
+   "url": "https://laws-lois.justice.gc.ca/eng/acts/c-42/section-13.html"
+  },
+  {
+   "label": "Ontario Superior Court of Justice: Small Claims Court",
+   "url": "https://www.ontariocourts.ca/scj/small-claims-court/"
+  },
+  {
+   "label": "National Bank: How to dispute a credit card transaction",
+   "url": "https://www.nbc.ca/personal/advice/credit/dispute-credit-card-transaction.html"
+  },
+  {
+   "label": "Google Search Console Help: Managing owners, users and permissions",
+   "url": "https://support.google.com/webmasters/answer/7687615"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our website design services",
+   "href": "../../website-design/"
+  },
+  {
+   "label": "Freelancer, agency or DIY: what each website route costs",
+   "href": "../freelancer-vs-agency-vs-diy-website-cost/"
+  },
+  {
+   "label": "What a $1,000, $2,000 and $5,000 website gets you in Ontario",
+   "href": "../website-budget-tiers-ontario-2026/"
+  },
+  {
+   "label": "Free AI course for beginners",
+   "href": "../../ai-course/"
+  }
+ ]
+}
