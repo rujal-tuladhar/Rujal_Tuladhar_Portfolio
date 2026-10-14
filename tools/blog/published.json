@@ -1,5 +1,96 @@
 [
   {
+    "date": "2026-10-14",
+    "slug": "seo-for-small-business-diy",
+    "title": "SEO for small business: what you can do yourself in a weekend",
+    "category": "Digital Marketing",
+    "words": 1232,
+    "sources": [
+      "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+      "https://support.google.com/webmasters/answer/9128668",
+      "https://support.google.com/business/answer/7091",
+      "https://support.google.com/business/answer/3038177",
+      "https://support.google.com/contributionpolicy/answer/7400114",
+      "https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html",
+      "https://pagespeed.web.dev/"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "slug": "gemini-vs-chatgpt-small-business",
+    "title": "Gemini vs ChatGPT for small business: what you get in Google Workspace",
+    "category": "AI Automation",
+    "words": 1485,
+    "sources": [
+      "https://workspace.google.com/pricing",
+      "https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub",
+      "https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business",
+      "https://help.openai.com/en/articles/8792828-chatgpt-business-overview",
+      "https://help.openai.com/en/articles/10929079-google-drive-app-and-setup-in-chatgpt",
+      "https://help.openai.com/en/articles/12143177-sharepoint-app-and-setup-in-chatgpt",
+      "https://www.microsoft.com/en-ca/microsoft-365-copilot/business"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "slug": "free-ai-tools-small-business",
+    "title": "Free AI tools for small business: 9 that are actually useful",
+    "category": "AI Automation",
+    "words": 1371,
+    "sources": [
+      "https://gemini.google/subscriptions/",
+      "https://support.microsoft.com/Microsoft-365-Copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365",
+      "https://claude.com/pricing",
+      "https://www.grammarly.com/plans",
+      "https://otter.ai/pricing",
+      "https://www.fathom.ai/pricing",
+      "https://reclaim.ai/pricing",
+      "https://calendly.com/pricing",
+      "https://www.adobe.com/express/pricing",
+      "https://www.descript.com/pricing",
+      "https://www.capcut.com/pricing",
+      "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/",
+      "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/",
+      "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "slug": "claude-vs-chatgpt-small-business",
+    "title": "Claude vs ChatGPT for small business: which to pay for in 2026",
+    "category": "AI Automation",
+    "words": 1342,
+    "sources": [
+      "https://claude.com/pricing",
+      "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+      "https://claude.com/docs/office-agents/excel",
+      "https://chatgpt.com/pricing",
+      "https://help.openai.com/en/articles/8792828-chatgpt-business-overview",
+      "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+      "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "slug": "capcut-ai-business-video-ads",
+    "title": "CapCut AI for business video ads: what it can do and the catches",
+    "category": "AI Automation",
+    "words": 1451,
+    "sources": [
+      "https://www.capcut.com/pricing",
+      "https://www.capcut.com/tools/ai-tools",
+      "https://www.capcut.com/tools/ai-video-generator",
+      "https://www.capcut.com/tools/add-subtitles-to-video",
+      "https://www.capcut.com/tools/text-to-speech",
+      "https://www.capcut.com/clause/terms-of-service",
+      "https://www.capcut.com/material-license-agreement",
+      "https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads",
+      "https://ads.tiktok.com/help/article/commercial-music-library",
+      "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/use-tests-or-testimonials"
+    ]
+  },
+  {
     "date": "2026-10-13",
     "slug": "will-customers-hate-ai-receptionist",
     "title": "Will customers hate an AI receptionist? What makes callers stay",

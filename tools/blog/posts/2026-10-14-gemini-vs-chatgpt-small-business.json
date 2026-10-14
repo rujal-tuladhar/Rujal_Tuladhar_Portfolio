@@ -1,0 +1,131 @@
+{
+ "slug": "gemini-vs-chatgpt-small-business",
+ "title": "Gemini vs ChatGPT for small business: what you get in Google Workspace",
+ "category": "AI Automation",
+ "excerpt": "Gemini vs ChatGPT for a small business: Workspace plan prices in CAD, ChatGPT Business seat prices, privacy promises, and which fits Gmail or Microsoft 365.",
+ "keywords": "gemini vs chatgpt, gemini vs chatgpt for business, gemini google workspace price canada, chatgpt business price, chatgpt business vs gemini, ai for small business ontario, gemini privacy workspace, chatgpt microsoft 365",
+ "cover_title": "Gemini vs ChatGPT for Business",
+ "intro_html": "<p>Your team is already pasting customer emails into a free chatbot, and you would like to pay for one proper AI tool instead of three half-used ones. The two names that come up first are Google's Gemini and OpenAI's ChatGPT. The honest answer to \"which is better\" depends less on the chatbot and more on where your email, files and calendar already live.</p><p>This guide compares what each one costs today (prices checked on the vendors' own pages on October 14, 2026), what each promises about your data, and which one makes more sense for a business on Gmail or on Microsoft 365. Plans change often, so confirm every number at checkout.</p>",
+ "glance": [
+  {
+   "icon": "uil-envelope",
+   "heading": "Gemini comes with Workspace",
+   "sub": "Business Standard lists CA$18.40 per user a month, with Gemini in Gmail, Docs and Meet"
+  },
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "ChatGPT Business is extra",
+   "sub": "US$25 per seat monthly or US$20 on annual billing, two-seat minimum"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "No training on your data",
+   "sub": "Both vendors say business-plan data is not used to train their models"
+  },
+  {
+   "icon": "uil-link",
+   "heading": "ChatGPT connects to both",
+   "sub": "Official apps for Google Drive and for SharePoint and work OneDrive"
+  },
+  {
+   "icon": "uil-windows",
+   "heading": "Microsoft 365 has Copilot",
+   "sub": "Business Standard with Copilot lists CAD $31.90 per user a month, paid yearly"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What Gemini in Google Workspace gives you, plan by plan",
+   "body_html": "<p>If your business email is Gmail on your own domain, you already pay for Google Workspace, and Gemini is part of the plan rather than a separate subscription. On the <a href=\"https://workspace.google.com/pricing\" target=\"_blank\" rel=\"noopener\">Google Workspace pricing page</a> for Canada today, the listed flexible prices are CA$9.20 per user a month for Business Starter, CA$18.40 for Business Standard and CA$28.70 for Business Plus, with Enterprise priced by sales. Google advertises a saving of 16% for a one-year commitment, and new customers see introductory discounts on up to 20 users for the first year.</p><p>The plan you are on matters a lot:</p><ul><li><strong>Starter</strong> includes Gemini in Gmail and basic access to the Gemini app. The comparison table marks Gemini in Workspace apps as \"Limited\", and Gemini in Docs, Sheets, Slides, Drive, Meet and Chat is not included.</li><li><strong>Standard</strong> adds Gemini in Gmail, Docs, Sheets, Slides, Drive, Meet and Chat, expanded access to the Gemini app, and what Google lists as its most capable models for complex tasks. It also gets expanded access to Gemini Notebook, Google's research notebook tool.</li><li><strong>Plus</strong> has the same Gemini coverage as Standard, and adds more storage plus extra security and retention tools such as Vault.</li></ul>",
+   "takeaway": "If you are on Workspace Starter and want AI in Docs, Sheets and Meet, the upgrade to Standard is the thing to price first."
+  },
+  {
+   "heading": "What ChatGPT Business costs and includes",
+   "body_html": "<p>ChatGPT Business is OpenAI's self-serve plan for teams (it was called ChatGPT Team until August 2025). According to OpenAI's <a href=\"https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business\" target=\"_blank\" rel=\"noopener\">billing and seats help page</a>, a Standard seat costs $25 per user a month on monthly billing or $20 a month billed annually, and a Premium seat with higher usage limits costs $125 monthly or $100 a month billed annually. The <a href=\"https://help.openai.com/en/articles/8792828-chatgpt-business-overview\" target=\"_blank\" rel=\"noopener\">ChatGPT Business overview</a> says that for most countries these prices are in US dollars and may vary by country and currency, so expect your Canadian card to be charged after currency conversion unless checkout shows otherwise.</p><p>A few terms worth knowing before you sign up:</p><ul><li>Every workspace needs at least two paid seats, so a solo owner pays for two.</li><li>Seats are charged at the start of each billing cycle whether or not someone uses them, and unused seats are generally not refunded.</li><li>Self-serve Business is paid by credit or debit card; invoice billing needs a contracted plan such as Enterprise.</li><li>Standard seats include GPTs, Projects, Apps, Company Knowledge, ChatGPT Agent, Deep Research and Codex. API usage is billed separately.</li></ul><p>Unlike Workspace, it includes no email, storage or video meetings; it sits on top of what you already use.</p>",
+   "takeaway": "For most small teams, budget ChatGPT Business as an extra US$20 to US$25 per person per month on top of your existing email plan."
+  },
+  {
+   "heading": "Privacy: what each vendor promises",
+   "body_html": "<p>Both companies make a clear promise on model training for their business plans. Google's <a href=\"https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub\" target=\"_blank\" rel=\"noopener\">Generative AI in Google Workspace Privacy Hub</a> (updated October 6, 2026) says Workspace does not use customer data to train models without the customer's prior permission or instruction, that your content is not human reviewed outside your domain, that Gemini follows your existing Workspace file permissions, and that your interactions with Gemini stay within your organization. Admins can switch the Gemini app and Gemini features in Gmail, Drive, Docs, Meet and Chat on or off. One caveat Google itself notes: data region settings do not apply to data in Gemini Notebook.</p><p>OpenAI's <a href=\"https://help.openai.com/en/articles/8792828-chatgpt-business-overview\" target=\"_blank\" rel=\"noopener\">Business overview</a> says ChatGPT Business follows its Business Terms and enterprise privacy policies, and that OpenAI won't train on your workspace's data. Workspace admins control which connected apps and actions members can use.</p><p>The line that matters is the account type. Google's privacy hub applies only to Gemini used with a qualifying Workspace edition. Staff using a personal Gmail or a free personal ChatGPT login are outside these business promises, and you remain responsible for the customer information they paste in.</p>",
+   "takeaway": "Pick one business plan, keep work out of personal AI accounts, and write a one-page rule on what customer data may go into AI."
+  },
+  {
+   "heading": "If your business runs on Gmail and Google Drive",
+   "body_html": "<p>For a Workspace business, Gemini is the low-friction choice: it is already inside Gmail, Docs and Meet on Business Standard and above, it is billed on the same invoice, and it reads only the files each person can already open. For many owners, upgrading from Starter to Standard covers most of what they wanted from a chatbot.</p><p>ChatGPT can still work with Google files. OpenAI's <a href=\"https://help.openai.com/en/articles/10929079-google-drive-app-and-setup-in-chatgpt\" target=\"_blank\" rel=\"noopener\">Google Drive app guide</a> says the app connects to files your Google account can already access, including Docs, Sheets and Slides, and that ChatGPT cannot use files the connected account cannot open. Live access is per person. A shared, indexed connection for the whole team needs more set-up: a Google Cloud service account and domain-wide delegation approved by a Google Workspace administrator.</p><p>Some teams pay for both: Gemini for everyday work, plus a few ChatGPT seats for people who use custom GPTs or deep research daily.</p>",
+   "takeaway": "On Workspace, start with Gemini on Business Standard and add ChatGPT seats only for named people with a clear daily use."
+  },
+  {
+   "heading": "If your business runs on Microsoft 365",
+   "body_html": "<p>Gemini lives inside Google's apps, so it adds little for a business on Outlook, SharePoint and OneDrive. Here the fair comparison is ChatGPT Business against Microsoft's Copilot.</p><p>ChatGPT has an official SharePoint app. OpenAI's <a href=\"https://help.openai.com/en/articles/12143177-sharepoint-app-and-setup-in-chatgpt\" target=\"_blank\" rel=\"noopener\">SharePoint app guide</a> says it can search and reference SharePoint and work or school OneDrive content your Microsoft account can already access; personal OneDrive is not supported, your Microsoft Entra administrator may need to approve the permissions, and the team-wide indexed SharePoint sync is limited to eligible Enterprise and Edu workspaces, not Business.</p><p>Microsoft's <a href=\"https://www.microsoft.com/en-ca/microsoft-365-copilot/business\" target=\"_blank\" rel=\"noopener\">Copilot for business page</a> lists Microsoft 365 Business Standard with Copilot at CAD $31.90 per user a month and Business Premium with Copilot at CAD $43.40, both paid yearly, with Copilot built into Word, Excel, PowerPoint, Outlook and Teams. Existing customers on an eligible Business plan can add Microsoft 365 Copilot Business, listed at CAD $24.43 per user a month paid yearly under a promotion that runs to December 31, 2026 and applies to the first year only (CAD $28.50 before the discount).</p>",
+   "takeaway": "On Microsoft 365, compare ChatGPT Business with the Copilot add-on side by side; Gemini makes sense only if you are moving to Google."
+  },
+  {
+   "heading": "How to choose without wasting a year of seats",
+   "body_html": "<p>Run a short, real test:</p><ol><li>Pick three weekly jobs, such as replying to quote requests, summarizing a long client email thread, and turning meeting notes into a task list.</li><li>Have two people do those jobs for two weeks in the tool that matches your email system. Google offers a 14-day Workspace trial and Microsoft a one-month Copilot trial; ChatGPT Business has a two-seat minimum, so pay monthly for the test.</li><li>Count the minutes saved and the edits needed. A tool that writes a decent first draft but needs heavy fixing is not saving time.</li><li>Only then commit to annual billing, which is cheaper with every vendor but harder to undo.</li></ol><p>Whichever you choose, the gains come from changing the workflow, not from the subscription. Our <a href=\"../../ai-course/\">free AI course for beginners</a> walks through prompts and habits that work in either tool.</p>",
+   "takeaway": "Test with real weekly tasks on monthly billing, then lock in annual pricing for the tool your team actually used."
+  }
+ ],
+ "bottom_line_html": "<p>For most small businesses the answer follows your email. On Gmail and Google Drive, Gemini inside Workspace Business Standard is the simplest way to get AI into daily work, with clear business privacy terms and no second bill. On Microsoft 365, weigh ChatGPT Business against Copilot instead. ChatGPT Business suits teams where a few people need custom GPTs, agents and deep research, but it is an extra subscription with a two-seat minimum.</p><p>If you would like help choosing and setting it up, including admin settings and a staff AI policy, see our <a href=\"../../ai-automation/\">AI automation services</a>. For costs beyond chat tools, read <a href=\"../ai-automation-cost-small-business-canada/\">what AI automation costs a Canadian small business</a> and <a href=\"../business-tasks-to-automate-with-ai/\">everyday business tasks to automate with AI</a>.</p>",
+ "faq": [
+  {
+   "q": "Is Gemini free with Google Workspace?",
+   "a": "Gemini is included in Workspace business plans rather than sold separately, but how much you get depends on the plan. On Google's Canadian pricing page today, Business Starter includes Gemini in Gmail and basic Gemini app access, while Business Standard (CA$18.40 per user a month, flexible) adds Gemini in Docs, Sheets, Slides, Drive, Meet and Chat."
+  },
+  {
+   "q": "How much is ChatGPT Business per user?",
+   "a": "OpenAI's help centre lists a Standard seat at $25 per user a month billed monthly or $20 a month billed annually, in US dollars for most countries. Premium seats cost $125 monthly or $100 a month billed annually. A workspace needs at least two paid seats."
+  },
+  {
+   "q": "Does Gemini or ChatGPT train on my business data?",
+   "a": "Not on their business plans, according to each vendor. Google says Workspace does not use customer data to train models without permission, and OpenAI says it won't train on a ChatGPT Business workspace's data. Those promises do not cover staff using personal accounts."
+  },
+  {
+   "q": "Is Gemini or ChatGPT better for Microsoft 365 users?",
+   "a": "Gemini works best inside Google's own apps, so it adds little for Outlook and SharePoint users. ChatGPT Business has an official SharePoint app for live access to files you can already open, and Microsoft sells Copilot built into Word, Excel, Outlook and Teams. Compare those two."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Workspace: Compare pricing plans (Canada, CAD)",
+   "url": "https://workspace.google.com/pricing"
+  },
+  {
+   "label": "Google Workspace Help: Generative AI in Google Workspace Privacy Hub",
+   "url": "https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub"
+  },
+  {
+   "label": "OpenAI Help Center: Managing billing and seats in ChatGPT Business",
+   "url": "https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business"
+  },
+  {
+   "label": "OpenAI Help Center: ChatGPT Business overview",
+   "url": "https://help.openai.com/en/articles/8792828-chatgpt-business-overview"
+  },
+  {
+   "label": "OpenAI Help Center: Google Drive app and setup in ChatGPT",
+   "url": "https://help.openai.com/en/articles/10929079-google-drive-app-and-setup-in-chatgpt"
+  },
+  {
+   "label": "OpenAI Help Center: SharePoint app and setup in ChatGPT",
+   "url": "https://help.openai.com/en/articles/12143177-sharepoint-app-and-setup-in-chatgpt"
+  },
+  {
+   "label": "Microsoft Canada: Microsoft 365 Copilot for business pricing",
+   "url": "https://www.microsoft.com/en-ca/microsoft-365-copilot/business"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation services",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "What AI automation costs a Canadian small business",
+   "href": "../ai-automation-cost-small-business-canada/"
+  },
+  {
+   "label": "Everyday business tasks to automate with AI",
+   "href": "../business-tasks-to-automate-with-ai/"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "slug": "claude-vs-chatgpt-small-business",
+ "title": "Claude vs ChatGPT for small business: which to pay for in 2026",
+ "category": "AI Automation",
+ "excerpt": "Claude vs ChatGPT for an Ontario small business: plan prices, privacy settings on business plans, everyday tasks and a simple way to choose.",
+ "keywords": "claude vs chatgpt, claude vs chatgpt small business, chatgpt business price, claude team price, claude pro vs chatgpt plus, ai assistant small business canada, chatgpt privacy business",
+ "cover_title": "Claude vs ChatGPT for Business",
+ "intro_html": "<p>You want one AI assistant for the business, not three subscriptions you half use. The two names everyone mentions are Claude, made by Anthropic, and ChatGPT, made by OpenAI. Both write emails, summarize documents and help with spreadsheets. Both have a free tier, a roughly $20 individual plan and a team plan. So which one should an Ontario small business actually pay for?</p><p>This guide compares what each company's own pricing and help pages said on October 14, 2026: prices, what happens to your data, and how they handle the everyday jobs a small office does. AI plans change almost monthly, so check the linked pages before you buy.</p>",
+ "glance": [
+  {
+   "icon": "uil-dollar-alt",
+   "heading": "Same entry price",
+   "sub": "Claude Pro and ChatGPT Plus are both US$20 a month billed monthly"
+  },
+  {
+   "icon": "uil-users-alt",
+   "heading": "Team plans match too",
+   "sub": "US$25 per seat monthly or US$20 on annual billing for both standard seats"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Business plans don't train",
+   "sub": "Both say business workspace content is not used for training by default"
+  },
+  {
+   "icon": "uil-toggle-off",
+   "heading": "Personal plans: opt out",
+   "sub": "Free and individual plans on both let you turn off training yourself"
+  },
+  {
+   "icon": "uil-table",
+   "heading": "Spreadsheets",
+   "sub": "Claude for Excel is on Pro and up; ChatGPT lists Excel and Sheets extensions"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "What each plan costs today",
+   "body_html": "<p>All prices below are in US dollars, as each company lists them. <a href=\"https://claude.com/pricing\" target=\"_blank\" rel=\"noopener\">Anthropic says its prices exclude taxes</a>, so expect your Canadian card statement to be higher after currency conversion and tax.</p><p><strong>Claude</strong> (<a href=\"https://claude.com/pricing\" target=\"_blank\" rel=\"noopener\">claude.com pricing</a>): Free is $0. Pro is $20 a month billed monthly, or $17 a month on annual billing ($200 paid up front). Max starts at $100 a month for heavy users. Team is for 2 to 150 seats: a Standard seat is $25 a month billed monthly or $20 billed annually, and a Premium seat with five times the usage is $125 monthly or $100 annually.</p><p><strong>ChatGPT</strong>: OpenAI's help page says <a href=\"https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus\" target=\"_blank\" rel=\"noopener\">ChatGPT Plus is $20 a month</a>, billed monthly, with no annual option. The <a href=\"https://help.openai.com/en/articles/8792828-chatgpt-business-overview\" target=\"_blank\" rel=\"noopener\">ChatGPT Business overview</a> lists a Standard seat at $25 per user per month billed monthly or $20 billed annually, and a Premium seat at $125 monthly or $100 annually. A Business workspace needs at least 2 seats. The <a href=\"https://chatgpt.com/pricing\" target=\"_blank\" rel=\"noopener\">ChatGPT pricing page</a> also shows a cheaper Go plan, which it notes may include ads, and a Pro plan above Plus.</p><p>In other words, at the level most small businesses buy, the price is the same. Price should not be what decides this.</p>",
+   "takeaway": "Budget about US$20 a month for one person or US$20-25 per seat for a team, whichever tool you pick."
+  },
+  {
+   "heading": "Privacy: personal plans versus business plans",
+   "body_html": "<p>This is the difference that matters most, and it is between plan types rather than between the two companies.</p><p>On the personal plans, both companies may use your chats to improve their models unless you switch that off. The ChatGPT pricing page lists training as \"opt-out available\" on its individual plans, and OpenAI's Plus page says you can <a href=\"https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus\" target=\"_blank\" rel=\"noopener\">opt out of training at any time</a>. For Claude's Free, Pro and Max plans, Anthropic's <a href=\"https://www.anthropic.com/news/updates-to-our-consumer-terms\" target=\"_blank\" rel=\"noopener\">consumer terms update</a> explains that chats are used for training only when the setting is on; if you allow it, data is kept for five years, and if you don't, the 30-day retention period applies. That same page says the change does not apply to Team, Enterprise or the API.</p><p>On the business plans, the default flips. Claude's pricing page says Team has <a href=\"https://claude.com/pricing\" target=\"_blank\" rel=\"noopener\">no model training on your content by default</a>. OpenAI's Business overview says it <a href=\"https://help.openai.com/en/articles/8792828-chatgpt-business-overview\" target=\"_blank\" rel=\"noopener\">won’t train on your workspace’s data</a>.</p><p>Canada's privacy commissioner also has advice that applies whichever tool you choose. Its <a href=\"https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/\" target=\"_blank\" rel=\"noopener\">principles for generative AI</a> suggest using anonymized or de-identified information in prompts where you reasonably can, and point out that accountability for decisions stays with your organization, not the tool. This is general information, not legal advice.</p>",
+   "takeaway": "If staff will paste in customer names, invoices or files, pay for a business plan and turn off training on any personal account used for work."
+  },
+  {
+   "heading": "Everyday tasks: emails, quotes and summaries",
+   "body_html": "<p>For the daily work of a small office, both tools do the same jobs well enough that most owners will not notice a big gap:</p><ul><li><strong>Emails:</strong> paste a rough note and ask for a polite reply, a firmer follow-up on an unpaid invoice, or a shorter version.</li><li><strong>Quotes and proposals:</strong> give it your price list and the job details and ask for a clear, itemized draft. You still check every number.</li><li><strong>Summaries:</strong> upload a long contract, supplier PDF or meeting notes and ask for the five things you need to act on.</li><li><strong>Marketing copy:</strong> first drafts of Google Business Profile posts, service page text or a newsletter.</li></ul><p>Writing style is a matter of taste. Some people prefer how one sounds over the other. The honest way to settle it is to run the same three real tasks through the free version of each and see which draft needs less fixing.</p><p>One caution for both: neither knows your prices, policies or tax rules unless you tell it. A confident wrong number in a quote is still your wrong number.</p>",
+   "takeaway": "Test both free plans on three of your own real tasks this week; pick the one whose drafts you edit least."
+  },
+  {
+   "heading": "Spreadsheets and office apps",
+   "body_html": "<p>If your business runs on Excel, this is where the tools differ more. Anthropic's help page says <a href=\"https://claude.com/docs/office-agents/excel\" target=\"_blank\" rel=\"noopener\">Claude for Excel</a> is generally available on Pro, Max, Team and Enterprise. It is an add-in that can answer questions about a workbook with cell-level citations, fix formula errors, and build or fill in templates. It works in Excel on the web and in Microsoft 365 Excel on Windows and Mac, but not Excel 2016 or 2019 perpetual licences. The same page is refreshingly frank: it does not recommend using it for final client deliverables without human review, and it warns to use it only with trusted spreadsheets, since files from outside sources can hide instructions.</p><p>OpenAI's <a href=\"https://chatgpt.com/pricing\" target=\"_blank\" rel=\"noopener\">pricing page</a> lists Excel, Word, PowerPoint and Google Sheets extensions in its plan comparison, with deeper access on the higher plans. If your team lives in Google Sheets rather than Excel, that is worth testing.</p>",
+   "takeaway": "Excel-heavy offices should trial Claude for Excel on Pro; Google Sheets offices should trial ChatGPT's extension first."
+  },
+  {
+   "heading": "How to choose in 15 minutes",
+   "body_html": "<p>Work through these questions in order:</p><ol><li><strong>Is it just you?</strong> Start on a free plan of each. If you hit limits, pay US$20 for whichever you used more. Claude Pro is a little cheaper if you pay for the year; ChatGPT Plus has no annual option.</li><li><strong>Will two or more people use it with customer data?</strong> Buy a business plan (Claude Team or ChatGPT Business) so training is off by default and billing is central.</li><li><strong>Does your work live in Excel or Google Sheets?</strong> Let that decide a tie, as above.</li><li><strong>Does your team already use one?</strong> The tool people already open every day beats the slightly better one they never use.</li></ol><p>Who should not bother paying yet: anyone who has not used the free version for a few real tasks. Paying for an AI subscription you open twice a month is the most common waste we see.</p>",
+   "takeaway": "Pick one, put it on a business plan if staff share it, and review after 30 days."
+  }
+ ],
+ "bottom_line_html": "<p>For most Ontario small businesses, Claude and ChatGPT cost the same and handle emails, quotes and summaries comparably well. The real decision is personal plan versus business plan: once staff are pasting in customer information, a team plan where training is off by default is worth the extra few dollars. After that, let your spreadsheet tool and your team's habits break the tie.</p><p>If you want help setting either tool up properly, with a shared prompt library, privacy settings and a workflow or two automated, that is what our <a href=\"../../ai-automation/\">AI automation service</a> does. For ideas on where to start, read <a href=\"../business-tasks-to-automate-with-ai/\">5 everyday business tasks to automate with AI</a> and <a href=\"../ai-automation-cost-small-business-canada/\">what AI automation costs a Canadian small business</a>, and for recent model news see <a href=\"../ai-news-for-business-october-12-2026/\">AI This Week for October 12</a>. New to all of this? Our <a href=\"../../ai-course/\">free AI course for beginners</a> walks you through the basics.</p>",
+ "faq": [
+  {
+   "q": "Is Claude or ChatGPT better for small business?",
+   "a": "Neither wins outright. At the plan most small businesses buy, both cost US$20 a month for one person and US$20-25 per seat for a team. Test both free plans on your own emails, quotes and summaries, and choose the one whose drafts need less editing. Excel-heavy offices may prefer Claude for Excel."
+  },
+  {
+   "q": "Does ChatGPT or Claude use my business data for training?",
+   "a": "On the business plans, no by default: Claude's pricing page says Team has no model training on your content by default, and OpenAI says it won't train on ChatGPT Business workspace data. On free and individual plans, both offer an opt-out setting you should turn off if you use them for work."
+  },
+  {
+   "q": "How much is ChatGPT Business vs Claude Team?",
+   "a": "As listed on October 14, 2026: both charge US$25 per standard seat billed monthly or US$20 billed annually, plus a Premium seat at US$125 monthly or US$100 annually. ChatGPT Business needs at least 2 seats; Claude Team is for 2 to 150 seats. Anthropic notes its prices exclude tax."
+  },
+  {
+   "q": "Can I pay for Claude or ChatGPT in Canadian dollars?",
+   "a": "Both companies list their prices in US dollars on the pages we checked, and OpenAI notes pricing may vary by country and currency. Expect your card to show a converted amount plus tax, and check the checkout screen for the final figure."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Claude: Plans and pricing",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "label": "Anthropic: Updates to Consumer Terms and Privacy Policy",
+   "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
+  },
+  {
+   "label": "Claude docs: Use Claude for Excel",
+   "url": "https://claude.com/docs/office-agents/excel"
+  },
+  {
+   "label": "ChatGPT: Plans and pricing",
+   "url": "https://chatgpt.com/pricing"
+  },
+  {
+   "label": "OpenAI Help Center: ChatGPT Business overview",
+   "url": "https://help.openai.com/en/articles/8792828-chatgpt-business-overview"
+  },
+  {
+   "label": "OpenAI Help Center: What is ChatGPT Plus?",
+   "url": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Principles for responsible, trustworthy and privacy-protective generative AI technologies",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation service",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "5 everyday business tasks to automate with AI",
+   "href": "../business-tasks-to-automate-with-ai/"
+  },
+  {
+   "label": "What AI automation costs a Canadian small business",
+   "href": "../ai-automation-cost-small-business-canada/"
+  }
+ ]
+}

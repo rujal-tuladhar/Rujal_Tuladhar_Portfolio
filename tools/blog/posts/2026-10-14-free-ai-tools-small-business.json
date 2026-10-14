@@ -1,0 +1,159 @@
+{
+ "slug": "free-ai-tools-small-business",
+ "title": "Free AI tools for small business: 9 that are actually useful",
+ "category": "AI Automation",
+ "excerpt": "Nine free AI tools for writing, meeting notes, scheduling, design and video, with exactly what each free plan includes today and what not to paste into them.",
+ "keywords": "free ai tools, free ai tools for small business, ai tools for business, free ai writing tools, free ai transcription, free ai design tools, ai tools canada, ai tools ontario small business",
+ "cover_title": "Free AI Tools That Are Useful",
+ "intro_html": "<p>Search for free AI tools and you get lists of a hundred apps, most of them free trials in disguise. If you run a small business in Ontario, you do not need a hundred. You need a few that save real hours on the jobs you already do: writing emails and posts, taking notes on calls, keeping your calendar sane, and making a decent graphic or short video.</p><p>Below are nine tools with a genuinely free plan. For each one we checked the vendor's own pricing or help page on October 14, 2026 and wrote down exactly what the free tier includes. Free plans change often, so treat this as a snapshot and check the page before you rely on a limit.</p>",
+ "glance": [
+  {
+   "icon": "uil-comment-alt-lines",
+   "heading": "3 free assistants",
+   "sub": "Gemini, Microsoft Copilot and Claude all have a no-cost plan"
+  },
+  {
+   "icon": "uil-microphone",
+   "heading": "300 free minutes",
+   "sub": "Otter's free plan per month, 30 minutes per conversation"
+  },
+  {
+   "icon": "uil-calendar-alt",
+   "heading": "Scheduling help",
+   "sub": "Reclaim's free Lite plan plans one week ahead"
+  },
+  {
+   "icon": "uil-image",
+   "heading": "Design and video",
+   "sub": "Adobe Express and Descript free plans have limits and watermarks"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Mind the data",
+   "sub": "The privacy commissioner says use de-identified information in prompts"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Everyday assistants: Gemini, Microsoft Copilot and Claude",
+   "body_html": "<p>A general AI assistant is the one free tool almost every business owner will use daily: drafting a reply to a tricky customer email, turning rough notes into a job description, or explaining a supplier contract clause in plain English.</p><ul><li><strong>Google Gemini.</strong> Google's <a href=\"https://gemini.google/subscriptions/\" target=\"_blank\" rel=\"noopener\">plans page</a> lists the free tier at 0 $CA a month with a Google Account. It includes access to the Flash-Lite model, image generation and editing, Deep Research, Gemini Live, Canvas, Gems, limited access to the Flow creative studio and 15 GB of storage across Gmail, Drive and Photos. Good for: research, first drafts and quick images if you already live in Gmail.</li><li><strong>Microsoft Copilot.</strong> Microsoft's <a href=\"https://support.microsoft.com/Microsoft-365-Copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365\" target=\"_blank\" rel=\"noopener\">support article</a> says Copilot is available at no cost for chat, real-time answers based on web search and webpage summaries in Edge. Sign-in is not required, but signing in with a personal account adds chat history, image creation, longer conversations and voice. Copilot inside the Word and Outlook desktop apps belongs to the paid plans. Good for: Windows and Edge users who want answers with web results.</li><li><strong>Claude.</strong> Anthropic's <a href=\"https://claude.com/pricing\" target=\"_blank\" rel=\"noopener\">pricing page</a> lists the free plan as including chat on web, desktop and mobile, web search, file creation, memory across conversations, app connections and Artifacts, with up to five projects and voice mode. Good for: longer writing, editing and summarizing documents.</li></ul><p>ChatGPT also has a free tier, but its pricing and help pages blocked our checker today, so we have left its limits out rather than guess.</p>",
+   "takeaway": "Pick one assistant that fits the accounts you already use, and learn it well before adding a second."
+  },
+  {
+   "heading": "Writing polish: Grammarly",
+   "body_html": "<p>For a business that writes a lot of quotes, emails and listings, a checker that catches mistakes before a customer does is worth having. Grammarly's <a href=\"https://www.grammarly.com/plans\" target=\"_blank\" rel=\"noopener\">plans page</a> says the Free plan corrects spelling and grammar, shows your writing tone, and includes 100 AI prompts a month for generating text. Tone adjustment, full-sentence rewrites, and AI-text and plagiarism detection are on paid plans.</p><p>Who should not bother: if you already draft everything in one of the assistants above and rarely send long emails, the browser spell-check may be enough.</p>",
+   "takeaway": "Install the free version for spelling and grammar; the 100 prompts a month are a bonus, not the reason to use it."
+  },
+  {
+   "heading": "Meeting notes and transcription: Otter and Fathom",
+   "body_html": "<p>If you spend your week on client calls, AI notes can save you writing them up afterwards. Two free plans stand out:</p><ul><li><strong>Otter.</strong> The <a href=\"https://otter.ai/pricing\" target=\"_blank\" rel=\"noopener\">Basic plan</a> includes 300 minutes of transcription per user per month, shared across meetings, recordings and imports, with a maximum of 30 minutes per conversation. You also get three lifetime imports of pre-recorded audio or video files. Good for: short calls and voice memos.</li><li><strong>Fathom.</strong> Fathom's <a href=\"https://www.fathom.ai/pricing\" target=\"_blank\" rel=\"noopener\">pricing page</a> describes its free plan as free forever, with unlimited recordings and transcriptions, instant AI call summaries, a choice of bot-free (in beta) or bot capture, and clips, playlists and search across calls. Good for: owners who are on video calls most days and run past 30 minutes.</li></ul><p>Before you record anyone, tell them. The <a href=\"https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/\" target=\"_blank\" rel=\"noopener\">Office of the Privacy Commissioner</a> says an organization must tell the customer that it is recording, clearly state the purpose and obtain consent. This is general information, not legal advice.</p>",
+   "takeaway": "Try Otter for short calls and Fathom for long video meetings, and announce the recording every time."
+  },
+  {
+   "heading": "Scheduling: Reclaim, and why Calendly's free plan is not AI",
+   "body_html": "<p>Reclaim plans your week around your meetings. Its <a href=\"https://reclaim.ai/pricing\" target=\"_blank\" rel=\"noopener\">free Lite plan</a> is listed as free forever for one user, with five AI agents (Focus Time, Habits, Buffer Time, Smart Meetings and Meeting Quality), a one-week scheduling range, one calendar sync, one scheduling link and limited integrations such as Google Tasks, Slack, Zoom and Google Meet. Good for: protecting time for quotes, bookkeeping or site visits so meetings do not eat the whole day.</p><p>Calendly is still a fine free booking page. Its <a href=\"https://calendly.com/pricing\" target=\"_blank\" rel=\"noopener\">pricing page</a> lists one event type, one calendar connection and a customizable booking page on the free plan, but its AI assistant and Notetaker are only on paid plans. Do not pick it expecting AI.</p>",
+   "takeaway": "Use a free booking link for customers and Reclaim only if your own week keeps getting swallowed by meetings."
+  },
+  {
+   "heading": "Design and video: Adobe Express and Descript",
+   "body_html": "<p>For social posts, flyers and short clips, two free plans are worth a look:</p><ul><li><strong>Adobe Express.</strong> The <a href=\"https://www.adobe.com/express/pricing\" target=\"_blank\" rel=\"noopener\">pricing page</a> says the Free plan includes access to 100,000+ static and video templates, 5 GB of storage, and limited generative AI credits and assets, with some AI tools allowing free daily generations. Good for: quick branded graphics without a designer.</li><li><strong>Descript.</strong> Descript's <a href=\"https://www.descript.com/pricing\" target=\"_blank\" rel=\"noopener\">Free plan</a> gives you text-based video editing with 60 media minutes a month, 100 AI credits as a one-time allowance, 720p export and 5 GB of storage. Free exports carry a watermark. Good for: trying out editing a talking-head video by editing its transcript.</li></ul><p>Two common picks did not make the list. CapCut's <a href=\"https://www.capcut.com/pricing\" target=\"_blank\" rel=\"noopener\">pricing page</a> lists free templates and basic editing on its free plan but no AI features; AI credits start on Pro at CAD 33.99 a month. Canva's pricing pages blocked our checker today, so we could not confirm its current free AI limits.</p>",
+   "takeaway": "Adobe Express covers most free graphics; use Descript's free plan to test, not for ads you publish, because of the watermark."
+  },
+  {
+   "heading": "What not to paste into a free AI tool",
+   "body_html": "<p>Free tools are tempting places to paste a customer complaint, a spreadsheet of client names or a patient note. Stop and think first. The Office of the Privacy Commissioner of Canada's <a href=\"https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/\" target=\"_blank\" rel=\"noopener\">principles for generative AI</a> say these tools do not sit outside privacy law, and that where possible you should use anonymized or de-identified information in prompts instead of personal information. Sensitive or confidential details should only go into a prompt where that is authorized.</p><p>In practice: replace names, phone numbers, addresses and account numbers with placeholders such as \"Customer A\", keep health and financial details out entirely, and read each tool's privacy settings before you start. <a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/\" target=\"_blank\" rel=\"noopener\">PIPEDA</a> applies to private-sector organizations that handle personal information in commercial activities, and Ontario businesses are generally covered, so using a free tool does not change your obligations. This is general information, not legal advice.</p>",
+   "takeaway": "Strip out names and contact details before you paste anything into a free tool."
+  }
+ ],
+ "bottom_line_html": "<p>You can cover most small-business AI needs for $0: one assistant (Gemini, Copilot or Claude), Grammarly for polish, Otter or Fathom for call notes, Reclaim for your calendar, and Adobe Express or Descript for visuals. The catch is the limits: minute caps, one-time credits, watermarks and a one-week scheduling window. Start with the one task that eats the most of your week, use the free plan for a month, and only pay when you hit a limit that actually costs you time.</p><p>For ideas on which jobs to hand over first, read <a href=\"../business-tasks-to-automate-with-ai/\">5 everyday business tasks to automate with AI</a>, then see <a href=\"../ai-automation-cost-small-business-canada/\">what AI automation costs a Canadian small business</a> when free stops being enough. If you want video, our <a href=\"../best-ai-video-generators-2026/\">AI video generator roundup</a> covers the paid options. New to AI altogether? Our <a href=\"../../ai-course/\">free AI course for beginners</a> walks through the basics in seven short lessons. And when you are ready to connect these tools into something that runs on its own, our <a href=\"../../ai-automation/\">AI automation service</a> can set it up for you.</p>",
+ "faq": [
+  {
+   "q": "What are the best free AI tools for small business?",
+   "a": "For most owners: one general assistant (Google Gemini, Microsoft Copilot or Claude, all with free plans), Grammarly Free for spelling and grammar, Otter or Fathom for meeting notes, Reclaim's free Lite plan for calendar planning, and Adobe Express for graphics. Check each pricing page for current limits."
+  },
+  {
+   "q": "Is Google Gemini free in Canada?",
+   "a": "Yes. Google's plans page lists the free tier at 0 $CA a month with a Google Account, including the Flash-Lite model, image generation and editing, Deep Research and 15 GB of storage, as checked on October 14, 2026."
+  },
+  {
+   "q": "Is there a free AI transcription tool?",
+   "a": "Otter's Basic plan includes 300 transcription minutes per user per month with a 30-minute cap per conversation. Fathom's free plan lists unlimited recordings and transcriptions with instant AI summaries. Always tell people when a call is recorded."
+  },
+  {
+   "q": "Is it safe to put customer data into free AI tools?",
+   "a": "Be careful. The Office of the Privacy Commissioner of Canada advises using anonymized or de-identified information in prompts where possible, and only entering sensitive information where authorized. Replace names and contact details with placeholders. This is general information, not legal advice."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google: Gemini plans and subscriptions",
+   "url": "https://gemini.google/subscriptions/"
+  },
+  {
+   "label": "Microsoft Support: Difference between Microsoft Copilot (free) and Copilot in Microsoft 365",
+   "url": "https://support.microsoft.com/Microsoft-365-Copilot/what-s-the-difference-between-microsoft-copilot-free-and-copilot-in-microsoft-365"
+  },
+  {
+   "label": "Anthropic: Claude pricing",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "label": "Grammarly: Plans",
+   "url": "https://www.grammarly.com/plans"
+  },
+  {
+   "label": "Otter.ai: Pricing",
+   "url": "https://otter.ai/pricing"
+  },
+  {
+   "label": "Fathom: Pricing",
+   "url": "https://www.fathom.ai/pricing"
+  },
+  {
+   "label": "Reclaim.ai: Pricing",
+   "url": "https://reclaim.ai/pricing"
+  },
+  {
+   "label": "Calendly: Pricing",
+   "url": "https://calendly.com/pricing"
+  },
+  {
+   "label": "Adobe Express: Pricing",
+   "url": "https://www.adobe.com/express/pricing"
+  },
+  {
+   "label": "Descript: Pricing",
+   "url": "https://www.descript.com/pricing"
+  },
+  {
+   "label": "CapCut: Pricing",
+   "url": "https://www.capcut.com/pricing"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Principles for responsible, trustworthy and privacy-protective generative AI technologies",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Recording of customer telephone calls",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: PIPEDA in brief",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation service",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "5 everyday business tasks to automate with AI",
+   "href": "../business-tasks-to-automate-with-ai/"
+  },
+  {
+   "label": "What AI automation costs a Canadian small business",
+   "href": "../ai-automation-cost-small-business-canada/"
+  }
+ ]
+}

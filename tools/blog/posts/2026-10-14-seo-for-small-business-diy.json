@@ -1,0 +1,70 @@
+{
+ "slug": "seo-for-small-business-diy",
+ "title": "SEO for small business: what you can do yourself in a weekend",
+ "category": "Digital Marketing",
+ "excerpt": "A do-it-yourself SEO checklist for Toronto and GTA small businesses, built on Google's own guides: Search Console, titles, pages, Business Profile and reviews.",
+ "keywords": "seo for small business, diy seo checklist, local seo toronto, google business profile tips, google search console small business, small business seo canada",
+ "cover_title": "DIY SEO in a Weekend",
+ "intro_html": "<p>You know your website should show up when someone in Etobicoke or Markham searches for what you sell, but SEO quotes run into the thousands and the advice online is a mess of jargon. The good news: a lot of the basics are things you can do yourself, for free, in a weekend.</p><p>This checklist sticks to what Google itself publishes in its <a href=\"https://developers.google.com/search/docs/fundamentals/seo-starter-guide\" target=\"_blank\" rel=\"noopener\">SEO Starter Guide</a> and its Business Profile help pages, all checked on October 14, 2026. No tricks, no guaranteed rankings, and an honest note at the end on when it is worth paying someone.</p>",
+ "glance": [
+  {"icon": "uil-search", "heading": "Check you are indexed", "sub": "A site: search and free Search Console come first"},
+  {"icon": "uil-file-edit-alt", "heading": "One page per service", "sub": "Clear, unique titles and plain-language content"},
+  {"icon": "uil-map-marker", "heading": "Business Profile", "sub": "Google ranks local results on relevance, distance and prominence"},
+  {"icon": "uil-star", "heading": "Real reviews only", "sub": "Paid or incentivized reviews break Google policy"},
+  {"icon": "uil-clock", "heading": "Be patient", "sub": "Google says changes can take hours or several months"}
+ ],
+ "sections": [
+  {
+   "heading": "Saturday morning: make sure Google can find you",
+   "body_html": "<p>Before you change anything, check whether Google knows your site exists. Type <strong>site:yourdomain.ca</strong> into Google. Google's starter guide says that if you see results pointing to your site, you are in the index. If nothing comes up, that is your first problem, and our guide to <a href=\"../website-not-showing-on-google-fix/\">fixing a website that is not showing on Google</a> walks through the usual causes.</p><p>Next, set up <a href=\"https://support.google.com/webmasters/answer/9128668\" target=\"_blank\" rel=\"noopener\">Google Search Console</a>. It is a free Google service that shows whether Google can crawl your site, lets you ask for updated pages to be re-indexed, lists the searches that show your site and how often people click, and alerts you to problems. Google describes a sitemap, a file listing the pages you care about, as optional, and notes your website platform may already make one for you.</p>",
+   "takeaway": "Spend the first hour on a site: search and a Search Console account; everything else depends on Google seeing your pages."
+  },
+  {
+   "heading": "Saturday afternoon: fix titles, pages and wording",
+   "body_html": "<p>Open each important page and look at three things.</p><ul><li><strong>The title.</strong> Google says a good title is unique to the page, clear and concise, and accurately describes the contents. \"Furnace Repair in Scarborough | Smith Heating\" beats \"Home\".</li><li><strong>The meta description.</strong> Google's guide calls for one that is short, unique to that page and covers the most relevant points. Google often builds the snippet from your page text anyway, so the page itself matters more.</li><li><strong>One page per service.</strong> If you do furnace repair, AC installation and duct cleaning, give each its own page with a descriptive address such as /furnace-repair/ rather than a random string.</li></ul><p>Write the way customers talk. Google's own example is that some people search \"charcuterie\" and others \"cheese board\". A GTA customer might type \"plumber near me\", \"drain cleaning Mississauga\" or \"blocked sink\". Use those words naturally in headings and short paragraphs, and give your photos short, descriptive alt text.</p>",
+   "takeaway": "Every service you want to be found for needs its own page, with a title that names the service and the area."
+  },
+  {
+   "heading": "Sunday morning: your Google Business Profile",
+   "body_html": "<p>For a local business, the map results often matter more than the website. Google's help page on <a href=\"https://support.google.com/business/answer/7091\" target=\"_blank\" rel=\"noopener\">improving your local ranking</a> says local results are mainly based on relevance, distance and prominence. You cannot change how far a searcher is from you, but you can work on the other two:</p><ul><li>Verify the profile, and fill in every field: categories, services, hours, phone, website. Google says businesses with complete and accurate information are more likely to show up.</li><li>Keep holiday and special hours current.</li><li>Add real photos of your work, your team and your storefront or vehicles.</li><li>Reply to reviews, good and bad.</li></ul><p>Follow Google's <a href=\"https://support.google.com/business/answer/3038177\" target=\"_blank\" rel=\"noopener\">rules for representing your business</a>: use your real-world business name with no marketing taglines added, no P.O. boxes or virtual offices, and only one profile per business. If you visit customers rather than having them come to you, set a service area and hide your address. Our post on <a href=\"../rank-higher-google-maps-toronto/\">ranking higher on Google Maps in Toronto</a> goes deeper on this part.</p>",
+   "takeaway": "A complete, verified, honest Business Profile is the single biggest free win for most GTA service businesses."
+  },
+  {
+   "heading": "Sunday afternoon: reviews, done properly",
+   "body_html": "<p>Google's local ranking page says more reviews and positive ratings can help your business's local ranking. The easy part is asking: send a review link after each finished job, and put it on receipts and in your email signature.</p><p>The part that gets businesses in trouble is shortcuts. Google's <a href=\"https://support.google.com/contributionpolicy/answer/7400114\" target=\"_blank\" rel=\"noopener\">prohibited content policy</a> bans reviews that have been paid for, directly or in kind, and bans offering incentives such as discounts or free services in exchange for a review. It also bans content based on a conflict of interest, which can include current or former employment.</p><p>There is a Canadian legal angle too. In January 2024 the Competition Bureau <a href=\"https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html\" target=\"_blank\" rel=\"noopener\">warned businesses</a> that they could be liable for reviews posted by employees who do not disclose their connection, and recommended training staff and having a compliance program. So: no staff star ratings, no reviews from people with a conflict of interest, and no \"10% off for a 5-star review\".</p>",
+   "takeaway": "Ask every real customer for a review; never pay, discount or ask staff for one."
+  },
+  {
+   "heading": "What to skip, and how long to wait",
+   "body_html": "<p>Google's starter guide is refreshingly blunt about common myths. It says Google Search does not use the keywords meta tag, that keyword stuffing is against its spam policies, that keywords in your domain name have hardly any effect, and that the length of content alone does not matter for ranking. You do not need a new domain called torontobestplumber.ca, and you do not need 3,000-word pages.</p><p>Do run your homepage through <a href=\"https://pagespeed.web.dev/\" target=\"_blank\" rel=\"noopener\">PageSpeed Insights</a>, Google's page speed checker, to see how it performs on phones, and fix anything glaring such as huge uncompressed photos.</p><p>Then be patient. Google says some changes can take effect in a few hours and others could take several months, and suggests waiting a few weeks before judging results. Check Search Console once a month rather than every morning.</p>",
+   "takeaway": "Ignore the myths, fix the basics once, then give Google weeks, not days."
+  },
+  {
+   "heading": "When it is worth hiring help",
+   "body_html": "<p>The weekend checklist covers a lot, but it will not fix everything. Consider paying for help if Search Console shows indexing or technical errors you do not understand, if your website platform will not let you edit titles or add pages, if you are in a crowded category such as lawyers, dentists or renovators in Toronto proper, or if you simply will not find the hours.</p><p>Google has its own page on <a href=\"https://developers.google.com/search/docs/fundamentals/do-i-need-seo\" target=\"_blank\" rel=\"noopener\">whether you need an SEO</a>. Its key warnings: no one can guarantee a #1 ranking on Google, be careful of anyone secretive about what they will do, be sceptical of unsolicited SEO emails, and give an outside firm read-only access to Search Console during an audit. You remain responsible for what any firm does to your site.</p>",
+   "takeaway": "Do the basics yourself; hire help for technical problems or competitive markets, and walk away from anyone promising #1."
+  }
+ ],
+ "bottom_line_html": "<p>SEO for a small business is mostly unglamorous housekeeping: make sure Google can see your site, give each service a clear page, complete your Business Profile honestly and collect real reviews. You can do all of that in a weekend, and it costs nothing but time.</p><p>If you would rather hand it off, or the checklist turned up problems you cannot fix, our <a href=\"../../digital-marketing/\">digital marketing team</a> can review your site and Business Profile and tell you plainly what is worth doing. And if you want to use AI tools to draft those service pages faster, our <a href=\"../../ai-course/\">free AI course for beginners</a> is a good place to start.</p>",
+ "faq": [
+  {"q": "Can I do SEO for my small business myself?", "a": "Yes, the basics. Checking that Google has indexed your site, setting up the free Search Console, writing a clear page and title for each service, completing your Google Business Profile and asking customers for reviews are all things an owner can do without technical skills."},
+  {"q": "How long does SEO take to work?", "a": "Google's SEO Starter Guide says some changes can take effect in a few hours while others could take several months, and suggests waiting a few weeks before judging whether a change helped."},
+  {"q": "Can I pay Google to rank higher on Google Maps?", "a": "No. Google's Business Profile help says there is no way to request or pay for a better local ranking. Local results are mainly based on relevance, distance and prominence, so a complete profile and genuine reviews are what you can work on."},
+  {"q": "Is it okay to offer a discount for Google reviews?", "a": "No. Google's contribution policy prohibits offering incentives such as payment, discounts or free goods or services in exchange for a review. Ask every genuine customer instead, with no strings attached."}
+ ],
+ "sources": [
+  {"label": "Google Search Central: SEO Starter Guide", "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"},
+  {"label": "Google Search Central: Do you need an SEO?", "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo"},
+  {"label": "Search Console Help: About Search Console", "url": "https://support.google.com/webmasters/answer/9128668"},
+  {"label": "Google Business Profile Help: Tips to improve your local ranking on Google", "url": "https://support.google.com/business/answer/7091"},
+  {"label": "Google Business Profile Help: Guidelines for representing your business on Google", "url": "https://support.google.com/business/answer/3038177"},
+  {"label": "Google Maps user contributed content policy: Prohibited and restricted content", "url": "https://support.google.com/contributionpolicy/answer/7400114"},
+  {"label": "Competition Bureau Canada: Online reviews posted by employees, businesses could be liable (January 2024)", "url": "https://www.canada.ca/en/competition-bureau/news/2024/01/online-reviews-posted-by-employees-businesses-could-be-liable.html"},
+  {"label": "Google: PageSpeed Insights", "url": "https://pagespeed.web.dev/"}
+ ],
+ "related": [
+  {"label": "Our digital marketing services", "href": "../../digital-marketing/"},
+  {"label": "How to rank higher on Google Maps in Toronto", "href": "../rank-higher-google-maps-toronto/"},
+  {"label": "Website not showing on Google? How to fix it", "href": "../website-not-showing-on-google-fix/"}
+ ]
+}
