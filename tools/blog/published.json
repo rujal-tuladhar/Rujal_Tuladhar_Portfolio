@@ -118,7 +118,7 @@
     "slug": "will-customers-hate-ai-receptionist",
     "title": "Will customers hate an AI receptionist? What makes callers stay",
     "category": "AI Automation",
-    "words": 1255,
+    "words": 1301,
     "sources": [
       "https://ised-isde.canada.ca/site/ised/en/voluntary-code-conduct-responsible-development-and-management-advanced-generative-ai-systems",
       "https://elevenlabs.io/docs/eleven-agents/customization/tools/system-tools/transfer-to-number",
@@ -127,7 +127,8 @@
       "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/",
       "https://www150.statcan.gc.ca/n1/daily-quotidien/220817/mc-a003-eng.htm",
       "https://www150.statcan.gc.ca/n1/daily-quotidien/220817/g-a007-eng.htm"
-    ]
+    ],
+    "updated": "2026-10-15"
   },
   {
     "date": "2026-10-13",
