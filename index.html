@@ -465,6 +465,98 @@
             <!-- LATEST-POST:END -->
         </div>
 
+        <!--==================== FREE AI TOOLKIT (video + copy-paste prompts) ====================-->
+        <section class="section" id="free-ai">
+            <h2 class="section__title">Free: Let AI Do Your Repeated Work</h2>
+            <span class="section__subtitle">Watch the 45-second tour, then copy a prompt into Claude and try it on today's work</span>
+
+            <style>
+                .fai__wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; display: grid; gap: 2rem; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); align-items: start; }
+                .fai__video { width: 100%; border-radius: 1.2rem; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); background: #0b1f3a; aspect-ratio: 9 / 16; height: auto; object-fit: cover; display: block; }
+                .fai__note { font-size: var(--smaller-font-size); color: var(--text-color); margin-top: .5rem; text-align: center; }
+                .fai__grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+                .fai__card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.18); border-radius: 1.1rem; padding: 1.1rem 1.1rem 1rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07); display: flex; flex-direction: column; }
+                .fai__tag { font-size: var(--smaller-font-size); color: var(--first-color-text); font-weight: 600; }
+                .fai__title { font-size: var(--h3-font-size); color: var(--title-color); margin: .2rem 0 .6rem; }
+                .fai__prompt { white-space: pre-wrap; font-family: inherit; font-size: .82rem; line-height: 1.5; color: var(--text-color); background: rgba(0, 150, 221, 0.06); border-radius: .7rem; padding: .7rem .8rem; margin: 0 0 .8rem; max-height: 9.5rem; overflow: auto; flex: 1; }
+                .fai__copy { align-self: flex-start; min-height: 44px; padding: .4rem 1.1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: transparent; color: var(--first-color-text); font-weight: 600; cursor: pointer; }
+                .fai__copy.done { background: var(--first-color); color: #fff; }
+                .fai__cta { grid-column: 1 / -1; text-align: center; margin-top: .5rem; color: var(--text-color); }
+                .fai__cta a { color: var(--first-color-text); font-weight: 600; }
+                @media screen and (max-width: 767px) { .fai__wrap { grid-template-columns: 1fr; } .fai__videobox { max-width: 320px; margin: 0 auto; } }
+            </style>
+
+            <div class="fai__wrap">
+                <div class="fai__videobox">
+                    <video class="fai__video" controls preload="none" playsinline poster="assets/video/jade-3-ai-tools-poster.jpg" width="540" height="960">
+                        <source src="assets/video/jade-3-ai-tools.mp4" type="video/mp4">
+                    </video>
+                    <p class="fai__note">3 AI tools every small business should try. AI presenter.</p>
+                </div>
+                <div class="fai__grid">
+                    <div class="fai__card">
+                        <span class="fai__tag">Every inbox, every day</span>
+                        <h3 class="fai__title">Reply to customer emails</h3>
+                        <pre class="fai__prompt" id="fai-p0">You are the friendly front desk of [business name], a [type of business] in [city]. Write a short, warm reply to the customer email below. Answer their question using only the facts I give you, keep it under 120 words, and end with one clear next step. If something is missing, tell me what to ask instead of guessing.
+
+Facts: [prices, hours, policies]
+Customer email: [paste the email, without card numbers or health details]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p0">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Trades, cleaners, studios</span>
+                        <h3 class="fai__title">Turn rough notes into a quote</h3>
+                        <pre class="fai__prompt" id="fai-p1">Turn my rough job notes into a clean, professional quote for [customer first name]. List each item with a short description and price, add the subtotal, 13% HST and total, and a line saying the quote is valid for 30 days. Keep my prices exactly as written and do not add items.
+
+My notes: [paste notes]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p1">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">After every call</span>
+                        <h3 class="fai__title">Call or meeting notes to follow-up</h3>
+                        <pre class="fai__prompt" id="fai-p2">Here are my notes from a call with a customer. Give me: 1) a three-line summary, 2) a to-do list with who does what by when, and 3) a short follow-up email I can send today confirming what we agreed. Use only what is in the notes.
+
+Notes: [paste notes]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p2">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Five minutes a week</span>
+                        <h3 class="fai__title">Reply to Google reviews</h3>
+                        <pre class="fai__prompt" id="fai-p3">Write a reply from [business name] to each Google review below. Thank them by first name, mention one specific thing they said, keep each reply under 50 words and sound like a real local owner, not a template. For a negative review, apologize once, do not argue, and invite them to call [phone].
+
+Reviews: [paste reviews]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p3">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Instagram, Facebook, LinkedIn</span>
+                        <h3 class="fai__title">A week of social posts</h3>
+                        <pre class="fai__prompt" id="fai-p4">Write 5 short social posts for [business name], a [type of business] in [city]. Mix: one tip, one behind-the-scenes, one customer question answered, one offer ([offer]), one local Toronto angle. Each under 60 words with one emoji and 3 hashtags. No made-up statistics or reviews.</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p4">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Train staff once, not ten times</span>
+                        <h3 class="fai__title">Write a step-by-step checklist (SOP)</h3>
+                        <pre class="fai__prompt" id="fai-p5">I will describe a task we repeat every week. Turn it into a numbered step-by-step checklist a new staff member could follow on day one, with what to check at each step and common mistakes to avoid. Ask me up to 3 questions first if anything is unclear.
+
+The task: [describe it the way you would explain it out loud]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p5">Copy prompt</button>
+                    </div>
+                </div>
+                <p class="fai__cta">Paste a prompt into <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> (free plan works), fill in the [brackets], and never paste card numbers or private customer details.
+                    Want this running on its own every day? <a href="#contact">Book a free call</a> &middot; or learn the basics in our <a href="ai-course/">free AI course</a>.</p>
+            </div>
+
+            <script>
+                document.querySelectorAll('.fai__copy').forEach(function (b) {
+                    b.addEventListener('click', function () {
+                        var t = document.getElementById(b.getAttribute('data-fai')).textContent;
+                        var ok = function () { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(function () { b.textContent = 'Copy prompt'; b.classList.remove('done'); }, 2500); };
+                        if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(t).then(ok, function () {}); }
+                    });
+                });
+            </script>
+        </section>
+
         <!--==================== AI CREATIVES (showcase band) ====================-->
         <section class="section aic" id="ai-creatives">
 
