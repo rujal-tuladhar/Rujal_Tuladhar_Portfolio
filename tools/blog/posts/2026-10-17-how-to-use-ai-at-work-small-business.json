@@ -1,0 +1,139 @@
+{
+ "slug": "how-to-use-ai-at-work-small-business",
+ "title": "How to use AI at work: two small business workflows you can copy",
+ "category": "AI Tools",
+ "excerpt": "How small business owners actually use AI at work: drafting emails, meeting notes, product copy, photos and an AI phone assistant, with steps and privacy notes.",
+ "keywords": "how to use ai at work small business, ai for small business owners, ai meeting notes small business, ai product descriptions, ai instagram captions, ai phone assistant bakery, ai workflow toronto",
+ "cover_title": "How to Use AI at Work",
+ "video": {
+  "src": "assets/video/interview-ai-at-work.mp4",
+  "poster": "assets/video/interview-ai-at-work-poster.jpg",
+  "caption": "Watch: two ways a small business can use AI at work (AI-generated video; Zara and Naomi are fictional characters, not real customers)"
+ },
+ "intro_html": "<p>Most advice about AI at work is either too vague (\"use ChatGPT to save time\") or built for big companies with IT departments. A small business owner needs something more concrete: which tasks to hand over, which tools to use and where to stay careful.</p><p>The short interview above shows two example workflows. To be clear up front: <strong>Zara and Naomi are AI-generated characters</strong> that we created for Nova Toronto to illustrate these ideas. They are not real people, not our clients and not testimonials. Zara runs a small marketing studio downtown; Naomi runs a home bakery in Scarborough. Their setups are realistic and easy to copy, so this post breaks each one into steps, names tools that can do the job, and flags the Canadian privacy points to respect. We checked every product feature and rule below against the official pages on October 17, 2026.</p>",
+ "glance": [
+  {
+   "icon": "uil-envelope-edit",
+   "heading": "Drafts, then your edit",
+   "sub": "AI writes the first draft of emails and proposals; you make it sound like you"
+  },
+  {
+   "icon": "uil-clipboard-notes",
+   "heading": "Meeting notes",
+   "sub": "Record the call, get a summary and a to-do list, with everyone told"
+  },
+  {
+   "icon": "uil-image",
+   "heading": "Product copy and photos",
+   "sub": "Descriptions, captions and images, checked so they stay honest"
+  },
+  {
+   "icon": "uil-phone",
+   "heading": "Phone assistant",
+   "sub": "Answers routine order questions when your hands are busy"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Privacy first",
+   "sub": "Tell people when you record, and keep client data out of free tools"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Workflow 1: AI drafts the email, you make it sound like you",
+   "image": {
+    "src": "assets/img/blog/media/zara-studio.jpg",
+    "alt": "AI-generated character Zara, a fictional marketing studio owner in glasses and a camel blazer, smiling at a desk with a laptop and plants by the window"
+   },
+   "body_html": "<p>In the video, Zara says she uses AI to draft client emails and proposals in minutes, then edits them so they still sound like her. That second half is the important part. AI is very good at a first draft and very bad at knowing your client, your prices and your tone.</p><p>Here is how to set it up in an afternoon:</p><ol><li><strong>Pick one assistant</strong> and stick with it for a month. ChatGPT, Claude and Gemini all handle this well; our comparisons of <a href=\"../claude-vs-chatgpt-small-business/\">Claude vs ChatGPT</a> and <a href=\"../gemini-vs-chatgpt-small-business/\">Gemini vs ChatGPT</a> can help you choose.</li><li><strong>Write a short \"about us\" note</strong> once: what you sell, who you sell to, your usual price ranges and three phrases you would never say. Paste it at the top of each request, or save it in the tool's custom instructions.</li><li><strong>Give it real inputs:</strong> your bullet points from the call, the client's own email, your standard scope. The better the notes, the less editing.</li><li><strong>Edit every draft before it goes out.</strong> Check names, numbers, dates and anything promised. AI tools can state wrong details confidently.</li><li><strong>Save your best edited versions</strong> as templates, so the next draft starts closer to finished.</li></ol><p>One privacy habit: leave out anything a client would not want shared, such as financial details or personal information about their customers, unless you are on a business plan whose data terms you have read.</p>",
+   "takeaway": "Let AI write the first draft and keep the final edit for yourself; that is where your voice and your accuracy live."
+  },
+  {
+   "heading": "Workflow 2: record the meeting, get the summary and to-do list",
+   "body_html": "<p>Zara calls meetings her biggest win: she records the call, AI gives her the summary and the to-do list, and nothing slips through. Many video-call tools now do this built in, so you may not need anything new.</p><p>Google Meet is a good example. Its \"Take notes for me\" feature captures meeting notes in Google Docs, and the notes include a summary of the main topics plus a next-steps section that lists actionable items and assigned tasks. Google says all participants are told notes are being taken and see a pencil icon, and the organizer gets an email with the notes shortly after the meeting. It needs an eligible Google Workspace edition or Google AI plan, and it supports one language at a time (<a href=\"https://support.google.com/meet/answer/14754931?hl=en\" target=\"_blank\" rel=\"noopener\">Google Meet Help</a>). We covered a recent change to how these notes are switched on in <a href=\"../google-meet-ai-notes-default-september-2026/\">our post on Google Meet AI notes</a>.</p><p><strong>Consent matters here.</strong> Clients are people too, and recording them is collecting personal information. The Office of the Privacy Commissioner of Canada's guidance on recorded calls says an organization must inform the person that it is recording, state the purpose as clearly and narrowly as possible, and give them a choice about whether their voice is recorded (<a href=\"https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/\" target=\"_blank\" rel=\"noopener\">OPC: Recording of customer telephone calls</a>). The guidance is written for phone calls, but the same habits work for video meetings. A simple line at the start does it: <em>\"I use an AI note-taker so I don't miss anything; the notes stay with us. Is that OK?\"</em> If someone says no, take notes by hand.</p><p>After the meeting, spend two minutes reading the to-do list and fixing anything the AI misheard before you send it to the client.</p>",
+   "takeaway": "Turn on the note-taker your video tool already has, ask permission at the start of every call, and check the to-do list before sharing it."
+  },
+  {
+   "heading": "Workflow 3: product descriptions, captions and photos",
+   "image": {
+    "src": "assets/img/blog/media/naomi-bakery.jpg",
+    "alt": "AI-generated character Naomi, a fictional home baker in a blue sweater and apron, smiling beside a rack of muffins in a bright kitchen"
+   },
+   "body_html": "<p>Naomi says AI writes her product descriptions and Instagram captions, and makes product photos when she doesn't have time for a shoot. For a one-person shop, that is hours a week back.</p><p><strong>Descriptions.</strong> If you sell on Shopify, the text generator is already in your admin. Shopify's help pages say Sidekick can write product descriptions, blog posts and store pages when you click the generate-text icon, and they add a fair warning: AI outputs can contain errors, so review anything a tool creates or changes (<a href=\"https://help.shopify.com/en/manual/shopify-admin/productivity-tools/shopify-magic\" target=\"_blank\" rel=\"noopener\">Shopify Help Center</a>). For a bakery, give the tool the facts it cannot guess: ingredients, allergens, sizes, price, shelf life and pickup or delivery area. Then check those facts in the result line by line. An allergen mistake is a real safety problem, not a typo.</p><p><strong>Captions.</strong> Ask for five short options in your voice for one photo, pick one, and edit it. Batch a week of captions in one sitting so you are not writing at 10 p.m.</p><p><strong>Photos.</strong> AI images are great for backgrounds, seasonal banners and styling ideas. Be careful when an image shows the product itself. Canada's Competition Bureau states that under the Competition Act it is against the law to advertise or market something in a way that is false or misleading (<a href=\"https://competition-bureau.canada.ca/en/deceptive-marketing-practices\" target=\"_blank\" rel=\"noopener\">Competition Bureau: Deceptive marketing practices</a>). If a generated cake looks nothing like the cake a customer receives, that is a problem. A safer approach: photograph your real product on your phone and use AI only to clean up the background or lighting. Meta has said it adds \"AI info\" labels to images when people disclose they are AI-generated or when its systems detect industry-standard signals (<a href=\"https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/\" target=\"_blank\" rel=\"noopener\">Meta</a>), so being upfront costs little.</p>",
+   "takeaway": "Feed AI the facts, then check every allergen, price and size; keep product photos true to what customers will actually get."
+  },
+  {
+   "heading": "Workflow 4: an AI phone assistant for when your hands are busy",
+   "image": {
+    "src": "assets/img/blog/media/naomi-phone.jpg",
+    "alt": "AI-generated character Naomi, a fictional baker, holding up her phone and talking in a brick-walled kitchen with trays of dough behind her"
+   },
+   "body_html": "<p>The last example in the video: when Naomi is elbow-deep in dough and can't answer, an AI assistant answers the order questions for her. Most callers to a small food business ask the same things: are you open, do you have this today, can I order for Saturday, do you deliver to my area, is it nut-free.</p><p>An AI phone assistant answers those from information you give it, takes the caller's name, number and order details, and sends you a summary. Before you set one up:</p><ul><li><strong>Write the answer sheet:</strong> hours, menu, prices, lead times, pickup address, delivery area and your allergen policy.</li><li><strong>Decide what it must not do:</strong> for example, never confirm a custom cake or promise an allergen-free product; it takes the details and you call back.</li><li><strong>Add a recording notice</strong> if calls are recorded or transcribed, following the same OPC guidance above: tell callers, say why, and offer another way to reach you.</li><li><strong>Test it yourself</strong> with awkward questions before customers hear it.</li></ul><p>For the full picture, see our guides to <a href=\"../ai-receptionist-small-business/\">AI receptionists for small business</a> and <a href=\"../will-customers-hate-ai-receptionist/\">whether customers mind talking to one</a>.</p>",
+   "takeaway": "Give the assistant a clear answer sheet and a list of things it must pass to you, especially anything about allergens or custom orders."
+  },
+  {
+   "heading": "Where to start this week",
+   "body_html": "<p>You do not need all four workflows at once. Pick the one that matches your biggest weekly time sink and run it for two weeks:</p><ol><li><strong>Writing eats your evenings?</strong> Start with drafted emails, proposals or product descriptions.</li><li><strong>Meetings blur together?</strong> Turn on the note-taker in the video tool you already use, with consent.</li><li><strong>Missing calls while you work?</strong> Start with an AI phone assistant or a missed-call text-back.</li></ol><p>A short privacy checklist applies to all of them. Canada's federal private-sector privacy law, PIPEDA, covers organizations that handle personal information in the course of a commercial activity, and the Privacy Commissioner says those businesses must follow ten fair information principles, including consent and identifying purposes; Alberta, British Columbia and Quebec have their own similar laws (<a href=\"https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/\" target=\"_blank\" rel=\"noopener\">OPC: PIPEDA in brief</a>). In practice: know what each AI tool does with the data you put in, only collect what you need, and tell people when you record them. This is general information, not legal advice.</p><p>If you want more ideas, our list of <a href=\"../business-tasks-to-automate-with-ai/\">business tasks to automate with AI</a> and our <a href=\"../free-ai-tools-small-business/\">free AI tools for small business</a> are good next reads, and the <a href=\"../../ai-course/\">free beginner AI course</a> covers the basics in seven short lessons.</p>",
+   "takeaway": "Choose one workflow, run it for two weeks, and measure the hours saved before adding the next."
+  }
+ ],
+ "bottom_line_html": "<p>Using AI at work as a small business owner is less about fancy tools and more about handing over the repetitive first step: the first draft, the meeting notes, the caption, the routine phone question. You keep the final check. The Zara and Naomi examples are fictional, but each workflow runs on tools that exist today. If you would rather have it set up for you, Nova Toronto helps <a href=\"../../ai-automation/\">GTA businesses set up AI step by step</a>, from <a href=\"../../ai-automation/scarborough/\">Scarborough</a> to <a href=\"../../ai-automation/toronto/\">downtown Toronto</a>, including our <a href=\"../../ai-automation/ai-receptionist/\">AI receptionist service</a>.</p>",
+ "faq": [
+  {
+   "q": "Are Zara and Naomi real Nova Toronto customers?",
+   "a": "No. Zara and Naomi are AI-generated characters we created for the video to illustrate two common workflows. They are not real people, clients or testimonials. The tools and steps described in this post are real and available today."
+  },
+  {
+   "q": "What is the easiest way for a small business owner to start using AI at work?",
+   "a": "Start with first drafts: emails, proposals, product descriptions or captions. Give the AI your notes and facts, then edit the result yourself. It needs no setup beyond one AI assistant and saves time from the first day."
+  },
+  {
+   "q": "Do I need permission to record a client meeting for AI notes?",
+   "a": "Tell people before you record. The Office of the Privacy Commissioner of Canada says organizations recording calls should inform the person, explain the purpose and give them a choice. Ask at the start of the meeting and take notes by hand if someone declines. This is general information, not legal advice."
+  },
+  {
+   "q": "Can I use AI-generated photos of my products?",
+   "a": "Use them carefully. Canadian law prohibits false or misleading advertising, so an image should not make your product look different from what customers receive. Photograph the real product and use AI for backgrounds or lighting."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google Meet Help: Take notes for me in Google Meet",
+   "url": "https://support.google.com/meet/answer/14754931?hl=en"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Recording of customer telephone calls",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: PIPEDA in brief",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+  },
+  {
+   "label": "Shopify Help Center: Generating text with Sidekick",
+   "url": "https://help.shopify.com/en/manual/shopify-admin/productivity-tools/shopify-magic"
+  },
+  {
+   "label": "Competition Bureau Canada: Deceptive marketing practices",
+   "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices"
+  },
+  {
+   "label": "Meta: Our approach to labeling AI-generated content and manipulated media",
+   "url": "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI automation services",
+   "href": "../../ai-automation/"
+  },
+  {
+   "label": "Business tasks to automate with AI",
+   "href": "../business-tasks-to-automate-with-ai/"
+  },
+  {
+   "label": "Free AI tools for small business",
+   "href": "../free-ai-tools-small-business/"
+  }
+ ]
+}
