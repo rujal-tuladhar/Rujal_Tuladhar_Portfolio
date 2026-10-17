@@ -1,0 +1,139 @@
+{
+ "slug": "missed-calls-small-business-ai-fix",
+ "title": "Missed calls: how a small business can stop losing jobs to voicemail",
+ "category": "AI Automation",
+ "excerpt": "Missed calls cost small businesses jobs. Two AI fixes: a receptionist that answers and books 24/7, and an automatic text-back, plus the Canadian rules.",
+ "keywords": "missed calls small business, missed call text back, ai receptionist small business, stop missing calls, casl text messages, call recording consent canada, ai phone answering toronto",
+ "cover_title": "Stop Losing Jobs to Voicemail",
+ "video": {
+  "src": "assets/video/jade-missed-calls.mp4",
+  "poster": "assets/video/jade-missed-calls-poster.jpg",
+  "caption": "Watch: two ways AI stops missed calls costing you jobs (AI-generated presenter)"
+ },
+ "intro_html": "<p>You are under a sink, on a ladder or with a client, and the phone rings. You can't pick up. By the time you call back, the person has already booked someone else. For a trades business, a clinic or a salon, missed calls are often missed jobs, and voicemail rarely saves them, because a caller who wants help today can simply try the next number on the list.</p><p>The short video above, presented by Jade, an AI-generated character we made for Nova Toronto, covers the two fixes in about 30 seconds. This post goes deeper: how each fix works, what it takes to set up, and the Canadian rules on automated texts and call recording you need to respect. We checked every rule and product feature below against the official pages on October 17, 2026.</p>",
+ "glance": [
+  {
+   "icon": "uil-phone-slash",
+   "heading": "The problem",
+   "sub": "A caller who reaches voicemail can just call the next business"
+  },
+  {
+   "icon": "uil-robot",
+   "heading": "Fix 1: AI receptionist",
+   "sub": "Answers every call day or night, handles common questions, books jobs"
+  },
+  {
+   "icon": "uil-comment-alt-message",
+   "heading": "Fix 2: text-back",
+   "sub": "An automatic text with your booking link when a call slips through"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "CASL applies to texts",
+   "sub": "Marketing texts need consent, your details and a working unsubscribe"
+  },
+  {
+   "icon": "uil-microphone",
+   "heading": "Recording needs notice",
+   "sub": "Tell callers you record, why, and give them a choice"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Why missed calls cost more than you think",
+   "image": {
+    "src": "assets/img/blog/media/jade-missed-calls.jpg",
+    "alt": "AI-generated presenter Jade frowning at her phone as missed-call alerts pop up, with work gloves on the counter"
+   },
+   "body_html": "<p>A missed call does not show up on any report. Nobody complains, nobody leaves a review. The person just goes elsewhere, and you never learn what the job was worth.</p><p>It also tends to happen at the worst times: when you are busy on another job, at lunch, after 5 p.m. and on weekends, which is often when homeowners and working parents finally get a chance to call. Hiring someone to sit by the phone all day is expensive for a small team, and a voicemail greeting asks the caller to do the work of waiting for you.</p><p>A quick way to see the size of the problem: open your phone's call log or your phone provider's dashboard and count the unanswered calls from numbers that never called back. Do it for one normal week. That number is your starting point, and it tells you whether either fix below is worth paying for.</p>",
+   "takeaway": "Count one week of missed calls that never called back before you buy anything; that is the problem you are solving."
+  },
+  {
+   "heading": "Fix 1: an AI receptionist that answers and books, 24/7",
+   "image": {
+    "src": "assets/img/blog/media/jade-ai-receptionist.jpg",
+    "alt": "AI-generated presenter Jade smiling at a desk while a glowing voice icon rises from a phone, suggesting an AI receptionist answering a call"
+   },
+   "body_html": "<p>An AI receptionist is a voice agent that picks up when you can't. It greets the caller in your business name, answers common questions from information you give it (hours, service area, prices, what to bring), takes the caller's details and, if it is connected to your calendar, books the appointment.</p><p>The building blocks are now widely available. ElevenLabs, for example, says its agents can connect to existing phone systems through a SIP trunk or a native Twilio integration, use tools to call clients and APIs to perform actions, and let you search call transcripts afterwards (<a href=\"https://elevenlabs.io/docs/agents-platform/overview\" target=\"_blank\" rel=\"noopener\">ElevenLabs Agents overview</a>). Phone providers are building it in too: Quo, formerly OpenPhone, describes its AI agent Sona as able to greet callers, answer questions and capture messages during and after business hours, using business information like pricing, hours and services (<a href=\"https://www.quo.com/features/missed-call-service\" target=\"_blank\" rel=\"noopener\">Quo missed call service</a>).</p><p>Good fits: trades, clinics, salons, law and accounting offices, anyone whose calls are mostly the same ten questions plus a booking. Poor fits: businesses where every call is a complex, emotional conversation that only a person can handle.</p><p>Worried customers will hang up on a robot? We looked at that honestly in <a href=\"../will-customers-hate-ai-receptionist/\">will customers hate an AI receptionist?</a>, and our guide to <a href=\"../automated-phone-answering-small-business/\">automated phone answering for small business</a> compares the options.</p>",
+   "takeaway": "If most of your calls are routine questions and bookings, an AI receptionist can catch the ones you miss on a job or after hours."
+  },
+  {
+   "heading": "Fix 2: an automatic text-back with a booking link, plus call summaries",
+   "image": {
+    "src": "assets/img/blog/media/jade-text-back.jpg",
+    "alt": "AI-generated presenter Jade holding up a phone that shows a text message conversation"
+   },
+   "body_html": "<p>If you are not ready for a voice agent, or as a backup to one, set up a missed-call text-back. When a call goes unanswered, the caller gets a short text right away, for example: <em>\"Sorry we missed you, this is Maple Plumbing. Book a time here or reply with what you need.\"</em> The caller has something to do immediately instead of dialling your competitor.</p><p>Many business phone apps include this. Quo's page says you can respond to texts, missed calls or voicemails with a pre-defined message and set automatic replies based on different triggers, and it lists call summaries among features that need a paid subscription (<a href=\"https://www.quo.com/features/missed-call-service\" target=\"_blank\" rel=\"noopener\">Quo</a>). The booking link can come from a tool you may already have: Google Calendar lets you create an appointment schedule with a booking page, though Google notes some features need an eligible Google Workspace or Google One subscription and that you must set it up on a computer, not the phone app (<a href=\"https://support.google.com/calendar/answer/10729749?hl=en\" target=\"_blank\" rel=\"noopener\">Google Calendar Help</a>).</p><p>The second half is call summaries: a short note on your phone after each call saying who called, what they wanted and what was promised. That way you can call back the urgent ones first, between jobs, without listening to a pile of voicemails.</p>",
+   "takeaway": "A text-back with a booking link is the simplest fix; turn it on first, then decide if you also need a voice agent."
+  },
+  {
+   "heading": "The Canadian rules: CASL for texts, consent for recordings",
+   "body_html": "<p>Automating your phone does not exempt you from Canadian law. Two sets of rules matter. This is general information, not legal advice.</p><p><strong>Automated texts and CASL.</strong> Canada's Anti-Spam Legislation focuses on commercial electronic messages, which the government describes as messages that encourage participation in a commercial activity, and it notes spam can include unsolicited text messages (<a href=\"https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/canadas-anti-spam-legislation\" target=\"_blank\" rel=\"noopener\">ISED: Canada's anti-spam legislation</a>). Innovation, Science and Economic Development Canada's consent guide says consent applies to messages such as emails or texts; that implied consent is time-limited, valid for up to 2 years or just 6 months in the case of inquiries or applications; and that every unsubscribe request must be actioned within 10 business days or less, at no cost to the recipient (<a href=\"https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email\" target=\"_blank\" rel=\"noopener\">ISED: Getting consent to send email</a>). The same guide lists what each message must include: your business name, a current mailing address, accurate contact information and an unsubscribe mechanism.</p><p>In practice: a factual reply to someone who just called you about a job is a different thing from marketing. Adding that number to a promotions list and texting deals every month is marketing, and it needs valid consent and a record of it. Keep the text-back factual and put your business name in it.</p><p><strong>Call recording.</strong> Many AI receptionists record and transcribe calls. The Office of the Privacy Commissioner of Canada says an organization must inform the customer that it is recording a call, should state the purpose as clearly and narrowly as possible, and must give customers a choice about whether their voice is recorded; where recording is not essential, it lists alternatives such as continuing without recording, email or completing the transaction online (<a href=\"https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/\" target=\"_blank\" rel=\"noopener\">OPC: Recording of customer telephone calls</a>). Consent is implied when the caller continues knowing the call is recorded and why.</p>",
+   "takeaway": "Open every AI-answered call with a short recording notice, and only text promotions to people who agreed to receive them."
+  },
+  {
+   "heading": "Setup checklist",
+   "body_html": "<p>Most of this can be done in a week. Work through the list in order:</p><ol><li><strong>Measure:</strong> count one week of missed calls that never called back.</li><li><strong>Write your answers:</strong> hours, service area, prices or price ranges, the ten questions callers ask most, and what counts as an emergency.</li><li><strong>Create a booking link:</strong> a calendar booking page with the job types and time slots you actually want.</li><li><strong>Turn on the text-back:</strong> short, with your business name, the booking link and a way to reply. No promotions.</li><li><strong>Add the AI receptionist</strong> if missed calls are frequent: connect it to your number, your calendar and the answers from step 2.</li><li><strong>Add the recording notice:</strong> one sentence at the start of the call that says the call is recorded, why, and how to reach a person instead.</li><li><strong>Set an escalation rule:</strong> urgent calls get forwarded or flagged to your phone right away.</li><li><strong>Test it yourself:</strong> call after hours, ask an awkward question, and read the summary you get.</li><li><strong>Review after 30 days:</strong> compare missed calls and bookings with your starting week.</li></ol><p>New to AI tools generally? Our <a href=\"../../ai-course/\">free beginner AI course</a> explains the basics in plain language.</p>",
+   "takeaway": "Start with the text-back and booking link this week; add the voice agent once you know how many calls you are missing."
+  }
+ ],
+ "bottom_line_html": "<p>Missed calls are a quiet leak, and voicemail does not plug it. An automatic text-back with a booking link is the quickest fix; an AI receptionist that answers and books around the clock catches the rest. Follow CASL for anything promotional and tell callers when you record. If you want it set up for you, our <a href=\"../../ai-automation/ai-receptionist/\">AI receptionist service</a> builds and tests the whole thing for GTA businesses.</p>",
+ "faq": [
+  {
+   "q": "What is the fastest way to stop losing customers to missed calls?",
+   "a": "Turn on an automatic missed-call text-back that sends your business name and a booking link as soon as a call goes unanswered. Many business phone apps include it. If you still miss many calls, add an AI receptionist that answers and books appointments 24/7."
+  },
+  {
+   "q": "Do Canadian anti-spam rules apply to automatic texts?",
+   "a": "CASL covers commercial electronic messages, including texts. If a message promotes your business, you need consent, your business name and contact details in the message, and an unsubscribe that is honoured within 10 business days. Keep missed-call replies factual and check the government's CASL guidance. This is general information, not legal advice."
+  },
+  {
+   "q": "Do I have to tell callers that an AI receptionist records the call?",
+   "a": "Yes, if the call is recorded. The Office of the Privacy Commissioner of Canada says organizations must tell customers a call is being recorded, explain the purpose, and give them a choice, such as another way to reach you."
+  },
+  {
+   "q": "Will an AI receptionist replace my staff?",
+   "a": "It works best covering the calls nobody can take: during jobs, lunch, evenings and weekends. Complex or sensitive calls should still go to a person, so set a rule that forwards urgent calls straight to you."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Innovation, Science and Economic Development Canada: Getting consent to send email",
+   "url": "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email"
+  },
+  {
+   "label": "Innovation, Science and Economic Development Canada: Canada's anti-spam legislation",
+   "url": "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/canadas-anti-spam-legislation"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Recording of customer telephone calls",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/"
+  },
+  {
+   "label": "ElevenLabs: ElevenAgents overview",
+   "url": "https://elevenlabs.io/docs/agents-platform/overview"
+  },
+  {
+   "label": "Quo (formerly OpenPhone): Missed call service",
+   "url": "https://www.quo.com/features/missed-call-service"
+  },
+  {
+   "label": "Google Calendar Help: Create an appointment schedule",
+   "url": "https://support.google.com/calendar/answer/10729749?hl=en"
+  }
+ ],
+ "related": [
+  {
+   "label": "Our AI receptionist service",
+   "href": "../../ai-automation/ai-receptionist/"
+  },
+  {
+   "label": "Automated phone answering for small business",
+   "href": "../automated-phone-answering-small-business/"
+  },
+  {
+   "label": "Will customers hate an AI receptionist?",
+   "href": "../will-customers-hate-ai-receptionist/"
+  }
+ ]
+}

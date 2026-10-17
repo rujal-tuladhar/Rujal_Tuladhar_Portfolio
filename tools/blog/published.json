@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-17",
+    "slug": "missed-calls-small-business-ai-fix",
+    "title": "Missed calls: how a small business can stop losing jobs to voicemail",
+    "category": "AI Automation",
+    "words": 1439,
+    "sources": [
+      "https://fightspam-combattrelepourriel.ised-isde.canada.ca/site/canada-anti-spam-legislation/en/getting-consent-send-email",
+      "https://ised-isde.canada.ca/site/canada-anti-spam-legislation/en/canadas-anti-spam-legislation",
+      "https://www.priv.gc.ca/en/privacy-topics/surveillance/02_05_d_14/",
+      "https://elevenlabs.io/docs/agents-platform/overview",
+      "https://www.quo.com/features/missed-call-service",
+      "https://support.google.com/calendar/answer/10729749?hl=en"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "slug": "ai-tools-small-business-video",
+    "title": "AI tools for small business: 3 that save hours (with video)",
+    "category": "AI Tools",
+    "words": 1427,
+    "sources": [
+      "https://claude.com/pricing",
+      "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+      "https://blog.google/technology/ai/nano-banana-pro/",
+      "https://one.google.com/about/google-ai-plans/",
+      "https://ai.google.dev/gemini-api/docs/pricing",
+      "https://elevenlabs.io/pricing",
+      "https://elevenlabs.io/pricing/agents",
+      "https://elevenlabs.io/use-policy",
+      "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+    ]
+  },
+  {
     "date": "2026-10-14",
     "slug": "automated-phone-answering-small-business",
     "title": "Automated phone answering for small business: what it costs in Canada",

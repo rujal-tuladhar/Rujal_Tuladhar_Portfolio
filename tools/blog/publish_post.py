@@ -150,6 +150,10 @@ def validate(post, all_html, update=False):
         fail('title is %d chars; keep it under 75' % len(post['title']))
     if len(post['excerpt']) > 165:
         fail('excerpt is %d chars; keep it under 165' % len(post['excerpt']))
+    for media in [post.get('video') or {}] + [x.get('image') or {} for x in post.get('sections', [])]:
+        for key in ('src', 'poster'):
+            if media.get(key) and not os.path.exists(os.path.join(REPO, media[key])):
+                fail('media file missing in repo: %s' % media[key])
     if post['category'] not in ALLOWED_CATEGORIES:
         fail('category %r not in %s' % (post['category'], sorted(ALLOWED_CATEGORIES)))
 
@@ -241,8 +245,18 @@ def render_post(post, date_iso, cover_rel, cover_abs):
         glance.append('                            <div><h4>%s</h4><p>%s</p></div></div>' % (html.escape(g['heading']), html.escape(g['sub'])))
 
     sections = []
+    v = post.get('video')          # optional: {"src": "assets/video/x.mp4", "poster": "assets/video/x.jpg", "caption": "..."}
+    if v:
+        sections.append('                    <figure style="max-width: 360px; margin: 0 auto 2rem;"><video controls preload="none" playsinline '
+                        'poster="../../%s" style="width: 100%%; border-radius: 1rem; box-shadow: 0 8px 30px rgba(0,70,120,0.15);">'
+                        '<source src="../../%s" type="video/mp4"></video><figcaption style="text-align: center; font-size: .85rem; '
+                        'margin-top: .5rem;">%s</figcaption></figure>' % (attr(v['poster']), attr(v['src']), html.escape(v.get('caption', ''))))
     for s in post['sections']:
         sections.append('                    <h2>%s</h2>' % html.escape(s['heading']))
+        im = s.get('image')        # optional per section: {"src": "assets/img/blog/x.jpg", "alt": "..."}
+        if im:
+            sections.append('                    <img src="../../%s" alt="%s" loading="lazy" style="width: 100%%; max-width: 420px; display: block; '
+                            'margin: 0 auto 1.25rem; border-radius: 1rem;">' % (attr(im['src']), attr(im.get('alt', ''))))
         sections.append('                    ' + s['body_html'].strip())
         sections.append('                    <div class="takeaway"><strong>What it means for you:</strong> %s</div>' % html.escape(s['takeaway']))
         sections.append('')

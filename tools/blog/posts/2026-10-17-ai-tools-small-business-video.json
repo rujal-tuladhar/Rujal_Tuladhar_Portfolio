@@ -1,0 +1,146 @@
+{
+ "slug": "ai-tools-small-business-video",
+ "title": "AI tools for small business: 3 that save hours (with video)",
+ "category": "AI Tools",
+ "excerpt": "AI tools for small business: what Claude, Nano Banana Pro and ElevenLabs do well, what they cost today, privacy cautions and a first task for each.",
+ "keywords": "ai tools for small business, claude for small business, nano banana pro, elevenlabs ai voice, ai phone assistant, ai product images, ai tools canada",
+ "cover_title": "3 AI Tools That Save Hours",
+ "video": {
+  "src": "assets/video/jade-3-ai-tools.mp4",
+  "poster": "assets/video/jade-3-ai-tools-poster.jpg",
+  "caption": "Watch: Jade explains Claude, Nano Banana Pro and ElevenLabs in under a minute (AI-generated presenter)"
+ },
+ "intro_html": "<p>Most small-business owners do not need twenty AI apps. They need two or three that take real hours off the week: the emails and quotes that pile up at night, the product photos you never get around to shooting, and the phone that rings while you are with a customer.</p><p>In the short video above, our AI-generated presenter Jade walks through the three tools we reach for most often: <strong>Claude</strong> for writing and summaries, <strong>Nano Banana Pro</strong> for images, and <strong>ElevenLabs</strong> for natural-sounding voices. Below, we go further: what each does well for an Ontario small business, what it costs according to the official pages we checked on October 17, 2026, what to watch for on privacy, and one starter task you can try this week. Prices are listed in US dollars and change often, so check the linked pages before you buy.</p>",
+ "glance": [
+  {
+   "icon": "uil-envelope-edit",
+   "heading": "Claude for writing",
+   "sub": "Free plan to try; Pro is US$20 a month, or US$17 a month billed yearly"
+  },
+  {
+   "icon": "uil-image",
+   "heading": "Nano Banana Pro for images",
+   "sub": "In the Gemini app with limited free quotas; higher limits on Google AI plans"
+  },
+  {
+   "icon": "uil-microphone",
+   "heading": "ElevenLabs for voice",
+   "sub": "Free plan with 10k credits; phone agents include some call minutes on every plan"
+  },
+  {
+   "icon": "uil-shield-check",
+   "heading": "Privacy first",
+   "sub": "Keep customer details out of prompts on personal plans and tell callers they are talking to AI"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "1. Claude: emails, quotes and summaries",
+   "image": {
+    "src": "assets/img/blog/media/jade-claude.jpg",
+    "alt": "AI-generated presenter Jade introducing Claude as a tool for emails, quotes and summaries"
+   },
+   "body_html": "<p>Claude, made by Anthropic, is a writing and thinking assistant. For a small business, the everyday wins are simple: turn a rough note into a polite customer reply, turn your price list and job details into a clear, itemized quote, and turn a long supplier PDF or contract into the five things you need to act on. You still check every number, because it only knows your prices and policies if you give them to it.</p><p><strong>What it costs:</strong> the <a href=\"https://claude.com/pricing\" target=\"_blank\" rel=\"noopener\">Claude pricing page</a> lists a Free plan at $0, Pro at US$20 a month billed monthly or US$17 a month on annual billing ($200 up front), and Team at US$25 per standard seat billed monthly or US$20 billed annually. The same page notes that prices do not include applicable tax.</p><p><strong>Privacy:</strong> on Free, Pro and Max, Anthropic's <a href=\"https://www.anthropic.com/news/updates-to-our-consumer-terms\" target=\"_blank\" rel=\"noopener\">consumer terms update</a> says chats are used to train models only when that setting is on, and you can change it any time in Privacy Settings. Team plans list no model training on your content by default. If staff will paste in customer names or invoices, a Team plan is the safer choice.</p><p><strong>Starter task:</strong> paste in the last three customer emails you have not answered, plus your actual policy on refunds or booking changes, and ask for three short replies in your own tone. Edit, then send.</p><p>We compare it with its main rival in <a href=\"../claude-vs-chatgpt-small-business/\">Claude vs ChatGPT for small business</a>.</p>",
+   "takeaway": "Start on the free plan with real emails; move to Pro or Team only once you use it most days."
+  },
+  {
+   "heading": "2. Nano Banana Pro: product and ad images from text",
+   "image": {
+    "src": "assets/img/blog/media/jade-nano-banana-pro.jpg",
+    "alt": "AI-generated presenter Jade explaining Nano Banana Pro, Google's image model for product and ad images"
+   },
+   "body_html": "<p>Nano Banana Pro is Google's image model, built on Gemini 3 Pro Image. In its <a href=\"https://blog.google/technology/ai/nano-banana-pro/\" target=\"_blank\" rel=\"noopener\">launch post</a>, Google calls it the best model for creating images with correctly rendered and legible text, and describes uses such as turning sketches into product mockups and keeping a consistent look across designs. For a small shop or service business, that means a sale banner with readable text, a lifestyle background for a product shot, or a few ad variations to test, made in minutes instead of booking a shoot.</p><p><strong>Where and what it costs:</strong> the same post says it is rolling out in the Gemini app when you choose \"Create images\" with the Thinking model. Free users get limited quotas and then fall back to the original Nano Banana model, while Google AI Plus, Pro and Ultra subscribers get higher quotas. Google's <a href=\"https://one.google.com/about/google-ai-plans/\" target=\"_blank\" rel=\"noopener\">AI plans page</a> describes the access as more, expanded or higher by tier rather than a fixed number of images; check it for the current Canadian price. Developers can also use it through the <a href=\"https://ai.google.dev/gemini-api/docs/pricing\" target=\"_blank\" rel=\"noopener\">Gemini API</a>, which lists about US$0.134 per 1K or 2K image and US$0.24 per 4K image on the paid tier, with no free tier for this model.</p><p><strong>Cautions:</strong> Google says images carry an invisible SynthID watermark, and a visible Gemini sparkle stays on images from free and Google AI Pro users. Do not use it to show a product feature you do not actually have, and never put a real customer or staff member's face into an image without their permission.</p><p><strong>Starter task:</strong> upload one plain photo of your best seller and ask for a clean, bright background with a short headline and your sale price spelled out exactly.</p>",
+   "takeaway": "Use it for backgrounds, banners and ad tests, and keep the product itself accurate."
+  },
+  {
+   "heading": "3. ElevenLabs: natural voices and phone assistants",
+   "image": {
+    "src": "assets/img/blog/media/jade-elevenlabs.jpg",
+    "alt": "AI-generated presenter Jade describing ElevenLabs for natural AI voices and phone assistants"
+   },
+   "body_html": "<p>ElevenLabs turns text into natural-sounding speech and lets you build voice agents that can answer calls. For a small business, that covers voice-overs for short videos, on-hold or greeting messages, and an after-hours phone assistant that answers common questions and takes messages instead of letting calls go to a full voicemail box.</p><p><strong>What it costs:</strong> the <a href=\"https://elevenlabs.io/pricing\" target=\"_blank\" rel=\"noopener\">ElevenLabs pricing page</a> shows a Free plan with 10k credits a month, paid Starter and Creator tiers (currently with first-month discounts), and Pro at $99 a month with 600k credits. A commercial licence starts on Starter, and prices exclude taxes. For phone agents, the <a href=\"https://elevenlabs.io/pricing/agents\" target=\"_blank\" rel=\"noopener\">agents pricing page</a> lists included call minutes on every plan (15 on Free, 275 on Creator), extra minutes at $0.08, and AI model usage billed separately. It says ElevenLabs does not charge extra for telephony, but you connect your own provider, such as Twilio, which bills you for the phone line.</p><p><strong>Cautions:</strong> the <a href=\"https://elevenlabs.io/use-policy\" target=\"_blank\" rel=\"noopener\">ElevenLabs usage policy</a> forbids cloning or impersonating a living person's voice without their express permission, and says users must make clear when people are talking to AI where hiding it would mislead them. The Privacy Commissioner of Canada gives similar advice for public-facing tools: make sure people know they are interacting with generative AI.</p><p><strong>Starter task:</strong> write the 30-second greeting you wish your voicemail said, generate it on the free plan in two or three voices, and ask a regular customer which sounds most like your business.</p><p>If you want a phone assistant without building it yourself, see our <a href=\"../../ai-automation/ai-receptionist/\">AI receptionist service</a>.</p>",
+   "takeaway": "Try the free plan for greetings first; a phone agent needs your own phone provider and a clear AI disclosure."
+  },
+  {
+   "heading": "Privacy rules that apply to all three",
+   "body_html": "<p>The Office of the Privacy Commissioner of Canada has published <a href=\"https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/\" target=\"_blank\" rel=\"noopener\">principles for generative AI</a> that fit any of these tools. In plain terms:</p><ul><li>Where you reasonably can, use anonymized or de-identified information in prompts instead of customer names and details.</li><li>Accountability for decisions stays with your business, not with the AI.</li><li>If customers interact with an AI tool, such as a phone assistant, make sure they know it is AI.</li></ul><p>A simple house rule works well: no health details, card numbers or full customer records go into any AI tool on a personal plan, and someone checks every quote, price and image before it reaches a customer. This is general information, not legal advice.</p>",
+   "takeaway": "Write a one-paragraph AI rule for your staff before anyone starts pasting in customer data."
+  },
+  {
+   "heading": "Which one to start with",
+   "body_html": "<p>Pick the tool that matches your biggest weekly time drain:</p><ol><li><strong>Buried in email and paperwork?</strong> Start with Claude's free plan.</li><li><strong>Selling products online with tired photos?</strong> Try Nano Banana Pro in the Gemini app.</li><li><strong>Missing calls while you work?</strong> Test an ElevenLabs greeting, then decide whether a full phone assistant is worth it.</li></ol><p>Who should not bother yet: anyone who has not tried the free version on a real task. Paying for a tool you open twice a month is money better spent elsewhere. For more no-cost options, see our list of <a href=\"../free-ai-tools-small-business/\">free AI tools for small business</a>.</p>",
+   "takeaway": "One tool, one real task, one week, then decide whether to pay."
+  }
+ ],
+ "bottom_line_html": "<p>Claude, Nano Banana Pro and ElevenLabs each cover a different chore: writing, images and voice. All three can be tried for free or close to it, and all three need the same care: keep customer details out of personal plans, check what the AI produces, and be open with customers when they are talking to AI. Start with the one that matches your biggest time drain.</p><p>New to AI? Our <a href=\"../../ai-course/\">free AI course for beginners</a> covers the basics in seven short lessons. If you would rather have the setup done for you, from prompt templates to a phone assistant, that is what our <a href=\"../../ai-automation/\">AI automation service</a> does.</p>",
+ "faq": [
+  {
+   "q": "What are the best AI tools for small business?",
+   "a": "It depends on where you lose time. Claude is strong for emails, quotes and summaries; Nano Banana Pro, Google's image model, makes product and ad images from text; and ElevenLabs creates natural AI voices and phone assistants. Each has a free way to try it, so test one on a real task before paying."
+  },
+  {
+   "q": "How much does Claude cost for a small business?",
+   "a": "As listed on October 17, 2026, Claude has a free plan, Pro at US$20 a month billed monthly or US$17 a month billed annually, and Team at US$25 per standard seat billed monthly or US$20 billed annually. Anthropic notes prices do not include applicable tax."
+  },
+  {
+   "q": "Can I use ElevenLabs for a business phone assistant?",
+   "a": "Yes. ElevenLabs agents include some call minutes on every plan, with extra minutes listed at US$0.08. You connect your own phone provider, such as Twilio, which bills you for the line. Its usage policy also requires you to make clear when callers are talking to AI where hiding it would mislead them."
+  },
+  {
+   "q": "Is the presenter in the video a real person?",
+   "a": "No. Jade is an AI-generated presenter we made to explain these tools. She is not a real person, employee or customer."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Claude: Plans and pricing",
+   "url": "https://claude.com/pricing"
+  },
+  {
+   "label": "Anthropic: Updates to Consumer Terms and Privacy Policy",
+   "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms"
+  },
+  {
+   "label": "Google: Introducing Nano Banana Pro",
+   "url": "https://blog.google/technology/ai/nano-banana-pro/"
+  },
+  {
+   "label": "Google One: Google AI plans",
+   "url": "https://one.google.com/about/google-ai-plans/"
+  },
+  {
+   "label": "Google AI for Developers: Gemini API pricing",
+   "url": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
+   "label": "ElevenLabs: Pricing",
+   "url": "https://elevenlabs.io/pricing"
+  },
+  {
+   "label": "ElevenLabs: Agents pricing",
+   "url": "https://elevenlabs.io/pricing/agents"
+  },
+  {
+   "label": "ElevenLabs: Prohibited Use Policy",
+   "url": "https://elevenlabs.io/use-policy"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Principles for responsible, trustworthy and privacy-protective generative AI technologies",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/technology/artificial-intelligence/gd_principles_ai/"
+  }
+ ],
+ "related": [
+  {
+   "label": "Claude vs ChatGPT for small business",
+   "href": "../claude-vs-chatgpt-small-business/"
+  },
+  {
+   "label": "Free AI tools for small business",
+   "href": "../free-ai-tools-small-business/"
+  },
+  {
+   "label": "Our AI receptionist service",
+   "href": "../../ai-automation/ai-receptionist/"
+  }
+ ]
+}
