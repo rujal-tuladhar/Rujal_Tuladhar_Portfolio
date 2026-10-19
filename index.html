@@ -384,7 +384,36 @@
                     </div>
                     <div class="home__img">
 
-                        <img loading="lazy" decoding="async" width="760" height="1140" style="border-radius: 10%;" src="./assets/img/toronto-travel_2x3.webp" alt="">
+                        <div class="hero-vid">
+                            <video id="hero-video" muted loop playsinline preload="none" width="760" height="1140"
+                                poster="./assets/img/toronto-travel_2x3.webp" data-src="./assets/video/theyll-smell-it-hero.mp4"
+                                aria-label="They'll Smell It: a short film about a Toronto family bakery getting found online"></video>
+                            <button type="button" id="hero-sound" class="hero-vid__sound" aria-label="Turn sound on">&#128263; Tap for sound</button>
+                        </div>
+                        <style>
+                            .hero-vid { position: relative; border-radius: 10%; overflow: hidden; aspect-ratio: 2 / 3; background: #0b1f3a; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); }
+                            .hero-vid video { width: 100%; height: 100%; object-fit: cover; display: block; }
+                            .hero-vid__sound { position: absolute; left: 50%; bottom: 7%; transform: translateX(-50%); min-height: 44px; padding: .45rem 1.1rem; border: 0; border-radius: 2rem; background: rgba(11, 31, 58, .78); color: #fff; font-weight: 600; font-size: .9rem; cursor: pointer; backdrop-filter: blur(4px); white-space: nowrap; }
+                            .hero-vid__sound:hover { background: rgba(0, 150, 221, .9); }
+                        </style>
+                        <script>
+                            (function () {
+                                var v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound');
+                                function start() {   // load only after the page is done, so the hero stays fast
+                                    if (v.getAttribute('src')) return;
+                                    v.src = v.getAttribute('data-src'); v.muted = true;
+                                    var p = v.play(); if (p && p.catch) p.catch(function () {});
+                                }
+                                if (document.readyState === 'complete') setTimeout(start, 300);
+                                else window.addEventListener('load', function () { setTimeout(start, 300); });
+                                btn.addEventListener('click', function () {
+                                    start();
+                                    if (v.muted) { v.muted = false; v.currentTime = 0; v.play(); btn.innerHTML = '&#128266; Sound on'; btn.setAttribute('aria-label', 'Turn sound off'); }
+                                    else { v.muted = true; btn.innerHTML = '&#128263; Tap for sound'; btn.setAttribute('aria-label', 'Turn sound on'); }
+                                    if (typeof gtag === 'function') gtag('event', 'hero_video_sound', { event_category: 'engagement' });
+                                });
+                            })();
+                        </script>
 
                     </div>
                     <div class="home__data">
@@ -465,43 +494,6 @@
                 </a>
             <!-- LATEST-POST:END -->
         </div>
-
-        <!--==================== OUR STORY (signature video) ====================-->
-        <section class="section" id="our-story">
-            <h2 class="section__title">Toronto Was Built by Small Shops with Big Hearts</h2>
-            <span class="section__subtitle">Our story in 60 seconds, and why local businesses trust Nova Toronto</span>
-
-            <style>
-                .story__wrap { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; display: grid; gap: 2.5rem; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); align-items: center; }
-                .story__video { width: 100%; border-radius: 1.2rem; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); background: #0b1f3a; aspect-ratio: 9 / 16; height: auto; object-fit: cover; display: block; }
-                .story__note { font-size: var(--smaller-font-size); color: var(--text-color); margin-top: .5rem; text-align: center; }
-                .story__lead { font-size: var(--h3-font-size); color: var(--title-color); font-weight: 600; margin-bottom: 1rem; line-height: 1.4; }
-                .story__list { list-style: none; padding: 0; margin: 0 0 1.6rem; display: grid; gap: .85rem; }
-                .story__list li { display: flex; gap: .7rem; align-items: flex-start; color: var(--text-color); line-height: 1.55; }
-                .story__list i { color: var(--first-color); font-size: 1.35rem; line-height: 1.2; }
-                .story__list strong { color: var(--title-color); }
-                @media screen and (max-width: 767px) { .story__wrap { grid-template-columns: 1fr; gap: 1.5rem; } .story__videobox { max-width: 320px; margin: 0 auto; } }
-            </style>
-
-            <div class="story__wrap">
-                <div class="story__videobox">
-                    <video class="story__video" controls preload="none" playsinline poster="assets/video/theyll-smell-it-poster.jpg" width="540" height="960">
-                        <source src="assets/video/theyll-smell-it.mp4" type="video/mp4">
-                    </video>
-                    <p class="story__note">&ldquo;They&rsquo;ll Smell It&rdquo; &middot; an AI-generated short film by Nova Toronto</p>
-                </div>
-                <div>
-                    <p class="story__lead">Manuel bakes the best custard tarts on Dundas West. For 30 years his marketing plan was a paper flyer. Sound familiar?</p>
-                    <ul class="story__list">
-                        <li><i class="uil uil-map-marker"></i><span><strong>We&rsquo;re local.</strong> We live and work in the GTA, so we know your street, your customers and your competition.</span></li>
-                        <li><i class="uil uil-search"></i><span><strong>We get you found.</strong> Websites, Google Business Profile and local SEO, so people searching &ldquo;near me&rdquo; land on you, not a chain.</span></li>
-                        <li><i class="uil uil-robot"></i><span><strong>We make AI practical.</strong> Answer calls, reply to messages and post content automatically, without losing your personal touch.</span></li>
-                        <li><i class="uil uil-heart"></i><span><strong>We keep your roots.</strong> Your story, your family recipes, your voice. We just help more neighbours hear it.</span></li>
-                    </ul>
-                    <a href="#contact" class="button button--flex">Book a free 15-min call <i class="uil uil-arrow-right button__icon"></i></a>
-                </div>
-            </div>
-        </section>
 
         <!--==================== FREE AI TOOLKIT (video + copy-paste prompts) ====================-->
         <section class="section" id="free-ai">
