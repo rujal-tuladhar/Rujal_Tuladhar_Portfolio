@@ -103,11 +103,12 @@
     <meta property="twitter:image" content="./assets/img/card_preview.png">
 
     <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://unicons.iconscout.com" crossorigin>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></noscript>
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></noscript>
 
     <style>
         /* Blog Slider Modern Styles */
@@ -2970,7 +2971,7 @@ novatoronto.com">
     </style>
 
     <script type="module">
-        import Vapi from 'https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm';
+        // Vapi SDK is heavy: fetched only when a visitor touches the voice button (not on page load).
 
         const PUBLIC_KEY = '4138cfbd-4ba7-420d-9fad-5e5867135873';
         const ASSISTANT_ID = '6bade5c8-ec37-438a-b852-44c9332044ca';
@@ -3021,28 +3022,29 @@ novatoronto.com">
             if (ringCtx) { try { ringCtx.close(); } catch (e) {} ringCtx = null; }
         }
 
-        // The +esm build sometimes wraps the constructor (module object / .default)
-        let VapiCtor = Vapi;
-        if (typeof VapiCtor !== 'function') {
-            VapiCtor = VapiCtor.default || VapiCtor.Vapi || VapiCtor.Web;
+        let vapiLoading = null;
+        function loadVapi() {
+            if (!vapiLoading) vapiLoading = import('https://cdn.jsdelivr.net/npm/@vapi-ai/web/+esm').then(mod => {
+                // The +esm build sometimes wraps the constructor (module object / .default)
+                let VapiCtor = mod.default || mod;
+                if (typeof VapiCtor !== 'function') VapiCtor = VapiCtor.default || VapiCtor.Vapi || VapiCtor.Web;
+                vapi = new VapiCtor(PUBLIC_KEY);
+                vapi.on('call-start', () => { stopRing(); active = true; setState('active'); if (typeof gtag === 'function') gtag('event', 'ai_call_start', { event_category: 'lead', event_label: 'nova_voice_widget' }); });
+                vapi.on('speech-start', () => { stopRing(); });
+                vapi.on('call-end', () => { stopRing(); active = false; setState('idle'); });
+                vapi.on('error', () => { stopRing(); active = false; setState('idle'); });
+                return vapi;
+            }).catch(e => { vapiLoading = null; throw e; });
+            return vapiLoading;
         }
-
-        try {
-            vapi = new VapiCtor(PUBLIC_KEY);
-            vapi.on('call-start', () => { stopRing(); active = true; setState('active'); if (typeof gtag === 'function') gtag('event', 'ai_call_start', { event_category: 'lead', event_label: 'nova_voice_widget' }); });
-            vapi.on('speech-start', () => { stopRing(); });
-            vapi.on('call-end', () => { stopRing(); active = false; setState('idle'); });
-            vapi.on('error', () => { stopRing(); active = false; setState('idle'); });
-        } catch (e) {
-            btn.style.display = 'none';
-        }
+        ['pointerenter', 'touchstart', 'focus'].forEach(ev => btn.addEventListener(ev, () => loadVapi().catch(() => {}), { once: true, passive: true }));
 
         btn.addEventListener('click', async () => {
-            if (!vapi) return;
-            if (active) { vapi.stop(); return; }
+            if (active && vapi) { vapi.stop(); return; }
             setState('loading');
             startRing();                                    // instant "it's ringing" feedback
             try {
+                await loadVapi();
                 await navigator.mediaDevices.getUserMedia({ audio: true });
                 await vapi.start(ASSISTANT_ID);
             } catch (err) {
