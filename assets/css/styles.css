@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 .img-container {
     text-align: center;
@@ -1573,7 +1571,6 @@ textarea:focus-visible,
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     padding: 0;

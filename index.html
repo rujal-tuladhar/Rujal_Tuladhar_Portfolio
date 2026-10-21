@@ -107,6 +107,9 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></noscript>
 
     <!--==================== CSS ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Poppins:wght@400;500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></noscript>
 
@@ -350,11 +353,98 @@
 
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
-            <picture>
-                <source media="(min-width: 767px)" srcset="./assets/img/web_page_NovaToronto.gif">
-                <img fetchpriority="high" width="1000" height="667" class="home_img" src="./assets/img/Nova_toronto_mobile.webp" alt="Sketch of cn tower">
-
-            </picture>
+            <div class="hs" aria-roledescription="carousel" aria-label="What Nova Toronto can do for you">
+                <div class="hs__track" id="hs-track">
+                    <div class="hs__slide" role="group" aria-roledescription="slide" aria-label="1 of 4">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./assets/img/hero/website-design-wide.webp" width="1600" height="600">
+                            <img fetchpriority="high" class="hs__img" src="./assets/img/hero/website-design-m.webp" width="800" height="600" alt="">
+                        </picture>
+                        <div class="hs__text">
+                            <span class="hs__kicker">Website design</span>
+                            <p class="hs__title">Websites that turn Toronto searches into customers</p>
+                            <p class="hs__sub">Fast, mobile-first sites with Google set up properly, so people find you before the chain down the street.</p>
+                            <a class="hs__cta" href="#contact">Book a free 15-min call <i class="uil uil-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="hs__slide" role="group" aria-roledescription="slide" aria-label="2 of 4">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./assets/img/hero/ai-automation-wide.webp" width="1600" height="600">
+                            <img loading="lazy" decoding="async" class="hs__img" src="./assets/img/hero/ai-automation-m.webp" width="800" height="600" alt="">
+                        </picture>
+                        <div class="hs__text">
+                            <span class="hs__kicker">AI receptionist</span>
+                            <p class="hs__title">Never miss another customer call</p>
+                            <p class="hs__sub">Answers 24/7, books appointments and texts you the details while you work.</p>
+                            <a class="hs__cta" href="ai-automation/ai-receptionist/">Hear the live demo <i class="uil uil-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="hs__slide" role="group" aria-roledescription="slide" aria-label="3 of 4">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./assets/img/hero/digital-marketing-wide.webp" width="1600" height="600">
+                            <img loading="lazy" decoding="async" class="hs__img" src="./assets/img/hero/digital-marketing-m.webp" width="800" height="600" alt="">
+                        </picture>
+                        <div class="hs__text">
+                            <span class="hs__kicker">Digital marketing</span>
+                            <p class="hs__title">More calls from Google, less guesswork</p>
+                            <p class="hs__sub">Local SEO, Google Ads and social that bring real leads from across the GTA.</p>
+                            <a class="hs__cta" href="#contact">Get a free traffic check <i class="uil uil-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="hs__slide" role="group" aria-roledescription="slide" aria-label="4 of 4">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="./assets/img/hero/amazon-seller-wide.webp" width="1600" height="600">
+                            <img loading="lazy" decoding="async" class="hs__img" src="./assets/img/hero/amazon-seller-m.webp" width="800" height="600" alt="">
+                        </picture>
+                        <div class="hs__text">
+                            <span class="hs__kicker">Amazon &amp; Walmart</span>
+                            <p class="hs__title">Sell more on Amazon and Walmart</p>
+                            <p class="hs__sub">Listings, pricing and ads handled by people who sell on both every day.</p>
+                            <a class="hs__cta" href="amazon-seller/">See how we help sellers <i class="uil uil-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hs__dots" id="hs-dots"><button type="button" aria-label="Show slide 1" aria-current="true"></button><button type="button" aria-label="Show slide 2"></button><button type="button" aria-label="Show slide 3"></button><button type="button" aria-label="Show slide 4"></button></div>
+            </div>
+            <style>
+                .hs { position: relative; margin: 4.5rem auto 1.25rem; max-width: 1400px; }
+                .hs__track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; border-radius: 0 0 1.4rem 1.4rem; }
+                .hs__track::-webkit-scrollbar { display: none; }
+                .hs__slide { position: relative; flex: 0 0 100%; scroll-snap-align: start; aspect-ratio: 4 / 3; max-height: 460px; overflow: hidden; background: #0b1f3a; }
+                .hs__img { width: 100%; height: 100%; object-fit: cover; display: block; }
+                .hs__text { position: absolute; inset: auto 0 0 0; padding: 3.5rem 1.25rem 2.4rem; color: #fff; background: linear-gradient(to top, rgba(6, 18, 36, .92) 0%, rgba(6, 18, 36, .65) 55%, rgba(6, 18, 36, 0) 100%); }
+                .hs__kicker { display: inline-block; font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #ffc457; margin-bottom: .3rem; }
+                .hs__title { font-family: "Poppins", sans-serif; font-size: 1.45rem; font-weight: 600; line-height: 1.2; margin: 0 0 .35rem; color: #fff; }
+                .hs__sub { font-size: .92rem; line-height: 1.45; margin: 0 0 .85rem; color: rgba(255, 255, 255, .88); max-width: 34rem; }
+                .hs__cta { display: inline-flex; align-items: center; gap: .35rem; min-height: 44px; padding: .55rem 1.2rem; border-radius: 2rem; background: #0096dd; color: #fff; font-weight: 600; font-size: .95rem; }
+                .hs__cta:hover { background: #007bb8; }
+                .hs__dots { position: absolute; left: 0; right: 0; bottom: .7rem; display: flex; justify-content: center; gap: .1rem; }
+                .hs__dots button { width: 28px; height: 28px; border: 0; background: transparent; cursor: pointer; position: relative; }
+                .hs__dots button::after { content: ""; position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px 0 0 -4px; border-radius: 50%; background: rgba(255, 255, 255, .5); transition: width .25s, background .25s; }
+                .hs__dots button[aria-current="true"]::after { width: 22px; margin-left: -11px; border-radius: 4px; background: #fff; }
+                @media screen and (min-width: 768px) {
+                    .hs__slide { aspect-ratio: 1600 / 600; }
+                    .hs__text { inset: 0 auto 0 0; width: 58%; padding: 2.5rem 3rem; display: flex; flex-direction: column; justify-content: center; background: linear-gradient(to right, rgba(6, 18, 36, .9) 0%, rgba(6, 18, 36, .7) 60%, rgba(6, 18, 36, 0) 100%); }
+                    .hs__title { font-size: 2.3rem; }
+                    .hs__sub { font-size: 1.05rem; }
+                }
+                @media screen and (max-width: 767px) { .home__title { font-size: 1.75rem; letter-spacing: -.5px; padding-bottom: .75rem; } }
+            </style>
+            <script>
+                (function () {
+                    var t = document.getElementById('hs-track'), dots = document.querySelectorAll('#hs-dots button'), n = dots.length, cur = 0, timer = null;
+                    function go(i) { cur = (i + n) % n; t.scrollTo({ left: cur * t.clientWidth, behavior: 'smooth' }); }
+                    function mark() { var i = Math.round(t.scrollLeft / t.clientWidth); cur = i; dots.forEach(function (d, k) { if (k === i) d.setAttribute('aria-current', 'true'); else d.removeAttribute('aria-current'); }); }
+                    function play() { stop(); if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) timer = setInterval(function () { go(cur + 1); }, 6000); }
+                    function stop() { if (timer) clearInterval(timer); timer = null; }
+                    dots.forEach(function (d, k) { d.addEventListener('click', function () { go(k); play(); }); });
+                    t.addEventListener('scroll', function () { clearTimeout(t._s); t._s = setTimeout(mark, 80); }, { passive: true });
+                    ['pointerdown', 'touchstart', 'focusin', 'mouseenter'].forEach(function (e) { t.addEventListener(e, stop, { passive: true }); });
+                    ['mouseleave', 'focusout'].forEach(function (e) { t.addEventListener(e, play); });
+                    t.addEventListener('touchend', function () { setTimeout(play, 4000); }, { passive: true });
+                    play();
+                })();
+            </script>
 
             <h1 class="home__title">
                 Website Design, AI Automation &amp; Digital Marketing in Toronto
@@ -415,8 +505,9 @@
                                     v.src = v.getAttribute('data-src'); v.muted = true;
                                     var p = v.play(); if (p && p.catch) p.catch(function () {});
                                 }
-                                if (document.readyState === 'complete') setTimeout(start, 300);
-                                else window.addEventListener('load', function () { setTimeout(start, 300); });
+                                function later() { setTimeout(function () { (window.requestIdleCallback || setTimeout)(start, { timeout: 3000 }); }, 1500); }
+                                if (document.readyState === 'complete') later();
+                                else window.addEventListener('load', later);
                                 function show() {     // sync icon + slider with the real state; never touches playback position
                                     var on = !v.muted && v.volume > 0;
                                     btn.innerHTML = on ? '&#128266;' : '&#128263;';
@@ -2957,7 +3048,7 @@ novatoronto.com">
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- <script src="assets/js/tilt.js"></script>
 <script>
@@ -2970,7 +3061,7 @@ novatoronto.com">
             </script> -->
 
     <!--==================== MAIN JS ====================-->
-    <script src="assets/js/main.js"></script>
+    <script defer src="assets/js/main.js"></script>
 
     <!--==================== VAPI VOICE AGENT (Nova) ====================-->
     <button id="nova-voice-btn" aria-label="Talk to Nova, our AI assistant">
