@@ -9,7 +9,6 @@
     <meta name="google-site-verification" content="mMvmtrJL2993QCuGknA92Mev7Grdnd7qmIlMYu0iRQE" />
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17927080637"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -17,6 +16,13 @@
 
         gtag('config', 'AW-17927080637');
         gtag('config', 'G-B064YQYKLC');
+        // gtag.js itself loads on first interaction or 3.5 s after load (keeps it off the critical path); events queue in dataLayer meanwhile
+        (function () {
+            var done = false, ev = ['scroll', 'pointerdown', 'keydown', 'touchstart'];
+            function load() { if (done) return; done = true; ev.forEach(function (e) { removeEventListener(e, load); }); var s = document.createElement('script'); s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-17927080637'; document.head.appendChild(s); }
+            ev.forEach(function (e) { addEventListener(e, load, { once: true, passive: true }); });
+            addEventListener('load', function () { setTimeout(load, 3500); });
+        })();
     </script>
 
     <!-- SEO Meta Tags -->
