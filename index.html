@@ -396,10 +396,15 @@
                         <style>
                             .hero-vid { position: relative; border-radius: 10%; overflow: hidden; aspect-ratio: 2 / 3; background: #0b1f3a; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); }
                             .hero-vid video { width: 100%; height: 100%; object-fit: cover; display: block; }
-                            .hero-vid__vol { position: absolute; left: 6%; right: 6%; bottom: 3.5%; display: flex; flex-direction: row; align-items: center; gap: .5rem; padding: .1rem .9rem .1rem .2rem; border-radius: 2rem; background: rgba(11, 31, 58, .94); border: 1px solid rgba(255, 255, 255, .25); box-shadow: 0 4px 14px rgba(0, 0, 0, .35); }
-                            .hero-vid__slider { flex: 1; min-width: 0; height: 28px; margin: 0; accent-color: #0096dd; cursor: pointer; }
+                            .hero-vid__vol { position: absolute; left: 6%; right: 6%; bottom: 3.5%; display: flex; align-items: center; gap: .55rem; padding: .15rem 1rem .15rem .25rem; border-radius: 2rem; background: rgba(120, 120, 128, .28); -webkit-backdrop-filter: blur(22px) saturate(180%); backdrop-filter: blur(22px) saturate(180%); border: 1px solid rgba(255, 255, 255, .18); }
+                            .hero-vid__slider { --p: 0%; flex: 1; min-width: 0; height: 28px; margin: 0; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; }
+                            .hero-vid__slider::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: linear-gradient(to right, #fff var(--p), rgba(255, 255, 255, .35) var(--p)); }
+                            .hero-vid__slider::-moz-range-track { height: 6px; border-radius: 3px; background: rgba(255, 255, 255, .35); }
+                            .hero-vid__slider::-moz-range-progress { height: 6px; border-radius: 3px; background: #fff; }
+                            .hero-vid__slider::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; margin-top: -5px; border-radius: 50%; background: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, .35); }
+                            .hero-vid__slider::-moz-range-thumb { width: 16px; height: 16px; border: 0; border-radius: 50%; background: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, .35); }
                             .hero-vid__mute { width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: #fff; font-size: 1.25rem; cursor: pointer; line-height: 1; }
-                            .hero-vid__mute:hover { background: rgba(0, 150, 221, .9); }
+                            .hero-vid__mute:hover { background: rgba(255, 255, 255, .18); }
                         </style>
                         <script>
                             (function () {
@@ -417,6 +422,7 @@
                                     btn.innerHTML = on ? '&#128266;' : '&#128263;';
                                     btn.setAttribute('aria-label', on ? 'Mute' : 'Turn sound on');
                                     vol.value = on ? v.volume : 0;
+                                    vol.style.setProperty('--p', (vol.value * 100) + '%');
                                     if (on && !tracked && typeof gtag === 'function') { tracked = true; gtag('event', 'hero_video_sound', { event_category: 'engagement' }); }
                                 }
                                 btn.addEventListener('click', function () {
