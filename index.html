@@ -388,17 +388,23 @@
                             <video id="hero-video" muted loop playsinline preload="none" width="760" height="1140"
                                 poster="./assets/img/toronto-travel_2x3.webp" data-src="./assets/video/theyll-smell-it-hero.mp4"
                                 aria-label="They'll Smell It: a short film about a Toronto family bakery getting found online"></video>
-                            <button type="button" id="hero-sound" class="hero-vid__sound" aria-label="Turn sound on">&#128263; Tap for sound</button>
+                            <div class="hero-vid__vol">
+                                <input type="range" id="hero-volume" class="hero-vid__slider" min="0" max="1" step="0.05" value="0" aria-label="Video volume">
+                                <button type="button" id="hero-sound" class="hero-vid__mute" aria-label="Turn sound on" title="Sound">&#128263;</button>
+                            </div>
                         </div>
                         <style>
                             .hero-vid { position: relative; border-radius: 10%; overflow: hidden; aspect-ratio: 2 / 3; background: #0b1f3a; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); }
                             .hero-vid video { width: 100%; height: 100%; object-fit: cover; display: block; }
-                            .hero-vid__sound { position: absolute; left: 50%; bottom: 7%; transform: translateX(-50%); min-height: 44px; padding: .45rem 1.1rem; border: 0; border-radius: 2rem; background: rgba(11, 31, 58, .78); color: #fff; font-weight: 600; font-size: .9rem; cursor: pointer; backdrop-filter: blur(4px); white-space: nowrap; }
-                            .hero-vid__sound:hover { background: rgba(0, 150, 221, .9); }
+                            .hero-vid__vol { position: absolute; right: 5%; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; align-items: center; gap: .6rem; padding: .7rem .35rem; border-radius: 2rem; background: rgba(11, 31, 58, .72); backdrop-filter: blur(4px); }
+                            .hero-vid__slider { writing-mode: vertical-lr; direction: rtl; -webkit-appearance: slider-vertical; appearance: slider-vertical; width: 28px; height: 110px; margin: 0; accent-color: #0096dd; cursor: pointer; }
+                            .hero-vid__mute { width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: #fff; font-size: 1.25rem; cursor: pointer; line-height: 1; }
+                            .hero-vid__mute:hover { background: rgba(0, 150, 221, .9); }
                         </style>
                         <script>
                             (function () {
-                                var v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound');
+                                var v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound'), vol = document.getElementById('hero-volume');
+                                var last = 0.8, tracked = false;
                                 function start() {   // load only after the page is done, so the hero stays fast
                                     if (v.getAttribute('src')) return;
                                     v.src = v.getAttribute('data-src'); v.muted = true;
@@ -406,11 +412,26 @@
                                 }
                                 if (document.readyState === 'complete') setTimeout(start, 300);
                                 else window.addEventListener('load', function () { setTimeout(start, 300); });
+                                function show() {     // sync icon + slider with the real state; never touches playback position
+                                    var on = !v.muted && v.volume > 0;
+                                    btn.innerHTML = on ? '&#128266;' : '&#128263;';
+                                    btn.setAttribute('aria-label', on ? 'Mute' : 'Turn sound on');
+                                    vol.value = on ? v.volume : 0;
+                                    if (on && !tracked && typeof gtag === 'function') { tracked = true; gtag('event', 'hero_video_sound', { event_category: 'engagement' }); }
+                                }
                                 btn.addEventListener('click', function () {
                                     start();
-                                    if (v.muted) { v.muted = false; v.currentTime = 0; v.play(); btn.innerHTML = '&#128266; Sound on'; btn.setAttribute('aria-label', 'Turn sound off'); }
-                                    else { v.muted = true; btn.innerHTML = '&#128263; Tap for sound'; btn.setAttribute('aria-label', 'Turn sound on'); }
-                                    if (typeof gtag === 'function') gtag('event', 'hero_video_sound', { event_category: 'engagement' });
+                                    if (v.muted || v.volume === 0) { v.volume = last; v.muted = false; }
+                                    else { last = v.volume; v.muted = true; }
+                                    if (v.paused) v.play();
+                                    show();
+                                });
+                                vol.addEventListener('input', function () {
+                                    start();
+                                    var x = parseFloat(vol.value);
+                                    v.volume = x; v.muted = x === 0; if (x > 0) last = x;
+                                    if (v.paused) v.play();
+                                    show();
                                 });
                             })();
                         </script>
