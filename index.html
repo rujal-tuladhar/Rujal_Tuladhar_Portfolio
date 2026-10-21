@@ -484,28 +484,23 @@
                             <video id="hero-video" muted loop playsinline preload="none" width="760" height="1140"
                                 poster="./assets/img/toronto-travel_2x3.webp" data-src="./assets/video/theyll-smell-it-hero.mp4"
                                 aria-label="They'll Smell It: a short film about a Toronto family bakery getting found online"></video>
-                            <div class="hero-vid__vol">
-                                <button type="button" id="hero-sound" class="hero-vid__mute" aria-label="Turn sound on" title="Sound">&#128263;</button>
-                                <input type="range" id="hero-volume" class="hero-vid__slider" min="0" max="1" step="0.05" value="0" aria-label="Video volume">
-                            </div>
+                            <button type="button" id="hero-sound" class="hero-vid__sound" aria-label="Turn sound on" aria-pressed="false">
+                                <svg class="hv-off" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M16 9l5 6M21 9l-5 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                                <svg class="hv-on" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                            </button>
                         </div>
                         <style>
                             .hero-vid { position: relative; border-radius: 10%; overflow: hidden; aspect-ratio: 2 / 3; background: #0b1f3a; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); }
                             .hero-vid video { width: 100%; height: 100%; object-fit: cover; display: block; }
-                            .hero-vid__vol { position: absolute; left: 6%; right: 6%; bottom: 3.5%; display: flex; align-items: center; gap: .55rem; padding: .15rem 1rem .15rem .25rem; border-radius: 2rem; background: rgba(120, 120, 128, .28); -webkit-backdrop-filter: blur(22px) saturate(180%); backdrop-filter: blur(22px) saturate(180%); border: 1px solid rgba(255, 255, 255, .18); }
-                            .hero-vid__slider { --p: 0%; flex: 1; min-width: 0; height: 28px; margin: 0; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; }
-                            .hero-vid__slider::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: linear-gradient(to right, #fff var(--p), rgba(255, 255, 255, .35) var(--p)); }
-                            .hero-vid__slider::-moz-range-track { height: 6px; border-radius: 3px; background: rgba(255, 255, 255, .35); }
-                            .hero-vid__slider::-moz-range-progress { height: 6px; border-radius: 3px; background: #fff; }
-                            .hero-vid__slider::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; margin-top: -5px; border-radius: 50%; background: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, .35); }
-                            .hero-vid__slider::-moz-range-thumb { width: 16px; height: 16px; border: 0; border-radius: 50%; background: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, .35); }
-                            .hero-vid__mute { width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: #fff; font-size: 1.25rem; cursor: pointer; line-height: 1; }
-                            .hero-vid__mute:hover { background: rgba(255, 255, 255, .18); }
+                            .hero-vid__sound { position: absolute; right: 7%; bottom: 5%; width: 44px; height: 44px; display: grid; place-items: center; padding: 0; border: 1px solid rgba(255, 255, 255, .2); border-radius: 50%; color: #fff; cursor: pointer;
+                                background: rgba(120, 120, 128, .32); -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%); }
+                            .hero-vid__sound:hover { background: rgba(120, 120, 128, .5); }
+                            .hero-vid__sound .hv-on, .hero-vid__sound[aria-pressed="true"] .hv-off { display: none; }
+                            .hero-vid__sound[aria-pressed="true"] .hv-on { display: block; }
                         </style>
                         <script>
                             (function () {
-                                var v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound'), vol = document.getElementById('hero-volume');
-                                var last = 0.8, tracked = false;
+                                var v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound'), tracked = false;
                                 function start() {   // load only after the page is done, so the hero stays fast
                                     if (v.getAttribute('src')) return;
                                     v.src = v.getAttribute('data-src'); v.muted = true;
@@ -514,27 +509,13 @@
                                 function later() { setTimeout(function () { (window.requestIdleCallback || setTimeout)(start, { timeout: 3000 }); }, 1500); }
                                 if (document.readyState === 'complete') later();
                                 else window.addEventListener('load', later);
-                                function show() {     // sync icon + slider with the real state; never touches playback position
-                                    var on = !v.muted && v.volume > 0;
-                                    btn.innerHTML = on ? '&#128266;' : '&#128263;';
-                                    btn.setAttribute('aria-label', on ? 'Mute' : 'Turn sound on');
-                                    vol.value = on ? v.volume : 0;
-                                    vol.style.setProperty('--p', (vol.value * 100) + '%');
-                                    if (on && !tracked && typeof gtag === 'function') { tracked = true; gtag('event', 'hero_video_sound', { event_category: 'engagement' }); }
-                                }
                                 btn.addEventListener('click', function () {
                                     start();
-                                    if (v.muted || v.volume === 0) { v.volume = last; v.muted = false; }
-                                    else { last = v.volume; v.muted = true; }
+                                    v.muted = !v.muted;            // toggle sound only; playback position is untouched
                                     if (v.paused) v.play();
-                                    show();
-                                });
-                                vol.addEventListener('input', function () {
-                                    start();
-                                    var x = parseFloat(vol.value);
-                                    v.volume = x; v.muted = x === 0; if (x > 0) last = x;
-                                    if (v.paused) v.play();
-                                    show();
+                                    btn.setAttribute('aria-pressed', String(!v.muted));
+                                    btn.setAttribute('aria-label', v.muted ? 'Turn sound on' : 'Mute');
+                                    if (!v.muted && !tracked && typeof gtag === 'function') { tracked = true; gtag('event', 'hero_video_sound', { event_category: 'engagement' }); }
                                 });
                             })();
                         </script>
