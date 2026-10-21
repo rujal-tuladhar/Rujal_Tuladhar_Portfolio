@@ -480,42 +480,78 @@
                     </div>
                     <div class="home__img">
 
-                        <div class="hero-vid">
+                        <div class="hero-vid" id="hero-vid">
                             <video id="hero-video" muted loop playsinline preload="none" width="760" height="1140"
                                 poster="./assets/img/toronto-travel_2x3.webp" data-src="./assets/video/theyll-smell-it-hero.mp4"
                                 aria-label="They'll Smell It: a short film about a Toronto family bakery getting found online"></video>
-                            <button type="button" id="hero-sound" class="hero-vid__sound" aria-label="Turn sound on" aria-pressed="false">
-                                <svg class="hv-off" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><defs><mask id="hv-cut"><rect width="24" height="24" fill="#fff"/><path d="M3 3l18 18" stroke="#000" stroke-width="4.6" stroke-linecap="round"/></mask></defs><path mask="url(#hv-cut)" fill="currentColor" d="M11 5.6c0-.9-1-1.3-1.7-.8L5.9 7.6H3.8C2.8 7.6 2 8.4 2 9.4v5.2c0 1 .8 1.8 1.8 1.8h2.1l3.4 2.8c.7.5 1.7.1 1.7-.8V5.6z"/><path mask="url(#hv-cut)" d="M14.6 9.2a4 4 0 0 1 0 5.6M17.4 6.4a8 8 0 0 1 0 11.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><path d="M3.6 3.6l16.8 16.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
-                                <svg class="hv-on" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M11 5.6c0-.9-1-1.3-1.7-.8L5.9 7.6H3.8C2.8 7.6 2 8.4 2 9.4v5.2c0 1 .8 1.8 1.8 1.8h2.1l3.4 2.8c.7.5 1.7.1 1.7-.8V5.6z"/><path d="M14.6 9.2a4 4 0 0 1 0 5.6M17.4 6.4a8 8 0 0 1 0 11.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
-                            </button>
+                            <div class="hv-ctrl" id="hv-ctrl">
+                                <button type="button" id="hero-sound" class="hv-btn" aria-label="Turn sound on" aria-pressed="false">
+                                    <svg class="hv-off" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><defs><mask id="hv-cut"><rect width="24" height="24" fill="#fff"/><path d="M3 3l18 18" stroke="#000" stroke-width="4.6" stroke-linecap="round"/></mask></defs><path mask="url(#hv-cut)" fill="currentColor" d="M11 5.6c0-.9-1-1.3-1.7-.8L5.9 7.6H3.8C2.8 7.6 2 8.4 2 9.4v5.2c0 1 .8 1.8 1.8 1.8h2.1l3.4 2.8c.7.5 1.7.1 1.7-.8V5.6z"/><path mask="url(#hv-cut)" d="M14.6 9.2a4 4 0 0 1 0 5.6M17.4 6.4a8 8 0 0 1 0 11.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><path d="M3.6 3.6l16.8 16.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+                                    <svg class="hv-on" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path fill="currentColor" d="M11 5.6c0-.9-1-1.3-1.7-.8L5.9 7.6H3.8C2.8 7.6 2 8.4 2 9.4v5.2c0 1 .8 1.8 1.8 1.8h2.1l3.4 2.8c.7.5 1.7.1 1.7-.8V5.6z"/><path d="M14.6 9.2a4 4 0 0 1 0 5.6M17.4 6.4a8 8 0 0 1 0 11.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+                                </button>
+                                <input type="range" id="hero-volume" class="hv-vol" min="0" max="1" step="0.05" value="0" aria-label="Video volume">
+                            </div>
                         </div>
                         <style>
                             .hero-vid { position: relative; border-radius: 10%; overflow: hidden; aspect-ratio: 2 / 3; background: #0b1f3a; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); }
                             .hero-vid video { width: 100%; height: 100%; object-fit: cover; display: block; }
-                            .hero-vid__sound { position: absolute; right: 6%; bottom: 4.5%; width: 36px; height: 36px; display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; color: #fff; cursor: pointer; background: rgba(28, 28, 30, .55); -webkit-backdrop-filter: blur(16px) saturate(160%); backdrop-filter: blur(16px) saturate(160%); }
-                            .hero-vid__sound::before { content: ""; position: absolute; inset: -4px; }
-                            .hero-vid__sound:hover { background: rgba(28, 28, 30, .75); }
-                            .hero-vid__sound .hv-on, .hero-vid__sound[aria-pressed="true"] .hv-off { display: none; }
-                            .hero-vid__sound[aria-pressed="true"] .hv-on { display: block; }
+                            .hero-vid::after { content: ""; position: absolute; inset: auto 0 0 0; height: 28%; background: linear-gradient(to top, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0)); opacity: 0; transition: opacity .25s; pointer-events: none; }
+                            .hv-ctrl { position: absolute; left: 7%; bottom: 5%; z-index: 1; display: flex; align-items: center; height: 36px; border-radius: 18px; background: rgba(28, 28, 30, .55); -webkit-backdrop-filter: blur(16px) saturate(160%); backdrop-filter: blur(16px) saturate(160%); opacity: 0; pointer-events: none; transition: opacity .25s; }
+                            .hero-vid.hv-show::after, .hero-vid.hv-show .hv-ctrl { opacity: 1; }
+                            .hero-vid.hv-show .hv-ctrl { pointer-events: auto; }
+                            .hv-btn { position: relative; width: 36px; height: 36px; flex: 0 0 36px; display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; background: transparent; color: #fff; cursor: pointer; }
+                            .hv-btn::before { content: ""; position: absolute; inset: -4px; }
+                            .hv-btn .hv-on, .hv-btn[aria-pressed="true"] .hv-off { display: none; }
+                            .hv-btn[aria-pressed="true"] .hv-on { display: block; }
+                            .hv-vol { --p: 0%; width: 0; opacity: 0; margin: 0; height: 24px; background: transparent; cursor: pointer; -webkit-appearance: none; appearance: none; transition: width .2s ease, opacity .2s ease, margin .2s ease; }
+                            .hv-ctrl:hover .hv-vol, .hv-vol:focus-visible { width: 72px; opacity: 1; margin: 0 14px 0 2px; }
+                            .hv-vol::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: linear-gradient(to right, #fff var(--p), rgba(255, 255, 255, .35) var(--p)); }
+                            .hv-vol::-moz-range-track { height: 4px; border-radius: 2px; background: rgba(255, 255, 255, .35); }
+                            .hv-vol::-moz-range-progress { height: 4px; border-radius: 2px; background: #fff; }
+                            .hv-vol::-webkit-slider-thumb { -webkit-appearance: none; width: 12px; height: 12px; margin-top: -4px; border-radius: 50%; background: #fff; }
+                            .hv-vol::-moz-range-thumb { width: 12px; height: 12px; border: 0; border-radius: 50%; background: #fff; }
+                            @media (hover: none) { .hv-vol { display: none; } }   /* phones: mute toggle only, like the YouTube app */
                         </style>
                         <script>
                             (function () {
-                                var v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound'), tracked = false;
+                                var box = document.getElementById('hero-vid'), v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound'),
+                                    vol = document.getElementById('hero-volume'), ctrl = document.getElementById('hv-ctrl'), last = 0.8, hideT = null, tracked = false;
                                 function start() {   // load only after the page is done, so the hero stays fast
                                     if (v.getAttribute('src')) return;
                                     v.src = v.getAttribute('data-src'); v.muted = true;
                                     var p = v.play(); if (p && p.catch) p.catch(function () {});
                                 }
                                 function later() { setTimeout(function () { (window.requestIdleCallback || setTimeout)(start, { timeout: 3000 }); }, 1500); }
-                                if (document.readyState === 'complete') later();
-                                else window.addEventListener('load', later);
+                                if (document.readyState === 'complete') later(); else window.addEventListener('load', later);
+                                // ---- YouTube-style reveal: show on hover / tap, auto-hide after 2.5 s unless the pointer is on the control
+                                function show() { box.classList.add('hv-show'); clearTimeout(hideT); hideT = setTimeout(hide, 2500); }
+                                function hide() { if (ctrl.matches(':hover') || ctrl.contains(document.activeElement) && document.activeElement.matches(':focus-visible')) { hideT = setTimeout(hide, 2500); return; } box.classList.remove('hv-show'); }
+                                box.addEventListener('mousemove', show);
+                                box.addEventListener('mouseleave', function () { clearTimeout(hideT); hideT = setTimeout(hide, 600); });
+                                box.addEventListener('touchstart', show, { passive: true });
+                                ctrl.addEventListener('focusin', show);
+                                // ---- sound
+                                function sync() {
+                                    var on = !v.muted && v.volume > 0;
+                                    btn.setAttribute('aria-pressed', String(on));
+                                    btn.setAttribute('aria-label', on ? 'Mute' : 'Turn sound on');
+                                    vol.value = on ? v.volume : 0;
+                                    vol.style.setProperty('--p', (vol.value * 100) + '%');
+                                    if (on && !tracked && typeof gtag === 'function') { tracked = true; gtag('event', 'hero_video_sound', { event_category: 'engagement' }); }
+                                }
                                 btn.addEventListener('click', function () {
                                     start();
-                                    v.muted = !v.muted;            // toggle sound only; playback position is untouched
+                                    if (v.muted || v.volume === 0) { v.volume = last; v.muted = false; }   // toggle sound only; playback position untouched
+                                    else { last = v.volume; v.muted = true; }
                                     if (v.paused) v.play();
-                                    btn.setAttribute('aria-pressed', String(!v.muted));
-                                    btn.setAttribute('aria-label', v.muted ? 'Turn sound on' : 'Mute');
-                                    if (!v.muted && !tracked && typeof gtag === 'function') { tracked = true; gtag('event', 'hero_video_sound', { event_category: 'engagement' }); }
+                                    sync(); show();
+                                });
+                                vol.addEventListener('input', function () {
+                                    start();
+                                    var x = parseFloat(vol.value);
+                                    v.volume = x; v.muted = x === 0; if (x > 0) last = x;
+                                    if (v.paused) v.play();
+                                    sync(); show();
                                 });
                             })();
                         </script>
