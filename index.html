@@ -41,6 +41,7 @@
       "@graph": [
         {
           "@type": "ProfessionalService",
+        "openingHours": "Mo-Su 11:00-18:00",
           "@id": "https://novatoronto.com/#business",
           "name": "Nova Toronto",
           "description": "Website design, AI automation, and digital marketing agency serving Toronto and the GTA.",
@@ -574,15 +575,12 @@
                         </h3>
                         <hr style="margin-top: 0;">
                         <a href="#contact" id="hero-call-btn" class="button button--flex">
-                            Schedule Now
+                            Book a free 15-min call
                             <i class="uil uil-calendar-alt button__icon"></i>
                         </a>
 
                         <h3 class="home__subtitle"></h3>
-                        <p class="home__description">Captures the full journey you enable - building the digital
-                            presence
-                            (websites), driving traffic (ads), automating processes (AI), and converting sales
-                            (Amazon/Walmart).</p>
+                        <p class="home__description">We build your website, bring in the traffic, automate the busywork and turn visitors into paying customers.</p>
                     </div>
                 </div>
                 <div class="home__scroll">
@@ -635,440 +633,6 @@
                 </a>
             <!-- LATEST-POST:END -->
         </div>
-
-        <!--==================== FREE AI TOOLKIT (video + copy-paste prompts) ====================-->
-        <section class="section" id="free-ai">
-            <h2 class="section__title">Free: Let AI Do Your Repeated Work</h2>
-            <span class="section__subtitle">Watch the 45-second tour, then copy a prompt into Claude and try it on today's work</span>
-
-            <style>
-                .fai__wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; display: grid; gap: 2rem; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); align-items: start; }
-                .fai__video { width: 100%; border-radius: 1.2rem; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); background: #0b1f3a; aspect-ratio: 9 / 16; height: auto; object-fit: cover; display: block; }
-                .fai__note { font-size: var(--smaller-font-size); color: var(--text-color); margin-top: .5rem; text-align: center; }
-                .fai__grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-                .fai__card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.18); border-radius: 1.1rem; padding: 1.1rem 1.1rem 1rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07); display: flex; flex-direction: column; }
-                .fai__tag { font-size: var(--smaller-font-size); color: var(--first-color-text); font-weight: 600; }
-                .fai__title { font-size: var(--h3-font-size); color: var(--title-color); margin: .2rem 0 .6rem; }
-                .fai__prompt { white-space: pre-wrap; font-family: inherit; font-size: .82rem; line-height: 1.5; color: var(--text-color); background: rgba(0, 150, 221, 0.06); border-radius: .7rem; padding: .7rem .8rem; margin: 0 0 .8rem; max-height: 9.5rem; overflow: auto; flex: 1; }
-                .fai__copy { align-self: flex-start; min-height: 44px; padding: .4rem 1.1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: transparent; color: var(--first-color-text); font-weight: 600; cursor: pointer; }
-                .fai__copy.done { background: var(--first-color); color: #fff; }
-                .fai__cta { grid-column: 1 / -1; text-align: center; margin-top: .5rem; color: var(--text-color); }
-                .fai__cta a { color: var(--first-color-text); font-weight: 600; }
-                @media screen and (max-width: 767px) { .fai__wrap { grid-template-columns: 1fr; } .fai__videobox { max-width: 320px; margin: 0 auto; } }
-            </style>
-
-            <div class="fai__wrap">
-                <div class="fai__videobox">
-                    <video class="fai__video" controls preload="none" playsinline poster="assets/video/jade-3-ai-tools-poster.jpg" width="540" height="960">
-                        <source src="assets/video/jade-3-ai-tools.mp4" type="video/mp4">
-                    </video>
-                    <p class="fai__note">3 AI tools every small business should try. AI presenter.</p>
-                    <video class="fai__video" controls preload="none" playsinline poster="assets/video/interview-ai-at-work-poster.jpg" width="540" height="960" style="margin-top: 1.5rem;">
-                        <source src="assets/video/interview-ai-at-work.mp4" type="video/mp4">
-                    </video>
-                    <p class="fai__note">How two GTA business owners use AI at work. AI-generated characters, illustrative scenario.</p>
-                </div>
-                <div class="fai__grid">
-                    <div class="fai__card">
-                        <span class="fai__tag">Every inbox, every day</span>
-                        <h3 class="fai__title">Reply to customer emails</h3>
-                        <pre class="fai__prompt" id="fai-p0">You are the friendly front desk of [business name], a [type of business] in [city]. Write a short, warm reply to the customer email below. Answer their question using only the facts I give you, keep it under 120 words, and end with one clear next step. If something is missing, tell me what to ask instead of guessing.
-
-Facts: [prices, hours, policies]
-Customer email: [paste the email, without card numbers or health details]</pre>
-                        <button type="button" class="fai__copy" data-fai="fai-p0">Copy prompt</button>
-                    </div>
-                    <div class="fai__card">
-                        <span class="fai__tag">Trades, cleaners, studios</span>
-                        <h3 class="fai__title">Turn rough notes into a quote</h3>
-                        <pre class="fai__prompt" id="fai-p1">Turn my rough job notes into a clean, professional quote for [customer first name]. List each item with a short description and price, add the subtotal, 13% HST and total, and a line saying the quote is valid for 30 days. Keep my prices exactly as written and do not add items.
-
-My notes: [paste notes]</pre>
-                        <button type="button" class="fai__copy" data-fai="fai-p1">Copy prompt</button>
-                    </div>
-                    <div class="fai__card">
-                        <span class="fai__tag">After every call</span>
-                        <h3 class="fai__title">Call or meeting notes to follow-up</h3>
-                        <pre class="fai__prompt" id="fai-p2">Here are my notes from a call with a customer. Give me: 1) a three-line summary, 2) a to-do list with who does what by when, and 3) a short follow-up email I can send today confirming what we agreed. Use only what is in the notes.
-
-Notes: [paste notes]</pre>
-                        <button type="button" class="fai__copy" data-fai="fai-p2">Copy prompt</button>
-                    </div>
-                    <div class="fai__card">
-                        <span class="fai__tag">Five minutes a week</span>
-                        <h3 class="fai__title">Reply to Google reviews</h3>
-                        <pre class="fai__prompt" id="fai-p3">Write a reply from [business name] to each Google review below. Thank them by first name, mention one specific thing they said, keep each reply under 50 words and sound like a real local owner, not a template. For a negative review, apologize once, do not argue, and invite them to call [phone].
-
-Reviews: [paste reviews]</pre>
-                        <button type="button" class="fai__copy" data-fai="fai-p3">Copy prompt</button>
-                    </div>
-                    <div class="fai__card">
-                        <span class="fai__tag">Instagram, Facebook, LinkedIn</span>
-                        <h3 class="fai__title">A week of social posts</h3>
-                        <pre class="fai__prompt" id="fai-p4">Write 5 short social posts for [business name], a [type of business] in [city]. Mix: one tip, one behind-the-scenes, one customer question answered, one offer ([offer]), one local Toronto angle. Each under 60 words with one emoji and 3 hashtags. No made-up statistics or reviews.</pre>
-                        <button type="button" class="fai__copy" data-fai="fai-p4">Copy prompt</button>
-                    </div>
-                    <div class="fai__card">
-                        <span class="fai__tag">Train staff once, not ten times</span>
-                        <h3 class="fai__title">Write a step-by-step checklist (SOP)</h3>
-                        <pre class="fai__prompt" id="fai-p5">I will describe a task we repeat every week. Turn it into a numbered step-by-step checklist a new staff member could follow on day one, with what to check at each step and common mistakes to avoid. Ask me up to 3 questions first if anything is unclear.
-
-The task: [describe it the way you would explain it out loud]</pre>
-                        <button type="button" class="fai__copy" data-fai="fai-p5">Copy prompt</button>
-                    </div>
-                </div>
-                <p class="fai__cta">Paste a prompt into <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> (free plan works), fill in the [brackets], and never paste card numbers or private customer details.
-                    Want this running on its own every day? <a href="#contact">Book a free call</a> &middot; or learn the basics in our <a href="ai-course/">free AI course</a>.</p>
-            </div>
-
-            <script>
-                document.querySelectorAll('.fai__copy').forEach(function (b) {
-                    b.addEventListener('click', function () {
-                        var t = document.getElementById(b.getAttribute('data-fai')).textContent;
-                        var ok = function () { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(function () { b.textContent = 'Copy prompt'; b.classList.remove('done'); }, 2500); };
-                        if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(t).then(ok, function () {}); }
-                    });
-                });
-            </script>
-        </section>
-
-        <!--==================== AI CREATIVES (showcase band) ====================-->
-        <section class="section aic" id="ai-creatives">
-
-            <style>
-                .aic__wrap { max-width: 600px; margin: 0 auto; padding: 0 1.5rem; }
-
-                .aic__badge {
-                    display: block; width: fit-content; margin: 0 auto .9rem;
-                    background: var(--first-color-text); color: #fff;
-                    font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
-                    padding: .3rem .95rem; border-radius: 2rem;
-                }
-
-                .aic__rack {
-                    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
-                    gap: .75rem; margin-top: 2rem;
-                }
-
-                .aic__card {
-                    display: block; background: var(--container-color);
-                    border: 1px solid rgba(0, 150, 221, 0.16);
-                    border-radius: 1.1rem; padding: .5rem;
-                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
-                    transition: transform .3s, box-shadow .3s, border-color .3s;
-                }
-
-                .aic__meta { padding: .35rem .35rem .6rem; }
-
-                .aic__client {
-                    display: block; color: var(--title-color);
-                    font-weight: 600; font-size: var(--small-font-size); line-height: 1.3;
-                }
-
-                .aic__spec {
-                    display: block; color: var(--text-color-light);
-                    font-size: var(--smaller-font-size); line-height: 1.45; margin-top: .15rem;
-                }
-
-                .aic__well {
-                    position: relative; aspect-ratio: 9 / 16; overflow: hidden;
-                    border-radius: .8rem; background: #0b1a24;
-                }
-
-                .aic__well img, .aic__well video {
-                    width: 100%; height: 100%; object-fit: cover; display: block;
-                }
-
-                .aic__trigger {
-                    position: absolute; inset: 0; width: 100%; height: 100%;
-                    display: grid; place-items: center; cursor: pointer;
-                    background: none; border: 0; padding: 0;
-                }
-
-                .aic__play {
-                    display: grid; place-items: center;
-                    width: 54px; height: 54px; border-radius: 50%;
-                    background: rgba(255, 255, 255, .92); color: var(--first-color-text);
-                    font-size: 1.5rem; box-shadow: 0 6px 20px rgba(0, 0, 0, .3);
-                    transition: transform .3s, background .3s, color .3s;
-                }
-
-                .aic__play i { line-height: 1; margin-left: 2px; }
-
-                .aic__proof {
-                    display: flex; align-items: flex-start; gap: .4rem;
-                    margin: .7rem .35rem .25rem;
-                    color: var(--text-color); font-size: var(--smaller-font-size); line-height: 1.5;
-                }
-
-                .aic__proof i {
-                    color: var(--first-color-text); font-size: .95rem;
-                    margin-top: .15rem; flex-shrink: 0;
-                }
-
-                .aic__proof-link { color: var(--first-color-text); font-weight: 600; }
-                .aic__proof-link i { margin-top: 0; font-size: .8rem; }
-
-                .aic__card.is-playing .aic__poster,
-                .aic__card.is-playing .aic__trigger { display: none; }
-
-                .aic__wide {
-                    margin-top: .75rem; background: var(--container-color);
-                    border: 1px solid rgba(0, 150, 221, 0.16);
-                    border-radius: 1.1rem; padding: .5rem;
-                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
-                    display: grid; gap: .5rem;
-                    transition: transform .3s, box-shadow .3s, border-color .3s;
-                }
-
-                .aic__wide-well {
-                    position: relative; aspect-ratio: 16 / 9; overflow: hidden;
-                    border-radius: .8rem; background: #0b1a24;
-                }
-
-                .aic__wide-well img { width: 100%; height: 100%; object-fit: cover; display: block; }
-
-                .aic__wide-body { padding: .35rem .35rem .5rem; }
-
-                .aic__wide-body p {
-                    color: var(--text-color); font-size: var(--smaller-font-size);
-                    line-height: 1.6; margin: .35rem 0 .5rem;
-                }
-
-                .aic__textlink {
-                    display: inline-flex; align-items: center; gap: .3rem;
-                    min-height: 44px;
-                    color: var(--first-color-text); font-weight: 600; font-size: var(--smaller-font-size);
-                }
-
-                .aic__chips {
-                    display: flex; flex-wrap: wrap; justify-content: center;
-                    gap: .5rem; margin-top: 1.5rem;
-                }
-
-                .aic__chip {
-                    background: rgba(0, 150, 221, 0.08);
-                    border: 1px solid rgba(0, 150, 221, 0.2);
-                    color: var(--title-color);
-                    font-size: var(--smaller-font-size); font-weight: 500;
-                    padding: .4rem .9rem; border-radius: 2rem;
-                }
-
-                .aic__ctas {
-                    display: flex; flex-wrap: wrap; justify-content: center;
-                    gap: .75rem; margin-top: 1.25rem;
-                }
-
-                .aic__trigger:focus-visible,
-                .aic__proof-link:focus-visible,
-                .aic__textlink:focus-visible {
-                    outline: 3px solid var(--first-color); outline-offset: 3px; border-radius: 1rem;
-                }
-
-                @media (hover: hover) and (pointer: fine) {
-                    .aic__card:hover, .aic__wide:hover {
-                        transform: translateY(-8px);
-                        border-color: var(--first-color);
-                        box-shadow: 0 14px 40px rgba(0, 150, 221, 0.18);
-                    }
-
-                    .aic__trigger:hover .aic__play {
-                        transform: scale(1.1);
-                        background: var(--first-color-text); color: #fff;
-                    }
-                }
-
-                @media screen and (min-width: 768px) {
-                    .aic__rack { gap: 1.5rem; }
-                    .aic__card { padding: .75rem; }
-
-                    .aic__wide {
-                        margin-top: 1.5rem; padding: .75rem;
-                        grid-template-columns: 240px minmax(0, 1fr);
-                        gap: 1.25rem; align-items: center;
-                    }
-                }
-
-                @media screen and (max-width: 767px) {
-                    .aic__card.is-playing { grid-column: 1 / -1; }
-                }
-
-                @media (prefers-reduced-motion: reduce) {
-                    .aic__card, .aic__wide, .aic__play { transition: none !important; }
-                }
-            </style>
-
-            <span class="aic__badge">New &middot; AI Video Production</span>
-            <h2 class="section__title" style="margin-bottom: .5rem;">We Make AI Creatives for Your Business</h2>
-            <span class="section__subtitle">
-                AI-generated video ads and marketing assets &mdash; a hero video for your website,
-                vertical reels for Facebook, Instagram and TikTok. No film crew, no studio, no actors.
-                Everything below is real client work, running live right now.
-            </span>
-
-            <div class="aic__wrap">
-
-                <div class="aic__rack">
-
-                    <article class="aic__card">
-                        <header class="aic__meta">
-                            <span class="aic__client">LivDry Ultimate</span>
-                            <span class="aic__spec">Vertical product ad &middot; 9:16 &middot; 30s &middot; built for Meta &amp; TikTok</span>
-                        </header>
-                        <div class="aic__well">
-                            <img loading="lazy" decoding="async" class="aic__poster" src="assets/video/livdry-ai-ad-poster.jpg"
-                                width="540" height="960" decoding="async" fetchpriority="low"
-                                alt="Still from the LivDry Ultimate vertical video ad produced by Nova Toronto: a presenter holding the product in a healthcare store aisle">
-                            <button type="button" class="aic__trigger"
-                                data-full="assets/video/livdry-ai-ad.mp4"
-                                data-name="livdry-vertical-ad"
-                                aria-label="Play the full 30 second LivDry Ultimate video ad">
-                                <span class="aic__play"><i class="uil uil-play" aria-hidden="true"></i></span>
-                            </button>
-                        </div>
-                        <p class="aic__proof">
-                            <i class="uil uil-play-circle" aria-hidden="true"></i>
-                            Full 30-second cut &mdash; plays right here
-                        </p>
-                    </article>
-
-                    <article class="aic__card">
-                        <header class="aic__meta">
-                            <span class="aic__client">Do Home Healthcare</span>
-                            <span class="aic__spec">Facebook Reel &middot; 9:16 &middot; 30s &middot; knee walker ad</span>
-                        </header>
-                        <div class="aic__well">
-                            <img loading="lazy" decoding="async" class="aic__poster" src="assets/video/kneewalker-ai-ad-poster.jpg"
-                                width="540" height="960" decoding="async" fetchpriority="low"
-                                alt="Still from the Do Home Healthcare knee walker Facebook reel produced by Nova Toronto">
-                            <button type="button" class="aic__trigger"
-                                data-full="assets/video/kneewalker-ai-ad.mp4"
-                                data-name="kneewalker-reel"
-                                aria-label="Play the full 30 second Do Home Healthcare knee walker ad">
-                                <span class="aic__play"><i class="uil uil-play" aria-hidden="true"></i></span>
-                            </button>
-                        </div>
-                        <p class="aic__proof">
-                            <i class="uil uil-play-circle" aria-hidden="true"></i>
-                            Plays here &mdash; also running on the client&rsquo;s
-                            <a class="aic__proof-link" href="https://www.facebook.com/reel/928074493072481"
-                                target="_blank" rel="noopener">Facebook page <i class="uil uil-external-link-alt" aria-hidden="true"></i></a>
-                        </p>
-                    </article>
-
-                </div>
-
-                <div class="aic__wide">
-                    <div class="aic__wide-well">
-                        <img loading="lazy" decoding="async" src="assets/video/dohomehealthcare-ai-promo-poster.jpg"
-                            width="1100" height="619" decoding="async" fetchpriority="low"
-                            alt="Still from the Do Home Healthcare brand video produced by Nova Toronto">
-                    </div>
-                    <div class="aic__wide-body">
-                        <span class="aic__client">Do Home Healthcare</span>
-                        <span class="aic__spec">Website brand video &middot; 16:9 &middot; 24s</span>
-                        <p>
-                            Same client, three formats. We built their website, then made this brand
-                            video for it &mdash; and the vertical Facebook ad beside it.
-                        </p>
-                        <a href="#ai-video" class="aic__textlink">
-                            See the full case study <i class="uil uil-arrow-down"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="aic__chips">
-                    <span class="aic__chip">From $497 + HST</span>
-                    <span class="aic__chip">Live in 3&ndash;5 business days</span>
-                    <span class="aic__chip">No film crew, no studio</span>
-                </div>
-
-                <div class="aic__ctas">
-                    <a href="#ai-video" class="button button--flex">
-                        See how we make them &amp; what they cost
-                        <i class="uil uil-arrow-down button__icon"></i>
-                    </a>
-                    <a href="#contact" class="button button--flex button--white">
-                        Book a Free 20-min Call
-                        <i class="uil uil-calendar-alt button__icon"></i>
-                    </a>
-                </div>
-
-            </div>
-
-            <script>
-                (function () {
-                    "use strict";
-                    try {
-                        var band = document.getElementById('ai-creatives');
-                        if (!band) return;
-                        var triggers = band.querySelectorAll('.aic__trigger[data-full]');
-                        if (!triggers.length) return;
-                        var players = [];
-
-                        Array.prototype.forEach.call(triggers, function (trigger) {
-                            var card = trigger.closest('.aic__card');
-                            var well = trigger.closest('.aic__well');
-                            if (!card || !well) return;
-                            var mounted = null;
-                            players.push(function () { return mounted; });
-
-                            trigger.addEventListener('click', function () {
-                            // only reuse the existing player if it is still in the document --
-                            // a stale detached node would swallow the click and play nothing
-                            if (mounted && mounted.isConnected) {
-                                mounted.play().catch(function () {});
-                                return;
-                            }
-                            mounted = null;
-
-                            var img = well.querySelector('.aic__poster');
-                            var v = document.createElement('video');
-                            v.className = 'aic__full';
-                            v.src = trigger.getAttribute('data-full');
-                            v.controls = true;
-                            v.playsInline = true;
-                            v.setAttribute('playsinline', '');
-                            if (img) v.poster = img.currentSrc || img.src;
-                            v.setAttribute('aria-label', (trigger.getAttribute('aria-label') || 'Video ad') + ', produced by Nova Toronto');
-
-                            v.addEventListener('error', function () {
-                                card.classList.remove('is-playing');
-                                if (v.parentNode) v.parentNode.removeChild(v);
-                                mounted = null;
-                            });
-
-                            well.appendChild(v);
-                            card.classList.add('is-playing');
-                            mounted = v;
-                            v.play().catch(function () { v.controls = true; });
-                            if (v.focus) v.focus({ preventScroll: true });
-
-                            if (window.gtag) {
-                                gtag('event', 'ai_creative_play', {
-                                    creative: trigger.getAttribute('data-name') || 'unknown'
-                                });
-                            }
-                            });
-                        });
-
-                        if ('IntersectionObserver' in window) {
-                            new IntersectionObserver(function (entries) {
-                                entries.forEach(function (e) {
-                                    if (e.isIntersecting) return;
-                                    if (document.pictureInPictureElement || document.fullscreenElement) return;
-                                    players.forEach(function (get) {
-                                        var v = get();
-                                        if (v && !v.paused) v.pause();
-                                    });
-                                });
-                            }, { threshold: 0 }).observe(band);
-                        }
-                    } catch (err) { /* band degrades to a working poster wall */ }
-                })();
-            </script>
-
-        </section>
 
         <!--==================== OUR SERVICES ====================-->
         <section class="section" id="services">
@@ -1256,253 +820,141 @@ The task: [describe it the way you would explain it out loud]</pre>
         </section>
 
 
-        <!--==================== AI VIDEO CASE STUDY ====================-->
-        <section class="section" id="ai-video">
-            <h2 class="section__title">AI Video That Sells</h2>
-            <span class="section__subtitle">Our newest service &mdash; and here it is running on a real client's website</span>
+        <div
+            style="background: linear-gradient(180deg, #ffffff, hsl(199, 60%, 97%));">
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <style>
+                    .pf__tag {
+                        display: inline-flex; align-items: center; gap: .4rem;
+                        margin-top: .75rem; padding: .35rem .85rem;
+                        background: var(--first-color-text); color: #fff;
+                        font-size: var(--smaller-font-size); font-weight: 600;
+                        border-radius: 2rem; transition: .3s;
+                    }
+                    .pf__tag:hover { background: var(--first-color-alt, #007bb5); color: #fff; }
+                </style>
 
-            <style>
-                .aiv__wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem;
-                    display: grid; gap: 2.5rem; align-items: center; }
-                @media screen and (min-width: 968px) { .aiv__wrap { grid-template-columns: 1.15fr .85fr; } }
+                <h2 class="section__title">Our Work</h2>
+                <span class="section__subtitle">Real websites we&rsquo;ve built for GTA businesses</span>
 
-                .aiv__player {
-                    position: relative; border-radius: 1.25rem; overflow: hidden;
-                    box-shadow: 0 18px 50px rgba(0, 70, 120, 0.22);
-                    border: 1px solid rgba(0, 150, 221, 0.2); background: #000;
-                    aspect-ratio: 16 / 9;
-                }
-                .aiv__player video { width: 100%; height: 100%; display: block; object-fit: cover; }
+                <div class="services__container container grid">
+                    <!--================SERVICES 1 ==================-->
 
-                .aiv__badge {
-                    display: inline-block; background: var(--first-color-text); color: #fff;
-                    font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
-                    padding: .3rem .9rem; border-radius: 2rem; margin-bottom: 1rem;
-                }
-                .aiv__copy h3 { color: var(--title-color); font-size: 1.5rem; margin-bottom: .6rem; }
-                .aiv__copy p { color: var(--text-color); line-height: 1.75; margin-bottom: 1.15rem; }
-                .aiv__list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
-                .aiv__list li {
-                    position: relative; padding-left: 1.8rem; margin-bottom: .7rem;
-                    color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6;
-                }
-                .aiv__list li i { position: absolute; left: 0; top: .15rem; color: var(--first-color-text); font-size: 1.15rem; }
-                .aiv__list li strong { color: var(--title-color); }
-                .aiv__proof {
-                    background: rgba(0, 150, 221, 0.06); border-left: 3px solid var(--first-color);
-                    border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem;
-                    font-size: var(--small-font-size); color: var(--text-color); line-height: 1.6;
-                }
-                .aiv__proof a { color: var(--first-color-text); font-weight: 600; }
-
-                .aiv__pricing { max-width: 1100px; margin: 3.5rem auto 0; padding: 0 1.5rem; }
-                .aiv__pricing h3 {
-                    color: var(--title-color); font-size: 1.35rem; text-align: center; margin-bottom: .4rem;
-                }
-                .aiv__pricing-sub {
-                    text-align: center; color: var(--text-color-light);
-                    font-size: var(--small-font-size); margin-bottom: 2rem;
-                }
-                .aiv__tiers {
-                    display: grid; gap: 1.25rem; align-items: stretch;
-                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                }
-                .aiv__tier {
-                    background: var(--container-color);
-                    border: 1px solid rgba(0, 150, 221, 0.16);
-                    border-radius: 1.25rem; padding: 1.75rem 1.5rem;
-                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
-                    display: flex; flex-direction: column;
-                }
-                .aiv__tier--featured {
-                    border: 2px solid var(--first-color);
-                    box-shadow: 0 14px 40px rgba(0, 150, 221, 0.18);
-                    position: relative;
-                }
-                .aiv__flag {
-                    position: absolute; top: -.75rem; left: 50%; transform: translateX(-50%);
-                    background: var(--first-color-text); color: #fff; white-space: nowrap;
-                    font-size: var(--smaller-font-size); font-weight: 600;
-                    padding: .25rem .9rem; border-radius: 2rem;
-                }
-                .aiv__tier-name {
-                    color: var(--title-color); font-weight: 600;
-                    font-size: var(--small-font-size); letter-spacing: .3px;
-                    text-transform: uppercase; margin-bottom: .35rem;
-                }
-                .aiv__tier-price {
-                    color: var(--first-color-text); font-weight: 700; font-size: 2rem; line-height: 1;
-                }
-                .aiv__tier-price span {
-                    font-size: var(--smaller-font-size); font-weight: 400;
-                    color: var(--text-color-light); margin-left: .3rem;
-                }
-                .aiv__tier-len {
-                    color: var(--text-color); font-size: var(--small-font-size);
-                    margin: .6rem 0 1rem; font-weight: 500;
-                }
-                .aiv__tier ul { list-style: none; padding: 0; margin: 0 0 1.25rem; flex: 1; }
-                .aiv__tier li {
-                    position: relative; padding-left: 1.4rem; margin-bottom: .55rem;
-                    color: var(--text-color); font-size: var(--smaller-font-size); line-height: 1.55;
-                }
-                .aiv__tier li::before {
-                    content: '\2713'; position: absolute; left: 0; top: 0;
-                    color: var(--first-color-text); font-weight: 700;
-                }
-                .aiv__tier .button { width: 100%; justify-content: center; }
-
-                .aiv__bundle {
-                    margin-top: 1.75rem; background: rgba(0, 150, 221, 0.07);
-                    border: 1px dashed var(--first-color); border-radius: 1.25rem;
-                    padding: 1.5rem 1.75rem;
-                    display: flex; flex-wrap: wrap; align-items: center;
-                    justify-content: space-between; gap: 1rem;
-                }
-                .aiv__bundle h4 { color: var(--title-color); font-size: 1.1rem; margin-bottom: .35rem; }
-                .aiv__bundle p {
-                    color: var(--text-color); font-size: var(--small-font-size);
-                    line-height: 1.6; margin: 0; max-width: 620px;
-                }
-                .aiv__addons {
-                    margin-top: 1.5rem; color: var(--text-color-light);
-                    font-size: var(--smaller-font-size); line-height: 1.8; text-align: center;
-                }
-                .aiv__addons b { color: var(--title-color); }
-                .aiv__note {
-                    margin-top: 1rem; text-align: center;
-                    color: var(--text-color-light); font-size: var(--smaller-font-size);
-                    line-height: 1.7;
-                }
-            </style>
-
-            <div class="aiv__wrap">
-                <div class="aiv__player">
-                    <video controls preload="none" playsinline
-                        poster="assets/video/dohomehealthcare-ai-promo-poster.jpg"
-                        aria-label="AI-generated promotional video produced by Nova Toronto for Do Home Healthcare">
-                        <source src="assets/video/dohomehealthcare-ai-promo.mp4" type="video/mp4">
-                        Your browser does not support video playback.
-                    </video>
-                </div>
-
-                <div class="aiv__copy">
-                    <span class="aiv__badge">New service &middot; AI Video Production</span>
-                    <h3>We built the site &mdash; then we made the video too</h3>
-                    <p>
-                        Do Home Healthcare came to us for a website. We delivered that, then produced
-                        this AI-generated brand video tailored to their business &mdash; no film crew,
-                        no studio rental, no actors. It now runs on their homepage.
-                    </p>
-
-                    <ul class="aiv__list">
-                        <li><i class="uil uil-bolt"></i><strong>Days, not weeks.</strong> Traditional video production takes a month and costs thousands. This took days.</li>
-                        <li><i class="uil uil-palette"></i><strong>Made for your brand.</strong> Written around your services, your customers, and your message &mdash; not stock footage.</li>
-                        <li><i class="uil uil-share-alt"></i><strong>Works everywhere.</strong> Website hero, Meta and TikTok ads, YouTube, Google Business Profile.</li>
-                        <li><i class="uil uil-chart-line"></i><strong>Video converts.</strong> A moving hero holds attention far longer than a static image &mdash; more time on page, more enquiries.</li>
-                    </ul>
-
-                    <div class="aiv__proof">
-                        <i class="uil uil-check-circle" style="color: var(--first-color-text);"></i>
-                        <strong>Don't take our word for it</strong> &mdash; this exact video is live on the
-                        client's own homepage at
-                        <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">dohomehealthcare.com</a>.
-                    </div>
-
-                    <a href="#contact" class="button button--flex" style="display:inline-flex">
-                        Get a Video for Your Business <i class="uil uil-video button__icon"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="aiv__pricing">
-                <h3>AI Video Production &mdash; published pricing</h3>
-                <p class="aiv__pricing-sub">
-                    Real prices, on the page. No quote form, no discovery call before you know the number.
-                </p>
-
-                <div class="aiv__tiers">
-
-                    <div class="aiv__tier">
-                        <div class="aiv__tier-name">Bronze</div>
-                        <div class="aiv__tier-price">$497<span>+ HST</span></div>
-                        <div class="aiv__tier-len">15&ndash;20 second brand video</div>
-                        <ul>
-                            <li>Script written for your business</li>
-                            <li>Full HD 1080p</li>
-                            <li>Your logo, brand colours &amp; CTA end card</li>
-                            <li>Licensed music + AI voiceover</li>
-                            <li>Widescreen &amp; vertical (16:9 + 9:16)</li>
-                            <li>1 revision round</li>
-                            <li>Delivered in 3 business days</li>
-                            <li>Full commercial usage rights</li>
-                        </ul>
-                        <a href="#contact" class="button button--small button--white">Get Started</a>
-                    </div>
-
-                    <div class="aiv__tier aiv__tier--featured">
-                        <span class="aiv__flag">Most popular</span>
-                        <div class="aiv__tier-name">Silver</div>
-                        <div class="aiv__tier-price">$897<span>+ HST</span></div>
-                        <div class="aiv__tier-len">20&ndash;40 second brand video</div>
-                        <ul>
-                            <li><strong>This is the Do Home Healthcare video above</strong></li>
-                            <li>Custom script from a 20-minute discovery call</li>
-                            <li>Full HD 1080p</li>
-                            <li>Licensed music + AI voiceover (or send us your own)</li>
-                            <li>Three formats: 16:9, 9:16 and 1:1</li>
-                            <li>Plus two short cutdowns (15s and 6s) for ads</li>
-                            <li>2 revision rounds</li>
-                            <li>Delivered in 5 business days</li>
-                            <li>Full commercial usage rights</li>
-                        </ul>
-                        <a href="#contact" class="button button--small">Get Started</a>
-                    </div>
-
-                    <div class="aiv__tier">
-                        <div class="aiv__tier-name">Gold</div>
-                        <div class="aiv__tier-price">$1,497<span>+ HST</span></div>
-                        <div class="aiv__tier-len">45&ndash;60 second hero video</div>
-                        <ul>
-                            <li>Two script concepts &mdash; you pick</li>
-                            <li>Full HD 1080p, every aspect ratio</li>
-                            <li>Three cutdowns sized for Meta, Instagram, TikTok &amp; YouTube</li>
-                            <li>Matching ad-copy variants written for you</li>
-                            <li>3 revision rounds</li>
-                            <li>Delivered in 5 business days</li>
-                            <li>Full commercial usage rights</li>
-                        </ul>
-                        <a href="#contact" class="button button--small button--white">Get Started</a>
-                    </div>
-
-                </div>
-
-                <div class="aiv__bundle">
                     <div>
-                        <h4><i class="uil uil-layer-group" style="color: var(--first-color-text);"></i> Launch Bundle &mdash; website + video, $1,400</h4>
-                        <p>
-                            Add the Silver video to any website package for <strong>$500</strong> instead of $897.
-                            Bronze website + Silver video comes to <strong>$1,400</strong>, live in about two weeks.
-                            On our Gold website build the video is <strong>included free</strong>.
-                        </p>
+                        <div>
+                            <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">
+                                <img loading="lazy" decoding="async" width="700" height="419" src="./assets/img/do_home_healthcare.webp"
+                                    alt="Do Home Healthcare website homepage designed by Nova Toronto"
+                                    class="u-rounded-sm portfolio__card-img"
+                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
+                            </a>
+                            <a href="#ai-video" class="pf__tag">
+                                <i class="uil uil-video"></i> Website + AI video &mdash; watch it
+                            </a>
+
+                        </div>
+
                     </div>
-                    <a href="#contact" class="button button--small" style="white-space: nowrap;">Book a Free Call</a>
+
+                    <div>
+                        <div>
+                            <a href="https://colorsoftprintandsign.ca/">
+                                <img loading="lazy" decoding="async" width="700" height="506" src="./assets/img/colorsoft_for_rujal.webp"
+                                    alt="colorsoft print and sign website homepage"
+                                    class="u-rounded-sm portfolio__card-img"
+                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div>
+
+                            <a href="https://asianhakka.com/">
+                                <img loading="lazy" decoding="async" width="900" height="652" src="./assets/img/asian_hakka1.webp" alt="asian hakka restaurant website homepage"
+                                    class="u-rounded-sm portfolio__card-img"
+                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div>
+                            <a href="https://igrlogistics.com/">
+                                <img loading="lazy" decoding="async" width="900" height="652" src="./assets/img/igrlogistics.webp" alt="igr logistics company website homepage"
+                                    class="u-rounded-sm portfolio__card-img"
+                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);"></a>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div>
+                            <a href="https://thetawagrill.com/">
+                                <img loading="lazy" decoding="async" width="900" height="665" src="./assets/img/tawa_gtill_home.webp" alt="The Tawa Grill restaurant website homepage"
+                                    class="u-rounded-sm portfolio__card-img"
+                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);"></a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <a href="https://promaxagency.ca/">
+                                <img loading="lazy" decoding="async" width="700" height="419" src="./assets/img/promax_agency.webp" alt="promax agency website homepage"
+                                    class="u-rounded-sm portfolio__card-img"
+                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <a href="http://joyhaina.com/">
+                                <img loading="lazy" decoding="async" width="900" height="671" src="./assets/img/Joyhaina_home.webp" alt="Joyhaina website homepage"
+                                    class="u-rounded-sm portfolio__card-img"
+                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);"></a>
+
+                        </div>
+
+                    </div>
+
                 </div>
+                <div>
 
-                <p class="aiv__addons">
-                    <b>Add-ons:</b>
-                    every extra 15 seconds <b>+$200</b> &middot;
-                    48-hour rush <b>+$250</b> &middot;
-                    real human voiceover instead of AI <b>+$300</b> &middot;
-                    extra revision round <b>+$150</b> &middot;
-                    each additional cutdown or aspect ratio <b>+$100</b>
-                </p>
+                </div>
+                <div class="section__subtitle u-text-center" style="padding-top: 19px;">
+                    <a href="#website-pricing" class="button ">
+                        See website pricing
+                    </a>
+                    </div>
+            </section>
 
-                <p class="aiv__note">
-                    Videos are produced using AI-generated visuals, licensed footage and motion graphics.
-                    For healthcare, legal and financial clients we also offer a footage-and-motion-graphics
-                    version with no synthetic people &mdash; just ask.
-                    All prices in Canadian dollars, plus HST.
-                </p>
+        </div>
+
+        <!--==================== CLIENTS (real portfolio clients; add quotes here when Rujal supplies them) ====================-->
+        <section class="section clients" id="clients" aria-label="Businesses we have built for">
+            <style>
+                .clients { padding-top: 0; }
+                .clients__label { text-align: center; font-size: var(--small-font-size); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-color); margin-bottom: 1rem; }
+                .clients__row { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; }
+                .clients__row a { display: inline-flex; align-items: center; min-height: 44px; padding: .4rem 1.1rem; border-radius: 2rem; border: 1px solid rgba(0, 150, 221, .25); background: var(--container-color); color: var(--title-color); font-weight: 600; font-size: var(--small-font-size); }
+                .clients__row a:hover { border-color: var(--first-color); color: var(--first-color-text); }
+            </style>
+            <p class="clients__label">Websites we&rsquo;ve built for GTA businesses</p>
+            <div class="clients__row">
+                <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">Do Home Healthcare</a>
+                <a href="https://colorsoftprintandsign.ca/" target="_blank" rel="noopener">Colorsoft Print &amp; Sign</a>
+                <a href="https://asianhakka.com/" target="_blank" rel="noopener">Asian Hakka</a>
+                <a href="https://igrlogistics.com/" target="_blank" rel="noopener">IGR Logistics</a>
+                <a href="https://thetawagrill.com/" target="_blank" rel="noopener">The Tawa Grill</a>
+                <a href="https://promaxagency.ca/" target="_blank" rel="noopener">Promax Agency</a>
+                <a href="http://joyhaina.com/" target="_blank" rel="noopener">Joyhaina</a>
             </div>
         </section>
 
@@ -1777,122 +1229,1060 @@ The task: [describe it the way you would explain it out loud]</pre>
             </div>
         </section>
 
-        <div
-            style="background: linear-gradient(180deg, #ffffff, hsl(199, 60%, 97%));">
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <style>
-                    .pf__tag {
-                        display: inline-flex; align-items: center; gap: .4rem;
-                        margin-top: .75rem; padding: .35rem .85rem;
-                        background: var(--first-color-text); color: #fff;
-                        font-size: var(--smaller-font-size); font-weight: 600;
-                        border-radius: 2rem; transition: .3s;
-                    }
-                    .pf__tag:hover { background: var(--first-color-alt, #007bb5); color: #fff; }
-                </style>
+        <!--==================== PRICING & GROWTH ====================-->
+        <section class="section" id="website-pricing">
+            <h2 class="section__title">Pricing &amp; Growth</h2>
+            <span class="section__subtitle">What we do, what it costs, and how we grow it</span>
 
-                <h2 class="section__title">WEBSITE DESIGNS</h2>
-                <span class="section__subtitle">We may not have met yet, but here some of our work.</span>
+            <style>
+                .pg__grid {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 1.75rem;
+                    max-width: 1100px;
+                    margin: 0 auto;
+                    padding: 0 1.5rem;
+                    align-items: start;
+                }
 
-                <div class="services__container container grid">
-                    <!--================SERVICES 1 ==================-->
+                @media screen and (min-width: 968px) {
+                    .pg__grid { grid-template-columns: 68fr 32fr; }
+                }
 
-                    <div>
-                        <div>
-                            <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">
-                                <img loading="lazy" decoding="async" width="700" height="419" src="./assets/img/do_home_healthcare.webp"
-                                    alt="Do Home Healthcare website homepage designed by Nova Toronto"
-                                    class="u-rounded-sm portfolio__card-img"
-                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
-                            </a>
-                            <a href="#ai-video" class="pf__tag">
-                                <i class="uil uil-video"></i> Website + AI video &mdash; watch it
-                            </a>
+                .pg__card {
+                    border-radius: 1.5rem;
+                    padding: 2.25rem 2rem;
+                    background: var(--container-color);
+                    border: 1px solid rgba(0, 150, 221, 0.15);
+                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
+                }
 
-                        </div>
+                .pg__card--primary {
+                    background: linear-gradient(160deg, #ffffff 0%, hsl(199, 70%, 97%) 100%);
+                    border: 2px solid var(--first-color);
+                    box-shadow: 0 14px 44px rgba(0, 150, 221, 0.18);
+                }
 
+                .pg__badge {
+                    display: inline-block;
+                    background: var(--first-color-text);
+                    color: #fff;
+                    font-size: var(--smaller-font-size);
+                    font-weight: 600;
+                    padding: .3rem .9rem;
+                    border-radius: 2rem;
+                    margin-bottom: 1rem;
+                    letter-spacing: .3px;
+                }
+
+                .pg__card h3 {
+                    color: var(--title-color);
+                    font-size: 1.6rem;
+                    margin-bottom: .4rem;
+                }
+
+                .pg__lead {
+                    color: var(--text-color);
+                    font-size: var(--normal-font-size);
+                    line-height: 1.7;
+                    margin-bottom: 1.5rem;
+                }
+
+                .pg__lead strong { color: var(--title-color); }
+
+                .pg__list { list-style: none; padding: 0; margin-bottom: 1.75rem; }
+
+                .pg__list li {
+                    position: relative;
+                    padding-left: 1.9rem;
+                    margin-bottom: .85rem;
+                    color: var(--text-color);
+                    font-size: var(--small-font-size);
+                    line-height: 1.6;
+                }
+
+                .pg__list li i {
+                    position: absolute;
+                    left: 0;
+                    top: .1rem;
+                    color: var(--first-color-text);
+                    font-size: 1.25rem;
+                }
+
+                .pg__list li strong { color: var(--title-color); }
+
+                .pg__stats {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: .75rem;
+                    margin-bottom: 1.75rem;
+                }
+
+                .pg__stat {
+                    text-align: center;
+                    background: rgba(0, 150, 221, 0.06);
+                    border: 1px solid rgba(0, 150, 221, 0.15);
+                    border-radius: 1rem;
+                    padding: 1rem .5rem;
+                }
+
+                .pg__stat strong {
+                    display: block;
+                    color: var(--first-color-text);
+                    font-size: 1.35rem;
+                    line-height: 1.1;
+                }
+
+                .pg__stat span {
+                    font-size: var(--smaller-font-size);
+                    color: var(--text-color-light);
+                }
+
+                .pg__price {
+                    font-size: var(--small-font-size);
+                    color: var(--text-color-light);
+                    margin-bottom: 1.5rem;
+                    line-height: 1.6;
+                }
+
+                .pg__price b { color: var(--title-color); font-size: 1.15rem; }
+
+                .pg__tiers { list-style: none; padding: 0; margin: 1.25rem 0 1.5rem; }
+
+                .pg__tier {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    gap: 1rem;
+                    padding: .7rem 0;
+                    border-bottom: 1px solid rgba(0, 150, 221, 0.12);
+                }
+
+                .pg__tier:last-child { border-bottom: none; }
+
+                .pg__tier-name { color: var(--title-color); font-weight: 600; font-size: var(--small-font-size); }
+                .pg__tier-desc { color: var(--text-color-light); font-size: var(--smaller-font-size); display: block; font-weight: 400; }
+                .pg__tier-price { color: var(--first-color-text); font-weight: 700; white-space: nowrap; }
+
+                .pg__link {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: .35rem;
+                    color: var(--first-color-text);
+                    font-weight: var(--font-medium);
+                    font-size: var(--small-font-size);
+                    margin-top: .25rem;
+                }
+
+                .pg__link:hover { gap: .7rem; }
+            </style>
+
+            <div class="pg__grid">
+                <!-- Digital Marketing (primary, 70%) -->
+                <div class="pg__card pg__card--primary">
+                    <span class="pg__badge">Our specialty &mdash; where the growth happens</span>
+                    <h3>Digital Marketing &amp; Ads</h3>
+                    <p class="pg__lead">
+                        We have a track record of building ad campaigns with a <strong>higher ROAS
+                        (return on ad spend)</strong>. And we don&rsquo;t just launch your ads and leave
+                        you on your own &mdash; we actively manage every dollar so your <strong>budget
+                        and target ROAS (tROAS) stay in sync</strong>, quarter after quarter.
+                    </p>
+
+                    <ul class="pg__list">
+                        <li><i class="uil uil-chart-line"></i><strong>Proven higher ROAS.</strong> A history of campaigns that return more for every dollar spent.</li>
+                        <li><i class="uil uil-balance-scale"></i><strong>Budget &amp; tROAS in sync.</strong> We watch the numbers so you never overspend or underdeliver.</li>
+                        <li><i class="uil uil-arrow-growth"></i><strong>Real MoM &amp; YoY growth.</strong> Month-over-month and year-over-year progress you can actually see.</li>
+                        <li><i class="uil uil-file-check-alt"></i><strong>Transparent reporting.</strong> Clear numbers every month &mdash; you always know what your spend is earning.</li>
+                    </ul>
+
+                    <div class="pg__stats">
+                        <div class="pg__stat"><strong>&uarr; ROAS</strong><span>higher return on spend</span></div>
+                        <div class="pg__stat"><strong>MoM</strong><span>month-over-month growth</span></div>
+                        <div class="pg__stat"><strong>YoY</strong><span>year-over-year growth</span></div>
                     </div>
 
-                    <div>
-                        <div>
-                            <a href="https://colorsoftprintandsign.ca/">
-                                <img loading="lazy" decoding="async" width="700" height="506" src="./assets/img/colorsoft_for_rujal.webp"
-                                    alt="colorsoft print and sign website homepage"
-                                    class="u-rounded-sm portfolio__card-img"
-                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
-                            </a>
+                    <p class="pg__price">
+                        <b>Custom monthly plans</b> &mdash; management tailored to your goals.
+                        Most local businesses start around $500&ndash;$1,500/mo in ad spend; we build the plan around your budget on a free call.
+                    </p>
 
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <div>
-
-                            <a href="https://asianhakka.com/">
-                                <img loading="lazy" decoding="async" width="900" height="652" src="./assets/img/asian_hakka1.webp" alt="asian hakka restaurant website homepage"
-                                    class="u-rounded-sm portfolio__card-img"
-                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <div>
-                            <a href="https://igrlogistics.com/">
-                                <img loading="lazy" decoding="async" width="900" height="652" src="./assets/img/igrlogistics.webp" alt="igr logistics company website homepage"
-                                    class="u-rounded-sm portfolio__card-img"
-                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);"></a>
-
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <div>
-                            <a href="https://thetawagrill.com/">
-                                <img loading="lazy" decoding="async" width="900" height="665" src="./assets/img/tawa_gtill_home.webp" alt="igr logistics company website homepage"
-                                    class="u-rounded-sm portfolio__card-img"
-                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);"></a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <a href="https://promaxagency.ca/">
-                                <img loading="lazy" decoding="async" width="700" height="419" src="./assets/img/promax_agency.webp" alt="promax agency website homepage"
-                                    class="u-rounded-sm portfolio__card-img"
-                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <a href="http://joyhaina.com/">
-                                <img loading="lazy" decoding="async" width="900" height="671" src="./assets/img/Joyhaina_home.webp" alt="igr logistics company website homepage"
-                                    class="u-rounded-sm portfolio__card-img"
-                                    style="box-shadow: 0 10px 30px rgba(0, 150, 221, 0.3);"></a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div>
-
-                </div>
-                <div class="section__subtitle u-text-center" style="padding-top: 19px;">
-                    <a href="#website-pricing" class="button ">
-                        WEBSITE PRICING
+                    <a href="#contact" class="button button--flex" style="display:inline-flex">
+                        Book a free 15-min call <i class="uil uil-chart-growth button__icon"></i>
                     </a>
-                    </h2>
-            </section>
+                    <br><br>
+                    <a href="digital-marketing/" class="pg__link">See how our marketing works <i class="uil uil-arrow-right"></i></a>
+                </div>
 
-        </div>
+                <!-- Website Design (secondary, 30%) -->
+                <div class="pg__card">
+                    <h3>Website Design</h3>
+                    <p class="pg__lead" style="font-size: var(--small-font-size); margin-bottom: 1rem;">
+                        A fast, modern site is the foundation your ads and SEO send traffic to. Simple, fixed pricing:
+                    </p>
+
+                    <ul class="pg__tiers">
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">Bronze<span class="pg__tier-desc">3-page starter site</span></span>
+                            <span class="pg__tier-price">$900</span>
+                        </li>
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">Silver<span class="pg__tier-desc">5-page site + analytics &amp; SEO</span></span>
+                            <span class="pg__tier-price">$1,800</span>
+                        </li>
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">E-commerce<span class="pg__tier-desc">Shopify / WooCommerce store</span></span>
+                            <span class="pg__tier-price">$2,000</span>
+                        </li>
+                        <li class="pg__tier">
+                            <span class="pg__tier-name">Gold<span class="pg__tier-desc">Custom-built from scratch</span></span>
+                            <span class="pg__tier-price">$5,000</span>
+                        </li>
+                    </ul>
+
+                    <a href="website-design/" class="pg__link">See full package details <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Marketplace selling strip -->
+            <div style="max-width: 1100px; margin: 1.75rem auto 0; padding: 0 1.5rem;">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.15); border-radius: 1.25rem; padding: 1.5rem 1.75rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);">
+                    <div style="flex: 1; min-width: 260px;">
+                        <h3 style="color: var(--title-color); font-size: 1.15rem; margin-bottom: .3rem;">
+                            <i class="uil uil-store" style="color: var(--first-color-text);"></i>
+                            Sell on Amazon &amp; Walmart
+                        </h3>
+                        <p style="color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6; margin: 0;">
+                            Seller Central setup, product listings, FBA and ads &mdash; packages from
+                            <strong style="color: var(--title-color);">$450</strong> to full launch &amp; ads management.
+                        </p>
+                    </div>
+                    <div style="display: flex; gap: .6rem; flex-wrap: wrap;">
+                        <a href="amazon-seller/" class="button button--small" style="white-space: nowrap;">Amazon Packages</a>
+                        <a href="walmart-seller/" class="button button--small button--white" style="white-space: nowrap;">Walmart Packages</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI video strip -->
+            <div style="max-width: 1100px; margin: 1rem auto 0; padding: 0 1.5rem;">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.15); border-radius: 1.25rem; padding: 1.5rem 1.75rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);">
+                    <div style="flex: 1; min-width: 260px;">
+                        <h3 style="color: var(--title-color); font-size: 1.15rem; margin-bottom: .3rem;">
+                            <i class="uil uil-video" style="color: var(--first-color-text);"></i>
+                            AI Video Production
+                        </h3>
+                        <p style="color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6; margin: 0;">
+                            Brand videos from <strong style="color: var(--title-color);">$497</strong>, delivered in days &mdash;
+                            or add one to any website package for <strong style="color: var(--title-color);">$500</strong>.
+                            Website + video together from <strong style="color: var(--title-color);">$1,400</strong>.
+                        </p>
+                    </div>
+                    <div style="display: flex; gap: .6rem; flex-wrap: wrap;">
+                        <a href="#ai-video" class="button button--small" style="white-space: nowrap;">See Video Pricing</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Schedule Your Free Traffic Consultation</h2>
+            <span class="section__subtitle">Let's discuss how to drive more customers to your business</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Us</h3>
+                            <a href="tel:+13653553133" class="contact__subtitle contact__link">365-355-3133</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <a href="mailto:novatoronto.ca@gmail.com" class="contact__subtitle contact__link">novatoronto.ca@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Toronto - Canada</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information" style="margin-top: 1.5rem;">
+                        <i class="uil uil-clock contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Hours</h3>
+                            <span class="contact__subtitle">Every day, 11 AM &ndash; 6 PM</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Booking Form -->
+                <form action="https://formsubmit.co/novatoronto.ca@gmail.com" method="POST"
+                    class="contact__form grid">
+                    <p style="margin-bottom: 0.5rem; line-height: 1.6;">
+                        <strong>Book your free 15-minute call.</strong> Tell us about your business and
+                        we'll get back to you within one business day.
+                    </p>
+
+                    <input type="hidden" name="_subject" value="New booking request — novatoronto.com">
+                    <input type="hidden" name="_next" value="https://novatoronto.com/thank-you.html">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none">
+
+                    <div class="contact__content">
+                        <label for="booking-name" class="contact__label">Name</label>
+                        <input type="text" id="booking-name" name="name" class="contact__input" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="booking-email" class="contact__label">Email</label>
+                        <input type="email" id="booking-email" name="email" class="contact__input" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="booking-phone" class="contact__label">Phone</label>
+                        <input type="tel" id="booking-phone" name="phone" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="booking-service" class="contact__label">What do you need?</label>
+                        <select id="booking-service" name="service" class="contact__input" required>
+                            <option value="">Select a service</option>
+                            <option>Website Design</option>
+                            <option>Digital Marketing / Ads</option>
+                            <option>AI Automation / AI Receptionist</option>
+                            <option>Amazon or Walmart Selling</option>
+                            <option>Not sure yet</option>
+                        </select>
+                    </div>
+                    <div class="contact__content">
+                        <label for="booking-time" class="contact__label">Best time to reach you</label>
+                        <select id="booking-time" name="preferred_time" class="contact__input">
+                            <option>Anytime</option>
+                            <option>Morning (8 AM - 12 PM)</option>
+                            <option>Afternoon (12 - 5 PM)</option>
+                            <option>Evening (5 - 9 PM)</option>
+                        </select>
+                    </div>
+                    <div class="contact__content">
+                        <label for="booking-message" class="contact__label">Tell us about your business</label>
+                        <textarea id="booking-message" name="message" rows="4" class="contact__input"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="button button--flex"
+                            style="width: 100%; justify-content: center;">
+                            Book my free 15-min call
+                            <i class="uil uil-calendar-alt button__icon"></i>
+                        </button>
+                    </div>
+                    <p
+                        style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--text-color-light); text-align: center;">
+                        <i class="uil uil-info-circle"></i>
+                        We'll confirm your consultation by email — no spam, ever.
+                    </p>
+                </form>
+            </div>
+
+        </section>
+
+        <!--==================== FREE AI TOOLKIT (video + copy-paste prompts) ====================-->
+        <section class="section" id="free-ai">
+            <h2 class="section__title">Free: Let AI Do Your Repeated Work</h2>
+            <span class="section__subtitle">Watch the 45-second tour, then copy a prompt into Claude and try it on today's work</span>
+
+            <style>
+                .fai__wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; display: grid; gap: 2rem; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); align-items: start; }
+                .fai__video { width: 100%; border-radius: 1.2rem; box-shadow: 0 12px 36px rgba(0, 70, 120, 0.18); background: #0b1f3a; aspect-ratio: 9 / 16; height: auto; object-fit: cover; display: block; }
+                .fai__note { font-size: var(--smaller-font-size); color: var(--text-color); margin-top: .5rem; text-align: center; }
+                .fai__grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+                .fai__card { background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.18); border-radius: 1.1rem; padding: 1.1rem 1.1rem 1rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07); display: flex; flex-direction: column; }
+                .fai__tag { font-size: var(--smaller-font-size); color: var(--first-color-text); font-weight: 600; }
+                .fai__title { font-size: var(--h3-font-size); color: var(--title-color); margin: .2rem 0 .6rem; }
+                .fai__prompt { white-space: pre-wrap; font-family: inherit; font-size: .82rem; line-height: 1.5; color: var(--text-color); background: rgba(0, 150, 221, 0.06); border-radius: .7rem; padding: .7rem .8rem; margin: 0 0 .8rem; max-height: 9.5rem; overflow: auto; flex: 1; }
+                .fai__copy { align-self: flex-start; min-height: 44px; padding: .4rem 1.1rem; border-radius: 2rem; border: 1px solid var(--first-color); background: transparent; color: var(--first-color-text); font-weight: 600; cursor: pointer; }
+                .fai__copy.done { background: var(--first-color); color: #fff; }
+                .fai__grid:not(.fai--open) .fai__card:nth-child(n+3) { display: none; }
+                .fai__more { grid-column: 1 / -1; justify-self: center; min-height: 44px; padding: .5rem 1.4rem; border-radius: 2rem; border: 1px solid var(--first-color); background: transparent; color: var(--first-color-text); font-weight: 600; cursor: pointer; }
+                .fai--open .fai__more { display: none; }
+                .fai__cta { grid-column: 1 / -1; text-align: center; margin-top: .5rem; color: var(--text-color); }
+                .fai__cta a { color: var(--first-color-text); font-weight: 600; }
+                @media screen and (max-width: 767px) { .fai__wrap { grid-template-columns: 1fr; } .fai__videobox { max-width: 320px; margin: 0 auto; } }
+            </style>
+
+            <div class="fai__wrap">
+                <div class="fai__videobox">
+                    <video class="fai__video" controls preload="none" playsinline poster="assets/video/jade-3-ai-tools-poster.jpg" width="540" height="960">
+                        <source src="assets/video/jade-3-ai-tools.mp4" type="video/mp4">
+                    </video>
+                    <p class="fai__note">3 AI tools every small business should try. AI presenter.</p>
+                    <video class="fai__video" controls preload="none" playsinline poster="assets/video/interview-ai-at-work-poster.jpg" width="540" height="960" style="margin-top: 1.5rem;">
+                        <source src="assets/video/interview-ai-at-work.mp4" type="video/mp4">
+                    </video>
+                    <p class="fai__note">How two GTA business owners use AI at work. AI-generated characters, illustrative scenario.</p>
+                </div>
+                <div class="fai__grid" id="fai-grid">
+                    <div class="fai__card">
+                        <span class="fai__tag">Every inbox, every day</span>
+                        <h3 class="fai__title">Reply to customer emails</h3>
+                        <pre class="fai__prompt" id="fai-p0">You are the friendly front desk of [business name], a [type of business] in [city]. Write a short, warm reply to the customer email below. Answer their question using only the facts I give you, keep it under 120 words, and end with one clear next step. If something is missing, tell me what to ask instead of guessing.
+
+Facts: [prices, hours, policies]
+Customer email: [paste the email, without card numbers or health details]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p0">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Trades, cleaners, studios</span>
+                        <h3 class="fai__title">Turn rough notes into a quote</h3>
+                        <pre class="fai__prompt" id="fai-p1">Turn my rough job notes into a clean, professional quote for [customer first name]. List each item with a short description and price, add the subtotal, 13% HST and total, and a line saying the quote is valid for 30 days. Keep my prices exactly as written and do not add items.
+
+My notes: [paste notes]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p1">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">After every call</span>
+                        <h3 class="fai__title">Call or meeting notes to follow-up</h3>
+                        <pre class="fai__prompt" id="fai-p2">Here are my notes from a call with a customer. Give me: 1) a three-line summary, 2) a to-do list with who does what by when, and 3) a short follow-up email I can send today confirming what we agreed. Use only what is in the notes.
+
+Notes: [paste notes]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p2">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Five minutes a week</span>
+                        <h3 class="fai__title">Reply to Google reviews</h3>
+                        <pre class="fai__prompt" id="fai-p3">Write a reply from [business name] to each Google review below. Thank them by first name, mention one specific thing they said, keep each reply under 50 words and sound like a real local owner, not a template. For a negative review, apologize once, do not argue, and invite them to call [phone].
+
+Reviews: [paste reviews]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p3">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Instagram, Facebook, LinkedIn</span>
+                        <h3 class="fai__title">A week of social posts</h3>
+                        <pre class="fai__prompt" id="fai-p4">Write 5 short social posts for [business name], a [type of business] in [city]. Mix: one tip, one behind-the-scenes, one customer question answered, one offer ([offer]), one local Toronto angle. Each under 60 words with one emoji and 3 hashtags. No made-up statistics or reviews.</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p4">Copy prompt</button>
+                    </div>
+                    <div class="fai__card">
+                        <span class="fai__tag">Train staff once, not ten times</span>
+                        <h3 class="fai__title">Write a step-by-step checklist (SOP)</h3>
+                        <pre class="fai__prompt" id="fai-p5">I will describe a task we repeat every week. Turn it into a numbered step-by-step checklist a new staff member could follow on day one, with what to check at each step and common mistakes to avoid. Ask me up to 3 questions first if anything is unclear.
+
+The task: [describe it the way you would explain it out loud]</pre>
+                        <button type="button" class="fai__copy" data-fai="fai-p5">Copy prompt</button>
+                    </div>
+                </div>
+                <button type="button" class="fai__more" id="fai-more" aria-expanded="false">Show 4 more prompts</button>
+                    <p class="fai__cta">Paste a prompt into <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> (free plan works), fill in the [brackets], and never paste card numbers or private customer details.
+                    Want this running on its own every day? <a href="#contact">Book a free 15-min call</a> &middot; or learn the basics in our <a href="ai-course/">free AI course</a>.</p>
+            </div>
+
+            <script>
+                document.querySelectorAll('.fai__copy').forEach(function (b) {
+                    b.addEventListener('click', function () {
+                        var t = document.getElementById(b.getAttribute('data-fai')).textContent;
+                        var ok = function () { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(function () { b.textContent = 'Copy prompt'; b.classList.remove('done'); }, 2500); };
+                        if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(t).then(ok, function () {}); }
+                    });
+                });
+            </script>
+        <script>document.getElementById('fai-more').addEventListener('click', function () { document.getElementById('fai-grid').classList.add('fai--open'); this.setAttribute('aria-expanded', 'true'); });</script>
+        </section>
+
+        <!--==================== AI CREATIVES (showcase band) ====================-->
+        <section class="section aic" id="ai-creatives">
+
+            <style>
+                .aic__wrap { max-width: 600px; margin: 0 auto; padding: 0 1.5rem; }
+
+                .aic__badge {
+                    display: block; width: fit-content; margin: 0 auto .9rem;
+                    background: var(--first-color-text); color: #fff;
+                    font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
+                    padding: .3rem .95rem; border-radius: 2rem;
+                }
+
+                .aic__rack {
+                    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+                    gap: .75rem; margin-top: 2rem;
+                }
+
+                .aic__card {
+                    display: block; background: var(--container-color);
+                    border: 1px solid rgba(0, 150, 221, 0.16);
+                    border-radius: 1.1rem; padding: .5rem;
+                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
+                    transition: transform .3s, box-shadow .3s, border-color .3s;
+                }
+
+                .aic__meta { padding: .35rem .35rem .6rem; }
+
+                .aic__client {
+                    display: block; color: var(--title-color);
+                    font-weight: 600; font-size: var(--small-font-size); line-height: 1.3;
+                }
+
+                .aic__spec {
+                    display: block; color: var(--text-color-light);
+                    font-size: var(--smaller-font-size); line-height: 1.45; margin-top: .15rem;
+                }
+
+                .aic__well {
+                    position: relative; aspect-ratio: 9 / 16; overflow: hidden;
+                    border-radius: .8rem; background: #0b1a24;
+                }
+
+                .aic__well img, .aic__well video {
+                    width: 100%; height: 100%; object-fit: cover; display: block;
+                }
+
+                .aic__trigger {
+                    position: absolute; inset: 0; width: 100%; height: 100%;
+                    display: grid; place-items: center; cursor: pointer;
+                    background: none; border: 0; padding: 0;
+                }
+
+                .aic__play {
+                    display: grid; place-items: center;
+                    width: 54px; height: 54px; border-radius: 50%;
+                    background: rgba(255, 255, 255, .92); color: var(--first-color-text);
+                    font-size: 1.5rem; box-shadow: 0 6px 20px rgba(0, 0, 0, .3);
+                    transition: transform .3s, background .3s, color .3s;
+                }
+
+                .aic__play i { line-height: 1; margin-left: 2px; }
+
+                .aic__proof {
+                    display: flex; align-items: flex-start; gap: .4rem;
+                    margin: .7rem .35rem .25rem;
+                    color: var(--text-color); font-size: var(--smaller-font-size); line-height: 1.5;
+                }
+
+                .aic__proof i {
+                    color: var(--first-color-text); font-size: .95rem;
+                    margin-top: .15rem; flex-shrink: 0;
+                }
+
+                .aic__proof-link { color: var(--first-color-text); font-weight: 600; }
+                .aic__proof-link i { margin-top: 0; font-size: .8rem; }
+
+                .aic__card.is-playing .aic__poster,
+                .aic__card.is-playing .aic__trigger { display: none; }
+
+                .aic__wide {
+                    margin-top: .75rem; background: var(--container-color);
+                    border: 1px solid rgba(0, 150, 221, 0.16);
+                    border-radius: 1.1rem; padding: .5rem;
+                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
+                    display: grid; gap: .5rem;
+                    transition: transform .3s, box-shadow .3s, border-color .3s;
+                }
+
+                .aic__wide-well {
+                    position: relative; aspect-ratio: 16 / 9; overflow: hidden;
+                    border-radius: .8rem; background: #0b1a24;
+                }
+
+                .aic__wide-well img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+                .aic__wide-body { padding: .35rem .35rem .5rem; }
+
+                .aic__wide-body p {
+                    color: var(--text-color); font-size: var(--smaller-font-size);
+                    line-height: 1.6; margin: .35rem 0 .5rem;
+                }
+
+                .aic__textlink {
+                    display: inline-flex; align-items: center; gap: .3rem;
+                    min-height: 44px;
+                    color: var(--first-color-text); font-weight: 600; font-size: var(--smaller-font-size);
+                }
+
+                .aic__chips {
+                    display: flex; flex-wrap: wrap; justify-content: center;
+                    gap: .5rem; margin-top: 1.5rem;
+                }
+
+                .aic__chip {
+                    background: rgba(0, 150, 221, 0.08);
+                    border: 1px solid rgba(0, 150, 221, 0.2);
+                    color: var(--title-color);
+                    font-size: var(--smaller-font-size); font-weight: 500;
+                    padding: .4rem .9rem; border-radius: 2rem;
+                }
+
+                .aic__ctas {
+                    display: flex; flex-wrap: wrap; justify-content: center;
+                    gap: .75rem; margin-top: 1.25rem;
+                }
+
+                .aic__trigger:focus-visible,
+                .aic__proof-link:focus-visible,
+                .aic__textlink:focus-visible {
+                    outline: 3px solid var(--first-color); outline-offset: 3px; border-radius: 1rem;
+                }
+
+                @media (hover: hover) and (pointer: fine) {
+                    .aic__card:hover, .aic__wide:hover {
+                        transform: translateY(-8px);
+                        border-color: var(--first-color);
+                        box-shadow: 0 14px 40px rgba(0, 150, 221, 0.18);
+                    }
+
+                    .aic__trigger:hover .aic__play {
+                        transform: scale(1.1);
+                        background: var(--first-color-text); color: #fff;
+                    }
+                }
+
+                @media screen and (min-width: 768px) {
+                    .aic__rack { gap: 1.5rem; }
+                    .aic__card { padding: .75rem; }
+
+                    .aic__wide {
+                        margin-top: 1.5rem; padding: .75rem;
+                        grid-template-columns: 240px minmax(0, 1fr);
+                        gap: 1.25rem; align-items: center;
+                    }
+                }
+
+                @media screen and (max-width: 767px) {
+                    .aic__card.is-playing { grid-column: 1 / -1; }
+                }
+
+                @media (prefers-reduced-motion: reduce) {
+                    .aic__card, .aic__wide, .aic__play { transition: none !important; }
+                }
+            </style>
+
+            <span class="aic__badge">New &middot; AI Video Production</span>
+            <h2 class="section__title" style="margin-bottom: .5rem;">We Make AI Creatives for Your Business</h2>
+            <span class="section__subtitle">
+                AI-generated video ads and marketing assets &mdash; a hero video for your website,
+                vertical reels for Facebook, Instagram and TikTok. No film crew, no studio, no actors.
+                Everything below is real client work, running live right now.
+            </span>
+
+            <div class="aic__wrap">
+
+                <div class="aic__rack">
+
+                    <article class="aic__card">
+                        <header class="aic__meta">
+                            <span class="aic__client">LivDry Ultimate</span>
+                            <span class="aic__spec">Vertical product ad &middot; 9:16 &middot; 30s &middot; built for Meta &amp; TikTok</span>
+                        </header>
+                        <div class="aic__well">
+                            <img loading="lazy" decoding="async" class="aic__poster" src="assets/video/livdry-ai-ad-poster.jpg"
+                                width="540" height="960" decoding="async" fetchpriority="low"
+                                alt="Still from the LivDry Ultimate vertical video ad produced by Nova Toronto: a presenter holding the product in a healthcare store aisle">
+                            <button type="button" class="aic__trigger"
+                                data-full="assets/video/livdry-ai-ad.mp4"
+                                data-name="livdry-vertical-ad"
+                                aria-label="Play the full 30 second LivDry Ultimate video ad">
+                                <span class="aic__play"><i class="uil uil-play" aria-hidden="true"></i></span>
+                            </button>
+                        </div>
+                        <p class="aic__proof">
+                            <i class="uil uil-play-circle" aria-hidden="true"></i>
+                            Full 30-second cut &mdash; plays right here
+                        </p>
+                    </article>
+
+                    <article class="aic__card">
+                        <header class="aic__meta">
+                            <span class="aic__client">Do Home Healthcare</span>
+                            <span class="aic__spec">Facebook Reel &middot; 9:16 &middot; 30s &middot; knee walker ad</span>
+                        </header>
+                        <div class="aic__well">
+                            <img loading="lazy" decoding="async" class="aic__poster" src="assets/video/kneewalker-ai-ad-poster.jpg"
+                                width="540" height="960" decoding="async" fetchpriority="low"
+                                alt="Still from the Do Home Healthcare knee walker Facebook reel produced by Nova Toronto">
+                            <button type="button" class="aic__trigger"
+                                data-full="assets/video/kneewalker-ai-ad.mp4"
+                                data-name="kneewalker-reel"
+                                aria-label="Play the full 30 second Do Home Healthcare knee walker ad">
+                                <span class="aic__play"><i class="uil uil-play" aria-hidden="true"></i></span>
+                            </button>
+                        </div>
+                        <p class="aic__proof">
+                            <i class="uil uil-play-circle" aria-hidden="true"></i>
+                            Plays here &mdash; also running on the client&rsquo;s
+                            <a class="aic__proof-link" href="https://www.facebook.com/reel/928074493072481"
+                                target="_blank" rel="noopener">Facebook page <i class="uil uil-external-link-alt" aria-hidden="true"></i></a>
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="aic__wide">
+                    <div class="aic__wide-well">
+                        <img loading="lazy" decoding="async" src="assets/video/dohomehealthcare-ai-promo-poster.jpg"
+                            width="1100" height="619" decoding="async" fetchpriority="low"
+                            alt="Still from the Do Home Healthcare brand video produced by Nova Toronto">
+                    </div>
+                    <div class="aic__wide-body">
+                        <span class="aic__client">Do Home Healthcare</span>
+                        <span class="aic__spec">Website brand video &middot; 16:9 &middot; 24s</span>
+                        <p>
+                            Same client, three formats. We built their website, then made this brand
+                            video for it &mdash; and the vertical Facebook ad beside it.
+                        </p>
+                        <a href="#ai-video" class="aic__textlink">
+                            See the full case study <i class="uil uil-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="aic__chips">
+                    <span class="aic__chip">From $497 + HST</span>
+                    <span class="aic__chip">Live in 3&ndash;5 business days</span>
+                    <span class="aic__chip">No film crew, no studio</span>
+                </div>
+
+                <div class="aic__ctas">
+                    <a href="#ai-video" class="button button--flex">
+                        See how we make them &amp; what they cost
+                        <i class="uil uil-arrow-down button__icon"></i>
+                    </a>
+                    <a href="#contact" class="button button--flex button--white">
+                        Book a free 15-min call
+                        <i class="uil uil-calendar-alt button__icon"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <script>
+                (function () {
+                    "use strict";
+                    try {
+                        var band = document.getElementById('ai-creatives');
+                        if (!band) return;
+                        var triggers = band.querySelectorAll('.aic__trigger[data-full]');
+                        if (!triggers.length) return;
+                        var players = [];
+
+                        Array.prototype.forEach.call(triggers, function (trigger) {
+                            var card = trigger.closest('.aic__card');
+                            var well = trigger.closest('.aic__well');
+                            if (!card || !well) return;
+                            var mounted = null;
+                            players.push(function () { return mounted; });
+
+                            trigger.addEventListener('click', function () {
+                            // only reuse the existing player if it is still in the document --
+                            // a stale detached node would swallow the click and play nothing
+                            if (mounted && mounted.isConnected) {
+                                mounted.play().catch(function () {});
+                                return;
+                            }
+                            mounted = null;
+
+                            var img = well.querySelector('.aic__poster');
+                            var v = document.createElement('video');
+                            v.className = 'aic__full';
+                            v.src = trigger.getAttribute('data-full');
+                            v.controls = true;
+                            v.playsInline = true;
+                            v.setAttribute('playsinline', '');
+                            if (img) v.poster = img.currentSrc || img.src;
+                            v.setAttribute('aria-label', (trigger.getAttribute('aria-label') || 'Video ad') + ', produced by Nova Toronto');
+
+                            v.addEventListener('error', function () {
+                                card.classList.remove('is-playing');
+                                if (v.parentNode) v.parentNode.removeChild(v);
+                                mounted = null;
+                            });
+
+                            well.appendChild(v);
+                            card.classList.add('is-playing');
+                            mounted = v;
+                            v.play().catch(function () { v.controls = true; });
+                            if (v.focus) v.focus({ preventScroll: true });
+
+                            if (window.gtag) {
+                                gtag('event', 'ai_creative_play', {
+                                    creative: trigger.getAttribute('data-name') || 'unknown'
+                                });
+                            }
+                            });
+                        });
+
+                        if ('IntersectionObserver' in window) {
+                            new IntersectionObserver(function (entries) {
+                                entries.forEach(function (e) {
+                                    if (e.isIntersecting) return;
+                                    if (document.pictureInPictureElement || document.fullscreenElement) return;
+                                    players.forEach(function (get) {
+                                        var v = get();
+                                        if (v && !v.paused) v.pause();
+                                    });
+                                });
+                            }, { threshold: 0 }).observe(band);
+                        }
+                    } catch (err) { /* band degrades to a working poster wall */ }
+                })();
+            </script>
+
+        </section>
+
+        <!--==================== AI VIDEO CASE STUDY ====================-->
+        <section class="section" id="ai-video" style="padding-top: 0;">
+            <h3 class="section__subtitle" style="font-family: 'Poppins', sans-serif; font-size: var(--h3-font-size); font-weight: 600; color: var(--title-color); margin-bottom: 2rem;">Case study: AI video running on a real client&rsquo;s website</h3>
+
+            <style>
+                .aiv__wrap { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem;
+                    display: grid; gap: 2.5rem; align-items: center; }
+                @media screen and (min-width: 968px) { .aiv__wrap { grid-template-columns: 1.15fr .85fr; } }
+
+                .aiv__player {
+                    position: relative; border-radius: 1.25rem; overflow: hidden;
+                    box-shadow: 0 18px 50px rgba(0, 70, 120, 0.22);
+                    border: 1px solid rgba(0, 150, 221, 0.2); background: #000;
+                    aspect-ratio: 16 / 9;
+                }
+                .aiv__player video { width: 100%; height: 100%; display: block; object-fit: cover; }
+
+                .aiv__badge {
+                    display: inline-block; background: var(--first-color-text); color: #fff;
+                    font-size: var(--smaller-font-size); font-weight: 600; letter-spacing: .3px;
+                    padding: .3rem .9rem; border-radius: 2rem; margin-bottom: 1rem;
+                }
+                .aiv__copy h3 { color: var(--title-color); font-size: 1.5rem; margin-bottom: .6rem; }
+                .aiv__copy p { color: var(--text-color); line-height: 1.75; margin-bottom: 1.15rem; }
+                .aiv__list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+                .aiv__list li {
+                    position: relative; padding-left: 1.8rem; margin-bottom: .7rem;
+                    color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6;
+                }
+                .aiv__list li i { position: absolute; left: 0; top: .15rem; color: var(--first-color-text); font-size: 1.15rem; }
+                .aiv__list li strong { color: var(--title-color); }
+                .aiv__proof {
+                    background: rgba(0, 150, 221, 0.06); border-left: 3px solid var(--first-color);
+                    border-radius: 0 .75rem .75rem 0; padding: 1rem 1.25rem; margin-bottom: 1.5rem;
+                    font-size: var(--small-font-size); color: var(--text-color); line-height: 1.6;
+                }
+                .aiv__proof a { color: var(--first-color-text); font-weight: 600; }
+
+                .aiv__pricing { max-width: 1100px; margin: 3.5rem auto 0; padding: 0 1.5rem; }
+                .aiv__pricing h3 {
+                    color: var(--title-color); font-size: 1.35rem; text-align: center; margin-bottom: .4rem;
+                }
+                .aiv__pricing-sub {
+                    text-align: center; color: var(--text-color-light);
+                    font-size: var(--small-font-size); margin-bottom: 2rem;
+                }
+                .aiv__tiers {
+                    display: grid; gap: 1.25rem; align-items: stretch;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                }
+                .aiv__tier {
+                    background: var(--container-color);
+                    border: 1px solid rgba(0, 150, 221, 0.16);
+                    border-radius: 1.25rem; padding: 1.75rem 1.5rem;
+                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
+                    display: flex; flex-direction: column;
+                }
+                .aiv__tier--featured {
+                    border: 2px solid var(--first-color);
+                    box-shadow: 0 14px 40px rgba(0, 150, 221, 0.18);
+                    position: relative;
+                }
+                .aiv__flag {
+                    position: absolute; top: -.75rem; left: 50%; transform: translateX(-50%);
+                    background: var(--first-color-text); color: #fff; white-space: nowrap;
+                    font-size: var(--smaller-font-size); font-weight: 600;
+                    padding: .25rem .9rem; border-radius: 2rem;
+                }
+                .aiv__tier-name {
+                    color: var(--title-color); font-weight: 600;
+                    font-size: var(--small-font-size); letter-spacing: .3px;
+                    text-transform: uppercase; margin-bottom: .35rem;
+                }
+                .aiv__tier-price {
+                    color: var(--first-color-text); font-weight: 700; font-size: 2rem; line-height: 1;
+                }
+                .aiv__tier-price span {
+                    font-size: var(--smaller-font-size); font-weight: 400;
+                    color: var(--text-color-light); margin-left: .3rem;
+                }
+                .aiv__tier-len {
+                    color: var(--text-color); font-size: var(--small-font-size);
+                    margin: .6rem 0 1rem; font-weight: 500;
+                }
+                .aiv__tier ul { list-style: none; padding: 0; margin: 0 0 1.25rem; flex: 1; }
+                .aiv__tier li {
+                    position: relative; padding-left: 1.4rem; margin-bottom: .55rem;
+                    color: var(--text-color); font-size: var(--smaller-font-size); line-height: 1.55;
+                }
+                .aiv__tier li::before {
+                    content: '\2713'; position: absolute; left: 0; top: 0;
+                    color: var(--first-color-text); font-weight: 700;
+                }
+                .aiv__tier .button { width: 100%; justify-content: center; }
+
+                .aiv__bundle {
+                    margin-top: 1.75rem; background: rgba(0, 150, 221, 0.07);
+                    border: 1px dashed var(--first-color); border-radius: 1.25rem;
+                    padding: 1.5rem 1.75rem;
+                    display: flex; flex-wrap: wrap; align-items: center;
+                    justify-content: space-between; gap: 1rem;
+                }
+                .aiv__bundle h4 { color: var(--title-color); font-size: 1.1rem; margin-bottom: .35rem; }
+                .aiv__bundle p {
+                    color: var(--text-color); font-size: var(--small-font-size);
+                    line-height: 1.6; margin: 0; max-width: 620px;
+                }
+                .aiv__addons {
+                    margin-top: 1.5rem; color: var(--text-color-light);
+                    font-size: var(--smaller-font-size); line-height: 1.8; text-align: center;
+                }
+                .aiv__addons b { color: var(--title-color); }
+                .aiv__note {
+                    margin-top: 1rem; text-align: center;
+                    color: var(--text-color-light); font-size: var(--smaller-font-size);
+                    line-height: 1.7;
+                }
+            </style>
+
+            <div class="aiv__wrap">
+                <div class="aiv__player">
+                    <video controls preload="none" playsinline
+                        poster="assets/video/dohomehealthcare-ai-promo-poster.jpg"
+                        aria-label="AI-generated promotional video produced by Nova Toronto for Do Home Healthcare">
+                        <source src="assets/video/dohomehealthcare-ai-promo.mp4" type="video/mp4">
+                        Your browser does not support video playback.
+                    </video>
+                </div>
+
+                <div class="aiv__copy">
+                    <span class="aiv__badge">New service &middot; AI Video Production</span>
+                    <h3>We built the site &mdash; then we made the video too</h3>
+                    <p>
+                        Do Home Healthcare came to us for a website. We delivered that, then produced
+                        this AI-generated brand video tailored to their business &mdash; no film crew,
+                        no studio rental, no actors. It now runs on their homepage.
+                    </p>
+
+                    <ul class="aiv__list">
+                        <li><i class="uil uil-bolt"></i><strong>Days, not weeks.</strong> Traditional video production takes a month and costs thousands. This took days.</li>
+                        <li><i class="uil uil-palette"></i><strong>Made for your brand.</strong> Written around your services, your customers, and your message &mdash; not stock footage.</li>
+                        <li><i class="uil uil-share-alt"></i><strong>Works everywhere.</strong> Website hero, Meta and TikTok ads, YouTube, Google Business Profile.</li>
+                        <li><i class="uil uil-chart-line"></i><strong>Video converts.</strong> A moving hero holds attention far longer than a static image &mdash; more time on page, more enquiries.</li>
+                    </ul>
+
+                    <div class="aiv__proof">
+                        <i class="uil uil-check-circle" style="color: var(--first-color-text);"></i>
+                        <strong>Don't take our word for it</strong> &mdash; this exact video is live on the
+                        client's own homepage at
+                        <a href="https://dohomehealthcare.com/" target="_blank" rel="noopener">dohomehealthcare.com</a>.
+                    </div>
+
+                    <a href="#contact" class="button button--flex" style="display:inline-flex">
+                        Get a Video for Your Business <i class="uil uil-video button__icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="aiv__pricing">
+                <h3>AI Video Production &mdash; published pricing</h3>
+                <p class="aiv__pricing-sub">
+                    Real prices, on the page. No quote form, no discovery call before you know the number.
+                </p>
+
+                <div class="aiv__tiers">
+
+                    <div class="aiv__tier">
+                        <div class="aiv__tier-name">Bronze</div>
+                        <div class="aiv__tier-price">$497<span>+ HST</span></div>
+                        <div class="aiv__tier-len">15&ndash;20 second brand video</div>
+                        <ul>
+                            <li>Script written for your business</li>
+                            <li>Full HD 1080p</li>
+                            <li>Your logo, brand colours &amp; CTA end card</li>
+                            <li>Licensed music + AI voiceover</li>
+                            <li>Widescreen &amp; vertical (16:9 + 9:16)</li>
+                            <li>1 revision round</li>
+                            <li>Delivered in 3 business days</li>
+                            <li>Full commercial usage rights</li>
+                        </ul>
+                        <a href="#contact" class="button button--small button--white">Get Started</a>
+                    </div>
+
+                    <div class="aiv__tier aiv__tier--featured">
+                        <span class="aiv__flag">Most popular</span>
+                        <div class="aiv__tier-name">Silver</div>
+                        <div class="aiv__tier-price">$897<span>+ HST</span></div>
+                        <div class="aiv__tier-len">20&ndash;40 second brand video</div>
+                        <ul>
+                            <li><strong>This is the Do Home Healthcare video above</strong></li>
+                            <li>Custom script from a 15-minute discovery call</li>
+                            <li>Full HD 1080p</li>
+                            <li>Licensed music + AI voiceover (or send us your own)</li>
+                            <li>Three formats: 16:9, 9:16 and 1:1</li>
+                            <li>Plus two short cutdowns (15s and 6s) for ads</li>
+                            <li>2 revision rounds</li>
+                            <li>Delivered in 5 business days</li>
+                            <li>Full commercial usage rights</li>
+                        </ul>
+                        <a href="#contact" class="button button--small">Get Started</a>
+                    </div>
+
+                    <div class="aiv__tier">
+                        <div class="aiv__tier-name">Gold</div>
+                        <div class="aiv__tier-price">$1,497<span>+ HST</span></div>
+                        <div class="aiv__tier-len">45&ndash;60 second hero video</div>
+                        <ul>
+                            <li>Two script concepts &mdash; you pick</li>
+                            <li>Full HD 1080p, every aspect ratio</li>
+                            <li>Three cutdowns sized for Meta, Instagram, TikTok &amp; YouTube</li>
+                            <li>Matching ad-copy variants written for you</li>
+                            <li>3 revision rounds</li>
+                            <li>Delivered in 5 business days</li>
+                            <li>Full commercial usage rights</li>
+                        </ul>
+                        <a href="#contact" class="button button--small button--white">Get Started</a>
+                    </div>
+
+                </div>
+
+                <div class="aiv__bundle">
+                    <div>
+                        <h4><i class="uil uil-layer-group" style="color: var(--first-color-text);"></i> Launch Bundle &mdash; website + video, $1,400</h4>
+                        <p>
+                            Add the Silver video to any website package for <strong>$500</strong> instead of $897.
+                            Bronze website + Silver video comes to <strong>$1,400</strong>, live in about two weeks.
+                            On our Gold website build the video is <strong>included free</strong>.
+                        </p>
+                    </div>
+                    <a href="#contact" class="button button--small" style="white-space: nowrap;">Book a free 15-min call</a>
+                </div>
+
+                <p class="aiv__addons">
+                    <b>Add-ons:</b>
+                    every extra 15 seconds <b>+$200</b> &middot;
+                    48-hour rush <b>+$250</b> &middot;
+                    real human voiceover instead of AI <b>+$300</b> &middot;
+                    extra revision round <b>+$150</b> &middot;
+                    each additional cutdown or aspect ratio <b>+$100</b>
+                </p>
+
+                <p class="aiv__note">
+                    Videos are produced using AI-generated visuals, licensed footage and motion graphics.
+                    For healthcare, legal and financial clients we also offer a footage-and-motion-graphics
+                    version with no synthetic people &mdash; just ask.
+                    All prices in Canadian dollars, plus HST.
+                </p>
+            </div>
+        </section>
 
         <div>
 
@@ -2429,262 +2819,6 @@ The task: [describe it the way you would explain it out loud]</pre>
             </div>
         </section>
 
-        <!--==================== PRICING & GROWTH ====================-->
-        <section class="section" id="website-pricing">
-            <h2 class="section__title">Pricing &amp; Growth</h2>
-            <span class="section__subtitle">What we do, what it costs, and how we grow it</span>
-
-            <style>
-                .pg__grid {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    gap: 1.75rem;
-                    max-width: 1100px;
-                    margin: 0 auto;
-                    padding: 0 1.5rem;
-                    align-items: start;
-                }
-
-                @media screen and (min-width: 968px) {
-                    .pg__grid { grid-template-columns: 68fr 32fr; }
-                }
-
-                .pg__card {
-                    border-radius: 1.5rem;
-                    padding: 2.25rem 2rem;
-                    background: var(--container-color);
-                    border: 1px solid rgba(0, 150, 221, 0.15);
-                    box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);
-                }
-
-                .pg__card--primary {
-                    background: linear-gradient(160deg, #ffffff 0%, hsl(199, 70%, 97%) 100%);
-                    border: 2px solid var(--first-color);
-                    box-shadow: 0 14px 44px rgba(0, 150, 221, 0.18);
-                }
-
-                .pg__badge {
-                    display: inline-block;
-                    background: var(--first-color-text);
-                    color: #fff;
-                    font-size: var(--smaller-font-size);
-                    font-weight: 600;
-                    padding: .3rem .9rem;
-                    border-radius: 2rem;
-                    margin-bottom: 1rem;
-                    letter-spacing: .3px;
-                }
-
-                .pg__card h3 {
-                    color: var(--title-color);
-                    font-size: 1.6rem;
-                    margin-bottom: .4rem;
-                }
-
-                .pg__lead {
-                    color: var(--text-color);
-                    font-size: var(--normal-font-size);
-                    line-height: 1.7;
-                    margin-bottom: 1.5rem;
-                }
-
-                .pg__lead strong { color: var(--title-color); }
-
-                .pg__list { list-style: none; padding: 0; margin-bottom: 1.75rem; }
-
-                .pg__list li {
-                    position: relative;
-                    padding-left: 1.9rem;
-                    margin-bottom: .85rem;
-                    color: var(--text-color);
-                    font-size: var(--small-font-size);
-                    line-height: 1.6;
-                }
-
-                .pg__list li i {
-                    position: absolute;
-                    left: 0;
-                    top: .1rem;
-                    color: var(--first-color-text);
-                    font-size: 1.25rem;
-                }
-
-                .pg__list li strong { color: var(--title-color); }
-
-                .pg__stats {
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    gap: .75rem;
-                    margin-bottom: 1.75rem;
-                }
-
-                .pg__stat {
-                    text-align: center;
-                    background: rgba(0, 150, 221, 0.06);
-                    border: 1px solid rgba(0, 150, 221, 0.15);
-                    border-radius: 1rem;
-                    padding: 1rem .5rem;
-                }
-
-                .pg__stat strong {
-                    display: block;
-                    color: var(--first-color-text);
-                    font-size: 1.35rem;
-                    line-height: 1.1;
-                }
-
-                .pg__stat span {
-                    font-size: var(--smaller-font-size);
-                    color: var(--text-color-light);
-                }
-
-                .pg__price {
-                    font-size: var(--small-font-size);
-                    color: var(--text-color-light);
-                    margin-bottom: 1.5rem;
-                    line-height: 1.6;
-                }
-
-                .pg__price b { color: var(--title-color); font-size: 1.15rem; }
-
-                .pg__tiers { list-style: none; padding: 0; margin: 1.25rem 0 1.5rem; }
-
-                .pg__tier {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: baseline;
-                    gap: 1rem;
-                    padding: .7rem 0;
-                    border-bottom: 1px solid rgba(0, 150, 221, 0.12);
-                }
-
-                .pg__tier:last-child { border-bottom: none; }
-
-                .pg__tier-name { color: var(--title-color); font-weight: 600; font-size: var(--small-font-size); }
-                .pg__tier-desc { color: var(--text-color-light); font-size: var(--smaller-font-size); display: block; font-weight: 400; }
-                .pg__tier-price { color: var(--first-color-text); font-weight: 700; white-space: nowrap; }
-
-                .pg__link {
-                    display: inline-flex;
-                    align-items: center;
-                    gap: .35rem;
-                    color: var(--first-color-text);
-                    font-weight: var(--font-medium);
-                    font-size: var(--small-font-size);
-                    margin-top: .25rem;
-                }
-
-                .pg__link:hover { gap: .7rem; }
-            </style>
-
-            <div class="pg__grid">
-                <!-- Digital Marketing (primary, 70%) -->
-                <div class="pg__card pg__card--primary">
-                    <span class="pg__badge">Our specialty &mdash; where the growth happens</span>
-                    <h3>Digital Marketing &amp; Ads</h3>
-                    <p class="pg__lead">
-                        We have a track record of building ad campaigns with a <strong>higher ROAS
-                        (return on ad spend)</strong>. And we don&rsquo;t just launch your ads and leave
-                        you on your own &mdash; we actively manage every dollar so your <strong>budget
-                        and target ROAS (tROAS) stay in sync</strong>, quarter after quarter.
-                    </p>
-
-                    <ul class="pg__list">
-                        <li><i class="uil uil-chart-line"></i><strong>Proven higher ROAS.</strong> A history of campaigns that return more for every dollar spent.</li>
-                        <li><i class="uil uil-balance-scale"></i><strong>Budget &amp; tROAS in sync.</strong> We watch the numbers so you never overspend or underdeliver.</li>
-                        <li><i class="uil uil-arrow-growth"></i><strong>Real MoM &amp; YoY growth.</strong> Month-over-month and year-over-year progress you can actually see.</li>
-                        <li><i class="uil uil-file-check-alt"></i><strong>Transparent reporting.</strong> Clear numbers every month &mdash; you always know what your spend is earning.</li>
-                    </ul>
-
-                    <div class="pg__stats">
-                        <div class="pg__stat"><strong>&uarr; ROAS</strong><span>higher return on spend</span></div>
-                        <div class="pg__stat"><strong>MoM</strong><span>month-over-month growth</span></div>
-                        <div class="pg__stat"><strong>YoY</strong><span>year-over-year growth</span></div>
-                    </div>
-
-                    <p class="pg__price">
-                        <b>Custom monthly plans</b> &mdash; management tailored to your goals.
-                        Most local businesses start around $500&ndash;$1,500/mo in ad spend; we build the plan around your budget on a free call.
-                    </p>
-
-                    <a href="#contact" class="button button--flex" style="display:inline-flex">
-                        Get a Free Strategy Call <i class="uil uil-chart-growth button__icon"></i>
-                    </a>
-                    <br><br>
-                    <a href="digital-marketing/" class="pg__link">See how our marketing works <i class="uil uil-arrow-right"></i></a>
-                </div>
-
-                <!-- Website Design (secondary, 30%) -->
-                <div class="pg__card">
-                    <h3>Website Design</h3>
-                    <p class="pg__lead" style="font-size: var(--small-font-size); margin-bottom: 1rem;">
-                        A fast, modern site is the foundation your ads and SEO send traffic to. Simple, fixed pricing:
-                    </p>
-
-                    <ul class="pg__tiers">
-                        <li class="pg__tier">
-                            <span class="pg__tier-name">Bronze<span class="pg__tier-desc">3-page starter site</span></span>
-                            <span class="pg__tier-price">$900</span>
-                        </li>
-                        <li class="pg__tier">
-                            <span class="pg__tier-name">Silver<span class="pg__tier-desc">5-page site + analytics &amp; SEO</span></span>
-                            <span class="pg__tier-price">$1,800</span>
-                        </li>
-                        <li class="pg__tier">
-                            <span class="pg__tier-name">E-commerce<span class="pg__tier-desc">Shopify / WooCommerce store</span></span>
-                            <span class="pg__tier-price">$2,000</span>
-                        </li>
-                        <li class="pg__tier">
-                            <span class="pg__tier-name">Gold<span class="pg__tier-desc">Custom-built from scratch</span></span>
-                            <span class="pg__tier-price">$5,000</span>
-                        </li>
-                    </ul>
-
-                    <a href="website-design/" class="pg__link">See full package details <i class="uil uil-arrow-right"></i></a>
-                </div>
-            </div>
-
-            <!-- Marketplace selling strip -->
-            <div style="max-width: 1100px; margin: 1.75rem auto 0; padding: 0 1.5rem;">
-                <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.15); border-radius: 1.25rem; padding: 1.5rem 1.75rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);">
-                    <div style="flex: 1; min-width: 260px;">
-                        <h3 style="color: var(--title-color); font-size: 1.15rem; margin-bottom: .3rem;">
-                            <i class="uil uil-store" style="color: var(--first-color-text);"></i>
-                            Sell on Amazon &amp; Walmart
-                        </h3>
-                        <p style="color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6; margin: 0;">
-                            Seller Central setup, product listings, FBA and ads &mdash; packages from
-                            <strong style="color: var(--title-color);">$450</strong> to full launch &amp; ads management.
-                        </p>
-                    </div>
-                    <div style="display: flex; gap: .6rem; flex-wrap: wrap;">
-                        <a href="amazon-seller/" class="button button--small" style="white-space: nowrap;">Amazon Packages</a>
-                        <a href="walmart-seller/" class="button button--small button--white" style="white-space: nowrap;">Walmart Packages</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AI video strip -->
-            <div style="max-width: 1100px; margin: 1rem auto 0; padding: 0 1.5rem;">
-                <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; background: var(--container-color); border: 1px solid rgba(0, 150, 221, 0.15); border-radius: 1.25rem; padding: 1.5rem 1.75rem; box-shadow: 0 8px 30px rgba(0, 70, 120, 0.07);">
-                    <div style="flex: 1; min-width: 260px;">
-                        <h3 style="color: var(--title-color); font-size: 1.15rem; margin-bottom: .3rem;">
-                            <i class="uil uil-video" style="color: var(--first-color-text);"></i>
-                            AI Video Production
-                        </h3>
-                        <p style="color: var(--text-color); font-size: var(--small-font-size); line-height: 1.6; margin: 0;">
-                            Brand videos from <strong style="color: var(--title-color);">$497</strong>, delivered in days &mdash;
-                            or add one to any website package for <strong style="color: var(--title-color);">$500</strong>.
-                            Website + video together from <strong style="color: var(--title-color);">$1,400</strong>.
-                        </p>
-                    </div>
-                    <div style="display: flex; gap: .6rem; flex-wrap: wrap;">
-                        <a href="#ai-video" class="button button--small" style="white-space: nowrap;">See Video Pricing</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!--==================== AREAS WE SERVE ====================-->
         <section class="section" id="areas">
             <h2 class="section__title">Areas We Serve</h2>
@@ -2798,117 +2932,6 @@ The task: [describe it the way you would explain it out loud]</pre>
             </div>
         </section>
 
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Schedule Your Free Traffic Consultation</h2>
-            <span class="section__subtitle">Let's discuss how to drive more customers to your business</span>
-            <div class="contact__container container grid">
-                <div>
-                    <div class="contact__information">
-                        <i class="uil uil-phone contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Call Me</h3>
-                            <a href="tel:+13653553133" class="contact__subtitle contact__link">365-355-3133</a>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-envelope contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Email</h3>
-                            <a href="mailto:novatoronto.ca@gmail.com" class="contact__subtitle contact__link">novatoronto.ca@gmail.com</a>
-                        </div>
-                    </div>
-
-                    <div class="contact__information">
-                        <i class="uil uil-map-marker contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Toronto - Canada</span>
-                        </div>
-                    </div>
-
-                    <div class="contact__information" style="margin-top: 1.5rem;">
-                        <i class="uil uil-clock contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Availability</h3>
-                            <span class="contact__subtitle">7-10 AM & 8-11 PM EST</span>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Booking Form -->
-                <form action="https://formsubmit.co/novatoronto.ca@gmail.com" method="POST"
-                    class="contact__form grid">
-                    <p style="margin-bottom: 0.5rem; line-height: 1.6;">
-                        <strong>Book your free 30-minute consultation.</strong> Tell us about your business and
-                        we'll get back to you within one business day.
-                    </p>
-
-                    <input type="hidden" name="_subject" value="New booking request — novatoronto.com">
-                    <input type="hidden" name="_next" value="https://novatoronto.com/thank-you.html">
-                    <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="text" name="_honey" style="display:none">
-
-                    <div class="contact__content">
-                        <label for="booking-name" class="contact__label">Name</label>
-                        <input type="text" id="booking-name" name="name" class="contact__input" required>
-                    </div>
-                    <div class="contact__content">
-                        <label for="booking-email" class="contact__label">Email</label>
-                        <input type="email" id="booking-email" name="email" class="contact__input" required>
-                    </div>
-                    <div class="contact__content">
-                        <label for="booking-phone" class="contact__label">Phone</label>
-                        <input type="tel" id="booking-phone" name="phone" class="contact__input">
-                    </div>
-                    <div class="contact__content">
-                        <label for="booking-service" class="contact__label">What do you need?</label>
-                        <select id="booking-service" name="service" class="contact__input" required>
-                            <option value="">Select a service</option>
-                            <option>Website Design</option>
-                            <option>Digital Marketing / Ads</option>
-                            <option>AI Automation / AI Receptionist</option>
-                            <option>Amazon or Walmart Selling</option>
-                            <option>Not sure yet</option>
-                        </select>
-                    </div>
-                    <div class="contact__content">
-                        <label for="booking-time" class="contact__label">Best time to reach you</label>
-                        <select id="booking-time" name="preferred_time" class="contact__input">
-                            <option>Anytime</option>
-                            <option>Morning (8 AM - 12 PM)</option>
-                            <option>Afternoon (12 - 5 PM)</option>
-                            <option>Evening (5 - 9 PM)</option>
-                        </select>
-                    </div>
-                    <div class="contact__content">
-                        <label for="booking-message" class="contact__label">Tell us about your business</label>
-                        <textarea id="booking-message" name="message" rows="4" class="contact__input"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit" class="button button--flex"
-                            style="width: 100%; justify-content: center;">
-                            Book My Free Consultation
-                            <i class="uil uil-calendar-alt button__icon"></i>
-                        </button>
-                    </div>
-                    <p
-                        style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--text-color-light); text-align: center;">
-                        <i class="uil uil-info-circle"></i>
-                        We'll confirm your consultation by email — no spam, ever.
-                    </p>
-                </form>
-            </div>
-
-        </section>
-
         <!--==================== NEWSLETTER / SUBSCRIBE ====================-->
         <section class="section" id="subscribe" style="padding-top: 0;">
             <div style="max-width: 760px; margin: 0 auto; padding: 2.5rem 1.75rem; border-radius: 1.5rem; background: linear-gradient(160deg, hsl(199, 70%, 97%), #ffffff); border: 1px solid rgba(0, 150, 221, 0.2); text-align: center;">
@@ -3011,6 +3034,14 @@ novatoronto.com">
     </footer>
 
 
+    <style>
+        /* UI critique 2026-10-21: 44px tap targets + one paragraph rhythm */
+        .blog__btn { display: inline-flex; align-items: center; gap: .25rem; min-height: 44px; }
+        .infog__chips a { min-height: 44px; display: inline-flex; align-items: center; }
+        .main section p:not(.hs__title):not(.hs__sub):not(.clients__label) { line-height: 1.6; }
+        @media screen and (max-width: 767px) { .nav__menu .dropdown__menu { display: none; } }   /* phones: Services opens its own page */
+    </style>
+
     <!--==================== STICKY MOBILE CONVERSION BAR ====================-->
     <style>
         .mcta { display: none; }
@@ -3021,7 +3052,7 @@ novatoronto.com">
                 left: 0; right: 0; bottom: 0;
                 z-index: 10000;
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr 1.25fr auto;
                 gap: .5rem;
                 padding: .6rem .75rem calc(.6rem + env(safe-area-inset-bottom, 0px));
                 background: rgba(255, 255, 255, .96);
@@ -3051,8 +3082,10 @@ novatoronto.com">
                 border: 2px solid var(--first-color-text);
             }
 
-            /* keep the voice widget clear of the bar */
-            #nova-voice-btn { bottom: 84px !important; }
+            .mcta__btn--ai { padding: 0 1rem; background: #0b1f3a; color: #fff; border: 0; font-family: inherit; cursor: pointer; }
+            /* one floating element on phones: the voice widget only appears during a call */
+            #nova-voice-btn { bottom: 84px !important; display: none !important; }
+            #nova-voice-btn.nova-loading, #nova-voice-btn.nova-active { display: flex !important; }
 
             /* stop the bar covering the end of the page */
             body { padding-bottom: 72px; }
@@ -3064,8 +3097,11 @@ novatoronto.com">
             <i class="uil uil-phone" aria-hidden="true"></i> Call Now
         </a>
         <a href="#contact" class="mcta__btn mcta__btn--book" data-mcta="book">
-            <i class="uil uil-calendar-alt" aria-hidden="true"></i> Book Free Call
+            <i class="uil uil-calendar-alt" aria-hidden="true"></i> Free 15-min call
         </a>
+        <button type="button" class="mcta__btn mcta__btn--ai" data-mcta="ai" aria-label="Talk to our AI assistant (live demo)" onclick="var b=document.getElementById('nova-voice-btn'); if (b) { b.dispatchEvent(new Event('focus')); b.click(); }">
+            <i class="uil uil-microphone" aria-hidden="true"></i> AI
+        </button>
     </div>
 
     <!--==================== SCROLL TOP ====================-->
@@ -3127,7 +3163,7 @@ novatoronto.com">
         #nova-voice-btn.nova-loading { opacity: .7; cursor: wait; }
 
         .nova-voice-main { display: flex; align-items: center; gap: .45rem; font-weight: 600; font-size: 1rem; }
-        .nova-voice-sub { font-size: .68rem; opacity: .9; font-weight: 400; }
+        .nova-voice-sub { font-size: .75rem; opacity: .9; font-weight: 400; }
 
         @keyframes nova-pulse {
             0% { box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.5); }
