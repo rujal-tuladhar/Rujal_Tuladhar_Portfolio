@@ -485,6 +485,8 @@
                             <video id="hero-video" muted loop playsinline preload="none" width="760" height="1140"
                                 poster="./assets/img/toronto-travel_2x3.webp" data-src="./assets/video/theyll-smell-it-hero.mp4"
                                 aria-label="They'll Smell It: a short film about a Toronto family bakery getting found online"></video>
+                            <div class="hv-spin" aria-hidden="true"></div>
+                            <button type="button" class="hv-play" id="hv-play" aria-label="Play the Nova Toronto story video"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg><span>Watch our story</span></button>
                             <div class="hv-ctrl" id="hv-ctrl">
                                 <button type="button" id="hero-sound" class="hv-btn" aria-label="Turn sound on" aria-pressed="false">
                                     <svg class="hv-off" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><defs><mask id="hv-cut"><rect width="24" height="24" fill="#fff"/><path d="M3 3l18 18" stroke="#000" stroke-width="4.6" stroke-linecap="round"/></mask></defs><path mask="url(#hv-cut)" fill="currentColor" d="M11 5.6c0-.9-1-1.3-1.7-.8L5.9 7.6H3.8C2.8 7.6 2 8.4 2 9.4v5.2c0 1 .8 1.8 1.8 1.8h2.1l3.4 2.8c.7.5 1.7.1 1.7-.8V5.6z"/><path mask="url(#hv-cut)" d="M14.6 9.2a4 4 0 0 1 0 5.6M17.4 6.4a8 8 0 0 1 0 11.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><path d="M3.6 3.6l16.8 16.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
@@ -511,19 +513,30 @@
                             .hv-vol::-moz-range-progress { height: 4px; border-radius: 2px; background: #fff; }
                             .hv-vol::-webkit-slider-thumb { -webkit-appearance: none; width: 12px; height: 12px; margin-top: -4px; border-radius: 50%; background: #fff; }
                             .hv-vol::-moz-range-thumb { width: 12px; height: 12px; border: 0; border-radius: 50%; background: #fff; }
+                            .hv-spin { position: absolute; left: 50%; top: 50%; width: 34px; height: 34px; margin: -17px 0 0 -17px; border-radius: 50%; border: 3px solid rgba(255, 255, 255, .35); border-top-color: #fff; animation: hvspin .8s linear infinite; display: none; pointer-events: none; }
+                            .hero-vid.hv-loading .hv-spin { display: block; }
+                            @keyframes hvspin { to { transform: rotate(360deg); } }
+                            .hv-play { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none; align-items: center; gap: .5rem; min-height: 48px; padding: .6rem 1.3rem .6rem 1rem; border: 0; border-radius: 2rem; color: #fff; font-weight: 600; font-size: .95rem; cursor: pointer; white-space: nowrap; background: rgba(28, 28, 30, .6); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); }
+                            .hero-vid.hv-blocked .hv-play { display: inline-flex; }
                             @media (hover: none) { .hv-vol { display: none; } }   /* phones: mute toggle only, like the YouTube app */
                         </style>
                         <script>
                             (function () {
                                 var box = document.getElementById('hero-vid'), v = document.getElementById('hero-video'), btn = document.getElementById('hero-sound'),
                                     vol = document.getElementById('hero-volume'), ctrl = document.getElementById('hv-ctrl'), last = 0.8, hideT = null, tracked = false;
-                                function start() {   // load only after the page is done, so the hero stays fast
+                                function blocked() { box.classList.remove('hv-loading'); box.classList.add('hv-blocked'); }
+                                function start() {   // starts at page load (or first scroll/tap if sooner), after the slider image has loaded
                                     if (v.getAttribute('src')) return;
+                                    box.classList.add('hv-loading');
                                     v.src = v.getAttribute('data-src'); v.muted = true;
-                                    var p = v.play(); if (p && p.catch) p.catch(function () {});
+                                    var p = v.play(); if (p && p.catch) p.catch(blocked);          // autoplay refused (Low Power Mode, data saver)
+                                    setTimeout(function () { if (v.paused) blocked(); }, 6000);   // nothing playing after 6 s -> offer a play button
                                 }
-                                function later() { setTimeout(function () { (window.requestIdleCallback || setTimeout)(start, { timeout: 3000 }); }, 1500); }
-                                if (document.readyState === 'complete') later(); else window.addEventListener('load', later);
+                                v.addEventListener('playing', function () { box.classList.remove('hv-loading', 'hv-blocked'); });
+                                v.addEventListener('waiting', function () { box.classList.add('hv-loading'); });
+                                document.getElementById('hv-play').addEventListener('click', function () { start(); box.classList.remove('hv-blocked'); box.classList.add('hv-loading'); v.play().catch(blocked); });
+                                if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
+                                ['scroll', 'touchstart', 'pointerdown'].forEach(function (e) { window.addEventListener(e, start, { once: true, passive: true }); });
                                 // ---- YouTube-style reveal: show on hover / tap, auto-hide after 2.5 s unless the pointer is on the control
                                 function show() { box.classList.add('hv-show'); clearTimeout(hideT); hideT = setTimeout(hide, 2500); }
                                 function hide() { if (ctrl.matches(':hover') || ctrl.contains(document.activeElement) && document.activeElement.matches(':focus-visible')) { hideT = setTimeout(hide, 2500); return; } box.classList.remove('hv-show'); }
