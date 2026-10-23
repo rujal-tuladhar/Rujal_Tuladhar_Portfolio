@@ -110,10 +110,10 @@ SERVICES = {
             ("Will my website show up on Google in {city}?",
              "Every site we build includes on-page SEO: proper titles, meta descriptions, XML sitemap, fast load times, and local business schema. For competitive keywords in {city} we also offer ongoing SEO and Google Ads management to accelerate results."),
             ("Do you meet clients in {city}?",
-             "Yes. We work with businesses across {city} and the GTA, and offer a free 30-minute consultation by phone, video, or in person to plan your project."),
+             "Yes. We work with businesses across {city} and the GTA, and offer a free 15-minute consultation by phone, video, or in person to plan your project."),
         ],
         "cta_title": "Get a website that wins {city} customers",
-        "cta_text": "Book a free 30-minute consultation and get a plan, timeline, and fixed quote for your new website.",
+        "cta_text": "Book a free 15-minute consultation and get a plan, timeline, and fixed quote for your new website.",
     },
     "digital-marketing": {
         "name": "Digital Marketing",
@@ -139,7 +139,7 @@ SERVICES = {
              "No. We earn your business month to month. You own your ad accounts, your data, and your website; if we ever part ways, everything stays with you."),
         ],
         "cta_title": "Get more {city} customers this month",
-        "cta_text": "Book a free 30-minute strategy call. We will review your market, estimate your cost per lead, and map out a campaign plan.",
+        "cta_text": "Book a free 15-minute strategy call. We will review your market, estimate your cost per lead, and map out a campaign plan.",
     },
     "ai-automation": {
         "name": "AI Automation",

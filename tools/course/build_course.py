@@ -400,7 +400,7 @@ def lesson_page(course, l):
     prev_ = ('<a href="../lesson-%d/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> Lesson %d</a>' % (n - 1, n - 1)
              if n > 1 else '<a href="../start/" class="button button--small button--link"><i class="uil uil-arrow-left"></i> All lessons</a>')
     next_ = ('<a href="../lesson-%d/" class="button button--flex">Next: lesson %d <i class="uil uil-arrow-right button__icon"></i></a>' % (n + 1, n + 1)
-             if n < total else '<a href="../../index.html#contact" class="button button--flex">Book a free 30-minute call <i class="uil uil-calendar-alt button__icon"></i></a>')
+             if n < total else '<a href="../../index.html#contact" class="button button--flex">Book a free 15-minute call <i class="uil uil-calendar-alt button__icon"></i></a>')
     finish = ''
     if n == total:
         finish = '''
